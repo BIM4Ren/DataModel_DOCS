@@ -1,0 +1,244 @@
+<http://bim4ren.eu/utils/energy#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://bim4ren.eu/utils/energy#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/utils/energy/0.1> .
+<http://bim4ren.eu/utils/energy#> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property/0.1> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/expression
+<http://qudt.org/schema/qudt/expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/hasQuantityKind
+<http://qudt.org/schema/qudt/hasQuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/basicsemantics-owl#quantityKind
+<https://w3id.org/def/basicsemantics-owl#quantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://qudt.org/schema/qudt/LatexString
+<http://qudt.org/schema/qudt/LatexString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/utils/energy#energyKind
+<http://bim4ren.eu/utils/energy#energyKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/utils/energy#energyKind> <http://www.w3.org/2000/01/rdf-schema#range> <http://bim4ren.eu/utils/energy#EnergySource> .
+# 
+# http://bim4ren.eu/utils/energy#maxEnergyConsumption
+<http://bim4ren.eu/utils/energy#maxEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/utils/energy#maxEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> .
+<http://bim4ren.eu/utils/energy#maxEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consommation énergétique maximale"@fr .
+<http://bim4ren.eu/utils/energy#maxEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consumo energetico maximo"@es .
+<http://bim4ren.eu/utils/energy#maxEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consumo energetico maximo"@it .
+<http://bim4ren.eu/utils/energy#maxEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "maximal energy consumption"@en .
+# 
+# http://bim4ren.eu/utils/energy#minEnergyConsumption
+<http://bim4ren.eu/utils/energy#minEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/utils/energy#minEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> .
+<http://bim4ren.eu/utils/energy#minEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consommation énergétique minimale"@fr .
+<http://bim4ren.eu/utils/energy#minEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consumo energetico minimo"@es .
+<http://bim4ren.eu/utils/energy#minEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consumo energetico minimo"@it .
+<http://bim4ren.eu/utils/energy#minEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "minimal energy consumption"@en .
+# 
+# http://bim4ren.eu/utils/energy#normalizedEnergyConsumption
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consommation énergétique primaire annuelle"@fr .
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consumo energetico normalizado"@es .
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "consumo energetico normalizzato"@it .
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "normalized energy consumption"@en .
+<http://bim4ren.eu/utils/energy#normalizedEnergyConsumption> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/EnergyPerArea> .
+# 
+# http://www.bim4ren.eu/property#fromTime
+<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/property#toTime
+<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/utils/energy#associatedLocation
+<http://bim4ren.eu/utils/energy#associatedLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://bim4ren.eu/utils/energy#endDate
+<http://bim4ren.eu/utils/energy#endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://bim4ren.eu/utils/energy#endDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://bim4ren.eu/utils/energy#startDate
+<http://bim4ren.eu/utils/energy#startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://bim4ren.eu/utils/energy#startDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://bim4ren.eu/utils/energy#startDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/utils/energy#Certification
+<http://bim4ren.eu/utils/energy#Certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://bim4ren.eu/utils/energy#Consumption
+<http://bim4ren.eu/utils/energy#Consumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/utils/energy#Consumption> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/utils/energy#energyKind> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://bim4ren.eu/utils/energy#EnergySource> .
+<http://bim4ren.eu/utils/energy#Consumption> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/property#fromTime> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/property#Time> .
+<http://www.bim4ren.eu/property#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/utils/energy#Consumption> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/property#toTime> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/property#Time> .
+# 
+# http://bim4ren.eu/utils/energy#Electricity
+<http://bim4ren.eu/utils/energy#Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/utils/energy#Electricity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/utils/energy#EnergySource> .
+# 
+# http://bim4ren.eu/utils/energy#EnergyPerformanceCertification
+<http://bim4ren.eu/utils/energy#EnergyPerformanceCertification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/utils/energy#EnergyPerformanceCertification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/utils/energy#Certification> .
+<http://bim4ren.eu/utils/energy#EnergyPerformanceCertification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/utils/energy#maxEnergyConsumption> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://bim4ren.eu/utils/energy#EnergyPerformanceCertification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/utils/energy#minEnergyConsumption> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://bim4ren.eu/utils/energy#EnergyPerformanceCertification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/utils/energy#associatedLocation> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://bim4ren.eu/utils/energy#EnergySource
+<http://bim4ren.eu/utils/energy#EnergySource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://bim4ren.eu/utils/energy#Gas
+<http://bim4ren.eu/utils/energy#Gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/utils/energy#Gas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/utils/energy#EnergySource> .
+<http://bim4ren.eu/utils/energy#Gas> <http://www.w3.org/2000/01/rdf-schema#comment> "Gas"@en .
+<http://bim4ren.eu/utils/energy#Gas> <http://www.w3.org/2000/01/rdf-schema#comment> "Gaz"@fr .
+# 
+# http://qudt.org/schema/qudt/CGS-Unit
+<http://qudt.org/schema/qudt/CGS-Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/property#Time
+# 
+# https://w3id.org/def/basicsemantics-owl#QuantityValue
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/utils/energy#Butane
+<http://bim4ren.eu/utils/energy#Butane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#Butane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bim4ren.eu/utils/energy#Gas> .
+<http://bim4ren.eu/utils/energy#Butane> <http://www.w3.org/2000/01/rdf-schema#label> "Butane"@en .
+<http://bim4ren.eu/utils/energy#Butane> <http://www.w3.org/2000/01/rdf-schema#label> "Butane"@fr .
+<http://bim4ren.eu/utils/energy#Butane> <http://www.w3.org/2000/01/rdf-schema#label> "Butano"@es .
+<http://bim4ren.eu/utils/energy#Butane> <http://www.w3.org/2000/01/rdf-schema#label> "Butano"@it .
+# 
+# http://bim4ren.eu/utils/energy#Coal
+<http://bim4ren.eu/utils/energy#Coal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#Coal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bim4ren.eu/utils/energy#EnergySource> .
+<http://bim4ren.eu/utils/energy#Coal> <http://www.w3.org/2000/01/rdf-schema#label> "Carbone"@it .
+<http://bim4ren.eu/utils/energy#Coal> <http://www.w3.org/2000/01/rdf-schema#label> "Carbón"@fr .
+<http://bim4ren.eu/utils/energy#Coal> <http://www.w3.org/2000/01/rdf-schema#label> "Charbon"@fr .
+<http://bim4ren.eu/utils/energy#Coal> <http://www.w3.org/2000/01/rdf-schema#label> "Coal"@en .
+# 
+# http://bim4ren.eu/utils/energy#Fuel
+<http://bim4ren.eu/utils/energy#Fuel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#Fuel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bim4ren.eu/utils/energy#EnergySource> .
+<http://bim4ren.eu/utils/energy#Fuel> <http://www.w3.org/2000/01/rdf-schema#label> "Fioul"@fr .
+<http://bim4ren.eu/utils/energy#Fuel> <http://www.w3.org/2000/01/rdf-schema#label> "Fuel"@es .
+<http://bim4ren.eu/utils/energy#Fuel> <http://www.w3.org/2000/01/rdf-schema#label> "Fuel oil"@en .
+# 
+# http://bim4ren.eu/utils/energy#GPL
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bim4ren.eu/utils/energy#Gas> .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "GPL"@es .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "GPL"@fr .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "GPL"@it .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "Gas di petrolio liquefatti"@it .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "Gas licuado de petróleo"@es .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "Gaz de pétrole liquéfié"@fr .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "LPG"@en .
+<http://bim4ren.eu/utils/energy#GPL> <http://www.w3.org/2000/01/rdf-schema#label> "Liquified Petroleum Gas"@en .
+# 
+# http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/CGS-Unit> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://purl.org/dc/terms/description> "The kilowatt hour per square meter per year, is a normalized measure of the energy consumption, noted (\\(kWh \\cdot m^2 \\cdot y))."^^<http://qudt.org/schema/qudt/LatexString> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://qudt.org/schema/qudt/expression> "\\(kWh \\cdot m^2 \\cdot y\\)"^^<http://qudt.org/schema/qudt/LatexString> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Energy> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/unit> .
+<http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR> <http://www.w3.org/2000/01/rdf-schema#label> "Kilowatthour per Square Meter per Year" .
+# 
+# http://bim4ren.eu/utils/energy#NaturalGas
+<http://bim4ren.eu/utils/energy#NaturalGas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#NaturalGas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bim4ren.eu/utils/energy#Gas> .
+<http://bim4ren.eu/utils/energy#NaturalGas> <http://www.w3.org/2000/01/rdf-schema#comment> "Gaz naturel"@fr .
+<http://bim4ren.eu/utils/energy#NaturalGas> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural gas"@en .
+# 
+# http://bim4ren.eu/utils/energy#Solar
+<http://bim4ren.eu/utils/energy#Solar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#Solar> <http://www.w3.org/2000/01/rdf-schema#label> "Solaire"@fr .
+<http://bim4ren.eu/utils/energy#Solar> <http://www.w3.org/2000/01/rdf-schema#label> "Solar"@en .
+<http://bim4ren.eu/utils/energy#Solar> <http://www.w3.org/2000/01/rdf-schema#label> "Solar"@es .
+# 
+# http://bim4ren.eu/utils/energy#Wood
+<http://bim4ren.eu/utils/energy#Wood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://bim4ren.eu/utils/energy#Wood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bim4ren.eu/utils/energy#EnergySource> .
+<http://bim4ren.eu/utils/energy#Wood> <http://www.w3.org/2000/01/rdf-schema#label> "Bois"@fr .
+<http://bim4ren.eu/utils/energy#Wood> <http://www.w3.org/2000/01/rdf-schema#label> "Madera"@es .
+<http://bim4ren.eu/utils/energy#Wood> <http://www.w3.org/2000/01/rdf-schema#label> "Wood"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

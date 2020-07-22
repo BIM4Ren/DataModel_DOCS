@@ -1,0 +1,361 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#energyKind"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/property#fromTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.bim4ren.eu/property#Time"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/property#toTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.bim4ren.eu/property#Time"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#maxEnergyConsumption"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#minEnergyConsumption"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#associatedLocation"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property/0.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.bim4ren.eu/utils/energy/0.1"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Butane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#Gas" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Butane"
+  }, {
+    "@language" : "fr",
+    "@value" : "Butane"
+  }, {
+    "@language" : "es",
+    "@value" : "Butano"
+  }, {
+    "@language" : "it",
+    "@value" : "Butano"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Certification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Coal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#EnergySource" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Carbone"
+  }, {
+    "@language" : "fr",
+    "@value" : "Carbón"
+  }, {
+    "@language" : "fr",
+    "@value" : "Charbon"
+  }, {
+    "@language" : "en",
+    "@value" : "Coal"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Consumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Electricity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#EnergyPerformanceCertification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#Certification"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#EnergySource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Fuel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#EnergySource" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Fioul"
+  }, {
+    "@language" : "es",
+    "@value" : "Fuel"
+  }, {
+    "@language" : "en",
+    "@value" : "Fuel oil"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#GPL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#Gas" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "GPL"
+  }, {
+    "@language" : "fr",
+    "@value" : "GPL"
+  }, {
+    "@language" : "it",
+    "@value" : "GPL"
+  }, {
+    "@language" : "it",
+    "@value" : "Gas di petrolio liquefatti"
+  }, {
+    "@language" : "es",
+    "@value" : "Gas licuado de petróleo"
+  }, {
+    "@language" : "fr",
+    "@value" : "Gaz de pétrole liquéfié"
+  }, {
+    "@language" : "en",
+    "@value" : "LPG"
+  }, {
+    "@language" : "en",
+    "@value" : "Liquified Petroleum Gas"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Gas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Gas"
+  }, {
+    "@language" : "fr",
+    "@value" : "Gaz"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://qudt.org/schema/qudt/CGS-Unit", "http://qudt.org/schema/qudt/Unit" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@type" : "http://qudt.org/schema/qudt/LatexString",
+    "@value" : "The kilowatt hour per square meter per year, is a normalized measure of the energy consumption, noted (\\(kWh \\cdot m^2 \\cdot y))."
+  } ],
+  "http://qudt.org/schema/qudt/expression" : [ {
+    "@type" : "http://qudt.org/schema/qudt/LatexString",
+    "@value" : "\\(kWh \\cdot m^2 \\cdot y\\)"
+  } ],
+  "http://qudt.org/schema/qudt/hasQuantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/Energy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://qudt.org/2.1/vocab/unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Kilowatthour per Square Meter per Year"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#NaturalGas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#Gas" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Gaz naturel"
+  }, {
+    "@language" : "en",
+    "@value" : "Natural gas"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Solar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Solaire"
+  }, {
+    "@language" : "en",
+    "@value" : "Solar"
+  }, {
+    "@language" : "es",
+    "@value" : "Solar"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#Wood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#EnergySource" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Bois"
+  }, {
+    "@language" : "es",
+    "@value" : "Madera"
+  }, {
+    "@language" : "en",
+    "@value" : "Wood"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#associatedLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#endDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#energyKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#maxEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "consommation énergétique maximale"
+  }, {
+    "@language" : "es",
+    "@value" : "consumo energetico maximo"
+  }, {
+    "@language" : "it",
+    "@value" : "consumo energetico maximo"
+  }, {
+    "@language" : "en",
+    "@value" : "maximal energy consumption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#normalizedEnergyConsumption"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#minEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "consommation énergétique minimale"
+  }, {
+    "@language" : "es",
+    "@value" : "consumo energetico minimo"
+  }, {
+    "@language" : "it",
+    "@value" : "consumo energetico minimo"
+  }, {
+    "@language" : "en",
+    "@value" : "minimal energy consumption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://bim4ren.eu/utils/energy#normalizedEnergyConsumption"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#normalizedEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "consommation énergétique primaire annuelle"
+  }, {
+    "@language" : "es",
+    "@value" : "consumo energetico normalizado"
+  }, {
+    "@language" : "it",
+    "@value" : "consumo energetico normalizzato"
+  }, {
+    "@language" : "en",
+    "@value" : "normalized energy consumption"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/EnergyPerArea"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/utils/energy#startDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/CGS-Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/LatexString",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#fromTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#toTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#quantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
