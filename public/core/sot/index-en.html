@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>The BIM4Ren systems topology ontology</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://www.bim4ren.eu/sot#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.bim4ren.eu/sot#","name":"The BIM4Ren systems topology ontology", "headline":"The systems ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to describe systems installed in a building and the relation between those. Such systems can be thermal, digital, water circulation...", "datePublished":"Wed Jul 22 10:06:42 CEST 2020", "contributor":[{"@type":"Person","name":"Nathalie Charbel"},{"@type":"Person","name":"Pierre Bourreau"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+ $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> <a href="index-fr.html"><b>fr</b></a> <a href="index-es.html"><b>es</b></a> </div>
+<h1>The BIM4Ren systems topology ontology</h1>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="http://www.bim4ren.eu/sot/0.1">http://www.bim4ren.eu/sot/0.1</a></dd>
+<dt>Latest version:</dt>
+<dd><a href="http://www.bim4ren.eu/sot#">http://www.bim4ren.eu/sot#</a></dd>
+<dt>Contributors:</dt>
+<dd>Nathalie Charbel</dd><dd>Pierre Bourreau</dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd> The BIM4Ren systems topology ontology. Retrieved from: http://www.bim4ren.eu/sot/0.1</dd>
+</dl>
+
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+The systems ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to describe systems installed in a building and the relation between those. Such systems can be thermal, digital, water circulation...</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div id="namespacedeclarations">
+<h3 id="ns" class="list">Namespace declarations</h3>
+<div id="ns" align="center">
+<table>
+<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<tbody>
+<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://www.bim4ren.eu/sot#&gt;</td></tr>
+<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
+<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
+<tr><td><b>terms</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
+<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
+<tr><td><b>sot</b></td><td>&lt;http://www.bim4ren.eu/sot&gt;</td></tr>
+<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+<tr><td><b>default namespace</b></td><td>&lt;http://www.bim4ren.eu/sot&gt;</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">The BIM4Ren systems topology ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul class="hlist">
+   <li>
+      <a href="#ControlElement" title="http://www.bim4ren.eu/sot#ControlElement">
+         <span>control element</span>
+      </a>
+   </li>
+   <li>
+      <a href="#EmissionElement" title="http://www.bim4ren.eu/sot#EmissionElement">
+         <span>emission element</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">
+         <span>medium</span>
+      </a>
+   </li>
+   <li>
+      <a href="#ProductionElement" title="http://www.bim4ren.eu/sot#ProductionElement">
+         <span>production element</span>
+      </a>
+   </li>
+   <li>
+      <a href="#StorageElement" title="http://www.bim4ren.eu/sot#StorageElement">
+         <span>storage element</span>
+      </a>
+   </li>
+   <li>
+      <a href="#System" title="http://www.bim4ren.eu/sot#System">System</a>
+   </li>
+   <li>
+      <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+   </li>
+   <li>
+      <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">
+         <span>terminal element</span>
+      </a>
+   </li>
+   <li>
+      <a href="#TransportElement" title="http://www.bim4ren.eu/sot#TransportElement">
+         <span>transport element</span>
+      </a>
+   </li>
+</ul><h4>Object Properties</h4><ul class="hlist">
+   <li>
+      <a href="#connectedWith" title="http://www.bim4ren.eu/sot#connectedWith">connected with</a>
+   </li>
+   <li>
+      <a href="#hasElements" title="http://www.bim4ren.eu/sot#hasElements">has elements</a>
+   </li>
+   <li>
+      <a href="#performs" title="http://www.bim4ren.eu/sot#performs">performs</a>
+   </li>
+   <li>
+      <a href="#uses" title="http://www.bim4ren.eu/sot#uses">uses</a>
+   </li>
+</ul><h4>Annotation Properties</h4><ul class="hlist">
+   <li>
+      <a href="#http://purl.org/dc/terms/contributor" title="http://purl.org/dc/terms/contributor">
+         <span>contributor</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
+         <span>description</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
+         <span>title</span>
+      </a>
+   </li>
+</ul><h4>Named Individuals</h4><ul class="hlist">
+   <li>
+      <a href="#heatWater" title="http://www.bim4ren.eu/sot#heatWater">ACS</a>
+   </li>
+   <li>
+      <a href="#heat" title="http://www.bim4ren.eu/sot#heat">Chauffage</a>
+   </li>
+   <li>
+      <a href="#cool" title="http://www.bim4ren.eu/sot#cool">Climatisation</a>
+   </li>
+   <li>
+      <a href="#water" title="http://www.bim4ren.eu/sot#water">Eau</a>
+   </li>
+   <li>
+      <a href="#deliverDrinkableWater" title="http://www.bim4ren.eu/sot#deliverDrinkableWater">Eau potable</a>
+   </li>
+   <li>
+      <a href="#electricity" title="http://www.bim4ren.eu/sot#electricity">Electricité</a>
+   </li>
+   <li>
+      <a href="#gas" title="http://www.bim4ren.eu/sot#gas">Gaz</a>
+   </li>
+   <li>
+      <a href="#solarRadiance" title="http://www.bim4ren.eu/sot#solarRadiance">Raditation solaire</a>
+   </li>
+   <li>
+      <a href="#deliverElectricity" title="http://www.bim4ren.eu/sot#deliverElectricity">Réseau électrique</a>
+   </li>
+   <li>
+      <a href="#ventilate" title="http://www.bim4ren.eu/sot#ventilate">Ventilation</a>
+   </li>
+</ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">The BIM4Ren systems topology ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for The BIM4Ren systems topology ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by The BIM4Ren systems topology ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#ControlElement" title="http://www.bim4ren.eu/sot#ControlElement">
+            <span>control element</span>
+         </a>
+      </li>
+      <li>
+         <a href="#EmissionElement" title="http://www.bim4ren.eu/sot#EmissionElement">
+            <span>emission element</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">
+            <span>medium</span>
+         </a>
+      </li>
+      <li>
+         <a href="#ProductionElement" title="http://www.bim4ren.eu/sot#ProductionElement">
+            <span>production element</span>
+         </a>
+      </li>
+      <li>
+         <a href="#StorageElement" title="http://www.bim4ren.eu/sot#StorageElement">
+            <span>storage element</span>
+         </a>
+      </li>
+      <li>
+         <a href="#System" title="http://www.bim4ren.eu/sot#System">System</a>
+      </li>
+      <li>
+         <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+      </li>
+      <li>
+         <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">
+            <span>terminal element</span>
+         </a>
+      </li>
+      <li>
+         <a href="#TransportElement" title="http://www.bim4ren.eu/sot#TransportElement">
+            <span>transport element</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="ControlElement">
+      <h3>control element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#ControlElement</p>
+      <div class="comment">
+         <span class="markdown">A control element is used to control a network. Some examples are valves, actuators...</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#StorageElement" title="http://www.bim4ren.eu/sot#StorageElement">storage element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">terminal element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TransportElement" title="http://www.bim4ren.eu/sot#TransportElement">transport element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EmissionElement">
+      <h3>emission element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#EmissionElement</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">terminal element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Medium">
+      <h3>medium<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#Medium</p>
+      <div class="comment">
+         <span class="markdown">For a given system, the medium associated is the physical component on which it acts. In particular HVAC systems act on air, water... or other mediums. The medium is to be related to the Function associated to a system.</span>
+      </div>
+      <dl class="description">
+         <dt>has members</dt>
+         <dd>
+            <a href="#water" title="http://www.bim4ren.eu/sot#water">Eau</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#electricity" title="http://www.bim4ren.eu/sot#electricity">Electricité</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#gas" title="http://www.bim4ren.eu/sot#gas">Gaz</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#solarRadiance" title="http://www.bim4ren.eu/sot#solarRadiance">Raditation solaire</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ProductionElement">
+      <h3>production element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#ProductionElement</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">terminal element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="StorageElement">
+      <h3>storage element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#StorageElement</p>
+      <div class="comment">
+         <span class="markdown">A storage element's role is to accumulate quantities of a specific medium. Examples are water tanks, electrical batteries...</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#ControlElement" title="http://www.bim4ren.eu/sot#ControlElement">control element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">terminal element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TransportElement" title="http://www.bim4ren.eu/sot#TransportElement">transport element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="System">
+      <h3>System<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#System</p>
+      <div class="comment">
+         <span class="markdown">An HVAC system. May describe a system for heating, cooling and ventilating a building, (partially, or fully), or a se of buildings.
+It is made of a) terminal elements that can either produce and emit the property associated (heat, cold, air), b) transport elements that allow the flow, c) and management elements that control the flow.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#performs" title="http://www.bim4ren.eu/sot#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#uses" title="http://www.bim4ren.eu/sot#uses">uses</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SystemComponent">
+      <h3>System Element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#SystemComponent</p>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#ControlElement" title="http://www.bim4ren.eu/sot#ControlElement">control element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StorageElement" title="http://www.bim4ren.eu/sot#StorageElement">storage element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">terminal element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TransportElement" title="http://www.bim4ren.eu/sot#TransportElement">transport element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#connectedWith" title="http://www.bim4ren.eu/sot#connectedWith">connected with</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#connectedWith" title="http://www.bim4ren.eu/sot#connectedWith">connected with</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasElements" title="http://www.bim4ren.eu/sot#hasElements">has elements</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#System" title="http://www.bim4ren.eu/sot#System">System</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TerminalElement">
+      <h3>terminal element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#TerminalElement</p>
+      <div class="comment">
+         <span class="markdown">A terminal element's role is to either deliver or consume some material: for instance, a solar panel is an electricy producer, while a lamp is an electricty consumer.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#EmissionElement" title="http://www.bim4ren.eu/sot#EmissionElement">emission element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ProductionElement" title="http://www.bim4ren.eu/sot#ProductionElement">production element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#ControlElement" title="http://www.bim4ren.eu/sot#ControlElement">control element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StorageElement" title="http://www.bim4ren.eu/sot#StorageElement">storage element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TransportElement" title="http://www.bim4ren.eu/sot#TransportElement">transport element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TransportElement">
+      <h3>transport element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#TransportElement</p>
+      <div class="comment">
+         <span class="markdown">A transport element's role is to dispatch some matter from one point to another. Examples are ducts, electric cables...</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#ControlElement" title="http://www.bim4ren.eu/sot#ControlElement">control element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#StorageElement" title="http://www.bim4ren.eu/sot#StorageElement">storage element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TerminalElement" title="http://www.bim4ren.eu/sot#TerminalElement">terminal element</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#connectedWith" title="http://www.bim4ren.eu/sot#connectedWith">connected with</a>
+      </li>
+      <li>
+         <a href="#hasElements" title="http://www.bim4ren.eu/sot#hasElements">has elements</a>
+      </li>
+      <li>
+         <a href="#performs" title="http://www.bim4ren.eu/sot#performs">performs</a>
+      </li>
+      <li>
+         <a href="#uses" title="http://www.bim4ren.eu/sot#uses">uses</a>
+      </li>
+   </ul>
+   <div class="entity" id="connectedWith">
+      <h3>connected with<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#connectedWith</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasElements">
+      <h3>has elements<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#hasElements</p>
+      <div class="comment">
+         <span class="markdown">A relation between a complex system and subcomponents</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#SystemComponent" title="http://www.bim4ren.eu/sot#SystemComponent">System Element</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has sub-property chains</dt>
+            <dd>
+               <a href="#hasElements" title="http://www.bim4ren.eu/sot#hasElements">has elements</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">o</span> 
+               <a href="#connectedWith" title="http://www.bim4ren.eu/sot#connectedWith">connected with</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performs">
+      <h3>performs<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#performs</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#System" title="http://www.bim4ren.eu/sot#System">System</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#performs" title="http://www.bim4ren.eu/sot#performs">performs</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="uses">
+      <h3>uses<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#uses</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#System" title="http://www.bim4ren.eu/sot#System">System</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#uses" title="http://www.bim4ren.eu/sot#uses">uses</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">medium</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="annotationproperties">
+   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://purl.org/dc/terms/contributor" title="http://purl.org/dc/terms/contributor">
+            <span>contributor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
+            <span>description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
+            <span>title</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://purl.org/dc/terms/contributor">
+      <h3>contributor<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/contributor</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/description">
+      <h3>description<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+   </div>
+   <div class="entity" id="http://purl.org/dc/terms/title">
+      <h3>title<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/dc/terms/title</p>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#heatWater" title="http://www.bim4ren.eu/sot#heatWater">ACS</a>
+      </li>
+      <li>
+         <a href="#heat" title="http://www.bim4ren.eu/sot#heat">Chauffage</a>
+      </li>
+      <li>
+         <a href="#cool" title="http://www.bim4ren.eu/sot#cool">Climatisation</a>
+      </li>
+      <li>
+         <a href="#water" title="http://www.bim4ren.eu/sot#water">Eau</a>
+      </li>
+      <li>
+         <a href="#deliverDrinkableWater" title="http://www.bim4ren.eu/sot#deliverDrinkableWater">Eau potable</a>
+      </li>
+      <li>
+         <a href="#electricity" title="http://www.bim4ren.eu/sot#electricity">Electricité</a>
+      </li>
+      <li>
+         <a href="#gas" title="http://www.bim4ren.eu/sot#gas">Gaz</a>
+      </li>
+      <li>
+         <a href="#solarRadiance" title="http://www.bim4ren.eu/sot#solarRadiance">Raditation solaire</a>
+      </li>
+      <li>
+         <a href="#deliverElectricity" title="http://www.bim4ren.eu/sot#deliverElectricity">Réseau électrique</a>
+      </li>
+      <li>
+         <a href="#ventilate" title="http://www.bim4ren.eu/sot#ventilate">Ventilation</a>
+      </li>
+   </ul>
+   <div class="entity" id="heatWater">
+      <h3>ACS<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#heatWater</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="heat">
+      <h3>Chauffage<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#heat</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="cool">
+      <h3>Climatisation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#cool</p>
+      <div class="comment">
+         <span class="markdown">Climatisation</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="water">
+      <h3>Eau<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#water</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">medium</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="deliverDrinkableWater">
+      <h3>Eau potable<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#deliverDrinkableWater</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="electricity">
+      <h3>Electricité<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#electricity</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">medium</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="gas">
+      <h3>Gaz<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#gas</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">medium</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="solarRadiance">
+      <h3>Raditation solaire<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#solarRadiance</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Medium" title="http://www.bim4ren.eu/sot#Medium">medium</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="deliverElectricity">
+      <h3>Réseau électrique<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#deliverElectricity</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ventilate">
+      <h3>Ventilation<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/sot#ventilate</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted" title="http://www.bim4ren.eu/sot#Function">function</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
+<div id="acknowledgements">
+<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>
