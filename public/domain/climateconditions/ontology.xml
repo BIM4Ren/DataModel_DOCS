@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bim4ren.eu/domain/climateconditions#"
+     xml:base="http://www.bim4ren.eu/domain/climateconditions"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:basicsemantics-owl="https://w3id.org/def/basicsemantics-owl#">
+    <owl:Ontology rdf:about="http://www.bim4ren.eu/domain/climateconditions">
+        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/domain/climateconditions/0.1"/>
+        <owl:imports rdf:resource="http://www.bim4ren.eu/property#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#quantityKind -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/def/basicsemantics-owl#quantityKind"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="en">atmospheric pressure</rdfs:label>
+        <rdfs:label xml:lang="es">presión atmosférica</rdfs:label>
+        <rdfs:label xml:lang="fr">pression atmosphérique</rdfs:label>
+        <rdfs:label xml:lang="it">pressione atmosferica</rdfs:label>
+        <rdfs:label>Patm</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AtmosphericPressure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+        <rdfs:label xml:lang="en">dew point temperature</rdfs:label>
+        <rdfs:label xml:lang="es">temperatura de derretimiento</rdfs:label>
+        <rdfs:label xml:lang="it">temperatura del punto di rugiada</rdfs:label>
+        <rdfs:label xml:lang="fr">température du point de rosée</rdfs:label>
+        <rdfs:label>Tdew</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/climateconditions#irradiance"/>
+        <rdfs:label xml:lang="en">diffuse horizontal solar irradiance</rdfs:label>
+        <rdfs:label xml:lang="fr">flux solaires</rdfs:label>
+        <rdfs:label xml:lang="fr">irradiance solaire horizontale diffuse</rdfs:label>
+        <rdfs:label xml:lang="es">irradiancia solar horizontal difusa</rdfs:label>
+        <rdfs:label xml:lang="it">irradiazione solare orizzontale diffusa</rdfs:label>
+        <rdfs:label>FDIFH</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/climateconditions#irradiance"/>
+        <rdfs:label xml:lang="en">direct normal solar irradiance</rdfs:label>
+        <rdfs:label xml:lang="fr">irradiance solaire normale directe</rdfs:label>
+        <rdfs:label xml:lang="es">irradiancia solar normal directa</rdfs:label>
+        <rdfs:label xml:lang="it">irradiazione solare normale diretta</rdfs:label>
+        <rdfs:label>FDIRN</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+        <rdfs:label xml:lang="en">dry air temperature</rdfs:label>
+        <rdfs:label xml:lang="es">temperatura del aire seco</rdfs:label>
+        <rdfs:label xml:lang="it">temperatura dell&apos;aria secca</rdfs:label>
+        <rdfs:label xml:lang="fr">température de l&apos;air sec</rdfs:label>
+        <rdfs:label xml:lang="fr">température extérieure</rdfs:label>
+        <rdfs:label>dry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#irradiance -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#irradiance">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="en">irradiance</rdfs:label>
+        <rdfs:label xml:lang="fr">irradiance</rdfs:label>
+        <rdfs:label xml:lang="es">irradiancia</rdfs:label>
+        <rdfs:label xml:lang="it">irradianza</rdfs:label>
+        <rdfs:label>E</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Irradiance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#latitude -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#latitude">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="es">latitud</rdfs:label>
+        <rdfs:label xml:lang="en">latitude</rdfs:label>
+        <rdfs:label xml:lang="fr">latitude</rdfs:label>
+        <rdfs:label xml:lang="it">latitudine</rdfs:label>
+        <rdfs:label>Lat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#longitude -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#longitude">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="es">longitud</rdfs:label>
+        <rdfs:label xml:lang="en">longitude</rdfs:label>
+        <rdfs:label xml:lang="fr">longitude</rdfs:label>
+        <rdfs:label xml:lang="it">longitudine</rdfs:label>
+        <rdfs:label>Lon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#relativeHumidity -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#relativeHumidity">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="es">humedad relativa</rdfs:label>
+        <rdfs:label xml:lang="fr">humidité relative</rdfs:label>
+        <rdfs:label xml:lang="en">relative humidity</rdfs:label>
+        <rdfs:label xml:lang="it">umidità relativa</rdfs:label>
+        <rdfs:label>RH</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/RelativeHumidity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#skyTemperature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#skyTemperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+        <rdfs:label xml:lang="en">sky temperature</rdfs:label>
+        <rdfs:label xml:lang="es">temperatura del cielo</rdfs:label>
+        <rdfs:label xml:lang="it">temperatura del cielo</rdfs:label>
+        <rdfs:label xml:lang="fr">température du ciel</rdfs:label>
+        <rdfs:label>Tsky</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#windDirection -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#windDirection">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="es">dirección del viento</rdfs:label>
+        <rdfs:label xml:lang="fr">direction du vent</rdfs:label>
+        <rdfs:label xml:lang="it">direzione del vento</rdfs:label>
+        <rdfs:label xml:lang="en">wind direction</rdfs:label>
+        <rdfs:label>WindDir</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/climateconditions#windSpeed -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/climateconditions#windSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#speed"/>
+        <rdfs:label xml:lang="es">velocidad del viento</rdfs:label>
+        <rdfs:label xml:lang="it">velocità del vento</rdfs:label>
+        <rdfs:label xml:lang="fr">vitesse du vent</rdfs:label>
+        <rdfs:label xml:lang="en">wind speed</rdfs:label>
+        <rdfs:label>WindSpeed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#speed -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#speed"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#temperature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#temperature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#QuantityValue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

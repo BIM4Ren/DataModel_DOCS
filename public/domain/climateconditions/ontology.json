@@ -1,0 +1,289 @@
+[ {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions/0.1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric pressure"
+  }, {
+    "@language" : "es",
+    "@value" : "presión atmosférica"
+  }, {
+    "@language" : "fr",
+    "@value" : "pression atmosphérique"
+  }, {
+    "@language" : "it",
+    "@value" : "pressione atmosferica"
+  }, {
+    "@value" : "Patm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/AtmosphericPressure"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dew point temperature"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura de derretimiento"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura del punto di rugiada"
+  }, {
+    "@language" : "fr",
+    "@value" : "température du point de rosée"
+  }, {
+    "@value" : "Tdew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "diffuse horizontal solar irradiance"
+  }, {
+    "@language" : "fr",
+    "@value" : "flux solaires"
+  }, {
+    "@language" : "fr",
+    "@value" : "irradiance solaire horizontale diffuse"
+  }, {
+    "@language" : "es",
+    "@value" : "irradiancia solar horizontal difusa"
+  }, {
+    "@language" : "it",
+    "@value" : "irradiazione solare orizzontale diffusa"
+  }, {
+    "@value" : "FDIFH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#irradiance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "direct normal solar irradiance"
+  }, {
+    "@language" : "fr",
+    "@value" : "irradiance solaire normale directe"
+  }, {
+    "@language" : "es",
+    "@value" : "irradiancia solar normal directa"
+  }, {
+    "@language" : "it",
+    "@value" : "irradiazione solare normale diretta"
+  }, {
+    "@value" : "FDIRN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#irradiance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dry air temperature"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura del aire seco"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura dell'aria secca"
+  }, {
+    "@language" : "fr",
+    "@value" : "température de l'air sec"
+  }, {
+    "@language" : "fr",
+    "@value" : "température extérieure"
+  }, {
+    "@value" : "dry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#irradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "irradiance"
+  }, {
+    "@language" : "fr",
+    "@value" : "irradiance"
+  }, {
+    "@language" : "es",
+    "@value" : "irradiancia"
+  }, {
+    "@language" : "it",
+    "@value" : "irradianza"
+  }, {
+    "@value" : "E"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/Irradiance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#latitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "latitud"
+  }, {
+    "@language" : "en",
+    "@value" : "latitude"
+  }, {
+    "@language" : "fr",
+    "@value" : "latitude"
+  }, {
+    "@language" : "it",
+    "@value" : "latitudine"
+  }, {
+    "@value" : "Lat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#longitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "longitud"
+  }, {
+    "@language" : "en",
+    "@value" : "longitude"
+  }, {
+    "@language" : "fr",
+    "@value" : "longitude"
+  }, {
+    "@language" : "it",
+    "@value" : "longitudine"
+  }, {
+    "@value" : "Lon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#relativeHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "humedad relativa"
+  }, {
+    "@language" : "fr",
+    "@value" : "humidité relative"
+  }, {
+    "@language" : "en",
+    "@value" : "relative humidity"
+  }, {
+    "@language" : "it",
+    "@value" : "umidità relativa"
+  }, {
+    "@value" : "RH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/RelativeHumidity"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#skyTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sky temperature"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura del cielo"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura del cielo"
+  }, {
+    "@language" : "fr",
+    "@value" : "température du ciel"
+  }, {
+    "@value" : "Tsky"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#windDirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "dirección del viento"
+  }, {
+    "@language" : "fr",
+    "@value" : "direction du vent"
+  }, {
+    "@language" : "it",
+    "@value" : "direzione del vento"
+  }, {
+    "@language" : "en",
+    "@value" : "wind direction"
+  }, {
+    "@value" : "WindDir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#windSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "velocidad del viento"
+  }, {
+    "@language" : "it",
+    "@value" : "velocità del vento"
+  }, {
+    "@language" : "fr",
+    "@value" : "vitesse du vent"
+  }, {
+    "@language" : "en",
+    "@value" : "wind speed"
+  }, {
+    "@value" : "WindSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#speed"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#quantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

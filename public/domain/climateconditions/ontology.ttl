@@ -1,0 +1,166 @@
+@prefix : <http://www.bim4ren.eu/domain/climateconditions#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.bim4ren.eu/domain/climateconditions> .
+
+<http://www.bim4ren.eu/domain/climateconditions> rdf:type owl:Ontology ;
+                                                  owl:versionIRI <http://www.bim4ren.eu/domain/climateconditions/0.1> ;
+                                                  owl:imports <http://www.bim4ren.eu/property#> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#quantityKind
+<https://w3id.org/def/basicsemantics-owl#quantityKind> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure
+:atmosphericPressure rdf:type owl:ObjectProperty ;
+                     rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+                     rdfs:label "atmospheric pressure"@en ,
+                                "presión atmosférica"@es ,
+                                "pression atmosphérique"@fr ,
+                                "pressione atmosferica"@it ,
+                                "Patm" ;
+                     <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/AtmosphericPressure> .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature
+:dewPointTemperature rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf <http://www.bim4ren.eu/property#temperature> ;
+                     rdfs:label "dew point temperature"@en ,
+                                "temperatura de derretimiento"@es ,
+                                "temperatura del punto di rugiada"@it ,
+                                "température du point de rosée"@fr ,
+                                "Tdew" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance
+:diffuseHorizontalSolarIrradiance rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf :irradiance ;
+                                  rdfs:label "diffuse horizontal solar irradiance"@en ,
+                                             "flux solaires"@fr ,
+                                             "irradiance solaire horizontale diffuse"@fr ,
+                                             "irradiancia solar horizontal difusa"@es ,
+                                             "irradiazione solare orizzontale diffusa"@it ,
+                                             "FDIFH" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance
+:directNormalSolarIrradiance rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf :irradiance ;
+                             rdfs:label "direct normal solar irradiance"@en ,
+                                        "irradiance solaire normale directe"@fr ,
+                                        "irradiancia solar normal directa"@es ,
+                                        "irradiazione solare normale diretta"@it ,
+                                        "FDIRN" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature
+:dryAirTemperature rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf <http://www.bim4ren.eu/property#temperature> ;
+                   rdfs:label "dry air temperature"@en ,
+                              "temperatura del aire seco"@es ,
+                              "temperatura dell'aria secca"@it ,
+                              "température de l'air sec"@fr ,
+                              "température extérieure"@fr ,
+                              "dry" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#irradiance
+:irradiance rdf:type owl:ObjectProperty ;
+            rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+            rdfs:label "irradiance"@en ,
+                       "irradiance"@fr ,
+                       "irradiancia"@es ,
+                       "irradianza"@it ,
+                       "E" ;
+            <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Irradiance> .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#latitude
+:latitude rdf:type owl:ObjectProperty ;
+          rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+          rdfs:label "latitud"@es ,
+                     "latitude"@en ,
+                     "latitude"@fr ,
+                     "latitudine"@it ,
+                     "Lat" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#longitude
+:longitude rdf:type owl:ObjectProperty ;
+           rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+           rdfs:label "longitud"@es ,
+                      "longitude"@en ,
+                      "longitude"@fr ,
+                      "longitudine"@it ,
+                      "Lon" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#relativeHumidity
+:relativeHumidity rdf:type owl:ObjectProperty ;
+                  rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+                  rdfs:label "humedad relativa"@es ,
+                             "humidité relative"@fr ,
+                             "relative humidity"@en ,
+                             "umidità relativa"@it ,
+                             "RH" ;
+                  <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/RelativeHumidity> .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#skyTemperature
+:skyTemperature rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf <http://www.bim4ren.eu/property#temperature> ;
+                rdfs:label "sky temperature"@en ,
+                           "temperatura del cielo"@es ,
+                           "temperatura del cielo"@it ,
+                           "température du ciel"@fr ,
+                           "Tsky" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#windDirection
+:windDirection rdf:type owl:ObjectProperty ;
+               rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+               rdfs:label "dirección del viento"@es ,
+                          "direction du vent"@fr ,
+                          "direzione del vento"@it ,
+                          "wind direction"@en ,
+                          "WindDir" .
+
+
+###  http://www.bim4ren.eu/domain/climateconditions#windSpeed
+:windSpeed rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf <http://www.bim4ren.eu/property#speed> ;
+           rdfs:label "velocidad del viento"@es ,
+                      "velocità del vento"@it ,
+                      "vitesse du vent"@fr ,
+                      "wind speed"@en ,
+                      "WindSpeed" .
+
+
+###  http://www.bim4ren.eu/property#speed
+<http://www.bim4ren.eu/property#speed> rdf:type owl:ObjectProperty .
+
+
+###  http://www.bim4ren.eu/property#temperature
+<http://www.bim4ren.eu/property#temperature> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#QuantityValue
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
