@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bim4ren.eu/domain/spatial#"
+     xml:base="http://www.bim4ren.eu/domain/spatial"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://www.linkedmodel.org/owl/schema/core#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vaem="http://www.linkedmodel.org/schema/vaem#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.bim4ren.eu/domain/spatial">
+        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/domain/spatial/0.1"/>
+        <owl:imports rdf:resource="http://qudt.org/vocab/quantitykind/"/>
+        <owl:imports rdf:resource="http://qudt.org/vocab/unit/"/>
+        <owl:imports rdf:resource="http://www.bim4ren.eu/property#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/spatial#grossArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/spatial#grossArea">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#area"/>
+        <rdfs:label xml:lang="it">area lorda</rdfs:label>
+        <rdfs:label xml:lang="en">gross area</rdfs:label>
+        <rdfs:label xml:lang="fr">surface brut</rdfs:label>
+        <rdfs:label xml:lang="es">área bruta</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/spatial#netArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/spatial#netArea">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#area"/>
+        <rdfs:label xml:lang="it">area netta</rdfs:label>
+        <rdfs:label xml:lang="en">net area</rdfs:label>
+        <rdfs:label xml:lang="fr">surface net</rdfs:label>
+        <rdfs:label xml:lang="es">área neta</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/spatial#orientation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/spatial#orientation">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#angle"/>
+        <rdfs:comment xml:lang="en">The orientation is determined as the azimuth angle of a surface relative to true north.</rdfs:comment>
+        <rdfs:label xml:lang="es">orientación</rdfs:label>
+        <rdfs:label xml:lang="it">orientamento</rdfs:label>
+        <rdfs:label xml:lang="en">orientation</rdfs:label>
+        <rdfs:label xml:lang="fr">orientation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/spatial#volumicMass -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/spatial#volumicMass">
+        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/spatial#VolumeElement"/>
+        <rdfs:label xml:lang="en">Masse volumique</rdfs:label>
+        <rdfs:label xml:lang="en">Volumic Mass</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#angle -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#angle"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#area -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#area"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#height -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#height"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#volume -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#volume"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#width -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#width"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/spatial#PlaneElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/spatial#PlaneElement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/spatial#orientation"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/property#area"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/property#height"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/property#width"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An element that is characterized by its surface. For instance windows or space boundaries.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/spatial#VolumeElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/spatial#VolumeElement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/spatial#orientation"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/property#volume"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An element that is characterized by a volume (i.e. for which the thickness is important.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#QuantityValue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,188 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/spatial#orientation"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/property#area"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/property#height"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/property#width"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/spatial#orientation"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/property#volume"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/"
+  }, {
+    "@id" : "http://qudt.org/vocab/unit/"
+  }, {
+    "@id" : "http://www.bim4ren.eu/property#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/spatial/0.1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial#PlaneElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An element that is characterized by its surface. For instance windows or space boundaries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial#VolumeElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An element that is characterized by a volume (i.e. for which the thickness is important."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial#grossArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "area lorda"
+  }, {
+    "@language" : "en",
+    "@value" : "gross area"
+  }, {
+    "@language" : "fr",
+    "@value" : "surface brut"
+  }, {
+    "@language" : "es",
+    "@value" : "área bruta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#area"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial#netArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "area netta"
+  }, {
+    "@language" : "en",
+    "@value" : "net area"
+  }, {
+    "@language" : "fr",
+    "@value" : "surface net"
+  }, {
+    "@language" : "es",
+    "@value" : "área neta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#area"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial#orientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The orientation is determined as the azimuth angle of a surface relative to true north."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "orientación"
+  }, {
+    "@language" : "it",
+    "@value" : "orientamento"
+  }, {
+    "@language" : "en",
+    "@value" : "orientation"
+  }, {
+    "@language" : "fr",
+    "@value" : "orientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#angle"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/spatial#volumicMass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/spatial#VolumeElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Masse volumique"
+  }, {
+    "@language" : "en",
+    "@value" : "Volumic Mass"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#angle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#height",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#volume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#width",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

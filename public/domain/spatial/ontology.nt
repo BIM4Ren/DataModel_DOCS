@@ -1,0 +1,105 @@
+<http://www.bim4ren.eu/domain/spatial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/domain/spatial> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/domain/spatial/0.1> .
+<http://www.bim4ren.eu/domain/spatial> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/vocab/quantitykind/> .
+<http://www.bim4ren.eu/domain/spatial> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/vocab/unit/> .
+<http://www.bim4ren.eu/domain/spatial> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/spatial#grossArea
+<http://www.bim4ren.eu/domain/spatial#grossArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/spatial#grossArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#area> .
+<http://www.bim4ren.eu/property#area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/spatial#grossArea> <http://www.w3.org/2000/01/rdf-schema#label> "area lorda"@it .
+<http://www.bim4ren.eu/domain/spatial#grossArea> <http://www.w3.org/2000/01/rdf-schema#label> "gross area"@en .
+<http://www.bim4ren.eu/domain/spatial#grossArea> <http://www.w3.org/2000/01/rdf-schema#label> "surface brut"@fr .
+<http://www.bim4ren.eu/domain/spatial#grossArea> <http://www.w3.org/2000/01/rdf-schema#label> "área bruta"@es .
+# 
+# http://www.bim4ren.eu/domain/spatial#netArea
+<http://www.bim4ren.eu/domain/spatial#netArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/spatial#netArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#area> .
+<http://www.bim4ren.eu/domain/spatial#netArea> <http://www.w3.org/2000/01/rdf-schema#label> "area netta"@it .
+<http://www.bim4ren.eu/domain/spatial#netArea> <http://www.w3.org/2000/01/rdf-schema#label> "net area"@en .
+<http://www.bim4ren.eu/domain/spatial#netArea> <http://www.w3.org/2000/01/rdf-schema#label> "surface net"@fr .
+<http://www.bim4ren.eu/domain/spatial#netArea> <http://www.w3.org/2000/01/rdf-schema#label> "área neta"@es .
+# 
+# http://www.bim4ren.eu/domain/spatial#orientation
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#angle> .
+<http://www.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/2000/01/rdf-schema#comment> "The orientation is determined as the azimuth angle of a surface relative to true north."@en .
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/2000/01/rdf-schema#label> "orientación"@es .
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/2000/01/rdf-schema#label> "orientamento"@it .
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/2000/01/rdf-schema#label> "orientation"@en .
+<http://www.bim4ren.eu/domain/spatial#orientation> <http://www.w3.org/2000/01/rdf-schema#label> "orientation"@fr .
+# 
+# http://www.bim4ren.eu/domain/spatial#volumicMass
+<http://www.bim4ren.eu/domain/spatial#volumicMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/spatial#volumicMass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/spatial#VolumeElement> .
+<http://www.bim4ren.eu/domain/spatial#volumicMass> <http://www.w3.org/2000/01/rdf-schema#label> "Masse volumique"@en .
+<http://www.bim4ren.eu/domain/spatial#volumicMass> <http://www.w3.org/2000/01/rdf-schema#label> "Volumic Mass"@en .
+# 
+# http://www.bim4ren.eu/property#angle
+# 
+# http://www.bim4ren.eu/property#area
+# 
+# http://www.bim4ren.eu/property#height
+<http://www.bim4ren.eu/property#height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/property#volume
+<http://www.bim4ren.eu/property#volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/property#width
+<http://www.bim4ren.eu/property#width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/spatial#PlaneElement
+<http://www.bim4ren.eu/domain/spatial#PlaneElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/spatial#PlaneElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/spatial#orientation> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/spatial#PlaneElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/property#area> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/spatial#PlaneElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/property#height> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/spatial#PlaneElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/property#width> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/spatial#PlaneElement> <http://www.w3.org/2000/01/rdf-schema#comment> "An element that is characterized by its surface. For instance windows or space boundaries."@en .
+# 
+# http://www.bim4ren.eu/domain/spatial#VolumeElement
+<http://www.bim4ren.eu/domain/spatial#VolumeElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/spatial#VolumeElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/spatial#orientation> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/spatial#VolumeElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/property#volume> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/spatial#VolumeElement> <http://www.w3.org/2000/01/rdf-schema#comment> "An element that is characterized by a volume (i.e. for which the thickness is important."@en .
+# 
+# https://w3id.org/def/basicsemantics-owl#QuantityValue
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
