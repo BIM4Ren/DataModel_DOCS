@@ -1,0 +1,144 @@
+<http://www.bim4ren.eu/core/intervention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/core/intervention> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/core/intervention/0.1> .
+<http://www.bim4ren.eu/core/intervention> <http://purl.org/dc/terms/contributor> "Nathalie Charbel" .
+<http://www.bim4ren.eu/core/intervention> <http://purl.org/dc/terms/contributor> "Pierre Bourreau" .
+<http://www.bim4ren.eu/core/intervention> <http://purl.org/dc/terms/description> "The intervention ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to model changes performed on the building and its different components during the building lifecycle. Through this ontology, a history of the evolution of the building can be modelled."@en .
+<http://www.bim4ren.eu/core/intervention> <http://purl.org/dc/terms/title> "The BIM4Ren intervention ontology"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/core/intervention#associatedEvents
+<http://www.bim4ren.eu/core/intervention#associatedEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/core/intervention#associatedEvents> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.bim4ren.eu/core/intervention#performedOn> .
+<http://www.bim4ren.eu/core/intervention#associatedEvents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/core/intervention#Element> .
+<http://www.bim4ren.eu/core/intervention#associatedEvents> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/core/intervention#Event> .
+# 
+# http://www.bim4ren.eu/core/intervention#performed
+<http://www.bim4ren.eu/core/intervention#performed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/core/intervention#performed> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.bim4ren.eu/core/intervention#performedBy> .
+<http://www.bim4ren.eu/core/intervention#performed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/core/intervention#Organization> .
+<http://www.bim4ren.eu/core/intervention#performed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/core/intervention#Event> .
+# 
+# http://www.bim4ren.eu/core/intervention#performedBy
+<http://www.bim4ren.eu/core/intervention#performedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/core/intervention#performedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/core/intervention#Event> .
+<http://www.bim4ren.eu/core/intervention#performedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/core/intervention#Organization> .
+# 
+# http://www.bim4ren.eu/core/intervention#performedOn
+<http://www.bim4ren.eu/core/intervention#performedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/core/intervention#performedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/core/intervention#Event> .
+<http://www.bim4ren.eu/core/intervention#performedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/core/intervention#Element> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/core/intervention#endDate
+<http://www.bim4ren.eu/core/intervention#endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.bim4ren.eu/core/intervention#startDate
+<http://www.bim4ren.eu/core/intervention#startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/core/intervention#Checking
+<http://www.bim4ren.eu/core/intervention#Checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/core/intervention#Checking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/core/intervention#Event> .
+<http://www.bim4ren.eu/core/intervention#Checking> <http://www.w3.org/2000/01/rdf-schema#comment> "A revision of some elements of the building. Some examples are: energy, accoustic audits, boiler manadatory check..."@en .
+# 
+# http://www.bim4ren.eu/core/intervention#Element
+<http://www.bim4ren.eu/core/intervention#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/core/intervention#Element> <http://www.w3.org/2000/01/rdf-schema#comment> "The element concerned by the intervention."@en .
+# 
+# http://www.bim4ren.eu/core/intervention#Event
+<http://www.bim4ren.eu/core/intervention#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/core/intervention#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/core/intervention#performedBy> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/core/intervention#Organization> .
+<http://www.bim4ren.eu/core/intervention#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/core/intervention#performedOn> .
+_:genid2 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.bim4ren.eu/core/intervention#Element> .
+<http://www.bim4ren.eu/core/intervention#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/core/intervention#endDate> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/core/intervention#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/core/intervention#startDate> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/core/intervention#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An intervention event. It is characterized by the elements impacted by the intervention, the date of the intervention, and the person/organization who performed the intervention."@en .
+# 
+# http://www.bim4ren.eu/core/intervention#Installation
+<http://www.bim4ren.eu/core/intervention#Installation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/core/intervention#Installation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/core/intervention#Event> .
+<http://www.bim4ren.eu/core/intervention#Installation> <http://www.w3.org/2000/01/rdf-schema#comment> "Installation of the product/element. Includes a change (for instance, replacement of all radiators), or the installation of a bran new system (for instance, external insulation)."@en .
+# 
+# http://www.bim4ren.eu/core/intervention#Organization
+<http://www.bim4ren.eu/core/intervention#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/core/intervention#Repair
+<http://www.bim4ren.eu/core/intervention#Repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/core/intervention#Repair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/core/intervention#Event> .
+<http://www.bim4ren.eu/core/intervention#Repair> <http://www.w3.org/2000/01/rdf-schema#comment> "Maintenance of an already installed elements. Can include change of parameters for HVAC systems or change of part of the elements."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid5 <http://www.w3.org/2002/07/owl#members> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/core/intervention#Element> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/core/intervention#Event> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/core/intervention#Organization> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
