@@ -1,0 +1,805 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#AgeCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#ageCategory"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#occupancyProfile"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#WorkSituation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#workSituation"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#WorkType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#workType"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#income"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.bim4ren.eu/actors#EMPLOYED"
+    }, {
+      "@id" : "http://www.bim4ren.eu/actors#SELF_EMPLOYED"
+    }, {
+      "@id" : "http://www.bim4ren.eu/actors#UNEMPLOYED"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.bim4ren.eu/actors#COMFORT"
+    }, {
+      "@id" : "http://www.bim4ren.eu/actors#ECO"
+    }, {
+      "@id" : "http://www.bim4ren.eu/actors#ECO_PLUS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#OccupancyTimeRange"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#occupancyTime"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/bot#Zone"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#associatedZone"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#fromDateTime"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#toDateTime"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.bim4ren.eu/actors/0.1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#ADULT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An adult is a person aged between 18 and 64 inclusive"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un adulte est une personne âgée antre 18 et 64 ans inclus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Adult"
+  }, {
+    "@language" : "fr",
+    "@value" : "Adulte"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A building actor, which comes down to a building manager, a building owner or an occupant"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un acteur du bâtiment, qui peut être un maître d'oeuvre, un maître d'ouvrage ou un occupant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://bsdd.buildingsmart.org/#concept/details/3xQru0qRmHuO00025QrE$V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Acteur"
+  }, {
+    "@language" : "en",
+    "@value" : "Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#AgeCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Correspond à une classification selon les tranches d'ages de personnes"
+  }, {
+    "@language" : "en",
+    "@value" : "Corresponds to a classification according to people age groups"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Age category"
+  }, {
+    "@language" : "fr",
+    "@value" : "Catégorie d'âge"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#BABY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A baby is a person who is less than a year old"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un bébé est une personne qui a moins d'un an"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Baby"
+  }, {
+    "@language" : "fr",
+    "@value" : "Bébé"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#BuildingManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Person or entity chosen by the building owner for the operational management of the work"
+  }, {
+    "@language" : "fr",
+    "@value" : "Personne physique ou morale choisie par le maître d'ouvrage pour la conduite opérationnelle des travaux"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Building manager"
+  }, {
+    "@language" : "fr",
+    "@value" : "Maître d'oeuvre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Actor"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#BuildingOwner"
+  }, {
+    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#BuildingOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Person or entity for whom the project is carried out"
+  }, {
+    "@language" : "fr",
+    "@value" : "Personne physique ou morale pour laquelle le projet est réalisé"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "fr",
+    "@value" : "http://bsdd.buildingsmart.org/#concept/details/1B9uxpQzj5KBf25MREZyEH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Building owner"
+  }, {
+    "@language" : "fr",
+    "@value" : "Maître d'ouvrage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Actor"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#CHILD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A child is a person aged between 1 year and 11 years inclusive"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un enfant est une personne âgée entre 1 an et 11 ans inclus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Child"
+  }, {
+    "@language" : "fr",
+    "@value" : "Enfant"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#COMFORT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#EnergyPolicy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupant who is not eco friendly"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un occupant qui n'est pas éco-responsable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Comfort"
+  }, {
+    "@language" : "es",
+    "@value" : "Comodidad"
+  }, {
+    "@language" : "it",
+    "@value" : "Comodità"
+  }, {
+    "@language" : "fr",
+    "@value" : "Confort"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#ECO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#EnergyPolicy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupant who is eco friendly"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un occupant éco-responsable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Eco friendly"
+  }, {
+    "@language" : "fr",
+    "@value" : "Eco-responsable"
+  }, {
+    "@language" : "es",
+    "@value" : "Ecológico"
+  }, {
+    "@language" : "it",
+    "@value" : "Ecológico"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#ECO_PLUS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#EnergyPolicy" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupant who is eco friendly++"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un occupant éco-responsable++"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Eco friendly++"
+  }, {
+    "@language" : "fr",
+    "@value" : "Eco-responsable++"
+  }, {
+    "@language" : "es",
+    "@value" : "Ecológico++"
+  }, {
+    "@language" : "it",
+    "@value" : "Ecológico++"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#ELDERLY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An elderly is a person aged 65 and over"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un personne âgée est une personne qui a 65 ans et plus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Elderly"
+  }, {
+    "@language" : "fr",
+    "@value" : "Personne âgée"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#EMPLOYED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#WorkType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupant having a paid job"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un occupant ayant un emploi rémunéré"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Employed"
+  }, {
+    "@language" : "fr",
+    "@value" : "Employé"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#EnergyPolicy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines to what extent the occupant pays attention to energy, and therefore has impacts on the heating or the use of certain devices during the simulation."
+  }, {
+    "@language" : "fr",
+    "@value" : "Définit à quel point les occupants font attention ou non à l’énergie, et donc ont des impacts sur le chauffage ou l’utilisation de certains appareils durant la simulation. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Energy policy"
+  }, {
+    "@language" : "it",
+    "@value" : "Politica energetica"
+  }, {
+    "@language" : "fr",
+    "@value" : "Politique énergétique"
+  }, {
+    "@language" : "es",
+    "@value" : "Política energética"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupancy profile describes some useful occupancy information (e.g., the occupancy time range) related to an occuppant associated to a given zone"
+  }, {
+    "@language" : "fr",
+    "@value" : "Le profil d'occupation décrit certaines informations utiles (par exemple,les intervales d'occupation) liées à un occupant pour une zone donnée"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Occupancy profile"
+  }, {
+    "@language" : "fr",
+    "@value" : "Profile d'occupation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#OccupancyTimeRange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "L'intervalle de temps d'occupation lié à un occupant et une zone donnée"
+  }, {
+    "@language" : "en",
+    "@value" : "The occupancy time range related to an occupant and a given area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Intervalle de temps d'occupation"
+  }, {
+    "@language" : "en",
+    "@value" : "Occupancy time range"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#Occupant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A type of actor that defines the form of occupancy of a property"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un type d'acteur qui définit la forme d'occupation d'une propriété"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://bsdd.buildingsmart.org/#concept/details/289KpOp8L4MBqIToXk2Uxq"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Occupant"
+  }, {
+    "@language" : "fr",
+    "@value" : "Occupant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Actor"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#SELF_EMPLOYED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#WorkType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupant who is working for oneself as a freelance or who is the owner of a business"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un occupant qui travaille pour soi-même en tant que freelance ou qui est le propriétaire d'une entreprise"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Self employed"
+  }, {
+    "@language" : "fr",
+    "@value" : "Travailleur indépendant"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#TEENAGER",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A teenager is a person aged between 12 and 17 years inclusive"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un adolescent est une personne âgée entre 12 et 17 ans inclus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Adolescent"
+  }, {
+    "@language" : "en",
+    "@value" : "Teenager"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#UNEMPLOYED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#WorkType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An occupant without a paid job"
+  }, {
+    "@language" : "fr",
+    "@value" : "Un occupant sans emploi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unemployed"
+  }, {
+    "@language" : "fr",
+    "@value" : "sans emploi"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#WorkSituation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes the work situation of an occupant, mainly the type of work (if any), and its related income"
+  }, {
+    "@language" : "fr",
+    "@value" : "Décrit la situation de travail d'un occupant, principalement le type de travail (le cas échéant) et son revenu"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Situation de travail"
+  }, {
+    "@language" : "en",
+    "@value" : "Work situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#WorkType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes the occupant type of work"
+  }, {
+    "@language" : "fr",
+    "@value" : "Décrit le type de travail d'un occupant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Type de travail"
+  }, {
+    "@language" : "en",
+    "@value" : "Work type"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#ageCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Relation describing the link between an actor and the corresponding age category"
+  }, {
+    "@language" : "fr",
+    "@value" : "Relation décrivant le lien entre un acteur et la catégorie d'âge correspondante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "age category"
+  }, {
+    "@language" : "fr",
+    "@value" : "catégorie d'âge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#AgeCategory"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#associatedActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation describing the link between a zone and the associated actor, which could be the occupant or any actor having a specific role associated to the zone"
+  }, {
+    "@language" : "fr",
+    "@value" : "Relation décrivant le lien entre une zone et un acteur associé, qui peut être l'occupant ou tout acteur ayant un rôle spécifique associé à cette zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/bot#Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "acteur associé"
+  }, {
+    "@language" : "en",
+    "@value" : "associated actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Actor"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#associatedZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "fr",
+    "@value" : "Relation pouvant décrire le lien entre un occupant et une zone associée à travers le profile d'occupation ou tout simplement le lien entre un acteur en général et une zone pour laquelle il a un role spécifique"
+  }, {
+    "@language" : "en",
+    "@value" : "Relation that can describe the link between an occupant and an associated zone through the occupation profile or simply the link between an actor in general and a zone for which he has a specific role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "associated zone"
+  }, {
+    "@language" : "fr",
+    "@value" : "zone associée"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/bot#Zone"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#fromDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property describing the start date and time related to an occupancy profile"
+  }, {
+    "@language" : "fr",
+    "@value" : "Propriété décrivant la date et l'heure de début liées à un profil d'occupation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "depuis date heure"
+  }, {
+    "@language" : "en",
+    "@value" : "from date time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#hasEnergyPolicy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property linking an occupant to the energy policy that he adopts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Propriété liant un occupant à la politique d'énergie qu'il adopte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "energy policy"
+  }, {
+    "@language" : "it",
+    "@value" : "politica energetica"
+  }, {
+    "@language" : "fr",
+    "@value" : "politique énergétique"
+  }, {
+    "@language" : "es",
+    "@value" : "política energética"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#EnergyPolicy"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#income",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property describing the gross annual salary of an occupant"
+  }, {
+    "@language" : "fr",
+    "@value" : "Propriété décrivant le salaire annuel brut d'un occupant"
+  }, {
+    "@language" : "fr",
+    "@value" : "salaire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "income"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#occupancyProfile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation describing the link between an occupant and its occupancy profile associated to a particular zone"
+  }, {
+    "@language" : "fr",
+    "@value" : "Relation décrivant le lien entre un occupant et son profile d'occupation associé à une zone particulière"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "occupancy profile"
+  }, {
+    "@language" : "fr",
+    "@value" : "profile d'occupation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#occupancyTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation describing the link between an occupancy profile (associated to an occupant and a given zone) and the corresponding occupancy time range"
+  }, {
+    "@language" : "fr",
+    "@value" : "Relation décrivant le lien entre un profile d'occupation (associé à un occupant et une zone donnée) et l'intervalle d'occupation correspondant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "occupancy time"
+  }, {
+    "@language" : "en",
+    "@value" : "temps d'occupation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#OccupancyTimeRange"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#toDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property describing the end date and time related to an occupancy profile"
+  }, {
+    "@language" : "fr",
+    "@value" : "Propriété décrivant la date et l'heure de fin liées à un profil d'occupation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "jusqu'au date heure"
+  }, {
+    "@language" : "en",
+    "@value" : "to date time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#workSituation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation describing the link between an occupant and its work situation"
+  }, {
+    "@language" : "fr",
+    "@value" : "Relation décrivant le lien entre un occupant et la situation de travail correspondate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "situation de travail"
+  }, {
+    "@language" : "en",
+    "@value" : "work situation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#WorkSituation"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/actors#workType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation describing the link between a work situation associated to an occupant and the corresponding work type"
+  }, {
+    "@language" : "en",
+    "@value" : "Relation décrivant le lien entre la situation de travail associée à un occupant et le type de ce travail"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#WorkSituation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "type de travail"
+  }, {
+    "@language" : "en",
+    "@value" : "work type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/actors#WorkType"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

@@ -1,0 +1,375 @@
+<http://www.bim4ren.eu/actors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/actors> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/actors/0.1> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/actors#ageCategory
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/actors#Actor> .
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation describing the link between an actor and the corresponding age category"@fr .
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation décrivant le lien entre un acteur et la catégorie d'âge correspondante"@fr .
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/2000/01/rdf-schema#label> "age category"@en .
+<http://www.bim4ren.eu/actors#ageCategory> <http://www.w3.org/2000/01/rdf-schema#label> "catégorie d'âge"@fr .
+# 
+# http://www.bim4ren.eu/actors#associatedActor
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#Actor> .
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation describing the link between a zone and the associated actor, which could be the occupant or any actor having a specific role associated to the zone"@en .
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation décrivant le lien entre une zone et un acteur associé, qui peut être l'occupant ou tout acteur ayant un rôle spécifique associé à cette zone"@fr .
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/2000/01/rdf-schema#label> "acteur associé"@fr .
+<http://www.bim4ren.eu/actors#associatedActor> <http://www.w3.org/2000/01/rdf-schema#label> "associated actor"@en .
+# 
+# http://www.bim4ren.eu/actors#associatedZone
+<http://www.bim4ren.eu/actors#associatedZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#associatedZone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Zone> .
+<http://www.bim4ren.eu/actors#associatedZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation pouvant décrire le lien entre un occupant et une zone associée à travers le profile d'occupation ou tout simplement le lien entre un acteur en général et une zone pour laquelle il a un role spécifique"@fr .
+<http://www.bim4ren.eu/actors#associatedZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation that can describe the link between an occupant and an associated zone through the occupation profile or simply the link between an actor in general and a zone for which he has a specific role"@en .
+<http://www.bim4ren.eu/actors#associatedZone> <http://www.w3.org/2000/01/rdf-schema#label> "associated zone"@en .
+<http://www.bim4ren.eu/actors#associatedZone> <http://www.w3.org/2000/01/rdf-schema#label> "zone associée"@fr .
+# 
+# http://www.bim4ren.eu/actors#hasEnergyPolicy
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/actors#Occupant> .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#EnergyPolicy> .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Property linking an occupant to the energy policy that he adopts"@en .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Propriété liant un occupant à la politique d'énergie qu'il adopte"@fr .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "energy policy"@en .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "politica energetica"@it .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "politique énergétique"@fr .
+<http://www.bim4ren.eu/actors#hasEnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "política energética"@es .
+# 
+# http://www.bim4ren.eu/actors#occupancyProfile
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/actors#Occupant> .
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#OccupancyProfile> .
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation describing the link between an occupant and its occupancy profile associated to a particular zone"@en .
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation décrivant le lien entre un occupant et son profile d'occupation associé à une zone particulière"@fr .
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/2000/01/rdf-schema#label> "occupancy profile"@fr .
+<http://www.bim4ren.eu/actors#occupancyProfile> <http://www.w3.org/2000/01/rdf-schema#label> "profile d'occupation"@fr .
+# 
+# http://www.bim4ren.eu/actors#occupancyTime
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/actors#OccupancyProfile> .
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#OccupancyTimeRange> .
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation describing the link between an occupancy profile (associated to an occupant and a given zone) and the corresponding occupancy time range"@en .
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation décrivant le lien entre un profile d'occupation (associé à un occupant et une zone donnée) et l'intervalle d'occupation correspondant"@fr .
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/2000/01/rdf-schema#label> "occupancy time"@fr .
+<http://www.bim4ren.eu/actors#occupancyTime> <http://www.w3.org/2000/01/rdf-schema#label> "temps d'occupation"@en .
+# 
+# http://www.bim4ren.eu/actors#workSituation
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/actors#Occupant> .
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#WorkSituation> .
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation describing the link between an occupant and its work situation"@en .
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation décrivant le lien entre un occupant et la situation de travail correspondate"@fr .
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/2000/01/rdf-schema#label> "situation de travail"@fr .
+<http://www.bim4ren.eu/actors#workSituation> <http://www.w3.org/2000/01/rdf-schema#label> "work situation"@en .
+# 
+# http://www.bim4ren.eu/actors#workType
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/actors#WorkSituation> .
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/actors#WorkType> .
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation describing the link between a work situation associated to an occupant and the corresponding work type"@en .
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation décrivant le lien entre la situation de travail associée à un occupant et le type de ce travail"@en .
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/2000/01/rdf-schema#label> "type de travail"@fr .
+<http://www.bim4ren.eu/actors#workType> <http://www.w3.org/2000/01/rdf-schema#label> "work type"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/actors#fromDateTime
+<http://www.bim4ren.eu/actors#fromDateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.bim4ren.eu/actors#fromDateTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/actors#fromDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Property describing the start date and time related to an occupancy profile"@en .
+<http://www.bim4ren.eu/actors#fromDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Propriété décrivant la date et l'heure de début liées à un profil d'occupation"@fr .
+<http://www.bim4ren.eu/actors#fromDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "depuis date heure"@fr .
+<http://www.bim4ren.eu/actors#fromDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "from date time"@en .
+# 
+# http://www.bim4ren.eu/actors#income
+<http://www.bim4ren.eu/actors#income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.bim4ren.eu/actors#income> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.bim4ren.eu/actors#income> <http://www.w3.org/2000/01/rdf-schema#comment> "Property describing the gross annual salary of an occupant"@en .
+<http://www.bim4ren.eu/actors#income> <http://www.w3.org/2000/01/rdf-schema#comment> "Propriété décrivant le salaire annuel brut d'un occupant"@fr .
+<http://www.bim4ren.eu/actors#income> <http://www.w3.org/2000/01/rdf-schema#comment> "salaire"@fr .
+<http://www.bim4ren.eu/actors#income> <http://www.w3.org/2000/01/rdf-schema#label> "income"@en .
+# 
+# http://www.bim4ren.eu/actors#toDateTime
+<http://www.bim4ren.eu/actors#toDateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.bim4ren.eu/actors#toDateTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/actors#toDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Property describing the end date and time related to an occupancy profile"@en .
+<http://www.bim4ren.eu/actors#toDateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Propriété décrivant la date et l'heure de fin liées à un profil d'occupation"@fr .
+<http://www.bim4ren.eu/actors#toDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "jusqu'au date heure"@fr .
+<http://www.bim4ren.eu/actors#toDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "to date time"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/actors#Actor
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#ageCategory> .
+_:genid1 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "A building actor, which comes down to a building manager, a building owner or an occupant"@en .
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "Un acteur du bâtiment, qui peut être un maître d'oeuvre, un maître d'ouvrage ou un occupant"@fr .
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://bsdd.buildingsmart.org/#concept/details/3xQru0qRmHuO00025QrE$V"@en .
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Acteur"@fr .
+<http://www.bim4ren.eu/actors#Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor"@en .
+# 
+# http://www.bim4ren.eu/actors#AgeCategory
+<http://www.bim4ren.eu/actors#AgeCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#AgeCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Correspond à une classification selon les tranches d'ages de personnes"@fr .
+<http://www.bim4ren.eu/actors#AgeCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponds to a classification according to people age groups"@en .
+<http://www.bim4ren.eu/actors#AgeCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Age category"@en .
+<http://www.bim4ren.eu/actors#AgeCategory> <http://www.w3.org/2000/01/rdf-schema#label> "Catégorie d'âge"@fr .
+# 
+# http://www.bim4ren.eu/actors#BuildingManager
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/actors#Actor> .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.bim4ren.eu/actors#BuildingOwner> .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.bim4ren.eu/actors#Occupant> .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2000/01/rdf-schema#comment> "Person or entity chosen by the building owner for the operational management of the work"@en .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2000/01/rdf-schema#comment> "Personne physique ou morale choisie par le maître d'ouvrage pour la conduite opérationnelle des travaux"@fr .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2000/01/rdf-schema#label> "Building manager"@en .
+<http://www.bim4ren.eu/actors#BuildingManager> <http://www.w3.org/2000/01/rdf-schema#label> "Maître d'oeuvre"@fr .
+# 
+# http://www.bim4ren.eu/actors#BuildingOwner
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/actors#Actor> .
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/2000/01/rdf-schema#comment> "Person or entity for whom the project is carried out"@en .
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/2000/01/rdf-schema#comment> "Personne physique ou morale pour laquelle le projet est réalisé"@fr .
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://bsdd.buildingsmart.org/#concept/details/1B9uxpQzj5KBf25MREZyEH"@fr .
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/2000/01/rdf-schema#label> "Building owner"@en .
+<http://www.bim4ren.eu/actors#BuildingOwner> <http://www.w3.org/2000/01/rdf-schema#label> "Maître d'ouvrage"@fr .
+# 
+# http://www.bim4ren.eu/actors#EnergyPolicy
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/2002/07/owl#oneOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/actors#COMFORT> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/actors#ECO> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/actors#ECO_PLUS> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines to what extent the occupant pays attention to energy, and therefore has impacts on the heating or the use of certain devices during the simulation."@en .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Définit à quel point les occupants font attention ou non à l’énergie, et donc ont des impacts sur le chauffage ou l’utilisation de certains appareils durant la simulation. "@fr .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Energy policy"@en .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Politica energetica"@it .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Politique énergétique"@fr .
+<http://www.bim4ren.eu/actors#EnergyPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Política energética"@es .
+# 
+# http://www.bim4ren.eu/actors#OccupancyProfile
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#occupancyTime> .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.bim4ren.eu/actors#OccupancyTimeRange> .
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#associatedZone> .
+_:genid7 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/bot#Zone> .
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupancy profile describes some useful occupancy information (e.g., the occupancy time range) related to an occuppant associated to a given zone"@en .
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "Le profil d'occupation décrit certaines informations utiles (par exemple,les intervales d'occupation) liées à un occupant pour une zone donnée"@fr .
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Occupancy profile"@en .
+<http://www.bim4ren.eu/actors#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Profile d'occupation"@fr .
+# 
+# http://www.bim4ren.eu/actors#OccupancyTimeRange
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#fromDateTime> .
+_:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#toDateTime> .
+_:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/2000/01/rdf-schema#comment> "L'intervalle de temps d'occupation lié à un occupant et une zone donnée"@fr .
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupancy time range related to an occupant and a given area"@en .
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/2000/01/rdf-schema#label> "Intervalle de temps d'occupation"@fr .
+<http://www.bim4ren.eu/actors#OccupancyTimeRange> <http://www.w3.org/2000/01/rdf-schema#label> "Occupancy time range"@en .
+# 
+# http://www.bim4ren.eu/actors#Occupant
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/actors#Actor> .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#occupancyProfile> .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.bim4ren.eu/actors#OccupancyProfile> .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#workSituation> .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.bim4ren.eu/actors#WorkSituation> .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of actor that defines the form of occupancy of a property"@en .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#comment> "Un type d'acteur qui définit la forme d'occupation d'une propriété"@fr .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://bsdd.buildingsmart.org/#concept/details/289KpOp8L4MBqIToXk2Uxq"@en .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#label> "Occupant"@en .
+<http://www.bim4ren.eu/actors#Occupant> <http://www.w3.org/2000/01/rdf-schema#label> "Occupant"@fr .
+# 
+# http://www.bim4ren.eu/actors#WorkSituation
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#workType> .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.bim4ren.eu/actors#WorkType> .
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/actors#income> .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the work situation of an occupant, mainly the type of work (if any), and its related income"@en .
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/2000/01/rdf-schema#comment> "Décrit la situation de travail d'un occupant, principalement le type de travail (le cas échéant) et son revenu"@fr .
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/2000/01/rdf-schema#label> "Situation de travail"@fr .
+<http://www.bim4ren.eu/actors#WorkSituation> <http://www.w3.org/2000/01/rdf-schema#label> "Work situation"@en .
+# 
+# http://www.bim4ren.eu/actors#WorkType
+<http://www.bim4ren.eu/actors#WorkType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/actors#WorkType> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/2002/07/owl#oneOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/actors#EMPLOYED> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/actors#SELF_EMPLOYED> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/actors#UNEMPLOYED> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.bim4ren.eu/actors#WorkType> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the occupant type of work"@en .
+<http://www.bim4ren.eu/actors#WorkType> <http://www.w3.org/2000/01/rdf-schema#comment> "Décrit le type de travail d'un occupant"@fr .
+<http://www.bim4ren.eu/actors#WorkType> <http://www.w3.org/2000/01/rdf-schema#label> "Type de travail"@fr .
+<http://www.bim4ren.eu/actors#WorkType> <http://www.w3.org/2000/01/rdf-schema#label> "Work type"@en .
+# 
+# https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/actors#ADULT
+<http://www.bim4ren.eu/actors#ADULT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#ADULT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#ADULT> <http://www.w3.org/2000/01/rdf-schema#comment> "An adult is a person aged between 18 and 64 inclusive"@en .
+<http://www.bim4ren.eu/actors#ADULT> <http://www.w3.org/2000/01/rdf-schema#comment> "Un adulte est une personne âgée antre 18 et 64 ans inclus"@fr .
+<http://www.bim4ren.eu/actors#ADULT> <http://www.w3.org/2000/01/rdf-schema#label> "Adult"@en .
+<http://www.bim4ren.eu/actors#ADULT> <http://www.w3.org/2000/01/rdf-schema#label> "Adulte"@fr .
+# 
+# http://www.bim4ren.eu/actors#BABY
+<http://www.bim4ren.eu/actors#BABY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#BABY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#BABY> <http://www.w3.org/2000/01/rdf-schema#comment> "A baby is a person who is less than a year old"@en .
+<http://www.bim4ren.eu/actors#BABY> <http://www.w3.org/2000/01/rdf-schema#comment> "Un bébé est une personne qui a moins d'un an"@fr .
+<http://www.bim4ren.eu/actors#BABY> <http://www.w3.org/2000/01/rdf-schema#label> "Baby"@en .
+<http://www.bim4ren.eu/actors#BABY> <http://www.w3.org/2000/01/rdf-schema#label> "Bébé"@fr .
+# 
+# http://www.bim4ren.eu/actors#CHILD
+<http://www.bim4ren.eu/actors#CHILD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#CHILD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#CHILD> <http://www.w3.org/2000/01/rdf-schema#comment> "A child is a person aged between 1 year and 11 years inclusive"@en .
+<http://www.bim4ren.eu/actors#CHILD> <http://www.w3.org/2000/01/rdf-schema#comment> "Un enfant est une personne âgée entre 1 an et 11 ans inclus"@fr .
+<http://www.bim4ren.eu/actors#CHILD> <http://www.w3.org/2000/01/rdf-schema#label> "Child"@en .
+<http://www.bim4ren.eu/actors#CHILD> <http://www.w3.org/2000/01/rdf-schema#label> "Enfant"@fr .
+# 
+# http://www.bim4ren.eu/actors#COMFORT
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#EnergyPolicy> .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupant who is not eco friendly"@en .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/2000/01/rdf-schema#comment> "Un occupant qui n'est pas éco-responsable"@fr .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/2000/01/rdf-schema#label> "Comfort"@en .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/2000/01/rdf-schema#label> "Comodidad"@es .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/2000/01/rdf-schema#label> "Comodità"@it .
+<http://www.bim4ren.eu/actors#COMFORT> <http://www.w3.org/2000/01/rdf-schema#label> "Confort"@fr .
+# 
+# http://www.bim4ren.eu/actors#ECO
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#EnergyPolicy> .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupant who is eco friendly"@en .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/2000/01/rdf-schema#comment> "Un occupant éco-responsable"@fr .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/2000/01/rdf-schema#label> "Eco friendly"@en .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/2000/01/rdf-schema#label> "Eco-responsable"@fr .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/2000/01/rdf-schema#label> "Ecológico"@es .
+<http://www.bim4ren.eu/actors#ECO> <http://www.w3.org/2000/01/rdf-schema#label> "Ecológico"@it .
+# 
+# http://www.bim4ren.eu/actors#ECO_PLUS
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#EnergyPolicy> .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupant who is eco friendly++"@en .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/2000/01/rdf-schema#comment> "Un occupant éco-responsable++"@fr .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/2000/01/rdf-schema#label> "Eco friendly++"@en .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/2000/01/rdf-schema#label> "Eco-responsable++"@fr .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/2000/01/rdf-schema#label> "Ecológico++"@es .
+<http://www.bim4ren.eu/actors#ECO_PLUS> <http://www.w3.org/2000/01/rdf-schema#label> "Ecológico++"@it .
+# 
+# http://www.bim4ren.eu/actors#ELDERLY
+<http://www.bim4ren.eu/actors#ELDERLY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#ELDERLY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#ELDERLY> <http://www.w3.org/2000/01/rdf-schema#comment> "An elderly is a person aged 65 and over"@en .
+<http://www.bim4ren.eu/actors#ELDERLY> <http://www.w3.org/2000/01/rdf-schema#comment> "Un personne âgée est une personne qui a 65 ans et plus"@fr .
+<http://www.bim4ren.eu/actors#ELDERLY> <http://www.w3.org/2000/01/rdf-schema#label> "Elderly"@en .
+<http://www.bim4ren.eu/actors#ELDERLY> <http://www.w3.org/2000/01/rdf-schema#label> "Personne âgée"@fr .
+# 
+# http://www.bim4ren.eu/actors#EMPLOYED
+<http://www.bim4ren.eu/actors#EMPLOYED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#EMPLOYED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#WorkType> .
+<http://www.bim4ren.eu/actors#EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupant having a paid job"@en .
+<http://www.bim4ren.eu/actors#EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#comment> "Un occupant ayant un emploi rémunéré"@fr .
+<http://www.bim4ren.eu/actors#EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#label> "Employed"@en .
+<http://www.bim4ren.eu/actors#EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#label> "Employé"@fr .
+# 
+# http://www.bim4ren.eu/actors#SELF_EMPLOYED
+<http://www.bim4ren.eu/actors#SELF_EMPLOYED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#SELF_EMPLOYED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#WorkType> .
+<http://www.bim4ren.eu/actors#SELF_EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupant who is working for oneself as a freelance or who is the owner of a business"@en .
+<http://www.bim4ren.eu/actors#SELF_EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#comment> "Un occupant qui travaille pour soi-même en tant que freelance ou qui est le propriétaire d'une entreprise"@fr .
+<http://www.bim4ren.eu/actors#SELF_EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#label> "Self employed"@en .
+<http://www.bim4ren.eu/actors#SELF_EMPLOYED> <http://www.w3.org/2000/01/rdf-schema#label> "Travailleur indépendant"@fr .
+# 
+# http://www.bim4ren.eu/actors#TEENAGER
+<http://www.bim4ren.eu/actors#TEENAGER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#TEENAGER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#AgeCategory> .
+<http://www.bim4ren.eu/actors#TEENAGER> <http://www.w3.org/2000/01/rdf-schema#comment> "A teenager is a person aged between 12 and 17 years inclusive"@en .
+<http://www.bim4ren.eu/actors#TEENAGER> <http://www.w3.org/2000/01/rdf-schema#comment> "Un adolescent est une personne âgée entre 12 et 17 ans inclus"@fr .
+<http://www.bim4ren.eu/actors#TEENAGER> <http://www.w3.org/2000/01/rdf-schema#label> "Adolescent"@fr .
+<http://www.bim4ren.eu/actors#TEENAGER> <http://www.w3.org/2000/01/rdf-schema#label> "Teenager"@en .
+# 
+# http://www.bim4ren.eu/actors#UNEMPLOYED
+<http://www.bim4ren.eu/actors#UNEMPLOYED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/actors#UNEMPLOYED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/actors#WorkType> .
+<http://www.bim4ren.eu/actors#UNEMPLOYED> <http://www.w3.org/2000/01/rdf-schema#comment> "An occupant without a paid job"@en .
+<http://www.bim4ren.eu/actors#UNEMPLOYED> <http://www.w3.org/2000/01/rdf-schema#comment> "Un occupant sans emploi"@fr .
+<http://www.bim4ren.eu/actors#UNEMPLOYED> <http://www.w3.org/2000/01/rdf-schema#label> "Unemployed"@en .
+<http://www.bim4ren.eu/actors#UNEMPLOYED> <http://www.w3.org/2000/01/rdf-schema#label> "sans emploi"@fr .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
