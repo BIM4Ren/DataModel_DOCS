@@ -1,0 +1,226 @@
+@prefix : <http://bim4ren.eu/buildingelements#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://bim4ren.eu/buildingelements#> .
+
+<http://bim4ren.eu/buildingelements#> rdf:type owl:Ontology ;
+                                       owl:imports <https://buildingsmart.org/ifc4-voc/buildingelement> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://bim4ren.eu/buildingelements#hasGlazing
+:hasGlazing rdf:type owl:ObjectProperty ;
+            rdfs:range :Glazing .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://bim4ren.eu/buildingelements#Abestos
+:Abestos rdf:type owl:Class ;
+         rdfs:subClassOf :Mineralwool ;
+         rdfs:label "Amiante"@fr ,
+                    "Asbestos"@en .
+
+
+###  http://bim4ren.eu/buildingelements#Cellulose
+:Cellulose rdf:type owl:Class ;
+           rdfs:subClassOf :NaturalFiber ;
+           rdfs:label "Cellulose"@en ,
+                      "Cellulose"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#Cork
+:Cork rdf:type owl:Class ;
+      rdfs:subClassOf :NaturalFiber ;
+      rdfs:label "Cork"@en ,
+                 "Liège"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#Cotton
+:Cotton rdf:type owl:Class ;
+        rdfs:subClassOf :NaturalFiber ;
+        rdfs:label "Cotton"@en ,
+                   "Cotton"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#ExpandedClay
+:ExpandedClay rdf:type owl:Class ;
+              rdfs:subClassOf :Mineralwool ;
+              rdfs:label "Argile Expansée"@fr ,
+                         "Exclay"@en ,
+                         "Expanded clay"@en ,
+                         "LECA"@en ,
+                         "Latérite"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#FlaxWool
+:FlaxWool rdf:type owl:Class ;
+          rdfs:subClassOf :NaturalFiber ;
+          rdfs:label "Flax wool"@en ,
+                     "Laine de lin"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#GlassWool
+:GlassWool rdf:type owl:Class ;
+           rdfs:subClassOf :Mineralwool ;
+           rdfs:label "Glass wool"@en ,
+                      "Laine de verre"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#Glazing
+:Glazing rdf:type owl:Class .
+
+
+###  http://bim4ren.eu/buildingelements#HempWool
+:HempWool rdf:type owl:Class ;
+          rdfs:subClassOf :NaturalFiber ;
+          rdfs:label "Hemp wool"@en ,
+                     "Laine de chanvre"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#Laine
+:Laine rdf:type owl:Class ;
+       rdfs:subClassOf :NaturalFiber ;
+       rdfs:label "Laine"@fr ,
+                  "Wool"@en .
+
+
+###  http://bim4ren.eu/buildingelements#Material
+:Material rdf:type owl:Class .
+
+
+###  http://bim4ren.eu/buildingelements#Mineralwool
+:Mineralwool rdf:type owl:Class ;
+             rdfs:subClassOf :Material ,
+                             <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> ;
+             rdfs:comment "Mineral wool based insulation material"@en ;
+             rdfs:label "Laine Minérale"@fr ,
+                        "Mineral Wool"@en .
+
+
+###  http://bim4ren.eu/buildingelements#NaturalFiber
+:NaturalFiber rdf:type owl:Class ;
+              rdfs:subClassOf :Material ,
+                              <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> ;
+              rdfs:label "Fibre Naturelle"@fr ,
+                         "Natural Fiber"@en .
+
+
+###  http://bim4ren.eu/buildingelements#Perlite
+:Perlite rdf:type owl:Class ;
+         rdfs:subClassOf :Mineralwool ;
+         rdfs:label "Perlite"@en ,
+                    "Perlite"@fr ,
+                    "Sable silicieux"@fr ,
+                    "Silice"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#Polyester
+:Polyester rdf:type owl:Class ;
+           rdfs:subClassOf :Synthetic .
+
+
+###  http://bim4ren.eu/buildingelements#Polyisocyanurate
+:Polyisocyanurate rdf:type owl:Class ;
+                  rdfs:subClassOf :Synthetic .
+
+
+###  http://bim4ren.eu/buildingelements#Polystirene
+:Polystirene rdf:type owl:Class ;
+             rdfs:subClassOf :Synthetic .
+
+
+###  http://bim4ren.eu/buildingelements#PolyvinylChloride
+:PolyvinylChloride rdf:type owl:Class ;
+                   rdfs:subClassOf :Synthetic .
+
+
+###  http://bim4ren.eu/buildingelements#PressedWood
+:PressedWood rdf:type owl:Class ;
+             rdfs:subClassOf :NaturalFiber ;
+             rdfs:label "Bois aggloméré"@fr ,
+                        "Pressed wood"@en .
+
+
+###  http://bim4ren.eu/buildingelements#RockWool
+:RockWool rdf:type owl:Class ;
+          rdfs:subClassOf :Mineralwool ;
+          rdfs:label "Laine de roche"@fr ,
+                     "Rock wool"@en .
+
+
+###  http://bim4ren.eu/buildingelements#Solomite
+:Solomite rdf:type owl:Class ;
+          rdfs:subClassOf :NaturalFiber ;
+          rdfs:label "Paille"@fr ,
+                     "Solomite"@en ,
+                     "Solomite"@fr ,
+                     "Straw"@en .
+
+
+###  http://bim4ren.eu/buildingelements#Straw
+:Straw rdf:type owl:Class ;
+       rdfs:subClassOf :NaturalFiber ;
+       rdfs:label "Paille"@fr ,
+                  "Straw"@en .
+
+
+###  http://bim4ren.eu/buildingelements#Synthetic
+:Synthetic rdf:type owl:Class ;
+           rdfs:subClassOf :Material ,
+                           <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> ;
+           rdfs:label "Synthetic"@en ,
+                      "Synthétique"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#UrealFormaldehyde
+:UrealFormaldehyde rdf:type owl:Class ;
+                   rdfs:subClassOf :Synthetic .
+
+
+###  http://bim4ren.eu/buildingelements#Vermiculite
+:Vermiculite rdf:type owl:Class ;
+             rdfs:subClassOf :Mineralwool .
+
+
+###  http://bim4ren.eu/buildingelements#WoodWool
+:WoodWool rdf:type owl:Class ;
+          rdfs:subClassOf :NaturalFiber ;
+          rdfs:label "Laine de bois"@fr ,
+                     "Wood wool"@en .
+
+
+###  https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION
+<https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://bim4ren.eu/buildingelements#doubleGlazing
+:doubleGlazing rdf:type owl:NamedIndividual ;
+               rdfs:label "doble acristalamiento"@es ,
+                          "doble cristal"@es ,
+                          "doppi vetri"@it ,
+                          "double glazing"@en ,
+                          "double vitrage"@fr .
+
+
+###  http://bim4ren.eu/buildingelements#simpleGlazing
+:simpleGlazing rdf:type owl:NamedIndividual ;
+               rdfs:label "simple glazing"@en ,
+                          "simple vidrio"@es ,
+                          "simple vitrage"@fr ,
+                          "vetro simplice"@it ,
+                          "vetro singolo"@it .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

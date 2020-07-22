@@ -1,0 +1,618 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "fr" ],
+    "baseIris" : [ "http://bim4ren.eu/buildingelements", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://buildingsmart.org/ifc4-voc/buildingelement" ],
+    "iri" : "http://bim4ren.eu/buildingelements#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingElementPart-INSULATION"
+    },
+    "subClasses" : [ "1", "2", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Laine",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Laine",
+      "en" : "Wool",
+      "fr" : "Laine"
+    },
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Straw",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Straw",
+      "en" : "Straw",
+      "fr" : "Paille"
+    },
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Synthetic",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Synthetic",
+      "en" : "Synthetic",
+      "fr" : "Synthétique"
+    },
+    "subClasses" : [ "7", "8", "9", "10", "11" ],
+    "id" : "2",
+    "superClasses" : [ "6", "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Cotton",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cotton",
+      "en" : "Cotton",
+      "fr" : "Cotton"
+    },
+    "id" : "12",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Abestos",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Abestos",
+      "en" : "Asbestos",
+      "fr" : "Amiante"
+    },
+    "id" : "20",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Polyester",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polyester"
+    },
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#NaturalFiber",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NaturalFiber",
+      "en" : "Natural Fiber",
+      "fr" : "Fibre Naturelle"
+    },
+    "subClasses" : [ "29", "30", "31", "4", "5", "32", "12", "33", "24", "22" ],
+    "id" : "3",
+    "superClasses" : [ "6", "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#WoodWool",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WoodWool",
+      "en" : "Wood wool",
+      "fr" : "Laine de bois"
+    },
+    "id" : "22",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#PolyvinylChloride",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PolyvinylChloride"
+    },
+    "id" : "7",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Cellulose",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cellulose",
+      "en" : "Cellulose",
+      "fr" : "Cellulose"
+    },
+    "id" : "31",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#GlassWool",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GlassWool",
+      "en" : "Glass wool",
+      "fr" : "Laine de verre"
+    },
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#ExpandedClay",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpandedClay",
+      "en" : "Exclay",
+      "fr" : "Latérite"
+    },
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#PressedWood",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PressedWood",
+      "en" : "Pressed wood",
+      "fr" : "Bois aggloméré"
+    },
+    "id" : "33",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Material",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material"
+    },
+    "subClasses" : [ "1", "2", "3" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "52",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Solomite",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solomite",
+      "en" : "Solomite",
+      "fr" : "Paille"
+    },
+    "id" : "32",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Polyisocyanurate",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polyisocyanurate"
+    },
+    "id" : "9",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#UrealFormaldehyde",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UrealFormaldehyde"
+    },
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#RockWool",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RockWool",
+      "en" : "Rock wool",
+      "fr" : "Laine de roche"
+    },
+    "id" : "28",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Cork",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cork",
+      "en" : "Cork",
+      "fr" : "Liège"
+    },
+    "id" : "30",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#FlaxWool",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlaxWool",
+      "en" : "Flax wool",
+      "fr" : "Laine de lin"
+    },
+    "id" : "24",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Perlite",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Perlite",
+      "en" : "Perlite",
+      "fr" : "Sable silicieux"
+    },
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#HempWool",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HempWool",
+      "en" : "Hemp wool",
+      "fr" : "Laine de chanvre"
+    },
+    "id" : "29",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Vermiculite",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vermiculite"
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Glazing",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glazing"
+    },
+    "id" : "55"
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Mineralwool",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mineralwool",
+      "en" : "Mineral Wool",
+      "fr" : "Laine Minérale"
+    },
+    "subClasses" : [ "28", "26", "16", "14", "20", "18" ],
+    "comment" : {
+      "en" : "Mineral wool based insulation material"
+    },
+    "id" : "1",
+    "superClasses" : [ "6", "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#Polystirene",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polystirene"
+    },
+    "id" : "11",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "3",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "3",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "1",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "3",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "3",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "3",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "3",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "3",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "6",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "3",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "6",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "2",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "6",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://bim4ren.eu/buildingelements#hasGlazing",
+    "baseIri" : "http://bim4ren.eu/buildingelements",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "hasGlazing"
+    },
+    "domain" : "52",
+    "attributes" : [ "object" ],
+    "id" : "54"
+  } ]
+}
