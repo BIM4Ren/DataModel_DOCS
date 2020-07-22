@@ -1,0 +1,459 @@
+@prefix : <https://w3id.org/dot#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/dot#> .
+
+<https://w3id.org/dot#> rdf:type owl:Ontology ;
+                         owl:versionIRI <https://w3id.org/dot/0.8> ;
+                         <http://purl.org/dc/terms/contributor> _:genid1 ;
+                         <http://purl.org/dc/terms/creator> <https://www.researchgate.net/profile/Mathias_Bonduel> ,
+                                                            _:genid2 ;
+                         <http://purl.org/dc/terms/issued> "2018-10-12"^^xsd:date ;
+                         <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/1.0" ;
+                         <http://purl.org/dc/terms/modified> "2019-02-17"^^xsd:date ;
+                         <http://purl.org/dc/terms/title> "Damage Topology Ontology"@en ;
+                         <http://purl.org/vocab/vann/example> "https://madsholten.github.io/sparql-visualizer/?file=https://raw.githubusercontent.com/Alhakam/dot/master/ABox-Examples/dot-demo.json"^^xsd:anyURI ,
+                                                              "https://raw.githubusercontent.com/Alhakam/dot/master/ABox-Examples/dotSampleData_pt1.ttl"^^xsd:anyURI ,
+                                                              "https://raw.githubusercontent.com/Alhakam/dot/master/ABox-Examples/dotSampleData_pt2.ttl"^^xsd:anyURI ;
+                         <http://purl.org/vocab/vann/preferredNamespacePrefix> "dot" ;
+                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/dot#" ;
+                         rdfs:comment """- Version 0.8: 
+* completed ontology metadata wrt LOV
+* added classes dot:ClassifiedDamage and dot:UnclassifiedDamage (subclasses of dot:Damage)
+* made dot:StructuralDamage and dot:Defect subclasses of dot:Damage
+"""@en ;
+                         owl:versionInfo "0.8" .
+
+_:genid1 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/name> "Mads Holten Rasmussen" .
+
+_:genid2 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/name> "Al-Hakam Hamdan" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/example
+<http://purl.org/vocab/vann/example> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/#domainIncludes
+<http://schema.org/#domainIncludes> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/dot#adjacentDamageElement
+:adjacentDamageElement rdf:type owl:ObjectProperty ,
+                                owl:SymmetricProperty ;
+                       rdfs:domain :DamageElement ;
+                       rdfs:range :DamageElement ;
+                       rdfs:comment "Definerer relationen mellem to Skadeselementer som er fysisk forbundet til hinanden."@da ,
+                                    "Defines the relationship between two instances of DamageElement that are physically connected with each other."@en ;
+                       rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                       rdfs:label "adjacent DamageElement"@en ,
+                                  "tilstødende Skadeselement"@da .
+
+
+###  https://w3id.org/dot#aggregatesDamageElement
+:aggregatesDamageElement rdf:type owl:ObjectProperty ;
+                         rdfs:domain :DamageArea ;
+                         rdfs:range :DamageElement ;
+                         owl:propertyChainAxiom ( :aggregatesDamageElement
+                                                  :adjacentDamageElement
+                                                ) ,
+                                                ( :aggregatesDamagePattern
+                                                  :groupsDamageElement
+                                                ) ;
+                         rdfs:comment "A relationship between an instance of Damage Area and its consisting DamageElement instance."@en ,
+                                      "En relation mellem et Skadeselement og det eller de Skadesområder som dette udgøres af."@da ;
+                         rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                         rdfs:label "aggregates Damage Element"@en ,
+                                    "aggregerer Skadeselement"@da .
+
+
+###  https://w3id.org/dot#aggregatesDamagePattern
+:aggregatesDamagePattern rdf:type owl:ObjectProperty ;
+                         rdfs:domain :DamageArea ;
+                         rdfs:range :DamagePattern ;
+                         rdfs:comment "A relationship between an instance of DamageArea and its consisting DamagePattern instance."@en ,
+                                      "En relation mellem et Skadesområde og det eller de Skademønstre som dette udgøres af."@da ;
+                         rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                         rdfs:label "aggregates Damage Pattern"@en ,
+                                    "aggregerer Skademønster"@da .
+
+
+###  https://w3id.org/dot#coveredByInspection
+:coveredByInspection rdf:type owl:ObjectProperty ;
+                     rdfs:range :Inspection ;
+                     owl:propertyChainAxiom ( :coveredInDocumentation
+                                              :documentationFromInspection
+                                            ) ;
+                     <http://schema.org/#domainIncludes> <https://w3id.org/bot#Element> ,
+                                                         <https://w3id.org/bot#Zone> ,
+                                                         :Damage ,
+                                                         <https://wisib.de/ontologie/brot#BridgeElement> ,
+                                                         <https://wisib.de/ontologie/brot#BridgeSpatialZone> ;
+                     rdfs:comment "Relation mellem et dokumenteret objekt (skade eller komponent / zone) og Inspektionen hvoraf objektet er omfattet."@da ,
+                                  "Relationship between a documented object (damage or component / zone) and the Inspection in which the object has been covered."@en ;
+                     rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                     rdfs:label "covered by inspection"@en ,
+                                "omfattet af inspektion"@da .
+
+
+###  https://w3id.org/dot#coveredInDocumentation
+:coveredInDocumentation rdf:type owl:ObjectProperty ;
+                        rdfs:range :Documentation ;
+                        <http://schema.org/#domainIncludes> <https://w3id.org/bot#Element> ,
+                                                            <https://w3id.org/bot#Zone> ,
+                                                            :Damage ,
+                                                            <https://wisib.de/ontologie/brot#BridgeElement> ,
+                                                            <https://wisib.de/ontologie/brot#BridgeSpatialZone> ;
+                        rdfs:comment "Relation mellem en Dokumentation og det relevante dokumenterede eller inspicerede objekt (fx dot:DamageArea eller bot:Element). Bør kun benyttes for skadesrelevant dokumentation."@da ,
+                                     "Relationship between a Documentation and the relevant documented or inspected object (e.g. dot:DamageArea or bot:Element). Should only be used for damage-relevant documentations."@en ;
+                        rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                        rdfs:label "covered by documentation"@en ,
+                                   "omfattet af dokumentation"@da .
+
+
+###  https://w3id.org/dot#documentationFromInspection
+:documentationFromInspection rdf:type owl:ObjectProperty ;
+                             rdfs:comment "Relation mellem en Dokumentation og Inspektionen som Dokumentationen refererer til. Omvendt objektegenskab af dot:hasDocumentation."@da ,
+                                          "Relationship between a Documentation and the Inspection to which the Documentation refers. Inverse object property of dot:hasDocumentation."@en ;
+                             rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                             rdfs:label "documentation from inspection"@en ,
+                                        "dokumentation fra inspektion"@da .
+
+
+###  https://w3id.org/dot#groupsDamageElement
+:groupsDamageElement rdf:type owl:ObjectProperty ;
+                     rdfs:domain :DamagePattern ;
+                     rdfs:range :DamageElement ;
+                     owl:propertyChainAxiom ( :groupsDamageElement
+                                              :adjacentDamageElement
+                                            ) ;
+                     rdfs:comment "Groups instances of DamageElement that are physically connected in a DamagePattern."@en ,
+                                  "Grupperer Skadeelementer som er fysisk forbundet i et Skademønster."@da ;
+                     rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                     rdfs:label "groups Damage Elements"@en ,
+                                "grupperer Skadeelement"@da .
+
+
+###  https://w3id.org/dot#hasCausation
+:hasCausation rdf:type owl:ObjectProperty ;
+              rdfs:domain :Damage ;
+              rdfs:range :Causation ;
+              rdfs:comment "Relation mellem en Skade og dens Forårsagelse."@da ,
+                           "Relationship between a Damage and its Causation."@en ;
+              rdfs:isDefinedBy <https://w3id.org/dot#> ;
+              rdfs:label "har Forårsagelse"@da ,
+                         "has Causation"@en .
+
+
+###  https://w3id.org/dot#hasDamage
+:hasDamage rdf:type owl:ObjectProperty ;
+           rdfs:range :Damage ;
+           <http://schema.org/#domainIncludes> <https://w3id.org/bot#Element> ,
+                                               <https://w3id.org/bot#Zone> ,
+                                               <https://wisib.de/ontologie/brot#BridgeElement> ,
+                                               <https://wisib.de/ontologie/brot#BridgeSpatialZone> ;
+           rdfs:comment "Definerer relationen mellem en påvirket bygningsdel eller konstruktion (fx bot:Element) og en Skade."@da ,
+                        "Defines the relationship between an affected component or structure (e.g. bot:Element) and a Damage."@en ;
+           rdfs:isDefinedBy <https://w3id.org/dot#> ;
+           rdfs:label "har Skade"@da ,
+                      "has Damage"@en .
+
+
+###  https://w3id.org/dot#hasDamageArea
+:hasDamageArea rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasDamage ;
+               rdfs:range :DamageArea ;
+               rdfs:comment "Definerer relationen mellem en påvirket bygningsdel eller konstruktion (fx bot:Element) og et Skadesområde."@da ,
+                            "Defines the relationship between an affected component or structure (e.g. bot:Element) and a DamageArea."@en ;
+               rdfs:isDefinedBy <https://w3id.org/dot#> ;
+               rdfs:label "har Skadesområde"@da ,
+                          "has DamageArea"@en .
+
+
+###  https://w3id.org/dot#hasDamageElement
+:hasDamageElement rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :hasDamage ;
+                  rdfs:range :DamageElement ;
+                  owl:propertyChainAxiom ( :hasDamageArea
+                                           :aggregatesDamageElement
+                                         ) ;
+                  rdfs:comment "Definerer relationen mellem en påvirket bygningsdel eller konstruktion (fx bot:Element) og et Skadeselement."@da ,
+                               "Defines the relationship between an affected component or structure (e.g. bot:Element) and a DamageElement."@en ;
+                  rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                  rdfs:label "har Skadeselement"@da ,
+                             "has DamageElement"@en .
+
+
+###  https://w3id.org/dot#hasDocumentation
+:hasDocumentation rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :documentationFromInspection ;
+                  rdfs:domain :Inspection ;
+                  rdfs:range :Documentation ;
+                  rdfs:comment "Relation mellem en Inspektion den tilhørende Dokumentation."@da ,
+                               "Relationship between an Inspection and the corresponding Documentation"@en ;
+                  rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                  rdfs:label "har dokumentation"@da ,
+                             "has documentation"@en .
+
+
+###  https://w3id.org/dot#hasInspector
+:hasInspector rdf:type owl:ObjectProperty ;
+              rdfs:domain :Inspection ;
+              rdfs:range :Inspector ;
+              rdfs:comment "Relation mellem en Inspektør og en Inspektion udført af denne person."@da ,
+                           "Relationship between an Inspector and the Inspection that has been performed by him."@en ;
+              rdfs:isDefinedBy <https://w3id.org/dot#> ;
+              rdfs:label "har Inspektør"@da ,
+                         "has Inspector"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/dot#descriptionContent
+:descriptionContent rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf <http://purl.org/dc/terms/description> ;
+                    rdfs:domain :Description ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "Tekstbeskrivelse om en konstruktionsdel eller skade."@da ,
+                                 "Textual content used for the Description of a Structure Element or Damage."@en ;
+                    rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                    rdfs:label "beskrivelseskontekst"@da ,
+                               "description content"@en .
+
+
+###  https://w3id.org/dot#filePath
+:filePath rdf:type owl:DatatypeProperty ;
+          rdfs:domain :ExternalResource ;
+          rdfs:range xsd:anyURI ;
+          rdfs:comment "Definerer en ekstern resources unikke sti i et filsystem."@da ,
+                       "Defines the unique location in a file system of an ExternalResource."@en ;
+          rdfs:isDefinedBy <https://w3id.org/dot#> ;
+          rdfs:label "file path"@en ,
+                     "filsti"@da .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+###  https://w3id.org/dot#Causation
+:Causation rdf:type owl:Class ;
+           rdfs:comment """Represents the causation of a damage.
+Should be extended with domain-specific subclasses."""@en ,
+                        """Repræsenterer skadens forårsagelse. 
+Bør specificeres af en domæne-specifik underklasse."""@da ;
+           rdfs:isDefinedBy <https://w3id.org/dot#> ;
+           rdfs:label "Causation"@en ,
+                      "Forårsagelse"@da .
+
+
+###  https://w3id.org/dot#ClassifiedDamage
+:ClassifiedDamage rdf:type owl:Class ;
+                  rdfs:subClassOf :Damage ;
+                  owl:disjointWith :UnclassifiedDamage ;
+                  rdfs:comment """A damage classification is used to denote the kind of damage. Subclasses of this class are defined in extensions 
+			  such as CDO (Concrete Damage Ontology), NSO (the Natural Stone Ontology), etc."""@en ;
+                  rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                  rdfs:label "Classified Damage"@en .
+
+
+###  https://w3id.org/dot#Damage
+:Damage rdf:type owl:Class ;
+        rdfs:comment """Damage is the harm to a structure resulting in impairment or loss of function, usefulness or value.
+Instead of using dot:Damage, it is recommended to use one subclass of dot:Damage for respectively the damage topology (either dot:DamageArea or dot:DamageElement), the 
+potential structural impact (either dot:StructuralDamage or dot:Defect) and the damage classification (either dot:UnclassifiedDamage or subclasses of dot:ClassifiedDamage)."""@en ,
+                     """En Skade er en beskadigelse af en konstruktion, der resulterer i forringelse eller tab af funktion, nyttighed eller værdi.
+I stedet for at benytte dot:Damage anbefales det at bruge en af underklasserne (enten dot:DamageArea eller dot:DamageElement)."""@da ;
+        rdfs:isDefinedBy <https://w3id.org/dot#> ;
+        rdfs:label "Damage"@en ,
+                   "Skade"@da .
+
+
+###  https://w3id.org/dot#DamageArea
+:DamageArea rdf:type owl:Class ;
+            rdfs:subClassOf :Damage ;
+            owl:disjointWith :DamageElement ,
+                             :DamagePattern ;
+            rdfs:comment "Area in a component where damage is located. Holds collection of multiple DamageElements or DamagePatterns. Used to be attached with simplified geometry."@en ,
+                         "Område i et objekt hvor der er en beskadigelse. Beskriver en samling af et eller flere Skadeselementer eller Skadesmønstre. Kan tilknyttes simplificeret geometri."@da ;
+            rdfs:isDefinedBy <https://w3id.org/dot#> ;
+            rdfs:label "Damage Area"@en ,
+                       "Skadesområde"@da .
+
+
+###  https://w3id.org/dot#DamageElement
+:DamageElement rdf:type owl:Class ;
+               rdfs:subClassOf :Damage ;
+               owl:disjointWith :DamagePattern ;
+               rdfs:comment "Damage that is modeled on a very detailed level and belongs with other adjacent Damage Element instances to a broader damage area or damage pattern"@en ,
+                            "En skade som er modelleret på et detaljeret niveau og hører sammen med andre tilstødende Skadeselementer i et større Skadesområde eller Skadesmønster."@da ;
+               rdfs:isDefinedBy <https://w3id.org/dot#> ;
+               rdfs:label "Damage Element"@en ,
+                          "Skadeselement"@da .
+
+
+###  https://w3id.org/dot#DamagePattern
+:DamagePattern rdf:type owl:Class ;
+               rdfs:comment "Definerer en gruppe af assosierede eller fysisk forbundne Skadesområder. Benyttes til at gruppere Skadesområder."@da ,
+                            "Defines a group of associated or physically connected instances of DamageElement. Used as class for grouping inside an instance of DamageArea."@en ;
+               rdfs:isDefinedBy <https://w3id.org/dot#> ;
+               rdfs:label "Damage Pattern"@en ,
+                          "Skadesmønster"@da .
+
+
+###  https://w3id.org/dot#Defect
+:Defect rdf:type owl:Class ;
+        rdfs:subClassOf :Damage ;
+        owl:disjointWith :StructuralDamage ;
+        rdfs:comment """Benyttes på ting der allerede er klassificeret som et dot:DamageArea, dot:DamagePattern eller dot:DamageElement.
+En Skade der ikke svækker den konstruktionsmæssige bæreevne, men som stadig har en indflydelse på holdbarheden, brugbarheden og / eller værdien."""@da ,
+                     """Should be used on nodes that are already classified as dot:DamageArea or dot:DamageElement.
+Damage that does not impair the structural integrity of the structure, but can still have influence on the durability, usability and / or value."""@en ;
+        rdfs:isDefinedBy <https://w3id.org/dot#> ;
+        rdfs:label "Defect"@en ,
+                   "Defekt"@da .
+
+
+###  https://w3id.org/dot#Description
+:Description rdf:type owl:Class ;
+             rdfs:subClassOf :Documentation ;
+             rdfs:comment "Kort tekstbeskrivelse om en Skade eller Konstruktionsdel. Typisk opretted af Inspektøren."@da ,
+                          "Short textual documentation about a Damage or Structure Element. Generally created by the inspecting person."@en ;
+             rdfs:isDefinedBy <https://w3id.org/dot#> ;
+             rdfs:label "Beskrivelse"@da ,
+                        "Description"@en .
+
+
+###  https://w3id.org/dot#Documentation
+:Documentation rdf:type owl:Class ;
+               rdfs:comment "Material or data that provides information or evidence about the structure and its components or that serves as a record. Should only be used for damage-related documentation."@en ,
+                            "Materiale eller data der tilvejebringer information eller bevis om konstruktionen og dens bestanddele eller som fungerer som journal. Bør kun benyttes for skadesrelateret dokumentation."@da ;
+               rdfs:isDefinedBy <https://w3id.org/dot#> ;
+               rdfs:label "Damage Documentation"@en ,
+                          "Skadesdokumentation"@da .
+
+
+###  https://w3id.org/dot#ExternalResource
+:ExternalResource rdf:type owl:Class ;
+                  rdfs:subClassOf :Documentation ;
+                  rdfs:comment "Document that is stored in a separate file, referenced by an external path."@en ,
+                               "Dokument der gemmes i en seperat fil, refereret af en ekstern sti."@da ;
+                  rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                  rdfs:label "Ekstern Resource"@da ,
+                             "External Resource"@en .
+
+
+###  https://w3id.org/dot#Inspection
+:Inspection rdf:type owl:Class ;
+            rdfs:comment """Careful examination or scrutiny in which an existing construction or a part of it is inspected and detected damages are recorded.
+Should be repeated at regular time intervals."""@en ,
+                         """Omhyggelig undersøgelse eller granskning hvori en eksisterende konstruktion eller en del ad denne inspiceres og detekterede beskadigelser registreres.
+Inspektioner bør udføres regelmæssigt."""@da ;
+            rdfs:isDefinedBy <https://w3id.org/dot#> ;
+            rdfs:label "Inspection"@en ,
+                       "Inspektion"@da .
+
+
+###  https://w3id.org/dot#Inspector
+:Inspector rdf:type owl:Class ;
+           rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+           rdfs:comment "A person who inspects constructions (for damages) or whose task it is to carry out inspections on constructions."@en ,
+                        "En person der inspicerer konstruktioner (for skader) eller hvis opgave er at udføre inspektioner af konstruktioner."@da ;
+           rdfs:isDefinedBy <https://w3id.org/dot#> ;
+           rdfs:label "Inspector"@en ,
+                      "Inspektør"@da .
+
+
+###  https://w3id.org/dot#StructuralDamage
+:StructuralDamage rdf:type owl:Class ;
+                  rdfs:subClassOf :Damage ;
+                  rdfs:comment """Benyttes på ting der allerede er klassificeret som et dot:DamageArea, dot:DamagePattern eller dot:DamageElement.
+En Skade der svækker den konstruktionsmæssige bæreevne."""@da ,
+                               """Should be used on nodes that are already classified as dot:DamageArea, dot:DamagePattern or dot:DamageElement.
+Damage that impairs the structural integrity of the structure."""@en ;
+                  rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                  rdfs:label "Konstruktionsmæssig Skade"@da ,
+                             "Structural Damage"@en .
+
+
+###  https://w3id.org/dot#UnclassifiedDamage
+:UnclassifiedDamage rdf:type owl:Class ;
+                    rdfs:subClassOf :Damage ;
+                    rdfs:comment """A dot:Damage instance that is not further classified with domain-specific classes (subclasses of dot:ClassifiedDamage). 
+This class can be used in cases where the damage classification is unknown."""@en ;
+                    rdfs:isDefinedBy <https://w3id.org/dot#> ;
+                    rdfs:label "Unclassified Damage"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/dot#
+<https://w3id.org/dot#> rdf:type owl:NamedIndividual ,
+                                 <http://purl.org/vocommons/voaf#Vocabulary> ;
+                        <http://purl.org/dc/terms/description> "Ontology that defines the topology of damages in constructions."@en .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
