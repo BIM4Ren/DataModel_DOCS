@@ -1,0 +1,750 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.bim4ren.eu/domain/thermal#CERTIFIED"
+    }, {
+      "@id" : "http://www.bim4ren.eu/domain/thermal#DECLARED"
+    }, {
+      "@id" : "http://www.bim4ren.eu/domain/thermal#MEASURED"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#visibleTransmittance"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalEfficiency"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#maxTemperature"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#minTemperature"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#nominalPower"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#maxTemperature"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#minTemperature"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#infraredTransmittance"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#airTightness"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalMass"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalResistance"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalTransmittance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property/0.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal/0.1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#CERTIFIED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Agréé"
+  }, {
+    "@language" : "es",
+    "@value" : "Certificado"
+  }, {
+    "@language" : "it",
+    "@value" : "Certificato"
+  }, {
+    "@language" : "en",
+    "@value" : "Certified"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#CoolProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cool producer asset."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cool producer"
+  }, {
+    "@language" : "fr",
+    "@value" : "Producteur de froid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#DECLARED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Certified"
+  }, {
+    "@language" : "es",
+    "@value" : "Declarado"
+  }, {
+    "@language" : "it",
+    "@value" : "Dichiarato"
+  }, {
+    "@language" : "fr",
+    "@value" : "Déclaré"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#EfficiencyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Efficiency type"
+  }, {
+    "@language" : "es",
+    "@value" : "Tipo de rendimiento"
+  }, {
+    "@language" : "it",
+    "@value" : "Tipo di rendimento"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type du rendement"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#HeatProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A heat producer asset."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Heat producer"
+  }, {
+    "@language" : "fr",
+    "@value" : "Producteur de chaleur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#HeatStorage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#HeatTransferElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A heat transfer element is a passive element that can restrict or ease the transfer of heat between different zones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Elément de transfert de chaleur"
+  }, {
+    "@language" : "en",
+    "@value" : "Heat transfer element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#MEASURED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Measured"
+  }, {
+    "@language" : "es",
+    "@value" : "Medido"
+  }, {
+    "@language" : "fr",
+    "@value" : "Mesuré"
+  }, {
+    "@language" : "it",
+    "@value" : "Misurato"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#Producer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thermo-regulated element"
+  }, {
+    "@language" : "fr",
+    "@value" : "élément thermo-régulé"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#airTightness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "air tighthness"
+  }, {
+    "@language" : "it",
+    "@value" : "ermeticità all'aria"
+  }, {
+    "@language" : "es",
+    "@value" : "estanqueidad"
+  }, {
+    "@language" : "fr",
+    "@value" : "étanchéité à l'air"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The coefficient of performance or COP (sometimes CP or CoP) of a heat pump, refrigerator or air conditioning system is a ratio of useful heating or cooling provided to work required."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#HeatProducer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "coefficient de performance"
+  }, {
+    "@language" : "en",
+    "@value" : "coefficient of performance"
+  }, {
+    "@language" : "it",
+    "@value" : "coefficiente di prestazione"
+  }, {
+    "@language" : "es",
+    "@value" : "coeficiente de operatividad"
+  }, {
+    "@value" : "COP"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#condensingTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#dischargeTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The temperature of the output medium in a thermal loop."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "discharge temperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#efficiencyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "efficiency type"
+  }, {
+    "@language" : "es",
+    "@value" : "tipo de rendimiento"
+  }, {
+    "@language" : "it",
+    "@value" : "tipo di rendimento"
+  }, {
+    "@language" : "fr",
+    "@value" : "type du rendement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#EfficiencyType"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#evaporatingTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This factor describes thermal losses. The higher this value, the more losses the system has."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "facteur de transmission de chaleur"
+  }, {
+    "@language" : "en",
+    "@value" : "heat transmission factor"
+  }, {
+    "@language" : "fr",
+    "@value" : "pertes à pourcentage constant"
+  }, {
+    "@value" : "a1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Coefficient for the calculation of the coefficient of heat transmission dependent on temperature. The higher this value, the greater is the curvature of the curve."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "coefficient de calcul de coefficient de transmission thermique selon la température."
+  }, {
+    "@language" : "en",
+    "@value" : "coefficient for the calculation of the coefficient of heat transmission dependent on temperature"
+  }, {
+    "@language" : "fr",
+    "@value" : "pertes dont le pourcentage augmente avec la température"
+  }, {
+    "@value" : "a2"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#infraredTransmittance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "infrared transmittance"
+  }, {
+    "@language" : "es",
+    "@value" : "transmitancia infrarroja"
+  }, {
+    "@language" : "fr",
+    "@value" : "transmittance infrarouge"
+  }, {
+    "@language" : "it",
+    "@value" : "trasmittanza infrarossa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#transmittance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#load",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "carga"
+  }, {
+    "@language" : "it",
+    "@value" : "carico"
+  }, {
+    "@language" : "fr",
+    "@value" : "charge"
+  }, {
+    "@language" : "en",
+    "@value" : "load"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#maxTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maximal temperature"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura massima"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura máxima"
+  }, {
+    "@language" : "fr",
+    "@value" : "température maximale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#minTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minimal temperature"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura minima"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura mínima"
+  }, {
+    "@language" : "fr",
+    "@value" : "température minimale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#nominalPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nominal power"
+  }, {
+    "@language" : "fr",
+    "@value" : "puissance nominale"
+  }, {
+    "@language" : "fr",
+    "@value" : "puissance utile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#power"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#returnTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The temperature of the input medium in a thermal loop."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "return temperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "consigne"
+  }, {
+    "@language" : "fr",
+    "@value" : "régulation"
+  }, {
+    "@language" : "en",
+    "@value" : "setpoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#stagnationTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The temperature at a stagnation point in a fluid flow. At a stagnation point the speed of the fluid is zero and all of the kinetic energy has been converted to internal energy and is added to the local static enthalpy. In both compressible and incompressible fluid flow, the stagnation temperature is equal to the total temperature at all points on the streamline leading to the stagnation point.\r\nThe stagnation temperature is the maximum temperature that the collector’s absorber can reach at an ambient temperature of 30°C and an irradiation of 1000 W/m2. Stagnation temperature is also a measure of thermal losses of the collector and therefore describes the efficiency of the collector at higher temperatures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "stagnation tempertaure"
+  }, {
+    "@language" : "es",
+    "@value" : "temperature de estancamiento"
+  }, {
+    "@language" : "it",
+    "@value" : "temperature de ristagno"
+  }, {
+    "@language" : "fr",
+    "@value" : "température de stagnation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#suppliedTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalEfficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is this similar to Coefficient of Performance???"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "rendement"
+  }, {
+    "@language" : "it",
+    "@value" : "rendimento"
+  }, {
+    "@language" : "es",
+    "@value" : "rendimiento térmico"
+  }, {
+    "@language" : "en",
+    "@value" : "thermal efficiency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/ThermalEfficiency"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalMass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "masa térmica"
+  }, {
+    "@language" : "it",
+    "@value" : "massa termica"
+  }, {
+    "@language" : "fr",
+    "@value" : "masse thermique"
+  }, {
+    "@language" : "en",
+    "@value" : "thermal mass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalResistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "resistencia termica"
+  }, {
+    "@language" : "it",
+    "@value" : "resistenza termica"
+  }, {
+    "@language" : "fr",
+    "@value" : "résistence thermique"
+  }, {
+    "@language" : "en",
+    "@value" : "thermal resistance"
+  }, {
+    "@value" : "R"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/ThermalResistance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalTransmittance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "coefficient de transfert thermique"
+  }, {
+    "@language" : "en",
+    "@value" : "coefficient of heat transfer"
+  }, {
+    "@language" : "en",
+    "@value" : "thermal transmittance"
+  }, {
+    "@language" : "fr",
+    "@value" : "transfert thermique"
+  }, {
+    "@language" : "es",
+    "@value" : "transmitancia térmica"
+  }, {
+    "@language" : "it",
+    "@value" : "trasmittanza termica"
+  }, {
+    "@value" : "U"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#transmittance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "transmitancia"
+  }, {
+    "@language" : "en",
+    "@value" : "transmittance"
+  }, {
+    "@language" : "fr",
+    "@value" : "transmittance"
+  }, {
+    "@language" : "it",
+    "@value" : "trasmissione"
+  }, {
+    "@value" : "T"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/Transmittance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#visibleTransmittance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "transmitancia visible"
+  }, {
+    "@language" : "fr",
+    "@value" : "transmittance visible"
+  }, {
+    "@language" : "it",
+    "@value" : "trasmittanza visibile"
+  }, {
+    "@language" : "en",
+    "@value" : "visible transmittance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#transmittance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#power",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#quantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
