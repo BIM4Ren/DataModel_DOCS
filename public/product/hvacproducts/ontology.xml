@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://bim4ren.eu/distributionelements/#"
+     xml:base="http://bim4ren.eu/distributionelements/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://bim4ren.eu/distributionelements/#">
+        <owl:imports rdf:resource="http://www.bim4ren.eu/property/0.1"/>
+        <owl:imports rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#ObjectPSet_solarDevice -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/distributionelements/#ObjectPSet_solarDevice">
+        <rdfs:domain rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#PSet_solarCollector -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/distributionelements/#PSet_solarCollector">
+        <rdfs:domain rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#absorberArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/distributionelements/#absorberArea">
+        <rdfs:subPropertyOf rdf:resource="http://bim4ren.eu/distributionelements/#PSet_solarCollector"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#area"/>
+        <rdfs:comment xml:lang="en">The area of a collector which is heated by irradiation and is directly responsible for heating of the heat transfer fluid</rdfs:comment>
+        <rdfs:label xml:lang="en">absorber area</rdfs:label>
+        <rdfs:label xml:lang="fr">surface d&apos;absorbeur</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#apertureArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/distributionelements/#apertureArea">
+        <rdfs:subPropertyOf rdf:resource="http://bim4ren.eu/distributionelements/#PSet_solarCollector"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#area"/>
+        <rdfs:comment xml:lang="en">The aperture indicates the area of the collector which allows light to enter</rdfs:comment>
+        <rdfs:label xml:lang="en">aperture area</rdfs:label>
+        <rdfs:label xml:lang="fr">surface d&apos;entrée</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#grossArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/distributionelements/#grossArea">
+        <rdfs:subPropertyOf rdf:resource="http://bim4ren.eu/distributionelements/#PSet_solarCollector"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#area"/>
+        <rdfs:comment xml:lang="en">The gross area refers to the external mass of the collector, therefore the area actually necessary for installation, that is simply the length times the width of the collector.</rdfs:comment>
+        <rdfs:label xml:lang="en">gross area</rdfs:label>
+        <rdfs:label xml:lang="fr">surface hors tout</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#tilt -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/distributionelements/#tilt">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#angle"/>
+        <rdfs:domain rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice"/>
+        <rdfs:label xml:lang="fr">inclinaison</rdfs:label>
+        <rdfs:label xml:lang="en">tilt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#angle -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#angle"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#area -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#area"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#DataPSet_solarDevice -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bim4ren.eu/distributionelements/#DataPSet_solarDevice">
+        <rdfs:domain rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#nbCells -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bim4ren.eu/distributionelements/#nbCells">
+        <rdfs:subPropertyOf rdf:resource="http://bim4ren.eu/distributionelements/#DataPSet_solarDevice"/>
+        <rdfs:label xml:lang="fr">nombre de cellules</rdfs:label>
+        <rdfs:label xml:lang="en">number of cells</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#ChilledWaterPump -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#ChilledWaterPump">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#Pump"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#CondenserPump -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#CondenserPump">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#Pump"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#CondensingBoiler -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#CondensingBoiler">
+        <owl:equivalentClass rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM"/>
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#Boiler"/>
+        <rdfs:label xml:lang="es">Caldera de condensación</rdfs:label>
+        <rdfs:label xml:lang="fr">Chaudière à condensation</rdfs:label>
+        <rdfs:label xml:lang="en">Condensing Boiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#FanCoilUnit -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#FanCoilUnit">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater"/>
+        <rdfs:label xml:lang="en">Fan Coil Unit</rdfs:label>
+        <rdfs:label xml:lang="fr">Ventiloconvecteur</rdfs:label>
+        <rdfs:label xml:lang="es">Ventiloconvector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#FlatPlateCollector -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#FlatPlateCollector">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR"/>
+        <rdfs:label xml:lang="fr">Capteur plan</rdfs:label>
+        <rdfs:label xml:lang="en">Flat plate collector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#FuelCell -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#FuelCell">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP"/>
+        <rdfs:label xml:lang="en">Fuel Cell</rdfs:label>
+        <rdfs:label xml:lang="it">Pila a combustible</rdfs:label>
+        <rdfs:label xml:lang="es">Pila de combustible</rdfs:label>
+        <rdfs:label xml:lang="fr">Pile à combustible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#HeatPump -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#HeatPump">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice"/>
+        <rdfs:label xml:lang="es">Bomba de calor</rdfs:label>
+        <rdfs:label xml:lang="en">Heat Pump</rdfs:label>
+        <rdfs:label xml:lang="fr">Pompe à chaleur</rdfs:label>
+        <rdfs:label xml:lang="it">pompa di calore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#LowTemperatureBoiler -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#LowTemperatureBoiler">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#Boiler"/>
+        <rdfs:label xml:lang="fr">Chaudière basse température</rdfs:label>
+        <rdfs:label xml:lang="en">Low temperature boiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#UnderfloorHeating -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#UnderfloorHeating">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater"/>
+        <rdfs:label xml:lang="fr">Plancher chauffant</rdfs:label>
+        <rdfs:label xml:lang="en">Underfloor heating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/distributionelements/#VaccumCollector -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/distributionelements/#VaccumCollector">
+        <rdfs:subClassOf rdf:resource="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR"/>
+        <rdfs:label xml:lang="fr">Capteur à tube sous vide</rdfs:label>
+        <rdfs:label xml:lang="en">Evacuated tube collector</rdfs:label>
+        <rdfs:label xml:lang="en">Vacuum collector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#Boiler -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#Boiler"/>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM"/>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP"/>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice"/>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#Pump -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#Pump"/>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bim4ren.eu/distributionelements/#nbCells"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bim4ren.eu/distributionelements/#absorberArea"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bim4ren.eu/distributionelements/#apertureArea"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bim4ren.eu/distributionelements/#grossArea"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="it">Pannello solare termico</rdfs:label>
+        <rdfs:label xml:lang="fr">capteur solaire thermique</rdfs:label>
+        <rdfs:label xml:lang="es">colector solar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater -->
+
+
+    <owl:Class rdf:about="https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater"/>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#QuantityValue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,358 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#nbCells"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#absorberArea"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#apertureArea"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#grossArea"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property/0.1"
+  }, {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#ChilledWaterPump",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Pump"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#CondenserPump",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Pump"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#CondensingBoiler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Caldera de condensación"
+  }, {
+    "@language" : "fr",
+    "@value" : "Chaudière à condensation"
+  }, {
+    "@language" : "en",
+    "@value" : "Condensing Boiler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Boiler"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#DataPSet_solarDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#FanCoilUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fan Coil Unit"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ventiloconvecteur"
+  }, {
+    "@language" : "es",
+    "@value" : "Ventiloconvector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#FlatPlateCollector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Capteur plan"
+  }, {
+    "@language" : "en",
+    "@value" : "Flat plate collector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#FuelCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fuel Cell"
+  }, {
+    "@language" : "it",
+    "@value" : "Pila a combustible"
+  }, {
+    "@language" : "es",
+    "@value" : "Pila de combustible"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pile à combustible"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#HeatPump",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Bomba de calor"
+  }, {
+    "@language" : "en",
+    "@value" : "Heat Pump"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pompe à chaleur"
+  }, {
+    "@language" : "it",
+    "@value" : "pompa di calore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#LowTemperatureBoiler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Chaudière basse température"
+  }, {
+    "@language" : "en",
+    "@value" : "Low temperature boiler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Boiler"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#ObjectPSet_solarDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#PSet_solarCollector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#UnderfloorHeating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Plancher chauffant"
+  }, {
+    "@language" : "en",
+    "@value" : "Underfloor heating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#VaccumCollector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Capteur à tube sous vide"
+  }, {
+    "@language" : "en",
+    "@value" : "Evacuated tube collector"
+  }, {
+    "@language" : "en",
+    "@value" : "Vacuum collector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#absorberArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The area of a collector which is heated by irradiation and is directly responsible for heating of the heat transfer fluid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "absorber area"
+  }, {
+    "@language" : "fr",
+    "@value" : "surface d'absorbeur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#PSet_solarCollector"
+  }, {
+    "@id" : "http://www.bim4ren.eu/property#area"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#apertureArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The aperture indicates the area of the collector which allows light to enter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aperture area"
+  }, {
+    "@language" : "fr",
+    "@value" : "surface d'entrée"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#PSet_solarCollector"
+  }, {
+    "@id" : "http://www.bim4ren.eu/property#area"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#grossArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The gross area refers to the external mass of the collector, therefore the area actually necessary for installation, that is simply the length times the width of the collector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gross area"
+  }, {
+    "@language" : "fr",
+    "@value" : "surface hors tout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#PSet_solarCollector"
+  }, {
+    "@id" : "http://www.bim4ren.eu/property#area"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#nbCells",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "nombre de cellules"
+  }, {
+    "@language" : "en",
+    "@value" : "number of cells"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://bim4ren.eu/distributionelements/#DataPSet_solarDevice"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/distributionelements/#tilt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "inclinaison"
+  }, {
+    "@language" : "en",
+    "@value" : "tilt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#angle"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#angle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Boiler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#Pump",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Pannello solare termico"
+  }, {
+    "@language" : "fr",
+    "@value" : "capteur solaire thermique"
+  }, {
+    "@language" : "es",
+    "@value" : "colector solar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

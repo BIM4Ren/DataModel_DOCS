@@ -1,0 +1,200 @@
+<http://bim4ren.eu/distributionelements/#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://bim4ren.eu/distributionelements/#> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property/0.1> .
+<http://bim4ren.eu/distributionelements/#> <http://www.w3.org/2002/07/owl#imports> <https://buildingsmart.org/ifc4-voc/distributionelement> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/distributionelements/#ObjectPSet_solarDevice
+<http://bim4ren.eu/distributionelements/#ObjectPSet_solarDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/distributionelements/#ObjectPSet_solarDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://bim4ren.eu/distributionelements/#PSet_solarCollector
+<http://bim4ren.eu/distributionelements/#PSet_solarCollector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/distributionelements/#PSet_solarCollector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://bim4ren.eu/distributionelements/#absorberArea
+<http://bim4ren.eu/distributionelements/#absorberArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/distributionelements/#absorberArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://bim4ren.eu/distributionelements/#PSet_solarCollector> .
+<http://bim4ren.eu/distributionelements/#absorberArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#area> .
+<http://bim4ren.eu/distributionelements/#absorberArea> <http://www.w3.org/2000/01/rdf-schema#comment> "The area of a collector which is heated by irradiation and is directly responsible for heating of the heat transfer fluid"@en .
+<http://bim4ren.eu/distributionelements/#absorberArea> <http://www.w3.org/2000/01/rdf-schema#label> "absorber area"@en .
+<http://bim4ren.eu/distributionelements/#absorberArea> <http://www.w3.org/2000/01/rdf-schema#label> "surface d'absorbeur"@fr .
+# 
+# http://bim4ren.eu/distributionelements/#apertureArea
+<http://bim4ren.eu/distributionelements/#apertureArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/distributionelements/#apertureArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://bim4ren.eu/distributionelements/#PSet_solarCollector> .
+<http://bim4ren.eu/distributionelements/#apertureArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#area> .
+<http://bim4ren.eu/distributionelements/#apertureArea> <http://www.w3.org/2000/01/rdf-schema#comment> "The aperture indicates the area of the collector which allows light to enter"@en .
+<http://bim4ren.eu/distributionelements/#apertureArea> <http://www.w3.org/2000/01/rdf-schema#label> "aperture area"@en .
+<http://bim4ren.eu/distributionelements/#apertureArea> <http://www.w3.org/2000/01/rdf-schema#label> "surface d'entrée"@fr .
+# 
+# http://bim4ren.eu/distributionelements/#grossArea
+<http://bim4ren.eu/distributionelements/#grossArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/distributionelements/#grossArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://bim4ren.eu/distributionelements/#PSet_solarCollector> .
+<http://bim4ren.eu/distributionelements/#grossArea> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#area> .
+<http://bim4ren.eu/distributionelements/#grossArea> <http://www.w3.org/2000/01/rdf-schema#comment> "The gross area refers to the external mass of the collector, therefore the area actually necessary for installation, that is simply the length times the width of the collector."@en .
+<http://bim4ren.eu/distributionelements/#grossArea> <http://www.w3.org/2000/01/rdf-schema#label> "gross area"@en .
+<http://bim4ren.eu/distributionelements/#grossArea> <http://www.w3.org/2000/01/rdf-schema#label> "surface hors tout"@fr .
+# 
+# http://bim4ren.eu/distributionelements/#tilt
+<http://bim4ren.eu/distributionelements/#tilt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://bim4ren.eu/distributionelements/#tilt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#angle> .
+<http://bim4ren.eu/distributionelements/#tilt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice> .
+<http://bim4ren.eu/distributionelements/#tilt> <http://www.w3.org/2000/01/rdf-schema#label> "inclinaison"@fr .
+<http://bim4ren.eu/distributionelements/#tilt> <http://www.w3.org/2000/01/rdf-schema#label> "tilt"@en .
+# 
+# http://www.bim4ren.eu/property#angle
+<http://www.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/property#area
+<http://www.bim4ren.eu/property#area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/distributionelements/#DataPSet_solarDevice
+<http://bim4ren.eu/distributionelements/#DataPSet_solarDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://bim4ren.eu/distributionelements/#DataPSet_solarDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice> .
+# 
+# http://bim4ren.eu/distributionelements/#nbCells
+<http://bim4ren.eu/distributionelements/#nbCells> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://bim4ren.eu/distributionelements/#nbCells> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://bim4ren.eu/distributionelements/#DataPSet_solarDevice> .
+<http://bim4ren.eu/distributionelements/#nbCells> <http://www.w3.org/2000/01/rdf-schema#label> "nombre de cellules"@fr .
+<http://bim4ren.eu/distributionelements/#nbCells> <http://www.w3.org/2000/01/rdf-schema#label> "number of cells"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://bim4ren.eu/distributionelements/#ChilledWaterPump
+<http://bim4ren.eu/distributionelements/#ChilledWaterPump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#ChilledWaterPump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#Pump> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://bim4ren.eu/distributionelements/#CondenserPump
+<http://bim4ren.eu/distributionelements/#CondenserPump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#CondenserPump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#Pump> .
+# 
+# http://bim4ren.eu/distributionelements/#CondensingBoiler
+<http://bim4ren.eu/distributionelements/#CondensingBoiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#CondensingBoiler> <http://www.w3.org/2002/07/owl#equivalentClass> <https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#CondensingBoiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#Boiler> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#CondensingBoiler> <http://www.w3.org/2000/01/rdf-schema#label> "Caldera de condensación"@es .
+<http://bim4ren.eu/distributionelements/#CondensingBoiler> <http://www.w3.org/2000/01/rdf-schema#label> "Chaudière à condensation"@fr .
+<http://bim4ren.eu/distributionelements/#CondensingBoiler> <http://www.w3.org/2000/01/rdf-schema#label> "Condensing Boiler"@en .
+# 
+# http://bim4ren.eu/distributionelements/#FanCoilUnit
+<http://bim4ren.eu/distributionelements/#FanCoilUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#FanCoilUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#FanCoilUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Fan Coil Unit"@en .
+<http://bim4ren.eu/distributionelements/#FanCoilUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Ventiloconvecteur"@fr .
+<http://bim4ren.eu/distributionelements/#FanCoilUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Ventiloconvector"@es .
+# 
+# http://bim4ren.eu/distributionelements/#FlatPlateCollector
+<http://bim4ren.eu/distributionelements/#FlatPlateCollector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#FlatPlateCollector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> .
+<http://bim4ren.eu/distributionelements/#FlatPlateCollector> <http://www.w3.org/2000/01/rdf-schema#label> "Capteur plan"@fr .
+<http://bim4ren.eu/distributionelements/#FlatPlateCollector> <http://www.w3.org/2000/01/rdf-schema#label> "Flat plate collector"@en .
+# 
+# http://bim4ren.eu/distributionelements/#FuelCell
+<http://bim4ren.eu/distributionelements/#FuelCell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#FuelCell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#FuelCell> <http://www.w3.org/2000/01/rdf-schema#label> "Fuel Cell"@en .
+<http://bim4ren.eu/distributionelements/#FuelCell> <http://www.w3.org/2000/01/rdf-schema#label> "Pila a combustible"@it .
+<http://bim4ren.eu/distributionelements/#FuelCell> <http://www.w3.org/2000/01/rdf-schema#label> "Pila de combustible"@es .
+<http://bim4ren.eu/distributionelements/#FuelCell> <http://www.w3.org/2000/01/rdf-schema#label> "Pile à combustible"@fr .
+# 
+# http://bim4ren.eu/distributionelements/#HeatPump
+<http://bim4ren.eu/distributionelements/#HeatPump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#HeatPump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#HeatPump> <http://www.w3.org/2000/01/rdf-schema#label> "Bomba de calor"@es .
+<http://bim4ren.eu/distributionelements/#HeatPump> <http://www.w3.org/2000/01/rdf-schema#label> "Heat Pump"@en .
+<http://bim4ren.eu/distributionelements/#HeatPump> <http://www.w3.org/2000/01/rdf-schema#label> "Pompe à chaleur"@fr .
+<http://bim4ren.eu/distributionelements/#HeatPump> <http://www.w3.org/2000/01/rdf-schema#label> "pompa di calore"@it .
+# 
+# http://bim4ren.eu/distributionelements/#LowTemperatureBoiler
+<http://bim4ren.eu/distributionelements/#LowTemperatureBoiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#LowTemperatureBoiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#Boiler> .
+<http://bim4ren.eu/distributionelements/#LowTemperatureBoiler> <http://www.w3.org/2000/01/rdf-schema#label> "Chaudière basse température"@fr .
+<http://bim4ren.eu/distributionelements/#LowTemperatureBoiler> <http://www.w3.org/2000/01/rdf-schema#label> "Low temperature boiler"@en .
+# 
+# http://bim4ren.eu/distributionelements/#UnderfloorHeating
+<http://bim4ren.eu/distributionelements/#UnderfloorHeating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#UnderfloorHeating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater> .
+<http://bim4ren.eu/distributionelements/#UnderfloorHeating> <http://www.w3.org/2000/01/rdf-schema#label> "Plancher chauffant"@fr .
+<http://bim4ren.eu/distributionelements/#UnderfloorHeating> <http://www.w3.org/2000/01/rdf-schema#label> "Underfloor heating"@en .
+# 
+# http://bim4ren.eu/distributionelements/#VaccumCollector
+<http://bim4ren.eu/distributionelements/#VaccumCollector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://bim4ren.eu/distributionelements/#VaccumCollector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> .
+<http://bim4ren.eu/distributionelements/#VaccumCollector> <http://www.w3.org/2000/01/rdf-schema#label> "Capteur à tube sous vide"@fr .
+<http://bim4ren.eu/distributionelements/#VaccumCollector> <http://www.w3.org/2000/01/rdf-schema#label> "Evacuated tube collector"@en .
+<http://bim4ren.eu/distributionelements/#VaccumCollector> <http://www.w3.org/2000/01/rdf-schema#label> "Vacuum collector"@en .
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#Boiler
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#Boiler-STEAM
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-CHP
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#EnergyConversionDevice
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#Pump
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/distributionelements/#nbCells> .
+_:genid1 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/distributionelements/#absorberArea> .
+_:genid2 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/distributionelements/#apertureArea> .
+_:genid3 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/distributionelements/#grossArea> .
+_:genid4 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/2000/01/rdf-schema#label> "Pannello solare termico"@it .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/2000/01/rdf-schema#label> "capteur solaire thermique"@fr .
+<https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARCOLLECTOR> <http://www.w3.org/2000/01/rdf-schema#label> "colector solar"@es .
+# 
+# https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater
+# 
+# https://w3id.org/def/basicsemantics-owl#QuantityValue
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
