@@ -1,0 +1,244 @@
+<http://www.bim4ren.eu/domain/electrical#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/domain/electrical#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/domain/electrical/0.1> .
+<http://www.bim4ren.eu/domain/electrical#> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/basicsemantics-owl#quantityKind
+<https://w3id.org/def/basicsemantics-owl#quantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/electrical#electricalEfficiency
+<http://www.bim4ren.eu/domain/electrical#electricalEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#electricalEfficiency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
+# 
+# http://www.bim4ren.eu/domain/electrical#electricitySubscription
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/domain/electrical#ElectricityTariff> .
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/2000/01/rdf-schema#label> "abbonamento elettrico"@it .
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/2000/01/rdf-schema#label> "abonnement electricité"@fr .
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/2000/01/rdf-schema#label> "electricity subscription"@en .
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/2000/01/rdf-schema#label> "suscripción de electricidad"@es .
+# 
+# http://www.bim4ren.eu/domain/electrical#meterPower
+<http://www.bim4ren.eu/domain/electrical#meterPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#meterPower> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#meterPower> <http://www.w3.org/2000/01/rdf-schema#label> "poder de suscripción"@es .
+<http://www.bim4ren.eu/domain/electrical#meterPower> <http://www.w3.org/2000/01/rdf-schema#label> "potere di abbonamento"@it .
+<http://www.bim4ren.eu/domain/electrical#meterPower> <http://www.w3.org/2000/01/rdf-schema#label> "puissance souscrite d'abonnement"@fr .
+<http://www.bim4ren.eu/domain/electrical#meterPower> <http://www.w3.org/2000/01/rdf-schema#label> "subscription power"@en .
+<http://www.bim4ren.eu/domain/electrical#meterPower> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/ApparentPower> .
+# 
+# http://www.bim4ren.eu/domain/electrical#offPeakHours
+<http://www.bim4ren.eu/domain/electrical#offPeakHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#offPeakHours> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#offPeakHours> <http://www.w3.org/2000/01/rdf-schema#label> "heures creuses"@fr .
+<http://www.bim4ren.eu/domain/electrical#offPeakHours> <http://www.w3.org/2000/01/rdf-schema#label> "horas de poca actividad"@es .
+<http://www.bim4ren.eu/domain/electrical#offPeakHours> <http://www.w3.org/2000/01/rdf-schema#label> "off-peak hours"@en .
+<http://www.bim4ren.eu/domain/electrical#offPeakHours> <http://www.w3.org/2000/01/rdf-schema#label> "ore non di punta"@it .
+# 
+# http://www.bim4ren.eu/domain/electrical#peakHours
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/2000/01/rdf-schema#label> "heures pleines"@fr .
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/2000/01/rdf-schema#label> "horas pico"@es .
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/2000/01/rdf-schema#label> "ore di punta"@it .
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/2000/01/rdf-schema#label> "peak hours"@en .
+# 
+# http://www.bim4ren.eu/domain/electrical#powerIn
+<http://www.bim4ren.eu/domain/electrical#powerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#powerIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#power> .
+# 
+# http://www.bim4ren.eu/domain/electrical#powerOut
+<http://www.bim4ren.eu/domain/electrical#powerOut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#powerOut> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#power> .
+# 
+# http://www.bim4ren.eu/domain/electrical#solarConversionFactor
+<http://www.bim4ren.eu/domain/electrical#solarConversionFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#solarConversionFactor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
+<http://www.bim4ren.eu/domain/electrical#solarConversionFactor> <http://www.w3.org/2000/01/rdf-schema#label> "conversion factor"@en .
+<http://www.bim4ren.eu/domain/electrical#solarConversionFactor> <http://www.w3.org/2000/01/rdf-schema#label> "facteur de conversion solaire"@fr .
+# 
+# http://www.bim4ren.eu/domain/electrical#subscriptionPrice
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#price> .
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/2000/01/rdf-schema#label> "abbonamento prezzo"@it .
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/2000/01/rdf-schema#label> "prix del'abonnement"@fr .
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/2000/01/rdf-schema#label> "subscription price"@en .
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/2000/01/rdf-schema#label> "suscripción precio"@es .
+# 
+# http://www.bim4ren.eu/domain/electrical#subscriptionType
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/domain/electrical#SubscriptionType> .
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "electricity subscription"@en .
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de suscripción"@es .
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di abbonamento"@it .
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "type d'abonnement"@fr .
+# 
+# http://www.bim4ren.eu/domain/electrical#weekEndHours
+<http://www.bim4ren.eu/domain/electrical#weekEndHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#weekEndHours> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#weekEndHours> <http://www.w3.org/2000/01/rdf-schema#label> "heures week-end"@fr .
+<http://www.bim4ren.eu/domain/electrical#weekEndHours> <http://www.w3.org/2000/01/rdf-schema#label> "horas de fin de semana"@es .
+<http://www.bim4ren.eu/domain/electrical#weekEndHours> <http://www.w3.org/2000/01/rdf-schema#label> "ore del fine settimana"@it .
+<http://www.bim4ren.eu/domain/electrical#weekEndHours> <http://www.w3.org/2000/01/rdf-schema#label> "weekend hours"@en .
+# 
+# http://www.bim4ren.eu/domain/electrical#weekdaysHours
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/2000/01/rdf-schema#label> "heures semaine"@fr .
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/2000/01/rdf-schema#label> "horas entre semana"@es .
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/2000/01/rdf-schema#label> "ore feriali"@it .
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/2000/01/rdf-schema#label> "weekdays hours"@en .
+# 
+# http://www.bim4ren.eu/property#power
+<http://www.bim4ren.eu/property#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/property#price
+<http://www.bim4ren.eu/property#price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#price> .
+<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "kWh prezzo"@it .
+<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "kWh price"@en .
+<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "kwh precio"@es .
+<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "prix du kWh TTC"@fr .
+# 
+# http://www.bim4ren.eu/property#ratio
+<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/electrical#ElectricalConsumer
+<http://www.bim4ren.eu/domain/electrical#ElectricalConsumer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#ElectricalConsumer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/electrical#electricalEfficiency> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#ElectricalConsumer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/electrical#powerIn> .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#ElectricalConsumer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/electrical#powerOut> .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+# 
+# http://www.bim4ren.eu/domain/electrical#ElectricalProducer
+<http://www.bim4ren.eu/domain/electrical#ElectricalProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#ElectricalProducer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/electrical#electricalEfficiency> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/electrical#ElectricalProducer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/electrical#powerOut> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+# 
+# http://www.bim4ren.eu/domain/electrical#ElectricityTariff
+<http://www.bim4ren.eu/domain/electrical#ElectricityTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#ElectricityTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Electricity tariff"@en .
+<http://www.bim4ren.eu/domain/electrical#ElectricityTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarif d'électricité"@fr .
+<http://www.bim4ren.eu/domain/electrical#ElectricityTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarifa de electricidad"@es .
+<http://www.bim4ren.eu/domain/electrical#ElectricityTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tariffa elettrica"@it .
+# 
+# http://www.bim4ren.eu/domain/electrical#FixedTariff
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/electrical#ElectricityTariff> .
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Fixed electricity tariff"@en .
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarif d'électricité fixe"@fr .
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarifa fija de electricidad"@es .
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tariffa elettrica fissa"@it .
+# 
+# http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/electrical#VariableTariff> .
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Peak - off-peak hours tariff"@en .
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarif heures pleines - heures creuses"@fr .
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarifa de horas pico - no pico"@es .
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tariffa ore di punta - non di punta"@it .
+# 
+# http://www.bim4ren.eu/domain/electrical#SubscriptionType
+<http://www.bim4ren.eu/domain/electrical#SubscriptionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/electrical#SubscruptionType
+<http://www.bim4ren.eu/domain/electrical#SubscruptionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/electrical#VariableTariff
+<http://www.bim4ren.eu/domain/electrical#VariableTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#VariableTariff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/electrical#ElectricityTariff> .
+<http://www.bim4ren.eu/domain/electrical#VariableTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarif d'électricité variable"@fr .
+<http://www.bim4ren.eu/domain/electrical#VariableTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarifa variable de electricidad"@es .
+<http://www.bim4ren.eu/domain/electrical#VariableTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tariffa elettrica variabile"@it .
+<http://www.bim4ren.eu/domain/electrical#VariableTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Variable electricity tariff"@en .
+# 
+# http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/electrical#VariableTariff> .
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarif week-end - semaine"@fr .
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tarifa de fin de semana - días laborables"@es .
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Tariffa weekend - giorni feriali"@it .
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/2000/01/rdf-schema#label> "Weekend - weekdays tariff"@en .
+# 
+# http://www.bim4ren.eu/property#SubscriptionType
+<http://www.bim4ren.eu/property#SubscriptionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/property#SubscriptionType> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/2002/07/owl#oneOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/domain/electrical#ANNUAL> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.bim4ren.eu/property#SubscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "Electricity subscription"@en .
+<http://www.bim4ren.eu/property#SubscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de suscripción"@es .
+<http://www.bim4ren.eu/property#SubscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di abbonamento"@it .
+<http://www.bim4ren.eu/property#SubscriptionType> <http://www.w3.org/2000/01/rdf-schema#label> "Type d'abonnement"@fr .
+# 
+# https://w3id.org/def/basicsemantics-owl#QuantityValue
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/electrical#ANNUAL
+<http://www.bim4ren.eu/domain/electrical#ANNUAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/electrical#ANNUAL> <http://www.w3.org/2000/01/rdf-schema#label> "Annual"@en .
+<http://www.bim4ren.eu/domain/electrical#ANNUAL> <http://www.w3.org/2000/01/rdf-schema#label> "Annuale"@es .
+<http://www.bim4ren.eu/domain/electrical#ANNUAL> <http://www.w3.org/2000/01/rdf-schema#label> "Annuale"@it .
+<http://www.bim4ren.eu/domain/electrical#ANNUAL> <http://www.w3.org/2000/01/rdf-schema#label> "Annuel"@fr .
+# 
+# http://www.bim4ren.eu/domain/electrical#MONTHLY
+<http://www.bim4ren.eu/domain/electrical#MONTHLY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/electrical#MONTHLY> <http://www.w3.org/2000/01/rdf-schema#label> "Mensile"@it .
+<http://www.bim4ren.eu/domain/electrical#MONTHLY> <http://www.w3.org/2000/01/rdf-schema#label> "Mensual"@es .
+<http://www.bim4ren.eu/domain/electrical#MONTHLY> <http://www.w3.org/2000/01/rdf-schema#label> "Mensuel"@fr .
+<http://www.bim4ren.eu/domain/electrical#MONTHLY> <http://www.w3.org/2000/01/rdf-schema#label> "Monthly"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

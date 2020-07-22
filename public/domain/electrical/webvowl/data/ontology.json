@@ -1,0 +1,537 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "it", "fr", "es" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.w3.org/2000/01/rdf-schema", "http://www.bim4ren.eu/domain/electrical", "https://w3id.org/def/basicsemantics-owl" ],
+    "iri" : "http://www.bim4ren.eu/domain/electrical#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "16",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "17",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#SubscruptionType",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubscruptionType"
+    },
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "1",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "16",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "17",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#ElectricityTariff",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectricityTariff",
+      "en" : "Electricity tariff",
+      "it" : "Tariffa elettrica",
+      "fr" : "Tarif d'électricité",
+      "es" : "Tarifa de electricidad"
+    },
+    "subClasses" : [ "19", "21" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#VariableTariff",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VariableTariff",
+      "en" : "Variable electricity tariff",
+      "it" : "Tariffa elettrica variabile",
+      "fr" : "Tarif d'électricité variable",
+      "es" : "Tarifa variable de electricidad"
+    },
+    "subClasses" : [ "22", "23" ],
+    "id" : "21",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#FixedTariff",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FixedTariff",
+      "en" : "Fixed electricity tariff",
+      "it" : "Tariffa elettrica fissa",
+      "fr" : "Tarif d'électricité fixe",
+      "es" : "Tarifa fija de electricidad"
+    },
+    "id" : "19",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#ElectricalConsumer",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectricalConsumer"
+    },
+    "id" : "10"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#SubscriptionType",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubscriptionType",
+      "en" : "Electricity subscription",
+      "it" : "Tipo di abbonamento",
+      "fr" : "Type d'abonnement",
+      "es" : "Tipo de suscripción"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/electrical#MONTHLY",
+      "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+      "labels" : {
+        "IRI-based" : "MONTHLY",
+        "en" : "Monthly",
+        "it" : "Mensile",
+        "fr" : "Mensuel",
+        "es" : "Mensual"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/electrical#ANNUAL",
+      "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+      "labels" : {
+        "IRI-based" : "ANNUAL",
+        "en" : "Annual",
+        "it" : "Annuale",
+        "fr" : "Annuel",
+        "es" : "Annuale"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#SubscriptionType",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubscriptionType"
+    },
+    "id" : "29"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PeakOffPeakHoursTariff",
+      "en" : "Peak - off-peak hours tariff",
+      "it" : "Tariffa ore di punta - non di punta",
+      "fr" : "Tarif heures pleines - heures creuses",
+      "es" : "Tarifa de horas pico - no pico"
+    },
+    "id" : "22",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WeekEndWeekDaysTariff",
+      "en" : "Weekend - weekdays tariff",
+      "it" : "Tariffa weekend - giorni feriali",
+      "fr" : "Tarif week-end - semaine",
+      "es" : "Tarifa de fin de semana - días laborables"
+    },
+    "id" : "23",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#ElectricalProducer",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectricalProducer"
+    },
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+    "baseIri" : "https://w3id.org/def/basicsemantics-owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QuantityValue"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "12",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "14",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "27",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#offPeakHours",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "offPeakHours",
+      "en" : "off-peak hours",
+      "it" : "ore non di punta",
+      "fr" : "heures creuses",
+      "es" : "horas de poca actividad"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#power",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "power"
+    },
+    "domain" : "4",
+    "subproperty" : [ "5", "6" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#subscriptionPrice",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "subscriptionPrice",
+      "en" : "subscription price",
+      "it" : "abbonamento prezzo",
+      "fr" : "prix del'abonnement",
+      "es" : "suscripción precio"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#electricalEfficiency",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "electricalEfficiency"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "10",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#electricalEfficiency",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "electricalEfficiency"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "13",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#powerOut",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "powerOut"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "13",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "14"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#ratio",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "ratio"
+    },
+    "domain" : "4",
+    "subproperty" : [ "24", "25" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#powerOut",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "powerOut"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "10",
+    "attributes" : [ "object", "allValues" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#powerIn",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "powerIn"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "10",
+    "attributes" : [ "object", "allValues" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#subscriptionType",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "subscriptionType",
+      "en" : "electricity subscription",
+      "it" : "tipo di abbonamento",
+      "fr" : "type d'abonnement",
+      "es" : "tipo de suscripción"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#peakHours",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "peakHours",
+      "en" : "peak hours",
+      "it" : "ore di punta",
+      "fr" : "heures pleines",
+      "es" : "horas pico"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#weekdaysHours",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "weekdaysHours",
+      "en" : "weekdays hours",
+      "it" : "ore feriali",
+      "fr" : "heures semaine",
+      "es" : "horas entre semana"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#meterPower",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/ApparentPower",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "meterPower",
+      "en" : "subscription power",
+      "it" : "potere di abbonamento",
+      "fr" : "puissance souscrite d'abonnement",
+      "es" : "poder de suscripción"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#electricitySubscription",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "electricitySubscription",
+      "en" : "electricity subscription",
+      "it" : "abbonamento elettrico",
+      "fr" : "abonnement electricité",
+      "es" : "suscripción de electricidad"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#solarConversionFactor",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "solarConversionFactor",
+      "en" : "conversion factor",
+      "fr" : "facteur de conversion solaire"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/electrical#weekEndHours",
+    "baseIri" : "http://www.bim4ren.eu/domain/electrical",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "weekEndHours",
+      "en" : "weekend hours",
+      "it" : "ore del fine settimana",
+      "fr" : "heures week-end",
+      "es" : "horas de fin de semana"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "range" : "20",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#price",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "price",
+      "en" : "kWh price",
+      "it" : "kWh prezzo",
+      "fr" : "prix du kWh TTC",
+      "es" : "kwh precio"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "4",
+    "subproperty" : [ "7", "8" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "range" : "21",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "21",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  } ]
+}
