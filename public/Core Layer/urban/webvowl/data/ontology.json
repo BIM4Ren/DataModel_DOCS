@@ -1,0 +1,935 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "it", "fr", "es" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.w3.org/2000/01/rdf-schema", "http://bim4ren.eu/urban" ],
+    "iri" : "http://bim4ren.eu/urban"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://bim4ren.eu/urban#Zone",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone"
+    },
+    "subClasses" : [ "1", "2", "3", "4" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#HeatNetwork",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeatNetwork"
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#FlowInfrastructure",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlowInfrastructure",
+      "fr" : "Réseau"
+    },
+    "subClasses" : [ "5", "10", "11", "12", "13" ],
+    "id" : "6",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#PeatonalStreet",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PeatonalStreet"
+    },
+    "id" : "14",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Airport",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airport"
+    },
+    "id" : "15",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Parking",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Parking"
+    },
+    "id" : "28",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Shape",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shape",
+      "en" : "Shape",
+      "fr" : "Forme",
+      "es" : "Forma"
+    },
+    "subClasses" : [ "40", "41", "42", "43", "44" ],
+    "comment" : {
+      "en" : "A predefined 3D shape that can be associated to an urban object. All the predefined shapes are basic vomumetric objects."
+    },
+    "id" : "39"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#GazNetwork",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GazNetwork"
+    },
+    "id" : "13",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#PrivateParkingPlace",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrivateParkingPlace"
+    },
+    "id" : "46",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Positioning",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Positioning",
+      "en" : "Positioning "
+    },
+    "id" : "37"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Railway",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Railway"
+    },
+    "id" : "27",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Cuboid",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cuboid"
+    },
+    "id" : "42",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#BlockOfBuilding",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BlockOfBuilding"
+    },
+    "id" : "33",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Sea",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sea"
+    },
+    "id" : "51",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#River",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "River"
+    },
+    "id" : "58",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Park",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park"
+    },
+    "id" : "23",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#ElectrictyNetwork",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectrictyNetwork"
+    },
+    "id" : "12",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Pyramid",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pyramid"
+    },
+    "id" : "41",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Cylinder",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cylinder"
+    },
+    "id" : "43",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "38",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://bim4ren.eu/urban#PublicParkingPlace",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicParkingPlace"
+    },
+    "id" : "75",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "19",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Object",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object"
+    },
+    "subClasses" : [ "60", "47", "53", "6", "35" ],
+    "comment" : {
+      "en" : "An object of importance in the urban environment, regarding the thermal reonvation of a specific buildings."
+    },
+    "id" : "9"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#VerticalProjection",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VerticalProjection",
+      "en" : "vertical projection",
+      "it" : "proiezione verticale",
+      "fr" : "vue du ciel",
+      "es" : "proyección vertical"
+    },
+    "id" : "66"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Forest",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Forest"
+    },
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#CyclingRoad",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CyclingRoad"
+    },
+    "id" : "31",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#BuiltArea",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuiltArea",
+      "fr" : "Zone construite"
+    },
+    "subClasses" : [ "33", "28" ],
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Building",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building",
+      "en" : "Building",
+      "fr" : "Bâtiment",
+      "es" : "Edificio"
+    },
+    "id" : "60",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#CommunicationNetwork",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicationNetwork"
+    },
+    "id" : "10",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#CirculationZone",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CirculationZone",
+      "fr" : "Aménagement routier"
+    },
+    "subClasses" : [ "15", "27", "25", "31", "14" ],
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Agriculture",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agriculture"
+    },
+    "id" : "17",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#GreenZone",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GreenZone"
+    },
+    "subClasses" : [ "23", "17", "8" ],
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Shade",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shade"
+    },
+    "id" : "53",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Lake",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lake"
+    },
+    "id" : "78",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Sphere",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sphere"
+    },
+    "id" : "40",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#ParkingPlace",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParkingPlace"
+    },
+    "subClasses" : [ "75", "46" ],
+    "id" : "47",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#WaterBody",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterBody"
+    },
+    "subClasses" : [ "51", "58", "78" ],
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#WaterNetwork",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterNetwork"
+    },
+    "id" : "11",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Road",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Road"
+    },
+    "id" : "25",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Tree",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tree"
+    },
+    "id" : "35",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://bim4ren.eu/urban#Cone",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cone"
+    },
+    "id" : "44",
+    "superClasses" : [ "39" ]
+  } ],
+  "property" : [ {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "4",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#ratio",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "ratio"
+    },
+    "domain" : "19",
+    "subproperty" : [ "20", "21" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "3",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "3",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "3",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "3",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "9",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#altitude",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "38",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/Length",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "altitude",
+      "en" : "Altitude "
+    },
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "range" : "3",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "1",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#latitude",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "latitude",
+      "en" : "Latitude "
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "range" : "9",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "9",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "9",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "39",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "39",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "9",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "39",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#urbanZoneRatio",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "urbanZoneRatio",
+      "en" : "urban density",
+      "fr" : "part de végétalisation"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "19",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "range" : "6",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "39",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "39",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#greenZoneRatio",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "greenZoneRatio",
+      "en" : "part of vegetalisation",
+      "fr" : "part de végétalisation"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "19",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#hasVerticalProjection",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasVerticalProjection"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "6",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#longitude",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "longitude",
+      "en" : "Longitude "
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://bim4ren.eu/urban#hasPosition",
+    "baseIri" : "http://bim4ren.eu/urban",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasPosition"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#angle",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "angle"
+    },
+    "domain" : "19",
+    "subproperty" : [ "76", "49" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
+  }, {
+    "range" : "2",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "47",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "47",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "2",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "2",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  } ]
+}

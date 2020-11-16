@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bim4ren.eu/sot#"
+     xml:base="http://www.bim4ren.eu/sot"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.bim4ren.eu/sot#">
+        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/sot/0.1"/>
+        <terms:contributor>Nathalie Charbel</terms:contributor>
+        <terms:contributor>Pierre Bourreau</terms:contributor>
+        <terms:description xml:lang="en">The systems ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to describe systems installed in a building and the relation between those. Such systems can be thermal, digital, water circulation...</terms:description>
+        <terms:title xml:lang="en">The BIM4Ren systems topology ontology</terms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#connectedWith -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/sot#connectedWith">
+        <rdfs:domain rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:range rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:label>connected with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#hasElements -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/sot#hasElements">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.bim4ren.eu/sot#hasElements"/>
+            <rdf:Description rdf:about="http://www.bim4ren.eu/sot#connectedWith"/>
+        </owl:propertyChainAxiom>
+        <rdfs:comment xml:lang="en">A relation between a complex system and subcomponents</rdfs:comment>
+        <rdfs:label xml:lang="en">has elements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#performs -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/sot#performs">
+        <rdfs:domain rdf:resource="http://www.bim4ren.eu/sot#System"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/sot#performs"/>
+                <owl:someValuesFrom rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">performs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#uses -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/sot#uses">
+        <rdfs:domain rdf:resource="http://www.bim4ren.eu/sot#System"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/sot#uses"/>
+                <owl:someValuesFrom rdf:resource="http://www.bim4ren.eu/sot#Medium"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">uses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#ControlElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#ControlElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:comment xml:lang="en">A control element is used to control a network. Some examples are valves, actuators...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#EmissionElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#EmissionElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TerminalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#Function -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#Function"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#Medium -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#Medium">
+        <rdfs:comment xml:lang="en">For a given system, the medium associated is the physical component on which it acts. In particular HVAC systems act on air, water... or other mediums. The medium is to be related to the Function associated to a system.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#ProductionElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#ProductionElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TerminalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#StorageElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#StorageElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:comment xml:lang="en">A storage element&apos;s role is to accumulate quantities of a specific medium. Examples are water tanks, electrical batteries...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#System -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#System">
+        <owl:disjointWith rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:comment xml:lang="en">An HVAC system. May describe a system for heating, cooling and ventilating a building, (partially, or fully), or a se of buildings.
+It is made of a) terminal elements that can either produce and emit the property associated (heat, cold, air), b) transport elements that allow the flow, c) and management elements that control the flow.</rdfs:comment>
+        <rdfs:label xml:lang="es">Sistema</rdfs:label>
+        <rdfs:label xml:lang="it">Sistema</rdfs:label>
+        <rdfs:label xml:lang="en">System</rdfs:label>
+        <rdfs:label xml:lang="fr">Système</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#SystemComponent -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#SystemComponent">
+        <rdfs:label xml:lang="en">System Element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#TerminalElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#TerminalElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:comment xml:lang="en">A terminal element&apos;s role is to either deliver or consume some material: for instance, a solar panel is an electricy producer, while a lamp is an electricty consumer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#TransportElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#TransportElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:comment xml:lang="en">A transport element&apos;s role is to dispatch some matter from one point to another. Examples are ducts, electric cables...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#air -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#air">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#cool -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#cool">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+        <rdfs:comment xml:lang="fr">Climatisation</rdfs:comment>
+        <rdfs:label xml:lang="fr">Climatisation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#deliverDrinkableWater -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#deliverDrinkableWater">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+        <rdfs:label xml:lang="fr">Eau potable</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#deliverElectricity -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#deliverElectricity">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+        <rdfs:label xml:lang="fr">Réseau électrique</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#electricity -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#electricity">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Medium"/>
+        <rdfs:label xml:lang="fr">Electricité</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#gas -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#gas">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Medium"/>
+        <rdfs:label xml:lang="fr">Gaz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#heat -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#heat">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+        <rdfs:label xml:lang="fr">Chauffage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#heatWater -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#heatWater">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+        <rdfs:label xml:lang="es">ACS</rdfs:label>
+        <rdfs:label xml:lang="es">Agua caliente sanitaria</rdfs:label>
+        <rdfs:label xml:lang="fr">ECS</rdfs:label>
+        <rdfs:label xml:lang="fr">Eau chaude</rdfs:label>
+        <rdfs:label xml:lang="fr">Eau chaude sanitaire</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#solarRadiance -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#solarRadiance">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Medium"/>
+        <rdfs:label xml:lang="fr">Raditation solaire</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#ventilate -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#ventilate">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Function"/>
+        <rdfs:label xml:lang="fr">Ventilation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#water -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/sot#water">
+        <rdf:type rdf:resource="http://www.bim4ren.eu/sot#Medium"/>
+        <rdfs:label xml:lang="fr">Eau</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.bim4ren.eu/sot#ControlElement"/>
+            <rdf:Description rdf:about="http://www.bim4ren.eu/sot#StorageElement"/>
+            <rdf:Description rdf:about="http://www.bim4ren.eu/sot#TerminalElement"/>
+            <rdf:Description rdf:about="http://www.bim4ren.eu/sot#TransportElement"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

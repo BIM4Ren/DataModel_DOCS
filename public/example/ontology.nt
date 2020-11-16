@@ -1,0 +1,300 @@
+<http://www.bim4ren.eu/example#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/example#> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+<http://www.bim4ren.eu/example#> <http://www.w3.org/2002/07/owl#imports> <https://pi.pauwel.be/voc/buildingelement#> .
+<http://www.bim4ren.eu/example#> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/def/basicsemantics-owl#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/core/intervention#endDate
+<http://www.bim4ren.eu/core/intervention#endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/core/intervention#performedBy
+<http://www.bim4ren.eu/core/intervention#performedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/core/intervention#startDate
+<http://www.bim4ren.eu/core/intervention#startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#electricitySubscription
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#kwhPrice
+<http://www.bim4ren.eu/domain/electrical#kwhPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#off-PeakHours
+<http://www.bim4ren.eu/domain/electrical#off-PeakHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#peakHours
+<http://www.bim4ren.eu/domain/electrical#peakHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#subscriptionPower
+<http://www.bim4ren.eu/domain/electrical#subscriptionPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#subscriptionPrice
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#subscriptionType
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#weekdaysHours
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/electrical#weekendHours
+<http://www.bim4ren.eu/domain/electrical#weekendHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/thermal#boilerEfficiency
+<http://www.bim4ren.eu/domain/thermal#boilerEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/thermal#efficiencyType
+<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/domain/thermal#load
+<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/property#accuracy
+<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/property#fromTime
+<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/property#height
+<http://www.bim4ren.eu/property#height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.bim4ren.eu/property#toTime
+<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#value
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/basicsemantics-owl#unit
+<https://w3id.org/def/basicsemantics-owl#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/dot#coveredByInspection
+<https://w3id.org/dot#coveredByInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/dot#descriptionContent
+<https://w3id.org/dot#descriptionContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/dot#filePath
+<https://w3id.org/dot#filePath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/dot#hasDamage
+<https://w3id.org/dot#hasDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/dot#hasDocumentation
+<https://w3id.org/dot#hasDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/buildings#Appartment
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/core/intervention#Checking
+<http://www.bim4ren.eu/core/intervention#Checking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/core/intervention#Organization
+<http://www.bim4ren.eu/core/intervention#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/electrical#FixedTariff
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://pi.pauwel.be/voc/distributionelement#Boiler
+<https://pi.pauwel.be/voc/distributionelement#Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/dot#Inspection
+<https://w3id.org/dot#Inspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/example#Window_1
+<http://www.bim4ren.eu/example#Window_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#Window_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pi.pauwel.be/voc/buildingelement#Window> .
+<http://www.bim4ren.eu/example#Window_1> <http://www.bim4ren.eu/property#height> _:genid1 .
+_:genid1 <http://www.bim4ren.eu/property#accuracy> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "44.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid1 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/CentiM> .
+# 
+# http://www.bim4ren.eu/example#appart_1
+<http://www.bim4ren.eu/example#appart_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#appart_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/buildings#Appartment> .
+<http://www.bim4ren.eu/example#appart_1> <http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.bim4ren.eu/example#fixedtariff_option1> .
+# 
+# http://www.bim4ren.eu/example#appart_2
+<http://www.bim4ren.eu/example#appart_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#appart_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/buildings#Appartment> .
+<http://www.bim4ren.eu/example#appart_2> <http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.bim4ren.eu/example#fixedtariff_option2> .
+# 
+# http://www.bim4ren.eu/example#appart_3
+<http://www.bim4ren.eu/example#appart_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#appart_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/buildings#Appartment> .
+<http://www.bim4ren.eu/example#appart_3> <http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> .
+# 
+# http://www.bim4ren.eu/example#appart_4
+<http://www.bim4ren.eu/example#appart_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#appart_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/buildings#Appartment> .
+<http://www.bim4ren.eu/example#appart_4> <http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> .
+# 
+# http://www.bim4ren.eu/example#appart_5
+<http://www.bim4ren.eu/example#appart_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#appart_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/buildings#Appartment> .
+<http://www.bim4ren.eu/example#appart_5> <http://www.bim4ren.eu/domain/electrical#electricitySubscription> <http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2> .
+# 
+# http://www.bim4ren.eu/example#boiler_1
+<http://www.bim4ren.eu/example#boiler_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#boiler_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://pi.pauwel.be/voc/distributionelement#Boiler> .
+<http://www.bim4ren.eu/example#boiler_1> <http://www.bim4ren.eu/domain/thermal#boilerEfficiency> _:genid3 .
+_:genid3 <http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.bim4ren.eu/domain/thermal#CERTIFIED> .
+_:genid3 <http://www.bim4ren.eu/domain/thermal#load> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid4 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/PERCENT> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid3 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/PERCENT> .
+<http://www.bim4ren.eu/example#boiler_1> <https://w3id.org/dot#hasDamage> _:genid5 .
+_:genid5 <https://w3id.org/dot#coveredByInspection> <http://www.bim4ren.eu/example#insepction_1> .
+# 
+# http://www.bim4ren.eu/example#fixedtariff_option1
+<http://www.bim4ren.eu/example#fixedtariff_option1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#fixedtariff_option1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/electrical#FixedTariff> .
+<http://www.bim4ren.eu/example#fixedtariff_option1> <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1546"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid6 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#fixedtariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid7 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+<http://www.bim4ren.eu/example#fixedtariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "8.26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid8 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#fixedtariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+# 
+# http://www.bim4ren.eu/example#fixedtariff_option2
+<http://www.bim4ren.eu/example#fixedtariff_option2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#fixedtariff_option2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/electrical#FixedTariff> .
+<http://www.bim4ren.eu/example#fixedtariff_option2> <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1587"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid9 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#fixedtariff_option2> <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid10 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+<http://www.bim4ren.eu/example#fixedtariff_option2> <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "11.97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid11 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#fixedtariff_option2> <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+# 
+# http://www.bim4ren.eu/example#insepction_1
+<http://www.bim4ren.eu/example#insepction_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#insepction_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/core/intervention#Checking> .
+<http://www.bim4ren.eu/example#insepction_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dot#Inspection> .
+<http://www.bim4ren.eu/example#insepction_1> <http://www.bim4ren.eu/core/intervention#endDate> "2020-01-26T12:00:19"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/example#insepction_1> <http://www.bim4ren.eu/core/intervention#performedBy> <http://www.bim4ren.eu/example#organization_1> .
+<http://www.bim4ren.eu/example#insepction_1> <http://www.bim4ren.eu/core/intervention#startDate> "2020-01-26T11:32:52"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.bim4ren.eu/example#insepction_1> <https://w3id.org/dot#hasDocumentation> _:genid12 .
+_:genid12 <https://w3id.org/dot#descriptionContent> "inspection related to boiler damage: Low-Water Condition" .
+<http://www.bim4ren.eu/example#insepction_1> <https://w3id.org/dot#hasDocumentation> _:genid13 .
+_:genid13 <https://w3id.org/dot#filePath> "http://organization1.com/projectx/interventions/damage1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.bim4ren.eu/example#organization_1
+<http://www.bim4ren.eu/example#organization_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#organization_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/core/intervention#Organization> .
+# 
+# http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> .
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.bim4ren.eu/domain/electrical#off-PeakHours> _:genid14 .
+_:genid14 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1781"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid15 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+_:genid14 <http://www.bim4ren.eu/property#fromTime> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid16 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+_:genid14 <http://www.bim4ren.eu/property#toTime> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid17 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.bim4ren.eu/domain/electrical#peakHours> _:genid18 .
+_:genid18 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1337"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid19 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+_:genid18 <http://www.bim4ren.eu/property#fromTime> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid20 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+_:genid18 <http://www.bim4ren.eu/property#toTime> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid21 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid22 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "11.10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid23 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+# 
+# http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid24 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9.98"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid25 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.bim4ren.eu/domain/electrical#weekdaysHours> _:genid26 .
+_:genid26 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1707"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid27 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1> <http://www.bim4ren.eu/domain/electrical#weekendHours> _:genid28 .
+_:genid28 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1405"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid29 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2> <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid30 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2> <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "11.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid31 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2> <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2> <http://www.bim4ren.eu/domain/electrical#weekdaysHours> _:genid32 .
+_:genid32 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1749"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid33 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+<http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2> <http://www.bim4ren.eu/domain/electrical#weekendHours> _:genid34 .
+_:genid34 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.1426"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid35 <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

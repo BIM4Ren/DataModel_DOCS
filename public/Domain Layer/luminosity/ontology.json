@@ -1,0 +1,141 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/luminosity#reflection"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/luminosity#skyAngle"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/luminosity#transmittance"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property#"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity#OpaqueElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "elemento opaco"
+  }, {
+    "@language" : "it",
+    "@value" : "elemento opaco"
+  }, {
+    "@language" : "en",
+    "@value" : "opaque element"
+  }, {
+    "@language" : "fr",
+    "@value" : "élément opaque"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity#TransparentElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "element transparent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity#reflection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "R"
+  }, {
+    "@language" : "fr",
+    "@value" : "facteur de réflexion moyen"
+  }, {
+    "@language" : "en",
+    "@value" : "reflection"
+  }, {
+    "@language" : "es",
+    "@value" : "reflexión"
+  }, {
+    "@language" : "it",
+    "@value" : "riflessione"
+  }, {
+    "@language" : "fr",
+    "@value" : "réflexion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#ratio"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity#skyAngle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity#transmittance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "TL"
+  }, {
+    "@language" : "fr",
+    "@value" : "coefficient de transmission lumineuse"
+  }, {
+    "@language" : "en",
+    "@value" : "transmittance"
+  }, {
+    "@language" : "fr",
+    "@value" : "transmittance"
+  }, {
+    "@language" : "es",
+    "@value" : "transmittancia"
+  }, {
+    "@language" : "it",
+    "@value" : "transmittanza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#ratio"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "angle de ciel visible"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#angle"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#angle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#ratio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

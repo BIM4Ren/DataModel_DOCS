@@ -1,0 +1,823 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "it", "fr", "es" ],
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.bim4ren.eu/actors", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.bim4ren.eu/actors"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#WorkType",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkType",
+      "en" : "Work type",
+      "fr" : "Type de travail"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/actors#SELF_EMPLOYED",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An occupant who is working for oneself as a freelance or who is the owner of a business",
+        "fr" : "Un occupant qui travaille pour soi-même en tant que freelance ou qui est le propriétaire d'une entreprise"
+      },
+      "labels" : {
+        "IRI-based" : "SELF_EMPLOYED",
+        "en" : "Self employed",
+        "fr" : "Travailleur indépendant"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#UNEMPLOYED",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An occupant without a paid job",
+        "fr" : "Un occupant sans emploi"
+      },
+      "labels" : {
+        "IRI-based" : "UNEMPLOYED",
+        "en" : "Unemployed",
+        "fr" : "sans emploi"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#EMPLOYED",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An occupant having a paid job",
+        "fr" : "Un occupant ayant un emploi rémunéré"
+      },
+      "labels" : {
+        "IRI-based" : "EMPLOYED",
+        "en" : "Employed",
+        "fr" : "Employé"
+      }
+    } ],
+    "comment" : {
+      "en" : "Describes the occupant type of work",
+      "fr" : "Décrit le type de travail d'un occupant"
+    },
+    "id" : "13"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#Occupant",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "http://bsdd.buildingsmart.org/#concept/details/289KpOp8L4MBqIToXk2Uxq",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Occupant",
+      "en" : "Occupant",
+      "fr" : "Occupant"
+    },
+    "comment" : {
+      "en" : "A type of actor that defines the form of occupancy of a property",
+      "fr" : "Un type d'acteur qui définit la forme d'occupation d'une propriété"
+    },
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#AgeCategory",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AgeCategory",
+      "en" : "Age category",
+      "fr" : "Catégorie d'âge"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/actors#CHILD",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "A child is a person aged between 1 year and 11 years inclusive",
+        "fr" : "Un enfant est une personne âgée entre 1 an et 11 ans inclus"
+      },
+      "labels" : {
+        "IRI-based" : "CHILD",
+        "en" : "Child",
+        "fr" : "Enfant"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#TEENAGER",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "A teenager is a person aged between 12 and 17 years inclusive",
+        "fr" : "Un adolescent est une personne âgée entre 12 et 17 ans inclus"
+      },
+      "labels" : {
+        "IRI-based" : "TEENAGER",
+        "en" : "Teenager",
+        "fr" : "Adolescent"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#ADULT",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An adult is a person aged between 18 and 64 inclusive",
+        "fr" : "Un adulte est une personne âgée antre 18 et 64 ans inclus"
+      },
+      "labels" : {
+        "IRI-based" : "ADULT",
+        "en" : "Adult",
+        "fr" : "Adulte"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#BABY",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "A baby is a person who is less than a year old",
+        "fr" : "Un bébé est une personne qui a moins d'un an"
+      },
+      "labels" : {
+        "IRI-based" : "BABY",
+        "en" : "Baby",
+        "fr" : "Bébé"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#ELDERLY",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An elderly is a person aged 65 and over",
+        "fr" : "Un personne âgée est une personne qui a 65 ans et plus"
+      },
+      "labels" : {
+        "IRI-based" : "ELDERLY",
+        "en" : "Elderly",
+        "fr" : "Personne âgée"
+      }
+    } ],
+    "comment" : {
+      "en" : "Corresponds to a classification according to people age groups",
+      "fr" : "Correspond à une classification selon les tranches d'ages de personnes"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#WorkSituation",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkSituation",
+      "en" : "Work situation",
+      "fr" : "Situation de travail"
+    },
+    "comment" : {
+      "en" : "Describes the work situation of an occupant, mainly the type of work (if any), and its related income",
+      "fr" : "Décrit la situation de travail d'un occupant, principalement le type de travail (le cas échéant) et son revenu"
+    },
+    "id" : "12"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#OccupancyTimeRange",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OccupancyTimeRange",
+      "en" : "Occupancy time range",
+      "fr" : "Intervalle de temps d'occupation"
+    },
+    "comment" : {
+      "en" : "The occupancy time range related to an occupant and a given area",
+      "fr" : "L'intervalle de temps d'occupation lié à un occupant et une zone donnée"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#OccupancyProfile",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OccupancyProfile",
+      "en" : "Occupancy profile",
+      "fr" : "Profile d'occupation"
+    },
+    "comment" : {
+      "en" : "An occupancy profile describes some useful occupancy information (e.g., the occupancy time range) related to an occuppant associated to a given zone",
+      "fr" : "Le profil d'occupation décrit certaines informations utiles (par exemple,les intervales d'occupation) liées à un occupant pour une zone donnée"
+    },
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/bot#Zone",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#BuildingOwner",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "fr",
+        "value" : "http://bsdd.buildingsmart.org/#concept/details/1B9uxpQzj5KBf25MREZyEH",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BuildingOwner",
+      "en" : "Building owner",
+      "fr" : "Maître d'ouvrage"
+    },
+    "comment" : {
+      "en" : "Person or entity for whom the project is carried out",
+      "fr" : "Personne physique ou morale pour laquelle le projet est réalisé"
+    },
+    "id" : "23",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#EnergyPolicy",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnergyPolicy",
+      "en" : "Energy policy",
+      "it" : "Politica energetica",
+      "fr" : "Politique énergétique",
+      "es" : "Política energética"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/actors#ECO_PLUS",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An occupant who is eco friendly++",
+        "fr" : "Un occupant éco-responsable++"
+      },
+      "labels" : {
+        "IRI-based" : "ECO_PLUS",
+        "en" : "Eco friendly++",
+        "it" : "Ecológico++",
+        "fr" : "Eco-responsable++",
+        "es" : "Ecológico++"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#COMFORT",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An occupant who is not eco friendly",
+        "fr" : "Un occupant qui n'est pas éco-responsable"
+      },
+      "labels" : {
+        "IRI-based" : "COMFORT",
+        "en" : "Comfort",
+        "it" : "Comodità",
+        "fr" : "Confort",
+        "es" : "Comodidad"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/actors#ECO",
+      "baseIri" : "http://www.bim4ren.eu/actors",
+      "comment" : {
+        "en" : "An occupant who is eco friendly",
+        "fr" : "Un occupant éco-responsable"
+      },
+      "labels" : {
+        "IRI-based" : "ECO",
+        "en" : "Eco friendly",
+        "it" : "Ecológico",
+        "fr" : "Eco-responsable",
+        "es" : "Ecológico"
+      }
+    } ],
+    "comment" : {
+      "en" : "Defines to what extent the occupant pays attention to energy, and therefore has impacts on the heating or the use of certain devices during the simulation.",
+      "fr" : "Définit à quel point les occupants font attention ou non à l’énergie, et donc ont des impacts sur le chauffage ou l’utilisation de certains appareils durant la simulation. "
+    },
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#Actor",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "http://bsdd.buildingsmart.org/#concept/details/3xQru0qRmHuO00025QrE$V",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Actor",
+      "en" : "Actor",
+      "fr" : "Acteur"
+    },
+    "subClasses" : [ "23", "17", "22" ],
+    "comment" : {
+      "en" : "A building actor, which comes down to a building manager, a building owner or an occupant",
+      "fr" : "Un acteur du bâtiment, qui peut être un maître d'oeuvre, un maître d'ouvrage ou un occupant"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "37",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#BuildingManager",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingManager",
+      "en" : "Building manager",
+      "fr" : "Maître d'oeuvre"
+    },
+    "comment" : {
+      "en" : "Person or entity chosen by the building owner for the operational management of the work",
+      "fr" : "Personne physique ou morale choisie par le maître d'ouvrage pour la conduite opérationnelle des travaux"
+    },
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "9",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "16",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "18",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "19",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.bim4ren.eu/actors#ageCategory",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "ageCategory",
+      "en" : "age category",
+      "fr" : "catégorie d'âge"
+    },
+    "domain" : "1",
+    "comment" : {
+      "fr" : "Relation décrivant le lien entre un acteur et la catégorie d'âge correspondante"
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#toDateTime",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "toDateTime",
+      "en" : "to date time",
+      "fr" : "jusqu'au date heure"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property describing the end date and time related to an occupancy profile",
+      "fr" : "Propriété décrivant la date et l'heure de fin liées à un profil d'occupation"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#occupancyTime",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "occupancyTime",
+      "en" : "temps d'occupation",
+      "fr" : "occupancy time"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Relation describing the link between an occupancy profile (associated to an occupant and a given zone) and the corresponding occupancy time range",
+      "fr" : "Relation décrivant le lien entre un profile d'occupation (associé à un occupant et une zone donnée) et l'intervalle d'occupation correspondant"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#toDateTime",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "toDateTime",
+      "en" : "to date time",
+      "fr" : "jusqu'au date heure"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Property describing the end date and time related to an occupancy profile",
+      "fr" : "Propriété décrivant la date et l'heure de fin liées à un profil d'occupation"
+    },
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#workType",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "workType",
+      "en" : "work type",
+      "fr" : "type de travail"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "Relation décrivant le lien entre la situation de travail associée à un occupant et le type de ce travail"
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#fromDateTime",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "fromDateTime",
+      "en" : "from date time",
+      "fr" : "depuis date heure"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Property describing the start date and time related to an occupancy profile",
+      "fr" : "Propriété décrivant la date et l'heure de début liées à un profil d'occupation"
+    },
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#occupancyProfile",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "occupancyProfile",
+      "fr" : "profile d'occupation"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relation describing the link between an occupant and its occupancy profile associated to a particular zone",
+      "fr" : "Relation décrivant le lien entre un occupant et son profile d'occupation associé à une zone particulière"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#workSituation",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "workSituation",
+      "en" : "work situation",
+      "fr" : "situation de travail"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relation describing the link between an occupant and its work situation",
+      "fr" : "Relation décrivant le lien entre un occupant et la situation de travail correspondate"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#workType",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "workType",
+      "en" : "work type",
+      "fr" : "type de travail"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "Relation décrivant le lien entre la situation de travail associée à un occupant et le type de ce travail"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#occupancyProfile",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "occupancyProfile",
+      "fr" : "profile d'occupation"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relation describing the link between an occupant and its occupancy profile associated to a particular zone",
+      "fr" : "Relation décrivant le lien entre un occupant et son profile d'occupation associé à une zone particulière"
+    },
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "range" : "23",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "17",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#hasEnergyPolicy",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasEnergyPolicy",
+      "en" : "energy policy",
+      "it" : "politica energetica",
+      "fr" : "politique énergétique",
+      "es" : "política energética"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Property linking an occupant to the energy policy that he adopts",
+      "fr" : "Propriété liant un occupant à la politique d'énergie qu'il adopte"
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#associatedActor",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "associatedActor",
+      "en" : "associated actor",
+      "fr" : "acteur associé"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "Relation describing the link between a zone and the associated actor, which could be the occupant or any actor having a specific role associated to the zone",
+      "fr" : "Relation décrivant le lien entre une zone et un acteur associé, qui peut être l'occupant ou tout acteur ayant un rôle spécifique associé à cette zone"
+    },
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#occupancyTime",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "occupancyTime",
+      "en" : "temps d'occupation",
+      "fr" : "occupancy time"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Relation describing the link between an occupancy profile (associated to an occupant and a given zone) and the corresponding occupancy time range",
+      "fr" : "Relation décrivant le lien entre un profile d'occupation (associé à un occupant et une zone donnée) et l'intervalle d'occupation correspondant"
+    },
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#fromDateTime",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "fromDateTime",
+      "en" : "from date time",
+      "fr" : "depuis date heure"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property describing the start date and time related to an occupancy profile",
+      "fr" : "Propriété décrivant la date et l'heure de début liées à un profil d'occupation"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#workSituation",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "workSituation",
+      "en" : "work situation",
+      "fr" : "situation de travail"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relation describing the link between an occupant and its work situation",
+      "fr" : "Relation décrivant le lien entre un occupant et la situation de travail correspondate"
+    },
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "1",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#associatedZone",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "associatedZone",
+      "en" : "associated zone",
+      "fr" : "zone associée"
+    },
+    "domain" : "37",
+    "comment" : {
+      "en" : "Relation that can describe the link between an occupant and an associated zone through the occupation profile or simply the link between an actor in general and a zone for which he has a specific role",
+      "fr" : "Relation pouvant décrire le lien entre un occupant et une zone associée à travers le profile d'occupation ou tout simplement le lien entre un acteur en général et une zone pour laquelle il a un role spécifique"
+    },
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#income",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "income",
+      "en" : "income"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "Property describing the gross annual salary of an occupant",
+      "fr" : "Propriété décrivant le salaire annuel brut d'un occupant"
+    },
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.bim4ren.eu/actors#income",
+    "baseIri" : "http://www.bim4ren.eu/actors",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "income",
+      "en" : "income"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property describing the gross annual salary of an occupant",
+      "fr" : "Propriété décrivant le salaire annuel brut d'un occupant"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  } ]
+}

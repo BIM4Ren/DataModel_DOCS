@@ -1,0 +1,251 @@
+[ {
+  "@id" : "http://bim4ren.eu/domain/airQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://qudt.org/2.1/vocab/quantitykind"
+  }, {
+    "@id" : "http://www.bim4ren.eu/property#"
+  }, {
+    "@id" : "https://w3id.org/def/basicsemantics-owl"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#C6H6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "benceno"
+  }, {
+    "@language" : "en",
+    "@value" : "benzene"
+  }, {
+    "@language" : "it",
+    "@value" : "benzene"
+  }, {
+    "@language" : "fr",
+    "@value" : "benzène"
+  }, {
+    "@value" : "C6H6"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#CH2O",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "formaldehyde"
+  }, {
+    "@language" : "es",
+    "@value" : "formaldehído"
+  }, {
+    "@language" : "it",
+    "@value" : "formaldeide"
+  }, {
+    "@language" : "fr",
+    "@value" : "formaldéhyde"
+  }, {
+    "@language" : "en",
+    "@value" : "methanal"
+  }, {
+    "@language" : "es",
+    "@value" : "methanal"
+  }, {
+    "@language" : "fr",
+    "@value" : "méthanal"
+  }, {
+    "@value" : "CH2O"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#CO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "anidride carbonica"
+  }, {
+    "@language" : "it",
+    "@value" : "biossido di carbonio"
+  }, {
+    "@language" : "en",
+    "@value" : "carbon dioxide"
+  }, {
+    "@language" : "it",
+    "@value" : "diossido di carbonio"
+  }, {
+    "@language" : "fr",
+    "@value" : "dioxide de carbone"
+  }, {
+    "@language" : "es",
+    "@value" : "dióxido de carbono"
+  }, {
+    "@language" : "fr",
+    "@value" : "gaz carbonique"
+  }, {
+    "@value" : "CO2"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#ComponentRelativeAbundance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://qudt.org/schema/qudt/QuantityKind" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@type" : "http://qudt.org/schema/qudt/LatexString",
+    "@value" : "The \"Absolute Activity\" is the exponential of the ratio of the chemical potential to \\(RT\\) where \\(R\\) is the gas constant and \\(T\\) the thermodynamic temperature."
+  } ],
+  "http://qudt.org/schema/qudt/applicableUnit" : [ {
+    "@id" : "http://bim4ren.eu/domain/airQuality#PartsPerMillion"
+  }, {
+    "@id" : "http://qudt.org/vocab/unit#KilogramPerCubicMeter"
+  } ],
+  "http://qudt.org/schema/qudt/hasDimensionVector" : [ {
+    "@id" : "http://qudt.org/vocab/dimensionvector/A0E0L-3I0M0H0T0D0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://qudt.org/2.1/vocab/quantitykind"
+  }, {
+    "@id" : "http://qudt.org/vocab/quantitykind"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Absolute Activity"
+  }, {
+    "@value" : "Absolute Activity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/InverseVolume"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#NO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "diossido di azoto"
+  }, {
+    "@language" : "fr",
+    "@value" : "dioxide d'azote"
+  }, {
+    "@language" : "es",
+    "@value" : "dióxido de nitrógeno"
+  }, {
+    "@language" : "en",
+    "@value" : "nitrogen dioxide"
+  }, {
+    "@value" : "NO2"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#O3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ozone"
+  }, {
+    "@language" : "fr",
+    "@value" : "ozone"
+  }, {
+    "@language" : "es",
+    "@value" : "ozono"
+  }, {
+    "@language" : "it",
+    "@value" : "ozono"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#PM10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric aerosol particles"
+  }, {
+    "@language" : "en",
+    "@value" : "atmospheric particulate matter"
+  }, {
+    "@language" : "it",
+    "@value" : "particolato"
+  }, {
+    "@language" : "en",
+    "@value" : "particulate matter"
+  }, {
+    "@language" : "fr",
+    "@value" : "particules en suspension"
+  }, {
+    "@language" : "es",
+    "@value" : "partículas en suspensión"
+  }, {
+    "@language" : "en",
+    "@value" : "suspended particulate matter"
+  }, {
+    "@value" : "PM"
+  }, {
+    "@value" : "PM10"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#PartsPerMillion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://qudt.org/schema/qudt#ChemistryUnit", "http://qudt.org/schema/qudt#DimensionlessUnit" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Parts per Million"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#Pollutant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#PollutantSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#SO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/domain/airQuality#Pollutant" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "anidride solforosa"
+  }, {
+    "@language" : "it",
+    "@value" : "diossido di zolfo"
+  }, {
+    "@language" : "fr",
+    "@value" : "dioxide de souffre"
+  }, {
+    "@language" : "es",
+    "@value" : "dióxido de azufre"
+  }, {
+    "@language" : "en",
+    "@value" : "sulfure dioxide"
+  }, {
+    "@language" : "es",
+    "@value" : "óxido de azufre"
+  }, {
+    "@value" : "SO2"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#pollutant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim4ren.eu/domain/airQuality#Pollutant"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/domain/airQuality#pollutantEmission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://bim4ren.eu/domain/airQuality#pollutant" : [ {
+    "@id" : "http://bim4ren.eu/domain/airQuality#Pollutant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "pression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://bim4ren.eu/domain/airQuality#ComponentRelativeAbundance"
+  } ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt#ChemistryUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt#DimensionlessUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#quantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

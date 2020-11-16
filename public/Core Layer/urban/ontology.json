@@ -1,0 +1,395 @@
+[ {
+  "@id" : "http://bim4ren.eu/urban",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property#"
+  }, {
+    "@id" : "https://w3id.org/def/basicsemantics-owl"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Agriculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#GreenZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Airport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#CirculationZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#BlockOfBuilding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#BuiltArea"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Building"
+  }, {
+    "@language" : "fr",
+    "@value" : "Bâtiment"
+  }, {
+    "@language" : "es",
+    "@value" : "Edificio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#BuiltArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Zone construite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Zone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#CirculationZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Aménagement routier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Zone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#CommunicationNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#FlowInfrastructure"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Cone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Shape"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Cuboid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Shape"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#CyclingRoad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#CirculationZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Cylinder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Shape"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#ElectrictyNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#FlowInfrastructure"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#FlowInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Réseau"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Forest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#GreenZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#GazNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#FlowInfrastructure"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#GreenZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Zone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#HeatNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#FlowInfrastructure"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Lake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#WaterBody"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object of importance in the urban environment, regarding the thermal reonvation of a specific buildings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#GreenZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Parking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#BuiltArea"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#ParkingPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#PeatonalStreet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#CirculationZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Positioning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Positioning "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#PrivateParkingPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#ParkingPlace"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#PublicParkingPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#ParkingPlace"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Pyramid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Shape"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Railway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#CirculationZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#River",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#WaterBody"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Road",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#CirculationZone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Sea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#WaterBody"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Shade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Shape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A predefined 3D shape that can be associated to an urban object. All the predefined shapes are basic vomumetric objects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Forma"
+  }, {
+    "@language" : "fr",
+    "@value" : "Forme"
+  }, {
+    "@language" : "en",
+    "@value" : "Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Sphere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Shape"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Tree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#VerticalProjection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "proiezione verticale"
+  }, {
+    "@language" : "fr",
+    "@value" : "projection verticale"
+  }, {
+    "@language" : "es",
+    "@value" : "proyección vertical"
+  }, {
+    "@language" : "en",
+    "@value" : "vertical projection"
+  }, {
+    "@language" : "fr",
+    "@value" : "vue du ciel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#WaterBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#Zone"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#WaterNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://bim4ren.eu/urban#FlowInfrastructure"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#altitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim4ren.eu/urban#Positioning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Altitude "
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/Length"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#greenZoneRatio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "part de végétalisation"
+  }, {
+    "@language" : "en",
+    "@value" : "part of vegetalisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#ratio"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#hasPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim4ren.eu/urban#Positioning"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#hasVerticalProjection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim4ren.eu/urban#Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://bim4ren.eu/urban#VerticalProjection"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#latitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim4ren.eu/urban#Positioning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Latitude "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#angle"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#longitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://bim4ren.eu/urban#Positioning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Longitude "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#angle"
+  } ]
+}, {
+  "@id" : "http://bim4ren.eu/urban#urbanZoneRatio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "part de végétalisation"
+  }, {
+    "@language" : "en",
+    "@value" : "urban density"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#ratio"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#angle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#ratio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#quantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

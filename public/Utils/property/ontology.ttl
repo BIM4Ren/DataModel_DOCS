@@ -1,0 +1,214 @@
+@prefix : <http://www.bim4ren.eu/property#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.bim4ren.eu/property#> .
+
+<http://www.bim4ren.eu/property#> rdf:type owl:Ontology ;
+                                   owl:versionIRI <http://www.bim4ren.eu/property/0.1> ;
+                                   owl:imports <http://qudt.org/vocab/quantitykind/> ,
+                                               <https://w3id.org/def/basicsemantics-owl> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#quantityKind
+<https://w3id.org/def/basicsemantics-owl#quantityKind> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.bim4ren.eu/property#accuracy
+:accuracy rdf:type owl:ObjectProperty ;
+          rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+          rdfs:label "accuracy"@en ,
+                     "accuratezza"@it ,
+                     "precisión"@es ,
+                     "précision"@fr .
+
+
+###  http://www.bim4ren.eu/property#angle
+:angle rdf:type owl:ObjectProperty ;
+       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+       rdfs:label "angle"@en ,
+                  "angle"@fr ,
+                  "angolo"@it ,
+                  "angulo"@es ;
+       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/PlaneAngle> .
+
+
+###  http://www.bim4ren.eu/property#area
+:area rdf:type owl:ObjectProperty ;
+      rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+      rdfs:label "area"@en ,
+                 "area"@it ,
+                 "surface"@fr ,
+                 "área"@es ;
+      <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Area> .
+
+
+###  http://www.bim4ren.eu/property#efficiency
+:efficiency rdf:type owl:ObjectProperty ;
+            rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+            rdfs:label "efficiency"@en ,
+                       "rendement"@fr ,
+                       "rendimento"@it ,
+                       "rendimiento"@es ;
+            <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Efficiency> .
+
+
+###  http://www.bim4ren.eu/property#flowRate
+:flowRate rdf:type owl:ObjectProperty ;
+          rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+          rdfs:label "caudal volumétrico"@es ,
+                     "débit"@fr ,
+                     "flow rate"@en ,
+                     "flujo volumétrico"@es ,
+                     "flusso"@it ,
+                     "portata"@it ,
+                     "temperatura"@it ;
+          <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/VolumeFlowRate> .
+
+
+###  http://www.bim4ren.eu/property#fromTime
+:fromTime rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :time ;
+          rdfs:label "from time"@en ,
+                     "hora de inicio"@es ,
+                     "ora di inizio"@it ,
+                     "temps début"@fr .
+
+
+###  http://www.bim4ren.eu/property#height
+:height rdf:type owl:ObjectProperty ;
+        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+        rdfs:label "altezza"@it ,
+                   "altura"@es ,
+                   "hauteur"@fr ,
+                   "height"@en ;
+        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+
+
+###  http://www.bim4ren.eu/property#power
+:power rdf:type owl:ObjectProperty ;
+       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+       rdfs:label "potencia"@es ,
+                  "potere"@it ,
+                  "power"@en ,
+                  "puissance"@fr ;
+       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Power> .
+
+
+###  http://www.bim4ren.eu/property#pressure
+:pressure rdf:type owl:ObjectProperty ;
+          rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+          rdfs:label "presión"@es ,
+                     "pression"@fr ,
+                     "pressione"@it ,
+                     "pressure"@en ;
+          <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Pressure> .
+
+
+###  http://www.bim4ren.eu/property#price
+:price rdf:type owl:ObjectProperty ;
+       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+       rdfs:label "precio"@es ,
+                  "prezzo"@it ,
+                  "price"@en ,
+                  "prix"@fr ;
+       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Currency> .
+
+
+###  http://www.bim4ren.eu/property#ratio
+:ratio rdf:type owl:ObjectProperty ;
+       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+       rdfs:label "proporción"@es ,
+                  "rapport"@fr ,
+                  "rapporto"@it ,
+                  "ratio"@en ;
+       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/DimensionlessRatio> .
+
+
+###  http://www.bim4ren.eu/property#speed
+:speed rdf:type owl:ObjectProperty ;
+       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+       rdfs:label "speed"@en ,
+                  "velocidad"@es ,
+                  "velocità"@it ,
+                  "vitesse"@fr ;
+       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Speed> .
+
+
+###  http://www.bim4ren.eu/property#temperature
+:temperature rdf:type owl:ObjectProperty ;
+             rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+             rdfs:label "temperatura"@es ,
+                        "temperatura"@it ,
+                        "temperature"@en ,
+                        "température"@fr ;
+             <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Temperature> .
+
+
+###  http://www.bim4ren.eu/property#thickness
+:thickness rdf:type owl:ObjectProperty ;
+           rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+           rdfs:label "espesor"@es ,
+                      "spessore"@it ,
+                      "thickness"@en ,
+                      "épaisseur"@fr ;
+           <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+
+
+###  http://www.bim4ren.eu/property#time
+:time rdf:type owl:ObjectProperty ;
+      rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+      rdfs:label "tempo"@it ,
+                 "temps"@fr ,
+                 "tiempo"@es ,
+                 "time"@en ;
+      <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Time> .
+
+
+###  http://www.bim4ren.eu/property#toTime
+:toTime rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :time ;
+        rdfs:label "hora de finalización"@es ,
+                   "ora di fine"@it ,
+                   "temps fin"@fr ,
+                   "to time"@en .
+
+
+###  http://www.bim4ren.eu/property#volume
+:volume rdf:type owl:ObjectProperty ;
+        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+        rdfs:label "volume"@en ,
+                   "volume"@fr ,
+                   "volume"@it ,
+                   "volumen"@es ;
+        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Volume> .
+
+
+###  http://www.bim4ren.eu/property#width
+:width rdf:type owl:ObjectProperty ;
+       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
+       rdfs:label "anchura"@es ,
+                  "largeur"@fr ,
+                  "larhezza"@it ,
+                  "width"@en ;
+       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/def/basicsemantics-owl#QuantityValue
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

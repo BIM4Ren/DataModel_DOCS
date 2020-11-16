@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://bim4ren.eu/urban#"
+     xml:base="http://bim4ren.eu/urban"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:basicsemantics-owl="https://w3id.org/def/basicsemantics-owl#">
+    <owl:Ontology rdf:about="http://bim4ren.eu/urban">
+        <owl:imports rdf:resource="http://www.bim4ren.eu/property#"/>
+        <owl:imports rdf:resource="https://w3id.org/def/basicsemantics-owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#quantityKind -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/def/basicsemantics-owl#quantityKind"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bim4ren.eu/urban#altitude -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#altitude">
+        <rdfs:domain rdf:resource="http://bim4ren.eu/urban#Positioning"/>
+        <rdfs:label xml:lang="en">Altitude </rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Length"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/urban#greenZoneRatio -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#greenZoneRatio">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#ratio"/>
+        <rdfs:label xml:lang="fr">part de végétalisation</rdfs:label>
+        <rdfs:label xml:lang="en">part of vegetalisation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/urban#hasPosition -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#hasPosition">
+        <rdfs:domain rdf:resource="http://bim4ren.eu/urban#Object"/>
+        <rdfs:range rdf:resource="http://bim4ren.eu/urban#Positioning"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/urban#hasVerticalProjection -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#hasVerticalProjection">
+        <rdfs:domain rdf:resource="http://bim4ren.eu/urban#Object"/>
+        <rdfs:range rdf:resource="http://bim4ren.eu/urban#VerticalProjection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/urban#latitude -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#latitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#angle"/>
+        <rdfs:domain rdf:resource="http://bim4ren.eu/urban#Positioning"/>
+        <rdfs:label xml:lang="en">Latitude </rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/urban#longitude -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#longitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#angle"/>
+        <rdfs:domain rdf:resource="http://bim4ren.eu/urban#Positioning"/>
+        <rdfs:label xml:lang="en">Longitude </rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://bim4ren.eu/urban#urbanZoneRatio -->
+
+
+    <owl:ObjectProperty rdf:about="http://bim4ren.eu/urban#urbanZoneRatio">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#ratio"/>
+        <rdfs:label xml:lang="fr">part de végétalisation</rdfs:label>
+        <rdfs:label xml:lang="en">urban density</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#angle -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#angle"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#ratio -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#ratio"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bim4ren.eu/urban#Agriculture -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Agriculture">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#GreenZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Airport -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Airport">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#CirculationZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#BlockOfBuilding -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#BlockOfBuilding">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#BuiltArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Building -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Building">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Object"/>
+        <rdfs:label xml:lang="en">Building</rdfs:label>
+        <rdfs:label xml:lang="fr">Bâtiment</rdfs:label>
+        <rdfs:label xml:lang="es">Edificio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#BuiltArea -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#BuiltArea">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Zone"/>
+        <rdfs:label xml:lang="fr">Zone construite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#CirculationZone -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#CirculationZone">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Zone"/>
+        <rdfs:label xml:lang="fr">Aménagement routier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#CommunicationNetwork -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#CommunicationNetwork">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#FlowInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Cone -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Cone">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Cuboid -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Cuboid">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#CyclingRoad -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#CyclingRoad">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#CirculationZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Cylinder -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Cylinder">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#ElectrictyNetwork -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#ElectrictyNetwork">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#FlowInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#FlowInfrastructure -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#FlowInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Object"/>
+        <rdfs:label xml:lang="fr">Réseau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Forest -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Forest">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#GreenZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#GazNetwork -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#GazNetwork">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#FlowInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#GreenZone -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#GreenZone">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#HeatNetwork -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#HeatNetwork">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#FlowInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Lake -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Lake">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#WaterBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Object -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Object">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">An object of importance in the urban environment, regarding the thermal reonvation of a specific buildings.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Park -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Park">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#GreenZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Parking -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Parking">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#BuiltArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#ParkingPlace -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#ParkingPlace">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#PeatonalStreet -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#PeatonalStreet">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#CirculationZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Positioning -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Positioning">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">Positioning </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#PrivateParkingPlace -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#PrivateParkingPlace">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#ParkingPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#PublicParkingPlace -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#PublicParkingPlace">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#ParkingPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Pyramid -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Pyramid">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Railway -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Railway">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#CirculationZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#River -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#River">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#WaterBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Road -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Road">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#CirculationZone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Sea -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Sea">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#WaterBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Shade -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Shade">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Shape -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Shape">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A predefined 3D shape that can be associated to an urban object. All the predefined shapes are basic vomumetric objects.</rdfs:comment>
+        <rdfs:label xml:lang="es">Forma</rdfs:label>
+        <rdfs:label xml:lang="fr">Forme</rdfs:label>
+        <rdfs:label xml:lang="en">Shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Sphere -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Sphere">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Tree -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Tree">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#VerticalProjection -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#VerticalProjection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="it">proiezione verticale</rdfs:label>
+        <rdfs:label xml:lang="fr">projection verticale</rdfs:label>
+        <rdfs:label xml:lang="es">proyección vertical</rdfs:label>
+        <rdfs:label xml:lang="en">vertical projection</rdfs:label>
+        <rdfs:label xml:lang="fr">vue du ciel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#WaterBody -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#WaterBody">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#WaterNetwork -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#WaterNetwork">
+        <rdfs:subClassOf rdf:resource="http://bim4ren.eu/urban#FlowInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bim4ren.eu/urban#Zone -->
+
+
+    <owl:Class rdf:about="http://bim4ren.eu/urban#Zone">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

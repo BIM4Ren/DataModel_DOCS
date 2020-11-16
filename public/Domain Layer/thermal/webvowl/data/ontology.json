@@ -1,0 +1,990 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "it", "fr", "es", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.bim4ren.eu/domain/thermal", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/def/basicsemantics-owl" ],
+    "iri" : "http://www.bim4ren.eu/domain/thermal#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "10",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "32",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#CoolProducer",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoolProducer",
+      "en" : "Cool producer",
+      "fr" : "Producteur de froid"
+    },
+    "comment" : {
+      "en" : "A cool producer asset."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#HeatProducer",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeatProducer",
+      "en" : "Heat producer",
+      "fr" : "Producteur de chaleur"
+    },
+    "comment" : {
+      "en" : "A heat producer asset."
+    },
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#Producer",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Producer"
+    },
+    "subClasses" : [ "0", "2" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "14",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "10",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "32",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+    "baseIri" : "https://w3id.org/def/basicsemantics-owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QuantityValue"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "7",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThermoRegulatedElement",
+      "en" : "thermo-regulated element",
+      "fr" : "élément thermo-régulé"
+    },
+    "id" : "43"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#EfficiencyType",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EfficiencyType",
+      "en" : "Efficiency type",
+      "it" : "Tipo di rendimento",
+      "fr" : "Type du rendement",
+      "es" : "Tipo de rendimiento"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/thermal#DECLARED",
+      "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+      "labels" : {
+        "IRI-based" : "DECLARED",
+        "en" : "Certified",
+        "it" : "Dichiarato",
+        "fr" : "Déclaré",
+        "es" : "Declarado"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/thermal#CERTIFIED",
+      "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+      "labels" : {
+        "IRI-based" : "CERTIFIED",
+        "en" : "Certified",
+        "it" : "Certificato",
+        "fr" : "Agréé",
+        "es" : "Certificado"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/thermal#MEASURED",
+      "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+      "labels" : {
+        "IRI-based" : "MEASURED",
+        "en" : "Measured",
+        "it" : "Misurato",
+        "fr" : "Mesuré",
+        "es" : "Medido"
+      }
+    } ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#HeatTransferElement",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeatTransferElement",
+      "en" : "Heat transfer element",
+      "fr" : "Elément de transfert de chaleur"
+    },
+    "comment" : {
+      "en" : "A heat transfer element is a passive element that can restrict or ease the transfer of heat between different zones."
+    },
+    "id" : "37"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#HeatStorage",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeatStorage"
+    },
+    "id" : "50"
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "38",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "39",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "40",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "41",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "44",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "48",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "49",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#load",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ML8E0qSGHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "load",
+      "en" : "load",
+      "it" : "carico",
+      "fr" : "charge",
+      "es" : "carga"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#power",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "power"
+    },
+    "domain" : "7",
+    "subproperty" : [ "8" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#supplyTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "10",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0osme0qRyHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1Sv$Y0qSuHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/03n9Y0qRyHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1NYgu0qSuHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0sRf40qRyHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2Ez5q0qSGHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "supplyTemperature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "heatTransmissionCoefficientPerTemperature",
+      "en" : "coefficient for the calculation of the coefficient of heat transmission dependent on temperature",
+      "fr" : "pertes dont le pourcentage augmente avec la température",
+      "undefined" : "a2"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Coefficient for the calculation of the coefficient of heat transmission dependent on temperature. The higher this value, the greater is the curvature of the curve."
+    },
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "14",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Wd_O0qSeHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3W1b00qSWHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "coefficientOfPerformance",
+      "en" : "coefficient of performance",
+      "it" : "coefficiente di prestazione",
+      "fr" : "coefficient de performance",
+      "es" : "coeficiente de operatividad",
+      "undefined" : "COP"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The coefficient of performance or COP (sometimes CP or CoP) of a heat pump, refrigerator or air conditioning system is a ratio of useful heating or cooling provided to work required."
+    },
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalEfficiency",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UEes0qSGHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3CMEg0qSGHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/04OYo0qSaHuO00025QrE$V",
+        "type" : "iri"
+      } ],
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/ThermalEfficiency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thermalEfficiency",
+      "en" : "thermal efficiency",
+      "it" : "rendimento",
+      "fr" : "rendement",
+      "es" : "rendimiento térmico"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalTransmittance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thermalTransmittance",
+      "en" : "coefficient of heat transfer",
+      "it" : "trasmittanza termica",
+      "fr" : "coefficient de transfert thermique",
+      "es" : "transmitancia térmica",
+      "undefined" : "U"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "heatTransmissionCoefficient",
+      "en" : "heat transmission factor",
+      "fr" : "facteur de transmission de chaleur",
+      "undefined" : "a1"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "This factor describes thermal losses. The higher this value, the more losses the system has."
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#temperature",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "temperature"
+    },
+    "domain" : "7",
+    "subproperty" : [ "18", "19", "20", "9", "21", "22", "23", "24", "25" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#condensingTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "7",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ko9m0qSmHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "condensingTemperature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#transmittance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/Transmittance",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "transmittance",
+      "en" : "transmittance",
+      "it" : "trasmissione",
+      "fr" : "transmittance",
+      "es" : "transmitancia",
+      "undefined" : "T"
+    },
+    "domain" : "4",
+    "subproperty" : [ "27", "28" ],
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#evaporatingTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "7",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Rvom0qU8HuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "evaporatingTemperature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalResistance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/ThermalResistance",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thermalResistance",
+      "en" : "thermal resistance",
+      "it" : "resistenza termica",
+      "fr" : "résistence thermique",
+      "es" : "resistencia termica",
+      "undefined" : "R"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#exhaustTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "exhaustTemperature",
+      "en" : "exhaust temperature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The temperature rejected by a thermal producer."
+    },
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#nominalPower",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "nominalPower",
+      "en" : "nominal power",
+      "fr" : "puissance nominale"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#efficiencyType",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "efficiencyType",
+      "en" : "efficiency type",
+      "it" : "tipo di rendimento",
+      "fr" : "type du rendement",
+      "es" : "tipo de rendimiento"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#airTightness",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3vHkMyoT0Hsm00051Mm008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "airTightness",
+      "en" : "air tighthness",
+      "it" : "ermeticità all'aria",
+      "fr" : "étanchéité à l'air",
+      "es" : "estanqueidad"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalResistance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/ThermalResistance",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thermalResistance",
+      "en" : "thermal resistance",
+      "it" : "resistenza termica",
+      "fr" : "résistence thermique",
+      "es" : "resistencia termica",
+      "undefined" : "R"
+    },
+    "domain" : "37",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalMass",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "thermalMass",
+      "en" : "thermal mass",
+      "it" : "massa termica",
+      "fr" : "masse thermique",
+      "es" : "masa térmica"
+    },
+    "domain" : "37",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#infraredTransmittance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "infraredTransmittance",
+      "en" : "infrared transmittance",
+      "it" : "trasmittanza infrarossa",
+      "fr" : "transmittance infrarouge",
+      "es" : "transmitancia infrarroja"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "37",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#airTightness",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3vHkMyoT0Hsm00051Mm008",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "airTightness",
+      "en" : "air tighthness",
+      "it" : "ermeticità all'aria",
+      "fr" : "étanchéité à l'air",
+      "es" : "estanqueidad"
+    },
+    "domain" : "37",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalEfficiency",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UEes0qSGHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3CMEg0qSGHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/04OYo0qSaHuO00025QrE$V",
+        "type" : "iri"
+      } ],
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/ThermalEfficiency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thermalEfficiency",
+      "en" : "thermal efficiency",
+      "it" : "rendimento",
+      "fr" : "rendement",
+      "es" : "rendimiento térmico"
+    },
+    "domain" : "1",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#dischargeTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "10",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/22j_rwRL92uutC7n_opQsz",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dischargeTemperature",
+      "en" : "discharge temperature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The temperature of the output medium in a thermal loop."
+    },
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#maxTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "maxTemperature",
+      "en" : "maximal temperature",
+      "it" : "temperatura massima",
+      "fr" : "température maximale",
+      "es" : "temperatura máxima"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "43",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#setPoint",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "setPoint",
+      "en" : "setpoint",
+      "fr" : "régulation"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "43",
+    "subproperty" : [ "45", "46" ],
+    "attributes" : [ "object", "someValues" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#minTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "minTemperature",
+      "en" : "minimal temperature",
+      "it" : "temperatura minima",
+      "fr" : "température minimale",
+      "es" : "temperatura mínima"
+    },
+    "superproperty" : [ "18" ],
+    "domain" : "43",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#visibleTransmittance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "visibleTransmittance",
+      "en" : "visible transmittance",
+      "it" : "trasmittanza visibile",
+      "fr" : "transmittance visible",
+      "es" : "transmitancia visible"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "37",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalTransmittance",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thermalTransmittance",
+      "en" : "coefficient of heat transfer",
+      "it" : "trasmittanza termica",
+      "fr" : "coefficient de transfert thermique",
+      "es" : "transmitancia térmica",
+      "undefined" : "U"
+    },
+    "domain" : "37",
+    "attributes" : [ "allValues", "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#temperatureSpread",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "10",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3k_Vm0qU8HuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1w6yU0qSmHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "temperatureSpread",
+      "en" : "temperature spread"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "the difference between the ambient temperature and the desire room temperature. The range of temperature a heat pump needs to provide"
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#returnTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "10",
+    "annotations" : {
+      "narrowMatch" : [ {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2ZqF20qSGHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1PxGW0qSuHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1WUt_0qSuHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "returnTemperature",
+      "en" : "return temperature"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The temperature of the input medium in a thermal loop"
+    },
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#stagnationTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "stagnationTemperature",
+      "en" : "stagnation temperature",
+      "it" : "temperature de ristagno",
+      "fr" : "température de stagnation",
+      "es" : "temperature de estancamiento"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "7",
+    "comment" : {
+      "en" : "The temperature at a stagnation point in a fluid flow. At a stagnation point the speed of the fluid is zero and all of the kinetic energy has been converted to internal energy and is added to the local static enthalpy. In both compressible and incompressible fluid flow, the stagnation temperature is equal to the total temperature at all points on the streamline leading to the stagnation point. The stagnation temperature is the maximum temperature that the collector’s absorber can reach at an ambient temperature of 30°C and an irradiation of 1000 W/m2. Stagnation temperature is also a measure of thermal losses of the collector and therefore describes the efficiency of the collector at higher temperatures."
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/thermal#thermalMass",
+    "baseIri" : "http://www.bim4ren.eu/domain/thermal",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "thermalMass",
+      "en" : "thermal mass",
+      "it" : "massa termica",
+      "fr" : "masse thermique",
+      "es" : "masa térmica"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "51"
+  } ]
+}

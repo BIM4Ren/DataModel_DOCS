@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://bim4ren.eu/alignment/sot-IFC#"
+     xml:base="https://bim4ren.eu/alignment/sot-IFC"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
+     xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="https://bim4ren.eu/alignment/sot-IFC">
+        <owl:versionIRI rdf:resource="https://bim4ren.eu/alignment/sot-IFC/0.1"/>
+        <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL"/>
+        <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL"/>
+        <owl:imports rdf:resource="http://www.bim4ren.eu/sot#"/>
+        <owl:imports rdf:resource="https://w3id.org/bot"/>
+        <terms:creator>Pierre Bourreau</terms:creator>
+        <terms:description xml:lang="en">This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies.</terms:description>
+        <terms:title xml:lang="en">SOT to ifcOwl alignment.</terms:title>
+        <owl:versionInfo>v0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionElement -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionPort -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionPort">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TransportElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionSystem -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionSystem">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcFlowTerminal -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcFlowTerminal">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TerminalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TransportElement"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#System"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TerminalElement"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#System -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#System"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#SystemComponent -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#SystemComponent"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#TerminalElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#TerminalElement"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/sot#TransportElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/sot#TransportElement"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

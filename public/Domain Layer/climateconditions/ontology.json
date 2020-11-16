@@ -1,0 +1,536 @@
+[ {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions/0.1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Climate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clima"
+  }, {
+    "@language" : "fr",
+    "@value" : "Climat"
+  }, {
+    "@language" : "en",
+    "@value" : "Climate"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Dry" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BSk"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#ColdDesert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Dry" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BWk"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cwc"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Csc"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Continental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#Climate"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Dry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "B"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#Climate"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#HotDesert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Dry" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BWh"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#HotSemiArid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Dry" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BSh"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dfa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Csa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cfa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#IceCapClimate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Polar" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "EF"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dsc"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dsa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dsb"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dsa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dwd"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dwa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cwa"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dwc"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dwb"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Polar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "E"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#Climate"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Subartic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dfc"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cfc"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cwb"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Temperate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "C"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#Climate"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cfb"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Tropical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mean temperature each month is superior to 18°C. No winter. Heavy yearly rains"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#Climate"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Tropical" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Am"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Tropical" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Af"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#Tropical"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "As"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aw"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#Tundra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Polar" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ET"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Continental" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dfb"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/climateconditions#Temperate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Csb"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric pressure"
+  }, {
+    "@language" : "es",
+    "@value" : "presión atmosférica"
+  }, {
+    "@language" : "fr",
+    "@value" : "pression atmosphérique"
+  }, {
+    "@language" : "it",
+    "@value" : "pressione atmosferica"
+  }, {
+    "@value" : "Patm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/AtmosphericPressure"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dew point temperature"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura de derretimiento"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura del punto di rugiada"
+  }, {
+    "@language" : "fr",
+    "@value" : "température du point de rosée"
+  }, {
+    "@value" : "Tdew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "diffuse horizontal solar irradiance"
+  }, {
+    "@language" : "fr",
+    "@value" : "flux solaires"
+  }, {
+    "@language" : "fr",
+    "@value" : "irradiance solaire horizontale diffuse"
+  }, {
+    "@language" : "es",
+    "@value" : "irradiancia solar horizontal difusa"
+  }, {
+    "@language" : "it",
+    "@value" : "irradiazione solare orizzontale diffusa"
+  }, {
+    "@value" : "FDIFH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#irradiance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "direct normal solar irradiance"
+  }, {
+    "@language" : "fr",
+    "@value" : "irradiance solaire normale directe"
+  }, {
+    "@language" : "es",
+    "@value" : "irradiancia solar normal directa"
+  }, {
+    "@language" : "it",
+    "@value" : "irradiazione solare normale diretta"
+  }, {
+    "@value" : "FDIRN"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/climateconditions#irradiance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dry air temperature"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura del aire seco"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura dell'aria secca"
+  }, {
+    "@language" : "fr",
+    "@value" : "température de l'air sec"
+  }, {
+    "@language" : "fr",
+    "@value" : "température extérieure"
+  }, {
+    "@value" : "dry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#irradiance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "irradiance"
+  }, {
+    "@language" : "fr",
+    "@value" : "irradiance"
+  }, {
+    "@language" : "es",
+    "@value" : "irradiancia"
+  }, {
+    "@language" : "it",
+    "@value" : "irradianza"
+  }, {
+    "@value" : "E"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/Irradiance"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#latitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "latitud"
+  }, {
+    "@language" : "en",
+    "@value" : "latitude"
+  }, {
+    "@language" : "fr",
+    "@value" : "latitude"
+  }, {
+    "@language" : "it",
+    "@value" : "latitudine"
+  }, {
+    "@value" : "Lat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#longitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "longitud"
+  }, {
+    "@language" : "en",
+    "@value" : "longitude"
+  }, {
+    "@language" : "fr",
+    "@value" : "longitude"
+  }, {
+    "@language" : "it",
+    "@value" : "longitudine"
+  }, {
+    "@value" : "Lon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#relativeHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "humedad relativa"
+  }, {
+    "@language" : "fr",
+    "@value" : "humidité relative"
+  }, {
+    "@language" : "en",
+    "@value" : "relative humidity"
+  }, {
+    "@language" : "it",
+    "@value" : "umidità relativa"
+  }, {
+    "@value" : "RH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#quantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/RelativeHumidity"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#skyTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sky temperature"
+  }, {
+    "@language" : "es",
+    "@value" : "temperatura del cielo"
+  }, {
+    "@language" : "it",
+    "@value" : "temperatura del cielo"
+  }, {
+    "@language" : "fr",
+    "@value" : "température du ciel"
+  }, {
+    "@value" : "Tsky"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#temperature"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#windDirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "dirección del viento"
+  }, {
+    "@language" : "fr",
+    "@value" : "direction du vent"
+  }, {
+    "@language" : "it",
+    "@value" : "direzione del vento"
+  }, {
+    "@language" : "en",
+    "@value" : "wind direction"
+  }, {
+    "@value" : "WindDir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/climateconditions#windSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "velocidad del viento"
+  }, {
+    "@language" : "it",
+    "@value" : "velocità del vento"
+  }, {
+    "@language" : "fr",
+    "@value" : "vitesse du vent"
+  }, {
+    "@language" : "en",
+    "@value" : "wind speed"
+  }, {
+    "@value" : "WindSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.bim4ren.eu/property#speed"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#quantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

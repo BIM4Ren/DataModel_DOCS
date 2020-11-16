@@ -1,0 +1,205 @@
+<http://www.bim4ren.eu/domain/acoustic#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/domain/acoustic#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/domain/acoustic/0.1> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/acoustic#associatedFrequency
+<http://www.bim4ren.eu/domain/acoustic#associatedFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#description
+<http://www.w3.org/2000/01/rdf-schema#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/basicsemantics-owl#quantityKind
+<https://w3id.org/def/basicsemantics-owl#quantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
+<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.bim4ren.eu/domain/acoustic#associatedFrequency> <http://www.bim4ren.eu/domain/acoustic#frequency> .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "absorptivité acoustique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "acoustic absorption coefficient"@en .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient d'absorption acoustique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "coefficiente di assorbimento fónico"@it .
+<http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "coeficiente de absorción acústico"@es .
+# 
+# http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency
+<http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "acoustic insulation efficiency"@en .
+<http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "efficacité d'isolation acoustique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "efficacité d'isolation phonique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/SignalStrength> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#associatedNoise
+<http://www.bim4ren.eu/domain/acoustic#associatedNoise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#causedBy
+<http://www.bim4ren.eu/domain/acoustic#causedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#causedby
+<http://www.bim4ren.eu/domain/acoustic#causedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#duration
+<http://www.bim4ren.eu/domain/acoustic#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#duration> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#duration> <http://www.w3.org/2000/01/rdf-schema#label> "duración"@es .
+<http://www.bim4ren.eu/domain/acoustic#duration> <http://www.w3.org/2000/01/rdf-schema#label> "durata"@it .
+<http://www.bim4ren.eu/domain/acoustic#duration> <http://www.w3.org/2000/01/rdf-schema#label> "duration"@en .
+<http://www.bim4ren.eu/domain/acoustic#duration> <http://www.w3.org/2000/01/rdf-schema#label> "durée"@fr .
+<http://www.bim4ren.eu/domain/acoustic#duration> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Time> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#frequency
+<http://www.bim4ren.eu/domain/acoustic#frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#frequency> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#frequency> <http://www.w3.org/2000/01/rdf-schema#label> "frequency"@en .
+<http://www.bim4ren.eu/domain/acoustic#frequency> <http://www.w3.org/2000/01/rdf-schema#label> "fréquence"@fr .
+<http://www.bim4ren.eu/domain/acoustic#frequency> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Frequency> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#generate
+<http://www.bim4ren.eu/domain/acoustic#generate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact
+<http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency> .
+<http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact> <http://www.w3.org/2000/01/rdf-schema#description> "The difference in dB with or without acoustic insulation on the material"@en .
+<http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact> <http://www.w3.org/2000/01/rdf-schema#label> "Ln" .
+# 
+# http://www.bim4ren.eu/domain/acoustic#intensity
+<http://www.bim4ren.eu/domain/acoustic#intensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/acoustic#intensity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#intensity> <http://www.w3.org/2000/01/rdf-schema#label> "acoustic intensity"@en .
+<http://www.bim4ren.eu/domain/acoustic#intensity> <http://www.w3.org/2000/01/rdf-schema#label> "intensité acoustique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#intensity> <http://www.w3.org/2000/01/rdf-schema#label> "intensité sonore"@fr .
+<http://www.bim4ren.eu/domain/acoustic#intensity> <http://www.w3.org/2000/01/rdf-schema#label> "sound intensity level"@en .
+<http://www.bim4ren.eu/domain/acoustic#intensity> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/SignalStrength> .
+# 
+# http://www.bim4ren.eu/property#ratio
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/acoustic#AcousticBridge
+<http://www.bim4ren.eu/domain/acoustic#AcousticBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#AcousticGenerator
+<http://www.bim4ren.eu/domain/acoustic#AcousticGenerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#AcousticGenerator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#generate> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/domain/acoustic#Noise> .
+<http://www.bim4ren.eu/domain/acoustic#AcousticGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "generador fónico"@es .
+<http://www.bim4ren.eu/domain/acoustic#AcousticGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "générateur accoustique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#AcousticGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "générateur sonore"@fr .
+<http://www.bim4ren.eu/domain/acoustic#AcousticGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "sound generator"@en .
+# 
+# http://www.bim4ren.eu/domain/acoustic#AcousticInsulator
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "aislante acústico"@es .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "aislante fónico"@es .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "isolant accoustique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "isolant phonique"@fr .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "sound absorber"@en .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "sound insulation"@en .
+<http://www.bim4ren.eu/domain/acoustic#AcousticInsulator> <http://www.w3.org/2000/01/rdf-schema#label> "soundproofing"@en .
+# 
+# http://www.bim4ren.eu/domain/acoustic#AerialNoise
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/acoustic#Noise> .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "bruits aériens"@fr .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "contaminación acústica ambiental"@es .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "contaminación sonora ambiental"@es .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "contaminación sónica ambiental"@es .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "environmental noise"@en .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "inquinamento acustico"@it .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "pollution sonore"@fr .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "sound pollution"@en .
+<http://www.bim4ren.eu/domain/acoustic#AerialNoise> <http://www.w3.org/2000/01/rdf-schema#label> "Rw" .
+# 
+# http://www.bim4ren.eu/domain/acoustic#Equipment
+<http://www.bim4ren.eu/domain/acoustic#Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.bim4ren.eu/domain/acoustic#EquipmentBased
+<http://www.bim4ren.eu/domain/acoustic#EquipmentBased> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#EquipmentBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/acoustic#Noise> .
+<http://www.bim4ren.eu/domain/acoustic#EquipmentBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#causedby> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/domain/acoustic#Equipment> .
+<http://www.bim4ren.eu/domain/acoustic#EquipmentBased> <http://www.w3.org/2000/01/rdf-schema#label> "bruits d'équipements"@fr .
+<http://www.bim4ren.eu/domain/acoustic#EquipmentBased> <http://www.w3.org/2000/01/rdf-schema#label> "equipment-based noise"@en .
+<http://www.bim4ren.eu/domain/acoustic#EquipmentBased> <http://www.w3.org/2000/01/rdf-schema#label> "ruido de equipamientos"@es .
+# 
+# http://www.bim4ren.eu/domain/acoustic#Impact
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/acoustic#Noise> .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "impact"@en .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "impact"@fr .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "impacto"@es .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "percusión"@es .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "percussion"@fr .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "percussione"@it .
+<http://www.bim4ren.eu/domain/acoustic#Impact> <http://www.w3.org/2000/01/rdf-schema#label> "Lw" .
+# 
+# http://www.bim4ren.eu/domain/acoustic#Noise
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#duration> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#frequency> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#intensity> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "bruit"@fr .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "noise"@en .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "nuisance sonore"@fr .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "ruido"@es .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "rumore"@it .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "son"@fr .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "sonido"@es .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "sound"@en .
+<http://www.bim4ren.eu/domain/acoustic#Noise> <http://www.w3.org/2000/01/rdf-schema#label> "suono"@it .
+# 
+# http://www.bim4ren.eu/domain/acoustic#VibratingElement
+<http://www.bim4ren.eu/domain/acoustic#VibratingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/acoustic#VibratingElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/acoustic#associatedNoise> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/domain/acoustic#Noise> .
+# 
+# https://w3id.org/def/basicsemantics-owl#QuantityValue
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

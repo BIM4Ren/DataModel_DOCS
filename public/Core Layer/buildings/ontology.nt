@@ -1,0 +1,248 @@
+<http://www.bim4ren.eu/buildings#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/buildings#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/buildings/0.1> .
+<http://www.bim4ren.eu/buildings#> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+<http://www.bim4ren.eu/buildings#> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/bot> .
+<http://www.bim4ren.eu/buildings#> <http://purl.org/dc/terms/contributor> "Nathalie Charbel" .
+<http://www.bim4ren.eu/buildings#> <http://purl.org/dc/terms/contributor> "Pierre Bourreau" .
+<http://www.bim4ren.eu/buildings#> <http://purl.org/dc/terms/description> "The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage."@en .
+<http://www.bim4ren.eu/buildings#> <http://purl.org/dc/terms/title> "The BIM4Ren buildings ontology"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#maxQualifiedCardinality
+<http://www.w3.org/2002/07/owl#maxQualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#qualifiedCardinality
+<http://www.w3.org/2002/07/owl#qualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/buildings#isMadeOf
+<http://www.bim4ren.eu/buildings#isMadeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/buildings#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/buildings#Enveloppe> .
+<http://www.bim4ren.eu/buildings#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/buildings#constructionYear
+<http://www.bim4ren.eu/buildings#constructionYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.bim4ren.eu/buildings#constructionYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Building> .
+<http://www.bim4ren.eu/buildings#constructionYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/buildings#Allotment
+<http://www.bim4ren.eu/buildings#Allotment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Allotment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#SingleFamilyHousing> .
+# 
+# http://www.bim4ren.eu/buildings#Appartment
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#VolumetricZone> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Building> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Site> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2000/01/rdf-schema#label> "Appartement"@fr .
+<http://www.bim4ren.eu/buildings#Appartment> <http://www.w3.org/2000/01/rdf-schema#label> "Appartment"@en .
+# 
+# http://www.bim4ren.eu/buildings#Attic
+<http://www.bim4ren.eu/buildings#Attic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Attic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#Attic> <http://www.w3.org/2000/01/rdf-schema#comment> "The space between the ceiling beams of the top story and the roof rafters."@en .
+<http://www.bim4ren.eu/buildings#Attic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-23 23 27" .
+# 
+# http://www.bim4ren.eu/buildings#Bathroom
+<http://www.bim4ren.eu/buildings#Bathroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Bathroom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#Bathroom> <http://www.w3.org/2000/01/rdf-schema#comment> "Space for washing one's body or part of it."@en .
+<http://www.bim4ren.eu/buildings#Bathroom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/#concept/details/2GPg_0OMSHuO00025QrE$V> .
+<http://www.bim4ren.eu/buildings#Bathroom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-65 13 15" .
+# 
+# http://www.bim4ren.eu/buildings#Cellar
+<http://www.bim4ren.eu/buildings#Cellar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Cellar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+# 
+# http://www.bim4ren.eu/buildings#CirculationSpace
+<http://www.bim4ren.eu/buildings#CirculationSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#CirculationSpace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#CirculationSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Spaces for circulation that provide or control access to and between other spaces within the facility, entry, and egress."@en .
+<http://www.bim4ren.eu/buildings#CirculationSpace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-25 00 00" .
+# 
+# http://www.bim4ren.eu/buildings#Condominum
+<http://www.bim4ren.eu/buildings#Condominum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Condominum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#MultiDwellingHousing> .
+<http://www.bim4ren.eu/buildings#Condominum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Part of 'Duplex' in Omniclass 11 (2013 02 26)"@en .
+<http://www.bim4ren.eu/buildings#Condominum> <http://www.w3.org/2000/01/rdf-schema#label> "Condominum"@en .
+# 
+# http://www.bim4ren.eu/buildings#DetachedHouse
+<http://www.bim4ren.eu/buildings#DetachedHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#DetachedHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#SingleFamilyHousing> .
+# 
+# http://www.bim4ren.eu/buildings#DiningRoom
+<http://www.bim4ren.eu/buildings#DiningRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#DiningRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#DiningRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."@en .
+<http://www.bim4ren.eu/buildings#DiningRoom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-57 13 15 11" .
+# 
+# http://www.bim4ren.eu/buildings#Dormitory
+<http://www.bim4ren.eu/buildings#Dormitory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Dormitory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#Residential> .
+<http://www.bim4ren.eu/buildings#Dormitory> <http://www.w3.org/2000/01/rdf-schema#comment> "A single facility containing multiple sleeping quarters and typically shared eating and lavatory facilities typically for students."@en .
+<http://www.bim4ren.eu/buildings#Dormitory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3LQ_u01P4HtG0000PR1IRl> .
+<http://www.bim4ren.eu/buildings#Dormitory> <http://www.w3.org/2000/01/rdf-schema#label> "Dormitory"@en .
+<http://www.bim4ren.eu/buildings#Dormitory> <http://www.w3.org/2000/01/rdf-schema#label> "Dortoir"@fr .
+# 
+# http://www.bim4ren.eu/buildings#Enveloppe
+<http://www.bim4ren.eu/buildings#Enveloppe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Enveloppe> <http://www.w3.org/2000/01/rdf-schema#label> "Enveloppe"@en .
+<http://www.bim4ren.eu/buildings#Enveloppe> <http://www.w3.org/2000/01/rdf-schema#label> "Enveloppe"@fr .
+<http://www.bim4ren.eu/buildings#Enveloppe> <http://www.w3.org/2000/01/rdf-schema#label> "Envolvente de edificación"@es .
+<http://www.bim4ren.eu/buildings#Enveloppe> <http://www.w3.org/2000/01/rdf-schema#label> "Involucro edilizio"@it .
+# 
+# http://www.bim4ren.eu/buildings#Garage
+<http://www.bim4ren.eu/buildings#Garage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Garage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#Garage> <http://www.w3.org/2000/01/rdf-schema#comment> "Totally or partially enclosed space that is normally used to circulate and station vehicles."@en .
+<http://www.bim4ren.eu/buildings#Garage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-21 13 00" .
+# 
+# http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding
+<http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#MultiDwellingHousing> .
+<http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding> <http://www.w3.org/2000/01/rdf-schema#comment> "A dwelling (or dwellings) that has a lowered cost of ownership due to government funding and support."@en .
+<http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'Government Subsiduzed Building' in Omniclass 11 (2013 02 26)" .
+<http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding> <http://www.w3.org/2000/01/rdf-schema#label> "Government Subsidized Building"@en .
+# 
+# http://www.bim4ren.eu/buildings#Kitchen
+<http://www.bim4ren.eu/buildings#Kitchen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Kitchen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#Kitchen> <http://www.w3.org/2000/01/rdf-schema#comment> "A room or part of a room used for cooking and food preparation."@en .
+<http://www.bim4ren.eu/buildings#Kitchen> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2SKd6KOMSHuO00025QrE$V> .
+<http://www.bim4ren.eu/buildings#Kitchen> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-65 23 00" .
+# 
+# http://www.bim4ren.eu/buildings#LivingRoom
+<http://www.bim4ren.eu/buildings#LivingRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#LivingRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#LivingRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."@en .
+<http://www.bim4ren.eu/buildings#LivingRoom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-57 13 15 11" .
+# 
+# http://www.bim4ren.eu/buildings#MultiDwellingHousing
+<http://www.bim4ren.eu/buildings#MultiDwellingHousing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#MultiDwellingHousing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#Residential> .
+<http://www.bim4ren.eu/buildings#MultiDwellingHousing> <http://www.w3.org/2000/01/rdf-schema#comment> "Multiple dwellings contained in a single structure."@en .
+<http://www.bim4ren.eu/buildings#MultiDwellingHousing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'Multiple Family Residences' in Omniclass 11 (2013 02 26)"@en .
+<http://www.bim4ren.eu/buildings#MultiDwellingHousing> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Dwelling Housing"@en .
+# 
+# http://www.bim4ren.eu/buildings#Residential
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Building> .
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/2000/01/rdf-schema#comment> "Facilities used for long-term inhabitation and dwelling by humans."@en .
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2aYxa01P4HtG0000PR1IRl> .
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'Housing Facility' in Omniclass 11 (2013 02 26)" .
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/2000/01/rdf-schema#label> "Bâtiment résidentiel"@fr .
+<http://www.bim4ren.eu/buildings#Residential> <http://www.w3.org/2000/01/rdf-schema#label> "Residential Building"@en .
+# 
+# http://www.bim4ren.eu/buildings#SeniorHousing
+<http://www.bim4ren.eu/buildings#SeniorHousing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#SeniorHousing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#Residential> .
+<http://www.bim4ren.eu/buildings#SeniorHousing> <http://www.w3.org/2000/01/rdf-schema#comment> "Dwellings and commercial facilities designed and/or retrofitted for occupancy by Seniors."@en .
+<http://www.bim4ren.eu/buildings#SeniorHousing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'Senior Housing' in Omniclass 11 (2013 02 26)" .
+# 
+# http://www.bim4ren.eu/buildings#SingleFamilyHousing
+<http://www.bim4ren.eu/buildings#SingleFamilyHousing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#SingleFamilyHousing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#Residential> .
+<http://www.bim4ren.eu/buildings#SingleFamilyHousing> <http://www.w3.org/2000/01/rdf-schema#comment> "A dwelling unit for a service member or for an authorized government civilian and his/her authorized dependents when accompanied by those dependents."@en .
+<http://www.bim4ren.eu/buildings#SingleFamilyHousing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2dXgc01P4HtG0000PR1IRl> .
+<http://www.bim4ren.eu/buildings#SingleFamilyHousing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'Single Family Residence' in Omniclass 11 (2013 02 26)" .
+# 
+# http://www.bim4ren.eu/buildings#SleepingRoom
+<http://www.bim4ren.eu/buildings#SleepingRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#SleepingRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#SleepingRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "A private room where people sleep for the night."@en .
+<http://www.bim4ren.eu/buildings#SleepingRoom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-65 19 00" .
+# 
+# http://www.bim4ren.eu/buildings#SocialHousingBuilding
+<http://www.bim4ren.eu/buildings#SocialHousingBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#SocialHousingBuilding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#MultiDwellingHousing> .
+<http://www.bim4ren.eu/buildings#SocialHousingBuilding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'LIHTC Tax Credit Housing' in Omniclass 11 (2013 02 26)"@en .
+# 
+# http://www.bim4ren.eu/buildings#SpecialCareBuilding
+<http://www.bim4ren.eu/buildings#SpecialCareBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#SpecialCareBuilding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#Residential> .
+<http://www.bim4ren.eu/buildings#SpecialCareBuilding> <http://www.w3.org/2000/01/rdf-schema#comment> "A dwelling containing multiple sleeping quarters with shared eating, living and lavatory facilities in addition to offering additional care and medical/health assistance from trained staff."@en .
+<http://www.bim4ren.eu/buildings#SpecialCareBuilding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UzLO01P4HtG0000PR1IRl> .
+<http://www.bim4ren.eu/buildings#SpecialCareBuilding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "'Special Care Residence' in Omniclass 11 (2013 02 26)" .
+# 
+# http://www.bim4ren.eu/buildings#Terraced
+<http://www.bim4ren.eu/buildings#Terraced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Terraced> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#SingleFamilyHousing> .
+# 
+# http://www.bim4ren.eu/buildings#Toilets
+<http://www.bim4ren.eu/buildings#Toilets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#Toilets> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<http://www.bim4ren.eu/buildings#Toilets> <http://www.w3.org/2000/01/rdf-schema#comment> "A space containing a toilet or similar fixture that disposes of human waste by using water to flush it through a drainpipe to another location."@en .
+<http://www.bim4ren.eu/buildings#Toilets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2EdEmAOMSHuO00025QrE$V> .
+<http://www.bim4ren.eu/buildings#Toilets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Omniclass 13-65 13 13" .
+# 
+# http://www.bim4ren.eu/buildings#VolumetricZone
+<http://www.bim4ren.eu/buildings#VolumetricZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/buildings#VolumetricZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+# 
+# https://w3id.org/bot#Building
+<https://w3id.org/bot#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#VolumetricZone> .
+<https://w3id.org/bot#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/buildings#constructionYear> .
+_:genid1 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# https://w3id.org/bot#Space
+<https://w3id.org/bot#Space> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#VolumetricZone> .
+# 
+# https://w3id.org/bot#Storey
+<https://w3id.org/bot#Storey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/buildings#VolumetricZone> .
+# 
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

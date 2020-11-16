@@ -1,0 +1,101 @@
+@prefix : <http://www.bim4ren.eu/alignment/buildings-IFC#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.bim4ren.eu/alignment/buildings-IFC> .
+
+<http://www.bim4ren.eu/alignment/buildings-IFC> rdf:type owl:Ontology ;
+                                                 owl:versionIRI <http://www.bim4ren.eu/alignment/buildings-IFC/0.1> ;
+                                                 owl:imports <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL> ,
+                                                             <http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL> ,
+                                                             <http://www.bim4ren.eu/buildings> ,
+                                                             <https://w3id.org/bot> ;
+                                                 <http://purl.org/dc/terms/creator> "Pierre Bourreau" ;
+                                                 <http://purl.org/dc/terms/description> "This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies."@en ;
+                                                 <http://purl.org/dc/terms/title> "ifcOWL to BOT alignment."@en ;
+                                                 owl:versionInfo "v0.1" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuilding
+<http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuilding> rdf:type owl:Class ;
+                                                                        owl:equivalentClass <https://w3id.org/bot#Building> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuildingStorey
+<http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuildingStorey> rdf:type owl:Class ;
+                                                                              owl:equivalentClass <https://w3id.org/bot#Storey> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcElement
+<http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcElement> rdf:type owl:Class ;
+                                                                       owl:equivalentClass <https://w3id.org/bot#Element> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSite
+<http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSite> rdf:type owl:Class ;
+                                                                    owl:equivalentClass <https://w3id.org/bot#Site> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSpace
+<http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSpace> rdf:type owl:Class ;
+                                                                     owl:equivalentClass <https://w3id.org/bot#Space> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuilding
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuilding> owl:equivalentClass <https://w3id.org/bot#Building> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuildingStorey
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuildingStorey> owl:equivalentClass <https://w3id.org/bot#Storey> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcElement
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcElement> owl:equivalentClass <https://w3id.org/bot#Element> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSite
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSite> owl:equivalentClass <https://w3id.org/bot#Site> .
+
+
+###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSpace
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSpace> owl:equivalentClass <https://w3id.org/bot#Space> .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

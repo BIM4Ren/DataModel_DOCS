@@ -1,0 +1,364 @@
+@prefix : <http://www.bim4ren.eu/example#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.bim4ren.eu/example#> .
+
+<http://www.bim4ren.eu/example#> rdf:type owl:Ontology ;
+                                  owl:imports <http://www.bim4ren.eu/property#> ,
+                                              <https://pi.pauwel.be/voc/buildingelement#> ,
+                                              <https://w3id.org/def/basicsemantics-owl#> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.bim4ren.eu/core/intervention#endDate
+<http://www.bim4ren.eu/core/intervention#endDate> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/core/intervention#performedBy
+<http://www.bim4ren.eu/core/intervention#performedBy> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/core/intervention#startDate
+<http://www.bim4ren.eu/core/intervention#startDate> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#electricitySubscription
+<http://www.bim4ren.eu/domain/electrical#electricitySubscription> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#kwhPrice
+<http://www.bim4ren.eu/domain/electrical#kwhPrice> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#off-PeakHours
+<http://www.bim4ren.eu/domain/electrical#off-PeakHours> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#peakHours
+<http://www.bim4ren.eu/domain/electrical#peakHours> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#subscriptionPower
+<http://www.bim4ren.eu/domain/electrical#subscriptionPower> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#subscriptionPrice
+<http://www.bim4ren.eu/domain/electrical#subscriptionPrice> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#subscriptionType
+<http://www.bim4ren.eu/domain/electrical#subscriptionType> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#weekdaysHours
+<http://www.bim4ren.eu/domain/electrical#weekdaysHours> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/electrical#weekendHours
+<http://www.bim4ren.eu/domain/electrical#weekendHours> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/thermal#boilerEfficiency
+<http://www.bim4ren.eu/domain/thermal#boilerEfficiency> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/thermal#efficiencyType
+<http://www.bim4ren.eu/domain/thermal#efficiencyType> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/domain/thermal#load
+<http://www.bim4ren.eu/domain/thermal#load> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/property#accuracy
+<http://www.bim4ren.eu/property#accuracy> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/property#fromTime
+<http://www.bim4ren.eu/property#fromTime> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/property#height
+<http://www.bim4ren.eu/property#height> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.bim4ren.eu/property#toTime
+<http://www.bim4ren.eu/property#toTime> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#value
+rdf:value rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/basicsemantics-owl#unit
+<https://w3id.org/def/basicsemantics-owl#unit> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/dot#coveredByInspection
+<https://w3id.org/dot#coveredByInspection> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/dot#descriptionContent
+<https://w3id.org/dot#descriptionContent> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/dot#filePath
+<https://w3id.org/dot#filePath> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/dot#hasDamage
+<https://w3id.org/dot#hasDamage> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/dot#hasDocumentation
+<https://w3id.org/dot#hasDocumentation> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.bim4ren.eu/buildings#Appartment
+<http://www.bim4ren.eu/buildings#Appartment> rdf:type owl:Class .
+
+
+###  http://www.bim4ren.eu/core/intervention#Checking
+<http://www.bim4ren.eu/core/intervention#Checking> rdf:type owl:Class .
+
+
+###  http://www.bim4ren.eu/core/intervention#Organization
+<http://www.bim4ren.eu/core/intervention#Organization> rdf:type owl:Class .
+
+
+###  http://www.bim4ren.eu/domain/electrical#FixedTariff
+<http://www.bim4ren.eu/domain/electrical#FixedTariff> rdf:type owl:Class .
+
+
+###  http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff
+<http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> rdf:type owl:Class .
+
+
+###  http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff
+<http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> rdf:type owl:Class .
+
+
+###  https://pi.pauwel.be/voc/distributionelement#Boiler
+<https://pi.pauwel.be/voc/distributionelement#Boiler> rdf:type owl:Class .
+
+
+###  https://w3id.org/dot#Inspection
+<https://w3id.org/dot#Inspection> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.bim4ren.eu/example#Window_1
+:Window_1 rdf:type owl:NamedIndividual ,
+                   <https://pi.pauwel.be/voc/buildingelement#Window> ;
+          <http://www.bim4ren.eu/property#height> _:genid1 .
+
+_:genid1 <http://www.bim4ren.eu/property#accuracy> [ rdf:value 0.9
+                                                    ] ;
+          rdf:value 44.0 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/CentiM> .
+
+
+###  http://www.bim4ren.eu/example#appart_1
+:appart_1 rdf:type owl:NamedIndividual ,
+                   <http://www.bim4ren.eu/buildings#Appartment> ;
+          <http://www.bim4ren.eu/domain/electrical#electricitySubscription> :fixedtariff_option1 .
+
+
+###  http://www.bim4ren.eu/example#appart_2
+:appart_2 rdf:type owl:NamedIndividual ,
+                   <http://www.bim4ren.eu/buildings#Appartment> ;
+          <http://www.bim4ren.eu/domain/electrical#electricitySubscription> :fixedtariff_option2 .
+
+
+###  http://www.bim4ren.eu/example#appart_3
+:appart_3 rdf:type owl:NamedIndividual ,
+                   <http://www.bim4ren.eu/buildings#Appartment> ;
+          <http://www.bim4ren.eu/domain/electrical#electricitySubscription> :peakOffPeakHourstariff_option1 .
+
+
+###  http://www.bim4ren.eu/example#appart_4
+:appart_4 rdf:type owl:NamedIndividual ,
+                   <http://www.bim4ren.eu/buildings#Appartment> ;
+          <http://www.bim4ren.eu/domain/electrical#electricitySubscription> :weekEndWeekDaystariff_option1 .
+
+
+###  http://www.bim4ren.eu/example#appart_5
+:appart_5 rdf:type owl:NamedIndividual ,
+                   <http://www.bim4ren.eu/buildings#Appartment> ;
+          <http://www.bim4ren.eu/domain/electrical#electricitySubscription> :weekEndWeekDaystariff_option2 .
+
+
+###  http://www.bim4ren.eu/example#boiler_1
+:boiler_1 rdf:type owl:NamedIndividual ,
+                   <https://pi.pauwel.be/voc/distributionelement#Boiler> ;
+          <http://www.bim4ren.eu/domain/thermal#boilerEfficiency> _:genid3 ;
+          <https://w3id.org/dot#hasDamage> [ <https://w3id.org/dot#coveredByInspection> :insepction_1
+                                           ] .
+
+_:genid3 <http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.bim4ren.eu/domain/thermal#CERTIFIED> ;
+          <http://www.bim4ren.eu/domain/thermal#load> _:genid4 ;
+          rdf:value 50 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/PERCENT> .
+
+_:genid4 rdf:value 50 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/PERCENT> .
+
+
+###  http://www.bim4ren.eu/example#fixedtariff_option1
+:fixedtariff_option1 rdf:type owl:NamedIndividual ,
+                              <http://www.bim4ren.eu/domain/electrical#FixedTariff> ;
+                     <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid6 ;
+                     <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid7 ;
+                     <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid8 ;
+                     <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+
+_:genid6 rdf:value 0.1546 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+_:genid7 rdf:value 3 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+
+_:genid8 rdf:value 8.26 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+
+###  http://www.bim4ren.eu/example#fixedtariff_option2
+:fixedtariff_option2 rdf:type owl:NamedIndividual ,
+                              <http://www.bim4ren.eu/domain/electrical#FixedTariff> ;
+                     <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid9 ;
+                     <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid10 ;
+                     <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid11 ;
+                     <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+
+_:genid9 rdf:value 0.1587 ;
+          <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+_:genid10 rdf:value 9 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+
+_:genid11 rdf:value 11.97 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+
+###  http://www.bim4ren.eu/example#insepction_1
+:insepction_1 rdf:type owl:NamedIndividual ,
+                       <http://www.bim4ren.eu/core/intervention#Checking> ,
+                       <https://w3id.org/dot#Inspection> ;
+              <http://www.bim4ren.eu/core/intervention#endDate> "2020-01-26T12:00:19"^^xsd:dateTime ;
+              <http://www.bim4ren.eu/core/intervention#performedBy> :organization_1 ;
+              <http://www.bim4ren.eu/core/intervention#startDate> "2020-01-26T11:32:52"^^xsd:dateTime ;
+              <https://w3id.org/dot#hasDocumentation> [ <https://w3id.org/dot#descriptionContent> "inspection related to boiler damage: Low-Water Condition"
+                                                      ] ,
+                                                      [ <https://w3id.org/dot#filePath> "http://organization1.com/projectx/interventions/damage1.html"^^xsd:anyURI
+                                                      ] .
+
+
+###  http://www.bim4ren.eu/example#organization_1
+:organization_1 rdf:type owl:NamedIndividual ,
+                         <http://www.bim4ren.eu/core/intervention#Organization> .
+
+
+###  http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1
+:peakOffPeakHourstariff_option1 rdf:type owl:NamedIndividual ,
+                                         <http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff> ;
+                                <http://www.bim4ren.eu/domain/electrical#off-PeakHours> _:genid14 ;
+                                <http://www.bim4ren.eu/domain/electrical#peakHours> _:genid18 ;
+                                <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid22 ;
+                                <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid23 ;
+                                <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> .
+
+_:genid14 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid15 ;
+           <http://www.bim4ren.eu/property#fromTime> _:genid16 ;
+           <http://www.bim4ren.eu/property#toTime> _:genid17 .
+
+_:genid18 <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid19 ;
+           <http://www.bim4ren.eu/property#fromTime> _:genid20 ;
+           <http://www.bim4ren.eu/property#toTime> _:genid21 .
+
+_:genid22 rdf:value 6 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+
+_:genid23 rdf:value 11.10 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+_:genid15 rdf:value 0.1781 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+
+_:genid16 rdf:value 6 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+
+_:genid17 rdf:value 22 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+
+_:genid19 rdf:value 0.1337 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+
+_:genid20 rdf:value 22 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+
+_:genid21 rdf:value 6 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/HR> .
+
+
+###  http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1
+:weekEndWeekDaystariff_option1 rdf:type owl:NamedIndividual ,
+                                        <http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff> ;
+                               <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid24 ;
+                               <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid25 ;
+                               <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> ;
+                               <http://www.bim4ren.eu/domain/electrical#weekdaysHours> [ <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid27
+                                                                                       ] ;
+                               <http://www.bim4ren.eu/domain/electrical#weekendHours> [ <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid29
+                                                                                      ] .
+
+_:genid24 rdf:value 6 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+
+_:genid25 rdf:value 9.98 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+_:genid27 rdf:value 0.1707 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+
+_:genid29 rdf:value 0.1405 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:weekEndWeekDaystariff_option2 <http://www.bim4ren.eu/domain/electrical#subscriptionPower> _:genid30 ;
+                               <http://www.bim4ren.eu/domain/electrical#subscriptionPrice> _:genid31 ;
+                               <http://www.bim4ren.eu/domain/electrical#subscriptionType> <http://www.bim4ren.eu/domain/electrical#MONTHLY> ;
+                               <http://www.bim4ren.eu/domain/electrical#weekdaysHours> [ <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid33
+                                                                                       ] ;
+                               <http://www.bim4ren.eu/domain/electrical#weekendHours> [ <http://www.bim4ren.eu/domain/electrical#kwhPrice> _:genid35
+                                                                                      ] .
+
+_:genid30 rdf:value 9 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/KiloV-A> .
+
+_:genid31 rdf:value 11.84 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/Euro> .
+
+_:genid33 rdf:value 0.1749 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+
+_:genid35 rdf:value 0.1426 ;
+           <https://w3id.org/def/basicsemantics-owl#unit> <http://qudt.org/vocab/unit/EURO> .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

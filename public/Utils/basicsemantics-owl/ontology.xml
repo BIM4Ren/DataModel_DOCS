@@ -1,0 +1,702 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/def/basicsemantics-owl#"
+     xml:base="https://w3id.org/def/basicsemantics-owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://www.linkedmodel.org/owl/schema/core#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vaem="http://www.linkedmodel.org/schema/vaem#"
+     xmlns:dtype="http://www.linkedmodel.org/schema/dtype#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:basicsemantics-owl="https://w3id.org/def/basicsemantics-owl#">
+    <owl:Ontology rdf:about="https://w3id.org/def/basicsemantics-owl">
+        <owl:imports rdf:resource="http://qudt.org/schema/qudt"/>
+        <owl:imports rdf:resource="http://qudt.org/vocab/quantitykind"/>
+        <owl:imports rdf:resource="http://qudt.org/vocab/unit"/>
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#qualifiedCardinality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality"/>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#abbreviation -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/def/basicsemantics-owl#abbreviation">
+        <skos:prefLabel xml:lang="en">abbreviation</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">afkorting</skos:prefLabel>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#begins -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#begins">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#Event"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#Activity"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Gebeurtenis en een Toestand.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between an Event and a State.</skos:definition>
+        <skos:example xml:lang="nl">De blikseminslag (gebeurtenis) is het begin van de bosbrand (toestand).</skos:example>
+        <skos:example xml:lang="en">The lightning strike (event) is the start of the forest fire (state).</skos:example>
+        <skos:prefLabel xml:lang="en">begins</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">begint</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#describes -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#describes">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#InformationObject"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#InformationObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#State"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Informatie Object en een Fysiek Object, een Activiteit, een Gebeurtenis, een Toestand, een Tijdperiode, een Ruimtelijk Gebied of een ander Informatie Object.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between an Information Object and a Physical Object, an Activity, an Event, a State, a Time Period, a Spatial Region or another Information Object.</skos:definition>
+        <skos:example xml:lang="nl">Neem de Ketelbrug. Daar is in de loop der tijden een waar dossier ontstaan van tekeningen, specificaties, rapporten, nota&apos;s, in analoge of in digitale vorm. Elk van deze documenten beschrijft de Ketelbrug en kan worden gezien als een instantie van een Informatie Object die de Ketelbrug beschrijft.</skos:example>
+        <skos:example xml:lang="en">Take the Ketel bridge. Over time, a dossier has been created of drawings, specifications, reports, invoices, in analogue or in digital form. Each of these documents describes the Ketelbrug and can be seen as an instance of an Information Object that describes the Ketelbrug. </skos:example>
+        <skos:prefLabel xml:lang="nl">beschrijft</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">describes</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#ends -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#ends">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#Event"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#Activity"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Gebeurtenis en een Toestand.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between an Event and a State.</skos:definition>
+        <skos:example xml:lang="nl">Het onweer (gebeurtenis) beeindigde het mooie weer (toestand).</skos:example>
+        <skos:example xml:lang="en">The thunderstorm (event) ended the nice weather (state).</skos:example>
+        <skos:prefLabel xml:lang="nl">beeindigt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ends</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasBoundary -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasBoundary">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialRegion"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Fysiek Object en een Ruimtelijk Gebied.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between a Physical Object and a Spatial Region.</skos:definition>
+        <skos:example xml:lang="en">A parcel is bounded by a 1D GML polyline.</skos:example>
+        <skos:example xml:lang="nl">Een perceel wordt begrensd door een 1D GML polyline.</skos:example>
+        <skos:prefLabel xml:lang="en">has boundary</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft begrenzing</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasInterior -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasInterior">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialRegion"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Fysiek Object en een (topologisch) Ruimtelijk Gebied, tussen een Activiteit en een Ruimtelijk Gebied en tussen een Toestand en een Ruimtelijk Gebied.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between a Physical Object and a (topological) Spatial Region, between an Activity and a Spatial Region and between a State and a Spatial Region.</skos:definition>
+        <skos:example xml:lang="nl">An IfcSpace as physical space can have a Constructive Solid Geometry (CSG) representation as a special case of a 3D region in space.</skos:example>
+        <skos:example xml:lang="nl">Een IfcSpace als fysieke ruimte kan een Constructive Solid Geometry (CSG) representatie hebben als speciaal geval van een 3D ruimtelijk gebied.</skos:example>
+        <skos:prefLabel xml:lang="en">has interior</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft inwendige</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasPart -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasPart">
+        <skos:definition xml:lang="nl">Deze relatie, zoals al generiek geintroduceerd in de CMM, geldt tussen Fysiek Objecten onderling, tussen Informatie Objecten onderling of tussen Activiteiten onderling.</skos:definition>
+        <skos:definition xml:lang="en">This relationship, as already generically introduced in the CMM, applies between Physical Objects themselves, between Information Objects themselves or between Activities themselves.</skos:definition>
+        <skos:example xml:lang="nl">De fiets van Ellen (fysiek object) bestaat uit een frame, twee wielen en diverse andere onderdelen (allen fysieke objecten).</skos:example>
+        <skos:example xml:lang="en">Ellen&apos;s bicycle (physical object) consists of a frame, two wheels and various other parts (all physical objects).</skos:example>
+        <skos:prefLabel xml:lang="en">has part</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft deel</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasPeriod -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasPeriod">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalRegion"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Toestand en een Tijdperiode of tussen een Fysiek Object en een Tijdperiode.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between a Condition and a Time Period or between a Physical Object and a Time Period.</skos:definition>
+        <skos:example xml:lang="en">From Friday 26 July up to and including Sunday 18 August 2019 (time period) the N231 (physical object) is completely closed off (condition) due to major maintenance (activity).</skos:example>
+        <skos:example xml:lang="nl">Van vrijdag 26 juli tot en met zondag 18 augustus 2019 (tijdperiode) is de N231 (fysiek object) volledig afgesloten (toestand) vanwege groot onderhoud (activiteit).</skos:example>
+        <skos:prefLabel xml:lang="en">has period</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft periode</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasSpatialLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasSpatialLocation">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialRegion"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialLocation"/>
+        <skos:prefLabel xml:lang="en">has spatial location</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft ruimtelocatie</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasSpatialReference -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasSpatialReference">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialReference"/>
+        <skos:prefLabel xml:lang="en">has spatial reference</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft ruimtereferentie</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasSpatialReferenceSystem -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasSpatialReferenceSystem">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem"/>
+        <skos:prefLabel xml:lang="en">has spatial reference system</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft ruimtereferentiesysteem</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasState -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasState">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#State"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Activiteit en een Toestand of tussen een Fysiek Object en een Toestand.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between an Activity and a State or between a Physical Object and a State.</skos:definition>
+        <skos:example xml:lang="en">A state can contain multiple parameters. In this way, the air pressure, temperature and humidity of a piece of atmosphere can be recorded. These three parameters then define the state of the atmosphere at a certain location and time.</skos:example>
+        <skos:example xml:lang="nl">Een toestand kan meerdere parameters bevatten. Zo kan van een stukje atmosfeer zowel de luchtdruk, temperatuur als de luchtvochtigheid worden vastgelegd. Deze drie parameters definieren dan de toestand van de atmosfeer op een bepaalde locatie en een bepaald tijdstip.</skos:example>
+        <skos:prefLabel xml:lang="en">has state</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft toestand</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasTemporalLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasTemporalLocation">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalRegion"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalLocation"/>
+        <skos:prefLabel xml:lang="en">has temporal location</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft tijdlocatie</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasTemporalReference -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasTemporalReference">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalReference"/>
+        <skos:prefLabel xml:lang="en">has temporal reference</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft tijdreferentie</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#hasTemporalReferenceSystem -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#hasTemporalReferenceSystem">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalReferenceSystem"/>
+        <skos:prefLabel xml:lang="en">has temporal reference system</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">heeft tijdreferentiesysteem</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#performs -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#performs">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#Activity"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Fysiek Object en een Activiteit.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between a Physical Object and an Activity.</skos:definition>
+        <skos:example xml:lang="nl">Het Lassen van een brugleuning (een activiteit) wordt uitgevoerd met behulp van een Lasapparaat (fysiek object) en de Lasser (fysiek object).</skos:example>
+        <skos:example xml:lang="en">The welding of a bridge railing (an activity) is carried out with the aid of a welding machine (physical object) and the welder (physical object).</skos:example>
+        <skos:prefLabel xml:lang="en">performs</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">voert uit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#quantityKind -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#quantityKind">
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+        <skos:prefLabel xml:lang="nl">grootheid</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">quantity kind</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#transforms -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#transforms">
+        <rdfs:domain rdf:resource="https://w3id.org/def/basicsemantics-owl#Activity"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Activiteit en een Fysiek Object of tussen een Activiteit en een Informatie Object.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between an Activity and a Physical Object or between an Activity and an Information Object.</skos:definition>
+        <skos:example xml:lang="en">Baking (an activity) transforms a pizza (a physical object) from unbaked (a state) to baked (another state).</skos:example>
+        <skos:example xml:lang="nl">Het Bakken (een activiteit) transformeert een pizza (een fysiek object) van ongebakken (een toestand) naar gebakken (een andere toestand).</skos:example>
+        <skos:prefLabel xml:lang="nl">transformeert</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">transforms</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#triggers -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#triggers">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#Event"/>
+        <skos:definition xml:lang="nl">Deze relatie geldt tussen een Gebeurtenis en een Activiteit en een Gebeurtenis en een Fysiek Object.</skos:definition>
+        <skos:definition xml:lang="en">This relationship applies between an Event and an Activity and an Event and a Physical Object.</skos:definition>
+        <skos:example xml:lang="nl">Neem een Verkeersongeval (een gebeurtenis). Deze initieert de komst van de hulpdiensten (een activiteit).</skos:example>
+        <skos:example xml:lang="en">Take a traffic accident (an event). This initiates the arrival of the emergency services (an activity).</skos:example>
+        <skos:prefLabel xml:lang="en">triggers</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">triggert</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#unit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/basicsemantics-owl#unit">
+        <rdfs:range rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+        <skos:prefLabel xml:lang="nl">eenheid</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error31 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error31"/>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#Activity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/basicsemantics-owl#hasPart"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#Activity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>An activity is something possibly or actual happens in space and time</skos:definition>
+        <skos:example>Fluid pressure measurement, driving a car are examples of an &lt;activity&gt; </skos:example>
+        <skos:prefLabel xml:lang="nl">activiteit</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">activity</skos:prefLabel>
+        <skos:scopeNote>Process, function, human activity, machine activity, task, procedure, project are subclasses of &lt;Activity&gt;.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#AddressSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#AddressSystem">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem"/>
+        <skos:prefLabel xml:lang="en">address system</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">adressysteem</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#CalendarSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#CalendarSystem">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalReferenceSystem"/>
+        <skos:prefLabel xml:lang="en">calendar system</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">kalendersysteem</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#CoordinateReferenceSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#CoordinateReferenceSystem">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem"/>
+        <skos:prefLabel xml:lang="nl">coordinaatreferentiesysteem</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">coordinate reference system</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#EnumerationType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#EnumerationType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition>The superclass of all user-defined enumeration classes where the allowed enumeration items are individuals</skos:definition>
+        <skos:example>LoadLevelType being Low, Medium or High</skos:example>
+        <skos:prefLabel xml:lang="nl">enumeratietype</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">enumeration type</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#Event -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#Event">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition>A thing that happens or takes place and marks the beginning or ending of an activity or state</skos:definition>
+        <skos:example>The connection of power to pump P_101, the take-off of a aeroplane are examples of an &lt;Event&gt;. </skos:example>
+        <skos:prefLabel xml:lang="en">event</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">gebeurtenis</skos:prefLabel>
+        <skos:scopeNote>Transition, cause, effect, risk, milestone, issue, accident, point in time are subclasses of &lt;Event&gt;.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#IndexKnownSpatialLocations -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#IndexKnownSpatialLocations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem"/>
+        <skos:prefLabel xml:lang="nl">index bekende ruimtelijke plaatsen</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">index known spatial locations</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#InformationObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#InformationObject">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/basicsemantics-owl#hasPart"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#InformationObject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>Thing that is a whole of information on itself and has an own identity</skos:definition>
+        <skos:example>a file within a computer system, the PDF file with URI http://material-certificate/M-101-1234.pdf are examples of &lt;InformationObject&gt; </skos:example>
+        <skos:prefLabel xml:lang="nl">informatieobject</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">information object</skos:prefLabel>
+        <skos:scopeNote>Requirement, document, statement, E-mail, code, identifier are subclasses of &lt;InformationObject&gt; .</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#LinearReferenceSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#LinearReferenceSystem">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem"/>
+        <skos:prefLabel xml:lang="nl">lineair referentiesysteem</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">linear reference system</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#PhysicalObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/basicsemantics-owl#hasPart"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>Is something that possibly or actually exists in space and time, perceivable through the senses</skos:definition>
+        <skos:example>Pump P_101, a single living organism are examples of a &lt;PhysicalObject&gt;</skos:example>
+        <skos:prefLabel xml:lang="nl">fysiek object</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">physical object</skos:prefLabel>
+        <skos:scopeNote>Artefact, matter, person, organisation, stream, connection are subclasses of &lt;PhysicalObject&gt;.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#QuantityValue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#QuantityValue">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error31"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:prefLabel xml:lang="nl">kwantiteitwaarde</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">quantity value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#SpatialLocation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#SpatialLocation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:prefLabel xml:lang="nl">ruimtelocatie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">spatial location</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#SpatialReference -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#SpatialReference">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:prefLabel xml:lang="nl">ruimtereferentie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">spatial reference</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#SpatialReferenceSystem">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:prefLabel xml:lang="nl">ruimtereferentiesysteem</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">spatial reference system</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#SpatialRegion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#SpatialRegion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition>Demarcated space</skos:definition>
+        <skos:example>an IFC BREP or GeoSPARQL geometry representing a physical space, as special case of a physical object, such as an office space, a construction area for a building, a maritime traffic zone within the Channel, a hazard zone within a plant or the loading gauge of a train are examples of a &lt;SpatialRegion&gt;</skos:example>
+        <skos:prefLabel xml:lang="nl">ruimtelijk gebied</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">spatial region</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#State -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#State">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition>A particular condition that something is in during a specific period in time</skos:definition>
+        <skos:example>well-functioning of a car, the condition of an elevator of being un-safe are examples of a &lt;State&gt;</skos:example>
+        <skos:prefLabel xml:lang="en">state</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">toestand</skos:prefLabel>
+        <skos:scopeNote>Condition, failure state, objective are subclasses of &lt;State&gt;.</skos:scopeNote>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#TemporalCoordinateReferenceSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#TemporalCoordinateReferenceSystem">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/def/basicsemantics-owl#TemporalReferenceSystem"/>
+        <skos:prefLabel xml:lang="en">temporal coordinate reference system</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">tijdcoordinaatreferentiesysteem</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#TemporalLocation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#TemporalLocation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:prefLabel xml:lang="en">temporal location</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">tijdlocatie</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#TemporalReference -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#TemporalReference">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:prefLabel xml:lang="en">temporal reference</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">tijdreferentie</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#TemporalReferenceSystem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#TemporalReferenceSystem">
+        <skos:prefLabel xml:lang="en">temporal reference system</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">tijdreferentiesysteem</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#TemporalRegion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#TemporalRegion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <skos:definition>A length or portion of time</skos:definition>
+        <skos:example>week 12 in 2019, design stage of the Schiphol tunnel are examples of a &lt;TemporalRegion&gt;</skos:example>
+        <skos:prefLabel xml:lang="en">temporal region</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">temporeel gebied</skos:prefLabel>
+        <skos:scopeNote>Week, day, life cycle stage are subclasses of &lt;TemporalRegion&gt;.</skos:scopeNote>
+    </owl:Class>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Activity"/>
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#Event"/>
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#InformationObject"/>
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#PhysicalObject"/>
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#SpatialRegion"/>
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#State"/>
+            <rdf:Description rdf:about="https://w3id.org/def/basicsemantics-owl#TemporalRegion"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

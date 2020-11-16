@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bim4ren.eu/domain/acoustic#"
+     xml:base="http://www.bim4ren.eu/domain/acoustic"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:acoustic="http://www.bim4ren.eu/domain/acoustic#"
+     xmlns:basicsemantics-owl="https://w3id.org/def/basicsemantics-owl#">
+    <owl:Ontology rdf:about="http://www.bim4ren.eu/domain/acoustic#">
+        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/domain/acoustic/0.1"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#associatedFrequency -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#associatedFrequency"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#description"/>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#quantityKind -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/def/basicsemantics-owl#quantityKind"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#ratio"/>
+        <rdfs:range rdf:resource="http://www.bim4ren.eu/domain/acoustic#AcousticInsulator"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <associatedFrequency rdf:resource="http://www.bim4ren.eu/domain/acoustic#frequency"/>
+        <rdfs:label xml:lang="fr">absorptivité acoustique</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic absorption coefficient</rdfs:label>
+        <rdfs:label xml:lang="fr">coefficient d&apos;absorption acoustique</rdfs:label>
+        <rdfs:label xml:lang="it">coefficiente di assorbimento fónico</rdfs:label>
+        <rdfs:label xml:lang="es">coeficiente de absorción acústico</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="en">acoustic insulation efficiency</rdfs:label>
+        <rdfs:label xml:lang="fr">efficacité d&apos;isolation acoustique</rdfs:label>
+        <rdfs:label xml:lang="fr">efficacité d&apos;isolation phonique</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/SignalStrength"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#associatedNoise -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#associatedNoise"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#causedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#causedBy"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#causedby -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#causedby"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#duration -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#duration">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="es">duración</rdfs:label>
+        <rdfs:label xml:lang="it">durata</rdfs:label>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+        <rdfs:label xml:lang="fr">durée</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#frequency -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#frequency">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="en">frequency</rdfs:label>
+        <rdfs:label xml:lang="fr">fréquence</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Frequency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#generate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#generate"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact">
+        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency"/>
+        <rdfs:description xml:lang="en">The difference in dB with or without acoustic insulation on the material</rdfs:description>
+        <rdfs:label>Ln</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#intensity -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/acoustic#intensity">
+        <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+        <rdfs:label xml:lang="en">acoustic intensity</rdfs:label>
+        <rdfs:label xml:lang="fr">intensité acoustique</rdfs:label>
+        <rdfs:label xml:lang="fr">intensité sonore</rdfs:label>
+        <rdfs:label xml:lang="en">sound intensity level</rdfs:label>
+        <basicsemantics-owl:quantityKind rdf:resource="http://qudt.org/vocab/quantitykind/SignalStrength"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.bim4ren.eu/property#ratio -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#ratio"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#AcousticBridge -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#AcousticBridge"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#AcousticGenerator -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#AcousticGenerator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#generate"/>
+                <owl:someValuesFrom rdf:resource="http://www.bim4ren.eu/domain/acoustic#Noise"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">generador fónico</rdfs:label>
+        <rdfs:label xml:lang="fr">générateur accoustique</rdfs:label>
+        <rdfs:label xml:lang="fr">générateur sonore</rdfs:label>
+        <rdfs:label xml:lang="en">sound generator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#AcousticInsulator -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#AcousticInsulator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">aislante acústico</rdfs:label>
+        <rdfs:label xml:lang="es">aislante fónico</rdfs:label>
+        <rdfs:label xml:lang="fr">isolant accoustique</rdfs:label>
+        <rdfs:label xml:lang="fr">isolant phonique</rdfs:label>
+        <rdfs:label xml:lang="en">sound absorber</rdfs:label>
+        <rdfs:label xml:lang="en">sound insulation</rdfs:label>
+        <rdfs:label xml:lang="en">soundproofing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#AerialNoise -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#AerialNoise">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/acoustic#Noise"/>
+        <rdfs:label xml:lang="fr">bruits aériens</rdfs:label>
+        <rdfs:label xml:lang="es">contaminación acústica ambiental</rdfs:label>
+        <rdfs:label xml:lang="es">contaminación sonora ambiental</rdfs:label>
+        <rdfs:label xml:lang="es">contaminación sónica ambiental</rdfs:label>
+        <rdfs:label xml:lang="en">environmental noise</rdfs:label>
+        <rdfs:label xml:lang="it">inquinamento acustico</rdfs:label>
+        <rdfs:label xml:lang="fr">pollution sonore</rdfs:label>
+        <rdfs:label xml:lang="en">sound pollution</rdfs:label>
+        <rdfs:label>Rw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#Equipment -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#Equipment"/>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#EquipmentBased -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#EquipmentBased">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/acoustic#Noise"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#causedby"/>
+                <owl:someValuesFrom rdf:resource="http://www.bim4ren.eu/domain/acoustic#Equipment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">bruits d&apos;équipements</rdfs:label>
+        <rdfs:label xml:lang="en">equipment-based noise</rdfs:label>
+        <rdfs:label xml:lang="es">ruido de equipamientos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#Impact -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#Impact">
+        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/acoustic#Noise"/>
+        <rdfs:label xml:lang="en">impact</rdfs:label>
+        <rdfs:label xml:lang="fr">impact</rdfs:label>
+        <rdfs:label xml:lang="es">impacto</rdfs:label>
+        <rdfs:label xml:lang="es">percusión</rdfs:label>
+        <rdfs:label xml:lang="fr">percussion</rdfs:label>
+        <rdfs:label xml:lang="it">percussione</rdfs:label>
+        <rdfs:label>Lw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#Noise -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#Noise">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#duration"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#frequency"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#intensity"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">bruit</rdfs:label>
+        <rdfs:label xml:lang="en">noise</rdfs:label>
+        <rdfs:label xml:lang="fr">nuisance sonore</rdfs:label>
+        <rdfs:label xml:lang="es">ruido</rdfs:label>
+        <rdfs:label xml:lang="it">rumore</rdfs:label>
+        <rdfs:label xml:lang="fr">son</rdfs:label>
+        <rdfs:label xml:lang="es">sonido</rdfs:label>
+        <rdfs:label xml:lang="en">sound</rdfs:label>
+        <rdfs:label xml:lang="it">suono</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.bim4ren.eu/domain/acoustic#VibratingElement -->
+
+
+    <owl:Class rdf:about="http://www.bim4ren.eu/domain/acoustic#VibratingElement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/acoustic#associatedNoise"/>
+                <owl:someValuesFrom rdf:resource="http://www.bim4ren.eu/domain/acoustic#Noise"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/def/basicsemantics-owl#QuantityValue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

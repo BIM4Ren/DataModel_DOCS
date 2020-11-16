@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.bim4ren.eu/alignment/buildings-IFC#"
+     xml:base="http://www.bim4ren.eu/alignment/buildings-IFC"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
+     xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="http://www.bim4ren.eu/alignment/buildings-IFC">
+        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/alignment/buildings-IFC/0.1"/>
+        <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL"/>
+        <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL"/>
+        <owl:imports rdf:resource="http://www.bim4ren.eu/buildings"/>
+        <owl:imports rdf:resource="https://w3id.org/bot"/>
+        <terms:creator>Pierre Bourreau</terms:creator>
+        <terms:description xml:lang="en">This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies.</terms:description>
+        <terms:title xml:lang="en">ifcOWL to BOT alignment.</terms:title>
+        <owl:versionInfo>v0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuilding -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuilding">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuildingStorey -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcBuildingStorey">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Storey"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcElement -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcElement">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSite -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSite">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Site"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSpace -->
+
+
+    <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcSpace">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuilding -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuilding">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Building"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuildingStorey -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcBuildingStorey">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Storey"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcElement -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcElement">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Element"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSite -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSite">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Site"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSpace -->
+
+
+    <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcSpace">
+        <owl:equivalentClass rdf:resource="https://w3id.org/bot#Space"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,351 @@
+<http://www.bim4ren.eu/domain/climateconditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.bim4ren.eu/domain/climateconditions> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/domain/climateconditions/0.1> .
+<http://www.bim4ren.eu/domain/climateconditions> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/basicsemantics-owl#quantityKind
+<https://w3id.org/def/basicsemantics-owl#quantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/2000/01/rdf-schema#label> "atmospheric pressure"@en .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/2000/01/rdf-schema#label> "presión atmosférica"@es .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/2000/01/rdf-schema#label> "pression atmosphérique"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressione atmosferica"@it .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <http://www.w3.org/2000/01/rdf-schema#label> "Patm" .
+<http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/AtmosphericPressure> .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
+<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "dew point temperature"@en .
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura de derretimiento"@es .
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura del punto di rugiada"@it .
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température du point de rosée"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "Tdew" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/climateconditions#irradiance> .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "diffuse horizontal solar irradiance"@en .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "flux solaires"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiance solaire horizontale diffuse"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiancia solar horizontal difusa"@es .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiazione solare orizzontale diffusa"@it .
+<http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "FDIFH" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/climateconditions#irradiance> .
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "direct normal solar irradiance"@en .
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiance solaire normale directe"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiancia solar normal directa"@es .
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiazione solare normale diretta"@it .
+<http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance> <http://www.w3.org/2000/01/rdf-schema#label> "FDIRN" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "dry air temperature"@en .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura del aire seco"@es .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura dell'aria secca"@it .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température de l'air sec"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température extérieure"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "dry" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#irradiance
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiance"@en .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiance"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradiancia"@es .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/2000/01/rdf-schema#label> "irradianza"@it .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <http://www.w3.org/2000/01/rdf-schema#label> "E" .
+<http://www.bim4ren.eu/domain/climateconditions#irradiance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Irradiance> .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#latitude
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitud"@es .
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude"@en .
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitudine"@it .
+<http://www.bim4ren.eu/domain/climateconditions#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Lat" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#longitude
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitud"@es .
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude"@en .
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitudine"@it .
+<http://www.bim4ren.eu/domain/climateconditions#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "Lon" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#relativeHumidity
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/2000/01/rdf-schema#label> "humedad relativa"@es .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/2000/01/rdf-schema#label> "humidité relative"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/2000/01/rdf-schema#label> "relative humidity"@en .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/2000/01/rdf-schema#label> "umidità relativa"@it .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <http://www.w3.org/2000/01/rdf-schema#label> "RH" .
+<http://www.bim4ren.eu/domain/climateconditions#relativeHumidity> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/RelativeHumidity> .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#skyTemperature
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "sky temperature"@en .
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura del cielo"@es .
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura del cielo"@it .
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température du ciel"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#skyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "Tsky" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#windDirection
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/2000/01/rdf-schema#label> "dirección del viento"@es .
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/2000/01/rdf-schema#label> "direction du vent"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/2000/01/rdf-schema#label> "direzione del vento"@it .
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/2000/01/rdf-schema#label> "wind direction"@en .
+<http://www.bim4ren.eu/domain/climateconditions#windDirection> <http://www.w3.org/2000/01/rdf-schema#label> "WindDir" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#windSpeed
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#speed> .
+<http://www.bim4ren.eu/property#speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "velocidad del viento"@es .
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "velocità del vento"@it .
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "vitesse du vent"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "wind speed"@en .
+<http://www.bim4ren.eu/domain/climateconditions#windSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "WindSpeed" .
+# 
+# http://www.bim4ren.eu/property#speed
+# 
+# http://www.bim4ren.eu/property#temperature
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Climate
+<http://www.bim4ren.eu/domain/climateconditions#Climate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#Climate> <http://www.w3.org/2000/01/rdf-schema#label> "Clima"@es .
+<http://www.bim4ren.eu/domain/climateconditions#Climate> <http://www.w3.org/2000/01/rdf-schema#label> "Climat"@fr .
+<http://www.bim4ren.eu/domain/climateconditions#Climate> <http://www.w3.org/2000/01/rdf-schema#label> "Climate"@en .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Continental
+<http://www.bim4ren.eu/domain/climateconditions#Continental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#Continental> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/climateconditions#Climate> .
+<http://www.bim4ren.eu/domain/climateconditions#Continental> <http://www.w3.org/2000/01/rdf-schema#label> "D" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Dry
+<http://www.bim4ren.eu/domain/climateconditions#Dry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#Dry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/climateconditions#Climate> .
+<http://www.bim4ren.eu/domain/climateconditions#Dry> <http://www.w3.org/2000/01/rdf-schema#label> "B" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Polar
+<http://www.bim4ren.eu/domain/climateconditions#Polar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#Polar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/climateconditions#Climate> .
+<http://www.bim4ren.eu/domain/climateconditions#Polar> <http://www.w3.org/2000/01/rdf-schema#label> "E" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Temperate
+<http://www.bim4ren.eu/domain/climateconditions#Temperate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#Temperate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/climateconditions#Climate> .
+<http://www.bim4ren.eu/domain/climateconditions#Temperate> <http://www.w3.org/2000/01/rdf-schema#label> "C" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Tropical
+<http://www.bim4ren.eu/domain/climateconditions#Tropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#Tropical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/climateconditions#Climate> .
+<http://www.bim4ren.eu/domain/climateconditions#Tropical> <http://www.w3.org/2000/01/rdf-schema#comment> "Mean temperature each month is superior to 18°C. No winter. Heavy yearly rains" .
+<http://www.bim4ren.eu/domain/climateconditions#Tropical> <http://www.w3.org/2000/01/rdf-schema#label> "A" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/climateconditions#Tropical> .
+# 
+# https://w3id.org/def/basicsemantics-owl#QuantityValue
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid
+<http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Dry> .
+<http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid> <http://www.w3.org/2000/01/rdf-schema#label> "BSk" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#ColdDesert
+<http://www.bim4ren.eu/domain/climateconditions#ColdDesert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#ColdDesert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Dry> .
+<http://www.bim4ren.eu/domain/climateconditions#ColdDesert> <http://www.w3.org/2000/01/rdf-schema#label> "BWk" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland
+<http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland> <http://www.w3.org/2000/01/rdf-schema#label> "Cwc" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean
+<http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Csc" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#HotDesert
+<http://www.bim4ren.eu/domain/climateconditions#HotDesert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#HotDesert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Dry> .
+<http://www.bim4ren.eu/domain/climateconditions#HotDesert> <http://www.w3.org/2000/01/rdf-schema#label> "BWh" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#HotSemiArid
+<http://www.bim4ren.eu/domain/climateconditions#HotSemiArid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#HotSemiArid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Dry> .
+<http://www.bim4ren.eu/domain/climateconditions#HotSemiArid> <http://www.w3.org/2000/01/rdf-schema#label> "BSh" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental
+<http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental> <http://www.w3.org/2000/01/rdf-schema#label> "Dfa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean
+<http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Csa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical
+<http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical> <http://www.w3.org/2000/01/rdf-schema#label> "Cfa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#IceCapClimate
+<http://www.bim4ren.eu/domain/climateconditions#IceCapClimate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#IceCapClimate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Polar> .
+<http://www.bim4ren.eu/domain/climateconditions#IceCapClimate> <http://www.w3.org/2000/01/rdf-schema#label> "EF" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic> <http://www.w3.org/2000/01/rdf-schema#label> "Dsc" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid> <http://www.w3.org/2000/01/rdf-schema#label> "Dsa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic> <http://www.w3.org/2000/01/rdf-schema#label> "Dsb" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental> <http://www.w3.org/2000/01/rdf-schema#label> "Dsa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic> <http://www.w3.org/2000/01/rdf-schema#label> "Dwd" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid> <http://www.w3.org/2000/01/rdf-schema#label> "Dwa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical> <http://www.w3.org/2000/01/rdf-schema#label> "Cwa" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic> <http://www.w3.org/2000/01/rdf-schema#label> "Dwc" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid> <http://www.w3.org/2000/01/rdf-schema#label> "Dwb" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Subartic
+<http://www.bim4ren.eu/domain/climateconditions#Subartic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#Subartic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#Subartic> <http://www.w3.org/2000/01/rdf-schema#label> "Dfc" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic
+<http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic> <http://www.w3.org/2000/01/rdf-schema#label> "Cfc" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland
+<http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland> <http://www.w3.org/2000/01/rdf-schema#label> "Cwb" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic
+<http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic> <http://www.w3.org/2000/01/rdf-schema#label> "Cfb" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon
+<http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Tropical> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon> <http://www.w3.org/2000/01/rdf-schema#label> "Am" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest
+<http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Tropical> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest> <http://www.w3.org/2000/01/rdf-schema#label> "Af" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer> <http://www.w3.org/2000/01/rdf-schema#label> "As" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna> .
+<http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter> <http://www.w3.org/2000/01/rdf-schema#label> "Aw" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#Tundra
+<http://www.bim4ren.eu/domain/climateconditions#Tundra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#Tundra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Polar> .
+<http://www.bim4ren.eu/domain/climateconditions#Tundra> <http://www.w3.org/2000/01/rdf-schema#label> "ET" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental
+<http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Continental> .
+<http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental> <http://www.w3.org/2000/01/rdf-schema#label> "Dfb" .
+# 
+# http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean
+<http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/domain/climateconditions#Temperate> .
+<http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Csb" .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

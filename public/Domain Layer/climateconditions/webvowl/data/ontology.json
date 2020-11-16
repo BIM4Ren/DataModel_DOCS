@@ -1,0 +1,680 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "it", "fr", "es", "undefined" ],
+    "baseIris" : [ "http://www.bim4ren.eu/domain/climateconditions", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/def/basicsemantics-owl" ],
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "8",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TropicalSavanna"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "TropicalSavannaDrySummer",
+        "undefined" : "As"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "TropicalSavannaDryWinter",
+        "undefined" : "Aw"
+      }
+    } ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#Tropical",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tropical",
+      "undefined" : "A"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "TropicalMonsoon",
+        "undefined" : "Am"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "TropicalRainForest",
+        "undefined" : "Af"
+      }
+    } ],
+    "subClasses" : [ "1" ],
+    "comment" : {
+      "undefined" : "Mean temperature each month is superior to 18°C. No winter. Heavy yearly rains"
+    },
+    "id" : "2",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#Continental",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Continental",
+      "undefined" : "D"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MediterraneanInfluencedSubarctic",
+        "undefined" : "Dsb"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "WarmSummerHumidContinental",
+        "undefined" : "Dfb"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MonsoonInfluencedSubarctic",
+        "undefined" : "Dwc"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "HotSummerHumidContinental",
+        "undefined" : "Dfa"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MediterraneanInfluencedExtremelyColdSubarctic",
+        "undefined" : "Dsc"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MonsoonInfluencedWarmSummerHumid",
+        "undefined" : "Dwb"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MonsoonInfluencedExtremelyColdSubarctic",
+        "undefined" : "Dwd"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MonsoonInfluencedHotSummerHumid",
+        "undefined" : "Dwa"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MediterraneanInfluencedHotSummerHumid",
+        "undefined" : "Dsa"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#Subartic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "Subartic",
+        "undefined" : "Dfc"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MediterraneanInfluencedWarmSummerHumidContinental",
+        "undefined" : "Dsa"
+      }
+    } ],
+    "id" : "11",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#Temperate",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperate",
+      "undefined" : "C"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "ColdSummerMediterranean",
+        "undefined" : "Csc"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "SubpolearOceanic",
+        "undefined" : "Cfc"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "ColdSubtropicalHighland",
+        "undefined" : "Cwc"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "HumidSubtropical",
+        "undefined" : "Cfa"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "SubtropicalHighland",
+        "undefined" : "Cwb"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "WarmSummerMediterranean",
+        "undefined" : "Csb"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "HotSummerMediterranean",
+        "undefined" : "Csa"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "TemperateOceanic",
+        "undefined" : "Cfb"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "MonsoonInfluencedHumidSubtropical",
+        "undefined" : "Cwa"
+      }
+    } ],
+    "id" : "13",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "16",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "8",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#Polar",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polar",
+      "undefined" : "E"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#Tundra",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "Tundra",
+        "undefined" : "ET"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#IceCapClimate",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "IceCapClimate",
+        "undefined" : "EF"
+      }
+    } ],
+    "id" : "15",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#Dry",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dry",
+      "undefined" : "B"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#ColdDesert",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "ColdDesert",
+        "undefined" : "BWk"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#HotSemiArid",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "HotSemiArid",
+        "undefined" : "BSh"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "ClodSemiArid",
+        "undefined" : "BSk"
+      }
+    }, {
+      "iri" : "http://www.bim4ren.eu/domain/climateconditions#HotDesert",
+      "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+      "labels" : {
+        "IRI-based" : "HotDesert",
+        "undefined" : "BWh"
+      }
+    } ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#Climate",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Climate",
+      "en" : "Climate",
+      "fr" : "Climat",
+      "es" : "Clima"
+    },
+    "subClasses" : [ "4", "2", "11", "13", "15" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
+    "baseIri" : "https://w3id.org/def/basicsemantics-owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QuantityValue"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "diffuseHorizontalSolarIrradiance",
+      "en" : "diffuse horizontal solar irradiance",
+      "it" : "irradiazione solare orizzontale diffusa",
+      "fr" : "flux solaires",
+      "es" : "irradiancia solar horizontal difusa",
+      "undefined" : "FDIFH"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "range" : "5",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "5",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "5",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#relativeHumidity",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "18",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/RelativeHumidity",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "relativeHumidity",
+      "en" : "relative humidity",
+      "it" : "umidità relativa",
+      "fr" : "humidité relative",
+      "es" : "humedad relativa",
+      "undefined" : "RH"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#skyTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "skyTemperature",
+      "en" : "sky temperature",
+      "it" : "temperatura del cielo",
+      "fr" : "température du ciel",
+      "es" : "temperatura del cielo",
+      "undefined" : "Tsky"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "18",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/AtmosphericPressure",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "atmosphericPressure",
+      "en" : "atmospheric pressure",
+      "it" : "pressione atmosferica",
+      "fr" : "pression atmosphérique",
+      "es" : "presión atmosférica",
+      "undefined" : "Patm"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#windDirection",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "windDirection",
+      "en" : "wind direction",
+      "it" : "direzione del vento",
+      "fr" : "direction du vent",
+      "es" : "dirección del viento",
+      "undefined" : "WindDir"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#temperature",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "temperature"
+    },
+    "domain" : "8",
+    "subproperty" : [ "19", "23", "24" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.bim4ren.eu/property#speed",
+    "baseIri" : "http://www.bim4ren.eu/property",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "speed"
+    },
+    "domain" : "8",
+    "subproperty" : [ "26" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#irradiance",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "18",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/Irradiance",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "irradiance",
+      "en" : "irradiance",
+      "it" : "irradianza",
+      "fr" : "irradiance",
+      "es" : "irradiancia",
+      "undefined" : "E"
+    },
+    "domain" : "16",
+    "subproperty" : [ "7", "27" ],
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#windSpeed",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "windSpeed",
+      "en" : "wind speed",
+      "it" : "velocità del vento",
+      "fr" : "vitesse du vent",
+      "es" : "velocidad del viento",
+      "undefined" : "WindSpeed"
+    },
+    "superproperty" : [ "25" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#latitude",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "latitude",
+      "en" : "latitude",
+      "it" : "latitudine",
+      "fr" : "latitude",
+      "es" : "latitud",
+      "undefined" : "Lat"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "dryAirTemperature",
+      "en" : "dry air temperature",
+      "it" : "temperatura dell'aria secca",
+      "fr" : "température extérieure",
+      "es" : "temperatura del aire seco",
+      "undefined" : "dry"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "dewPointTemperature",
+      "en" : "dew point temperature",
+      "it" : "temperatura del punto di rugiada",
+      "fr" : "température du point de rosée",
+      "es" : "temperatura de derretimiento",
+      "undefined" : "Tdew"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#longitude",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "longitude",
+      "en" : "longitude",
+      "it" : "longitudine",
+      "fr" : "longitude",
+      "es" : "longitud",
+      "undefined" : "Lon"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance",
+    "baseIri" : "http://www.bim4ren.eu/domain/climateconditions",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "directNormalSolarIrradiance",
+      "en" : "direct normal solar irradiance",
+      "it" : "irradiazione solare normale diretta",
+      "fr" : "irradiance solaire normale directe",
+      "es" : "irradiancia solar normal directa",
+      "undefined" : "FDIRN"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  } ]
+}

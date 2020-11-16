@@ -1,0 +1,273 @@
+@prefix : <http://www.bim4ren.eu/buildings#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.bim4ren.eu/buildings#> .
+
+<http://www.bim4ren.eu/buildings#> rdf:type owl:Ontology ;
+                                    owl:versionIRI <http://www.bim4ren.eu/buildings/0.1> ;
+                                    owl:imports <http://www.bim4ren.eu/property#> ,
+                                                <https://w3id.org/bot> ;
+                                    <http://purl.org/dc/terms/contributor> "Nathalie Charbel" ,
+                                                                           "Pierre Bourreau" ;
+                                    <http://purl.org/dc/terms/description> "The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage."@en ;
+                                    <http://purl.org/dc/terms/title> "The BIM4Ren buildings ontology"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#maxQualifiedCardinality
+owl:maxQualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#qualifiedCardinality
+owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.bim4ren.eu/buildings#isMadeOf
+:isMadeOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Enveloppe ;
+          rdfs:range <https://w3id.org/bot#Element> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.bim4ren.eu/buildings#constructionYear
+:constructionYear rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <https://w3id.org/bot#Building> ;
+                  rdfs:range xsd:gYear .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.bim4ren.eu/buildings#Allotment
+:Allotment rdf:type owl:Class ;
+           rdfs:subClassOf :SingleFamilyHousing .
+
+
+###  http://www.bim4ren.eu/buildings#Appartment
+:Appartment rdf:type owl:Class ;
+            rdfs:subClassOf :VolumetricZone ,
+                            <https://w3id.org/bot#Zone> ;
+            owl:disjointWith <https://w3id.org/bot#Building> ,
+                             <https://w3id.org/bot#Site> ,
+                             <https://w3id.org/bot#Space> ,
+                             <https://w3id.org/bot#Storey> ;
+            rdfs:label "Appartement"@fr ,
+                       "Appartment"@en .
+
+
+###  http://www.bim4ren.eu/buildings#Attic
+:Attic rdf:type owl:Class ;
+       rdfs:subClassOf <https://w3id.org/bot#Space> ;
+       rdfs:comment "The space between the ceiling beams of the top story and the roof rafters."@en ;
+       rdfs:isDefinedBy "Omniclass 13-23 23 27" .
+
+
+###  http://www.bim4ren.eu/buildings#Bathroom
+:Bathroom rdf:type owl:Class ;
+          rdfs:subClassOf <https://w3id.org/bot#Space> ;
+          rdfs:comment "Space for washing one's body or part of it."@en ;
+          rdfs:isDefinedBy <http://bsdd.buildingsmart.org/#concept/details/2GPg_0OMSHuO00025QrE$V> ,
+                           "Omniclass 13-65 13 15" .
+
+
+###  http://www.bim4ren.eu/buildings#Cellar
+:Cellar rdf:type owl:Class ;
+        rdfs:subClassOf <https://w3id.org/bot#Space> .
+
+
+###  http://www.bim4ren.eu/buildings#CirculationSpace
+:CirculationSpace rdf:type owl:Class ;
+                  rdfs:subClassOf <https://w3id.org/bot#Space> ;
+                  rdfs:comment "Spaces for circulation that provide or control access to and between other spaces within the facility, entry, and egress."@en ;
+                  rdfs:isDefinedBy "Omniclass 13-25 00 00" .
+
+
+###  http://www.bim4ren.eu/buildings#Condominum
+:Condominum rdf:type owl:Class ;
+            rdfs:subClassOf :MultiDwellingHousing ;
+            rdfs:isDefinedBy "Part of 'Duplex' in Omniclass 11 (2013 02 26)"@en ;
+            rdfs:label "Condominum"@en .
+
+
+###  http://www.bim4ren.eu/buildings#DetachedHouse
+:DetachedHouse rdf:type owl:Class ;
+               rdfs:subClassOf :SingleFamilyHousing .
+
+
+###  http://www.bim4ren.eu/buildings#DiningRoom
+:DiningRoom rdf:type owl:Class ;
+            rdfs:subClassOf <https://w3id.org/bot#Space> ;
+            rdfs:comment "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."@en ;
+            rdfs:isDefinedBy "Omniclass 13-57 13 15 11" .
+
+
+###  http://www.bim4ren.eu/buildings#Dormitory
+:Dormitory rdf:type owl:Class ;
+           rdfs:subClassOf :Residential ;
+           rdfs:comment "A single facility containing multiple sleeping quarters and typically shared eating and lavatory facilities typically for students."@en ;
+           rdfs:isDefinedBy <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3LQ_u01P4HtG0000PR1IRl> ;
+           rdfs:label "Dormitory"@en ,
+                      "Dortoir"@fr .
+
+
+###  http://www.bim4ren.eu/buildings#Enveloppe
+:Enveloppe rdf:type owl:Class ;
+           rdfs:label "Enveloppe"@en ,
+                      "Enveloppe"@fr ,
+                      "Envolvente de edificación"@es ,
+                      "Involucro edilizio"@it .
+
+
+###  http://www.bim4ren.eu/buildings#Garage
+:Garage rdf:type owl:Class ;
+        rdfs:subClassOf <https://w3id.org/bot#Space> ;
+        rdfs:comment "Totally or partially enclosed space that is normally used to circulate and station vehicles."@en ;
+        rdfs:isDefinedBy "Omniclass 13-21 13 00" .
+
+
+###  http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding
+:GovernmentSubsidizedBuilding rdf:type owl:Class ;
+                              rdfs:subClassOf :MultiDwellingHousing ;
+                              rdfs:comment "A dwelling (or dwellings) that has a lowered cost of ownership due to government funding and support."@en ;
+                              rdfs:isDefinedBy "'Government Subsiduzed Building' in Omniclass 11 (2013 02 26)" ;
+                              rdfs:label "Government Subsidized Building"@en .
+
+
+###  http://www.bim4ren.eu/buildings#Kitchen
+:Kitchen rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/bot#Space> ;
+         rdfs:comment "A room or part of a room used for cooking and food preparation."@en ;
+         rdfs:isDefinedBy <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2SKd6KOMSHuO00025QrE$V> ,
+                          "Omniclass 13-65 23 00" .
+
+
+###  http://www.bim4ren.eu/buildings#LivingRoom
+:LivingRoom rdf:type owl:Class ;
+            rdfs:subClassOf <https://w3id.org/bot#Space> ;
+            rdfs:comment "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."@en ;
+            rdfs:isDefinedBy "Omniclass 13-57 13 15 11" .
+
+
+###  http://www.bim4ren.eu/buildings#MultiDwellingHousing
+:MultiDwellingHousing rdf:type owl:Class ;
+                      rdfs:subClassOf :Residential ;
+                      rdfs:comment "Multiple dwellings contained in a single structure."@en ;
+                      rdfs:isDefinedBy "'Multiple Family Residences' in Omniclass 11 (2013 02 26)"@en ;
+                      rdfs:label "Multi-Dwelling Housing"@en .
+
+
+###  http://www.bim4ren.eu/buildings#Residential
+:Residential rdf:type owl:Class ;
+             rdfs:subClassOf <https://w3id.org/bot#Building> ;
+             rdfs:comment "Facilities used for long-term inhabitation and dwelling by humans."@en ;
+             rdfs:isDefinedBy <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2aYxa01P4HtG0000PR1IRl> ,
+                              "'Housing Facility' in Omniclass 11 (2013 02 26)" ;
+             rdfs:label "Bâtiment résidentiel"@fr ,
+                        "Residential Building"@en .
+
+
+###  http://www.bim4ren.eu/buildings#SeniorHousing
+:SeniorHousing rdf:type owl:Class ;
+               rdfs:subClassOf :Residential ;
+               rdfs:comment "Dwellings and commercial facilities designed and/or retrofitted for occupancy by Seniors."@en ;
+               rdfs:isDefinedBy "'Senior Housing' in Omniclass 11 (2013 02 26)" .
+
+
+###  http://www.bim4ren.eu/buildings#SingleFamilyHousing
+:SingleFamilyHousing rdf:type owl:Class ;
+                     rdfs:subClassOf :Residential ;
+                     rdfs:comment "A dwelling unit for a service member or for an authorized government civilian and his/her authorized dependents when accompanied by those dependents."@en ;
+                     rdfs:isDefinedBy <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2dXgc01P4HtG0000PR1IRl> ,
+                                      "'Single Family Residence' in Omniclass 11 (2013 02 26)" .
+
+
+###  http://www.bim4ren.eu/buildings#SleepingRoom
+:SleepingRoom rdf:type owl:Class ;
+              rdfs:subClassOf <https://w3id.org/bot#Space> ;
+              rdfs:comment "A private room where people sleep for the night."@en ;
+              rdfs:isDefinedBy "Omniclass 13-65 19 00" .
+
+
+###  http://www.bim4ren.eu/buildings#SocialHousingBuilding
+:SocialHousingBuilding rdf:type owl:Class ;
+                       rdfs:subClassOf :MultiDwellingHousing ;
+                       rdfs:isDefinedBy "'LIHTC Tax Credit Housing' in Omniclass 11 (2013 02 26)"@en .
+
+
+###  http://www.bim4ren.eu/buildings#SpecialCareBuilding
+:SpecialCareBuilding rdf:type owl:Class ;
+                     rdfs:subClassOf :Residential ;
+                     rdfs:comment "A dwelling containing multiple sleeping quarters with shared eating, living and lavatory facilities in addition to offering additional care and medical/health assistance from trained staff."@en ;
+                     rdfs:isDefinedBy <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UzLO01P4HtG0000PR1IRl> ,
+                                      "'Special Care Residence' in Omniclass 11 (2013 02 26)" .
+
+
+###  http://www.bim4ren.eu/buildings#Terraced
+:Terraced rdf:type owl:Class ;
+          rdfs:subClassOf :SingleFamilyHousing .
+
+
+###  http://www.bim4ren.eu/buildings#Toilets
+:Toilets rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/bot#Space> ;
+         rdfs:comment "A space containing a toilet or similar fixture that disposes of human waste by using water to flush it through a drainpipe to another location."@en ;
+         rdfs:isDefinedBy <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2EdEmAOMSHuO00025QrE$V> ,
+                          "Omniclass 13-65 13 13" .
+
+
+###  http://www.bim4ren.eu/buildings#VolumetricZone
+:VolumetricZone rdf:type owl:Class ;
+                rdfs:subClassOf <https://w3id.org/bot#Zone> .
+
+
+###  https://w3id.org/bot#Building
+<https://w3id.org/bot#Building> rdfs:subClassOf :VolumetricZone ,
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :constructionYear ;
+                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                  owl:onDataRange xsd:gYear
+                                                ] .
+
+
+###  https://w3id.org/bot#Space
+<https://w3id.org/bot#Space> rdfs:subClassOf :VolumetricZone .
+
+
+###  https://w3id.org/bot#Storey
+<https://w3id.org/bot#Storey> rdfs:subClassOf :VolumetricZone .
+
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

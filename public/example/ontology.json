@@ -1,0 +1,561 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.bim4ren.eu/property#accuracy" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "44.0"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/CentiM"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/KiloV-A"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "11.97"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "https://w3id.org/dot#descriptionContent" : [ {
+    "@value" : "inspection related to boiler damage: Low-Water Condition"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "https://w3id.org/dot#filePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://organization1.com/projectx/interventions/damage1.html"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.bim4ren.eu/property#fromTime" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.bim4ren.eu/property#toTime" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1781"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/EURO"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/HR"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/HR"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.bim4ren.eu/property#fromTime" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.bim4ren.eu/property#toTime" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1337"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/EURO"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.9"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/HR"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/HR"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/KiloV-A"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "11.10"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/KiloV-A"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.98"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1707"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/EURO"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1405"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/EURO"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.bim4ren.eu/domain/thermal#efficiencyType" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/thermal#CERTIFIED"
+  } ],
+  "http://www.bim4ren.eu/domain/thermal#load" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "50"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/PERCENT"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/KiloV-A"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "11.84"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1749"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/EURO"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid35"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1426"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/EURO"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "50"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/PERCENT"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "https://w3id.org/dot#coveredByInspection" : [ {
+    "@id" : "http://www.bim4ren.eu/example#insepction_1"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1546"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/KiloV-A"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.26"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1587"
+  } ],
+  "https://w3id.org/def/basicsemantics-owl#unit" : [ {
+    "@id" : "http://qudt.org/vocab/unit/Euro"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/buildings#Appartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/core/intervention#Checking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/core/intervention#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/core/intervention#endDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/core/intervention#performedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/core/intervention#startDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#FixedTariff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#electricitySubscription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#kwhPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#off-PeakHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#peakHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#subscriptionPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#subscriptionPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#subscriptionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#weekdaysHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/electrical#weekendHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#boilerEfficiency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#efficiencyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/domain/thermal#load",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.bim4ren.eu/property#"
+  }, {
+    "@id" : "https://pi.pauwel.be/voc/buildingelement#"
+  }, {
+    "@id" : "https://w3id.org/def/basicsemantics-owl#"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#Window_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://pi.pauwel.be/voc/buildingelement#Window" ],
+  "http://www.bim4ren.eu/property#height" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#appart_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/buildings#Appartment" ],
+  "http://www.bim4ren.eu/domain/electrical#electricitySubscription" : [ {
+    "@id" : "http://www.bim4ren.eu/example#fixedtariff_option1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#appart_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/buildings#Appartment" ],
+  "http://www.bim4ren.eu/domain/electrical#electricitySubscription" : [ {
+    "@id" : "http://www.bim4ren.eu/example#fixedtariff_option2"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#appart_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/buildings#Appartment" ],
+  "http://www.bim4ren.eu/domain/electrical#electricitySubscription" : [ {
+    "@id" : "http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#appart_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/buildings#Appartment" ],
+  "http://www.bim4ren.eu/domain/electrical#electricitySubscription" : [ {
+    "@id" : "http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#appart_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/buildings#Appartment" ],
+  "http://www.bim4ren.eu/domain/electrical#electricitySubscription" : [ {
+    "@id" : "http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#boiler_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://pi.pauwel.be/voc/distributionelement#Boiler" ],
+  "http://www.bim4ren.eu/domain/thermal#boilerEfficiency" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "https://w3id.org/dot#hasDamage" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#fixedtariff_option1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/electrical#FixedTariff" ],
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPower" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPrice" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionType" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/electrical#MONTHLY"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#fixedtariff_option2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/electrical#FixedTariff" ],
+  "http://www.bim4ren.eu/domain/electrical#kwhPrice" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPower" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPrice" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionType" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/electrical#MONTHLY"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#insepction_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/core/intervention#Checking", "https://w3id.org/dot#Inspection" ],
+  "http://www.bim4ren.eu/core/intervention#endDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-01-26T12:00:19"
+  } ],
+  "http://www.bim4ren.eu/core/intervention#performedBy" : [ {
+    "@id" : "http://www.bim4ren.eu/example#organization_1"
+  } ],
+  "http://www.bim4ren.eu/core/intervention#startDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-01-26T11:32:52"
+  } ],
+  "https://w3id.org/dot#hasDocumentation" : [ {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#organization_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/core/intervention#Organization" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#peakOffPeakHourstariff_option1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff" ],
+  "http://www.bim4ren.eu/domain/electrical#off-PeakHours" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#peakHours" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPower" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPrice" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionType" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/electrical#MONTHLY"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#weekEndWeekDaystariff_option1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff" ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPower" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPrice" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionType" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/electrical#MONTHLY"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#weekdaysHours" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#weekendHours" : [ {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/example#weekEndWeekDaystariff_option2",
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPower" : [ {
+    "@id" : "_:genid30"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionPrice" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#subscriptionType" : [ {
+    "@id" : "http://www.bim4ren.eu/domain/electrical#MONTHLY"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#weekdaysHours" : [ {
+    "@id" : "_:genid32"
+  } ],
+  "http://www.bim4ren.eu/domain/electrical#weekendHours" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#accuracy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#fromTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#height",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.bim4ren.eu/property#toTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://pi.pauwel.be/voc/distributionelement#Boiler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/basicsemantics-owl#unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/dot#Inspection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/dot#coveredByInspection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/dot#descriptionContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/dot#filePath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/dot#hasDamage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/dot#hasDocumentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

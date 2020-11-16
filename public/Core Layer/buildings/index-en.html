@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>The BIM4Ren buildings ontology</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://www.bim4ren.eu/buildings#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.bim4ren.eu/buildings#","name":"The BIM4Ren buildings ontology", "headline":"The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage.", "datePublished":"Fri Nov 13 18:55:06 CET 2020", "contributor":[{"@type":"Person","name":"Nathalie Charbel"},{"@type":"Person","name":"Pierre Bourreau"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>The BIM4Ren buildings ontology</h1>
+
+
+<dl>
+<dt>This version:</dt>
+<dd><a href="http://www.bim4ren.eu/buildings/0.1">http://www.bim4ren.eu/buildings/0.1</a></dd>
+<dt>Contributors:</dt>
+<dd>Nathalie Charbel</dd><dd>Pierre Bourreau</dd>
+
+<dt>Imported Ontologies:</dt>
+<dd><a href="https://w3id.org/bot#">bot#</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd> The BIM4Ren buildings ontology. Retrieved from: http://www.bim4ren.eu/buildings/0.1</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage.</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div id="namespacedeclarations">
+<h3 id="ns" class="list">Namespace declarations</h3>
+<div id="ns" align="center">
+<table>
+<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<tbody>
+<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://www.bim4ren.eu/buildings#&gt;</td></tr>
+<tr><td><b>schema</b></td><td>&lt;https://schema.org&gt;</td></tr>
+<tr><td><b>w3id-org</b></td><td>&lt;https://w3id.org&gt;</td></tr>
+<tr><td><b>ns</b></td><td>&lt;http://www.w3.org/2006/vcard/ns&gt;</td></tr>
+<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
+<tr><td><b>bot</b></td><td>&lt;https://w3id.org/bot&gt;</td></tr>
+<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
+<tr><td><b>ifdconcept</b></td><td>&lt;http://bsdd.buildingsmart.org/api/4.0/IfdConcept&gt;</td></tr>
+<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+<tr><td><b>ns1</b></td><td>&lt;http://www.w3.org/2003/06/sw-vocab-status/ns&gt;</td></tr>
+<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
+<tr><td><b>terms</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
+<tr><td><b>buildings</b></td><td>&lt;http://www.bim4ren.eu/buildings&gt;</td></tr>
+<tr><td><b>vann</b></td><td>&lt;http://purl.org/vocab/vann&gt;</td></tr>
+<tr><td><b>default namespace</b></td><td>&lt;http://www.bim4ren.eu/buildings&gt;</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">The BIM4Ren buildings ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul class="hlist">
+   <li>
+      <a href="#Allotment" title="http://www.bim4ren.eu/buildings#Allotment">
+         <span>allotment</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Appartment" title="http://www.bim4ren.eu/buildings#Appartment">Appartment</a>
+   </li>
+   <li>
+      <a href="#Attic" title="http://www.bim4ren.eu/buildings#Attic">
+         <span>attic</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Bathroom" title="http://www.bim4ren.eu/buildings#Bathroom">
+         <span>bathroom</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Cellar" title="http://www.bim4ren.eu/buildings#Cellar">
+         <span>cellar</span>
+      </a>
+   </li>
+   <li>
+      <a href="#CirculationSpace" title="http://www.bim4ren.eu/buildings#CirculationSpace">
+         <span>circulation space</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Condominum" title="http://www.bim4ren.eu/buildings#Condominum">Condominum</a>
+   </li>
+   <li>
+      <a href="#DetachedHouse" title="http://www.bim4ren.eu/buildings#DetachedHouse">
+         <span>detached house</span>
+      </a>
+   </li>
+   <li>
+      <a href="#DiningRoom" title="http://www.bim4ren.eu/buildings#DiningRoom">
+         <span>dining room</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Dormitory" title="http://www.bim4ren.eu/buildings#Dormitory">Dormitory</a>
+   </li>
+   <li>
+      <a href="#Enveloppe" title="http://www.bim4ren.eu/buildings#Enveloppe">Enveloppe</a>
+   </li>
+   <li>
+      <a href="#Garage" title="http://www.bim4ren.eu/buildings#Garage">
+         <span>garage</span>
+      </a>
+   </li>
+   <li>
+      <a href="#GovernmentSubsidizedBuilding"
+         title="http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding">Government Subsidized Building</a>
+   </li>
+   <li>
+      <a href="#Kitchen" title="http://www.bim4ren.eu/buildings#Kitchen">
+         <span>kitchen</span>
+      </a>
+   </li>
+   <li>
+      <a href="#LivingRoom" title="http://www.bim4ren.eu/buildings#LivingRoom">
+         <span>living room</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MultiDwellingHousing"
+         title="http://www.bim4ren.eu/buildings#MultiDwellingHousing">Multi-Dwelling Housing</a>
+   </li>
+   <li>
+      <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+   </li>
+   <li>
+      <a href="#SeniorHousing" title="http://www.bim4ren.eu/buildings#SeniorHousing">
+         <span>senior housing</span>
+      </a>
+   </li>
+   <li>
+      <a href="#SingleFamilyHousing"
+         title="http://www.bim4ren.eu/buildings#SingleFamilyHousing">
+         <span>single family housing</span>
+      </a>
+   </li>
+   <li>
+      <a href="#SleepingRoom" title="http://www.bim4ren.eu/buildings#SleepingRoom">
+         <span>sleeping room</span>
+      </a>
+   </li>
+   <li>
+      <a href="#SocialHousingBuilding"
+         title="http://www.bim4ren.eu/buildings#SocialHousingBuilding">
+         <span>social housing building</span>
+      </a>
+   </li>
+   <li>
+      <a href="#SpecialCareBuilding"
+         title="http://www.bim4ren.eu/buildings#SpecialCareBuilding">
+         <span>special care building</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Terraced" title="http://www.bim4ren.eu/buildings#Terraced">
+         <span>terraced</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Toilets" title="http://www.bim4ren.eu/buildings#Toilets">
+         <span>toilets</span>
+      </a>
+   </li>
+   <li>
+      <a href="#VolumetricZone" title="http://www.bim4ren.eu/buildings#VolumetricZone">
+         <span>volumetric zone</span>
+      </a>
+   </li>
+</ul><h4>Object Properties</h4><ul class="hlist">
+   <li>
+      <a href="#isMadeOf" title="http://www.bim4ren.eu/buildings#isMadeOf">
+         <span>is made of</span>
+      </a>
+   </li>
+</ul><h4>Data Properties</h4><ul class="hlist">
+   <li>
+      <a href="#constructionYear" title="http://www.bim4ren.eu/buildings#constructionYear">
+         <span>construction year</span>
+      </a>
+   </li>
+</ul><h4>Annotation Properties</h4><ul class="hlist">
+   <li>
+      <a href="#http://www.w3.org/2002/07/owl#maxQualifiedCardinality"
+         title="http://www.w3.org/2002/07/owl#maxQualifiedCardinality">
+         <span>max qualified cardinality</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/2002/07/owl#qualifiedCardinality"
+         title="http://www.w3.org/2002/07/owl#qualifiedCardinality">
+         <span>qualified cardinality</span>
+      </a>
+   </li>
+</ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">The BIM4Ren buildings ontology: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for The BIM4Ren buildings ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by The BIM4Ren buildings ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Allotment" title="http://www.bim4ren.eu/buildings#Allotment">
+            <span>allotment</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Appartment" title="http://www.bim4ren.eu/buildings#Appartment">Appartment</a>
+      </li>
+      <li>
+         <a href="#Attic" title="http://www.bim4ren.eu/buildings#Attic">
+            <span>attic</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Bathroom" title="http://www.bim4ren.eu/buildings#Bathroom">
+            <span>bathroom</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Cellar" title="http://www.bim4ren.eu/buildings#Cellar">
+            <span>cellar</span>
+         </a>
+      </li>
+      <li>
+         <a href="#CirculationSpace" title="http://www.bim4ren.eu/buildings#CirculationSpace">
+            <span>circulation space</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Condominum" title="http://www.bim4ren.eu/buildings#Condominum">Condominum</a>
+      </li>
+      <li>
+         <a href="#DetachedHouse" title="http://www.bim4ren.eu/buildings#DetachedHouse">
+            <span>detached house</span>
+         </a>
+      </li>
+      <li>
+         <a href="#DiningRoom" title="http://www.bim4ren.eu/buildings#DiningRoom">
+            <span>dining room</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Dormitory" title="http://www.bim4ren.eu/buildings#Dormitory">Dormitory</a>
+      </li>
+      <li>
+         <a href="#Enveloppe" title="http://www.bim4ren.eu/buildings#Enveloppe">Enveloppe</a>
+      </li>
+      <li>
+         <a href="#Garage" title="http://www.bim4ren.eu/buildings#Garage">
+            <span>garage</span>
+         </a>
+      </li>
+      <li>
+         <a href="#GovernmentSubsidizedBuilding"
+            title="http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding">Government Subsidized Building</a>
+      </li>
+      <li>
+         <a href="#Kitchen" title="http://www.bim4ren.eu/buildings#Kitchen">
+            <span>kitchen</span>
+         </a>
+      </li>
+      <li>
+         <a href="#LivingRoom" title="http://www.bim4ren.eu/buildings#LivingRoom">
+            <span>living room</span>
+         </a>
+      </li>
+      <li>
+         <a href="#MultiDwellingHousing"
+            title="http://www.bim4ren.eu/buildings#MultiDwellingHousing">Multi-Dwelling Housing</a>
+      </li>
+      <li>
+         <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+      </li>
+      <li>
+         <a href="#SeniorHousing" title="http://www.bim4ren.eu/buildings#SeniorHousing">
+            <span>senior housing</span>
+         </a>
+      </li>
+      <li>
+         <a href="#SingleFamilyHousing"
+            title="http://www.bim4ren.eu/buildings#SingleFamilyHousing">
+            <span>single family housing</span>
+         </a>
+      </li>
+      <li>
+         <a href="#SleepingRoom" title="http://www.bim4ren.eu/buildings#SleepingRoom">
+            <span>sleeping room</span>
+         </a>
+      </li>
+      <li>
+         <a href="#SocialHousingBuilding"
+            title="http://www.bim4ren.eu/buildings#SocialHousingBuilding">
+            <span>social housing building</span>
+         </a>
+      </li>
+      <li>
+         <a href="#SpecialCareBuilding"
+            title="http://www.bim4ren.eu/buildings#SpecialCareBuilding">
+            <span>special care building</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Terraced" title="http://www.bim4ren.eu/buildings#Terraced">
+            <span>terraced</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Toilets" title="http://www.bim4ren.eu/buildings#Toilets">
+            <span>toilets</span>
+         </a>
+      </li>
+      <li>
+         <a href="#VolumetricZone" title="http://www.bim4ren.eu/buildings#VolumetricZone">
+            <span>volumetric zone</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="Allotment">
+      <h3>allotment<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Allotment</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SingleFamilyHousing"
+               title="http://www.bim4ren.eu/buildings#SingleFamilyHousing">single family housing</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Appartment">
+      <h3>Appartment<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Appartment</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#VolumetricZone" title="http://www.bim4ren.eu/buildings#VolumetricZone">volumetric zone</a>
+            <sup class="type-c" title="class">c</sup>, <a href="https://w3id.org/bot#Zone"
+               target="_blank"
+               title="https://w3id.org/bot#Zone">zone</a>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Building"
+               target="_blank"
+               title="https://w3id.org/bot#Building">building</a>, <a href="https://w3id.org/bot#Site"
+               target="_blank"
+               title="https://w3id.org/bot#Site">site</a>, <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>, <a href="https://w3id.org/bot#Storey"
+               target="_blank"
+               title="https://w3id.org/bot#Storey">storey</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Attic">
+      <h3>attic<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Attic</p>
+      <div class="comment">
+         <span class="markdown">The space between the ceiling beams of the top story and the roof rafters.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Bathroom">
+      <h3>bathroom<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Bathroom</p>
+      <div class="comment">
+         <span class="markdown">Space for washing one's body or part of it.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/#concept/details/2GPg_0OMSHuO00025QrE$V">http://bsdd.buildingsmart.org/#concept/details/2GPg_0OMSHuO00025QrE$V</a>
+         </dd>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Cellar">
+      <h3>cellar<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Cellar</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="CirculationSpace">
+      <h3>circulation space<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#CirculationSpace</p>
+      <div class="comment">
+         <span class="markdown">Spaces for circulation that provide or control access to and between other spaces within the facility, entry, and egress.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Condominum">
+      <h3>Condominum<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Condominum</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#MultiDwellingHousing"
+               title="http://www.bim4ren.eu/buildings#MultiDwellingHousing">Multi-Dwelling Housing</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DetachedHouse">
+      <h3>detached house<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#DetachedHouse</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SingleFamilyHousing"
+               title="http://www.bim4ren.eu/buildings#SingleFamilyHousing">single family housing</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DiningRoom">
+      <h3>dining room<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#DiningRoom</p>
+      <div class="comment">
+         <span class="markdown">A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Dormitory">
+      <h3>Dormitory<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Dormitory</p>
+      <div class="comment">
+         <span class="markdown">A single facility containing multiple sleeping quarters and typically shared eating and lavatory facilities typically for students.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3LQ_u01P4HtG0000PR1IRl">http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3LQ_u01P4HtG0000PR1IRl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Enveloppe">
+      <h3>Enveloppe<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Enveloppe</p>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isMadeOf" title="http://www.bim4ren.eu/buildings#isMadeOf">is made of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Garage">
+      <h3>garage<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Garage</p>
+      <div class="comment">
+         <span class="markdown">Totally or partially enclosed space that is normally used to circulate and station vehicles.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GovernmentSubsidizedBuilding">
+      <h3>Government Subsidized Building<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding</p>
+      <div class="comment">
+         <span class="markdown">A dwelling (or dwellings) that has a lowered cost of ownership due to government funding and support.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#MultiDwellingHousing"
+               title="http://www.bim4ren.eu/buildings#MultiDwellingHousing">Multi-Dwelling Housing</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Kitchen">
+      <h3>kitchen<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Kitchen</p>
+      <div class="comment">
+         <span class="markdown">A room or part of a room used for cooking and food preparation.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2SKd6KOMSHuO00025QrE$V">http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2SKd6KOMSHuO00025QrE$V</a>
+         </dd>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="LivingRoom">
+      <h3>living room<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#LivingRoom</p>
+      <div class="comment">
+         <span class="markdown">A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="MultiDwellingHousing">
+      <h3>Multi-Dwelling Housing<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#MultiDwellingHousing</p>
+      <div class="comment">
+         <span class="markdown">Multiple dwellings contained in a single structure.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Condominum" title="http://www.bim4ren.eu/buildings#Condominum">Condominum</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#GovernmentSubsidizedBuilding"
+               title="http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding">Government Subsidized Building</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SocialHousingBuilding"
+               title="http://www.bim4ren.eu/buildings#SocialHousingBuilding">social housing building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Residential">
+      <h3>Residential Building<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Residential</p>
+      <div class="comment">
+         <span class="markdown">Facilities used for long-term inhabitation and dwelling by humans.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2aYxa01P4HtG0000PR1IRl">http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2aYxa01P4HtG0000PR1IRl</a>
+         </dd>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Building"
+               target="_blank"
+               title="https://w3id.org/bot#Building">building</a>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Dormitory" title="http://www.bim4ren.eu/buildings#Dormitory">Dormitory</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MultiDwellingHousing"
+               title="http://www.bim4ren.eu/buildings#MultiDwellingHousing">Multi-Dwelling Housing</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SeniorHousing" title="http://www.bim4ren.eu/buildings#SeniorHousing">senior housing</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SingleFamilyHousing"
+               title="http://www.bim4ren.eu/buildings#SingleFamilyHousing">single family housing</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#SpecialCareBuilding"
+               title="http://www.bim4ren.eu/buildings#SpecialCareBuilding">special care building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SeniorHousing">
+      <h3>senior housing<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#SeniorHousing</p>
+      <div class="comment">
+         <span class="markdown">Dwellings and commercial facilities designed and/or retrofitted for occupancy by Seniors.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SingleFamilyHousing">
+      <h3>single family housing<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#SingleFamilyHousing</p>
+      <div class="comment">
+         <span class="markdown">A dwelling unit for a service member or for an authorized government civilian and his/her authorized dependents when accompanied by those dependents.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2dXgc01P4HtG0000PR1IRl">http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2dXgc01P4HtG0000PR1IRl</a>
+         </dd>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Allotment" title="http://www.bim4ren.eu/buildings#Allotment">allotment</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#DetachedHouse" title="http://www.bim4ren.eu/buildings#DetachedHouse">detached house</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Terraced" title="http://www.bim4ren.eu/buildings#Terraced">terraced</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SleepingRoom">
+      <h3>sleeping room<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#SleepingRoom</p>
+      <div class="comment">
+         <span class="markdown">A private room where people sleep for the night.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SocialHousingBuilding">
+      <h3>social housing building<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#SocialHousingBuilding</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#MultiDwellingHousing"
+               title="http://www.bim4ren.eu/buildings#MultiDwellingHousing">Multi-Dwelling Housing</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SpecialCareBuilding">
+      <h3>special care building<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#SpecialCareBuilding</p>
+      <div class="comment">
+         <span class="markdown">A dwelling containing multiple sleeping quarters with shared eating, living and lavatory facilities in addition to offering additional care and medical/health assistance from trained staff.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UzLO01P4HtG0000PR1IRl">http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UzLO01P4HtG0000PR1IRl</a>
+         </dd>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Residential" title="http://www.bim4ren.eu/buildings#Residential">Residential Building</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Terraced">
+      <h3>terraced<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Terraced</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#SingleFamilyHousing"
+               title="http://www.bim4ren.eu/buildings#SingleFamilyHousing">single family housing</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Toilets">
+      <h3>toilets<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#Toilets</p>
+      <div class="comment">
+         <span class="markdown">A space containing a toilet or similar fixture that disposes of human waste by using water to flush it through a drainpipe to another location.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2EdEmAOMSHuO00025QrE$V">http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2EdEmAOMSHuO00025QrE$V</a>
+         </dd>
+         <dd>http://www.bim4ren.eu/buildings#</dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Space"
+               target="_blank"
+               title="https://w3id.org/bot#Space">space</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="VolumetricZone">
+      <h3>volumetric zone<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#VolumetricZone</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://w3id.org/bot#Zone"
+               target="_blank"
+               title="https://w3id.org/bot#Zone">zone</a>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Appartment" title="http://www.bim4ren.eu/buildings#Appartment">Appartment</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#isMadeOf" title="http://www.bim4ren.eu/buildings#isMadeOf">
+            <span>is made of</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="isMadeOf">
+      <h3>is made of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#isMadeOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Enveloppe" title="http://www.bim4ren.eu/buildings#Enveloppe">Enveloppe</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="https://w3id.org/bot#Element"
+                  target="_blank"
+                  title="https://w3id.org/bot#Element">element</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#constructionYear" title="http://www.bim4ren.eu/buildings#constructionYear">
+            <span>construction year</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="constructionYear">
+      <h3>construction year<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.bim4ren.eu/buildings#constructionYear</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="https://w3id.org/bot#Building"
+                  target="_blank"
+                  title="https://w3id.org/bot#Building">building</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#gYear"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#gYear">g year</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="annotationproperties">
+   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#maxQualifiedCardinality"
+            title="http://www.w3.org/2002/07/owl#maxQualifiedCardinality">
+            <span>max qualified cardinality</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2002/07/owl#qualifiedCardinality"
+            title="http://www.w3.org/2002/07/owl#qualifiedCardinality">
+            <span>qualified cardinality</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#maxQualifiedCardinality">
+      <h3>max qualified cardinality<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#maxQualifiedCardinality</p>
+   </div>
+   <div class="entity" id="http://www.w3.org/2002/07/owl#qualifiedCardinality">
+      <h3>qualified cardinality<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#qualifiedCardinality</p>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>
