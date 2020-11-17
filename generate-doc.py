@@ -154,7 +154,7 @@ def main(argv):
         strfolder += HTMLFOLDER.format(LAYER=folder,
                                        LISTONTOS=strontos)
     content = HTMLPAGE.replace("__LISTONTOS__", strfolder)
-    f = open("index.html", "w")
+    f = open("index-en.html", "w")
     f.write(content)
     f.close()
 
