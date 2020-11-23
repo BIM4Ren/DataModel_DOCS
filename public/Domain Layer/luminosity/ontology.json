@@ -2,7 +2,7 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/luminosity#reflection"
+    "@id" : "https://models.bim4ren.eu/domain/luminosity#reflection"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -11,7 +11,7 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/luminosity#skyAngle"
+    "@id" : "https://models.bim4ren.eu/domain/luminosity#skyAngle"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -20,19 +20,19 @@
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/luminosity#transmittance"
+    "@id" : "https://models.bim4ren.eu/domain/luminosity#transmittance"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.bim4ren.eu/property#"
+    "@id" : "https://models.bim4ren.eu/property#"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity#OpaqueElement",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity#OpaqueElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -53,7 +53,7 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity#TransparentElement",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity#TransparentElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -67,7 +67,7 @@
     "@id" : "_:genid3"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity#reflection",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity#reflection",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -89,13 +89,13 @@
     "@value" : "réflexion"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#ratio"
+    "@id" : "https://models.bim4ren.eu/property#ratio"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity#skyAngle",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity#skyAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity#transmittance",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity#transmittance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -117,23 +117,23 @@
     "@value" : "transmittanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#ratio"
+    "@id" : "https://models.bim4ren.eu/property#ratio"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle",
+  "@id" : "https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
     "@value" : "angle de ciel visible"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#angle"
+    "@id" : "https://models.bim4ren.eu/property#angle"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#angle",
+  "@id" : "https://models.bim4ren.eu/property#angle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#ratio",
+  "@id" : "https://models.bim4ren.eu/property#ratio",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",

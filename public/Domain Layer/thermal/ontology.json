@@ -3,11 +3,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.bim4ren.eu/domain/thermal#CERTIFIED"
+      "@id" : "https://models.bim4ren.eu/domain/thermal#CERTIFIED"
     }, {
-      "@id" : "http://www.bim4ren.eu/domain/thermal#DECLARED"
+      "@id" : "https://models.bim4ren.eu/domain/thermal#DECLARED"
     }, {
-      "@id" : "http://www.bim4ren.eu/domain/thermal#MEASURED"
+      "@id" : "https://models.bim4ren.eu/domain/thermal#MEASURED"
     } ]
   } ]
 }, {
@@ -17,7 +17,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#visibleTransmittance"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#visibleTransmittance"
   } ]
 }, {
   "@id" : "_:genid11",
@@ -26,7 +26,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalEfficiency"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#thermalEfficiency"
   } ]
 }, {
   "@id" : "_:genid12",
@@ -36,10 +36,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#maxTemperature"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#maxTemperature"
   } ]
 }, {
   "@id" : "_:genid13",
@@ -49,10 +49,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#minTemperature"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#minTemperature"
   } ]
 }, {
   "@id" : "_:genid14",
@@ -62,16 +62,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#nominalPower"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#nominalPower"
   } ]
 }, {
   "@id" : "_:genid15",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#maxTemperature"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#maxTemperature"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -80,7 +80,7 @@
   "@id" : "_:genid16",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#minTemperature"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#minTemperature"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -89,7 +89,7 @@
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#setPoint"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -98,7 +98,7 @@
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#infraredTransmittance"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#infraredTransmittance"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -110,7 +110,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#airTightness"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#airTightness"
   } ]
 }, {
   "@id" : "_:genid7",
@@ -119,7 +119,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalMass"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#thermalMass"
   } ]
 }, {
   "@id" : "_:genid8",
@@ -128,7 +128,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalResistance"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#thermalResistance"
   } ]
 }, {
   "@id" : "_:genid9",
@@ -137,19 +137,22 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#thermalTransmittance"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#thermalTransmittance"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#",
+  "@id" : "http://www.w3.org/2004/02/skos/core/narrowMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/domain/thermal#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.bim4ren.eu/property#"
+    "@id" : "https://models.bim4ren.eu/property#"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal/0.1"
+    "@id" : "https://models.bim4ren.eu/domain/thermal/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#CERTIFIED",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#CERTIFIED",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -165,7 +168,7 @@
     "@value" : "Certified"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#CoolProducer",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#CoolProducer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -179,10 +182,10 @@
     "@value" : "Producteur de froid"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#DECLARED",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#DECLARED",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -198,7 +201,7 @@
     "@value" : "Déclaré"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#EfficiencyType",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#EfficiencyType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -217,7 +220,7 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#HeatProducer",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#HeatProducer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -231,13 +234,13 @@
     "@value" : "Producteur de chaleur"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#HeatStorage",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#HeatStorage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#HeatTransferElement",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#HeatTransferElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -264,7 +267,7 @@
     "@id" : "_:genid10"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#MEASURED",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#MEASURED",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -280,7 +283,7 @@
     "@value" : "Misurato"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#Producer",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#Producer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid11"
@@ -292,7 +295,7 @@
     "@id" : "_:genid14"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -309,7 +312,7 @@
     "@id" : "_:genid17"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#airTightness",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#airTightness",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -331,14 +334,14 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3vHkMyoT0Hsm00051Mm008"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The coefficient of performance or COP (sometimes CP or CoP) of a heat pump, refrigerator or air conditioning system is a ratio of useful heating or cooling provided to work required."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#HeatProducer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#HeatProducer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -361,35 +364,35 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Wd_O0qSeHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#condensingTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#condensingTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ko9m0qSmHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#dischargeTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#dischargeTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The temperature of the output medium in a thermal loop."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "discharge temperature"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/22j_rwRL92uutC7n_opQsz"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#efficiencyType",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#efficiencyType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -405,35 +408,35 @@
     "@value" : "type du rendement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#EfficiencyType"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#EfficiencyType"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#evaporatingTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#evaporatingTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Rvom0qU8HuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#exhaustTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#exhaustTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The temperature rejected by a thermal producer."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "exhaust temperature"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -452,7 +455,7 @@
     "@value" : "a1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -471,7 +474,7 @@
     "@value" : "a2"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#infraredTransmittance",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#infraredTransmittance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -487,10 +490,10 @@
     "@value" : "trasmittanza infrarossa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#transmittance"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#transmittance"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#load",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#load",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -512,7 +515,7 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ML8E0qSGHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#maxTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#maxTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -528,10 +531,10 @@
     "@value" : "température maximale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#setPoint"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#minTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#minTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -547,10 +550,10 @@
     "@value" : "température minimale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#setPoint"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#nominalPower",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#nominalPower",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -563,23 +566,23 @@
     "@value" : "puissance utile"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#power"
+    "@id" : "https://models.bim4ren.eu/property#power"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#returnTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#returnTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The temperature of the input medium in a thermal loop"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "return temperature"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1PxGW0qSuHuO00025QrE$V"
@@ -589,7 +592,7 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2ZqF20qSGHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#setPoint",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#setPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -602,10 +605,10 @@
     "@value" : "setpoint"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#stagnationTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#stagnationTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -625,16 +628,16 @@
     "@value" : "température de stagnation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#supplyTemperature",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#supplyTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/03n9Y0qRyHuO00025QrE$V"
@@ -650,20 +653,20 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2Ez5q0qSGHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#temperatureSpread",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#temperatureSpread",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "the difference between the ambient temperature and the desire room temperature. The range of temperature a heat pump needs to provide"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#Producer"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#Producer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "temperature spread"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#temperature"
+    "@id" : "https://models.bim4ren.eu/property#temperature"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1w6yU0qSmHuO00025QrE$V"
@@ -671,7 +674,7 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3k_Vm0qU8HuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalEfficiency",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#thermalEfficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -700,7 +703,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/ThermalEfficiency"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalMass",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#thermalMass",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -719,7 +722,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalResistance",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#thermalResistance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -743,7 +746,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/ThermalResistance"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#thermalTransmittance",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#thermalTransmittance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -773,7 +776,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#transmittance",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#transmittance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -797,7 +800,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Transmittance"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/thermal#visibleTransmittance",
+  "@id" : "https://models.bim4ren.eu/domain/thermal#visibleTransmittance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -813,17 +816,14 @@
     "@value" : "visible transmittance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/thermal#transmittance"
+    "@id" : "https://models.bim4ren.eu/domain/thermal#transmittance"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#power",
+  "@id" : "https://models.bim4ren.eu/property#power",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#temperature",
+  "@id" : "https://models.bim4ren.eu/property#temperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2004/02/skos/core/narrowMatch",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]

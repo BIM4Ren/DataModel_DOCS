@@ -1,4 +1,4 @@
-<http://bim4ren.eu/domain/manufacture#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/domain/manufacture#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 # 
 # 
 # #################################################################
@@ -8,8 +8,8 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/domain/Manufacture#manufacturer
-<http://bim4ren.eu/domain/Manufacture#manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://models.bim4ren.eu/domain/Manufacture#manufacturer
+<https://models.bim4ren.eu/domain/Manufacture#manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
 # 
 # 
@@ -20,14 +20,14 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/domain/Manufacture#code
-<http://bim4ren.eu/domain/Manufacture#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/domain/Manufacture#code
+<https://models.bim4ren.eu/domain/Manufacture#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# http://bim4ren.eu/domain/Manufacture#dataSheet
-<http://bim4ren.eu/domain/Manufacture#dataSheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/domain/Manufacture#dataSheet
+<https://models.bim4ren.eu/domain/Manufacture#dataSheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# http://bim4ren.eu/domain/Manufacture#name
-<http://bim4ren.eu/domain/Manufacture#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/domain/Manufacture#name
+<https://models.bim4ren.eu/domain/Manufacture#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
 # 
 # 
@@ -38,33 +38,33 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/domain/Manufacture#Brand
-<http://bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+# https://models.bim4ren.eu/domain/Manufacture#Brand
+<https://models.bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/domain/Manufacture#code> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/Manufacture#code> .
 _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+<https://models.bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/domain/Manufacture#name> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/Manufacture#name> .
 _:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "Information on the manufacturer."@en .
+<https://models.bim4ren.eu/domain/Manufacture#Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "Information on the manufacturer."@en .
 # 
-# http://bim4ren.eu/domain/Manufacture#Product
-<http://bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+# https://models.bim4ren.eu/domain/Manufacture#Product
+<https://models.bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/domain/Manufacture#manufacturer> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/Manufacture#manufacturer> .
 _:genid3 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://bim4ren.eu/domain/Manufacture#Brand> .
-<http://bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <https://models.bim4ren.eu/domain/Manufacture#Brand> .
+<https://models.bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/domain/Manufacture#code> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/Manufacture#code> .
 _:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+<https://models.bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://bim4ren.eu/domain/Manufacture#dataSheet> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/Manufacture#dataSheet> .
 _:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "Information on the product, as given by the manufacturer"@en .
+<https://models.bim4ren.eu/domain/Manufacture#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "Information on the product, as given by the manufacturer"@en .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

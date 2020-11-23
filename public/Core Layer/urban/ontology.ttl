@@ -1,14 +1,14 @@
-@prefix : <http://bim4ren.eu/urban#> .
+@prefix : <https://models.bim4ren.eu/urban#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://bim4ren.eu/urban> .
+@base <https://models.bim4ren.eu/urban> .
 
-<http://bim4ren.eu/urban> rdf:type owl:Ontology ;
-                           owl:imports <http://www.bim4ren.eu/property#> ,
-                                       <https://w3id.org/def/basicsemantics-owl> .
+<https://models.bim4ren.eu/urban> rdf:type owl:Ontology ;
+                                   owl:imports <https://models.bim4ren.eu/property#> ,
+                                               <https://w3id.org/def/basicsemantics-owl> .
 
 #################################################################
 #    Annotation properties
@@ -22,81 +22,81 @@
 #    Object Properties
 #################################################################
 
-###  http://bim4ren.eu/urban#altitude
+###  https://models.bim4ren.eu/property#angle
+<https://models.bim4ren.eu/property#angle> rdf:type owl:ObjectProperty .
+
+
+###  https://models.bim4ren.eu/property#ratio
+<https://models.bim4ren.eu/property#ratio> rdf:type owl:ObjectProperty .
+
+
+###  https://models.bim4ren.eu/urban#altitude
 :altitude rdf:type owl:ObjectProperty ;
           rdfs:domain :Positioning ;
           rdfs:label "Altitude "@en ;
           <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 
 
-###  http://bim4ren.eu/urban#greenZoneRatio
+###  https://models.bim4ren.eu/urban#greenZoneRatio
 :greenZoneRatio rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf <http://www.bim4ren.eu/property#ratio> ;
+                rdfs:subPropertyOf <https://models.bim4ren.eu/property#ratio> ;
                 rdfs:label "part de végétalisation"@fr ,
                            "part of vegetalisation"@en .
 
 
-###  http://bim4ren.eu/urban#hasPosition
+###  https://models.bim4ren.eu/urban#hasPosition
 :hasPosition rdf:type owl:ObjectProperty ;
              rdfs:domain :Object ;
              rdfs:range :Positioning .
 
 
-###  http://bim4ren.eu/urban#hasVerticalProjection
+###  https://models.bim4ren.eu/urban#hasVerticalProjection
 :hasVerticalProjection rdf:type owl:ObjectProperty ;
                        rdfs:domain :Object ;
                        rdfs:range :VerticalProjection .
 
 
-###  http://bim4ren.eu/urban#latitude
+###  https://models.bim4ren.eu/urban#latitude
 :latitude rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf <http://www.bim4ren.eu/property#angle> ;
+          rdfs:subPropertyOf <https://models.bim4ren.eu/property#angle> ;
           rdfs:domain :Positioning ;
           rdfs:label "Latitude "@en .
 
 
-###  http://bim4ren.eu/urban#longitude
+###  https://models.bim4ren.eu/urban#longitude
 :longitude rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf <http://www.bim4ren.eu/property#angle> ;
+           rdfs:subPropertyOf <https://models.bim4ren.eu/property#angle> ;
            rdfs:domain :Positioning ;
            rdfs:label "Longitude "@en .
 
 
-###  http://bim4ren.eu/urban#urbanZoneRatio
+###  https://models.bim4ren.eu/urban#urbanZoneRatio
 :urbanZoneRatio rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf <http://www.bim4ren.eu/property#ratio> ;
+                rdfs:subPropertyOf <https://models.bim4ren.eu/property#ratio> ;
                 rdfs:label "part de végétalisation"@fr ,
                            "urban density"@en .
-
-
-###  http://www.bim4ren.eu/property#angle
-<http://www.bim4ren.eu/property#angle> rdf:type owl:ObjectProperty .
-
-
-###  http://www.bim4ren.eu/property#ratio
-<http://www.bim4ren.eu/property#ratio> rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://bim4ren.eu/urban#Agriculture
+###  https://models.bim4ren.eu/urban#Agriculture
 :Agriculture rdf:type owl:Class ;
              rdfs:subClassOf :GreenZone .
 
 
-###  http://bim4ren.eu/urban#Airport
+###  https://models.bim4ren.eu/urban#Airport
 :Airport rdf:type owl:Class ;
          rdfs:subClassOf :CirculationZone .
 
 
-###  http://bim4ren.eu/urban#BlockOfBuilding
+###  https://models.bim4ren.eu/urban#BlockOfBuilding
 :BlockOfBuilding rdf:type owl:Class ;
                  rdfs:subClassOf :BuiltArea .
 
 
-###  http://bim4ren.eu/urban#Building
+###  https://models.bim4ren.eu/urban#Building
 :Building rdf:type owl:Class ;
           rdfs:subClassOf :Object ;
           rdfs:label "Building"@en ,
@@ -104,152 +104,152 @@
                      "Edificio"@es .
 
 
-###  http://bim4ren.eu/urban#BuiltArea
+###  https://models.bim4ren.eu/urban#BuiltArea
 :BuiltArea rdf:type owl:Class ;
            rdfs:subClassOf :Zone ;
            rdfs:label "Zone construite"@fr .
 
 
-###  http://bim4ren.eu/urban#CirculationZone
+###  https://models.bim4ren.eu/urban#CirculationZone
 :CirculationZone rdf:type owl:Class ;
                  rdfs:subClassOf :Zone ;
                  rdfs:label "Aménagement routier"@fr .
 
 
-###  http://bim4ren.eu/urban#CommunicationNetwork
+###  https://models.bim4ren.eu/urban#CommunicationNetwork
 :CommunicationNetwork rdf:type owl:Class ;
                       rdfs:subClassOf :FlowInfrastructure .
 
 
-###  http://bim4ren.eu/urban#Cone
+###  https://models.bim4ren.eu/urban#Cone
 :Cone rdf:type owl:Class ;
       rdfs:subClassOf :Shape .
 
 
-###  http://bim4ren.eu/urban#Cuboid
+###  https://models.bim4ren.eu/urban#Cuboid
 :Cuboid rdf:type owl:Class ;
         rdfs:subClassOf :Shape .
 
 
-###  http://bim4ren.eu/urban#CyclingRoad
+###  https://models.bim4ren.eu/urban#CyclingRoad
 :CyclingRoad rdf:type owl:Class ;
              rdfs:subClassOf :CirculationZone .
 
 
-###  http://bim4ren.eu/urban#Cylinder
+###  https://models.bim4ren.eu/urban#Cylinder
 :Cylinder rdf:type owl:Class ;
           rdfs:subClassOf :Shape .
 
 
-###  http://bim4ren.eu/urban#ElectrictyNetwork
+###  https://models.bim4ren.eu/urban#ElectrictyNetwork
 :ElectrictyNetwork rdf:type owl:Class ;
                    rdfs:subClassOf :FlowInfrastructure .
 
 
-###  http://bim4ren.eu/urban#FlowInfrastructure
+###  https://models.bim4ren.eu/urban#FlowInfrastructure
 :FlowInfrastructure rdf:type owl:Class ;
                     rdfs:subClassOf :Object ;
                     rdfs:label "Réseau"@fr .
 
 
-###  http://bim4ren.eu/urban#Forest
+###  https://models.bim4ren.eu/urban#Forest
 :Forest rdf:type owl:Class ;
         rdfs:subClassOf :GreenZone .
 
 
-###  http://bim4ren.eu/urban#GazNetwork
+###  https://models.bim4ren.eu/urban#GazNetwork
 :GazNetwork rdf:type owl:Class ;
             rdfs:subClassOf :FlowInfrastructure .
 
 
-###  http://bim4ren.eu/urban#GreenZone
+###  https://models.bim4ren.eu/urban#GreenZone
 :GreenZone rdf:type owl:Class ;
            rdfs:subClassOf :Zone .
 
 
-###  http://bim4ren.eu/urban#HeatNetwork
+###  https://models.bim4ren.eu/urban#HeatNetwork
 :HeatNetwork rdf:type owl:Class ;
              rdfs:subClassOf :FlowInfrastructure .
 
 
-###  http://bim4ren.eu/urban#Lake
+###  https://models.bim4ren.eu/urban#Lake
 :Lake rdf:type owl:Class ;
       rdfs:subClassOf :WaterBody .
 
 
-###  http://bim4ren.eu/urban#Object
+###  https://models.bim4ren.eu/urban#Object
 :Object rdf:type owl:Class ;
         rdfs:subClassOf owl:Thing ;
         rdfs:comment "An object of importance in the urban environment, regarding the thermal reonvation of a specific buildings."@en .
 
 
-###  http://bim4ren.eu/urban#Park
+###  https://models.bim4ren.eu/urban#Park
 :Park rdf:type owl:Class ;
       rdfs:subClassOf :GreenZone .
 
 
-###  http://bim4ren.eu/urban#Parking
+###  https://models.bim4ren.eu/urban#Parking
 :Parking rdf:type owl:Class ;
          rdfs:subClassOf :BuiltArea .
 
 
-###  http://bim4ren.eu/urban#ParkingPlace
+###  https://models.bim4ren.eu/urban#ParkingPlace
 :ParkingPlace rdf:type owl:Class ;
               rdfs:subClassOf :Object .
 
 
-###  http://bim4ren.eu/urban#PeatonalStreet
+###  https://models.bim4ren.eu/urban#PeatonalStreet
 :PeatonalStreet rdf:type owl:Class ;
                 rdfs:subClassOf :CirculationZone .
 
 
-###  http://bim4ren.eu/urban#Positioning
+###  https://models.bim4ren.eu/urban#Positioning
 :Positioning rdf:type owl:Class ;
              rdfs:subClassOf owl:Thing ;
              rdfs:label "Positioning "@en .
 
 
-###  http://bim4ren.eu/urban#PrivateParkingPlace
+###  https://models.bim4ren.eu/urban#PrivateParkingPlace
 :PrivateParkingPlace rdf:type owl:Class ;
                      rdfs:subClassOf :ParkingPlace .
 
 
-###  http://bim4ren.eu/urban#PublicParkingPlace
+###  https://models.bim4ren.eu/urban#PublicParkingPlace
 :PublicParkingPlace rdf:type owl:Class ;
                     rdfs:subClassOf :ParkingPlace .
 
 
-###  http://bim4ren.eu/urban#Pyramid
+###  https://models.bim4ren.eu/urban#Pyramid
 :Pyramid rdf:type owl:Class ;
          rdfs:subClassOf :Shape .
 
 
-###  http://bim4ren.eu/urban#Railway
+###  https://models.bim4ren.eu/urban#Railway
 :Railway rdf:type owl:Class ;
          rdfs:subClassOf :CirculationZone .
 
 
-###  http://bim4ren.eu/urban#River
+###  https://models.bim4ren.eu/urban#River
 :River rdf:type owl:Class ;
        rdfs:subClassOf :WaterBody .
 
 
-###  http://bim4ren.eu/urban#Road
+###  https://models.bim4ren.eu/urban#Road
 :Road rdf:type owl:Class ;
       rdfs:subClassOf :CirculationZone .
 
 
-###  http://bim4ren.eu/urban#Sea
+###  https://models.bim4ren.eu/urban#Sea
 :Sea rdf:type owl:Class ;
      rdfs:subClassOf :WaterBody .
 
 
-###  http://bim4ren.eu/urban#Shade
+###  https://models.bim4ren.eu/urban#Shade
 :Shade rdf:type owl:Class ;
        rdfs:subClassOf :Object .
 
 
-###  http://bim4ren.eu/urban#Shape
+###  https://models.bim4ren.eu/urban#Shape
 :Shape rdf:type owl:Class ;
        rdfs:subClassOf owl:Thing ;
        rdfs:comment "A predefined 3D shape that can be associated to an urban object. All the predefined shapes are basic vomumetric objects."@en ;
@@ -258,17 +258,17 @@
                   "Shape"@en .
 
 
-###  http://bim4ren.eu/urban#Sphere
+###  https://models.bim4ren.eu/urban#Sphere
 :Sphere rdf:type owl:Class ;
         rdfs:subClassOf :Shape .
 
 
-###  http://bim4ren.eu/urban#Tree
+###  https://models.bim4ren.eu/urban#Tree
 :Tree rdf:type owl:Class ;
       rdfs:subClassOf :Object .
 
 
-###  http://bim4ren.eu/urban#VerticalProjection
+###  https://models.bim4ren.eu/urban#VerticalProjection
 :VerticalProjection rdf:type owl:Class ;
                     rdfs:subClassOf owl:Thing ;
                     rdfs:label "proiezione verticale"@it ,
@@ -278,17 +278,17 @@
                                "vue du ciel"@fr .
 
 
-###  http://bim4ren.eu/urban#WaterBody
+###  https://models.bim4ren.eu/urban#WaterBody
 :WaterBody rdf:type owl:Class ;
            rdfs:subClassOf :Zone .
 
 
-###  http://bim4ren.eu/urban#WaterNetwork
+###  https://models.bim4ren.eu/urban#WaterNetwork
 :WaterNetwork rdf:type owl:Class ;
               rdfs:subClassOf :FlowInfrastructure .
 
 
-###  http://bim4ren.eu/urban#Zone
+###  https://models.bim4ren.eu/urban#Zone
 :Zone rdf:type owl:Class ;
       rdfs:subClassOf owl:Thing .
 

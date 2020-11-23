@@ -1,15 +1,15 @@
-@prefix : <http://bim4ren.eu/domain/airQuality#> .
+@prefix : <https://models.bim4ren.eu/domain/airQuality#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://bim4ren.eu/domain/airQuality> .
+@base <https://models.bim4ren.eu/domain/airQuality> .
 
-<http://bim4ren.eu/domain/airQuality> rdf:type owl:Ontology ;
-                                       owl:imports <http://qudt.org/2.1/vocab/quantitykind> ,
-                                                   <http://www.bim4ren.eu/property#> ,
-                                                   <https://w3id.org/def/basicsemantics-owl> .
+<https://models.bim4ren.eu/domain/airQuality> rdf:type owl:Ontology ;
+                                               owl:imports <http://qudt.org/2.1/vocab/quantitykind> ,
+                                                           <https://models.bim4ren.eu/property#> ,
+                                                           <https://w3id.org/def/basicsemantics-owl> .
 
 #################################################################
 #    Annotation properties
@@ -23,12 +23,12 @@
 #    Object Properties
 #################################################################
 
-###  http://bim4ren.eu/domain/airQuality#pollutant
+###  https://models.bim4ren.eu/domain/airQuality#pollutant
 :pollutant rdf:type owl:ObjectProperty ;
            rdfs:range :Pollutant .
 
 
-###  http://bim4ren.eu/domain/airQuality#pollutantEmission
+###  https://models.bim4ren.eu/domain/airQuality#pollutantEmission
 :pollutantEmission rdf:type owl:ObjectProperty ;
                    rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
 
@@ -37,22 +37,22 @@
 #    Classes
 #################################################################
 
-###  http://bim4ren.eu/domain/airQuality#Pollutant
-:Pollutant rdf:type owl:Class ;
-           rdfs:subClassOf owl:Thing .
-
-
-###  http://bim4ren.eu/domain/airQuality#PollutantSource
-:PollutantSource rdf:type owl:Class ;
-                 rdfs:subClassOf owl:Thing .
-
-
 ###  http://qudt.org/schema/qudt#ChemistryUnit
 <http://qudt.org/schema/qudt#ChemistryUnit> rdf:type owl:Class .
 
 
 ###  http://qudt.org/schema/qudt#DimensionlessUnit
 <http://qudt.org/schema/qudt#DimensionlessUnit> rdf:type owl:Class .
+
+
+###  https://models.bim4ren.eu/domain/airQuality#Pollutant
+:Pollutant rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing .
+
+
+###  https://models.bim4ren.eu/domain/airQuality#PollutantSource
+:PollutantSource rdf:type owl:Class ;
+                 rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/basicsemantics-owl#QuantityValue
@@ -63,7 +63,7 @@
 #    Individuals
 #################################################################
 
-###  http://bim4ren.eu/domain/airQuality#C6H6
+###  https://models.bim4ren.eu/domain/airQuality#C6H6
 :C6H6 rdf:type owl:NamedIndividual ,
                :Pollutant ;
       rdfs:label "benceno"@es ,
@@ -73,7 +73,7 @@
                  "C6H6" .
 
 
-###  http://bim4ren.eu/domain/airQuality#CH2O
+###  https://models.bim4ren.eu/domain/airQuality#CH2O
 :CH2O rdf:type owl:NamedIndividual ,
                :Pollutant ;
       rdfs:label "formaldehyde"@en ,
@@ -86,7 +86,7 @@
                  "CH2O" .
 
 
-###  http://bim4ren.eu/domain/airQuality#CO2
+###  https://models.bim4ren.eu/domain/airQuality#CO2
 :CO2 rdf:type owl:NamedIndividual ,
               :Pollutant ;
      rdfs:label "anidride carbonica"@it ,
@@ -99,12 +99,12 @@
                 "CO2" .
 
 
-###  http://bim4ren.eu/domain/airQuality#ComponentRelativeAbundance
+###  https://models.bim4ren.eu/domain/airQuality#ComponentRelativeAbundance
 :ComponentRelativeAbundance rdf:type owl:NamedIndividual ,
                                      <http://qudt.org/schema/qudt/QuantityKind> ;
                             <http://purl.org/dc/terms/description> "The \"Absolute Activity\" is the exponential of the ratio of the chemical potential to \\(RT\\) where \\(R\\) is the gas constant and \\(T\\) the thermodynamic temperature."^^<http://qudt.org/schema/qudt/LatexString> ;
-                            <http://qudt.org/schema/qudt/applicableUnit> :PartsPerMillion ,
-                                                                         <http://qudt.org/vocab/unit#KilogramPerCubicMeter> ;
+                            <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit#KilogramPerCubicMeter> ,
+                                                                         :PartsPerMillion ;
                             <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L-3I0M0H0T0D0> ;
                             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ,
                                              <http://qudt.org/vocab/quantitykind> ;
@@ -113,7 +113,7 @@
                             <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/InverseVolume> .
 
 
-###  http://bim4ren.eu/domain/airQuality#NO2
+###  https://models.bim4ren.eu/domain/airQuality#NO2
 :NO2 rdf:type owl:NamedIndividual ,
               :Pollutant ;
      rdfs:label "diossido di azoto"@it ,
@@ -123,7 +123,7 @@
                 "NO2" .
 
 
-###  http://bim4ren.eu/domain/airQuality#O3
+###  https://models.bim4ren.eu/domain/airQuality#O3
 :O3 rdf:type owl:NamedIndividual ,
              :Pollutant ;
     rdfs:label "ozone"@en ,
@@ -132,7 +132,7 @@
                "ozono"@it .
 
 
-###  http://bim4ren.eu/domain/airQuality#PM10
+###  https://models.bim4ren.eu/domain/airQuality#PM10
 :PM10 rdf:type owl:NamedIndividual ,
                :Pollutant ;
       rdfs:label "atmospheric aerosol particles"@en ,
@@ -146,18 +146,18 @@
                  "PM10" .
 
 
-###  http://bim4ren.eu/domain/airQuality#PartsPerMillion
+###  https://models.bim4ren.eu/domain/airQuality#PartsPerMillion
 :PartsPerMillion rdf:type owl:NamedIndividual ,
                           <http://qudt.org/schema/qudt#ChemistryUnit> ,
                           <http://qudt.org/schema/qudt#DimensionlessUnit> ;
                  rdfs:label "Parts per Million" .
 
 
-###  http://bim4ren.eu/domain/airQuality#Pollutant
+###  https://models.bim4ren.eu/domain/airQuality#Pollutant
 :Pollutant rdf:type owl:NamedIndividual .
 
 
-###  http://bim4ren.eu/domain/airQuality#SO2
+###  https://models.bim4ren.eu/domain/airQuality#SO2
 :SO2 rdf:type owl:NamedIndividual ,
               :Pollutant ;
      rdfs:label "anidride solforosa"@it ,
@@ -169,7 +169,7 @@
                 "SO2" .
 
 
-###  http://bim4ren.eu/domain/airQuality#pollutantEmission
+###  https://models.bim4ren.eu/domain/airQuality#pollutantEmission
 :pollutantEmission rdf:type owl:NamedIndividual ;
                    :pollutant :Pollutant .
 

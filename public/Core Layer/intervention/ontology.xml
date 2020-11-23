@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.bim4ren.eu/core/intervention#"
-     xml:base="http://www.bim4ren.eu/core/intervention"
+<rdf:RDF xmlns="https://models.bim4ren.eu/core/intervention#"
+     xml:base="https://models.bim4ren.eu/core/intervention"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="http://www.bim4ren.eu/core/intervention">
-        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/core/intervention/0.1"/>
+    <owl:Ontology rdf:about="https://models.bim4ren.eu/core/intervention">
+        <owl:versionIRI rdf:resource="https://models.bim4ren.eu/core/intervention/0.1"/>
         <terms:contributor>Nathalie Charbel</terms:contributor>
         <terms:contributor>Pierre Bourreau</terms:contributor>
         <terms:description xml:lang="en">The intervention ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to model changes performed on the building and its different components during the building lifecycle. Through this ontology, a history of the evolution of the building can be modelled.</terms:description>
@@ -62,44 +62,44 @@
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#associatedEvents -->
+    <!-- https://models.bim4ren.eu/core/intervention#associatedEvents -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/core/intervention#associatedEvents">
-        <owl:inverseOf rdf:resource="http://www.bim4ren.eu/core/intervention#performedOn"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/core/intervention#Element"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/core/intervention#associatedEvents">
+        <owl:inverseOf rdf:resource="https://models.bim4ren.eu/core/intervention#performedOn"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/core/intervention#Element"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#performed -->
+    <!-- https://models.bim4ren.eu/core/intervention#performed -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/core/intervention#performed">
-        <owl:inverseOf rdf:resource="http://www.bim4ren.eu/core/intervention#performedBy"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/core/intervention#Organization"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/core/intervention#performed">
+        <owl:inverseOf rdf:resource="https://models.bim4ren.eu/core/intervention#performedBy"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/core/intervention#Organization"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#performedBy -->
+    <!-- https://models.bim4ren.eu/core/intervention#performedBy -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/core/intervention#performedBy">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/core/intervention#Organization"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/core/intervention#performedBy">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/core/intervention#Organization"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#performedOn -->
+    <!-- https://models.bim4ren.eu/core/intervention#performedOn -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/core/intervention#performedOn">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/core/intervention#Element"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/core/intervention#performedOn">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/core/intervention#Element"/>
     </owl:ObjectProperty>
     
 
@@ -116,17 +116,17 @@
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#endDate -->
+    <!-- https://models.bim4ren.eu/core/intervention#endDate -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.bim4ren.eu/core/intervention#endDate"/>
+    <owl:DatatypeProperty rdf:about="https://models.bim4ren.eu/core/intervention#endDate"/>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#startDate -->
+    <!-- https://models.bim4ren.eu/core/intervention#startDate -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.bim4ren.eu/core/intervention#startDate"/>
+    <owl:DatatypeProperty rdf:about="https://models.bim4ren.eu/core/intervention#startDate"/>
     
 
 
@@ -142,51 +142,51 @@
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#Checking -->
+    <!-- https://models.bim4ren.eu/core/intervention#Checking -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/core/intervention#Checking">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/core/intervention#Checking">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
         <rdfs:comment xml:lang="en">A revision of some elements of the building. Some examples are: energy, accoustic audits, boiler manadatory check...</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#Element -->
+    <!-- https://models.bim4ren.eu/core/intervention#Element -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/core/intervention#Element">
+    <owl:Class rdf:about="https://models.bim4ren.eu/core/intervention#Element">
         <rdfs:comment xml:lang="en">The element concerned by the intervention.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#Event -->
+    <!-- https://models.bim4ren.eu/core/intervention#Event -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/core/intervention#Event">
+    <owl:Class rdf:about="https://models.bim4ren.eu/core/intervention#Event">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/core/intervention#performedBy"/>
-                <owl:someValuesFrom rdf:resource="http://www.bim4ren.eu/core/intervention#Organization"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/core/intervention#performedBy"/>
+                <owl:someValuesFrom rdf:resource="https://models.bim4ren.eu/core/intervention#Organization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/core/intervention#performedOn"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/core/intervention#performedOn"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.bim4ren.eu/core/intervention#Element"/>
+                <owl:onClass rdf:resource="https://models.bim4ren.eu/core/intervention#Element"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/core/intervention#endDate"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/core/intervention#endDate"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/core/intervention#startDate"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/core/intervention#startDate"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -195,28 +195,28 @@
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#Installation -->
+    <!-- https://models.bim4ren.eu/core/intervention#Installation -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/core/intervention#Installation">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/core/intervention#Installation">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
         <rdfs:comment xml:lang="en">Installation of the product/element. Includes a change (for instance, replacement of all radiators), or the installation of a bran new system (for instance, external insulation).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#Organization -->
+    <!-- https://models.bim4ren.eu/core/intervention#Organization -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/core/intervention#Organization"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/core/intervention#Organization"/>
     
 
 
-    <!-- http://www.bim4ren.eu/core/intervention#Repair -->
+    <!-- https://models.bim4ren.eu/core/intervention#Repair -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/core/intervention#Repair">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/core/intervention#Event"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/core/intervention#Repair">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/core/intervention#Event"/>
         <rdfs:comment xml:lang="en">Maintenance of an already installed elements. Can include change of parameters for HVAC systems or change of part of the elements.</rdfs:comment>
     </owl:Class>
     
@@ -234,9 +234,9 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.bim4ren.eu/core/intervention#Element"/>
-            <rdf:Description rdf:about="http://www.bim4ren.eu/core/intervention#Event"/>
-            <rdf:Description rdf:about="http://www.bim4ren.eu/core/intervention#Organization"/>
+            <rdf:Description rdf:about="https://models.bim4ren.eu/core/intervention#Element"/>
+            <rdf:Description rdf:about="https://models.bim4ren.eu/core/intervention#Event"/>
+            <rdf:Description rdf:about="https://models.bim4ren.eu/core/intervention#Organization"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

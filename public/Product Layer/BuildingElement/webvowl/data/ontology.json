@@ -8,7 +8,7 @@
       "undefined" : "Building Element Ontology"
     },
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "version" : "December 27th 2018",
+    "version" : "v0.1.0",
     "author" : [ "_:genid2147483652" ],
     "description" : {
       "en" : "The Building Element Ontology provides an ontology based on the IfcBuildingElement subtree in the IFC specification, containing a taxonomy of classes that allow to define common building elements."
@@ -47,12 +47,12 @@
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
-        "value" : "December 27th 2018",
+        "value" : "v0.1.0",
         "type" : "label"
       }, {
         "identifier" : "versionInfo",
         "language" : "undefined",
-        "value" : "v0.1.0",
+        "value" : "December 27th 2018",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
@@ -139,10 +139,10 @@
     "id" : "80",
     "type" : "owl:Class"
   }, {
-    "id" : "81",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "65",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
     "id" : "57",
@@ -226,10 +226,10 @@
     "id" : "146",
     "type" : "owl:Class"
   }, {
-    "id" : "26",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
     "id" : "147",
@@ -244,10 +244,10 @@
     "id" : "56",
     "type" : "owl:Class"
   }, {
-    "id" : "159",
+    "id" : "36",
     "type" : "owl:Class"
   }, {
-    "id" : "36",
+    "id" : "159",
     "type" : "owl:Class"
   }, {
     "id" : "144",
@@ -292,10 +292,10 @@
     "id" : "191",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "137",
     "type" : "owl:Class"
   }, {
-    "id" : "137",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
     "id" : "8",
@@ -307,10 +307,10 @@
     "id" : "203",
     "type" : "owl:Class"
   }, {
-    "id" : "187",
+    "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "187",
     "type" : "owl:Class"
   }, {
     "id" : "189",
@@ -496,10 +496,10 @@
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "138",
+    "id" : "139",
     "type" : "owl:Class"
   }, {
-    "id" : "139",
+    "id" : "138",
     "type" : "owl:Class"
   }, {
     "id" : "219",
@@ -526,10 +526,10 @@
     "id" : "231",
     "type" : "owl:Class"
   }, {
-    "id" : "132",
+    "id" : "209",
     "type" : "owl:Class"
   }, {
-    "id" : "209",
+    "id" : "132",
     "type" : "owl:Class"
   }, {
     "id" : "227",
@@ -625,22 +625,22 @@
     "id" : "156",
     "type" : "owl:Class"
   }, {
-    "id" : "243",
+    "id" : "208",
     "type" : "owl:Class"
   }, {
     "id" : "110",
     "type" : "owl:Class"
   }, {
-    "id" : "208",
+    "id" : "243",
     "type" : "owl:Class"
   }, {
     "id" : "119",
     "type" : "owl:Class"
   }, {
-    "id" : "143",
+    "id" : "124",
     "type" : "owl:Class"
   }, {
-    "id" : "124",
+    "id" : "143",
     "type" : "owl:Class"
   }, {
     "id" : "314",
@@ -726,12 +726,12 @@
     "label" : {
       "nb-no" : "parapet",
       "IRI-based" : "Wall-PARAPET",
-      "nl-nl" : "Balustrade",
+      "nl-nl" : "Borstwering",
       "en" : "Parapet Wall"
     },
     "comment" : {
       "nb-no" : "Parapet/brystning\nOpphøyet kant som stikker opp over tak",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1uS$40WJmHu000025QrE$V"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2BlEUUV2L2BBUdnPO3PtnQ"
     },
     "id" : "18",
     "superClasses" : [ "19" ]
@@ -800,7 +800,7 @@
       "fr-fr" : "plaque"
     },
     "comment" : {
-      "en" : "A planar and often flat part with constant thickness. May carry loads between or beyond points of support, or provide stiffening. "
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3zdC5dewn4ROXxRERahlnc"
     },
     "id" : "24",
     "superClasses" : [ "15" ]
@@ -940,7 +940,7 @@
     },
     "subClasses" : [ "44", "45", "46", "47", "48", "49", "50", "51" ],
     "comment" : {
-      "en" : "a reinforcing bar is usually made of steel with manufactured deformations in the surface, and used in concrete and masonry construction to provide additional strength. a single instance of this class may represent one or many of actual rebars, for example a row of rebars."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1zlbN6A$z4r8Er6nWNbSMZ"
     },
     "id" : "42",
     "superClasses" : [ "43" ]
@@ -990,7 +990,7 @@
     },
     "subClasses" : [ "5", "55", "56", "57" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3pXDk0qWSHuO00025QrE$V"
+      "en" : "A component of the construction that normally encloses a space vertically. May provide the lower support (floor) or upper construction (roof slab) in any space in a building.\nOnly the core or constructional part of this construction is considered to be a slab. The upper finish (flooring, roofing) and the lower finish (ceiling, suspended ceiling) are considered to be coverings. "
     },
     "id" : "6",
     "superClasses" : [ "54" ]
@@ -1082,6 +1082,22 @@
     "id" : "80",
     "superClasses" : [ "19" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#ShadingDevice-AWNING",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "label" : {
+      "nb-no" : "solskjerming",
+      "IRI-based" : "ShadingDevice-AWNING",
+      "nl-nl" : "Zonwering",
+      "en" : "Awning"
+    },
+    "comment" : {
+      "nb-no" : "produkt laget av stoff/materiale som plasseres utvendig over, foran eller i en åpning, og som stikker ut i et horisontalt og/eller skrånende og/eller vertikalt plan",
+      "en" : "product made of fabric/material, located externally, above, in front of, or within an opening and extending in a horizontal and/or sloping and/or vertical plane"
+    },
+    "id" : "65",
+    "superClasses" : [ "63" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Roof-GABLE_ROOF",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -1104,22 +1120,6 @@
     "id" : "81",
     "superClasses" : [ "41" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#ShadingDevice-AWNING",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "label" : {
-      "nb-no" : "markise",
-      "IRI-based" : "ShadingDevice-AWNING",
-      "nl-nl" : "Zonwering",
-      "en" : "Awning"
-    },
-    "comment" : {
-      "nb-no" : "produkt laget av stoff/materiale som plasseres utvendig over, foran eller i en åpning, og som stikker ut i et horisontalt og/eller skrånende og/eller vertikalt plan",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3NoPxSKmL7yQEzPT8cmssT"
-    },
-    "id" : "65",
-    "superClasses" : [ "63" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Slab-ROOF",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -1139,7 +1139,7 @@
       "fr-fr" : "toiture"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3Hvwx39_rCaRS49F4qRGBb"
+      "en" : "A covering of the top part of a building. Protects the building against the effects of weather."
     },
     "id" : "57",
     "superClasses" : [ "6" ]
@@ -1207,11 +1207,32 @@
       "en" : "Polygonal Wall"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0cJEMJHYj6Hh7Q1xNPsiIf",
+      "en" : "a polygonal wall, extruded vertically, where the wall thickness varies along the wall path",
       "en-gb" : "a polygonal wall, extruded vertically, where the wall thickness varies along the wall path"
     },
     "id" : "87",
     "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp-STRAIGHT_RUN_RAMP",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcRampEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ramp-STRAIGHT_RUN_RAMP",
+      "en" : "Straight Run Ramp"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1SYNqJ72H64g7EG2vm8VJu"
+    },
+    "id" : "88",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Footing-STRIP_FOOTING",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -1232,29 +1253,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0mDEbMPpzB9B_vQTUHZLHe"
     },
-    "id" : "88",
-    "superClasses" : [ "10" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp-STRAIGHT_RUN_RAMP",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcRampEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Ramp-STRAIGHT_RUN_RAMP",
-      "en" : "Straight Run Ramp"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1SYNqJ72H64g7EG2vm8VJu"
-    },
     "id" : "89",
-    "superClasses" : [ "30" ]
+    "superClasses" : [ "10" ]
   }, {
     "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
     "baseIri" : "http://purl.org/vocommons/voaf",
@@ -1287,7 +1287,7 @@
       "en" : "Craneway"
     },
     "comment" : {
-      "en" : "a crane way system, normally including the crane rails, fasteners and the crane. it is primarily used to move heavy goods in a factory or other industry buildings",
+      "en" : "An artefact for raising, shifting and lowering heavy weights by means of a projecting swinging arm or with hoisting mechanism supported on an overhead track.        ",
       "en-gb" : "a crane way system, normally including the crane rails, fasteners and the crane. it is primarily used to move heavy goods in a factory or other industry buildings"
     },
     "id" : "92",
@@ -1329,14 +1329,14 @@
     "label" : {
       "nb-no" : "dør med karm",
       "IRI-based" : "Door-DOOR",
-      "de-de" : "Türeinheit",
       "nl-nl" : "Deur",
+      "de-de" : "Türeinheit",
       "en" : "Door",
-      "fr-fr" : "bloc-porte"
+      "fr-fr" : "porte"
     },
     "comment" : {
       "nb-no" : "Bygningsdel som dekker en åpning i utvendig eller innvendig vegg, og som kan åpnes eller stenges for passasje.",
-      "en" : "a complete unit consisting of a door frame and a door leaf or leaves, supplied with the essential hardware and wheatherseal, as a product from a single source"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2reX7MzyDDPP8OCoYtmU7d"
     },
     "id" : "102",
     "superClasses" : [ "103" ]
@@ -1368,18 +1368,18 @@
       "sv-se" : "fönster",
       "bg-bg" : "прозорец",
       "fr-fr" : "fenêtre",
-      "ja-jp" : "窓",
       "de-ch" : "fenster",
+      "ja-jp" : "窓",
       "en-gb" : "window",
       "dk-dk" : "vindue"
     },
     "comment" : {
       "fi-fi" : "seinä- tai kattoaukon sulkeva, valoa läpipäästävä rakenneosa varustettuna mahdollisin ilmanvaihto-ominaisuuksin",
-      "nb-no" : "en konstruksjon som står i en åpning som i en vegg eller tak og som normalt er dekket av glass, med det formål å slippe inn lys og luft.",
+      "nb-no" : "konstruksjon for lukking av en vertikal eller nesten vertikal åpning i en vegg eller et skråtak som skal slippe igjennom lys kan gi ventilasjon. Ofte en glassrute innrammet og montert for å muliggjøre åpning og lukking",
       "de-de" : "Bauteil zum Schließen einer Öffnung in einer Wand oder Satteldach, das Licht durchlassen und Belüftung ermöglichen kann",
       "ifc-2x4" : "A building element that is predominately used to provide natural light and fresh air. It includes vertical opening but also horizontal opening such as skylights or light domes. It includes constructions with swinging, pivoting, sliding, or revolving panels and fixed panels. A window consists of a lining and one or several panels.\nNOTE  Definition according to ISO 6707-1\nConstruction for closing a vertical or near vertical opening in a wall or pitched roof that will admit light and may admit fresh air.",
       "pt-br" : "Abertura destinada a iluminar e ventilar os ambientes internos, além de facilitar a visão do exterior.",
-      "en" : "building component for closing an opening in a wall or pitched roof that will admit light and may provide ventilation",
+      "en" : "space access object for light entry only",
       "es-es" : "componente de construcción para cerrar una abertura en una pared o techo a dos aguas que deja pasar la luz y puede proporcionar ventilación",
       "nn-no" : "ein konstruksjon som står i ei opning som i ein vegg eller tak og som normalt er dekt av glas, med det føremålet å sleppa inn lys og luft. | konstruksjon for *lukking av ein vertikal eller nesten vertikal opning i ein vegg eller eit skråtak som skal sleppa igjennom lys kan gje ventilasjon. Ofte ei glasrute *innrammet og montert for å gjera muleg opning og lukking",
       "it-it" : "componente costruttivo atto a chiudere un'apertura in un muro o in un tetto a spiovente che ammetta la luce e possa fornire ventilazione",
@@ -1388,7 +1388,7 @@
       "sv-se" : "byggelement som används för att stänga en öppning i en vägg eller ett sadeltak som kan släppa in ljus och bidra med ventilation",
       "bg-bg" : "строителен компонент за затваряне на отвор в стена или скатен покрив, който служи за осветяване и евентуално за проветряване",
       "fr-fr" : "une construction destinée à fermer une ouverture verticale ou quasi-verticale dans un mur ou un toit en pente qui laissera passer la lumière et pourra fournir une ventilation. souvent constituée d'un panneau vitré monté sur un châssis permettant son ouverture et sa fermeture.",
-      "en-gb" : "building component for closing an opening in a wall or pitched roof that will admit light and may provide ventilation",
+      "en-gb" : "construction for closing a vertical or near-vertical opening in a wall or pitched roof which will admit light and may provide ventilation. Often a pane of glass framed and mounted to permit opening and closing",
       "dk-dk" : "konstruktion til lukning af en lodret eller næsten lodret åbning i en mur eller skråt tag, der lader lys trænge igennem og kan muliggøre ventilation. Ofte en rude i en karm og monteret, så den kan åbnes og lukkes"
     },
     "id" : "104",
@@ -1503,7 +1503,7 @@
     },
     "subClasses" : [ "117", "118", "119", "120", "121", "122", "123", "124", "125", "126" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2$KV20qV0HuO00025QrE$V"
+      "en" : "A fastener connecting building elements mechanically. A single instance may represent one or many of actual mechanical fasteners, for example an array of bolts or a row of nails."
     },
     "id" : "116",
     "superClasses" : [ "34" ]
@@ -1704,7 +1704,7 @@
     },
     "subClasses" : [ "129", "130", "131", "132", "133", "105", "134", "135", "136", "137", "138", "139", "58", "140" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3DhWM0qWmHuO00025QrE$V"
+      "en" : "A vertical passageway allowing occupants to walk (step) from one floor level to another floor level at a different elevation. May include a landing as an intermediate floor slab."
     },
     "id" : "59",
     "superClasses" : [ "54" ]
@@ -1723,8 +1723,8 @@
     "label" : {
       "nb-no" : "trapp",
       "IRI-based" : "StairFlight",
-      "nl-nl" : "trap",
       "de-de" : "treppenlauf",
+      "nl-nl" : "trapslag",
       "en" : "Stair Flight",
       "fr-fr" : "Volée d'escalier"
     },
@@ -1758,6 +1758,27 @@
     "id" : "146",
     "superClasses" : [ "15" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#TendonAnchor-FIXED_END",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcTendonAnchorEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TendonAnchor-FIXED_END",
+      "en" : "Fixed End"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/133YYoKAv8mBxccTJtzWju"
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Beam-JOIST",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -1780,27 +1801,6 @@
     "id" : "26",
     "superClasses" : [ "22" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#TendonAnchor-FIXED_END",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcTendonAnchorEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "TendonAnchor-FIXED_END",
-      "en" : "Fixed End"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/133YYoKAv8mBxccTJtzWju"
-    },
-    "id" : "4",
-    "superClasses" : [ "2" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Column-PILASTER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -1819,7 +1819,7 @@
     },
     "comment" : {
       "nb-no" : "vertikalt fremspring på vegg",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/08F4W56in3zeQ$ucplQrmF"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/312dw0BS8Htm00025QrE$V"
     },
     "id" : "147",
     "superClasses" : [ "71" ]
@@ -1844,7 +1844,7 @@
     },
     "subClasses" : [ "148", "149" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1kbSG0qVyHuO00025QrE$V"
+      "en" : "A single inclined segment, or several inclined segments that are connected by a horizontal segment, referred to as a landing. "
     },
     "id" : "67",
     "superClasses" : [ "54" ]
@@ -1893,6 +1893,27 @@
     "id" : "56",
     "superClasses" : [ "6" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#DiscreteAccessory-ANCHORPLATE",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDiscreteAccessoryEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DiscreteAccessory-ANCHORPLATE",
+      "en" : "Anchor Plate"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1XD5ysVrvF$haI5OgtznWi"
+    },
+    "id" : "36",
+    "superClasses" : [ "33" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Member-PURLIN",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -1914,27 +1935,6 @@
     },
     "id" : "159",
     "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#DiscreteAccessory-ANCHORPLATE",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDiscreteAccessoryEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "DiscreteAccessory-ANCHORPLATE",
-      "en" : "Anchor Plate"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1XD5ysVrvF$haI5OgtznWi"
-    },
-    "id" : "36",
-    "superClasses" : [ "33" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#StairFlight-CURVED",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -1974,24 +1974,24 @@
       "nb-no" : "påhengsvegg",
       "pl-pl" : "zestaw ściany osłonowej",
       "IRI-based" : "CurtainWall",
-      "nl-nl" : "Gordijngevel",
       "de-de" : "Vorhangfassade",
+      "nl-nl" : "Gordijngevel",
       "sv-se" : "sats till utfackningsväggar",
-      "bg-bg" : "монтажни модули за окачени фасади",
       "en" : "Curtain Wall",
+      "bg-bg" : "монтажни модули за окачени фасади",
       "fr-fr" : "Mur rideau",
       "nl" : "Gordijngevel"
     },
     "comment" : {
       "fi-fi" : "pysty- ja vaakasuuntaisia rakenneosia, toisiinsa liitettyinä ja rakennuksen kantavaan rakenteeseen kiinnitettynä, täydennettynä muodostamaan suojaavan yhtenäisen pintatilan, jolla on sellaisenaan tai yhdessä rakennuksen kanssa kaikki ulkoisen seinän normaalit toimintaominaisuudet, mutta jota ei käytetä kantavana rakenteena",
       "it-it" : "elementi strutturali verticali e orizzontali, collegati assieme e ancorati alla struttura di supporto dell'edificio e tamponati, a formare una pelle di chiusura continua che fornisce, da sola o in congiunzione con la costruzione, tutte le normali funzioni di un muro esterno, ma non assume nessuna delle caratteristiche portanti della struttura dell'edificio",
-      "nb-no" : "utvendig, ikkebærende veggkonstruksjon forankret til bygningens hovedbærekonstruksjon. påhengsvegger bygges vanligvis av et rammeverk av metall, tre eller PVC med vertikale og horisontale komponenter som overfører påhengsveggens egenvekt og eventuelle vindkrefter til bygningens bærekonstruksjon",
       "pl-pl" : "pionowe i poziome elementy konstrukcyjne, połączone ze sobą i zakotwiczone w konstrukcji nośnej budynku i w zabudowie typu plomba, tworzące przestrzeń obejmującą ciągłą warstwę, która zapewnia, samodzielnie lub w połączeniu z konstrukcją budynku, wszystkie normalne funkcje ściany zewnętrznej, ale nie spełnia żadnej funkcji nośnej dla konstrukcji budynku",
+      "nb-no" : "utvendig, ikkebærende veggkonstruksjon forankret til bygningens hovedbærekonstruksjon. påhengsvegger bygges vanligvis av et rammeverk av metall, tre eller PVC med vertikale og horisontale komponenter som overfører påhengsveggens egenvekt og eventuelle vindkrefter til bygningens bærekonstruksjon",
       "de-de" : "Vertikale und horizontale Bauteile, die untereinander verbunden und mit dem Tragwerk des Gebäudes verankert sind sowie gefüllt sind, um eine raumabschließende, durchgehende Außenschicht zu bilden, die alleine oder gemeinsam mit der übrigen Baukonstruktion, alle normalen Funktionen einer Außenwand bietet, jedoch keine lastabtragenden Funktionen erfüllt",
       "sv-se" : "vertikala och horisontella byggnadsdelar som har sammanfogats och förankrats vid byggnadens stödkonstruktion och isolerats, för att skapa en inhägnad med kontinuerlig yta som, av sig själv eller tillsammans med byggnadskonstruktionen, erbjuder alla funktioner som en yttervägg vanligtvis har, men som inte har några av byggnadskonstruktionens bärande egenskaper",
       "en" : "An exterior wall of a building which is an assembly of components, hung from the edge of the floor/roof structure rather than bearing on a floor. ",
-      "es-es" : "elementos estructurales verticales y horizontales, conectados entre sí y anclados a la estructura portante del edificio y rellenados, para formar un conjunto de piel continua que proporciona, por sí mismo o conjuntamente con la construcción del edificio, todas las funciones normales de una pared externa, pero no se hace cargo de ninguna de las características portantes de la estructura del edificio",
       "bg-bg" : "вертикални и хоризонтални конструктивни елементи, свързани помежду си, закрепени към основната конструкция на сградата и запълнени, за да образуват непрекъсната ограждаща пространството обвивка, която осигурява, самостоятелно или съвместно с конструкцията на сградата, всички изисквани функции към една външна стена, но без да изпълнява никакви функции свързани с носимоспособността на сградната конструкция",
+      "es-es" : "elementos estructurales verticales y horizontales, conectados entre sí y anclados a la estructura portante del edificio y rellenados, para formar un conjunto de piel continua que proporciona, por sí mismo o conjuntamente con la construcción del edificio, todas las funciones normales de una pared externa, pero no se hace cargo de ninguna de las características portantes de la estructura del edificio",
       "fr-fr" : "les éléments de structure verticaux et horizontaux reliés ensemble et ancrés sur la structure portante du bâtiment et remplis pour former un espace renfermant une peau continue qui fournit, par elle-même ou en combinaison avec la construction du bâtiment, toutes les fonctions normales d'un mur extérieur, mais n'emprunte aucune des caractéristiques de résistance à la charge de la structure du bâtiment",
       "dk-dk" : "lodrette og vandrette bygningselementer, der er bundet sammen og forankret til bygningens bærende konstruktion og fyldt, så de danner en fortløbende inddækning, der i sig selv eller sammen med bygningskonstruktionen leverer alle en ydermurs normale funktioner, men som ikke påtager sig nogen af bygningskonstruktionens bærende egenskaber"
     },
@@ -2039,7 +2039,7 @@
     },
     "subClasses" : [ "42", "86", "162", "2" ],
     "comment" : {
-      "en" : "a reinforcing element represents bars, wires, strands, meshes, tendons, and other components embedded in concrete in such a manner that the reinforcement and the concrete act together in resisting forces."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1aiY$$Wf98m8a5cp3Hzgdu"
     },
     "id" : "43",
     "superClasses" : [ "34" ]
@@ -2066,14 +2066,14 @@
       } ]
     },
     "label" : {
-      "nb-no" : "gerikt",
+      "nb-no" : "taklist",
       "IRI-based" : "Covering-MOLDING",
       "de-de" : "Gesims",
       "en" : "Molding",
       "fr-fr" : "Matériau de la moulure"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/39P8INeF1DvPcZnWFCA0jO"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0rO5hENaL0Sx5ncSZm5QWi"
     },
     "id" : "109",
     "superClasses" : [ "39" ]
@@ -2090,15 +2090,15 @@
       } ]
     },
     "label" : {
-      "nb-no" : "sjalusi",
+      "nb-no" : "lamell",
       "IRI-based" : "ShadingDevice-JALOUSIE",
       "de-de" : "Jalousie",
-      "en" : "blinds",
+      "en" : "Jalousie",
       "fr-fr" : "stores vénetiens"
     },
     "comment" : {
       "nb-no" : "Solavskjerming, Persienner",
-      "en" : "product consisting of horizontal slats which can be tilted. it may be retracted by raising and stacking the slats."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3vHLsWoT0Hsm00051Mm008"
     },
     "id" : "79",
     "superClasses" : [ "63" ]
@@ -2144,7 +2144,7 @@
       "fr-fr" : "Garde corps"
     },
     "comment" : {
-      "en" : "A frame assembly adjacent to human circulation spaces and at some space boundaries where it is used in line of walls or to compliment walls. Designed to aid humans, either as an optional physical support, or to prevent injury by falling."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2804vLstn5DfaH_vxv53w3"
     },
     "id" : "173",
     "superClasses" : [ "174" ]
@@ -2167,7 +2167,7 @@
       "fr-fr" : "Mur composite"
     },
     "comment" : {
-      "en" : "A wall with certain constraints for the provision of its components."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2dG9W0qXKHuO00025QrE$V"
     },
     "id" : "183",
     "superClasses" : [ "19" ]
@@ -2244,7 +2244,7 @@
     },
     "subClasses" : [ "101", "187", "183", "18", "188", "87", "189", "80", "190", "161" ],
     "comment" : {
-      "en" : "A vertical construction that bounds or subdivides spaces. Usually vertical, or nearly vertical, planar elements, often designed to bear structural loads. However not required to be load bearing."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2Xuqs0qXKHuO00025QrE$V"
     },
     "id" : "19",
     "superClasses" : [ "54" ]
@@ -2271,6 +2271,27 @@
     "id" : "191",
     "superClasses" : [ "75" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-SPIRAL_STAIR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcStairEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Stair-SPIRAL_STAIR",
+      "en" : "Spiral Stair"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0UwQe$TXP47AhE5k0mZzCe"
+    },
+    "id" : "137",
+    "superClasses" : [ "59" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Column",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -2296,27 +2317,6 @@
     },
     "id" : "71",
     "superClasses" : [ "54" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-SPIRAL_STAIR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcStairEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Stair-SPIRAL_STAIR",
-      "en" : "Spiral Stair"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0UwQe$TXP47AhE5k0mZzCe"
-    },
-    "id" : "137",
-    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#TendonAnchor-TENSIONING_END",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -2385,6 +2385,35 @@
     "id" : "203",
     "superClasses" : [ "128" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcRamp",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "skråplan",
+      "IRI-based" : "Ramp",
+      "nl-nl" : "helling",
+      "de-de" : "Rampe",
+      "en" : "Ramp",
+      "fr-fr" : "Rampe",
+      "da" : "Rampe",
+      "nl" : "Helling"
+    },
+    "subClasses" : [ "207", "208", "209", "29", "88", "210" ],
+    "comment" : {
+      "nb-no" : "Rampe",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0kpjo0qVyHuO00025QrE$V"
+    },
+    "id" : "30",
+    "superClasses" : [ "54" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Wall-STANDARD",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -2405,35 +2434,6 @@
     },
     "id" : "187",
     "superClasses" : [ "19" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcRamp",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "rampe",
-      "IRI-based" : "Ramp",
-      "nl-nl" : "helling",
-      "de-de" : "Rampe",
-      "en" : "Ramp",
-      "fr-fr" : "Rampe",
-      "da" : "Rampe",
-      "nl" : "Helling"
-    },
-    "subClasses" : [ "207", "208", "209", "29", "89", "210" ],
-    "comment" : {
-      "nb-no" : "Rampe",
-      "en" : "A vertical passageway which provides a human circulation link between one floor level and another floor level at a different elevation. Normally does not include steps."
-    },
-    "id" : "30",
-    "superClasses" : [ "54" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Wall-ELEMENTEDWALL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -2472,8 +2472,8 @@
     "label" : {
       "nb-no" : "bjelke",
       "IRI-based" : "Beam-BEAM",
-      "nl-nl" : "ligger",
       "de-de" : "biegeträger",
+      "nl-nl" : "balk",
       "en" : "Beam",
       "fr-fr" : "poutre"
     },
@@ -2534,9 +2534,9 @@
       "bg-bg" : "прозорец",
       "fr-fr" : "fenêtre",
       "da" : "Vindue",
-      "en-gb" : "window",
-      "ja-jp" : "窓",
       "nl" : "Raam",
+      "ja-jp" : "窓",
+      "en-gb" : "window",
       "dk-dk" : "vindue"
     },
     "subClasses" : [ "216", "104", "191" ],
@@ -2553,7 +2553,7 @@
       "sv-se" : "byggelement som används för att stänga en öppning i en vägg eller ett sadeltak som kan släppa in ljus och bidra med ventilation",
       "bg-bg" : "строителен компонент за затваряне на отвор в стена или скатен покрив, който служи за осветяване и евентуално за проветряване",
       "fr-fr" : "une construction destinée à fermer une ouverture verticale ou quasi-verticale dans un mur ou un toit en pente qui laissera passer la lumière et pourra fournir une ventilation. souvent constituée d'un panneau vitré monté sur un châssis permettant son ouverture et sa fermeture.",
-      "en-gb" : "construction for closing a vertical or near-vertical opening in a wall or pitched roof which will admit light and may provide ventilation. Often a pane of glass framed and mounted to permit opening and closing",
+      "en-gb" : "building component for closing an opening in a wall or pitched roof that will admit light and may provide ventilation",
       "dk-dk" : "konstruktion til lukning af en lodret eller næsten lodret åbning i en mur eller skråt tag, der lader lys trænge igennem og kan muliggøre ventilation. Ofte en rude i en karm og monteret, så den kan åbnes og lukkes"
     },
     "id" : "75",
@@ -2614,7 +2614,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "takdekke",
+      "nb-no" : "taktekking",
       "IRI-based" : "Covering-ROOFING",
       "en" : "Roofing"
     },
@@ -2685,13 +2685,13 @@
       "de-de" : "Abgasanlage",
       "nl-nl" : "Schoorsteen",
       "en" : "Chimney",
-      "fr-fr" : "cheminée",
+      "fr-fr" : "conduit de fumée",
       "da" : "Skorsten",
       "nl" : "Schoorsteen"
     },
     "comment" : {
       "nb-no" : "konstruksjon bestående av én eller flere vegger som omslutter én eller flere røykkanaler",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0xE4A0qSaHuO00025QrE$V"
+      "en" : "Typically vertical, or as near as vertical, parts of the construction of a building and part of the building fabric. Often constructed by pre-cast or insitu concrete, today seldom by bricks."
     },
     "id" : "94",
     "superClasses" : [ "54" ]
@@ -2712,7 +2712,7 @@
       "en" : "Curved Run Stair"
     },
     "comment" : {
-      "en" : "a stair extending from one level to another without turns or winders. the stair is consisting of one curved flight."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1lkxIX8Gj23Bi50H2qpZB9"
     },
     "id" : "135",
     "superClasses" : [ "59" ]
@@ -2761,28 +2761,6 @@
     "id" : "234",
     "superClasses" : [ "128" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Beam-SPANDREL",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcBeamEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "brystning",
-      "IRI-based" : "Beam-SPANDREL",
-      "en" : "Spandrel"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2$vr6UW$f3SwHilnemEZoH"
-    },
-    "id" : "235",
-    "superClasses" : [ "22" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Beam-T_BEAM",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -2801,6 +2779,28 @@
     },
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1o9Up6wBr339DlpjWIWE$l"
+    },
+    "id" : "235",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Beam-SPANDREL",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcBeamEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "brystning",
+      "IRI-based" : "Beam-SPANDREL",
+      "en" : "Spandrel"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2$vr6UW$f3SwHilnemEZoH"
     },
     "id" : "236",
     "superClasses" : [ "22" ]
@@ -3003,7 +3003,7 @@
     },
     "subClasses" : [ "79", "62", "65" ],
     "comment" : {
-      "en" : "Purpose built devices to protect from the sunlight, from natural light, or screening them from view. Shading devices can form part of the facade or can be mounted inside the building, they can be fixed or operable.\n"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/11vQg0qWSHuO00025QrE$V"
     },
     "id" : "63",
     "superClasses" : [ "54" ]
@@ -3042,16 +3042,16 @@
       } ]
     },
     "label" : {
-      "nb-no" : "brakett",
+      "nb-no" : "innstøpningsbrakett",
       "IRI-based" : "DiscreteAccessory-BRACKET",
       "nl-nl" : "Console",
       "de-de" : "Winkellasche",
-      "en" : "console",
+      "en" : "Bracket",
       "fr-fr" : "crochet"
     },
     "comment" : {
-      "nb-no" : "Brakkett for utstyr",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3EGCgYGC9F3PmaQ821Ax2u"
+      "nb-no" : "Innstøpningsbrakett",
+      "en" : "An artefact which is projecting from the side of a wall or other structure intended to support some other artefacts.        "
     },
     "id" : "37",
     "superClasses" : [ "33" ]
@@ -3072,7 +3072,7 @@
       "en" : "Two Straight Run Stair"
     },
     "comment" : {
-      "en" : "a straight stair consisting of two straight flights without turns but with one landing."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3VuqGJNz160B87TSrFhrM4"
     },
     "id" : "140",
     "superClasses" : [ "59" ]
@@ -3155,7 +3155,7 @@
     "label" : {
       "nb-no" : "spiral",
       "IRI-based" : "StairFlight-SPIRAL",
-      "en" : "scroll"
+      "en" : "Spiral"
     },
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1zj3DVJij6IBVuIqOLbi46"
@@ -3180,7 +3180,7 @@
       "en" : "Curtain Panel"
     },
     "comment" : {
-      "en" : "a planar element within a curtain wall, often consisting of a frame with fixed glazing",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2N7mbvPFL0QRlf$nLuQE0U",
       "en-gb" : "a planar element within a curtain wall, often consisting of a frame with fixed glazing"
     },
     "id" : "84",
@@ -3265,7 +3265,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "vindel",
+      "nb-no" : "spiral",
       "IRI-based" : "RampFlight-SPIRAL",
       "en" : "Spiral"
     },
@@ -3287,7 +3287,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "solgardin",
+      "nb-no" : "skodde",
       "IRI-based" : "ShadingDevice-SHUTTER",
       "de-de" : "Abschluß",
       "en" : "Shutter",
@@ -3295,7 +3295,7 @@
     },
     "comment" : {
       "nb-no" : "Solavskjerming, Solgardin",
-      "en" : "Movable component installed in an opening or duct to form a barrier for security purposes; used to control the passage of heat or light or to delay the spread of fire, smoke or gases."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/27f2fkTV50YwB1IZgMURLa"
     },
     "id" : "62",
     "superClasses" : [ "63" ]
@@ -3413,7 +3413,7 @@
       "en" : "Quarter Turn Stair"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1IEbbDJDHAFQb9SZweXH3x"
+      "en" : "a stair making a 90° turn, consisting of two straight flights connected by a quarterspace landing. the direction of the turn is determined by the walking line."
     },
     "id" : "130",
     "superClasses" : [ "59" ]
@@ -3453,7 +3453,7 @@
     },
     "label" : {
       "fi-fi" : "ontelolaatta",
-      "nb-no" : "hulldekke",
+      "nb-no" : "prefabrikkert hulldekke",
       "IRI-based" : "Beam-HOLLOWCORE",
       "de-de" : "werkseitig hergestellte Hohlplatte",
       "es-es" : "losa alveolar prefabricada",
@@ -3468,8 +3468,8 @@
     },
     "comment" : {
       "fi-fi" : "suorakaiteenmuotoinen laattaelementti, jossa on koko pituudeltaan pyöreitä tai ovaalinmuotoisia onteloita/tyhjätiloja",
-      "nb-no" : "rektangulært element med langsgående sirkulære eller ovale hulrom i full lengde",
       "pl-pl" : "prostokątna płyta z okrągłymi lub owalnymi przestrzeniami na całej długości",
+      "nb-no" : "rektangulært element med langsgående sirkulære eller ovale hulrom i full lengde",
       "de-de" : "Platte mit rechteckigem Querschnitt, in der auf voller Länge in Längsrichtung kreisrunde oder ovale Hohlräume (Aussparungen) verlaufen",
       "sv-se" : "rektangulärt bjälklag med längsgående cirkelformade eller ovalformade tomrum längs med hela bjälklaget",
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2gzZKHqELB$gPVKajRAFXc",
@@ -3587,7 +3587,7 @@
       "de-de" : "Schwingungsisolator",
       "nl-nl" : "trillingsisolator",
       "en" : "Vibration Isolator",
-      "fr-fr" : "isolation anti-vibratoire"
+      "fr-fr" : "isolateur de vibrations"
     },
     "subClasses" : [ "12", "17" ],
     "comment" : {
@@ -3653,13 +3653,13 @@
     "label" : {
       "nb-no" : "bjelke",
       "IRI-based" : "Beam",
-      "de-de" : "biegeträger",
+      "de-de" : "balken",
       "en" : "Beam",
       "fr-fr" : "poutre",
       "da" : "Bjælke",
       "nl" : "Balk"
     },
-    "subClasses" : [ "21", "26", "28", "235", "236", "240" ],
+    "subClasses" : [ "21", "26", "28", "236", "235", "240" ],
     "comment" : {
       "nb-no" : "A standard beam usually used horizontally.",
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3zXEi0qSCHuO00025QrE$V"
@@ -3681,16 +3681,16 @@
     "label" : {
       "nb-no" : "dør med karm",
       "IRI-based" : "Door",
-      "de-de" : "Türeinheit",
       "nl-nl" : "Deur",
+      "de-de" : "Tür",
       "en" : "Door",
       "fr-fr" : "porte",
       "da" : "Dør"
     },
     "subClasses" : [ "224", "102", "227" ],
     "comment" : {
-      "nb-no" : "Bygningsdel som dekker en åpning i utvendig eller innvendig vegg, og som kan åpnes eller stenges for passasje.",
-      "en" : "construction for closing an opening intended primarily for access or egress or both. Typically consisting of a panel that swings on hinges or that slides or rotates"
+      "nb-no" : "En åpning i en barriære med et dørblad som kan lukke åpningen og en ramme som holder dørbladet.",
+      "en" : "a complete unit consisting of a door frame and a door leaf or leaves, supplied with the essential hardware and wheatherseal, as a product from a single source"
     },
     "id" : "103",
     "superClasses" : [ "54" ]
@@ -3854,31 +3854,10 @@
     },
     "subClasses" : [ "219", "146", "222", "14", "24", "23", "159", "213", "215", "169", "195", "197" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/11GXc0qV4HuO00025QrE$V"
+      "en" : "A structural member designed to carry loads between or beyond points of support. It is not required to be load bearing.  A linear architectural or structural element that cannot be expressed more specifically as either a beam or column."
     },
     "id" : "15",
     "superClasses" : [ "54" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-HALF_WINDING_STAIR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcStairEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Stair-HALF_WINDING_STAIR",
-      "en" : "Half Winding Stair"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0Vw081Hfz1AQne1V5CsfUA"
-    },
-    "id" : "138",
-    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-STRAIGHT_RUN_STAIR",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -3899,6 +3878,27 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3p4WSJmK96Oe6HXE$jmWWy"
     },
     "id" : "139",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-HALF_WINDING_STAIR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcStairEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Stair-HALF_WINDING_STAIR",
+      "en" : "Half Winding Stair"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0Vw081Hfz1AQne1V5CsfUA"
+    },
+    "id" : "138",
     "superClasses" : [ "59" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Member-STUD",
@@ -3939,7 +3939,7 @@
       "en" : "Two Quarter Turn Stair"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0mW4DtraD3SA57fcejW4cS"
+      "en" : "a stair making a 180° turn, consisting of three straight flights connected by two quarterspace landings. the direction of the turns is determined by the walking line"
     },
     "id" : "129",
     "superClasses" : [ "59" ]
@@ -4079,27 +4079,6 @@
     "id" : "231",
     "superClasses" : [ "32" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-HALF_TURN_STAIR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcStairEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Stair-HALF_TURN_STAIR",
-      "en" : "Half Turn Stair"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3YmaH1onP90PM6kEWHUjFv"
-    },
-    "id" : "132",
-    "superClasses" : [ "59" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp-TWO_STRAIGHT_RUN_RAMP",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
@@ -4120,6 +4099,27 @@
     },
     "id" : "209",
     "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Stair-HALF_TURN_STAIR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcStairEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Stair-HALF_TURN_STAIR",
+      "en" : "Half Turn Stair"
+    },
+    "comment" : {
+      "en" : "a stair making a 180° turn, consisting of two straight flights connected by a halfspace landing. the orientation of the turn is determined by the walking line."
+    },
+    "id" : "132",
+    "superClasses" : [ "59" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Door-GATE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -4142,7 +4142,7 @@
     },
     "comment" : {
       "nb-no" : "innretning for å lukke en åpning som er beregnet for passering av kjøretøyer og personer",
-      "en" : "a movable barrier, usually on hinges, closing an opening in a fence, wall, or other enclosure"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3C6qVkdNfEGOKvZBfksYwB"
     },
     "id" : "227",
     "superClasses" : [ "103" ]
@@ -4189,7 +4189,7 @@
     },
     "subClasses" : [ "52", "178", "180" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2$v8e0qUGHuO00025QrE$V"
+      "en" : "Jointing component that is used to operate a door, window, shutter, gate or drawer ."
     },
     "id" : "53",
     "superClasses" : [ "34" ]
@@ -4271,7 +4271,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "friform tak",
+      "nb-no" : "friform",
       "IRI-based" : "StairFlight-FREEFORM",
       "undefined" : "Freeform"
     },
@@ -4300,7 +4300,7 @@
     },
     "comment" : {
       "nb-no" : "Søyle",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1k5QL8XejA8v7H3XePklst"
+      "en" : "A vertical structural member which often is aligned with a structural grid intersection. It represents a vertical, or nearly vertical, structural member that transmits, through compression, the weight of the structure above to other structural elements below. It represents such a member from an architectural point of view. It is not required to be load bearing."
     },
     "id" : "192",
     "superClasses" : [ "71" ]
@@ -4326,7 +4326,7 @@
     },
     "subClasses" : [ "182", "76", "165", "81", "168", "115", "172", "40", "152", "154", "156", "158", "60" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2Iyg00qW4HuO00025QrE$V"
+      "en" : "A covering of the top part of a building. Protects the building against the effects of weather."
     },
     "id" : "41",
     "superClasses" : [ "54" ]
@@ -4577,14 +4577,14 @@
     "label" : {
       "nb-no" : "pel",
       "IRI-based" : "Pile",
-      "de-de" : "Pfahl",
+      "de-de" : "Fundament / Tiefgründung",
       "en" : "Pile",
       "fr-fr" : "pieu"
     },
     "subClasses" : [ "203", "319", "244", "234", "127", "268" ],
     "comment" : {
-      "nb-no" : "slankt bærende element i grunnen for overføring av laster. I denne europeiske standarden er slankhetsforholdet ikke begrenset",
-      "en" : "A vertical structural member of timber, concrete, or steel, driven into the earth as a foundation or support for a structure for the transfer of actions. "
+      "nb-no" : "En stråle av tømmer, betong eller stål, drevet ned i jorden som fundament eller støtte til en struktur.",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3vHXEAoT0Hsm00051Mm008"
     },
     "id" : "128",
     "superClasses" : [ "54" ]
@@ -4630,7 +4630,7 @@
     },
     "comment" : {
       "sv-se" : "bindemedel eller bindemedelslösning för hopfogning av fasta material",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/097NQ9z4T7eOn7nJCQC0yI"
+      "en" : "binder or binder solution for joining solid materials"
     },
     "id" : "178",
     "superClasses" : [ "53" ]
@@ -4728,10 +4728,10 @@
       "en" : "Footing",
       "fr-fr" : "fondation"
     },
-    "subClasses" : [ "278", "9", "287", "88", "277" ],
+    "subClasses" : [ "278", "9", "287", "89", "277" ],
     "comment" : {
       "de-de" : "Flachgründung",
-      "en" : "A part of the foundation of a structure that spreads and transmits the load to the soil. Also characterized as shallow foundation, where the loads are transferred to the ground near the surface."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2vyAW0qUWHuO00025QrE$V"
     },
     "id" : "10",
     "superClasses" : [ "54" ]
@@ -4755,7 +4755,7 @@
     },
     "subClasses" : [ "116", "43", "13", "200", "53", "33", "32" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2pKpW0qSeHuO00025QrE$V"
+      "en" : "A representation for minor items included in, added to or connecting to or between elements, which usually are not of interest from the overall building structure viewpoint. However, these small parts may have vital and load carrying functions within the construction. These items do not provide any actual space boundaries. Typical examples include different kinds of fasteners and various accessories."
     },
     "id" : "34",
     "superClasses" : [ "243" ]
@@ -4803,15 +4803,27 @@
     "id" : "156",
     "superClasses" : [ "41" ]
   }, {
-    "iri" : "https://schema.org/Product",
-    "baseIri" : "https://schema.org",
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp-TWO_QUARTER_TURN_RAMP",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Product"
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcRampEnumType",
+        "type" : "iri"
+      } ]
     },
-    "subClasses" : [ "54", "34" ],
-    "attributes" : [ "external" ],
-    "id" : "243"
+    "label" : {
+      "nb-no" : "rampe med to svinger",
+      "IRI-based" : "Ramp-TWO_QUARTER_TURN_RAMP",
+      "en" : "Two Quarter Turn Ramp"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2wUjACPhnDyAgFiGarLaek"
+    },
+    "id" : "208",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Covering-CLADDING",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -4835,27 +4847,15 @@
     "id" : "110",
     "superClasses" : [ "39" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Ramp-TWO_QUARTER_TURN_RAMP",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "iri" : "https://schema.org/Product",
+    "baseIri" : "https://schema.org",
     "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcRampEnumType",
-        "type" : "iri"
-      } ]
-    },
     "label" : {
-      "nb-no" : "rampe med to svinger",
-      "IRI-based" : "Ramp-TWO_QUARTER_TURN_RAMP",
-      "en" : "Two Quarter Turn Ramp"
+      "IRI-based" : "Product"
     },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2wUjACPhnDyAgFiGarLaek"
-    },
-    "id" : "208",
-    "superClasses" : [ "30" ]
+    "subClasses" : [ "54", "34" ],
+    "attributes" : [ "external" ],
+    "id" : "243"
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#MechanicalFastener-DOWEL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -4872,15 +4872,37 @@
       "nb-no" : "dybel",
       "IRI-based" : "MechanicalFastener-DOWEL",
       "de-de" : "Felsdübel",
-      "en" : "dowel",
+      "en" : "rock dowel",
       "fr-fr" : "goujon pour rocher",
       "undefined" : "Dowel"
     },
     "comment" : {
-      "nb-no" : "Dybel",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2jZSkKNyPBMwSeeMxlYWrc"
+      "nb-no" : "stag som stikker ut fra foten av spuntnålen, og som brukes for å feste spunten til fjell",
+      "en" : "rod protruding from the toe of the sheet pile, used for fixing sheet piles to the bed-rock"
     },
     "id" : "119",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#MechanicalFastener-STAPLE",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcMechanicalFastenerEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "stift",
+      "IRI-based" : "MechanicalFastener-STAPLE",
+      "en" : "Staple"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3ugeBu3lP8WANu_d7DFAtv"
+    },
+    "id" : "124",
     "superClasses" : [ "116" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#StairFlight-WINDER",
@@ -4904,28 +4926,6 @@
     },
     "id" : "143",
     "superClasses" : [ "99" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#MechanicalFastener-STAPLE",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcMechanicalFastenerEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "stift",
-      "IRI-based" : "MechanicalFastener-STAPLE",
-      "en" : "Staple"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3ugeBu3lP8WANu_d7DFAtv"
-    },
-    "id" : "124",
-    "superClasses" : [ "116" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/buildingelement#Tendon-WIRE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/buildingelement",
@@ -5504,107 +5504,107 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
     "range" : "2",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "7"
   }, {
     "range" : "13",
     "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "11"
   }, {
     "range" : "13",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "16"
   }, {
     "range" : "22",
     "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "20"
   }, {
     "range" : "22",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "25"
   }, {
     "range" : "22",
     "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "27"
   }, {
     "range" : "63",
     "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "61"
   }, {
     "range" : "63",
     "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
     "range" : "54",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "66"
   }, {
     "range" : "54",
     "domain" : "63",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "68"
   }, {
     "range" : "54",
     "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "69"
   }, {
     "range" : "54",
     "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "70"
   }, {
     "range" : "54",
     "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "72"
   }, {
     "range" : "54",
     "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "73"
   }, {
     "range" : "54",
     "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "74"
   }, {
     "range" : "54",
     "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "77"
   }, {
     "range" : "63",
     "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "78"
   }, {
     "range" : "54",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "90"
   }, {
     "range" : "54",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/name",
@@ -5614,817 +5614,817 @@
       "IRI-based" : "name"
     },
     "domain" : "96",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "95"
   }, {
     "range" : "54",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "98"
   }, {
     "range" : "54",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
     "range" : "41",
     "domain" : "152",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "151"
   }, {
     "range" : "41",
     "domain" : "154",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "153"
   }, {
     "range" : "41",
     "domain" : "156",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "155"
   }, {
     "range" : "41",
     "domain" : "158",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "157"
   }, {
     "range" : "41",
     "domain" : "165",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "164"
   }, {
     "range" : "41",
     "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "166"
   }, {
     "range" : "41",
     "domain" : "168",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "167"
   }, {
     "range" : "41",
     "domain" : "115",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "170"
   }, {
     "range" : "41",
     "domain" : "172",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "171"
   }, {
     "range" : "41",
     "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "175"
   }, {
     "range" : "53",
     "domain" : "52",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "176"
   }, {
     "range" : "53",
     "domain" : "178",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "177"
   }, {
     "range" : "53",
     "domain" : "180",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "179"
   }, {
     "range" : "41",
     "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "181"
   }, {
     "range" : "41",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "184"
   }, {
     "range" : "15",
     "domain" : "169",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "193"
   }, {
     "range" : "15",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "194"
   }, {
     "range" : "15",
     "domain" : "197",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "196"
   }, {
     "range" : "200",
     "domain" : "199",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "198"
   }, {
     "range" : "200",
     "domain" : "202",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "201"
   }, {
     "range" : "15",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "204"
   }, {
     "range" : "15",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "205"
   }, {
     "range" : "15",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "206"
   }, {
     "range" : "15",
     "domain" : "159",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "211"
   }, {
     "range" : "15",
     "domain" : "213",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "212"
   }, {
     "range" : "15",
     "domain" : "215",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "214"
   }, {
     "range" : "32",
     "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "217"
   }, {
     "range" : "15",
     "domain" : "219",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "218"
   }, {
     "range" : "15",
     "domain" : "146",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "220"
   }, {
     "range" : "15",
     "domain" : "222",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "221"
   }, {
     "range" : "103",
     "domain" : "224",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "223"
   }, {
     "range" : "103",
     "domain" : "102",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "225"
   }, {
     "range" : "103",
     "domain" : "227",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "226"
   }, {
     "range" : "32",
     "domain" : "229",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "228"
   }, {
     "range" : "32",
     "domain" : "231",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "230"
   }, {
     "range" : "32",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "232"
   }, {
     "range" : "32",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "233"
   }, {
     "range" : "22",
-    "domain" : "235",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "236",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "237"
   }, {
     "range" : "22",
-    "domain" : "236",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "235",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "238"
   }, {
     "range" : "22",
     "domain" : "240",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "239"
   }, {
     "range" : "116",
     "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "241"
   }, {
     "range" : "116",
     "domain" : "117",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "245"
   }, {
     "range" : "39",
     "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "246"
   }, {
     "range" : "39",
     "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "247"
   }, {
     "range" : "39",
     "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "248"
   }, {
     "range" : "39",
     "domain" : "113",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "249"
   }, {
     "range" : "39",
     "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "250"
   }, {
     "range" : "39",
     "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "251"
   }, {
     "range" : "39",
     "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "252"
   }, {
     "range" : "39",
     "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "253"
   }, {
     "range" : "39",
     "domain" : "108",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "254"
   }, {
     "range" : "82",
     "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "255"
   }, {
     "range" : "82",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "256"
   }, {
     "range" : "39",
     "domain" : "38",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "257"
   }, {
     "range" : "34",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "258"
   }, {
     "range" : "6",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "259"
   }, {
     "range" : "34",
     "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "260"
   }, {
     "range" : "6",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "261"
   }, {
     "range" : "34",
     "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "262"
   }, {
     "range" : "6",
     "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "263"
   }, {
     "range" : "243",
     "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "264"
   }, {
     "range" : "6",
     "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "265"
   }, {
     "range" : "243",
     "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "266"
   }, {
     "range" : "42",
     "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "267"
   }, {
     "range" : "42",
     "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "270"
   }, {
     "range" : "42",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "271"
   }, {
     "range" : "59",
     "domain" : "139",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "272"
   }, {
     "range" : "34",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "273"
   }, {
     "range" : "34",
     "domain" : "200",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "274"
   }, {
     "range" : "59",
     "domain" : "140",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "275"
   }, {
     "range" : "59",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "276"
   }, {
     "range" : "59",
     "domain" : "136",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "279"
   }, {
     "range" : "128",
     "domain" : "268",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "280"
   }, {
     "range" : "59",
     "domain" : "135",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "281"
   }, {
     "range" : "10",
     "domain" : "278",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "282"
   }, {
     "range" : "59",
     "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "283"
   }, {
     "range" : "10",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "284"
   }, {
     "range" : "59",
     "domain" : "137",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "285"
   }, {
     "range" : "10",
     "domain" : "287",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "286"
   }, {
     "range" : "59",
     "domain" : "133",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "288"
   }, {
     "range" : "10",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "289"
   }, {
     "range" : "59",
     "domain" : "132",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "290"
   }, {
     "range" : "10",
     "domain" : "277",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "291"
   }, {
     "range" : "59",
     "domain" : "134",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "292"
   }, {
     "range" : "34",
     "domain" : "116",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "293"
   }, {
     "range" : "59",
     "domain" : "105",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "294"
   }, {
     "range" : "34",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "295"
   }, {
     "range" : "128",
     "domain" : "244",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "296"
   }, {
     "range" : "128",
     "domain" : "234",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "297"
   }, {
     "range" : "59",
     "domain" : "131",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "298"
   }, {
     "range" : "128",
     "domain" : "127",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "299"
   }, {
     "range" : "59",
     "domain" : "130",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "300"
   }, {
     "range" : "59",
     "domain" : "129",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "301"
   }, {
     "range" : "116",
     "domain" : "124",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "303"
   }, {
     "range" : "116",
     "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "304"
   }, {
     "range" : "41",
     "domain" : "60",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "305"
   }, {
     "range" : "116",
     "domain" : "126",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "306"
   }, {
     "range" : "86",
     "domain" : "242",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "307"
   }, {
     "range" : "116",
     "domain" : "125",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "308"
   }, {
     "range" : "86",
     "domain" : "85",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "309"
   }, {
     "range" : "116",
     "domain" : "120",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "310"
   }, {
     "range" : "86",
     "domain" : "302",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "311"
   }, {
     "range" : "116",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "312"
   }, {
     "range" : "86",
     "domain" : "314",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "313"
   }, {
     "range" : "116",
     "domain" : "122",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "315"
   }, {
     "range" : "128",
     "domain" : "203",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "316"
   }, {
     "range" : "116",
     "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "317"
   }, {
     "range" : "128",
     "domain" : "319",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "318"
   }, {
     "range" : "19",
     "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "320"
   }, {
     "range" : "19",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "321"
   }, {
     "range" : "19",
     "domain" : "189",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "322"
   }, {
     "range" : "19",
     "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "323"
   }, {
     "range" : "19",
     "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "324"
   }, {
     "range" : "19",
     "domain" : "187",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "325"
   }, {
     "range" : "19",
     "domain" : "101",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "326"
   }, {
     "range" : "174",
     "domain" : "185",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "327"
   }, {
     "range" : "163",
     "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "328"
   }, {
     "range" : "174",
     "domain" : "173",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "329"
   }, {
     "range" : "174",
     "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "330"
   }, {
     "range" : "43",
     "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "331"
   }, {
     "range" : "43",
     "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "332"
   }, {
     "range" : "43",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "333"
   }, {
     "range" : "43",
     "domain" : "162",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "334"
   }, {
     "range" : "67",
     "domain" : "148",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "335"
   }, {
     "range" : "99",
     "domain" : "145",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "336"
   }, {
     "range" : "67",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "337"
   }, {
     "range" : "99",
     "domain" : "142",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "338"
   }, {
     "range" : "99",
     "domain" : "141",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "339"
   }, {
     "range" : "99",
     "domain" : "144",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "340"
   }, {
     "range" : "99",
     "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "341"
   }, {
     "range" : "54",
     "domain" : "160",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "342"
   }, {
     "range" : "54",
     "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "343"
   }, {
     "range" : "54",
     "domain" : "103",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "344"
   }, {
     "range" : "54",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "345"
   }, {
     "range" : "54",
     "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "346"
   }, {
     "range" : "54",
     "domain" : "174",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "347"
   }, {
     "range" : "54",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "348"
   }, {
     "range" : "33",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "349"
   }, {
     "range" : "33",
     "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "350"
   }, {
     "range" : "33",
     "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "351"
   }, {
     "range" : "42",
     "domain" : "44",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "352"
   }, {
     "range" : "42",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "353"
   }, {
     "range" : "42",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "354"
   }, {
     "range" : "42",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "355"
   }, {
     "range" : "42",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "356"
   }, {
     "range" : "75",
     "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "357"
   }, {
     "range" : "75",
     "domain" : "216",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "358"
   }, {
     "range" : "54",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "359"
   }, {
     "range" : "75",
     "domain" : "191",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "360"
   }, {
     "range" : "30",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "361"
   }, {
     "range" : "30",
     "domain" : "209",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "362"
   }, {
     "range" : "30",
     "domain" : "210",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "363"
   }, {
     "range" : "30",
-    "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "364"
   }, {
     "range" : "30",
     "domain" : "208",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "365"
   }, {
     "range" : "30",
     "domain" : "207",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "366"
   }, {
     "range" : "71",
     "domain" : "192",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "367"
   }, {
     "range" : "19",
     "domain" : "190",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "368"
   }, {
     "range" : "19",
     "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "369"
   }, {
     "range" : "71",
     "domain" : "147",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "370"
   }, {
     "range" : "19",
     "domain" : "161",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "371"
   } ]
 }

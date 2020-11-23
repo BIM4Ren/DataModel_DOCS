@@ -1,11 +1,14 @@
 [ {
-  "@id" : "http://bim4ren.eu/buildingelements#",
+  "@id" : "https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/buildingelements#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "https://buildingsmart.org/ifc4-voc/buildingelement"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Abestos",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Abestos",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -15,10 +18,10 @@
     "@value" : "Asbestos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Mineralwool"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Cellulose",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Cellulose",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -28,10 +31,10 @@
     "@value" : "Cellulose"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Cork",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Cork",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -41,10 +44,10 @@
     "@value" : "Liège"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Cotton",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Cotton",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -54,10 +57,10 @@
     "@value" : "Cotton"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#ExpandedClay",
+  "@id" : "https://models.bim4ren.eu/buildingelements#ExpandedClay",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -76,10 +79,10 @@
     "@value" : "Latérite"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Mineralwool"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#FlaxWool",
+  "@id" : "https://models.bim4ren.eu/buildingelements#FlaxWool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -89,10 +92,10 @@
     "@value" : "Laine de lin"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#GlassWool",
+  "@id" : "https://models.bim4ren.eu/buildingelements#GlassWool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -102,13 +105,13 @@
     "@value" : "Laine de verre"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Mineralwool"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Glazing",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Glazing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#HempWool",
+  "@id" : "https://models.bim4ren.eu/buildingelements#HempWool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -118,10 +121,10 @@
     "@value" : "Laine de chanvre"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Laine",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Laine",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -131,13 +134,13 @@
     "@value" : "Wool"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Material",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Material",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Mineralwool",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -151,12 +154,12 @@
     "@value" : "Mineral Wool"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Material"
-  }, {
     "@id" : "https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION"
+  }, {
+    "@id" : "https://models.bim4ren.eu/buildingelements#Material"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber",
+  "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -166,12 +169,12 @@
     "@value" : "Natural Fiber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Material"
-  }, {
     "@id" : "https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION"
+  }, {
+    "@id" : "https://models.bim4ren.eu/buildingelements#Material"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Perlite",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Perlite",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -187,34 +190,34 @@
     "@value" : "Silice"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Mineralwool"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Polyester",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Polyester",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Synthetic"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Synthetic"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Polyisocyanurate",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Polyisocyanurate",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Synthetic"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Synthetic"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Polystirene",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Polystirene",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Synthetic"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Synthetic"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#PolyvinylChloride",
+  "@id" : "https://models.bim4ren.eu/buildingelements#PolyvinylChloride",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Synthetic"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Synthetic"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#PressedWood",
+  "@id" : "https://models.bim4ren.eu/buildingelements#PressedWood",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -224,10 +227,10 @@
     "@value" : "Pressed wood"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#RockWool",
+  "@id" : "https://models.bim4ren.eu/buildingelements#RockWool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -237,10 +240,10 @@
     "@value" : "Rock wool"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Mineralwool"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Solomite",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Solomite",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -256,10 +259,10 @@
     "@value" : "Straw"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Straw",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Straw",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -269,10 +272,10 @@
     "@value" : "Straw"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Synthetic",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Synthetic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -282,24 +285,24 @@
     "@value" : "Synthétique"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Material"
-  }, {
     "@id" : "https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION"
+  }, {
+    "@id" : "https://models.bim4ren.eu/buildingelements#Material"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#UrealFormaldehyde",
+  "@id" : "https://models.bim4ren.eu/buildingelements#UrealFormaldehyde",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Synthetic"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Synthetic"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#Vermiculite",
+  "@id" : "https://models.bim4ren.eu/buildingelements#Vermiculite",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Mineralwool"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Mineralwool"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#WoodWool",
+  "@id" : "https://models.bim4ren.eu/buildingelements#WoodWool",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -309,10 +312,10 @@
     "@value" : "Wood wool"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#NaturalFiber"
+    "@id" : "https://models.bim4ren.eu/buildingelements#NaturalFiber"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#doubleGlazing",
+  "@id" : "https://models.bim4ren.eu/buildingelements#doubleGlazing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -331,13 +334,13 @@
     "@value" : "double vitrage"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#hasGlazing",
+  "@id" : "https://models.bim4ren.eu/buildingelements#hasGlazing",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://bim4ren.eu/buildingelements#Glazing"
+    "@id" : "https://models.bim4ren.eu/buildingelements#Glazing"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/buildingelements#simpleGlazing",
+  "@id" : "https://models.bim4ren.eu/buildingelements#simpleGlazing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -355,7 +358,4 @@
     "@language" : "it",
     "@value" : "vetro singolo"
   } ]
-}, {
-  "@id" : "https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]

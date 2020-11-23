@@ -1,6 +1,6 @@
-<http://www.bim4ren.eu/domain/thermal#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.bim4ren.eu/domain/thermal#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/domain/thermal/0.1> .
-<http://www.bim4ren.eu/domain/thermal#> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+<https://models.bim4ren.eu/domain/thermal#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/domain/thermal#> <http://www.w3.org/2002/07/owl#versionIRI> <https://models.bim4ren.eu/domain/thermal/0.1> .
+<https://models.bim4ren.eu/domain/thermal#> <http://www.w3.org/2002/07/owl#imports> <https://models.bim4ren.eu/property#> .
 # 
 # 
 # #################################################################
@@ -25,228 +25,228 @@
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/domain/thermal#airTightness
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+# https://models.bim4ren.eu/domain/thermal#airTightness
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
 <https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "air tighthness"@en .
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "ermeticità all'aria"@it .
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "estanqueidad"@es .
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "étanchéité à l'air"@fr .
-<http://www.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3vHkMyoT0Hsm00051Mm008> .
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "air tighthness"@en .
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "ermeticità all'aria"@it .
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "estanqueidad"@es .
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2000/01/rdf-schema#label> "étanchéité à l'air"@fr .
+<https://models.bim4ren.eu/domain/thermal#airTightness> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3vHkMyoT0Hsm00051Mm008> .
 # 
-# http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/thermal#HeatProducer> .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "The coefficient of performance or COP (sometimes CP or CoP) of a heat pump, refrigerator or air conditioning system is a ratio of useful heating or cooling provided to work required."@en .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de performance"@fr .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient of performance"@en .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficiente di prestazione"@it .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coeficiente de operatividad"@es .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "COP" .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3W1b00qSWHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Wd_O0qSeHuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/domain/thermal#HeatProducer> .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "The coefficient of performance or COP (sometimes CP or CoP) of a heat pump, refrigerator or air conditioning system is a ratio of useful heating or cooling provided to work required."@en .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de performance"@fr .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient of performance"@en .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficiente di prestazione"@it .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "coeficiente de operatividad"@es .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "COP" .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3W1b00qSWHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Wd_O0qSeHuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#condensingTemperature
-<http://www.bim4ren.eu/domain/thermal#condensingTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#condensingTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#condensingTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ko9m0qSmHuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#condensingTemperature
+<https://models.bim4ren.eu/domain/thermal#condensingTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#condensingTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#condensingTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ko9m0qSmHuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#dischargeTemperature
-<http://www.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature of the output medium in a thermal loop." .
-<http://www.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "discharge temperature"@en .
-<http://www.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/22j_rwRL92uutC7n_opQsz> .
+# https://models.bim4ren.eu/domain/thermal#dischargeTemperature
+<https://models.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature of the output medium in a thermal loop." .
+<https://models.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "discharge temperature"@en .
+<https://models.bim4ren.eu/domain/thermal#dischargeTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/22j_rwRL92uutC7n_opQsz> .
 # 
-# http://www.bim4ren.eu/domain/thermal#efficiencyType
-<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/domain/thermal#EfficiencyType> .
-<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "efficiency type"@en .
-<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de rendimiento"@es .
-<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di rendimento"@it .
-<http://www.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "type du rendement"@fr .
+# https://models.bim4ren.eu/domain/thermal#efficiencyType
+<https://models.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/domain/thermal#EfficiencyType> .
+<https://models.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "efficiency type"@en .
+<https://models.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de rendimiento"@es .
+<https://models.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di rendimento"@it .
+<https://models.bim4ren.eu/domain/thermal#efficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "type du rendement"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#evaporatingTemperature
-<http://www.bim4ren.eu/domain/thermal#evaporatingTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#evaporatingTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#evaporatingTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Rvom0qU8HuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#evaporatingTemperature
+<https://models.bim4ren.eu/domain/thermal#evaporatingTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#evaporatingTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#evaporatingTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Rvom0qU8HuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#exhaustTemperature
-<http://www.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature rejected by a thermal producer." .
-<http://www.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "exhaust temperature"@en .
+# https://models.bim4ren.eu/domain/thermal#exhaustTemperature
+<https://models.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature rejected by a thermal producer." .
+<https://models.bim4ren.eu/domain/thermal#exhaustTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "exhaust temperature"@en .
 # 
-# http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#comment> "This factor describes thermal losses. The higher this value, the more losses the system has."@en .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "facteur de transmission de chaleur"@fr .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "heat transmission factor"@en .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "pertes à pourcentage constant"@fr .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "a1" .
+# https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#comment> "This factor describes thermal losses. The higher this value, the more losses the system has."@en .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "facteur de transmission de chaleur"@fr .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "heat transmission factor"@en .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "pertes à pourcentage constant"@fr .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient> <http://www.w3.org/2000/01/rdf-schema#label> "a1" .
 # 
-# http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "Coefficient for the calculation of the coefficient of heat transmission dependent on temperature. The higher this value, the greater is the curvature of the curve."@en .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de calcul de coefficient de transmission thermique selon la température."@fr .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient for the calculation of the coefficient of heat transmission dependent on temperature"@en .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "pertes dont le pourcentage augmente avec la température"@fr .
-<http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "a2" .
+# https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "Coefficient for the calculation of the coefficient of heat transmission dependent on temperature. The higher this value, the greater is the curvature of the curve."@en .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de calcul de coefficient de transmission thermique selon la température."@fr .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient for the calculation of the coefficient of heat transmission dependent on temperature"@en .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "pertes dont le pourcentage augmente avec la température"@fr .
+<https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "a2" .
 # 
-# http://www.bim4ren.eu/domain/thermal#infraredTransmittance
-<http://www.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/thermal#transmittance> .
-<http://www.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "infrared transmittance"@en .
-<http://www.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia infrarroja"@es .
-<http://www.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance infrarouge"@fr .
-<http://www.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmittanza infrarossa"@it .
+# https://models.bim4ren.eu/domain/thermal#infraredTransmittance
+<https://models.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/domain/thermal#transmittance> .
+<https://models.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "infrared transmittance"@en .
+<https://models.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia infrarroja"@es .
+<https://models.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance infrarouge"@fr .
+<https://models.bim4ren.eu/domain/thermal#infraredTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmittanza infrarossa"@it .
 # 
-# http://www.bim4ren.eu/domain/thermal#load
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "carga"@es .
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "carico"@it .
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "charge"@fr .
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "load"@en .
-<http://www.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ML8E0qSGHuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#load
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "carga"@es .
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "carico"@it .
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "charge"@fr .
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2000/01/rdf-schema#label> "load"@en .
+<https://models.bim4ren.eu/domain/thermal#load> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ML8E0qSGHuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#maxTemperature
-<http://www.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/thermal#setPoint> .
-<http://www.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "maximal temperature"@en .
-<http://www.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura massima"@it .
-<http://www.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura máxima"@es .
-<http://www.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température maximale"@fr .
+# https://models.bim4ren.eu/domain/thermal#maxTemperature
+<https://models.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/domain/thermal#setPoint> .
+<https://models.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "maximal temperature"@en .
+<https://models.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura massima"@it .
+<https://models.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura máxima"@es .
+<https://models.bim4ren.eu/domain/thermal#maxTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température maximale"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#minTemperature
-<http://www.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/thermal#setPoint> .
-<http://www.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "minimal temperature"@en .
-<http://www.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura minima"@it .
-<http://www.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura mínima"@es .
-<http://www.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température minimale"@fr .
+# https://models.bim4ren.eu/domain/thermal#minTemperature
+<https://models.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/domain/thermal#setPoint> .
+<https://models.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "minimal temperature"@en .
+<https://models.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura minima"@it .
+<https://models.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura mínima"@es .
+<https://models.bim4ren.eu/domain/thermal#minTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température minimale"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#nominalPower
-<http://www.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#power> .
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#label> "nominal power"@en .
-<http://www.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#label> "puissance nominale"@fr .
-<http://www.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#label> "puissance utile"@fr .
+# https://models.bim4ren.eu/domain/thermal#nominalPower
+<https://models.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#power> .
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#label> "nominal power"@en .
+<https://models.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#label> "puissance nominale"@fr .
+<https://models.bim4ren.eu/domain/thermal#nominalPower> <http://www.w3.org/2000/01/rdf-schema#label> "puissance utile"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#returnTemperature
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature of the input medium in a thermal loop" .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "return temperature"@en .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1PxGW0qSuHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1WUt_0qSuHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2ZqF20qSGHuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#returnTemperature
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature of the input medium in a thermal loop" .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "return temperature"@en .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1PxGW0qSuHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1WUt_0qSuHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#returnTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2ZqF20qSGHuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#setPoint
-<http://www.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#label> "consigne"@fr .
-<http://www.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#label> "régulation"@fr .
-<http://www.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#label> "setpoint"@en .
+# https://models.bim4ren.eu/domain/thermal#setPoint
+<https://models.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#label> "consigne"@fr .
+<https://models.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#label> "régulation"@fr .
+<https://models.bim4ren.eu/domain/thermal#setPoint> <http://www.w3.org/2000/01/rdf-schema#label> "setpoint"@en .
 # 
-# http://www.bim4ren.eu/domain/thermal#stagnationTemperature
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature at a stagnation point in a fluid flow. At a stagnation point the speed of the fluid is zero and all of the kinetic energy has been converted to internal energy and is added to the local static enthalpy. In both compressible and incompressible fluid flow, the stagnation temperature is equal to the total temperature at all points on the streamline leading to the stagnation point. The stagnation temperature is the maximum temperature that the collector’s absorber can reach at an ambient temperature of 30°C and an irradiation of 1000 W/m2. Stagnation temperature is also a measure of thermal losses of the collector and therefore describes the efficiency of the collector at higher temperatures."@en .
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "stagnation temperature"@en .
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature de estancamiento"@es .
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature de ristagno"@it .
-<http://www.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température de stagnation"@fr .
+# https://models.bim4ren.eu/domain/thermal#stagnationTemperature
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#comment> "The temperature at a stagnation point in a fluid flow. At a stagnation point the speed of the fluid is zero and all of the kinetic energy has been converted to internal energy and is added to the local static enthalpy. In both compressible and incompressible fluid flow, the stagnation temperature is equal to the total temperature at all points on the streamline leading to the stagnation point. The stagnation temperature is the maximum temperature that the collector’s absorber can reach at an ambient temperature of 30°C and an irradiation of 1000 W/m2. Stagnation temperature is also a measure of thermal losses of the collector and therefore describes the efficiency of the collector at higher temperatures."@en .
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "stagnation temperature"@en .
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature de estancamiento"@es .
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature de ristagno"@it .
+<https://models.bim4ren.eu/domain/thermal#stagnationTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température de stagnation"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#supplyTemperature
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/03n9Y0qRyHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0osme0qRyHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0sRf40qRyHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1NYgu0qSuHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1Sv$Y0qSuHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2Ez5q0qSGHuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#supplyTemperature
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/03n9Y0qRyHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0osme0qRyHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0sRf40qRyHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1NYgu0qSuHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1Sv$Y0qSuHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#supplyTemperature> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2Ez5q0qSGHuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#temperatureSpread
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#temperature> .
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#comment> "the difference between the ambient temperature and the desire room temperature. The range of temperature a heat pump needs to provide" .
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#label> "temperature spread"@en .
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1w6yU0qSmHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3k_Vm0qU8HuO00025QrE$V> .
+# https://models.bim4ren.eu/domain/thermal#temperatureSpread
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#temperature> .
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#comment> "the difference between the ambient temperature and the desire room temperature. The range of temperature a heat pump needs to provide" .
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2000/01/rdf-schema#label> "temperature spread"@en .
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1w6yU0qSmHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#temperatureSpread> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3k_Vm0qU8HuO00025QrE$V> .
 # 
-# http://www.bim4ren.eu/domain/thermal#thermalEfficiency
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendement"@fr .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimento"@it .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimiento térmico"@es .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "thermal efficiency"@en .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/04OYo0qSaHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3CMEg0qSGHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UEes0qSGHuO00025QrE$V> .
-<http://www.bim4ren.eu/domain/thermal#thermalEfficiency> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/ThermalEfficiency> .
+# https://models.bim4ren.eu/domain/thermal#thermalEfficiency
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendement"@fr .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimento"@it .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimiento térmico"@es .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "thermal efficiency"@en .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/04OYo0qSaHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3CMEg0qSGHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <http://www.w3.org/2004/02/skos/core/narrowMatch> <http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UEes0qSGHuO00025QrE$V> .
+<https://models.bim4ren.eu/domain/thermal#thermalEfficiency> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/ThermalEfficiency> .
 # 
-# http://www.bim4ren.eu/domain/thermal#thermalMass
-<http://www.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "masa térmica"@es .
-<http://www.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "massa termica"@it .
-<http://www.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "masse thermique"@fr .
-<http://www.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "thermal mass"@en .
+# https://models.bim4ren.eu/domain/thermal#thermalMass
+<https://models.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "masa térmica"@es .
+<https://models.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "massa termica"@it .
+<https://models.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "masse thermique"@fr .
+<https://models.bim4ren.eu/domain/thermal#thermalMass> <http://www.w3.org/2000/01/rdf-schema#label> "thermal mass"@en .
 # 
-# http://www.bim4ren.eu/domain/thermal#thermalResistance
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "resistencia termica"@es .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "resistenza termica"@it .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "résistence thermique"@fr .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "thermal resistance"@en .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "R" .
-<http://www.bim4ren.eu/domain/thermal#thermalResistance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/ThermalResistance> .
+# https://models.bim4ren.eu/domain/thermal#thermalResistance
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "resistencia termica"@es .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "resistenza termica"@it .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "résistence thermique"@fr .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "thermal resistance"@en .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <http://www.w3.org/2000/01/rdf-schema#label> "R" .
+<https://models.bim4ren.eu/domain/thermal#thermalResistance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/ThermalResistance> .
 # 
-# http://www.bim4ren.eu/domain/thermal#thermalTransmittance
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de transfert thermique"@fr .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient of heat transfer"@en .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "thermal transmittance"@en .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transfert thermique"@fr .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia térmica"@es .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmittanza termica"@it .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "U" .
-<http://www.bim4ren.eu/domain/thermal#thermalTransmittance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer> .
+# https://models.bim4ren.eu/domain/thermal#thermalTransmittance
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de transfert thermique"@fr .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient of heat transfer"@en .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "thermal transmittance"@en .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transfert thermique"@fr .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia térmica"@es .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmittanza termica"@it .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "U" .
+<https://models.bim4ren.eu/domain/thermal#thermalTransmittance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer> .
 # 
-# http://www.bim4ren.eu/domain/thermal#transmittance
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia"@es .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@en .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@fr .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmissione"@it .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "T" .
-<http://www.bim4ren.eu/domain/thermal#transmittance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Transmittance> .
+# https://models.bim4ren.eu/domain/thermal#transmittance
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia"@es .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@en .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@fr .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmissione"@it .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "T" .
+<https://models.bim4ren.eu/domain/thermal#transmittance> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Transmittance> .
 # 
-# http://www.bim4ren.eu/domain/thermal#visibleTransmittance
-<http://www.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/domain/thermal#transmittance> .
-<http://www.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia visible"@es .
-<http://www.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance visible"@fr .
-<http://www.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmittanza visibile"@it .
-<http://www.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "visible transmittance"@en .
+# https://models.bim4ren.eu/domain/thermal#visibleTransmittance
+<https://models.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/domain/thermal#transmittance> .
+<https://models.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmitancia visible"@es .
+<https://models.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance visible"@fr .
+<https://models.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "trasmittanza visibile"@it .
+<https://models.bim4ren.eu/domain/thermal#visibleTransmittance> <http://www.w3.org/2000/01/rdf-schema#label> "visible transmittance"@en .
 # 
-# http://www.bim4ren.eu/property#power
+# https://models.bim4ren.eu/property#power
 # 
-# http://www.bim4ren.eu/property#temperature
+# https://models.bim4ren.eu/property#temperature
 # 
 # 
 # 
@@ -257,110 +257,110 @@
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/domain/thermal#CoolProducer
-<http://www.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#comment> "A cool producer asset."@en .
-<http://www.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Cool producer"@en .
-<http://www.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Producteur de froid"@fr .
+# https://models.bim4ren.eu/domain/thermal#CoolProducer
+<https://models.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#comment> "A cool producer asset."@en .
+<https://models.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Cool producer"@en .
+<https://models.bim4ren.eu/domain/thermal#CoolProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Producteur de froid"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#EfficiencyType
-<http://www.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+# https://models.bim4ren.eu/domain/thermal#EfficiencyType
+<https://models.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid1 <http://www.w3.org/2002/07/owl#oneOf> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/domain/thermal#CERTIFIED> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/domain/thermal#CERTIFIED> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/domain/thermal#DECLARED> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/domain/thermal#DECLARED> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/domain/thermal#MEASURED> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/domain/thermal#MEASURED> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Efficiency type"@en .
-<http://www.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de rendimiento"@es .
-<http://www.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di rendimento"@it .
-<http://www.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Type du rendement"@fr .
+<https://models.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Efficiency type"@en .
+<https://models.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de rendimiento"@es .
+<https://models.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di rendimento"@it .
+<https://models.bim4ren.eu/domain/thermal#EfficiencyType> <http://www.w3.org/2000/01/rdf-schema#label> "Type du rendement"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#HeatProducer
-<http://www.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#comment> "A heat producer asset."@en .
-<http://www.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Heat producer"@en .
-<http://www.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Producteur de chaleur"@fr .
+# https://models.bim4ren.eu/domain/thermal#HeatProducer
+<https://models.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#comment> "A heat producer asset."@en .
+<https://models.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Heat producer"@en .
+<https://models.bim4ren.eu/domain/thermal#HeatProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Producteur de chaleur"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#HeatStorage
-<http://www.bim4ren.eu/domain/thermal#HeatStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://models.bim4ren.eu/domain/thermal#HeatStorage
+<https://models.bim4ren.eu/domain/thermal#HeatStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.bim4ren.eu/domain/thermal#HeatTransferElement
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+# https://models.bim4ren.eu/domain/thermal#HeatTransferElement
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#infraredTransmittance> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#infraredTransmittance> .
 _:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#airTightness> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#airTightness> .
 _:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#thermalMass> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#thermalMass> .
 _:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#thermalResistance> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#thermalResistance> .
 _:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#thermalTransmittance> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#thermalTransmittance> .
 _:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#visibleTransmittance> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#visibleTransmittance> .
 _:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A heat transfer element is a passive element that can restrict or ease the transfer of heat between different zones."@en .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elément de transfert de chaleur"@fr .
-<http://www.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#label> "Heat transfer element"@en .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A heat transfer element is a passive element that can restrict or ease the transfer of heat between different zones."@en .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elément de transfert de chaleur"@fr .
+<https://models.bim4ren.eu/domain/thermal#HeatTransferElement> <http://www.w3.org/2000/01/rdf-schema#label> "Heat transfer element"@en .
 # 
-# http://www.bim4ren.eu/domain/thermal#Producer
-<http://www.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+# https://models.bim4ren.eu/domain/thermal#Producer
+<https://models.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#thermalEfficiency> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#thermalEfficiency> .
 _:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+<https://models.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#maxTemperature> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#maxTemperature> .
 _:genid12 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#minTemperature> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#minTemperature> .
 _:genid13 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.bim4ren.eu/domain/thermal#Producer> .
-<http://www.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <https://models.bim4ren.eu/domain/thermal#Producer> .
+<https://models.bim4ren.eu/domain/thermal#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#nominalPower> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#nominalPower> .
 _:genid14 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.bim4ren.eu/domain/thermal#Producer> .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <https://models.bim4ren.eu/domain/thermal#Producer> .
 # 
-# http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement
-<http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+# https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement
+<https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#maxTemperature> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#maxTemperature> .
 _:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+<https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#minTemperature> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#minTemperature> .
 _:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+<https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/thermal#setPoint> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/thermal#setPoint> .
 _:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#label> "thermo-regulated element"@en .
-<http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#label> "élément thermo-régulé"@fr .
+<https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#label> "thermo-regulated element"@en .
+<https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement> <http://www.w3.org/2000/01/rdf-schema#label> "élément thermo-régulé"@fr .
 # 
 # https://w3id.org/def/basicsemantics-owl#QuantityValue
 # 
@@ -373,25 +373,25 @@ _:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/b
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/domain/thermal#CERTIFIED
-<http://www.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Agréé"@fr .
-<http://www.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Certificado"@es .
-<http://www.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@it .
-<http://www.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Certified"@en .
+# https://models.bim4ren.eu/domain/thermal#CERTIFIED
+<https://models.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Agréé"@fr .
+<https://models.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Certificado"@es .
+<https://models.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Certificato"@it .
+<https://models.bim4ren.eu/domain/thermal#CERTIFIED> <http://www.w3.org/2000/01/rdf-schema#label> "Certified"@en .
 # 
-# http://www.bim4ren.eu/domain/thermal#DECLARED
-<http://www.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Certified"@en .
-<http://www.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Declarado"@es .
-<http://www.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Dichiarato"@it .
-<http://www.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Déclaré"@fr .
+# https://models.bim4ren.eu/domain/thermal#DECLARED
+<https://models.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Certified"@en .
+<https://models.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Declarado"@es .
+<https://models.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Dichiarato"@it .
+<https://models.bim4ren.eu/domain/thermal#DECLARED> <http://www.w3.org/2000/01/rdf-schema#label> "Déclaré"@fr .
 # 
-# http://www.bim4ren.eu/domain/thermal#MEASURED
-<http://www.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Measured"@en .
-<http://www.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Medido"@es .
-<http://www.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Mesuré"@fr .
-<http://www.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Misurato"@it .
+# https://models.bim4ren.eu/domain/thermal#MEASURED
+<https://models.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Measured"@en .
+<https://models.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Medido"@es .
+<https://models.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Mesuré"@fr .
+<https://models.bim4ren.eu/domain/thermal#MEASURED> <http://www.w3.org/2000/01/rdf-schema#label> "Misurato"@it .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -8,9 +8,9 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/address#address
-<http://www.bim4ren.eu/address#address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/address#address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/address#Address> .
+# https://models.bim4ren.eu/address#address
+<https://models.bim4ren.eu/address#address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/address#address> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/address#Address> .
 # 
 # 
 # 
@@ -21,17 +21,17 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/address#city
-<http://www.bim4ren.eu/address#city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/address#city
+<https://models.bim4ren.eu/address#city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# http://www.bim4ren.eu/address#streetName
-<http://www.bim4ren.eu/address#streetName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/address#streetName
+<https://models.bim4ren.eu/address#streetName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# http://www.bim4ren.eu/address#streetNumber
-<http://www.bim4ren.eu/address#streetNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/address#streetNumber
+<https://models.bim4ren.eu/address#streetNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# http://www.bim4ren.eu/address#zipCode
-<http://www.bim4ren.eu/address#zipCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://models.bim4ren.eu/address#zipCode
+<https://models.bim4ren.eu/address#zipCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
 # 
 # 
@@ -42,25 +42,25 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/address#Address
-<http://www.bim4ren.eu/address#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+# https://models.bim4ren.eu/address#Address
+<https://models.bim4ren.eu/address#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/address#streetNumber> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/address#streetNumber> .
 _:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+<https://models.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/address#city> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/address#city> .
 _:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+<https://models.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/address#streetName> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/address#streetName> .
 _:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+<https://models.bim4ren.eu/address#Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/address#zipCode> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/address#zipCode> .
 _:genid5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 # 

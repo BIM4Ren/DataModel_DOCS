@@ -2,81 +2,84 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#capacity"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#capacity"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Property"
+    "@id" : "https://models.bim4ren.eu/property#Property"
   } ]
 }, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#HMTnoFlow"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#HMTnoFlow"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Property"
+    "@id" : "https://models.bim4ren.eu/property#Property"
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#HMTnominalFlow"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#HMTnominalFlow"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Property"
+    "@id" : "https://models.bim4ren.eu/property#Property"
   } ]
 }, {
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#maxPressure"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#maxPressure"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Property"
+    "@id" : "https://models.bim4ren.eu/property#Property"
   } ]
 }, {
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#nominalFlowRate"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#nominalFlowRate"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Property"
+    "@id" : "https://models.bim4ren.eu/property#Property"
   } ]
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#totalDynamicHead"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#totalDynamicHead"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Property"
+    "@id" : "https://models.bim4ren.eu/property#Property"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#",
+  "@id" : "http://www.w3.org/2004/02/skos/core/narrowMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/domain/fluid#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.bim4ren.eu/property#"
+    "@id" : "https://models.bim4ren.eu/property#"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid/0.1"
+    "@id" : "https://models.bim4ren.eu/domain/fluid/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#FluidSegment",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#FluidSegment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
     "@value" : "Segment de transfert de fluide"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#FluidStorage",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#FluidStorage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
     "@value" : "Elément de stockage de fluide"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#FluidTerminal",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#FluidTerminal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -86,7 +89,7 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#FluidTransferElement",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#FluidTransferElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -108,19 +111,19 @@
     "@id" : "_:genid6"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#HMTnoFlow",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#HMTnoFlow",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#totalDynamicHead"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#totalDynamicHead"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#HMTnominalFlow",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#HMTnominalFlow",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#totalDynamicHead"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#totalDynamicHead"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#capacity",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#capacity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -142,7 +145,7 @@
     "@value" : "volumen"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#volume"
+    "@id" : "https://models.bim4ren.eu/property#volume"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/06cwc0qX0HuO00025QrE$V"
@@ -156,7 +159,7 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3_R4k0qSWHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#exhaustAirFlowRate",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#exhaustAirFlowRate",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -166,7 +169,7 @@
     "@value" : "exhaust air flow rate"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#flowRate"
+    "@id" : "https://models.bim4ren.eu/property#flowRate"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0nW$w0qWmHuO00025QrE$V"
@@ -174,7 +177,7 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1K_dc0qWiHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#maxPressure",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#maxPressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -190,10 +193,10 @@
     "@value" : "pression maximale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#pressure"
+    "@id" : "https://models.bim4ren.eu/property#pressure"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#minPressure",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#minPressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -209,10 +212,10 @@
     "@value" : "pression minimale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/fluid#pressure"
+    "@id" : "https://models.bim4ren.eu/domain/fluid#pressure"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#nominalFlowRate",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#nominalFlowRate",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -228,7 +231,7 @@
     "@value" : "portata nominale"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#flowRate"
+    "@id" : "https://models.bim4ren.eu/property#flowRate"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0ANYHfXw16TO4AaI9tvudX"
@@ -236,10 +239,10 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3uE9W0qUKHuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#pressure",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#pressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#pressureDrop",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#pressureDrop",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -255,7 +258,7 @@
     "@value" : "pérdida de carga"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#pressure"
+    "@id" : "https://models.bim4ren.eu/property#pressure"
   } ],
   "http://www.w3.org/2004/02/skos/core/narrowMatch" : [ {
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0e3BGOgiD4xP50b$9C2nmB"
@@ -271,7 +274,7 @@
     "@id" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3plh00qU8HuO00025QrE$V"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/fluid#totalDynamicHead",
+  "@id" : "https://models.bim4ren.eu/domain/fluid#totalDynamicHead",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -287,24 +290,21 @@
     "@value" : "Total dynamic head"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#height"
+    "@id" : "https://models.bim4ren.eu/property#height"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#Property",
+  "@id" : "https://models.bim4ren.eu/property#Property",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#flowRate",
+  "@id" : "https://models.bim4ren.eu/property#flowRate",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#height",
+  "@id" : "https://models.bim4ren.eu/property#height",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#pressure",
+  "@id" : "https://models.bim4ren.eu/property#pressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#volume",
+  "@id" : "https://models.bim4ren.eu/property#volume",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2004/02/skos/core/narrowMatch",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]

@@ -1,5 +1,5 @@
-<http://www.bim4ren.eu/domain/luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.bim4ren.eu/domain/luminosity> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
+<https://models.bim4ren.eu/domain/luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/domain/luminosity> <http://www.w3.org/2002/07/owl#imports> <https://models.bim4ren.eu/property#> .
 # 
 # 
 # #################################################################
@@ -9,39 +9,39 @@
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/domain/luminosity#reflection
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "R"@fr .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "facteur de réflexion moyen"@fr .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "reflection"@en .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "reflexión"@es .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "riflessione"@it .
-<http://www.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "réflexion"@fr .
+# https://models.bim4ren.eu/domain/luminosity#reflection
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#ratio> .
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "R"@fr .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "facteur de réflexion moyen"@fr .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "reflection"@en .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "reflexión"@es .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "riflessione"@it .
+<https://models.bim4ren.eu/domain/luminosity#reflection> <http://www.w3.org/2000/01/rdf-schema#label> "réflexion"@fr .
 # 
-# http://www.bim4ren.eu/domain/luminosity#skyAngle
-<http://www.bim4ren.eu/domain/luminosity#skyAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://models.bim4ren.eu/domain/luminosity#skyAngle
+<https://models.bim4ren.eu/domain/luminosity#skyAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.bim4ren.eu/domain/luminosity#transmittance
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "TL"@fr .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de transmission lumineuse"@fr .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@en .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@fr .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittancia"@es .
-<http://www.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittanza"@it .
+# https://models.bim4ren.eu/domain/luminosity#transmittance
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#ratio> .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "TL"@fr .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "coefficient de transmission lumineuse"@fr .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@en .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittance"@fr .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittancia"@es .
+<https://models.bim4ren.eu/domain/luminosity#transmittance> <http://www.w3.org/2000/01/rdf-schema#label> "transmittanza"@it .
 # 
-# http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle
-<http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#angle> .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle> <http://www.w3.org/2000/01/rdf-schema#label> "angle de ciel visible"@fr .
+# https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle
+<https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#angle> .
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle> <http://www.w3.org/2000/01/rdf-schema#label> "angle de ciel visible"@fr .
 # 
-# http://www.bim4ren.eu/property#angle
+# https://models.bim4ren.eu/property#angle
 # 
-# http://www.bim4ren.eu/property#ratio
+# https://models.bim4ren.eu/property#ratio
 # 
 # 
 # 
@@ -52,31 +52,31 @@
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/domain/luminosity#OpaqueElement
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+# https://models.bim4ren.eu/domain/luminosity#OpaqueElement
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/luminosity#reflection> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/luminosity#reflection> .
 _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
 <https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "elemento opaco"@es .
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "elemento opaco"@it .
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "opaque element"@en .
-<http://www.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "élément opaque"@fr .
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "elemento opaco"@es .
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "elemento opaco"@it .
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "opaque element"@en .
+<https://models.bim4ren.eu/domain/luminosity#OpaqueElement> <http://www.w3.org/2000/01/rdf-schema#label> "élément opaque"@fr .
 # 
-# http://www.bim4ren.eu/domain/luminosity#TransparentElement
-<http://www.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://www.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+# https://models.bim4ren.eu/domain/luminosity#TransparentElement
+<https://models.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/luminosity#skyAngle> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/luminosity#skyAngle> .
 _:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+<https://models.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/domain/luminosity#transmittance> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/domain/luminosity#transmittance> .
 _:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#label> "element transparent"@fr .
+<https://models.bim4ren.eu/domain/luminosity#TransparentElement> <http://www.w3.org/2000/01/rdf-schema#label> "element transparent"@fr .
 # 
 # https://w3id.org/def/basicsemantics-owl#QuantityValue
 # 

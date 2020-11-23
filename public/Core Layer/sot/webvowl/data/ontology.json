@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "it", "fr", "es", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.bim4ren.eu/sot" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://models.bim4ren.eu/sot", "http://www.w3.org/2001/XMLSchema" ],
     "title" : {
       "en" : "The BIM4Ren systems topology ontology"
     },
-    "iri" : "http://www.bim4ren.eu/sot#",
+    "iri" : "https://models.bim4ren.eu/sot#",
     "description" : {
       "en" : "The systems ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to describe systems installed in a building and the relation between those. Such systems can be thermal, digital, water circulation..."
     },
@@ -35,42 +35,145 @@
     "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "15",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "14",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/sot#System",
-    "baseIri" : "http://www.bim4ren.eu/sot",
+    "iri" : "https://models.bim4ren.eu/sot#TransportElement",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportElement"
+    },
+    "comment" : {
+      "en" : "A transport element's role is to dispatch some matter from one point to another. Examples are ducts, electric cables..."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/sot#ControlElement",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ControlElement"
+    },
+    "comment" : {
+      "en" : "A control element is used to control a network. Some examples are valves, actuators..."
+    },
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/sot#ProductionElement",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProductionElement"
+    },
+    "id" : "10",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "14",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://models.bim4ren.eu/sot#Medium",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium"
+    },
+    "individuals" : [ {
+      "iri" : "https://models.bim4ren.eu/sot#water",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "water",
+        "fr" : "Eau"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#solarRadiance",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "solarRadiance",
+        "fr" : "Raditation solaire"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#gas",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "gas",
+        "fr" : "Gaz"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#air",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "air"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#electricity",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "electricity",
+        "fr" : "Electricité"
+      }
+    } ],
+    "comment" : {
+      "en" : "For a given system, the medium associated is the physical component on which it acts. In particular HVAC systems act on air, water... or other mediums. The medium is to be related to the Function associated to a system."
+    },
+    "id" : "18"
+  }, {
+    "iri" : "https://models.bim4ren.eu/sot#SystemComponent",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SystemComponent",
+      "en" : "System Element"
+    },
+    "subClasses" : [ "0", "8", "5", "9" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://models.bim4ren.eu/sot#System",
+    "baseIri" : "https://models.bim4ren.eu/sot",
     "instances" : 0,
     "label" : {
       "IRI-based" : "System",
@@ -82,46 +185,17 @@
     "comment" : {
       "en" : "An HVAC system. May describe a system for heating, cooling and ventilating a building, (partially, or fully), or a se of buildings.\nIt is made of a) terminal elements that can either produce and emit the property associated (heat, cold, air), b) transport elements that allow the flow, c) and management elements that control the flow."
     },
-    "id" : "0"
+    "id" : "3"
   }, {
-    "iri" : "http://www.bim4ren.eu/sot#Function",
-    "baseIri" : "http://www.bim4ren.eu/sot",
+    "iri" : "https://models.bim4ren.eu/sot#Function",
+    "baseIri" : "https://models.bim4ren.eu/sot",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Function"
     },
     "individuals" : [ {
-      "iri" : "http://www.bim4ren.eu/sot#deliverElectricity",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "deliverElectricity",
-        "fr" : "Réseau électrique"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#heatWater",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "heatWater",
-        "fr" : "Eau chaude",
-        "es" : "ACS"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#heat",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "heat",
-        "fr" : "Chauffage"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#deliverDrinkableWater",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "deliverDrinkableWater",
-        "fr" : "Eau potable"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#cool",
-      "baseIri" : "http://www.bim4ren.eu/sot",
+      "iri" : "https://models.bim4ren.eu/sot#cool",
+      "baseIri" : "https://models.bim4ren.eu/sot",
       "comment" : {
         "fr" : "Climatisation"
       },
@@ -130,40 +204,46 @@
         "fr" : "Climatisation"
       }
     }, {
-      "iri" : "http://www.bim4ren.eu/sot#ventilate",
-      "baseIri" : "http://www.bim4ren.eu/sot",
+      "iri" : "https://models.bim4ren.eu/sot#heatWater",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "heatWater",
+        "fr" : "Eau chaude sanitaire",
+        "es" : "ACS"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#ventilate",
+      "baseIri" : "https://models.bim4ren.eu/sot",
       "labels" : {
         "IRI-based" : "ventilate",
         "fr" : "Ventilation"
       }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#deliverElectricity",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "deliverElectricity",
+        "fr" : "Réseau électrique"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#deliverDrinkableWater",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "deliverDrinkableWater",
+        "fr" : "Eau potable"
+      }
+    }, {
+      "iri" : "https://models.bim4ren.eu/sot#heat",
+      "baseIri" : "https://models.bim4ren.eu/sot",
+      "labels" : {
+        "IRI-based" : "heat",
+        "fr" : "Chauffage"
+      }
     } ],
-    "id" : "7"
+    "id" : "21"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "11",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "15",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#ProductionElement",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ProductionElement"
-    },
-    "id" : "17",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#StorageElement",
-    "baseIri" : "http://www.bim4ren.eu/sot",
+    "iri" : "https://models.bim4ren.eu/sot#StorageElement",
+    "baseIri" : "https://models.bim4ren.eu/sot",
     "instances" : 0,
     "label" : {
       "IRI-based" : "StorageElement"
@@ -171,153 +251,73 @@
     "comment" : {
       "en" : "A storage element's role is to accumulate quantities of a specific medium. Examples are water tanks, electrical batteries..."
     },
-    "id" : "5",
-    "superClasses" : [ "13" ]
+    "id" : "8",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/sot#EmissionElement",
-    "baseIri" : "http://www.bim4ren.eu/sot",
+    "iri" : "https://models.bim4ren.eu/sot#EmissionElement",
+    "baseIri" : "https://models.bim4ren.eu/sot",
     "instances" : 0,
     "label" : {
       "IRI-based" : "EmissionElement"
     },
-    "id" : "21",
-    "superClasses" : [ "6" ]
+    "id" : "23",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/sot#TerminalElement",
-    "baseIri" : "http://www.bim4ren.eu/sot",
+    "iri" : "https://models.bim4ren.eu/sot#TerminalElement",
+    "baseIri" : "https://models.bim4ren.eu/sot",
     "instances" : 0,
     "label" : {
       "IRI-based" : "TerminalElement"
     },
-    "subClasses" : [ "17", "21" ],
+    "subClasses" : [ "23", "10" ],
     "comment" : {
       "en" : "A terminal element's role is to either deliver or consume some material: for instance, a solar panel is an electricy producer, while a lamp is an electricty consumer."
     },
-    "id" : "6",
-    "superClasses" : [ "13" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#ControlElement",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ControlElement"
-    },
-    "comment" : {
-      "en" : "A control element is used to control a network. Some examples are valves, actuators..."
-    },
-    "id" : "2",
-    "superClasses" : [ "13" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#TransportElement",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "TransportElement"
-    },
-    "comment" : {
-      "en" : "A transport element's role is to dispatch some matter from one point to another. Examples are ducts, electric cables..."
-    },
-    "id" : "3",
-    "superClasses" : [ "13" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#SystemComponent",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "SystemComponent",
-      "en" : "System Element"
-    },
-    "subClasses" : [ "3", "6", "2", "5" ],
-    "id" : "13"
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#Medium",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Medium"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.bim4ren.eu/sot#air",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "air"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#gas",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "gas",
-        "fr" : "Gaz"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#electricity",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "electricity",
-        "fr" : "Electricité"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#water",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "water",
-        "fr" : "Eau"
-      }
-    }, {
-      "iri" : "http://www.bim4ren.eu/sot#solarRadiance",
-      "baseIri" : "http://www.bim4ren.eu/sot",
-      "labels" : {
-        "IRI-based" : "solarRadiance",
-        "fr" : "Raditation solaire"
-      }
-    } ],
-    "comment" : {
-      "en" : "For a given system, the medium associated is the physical component on which it acts. In particular HVAC systems act on air, water... or other mediums. The medium is to be related to the Function associated to a system."
-    },
-    "id" : "24"
+    "id" : "9",
+    "superClasses" : [ "1" ]
   } ],
   "property" : [ {
-    "id" : "1",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "4",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "8",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "9",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "10",
+    "id" : "2",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "11",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "12",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "14",
-    "type" : "owl:objectProperty"
+    "id" : "13",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "16",
+    "id" : "15",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "18",
-    "type" : "owl:objectProperty"
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "19",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "20",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "22",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "23",
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "25",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "26",
     "type" : "rdfs:SubClassOf"
@@ -329,115 +329,115 @@
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "range" : "3",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "1"
-  }, {
-    "range" : "6",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "4"
-  }, {
-    "range" : "3",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "8"
-  }, {
-    "range" : "3",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "9"
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#uses",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "uses",
-      "en" : "uses"
-    },
-    "domain" : "0",
-    "attributes" : [ "object" ],
-    "id" : "10"
-  }, {
-    "range" : "13",
-    "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "12"
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#performs",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "range" : "11",
+    "iri" : "https://models.bim4ren.eu/sot#performs",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "range" : "4",
     "label" : {
       "IRI-based" : "performs",
       "en" : "performs"
     },
-    "domain" : "0",
+    "domain" : "3",
     "attributes" : [ "object" ],
-    "id" : "14"
+    "id" : "2"
   }, {
-    "range" : "6",
-    "domain" : "17",
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "0",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "0",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "8",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "16"
   }, {
-    "iri" : "http://www.bim4ren.eu/sot#connectedWith",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "range" : "13",
-    "label" : {
-      "IRI-based" : "connectedWith",
-      "undefined" : "connected with"
-    },
-    "domain" : "13",
-    "attributes" : [ "object" ],
-    "id" : "18"
-  }, {
-    "range" : "5",
-    "domain" : "2",
+    "range" : "9",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "19"
+    "id" : "17"
   }, {
-    "range" : "6",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "20"
-  }, {
-    "iri" : "http://www.bim4ren.eu/sot#hasElements",
-    "baseIri" : "http://www.bim4ren.eu/sot",
-    "range" : "13",
+    "iri" : "https://models.bim4ren.eu/sot#hasElements",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "range" : "1",
     "label" : {
       "IRI-based" : "hasElements",
       "en" : "has elements"
     },
-    "domain" : "15",
+    "domain" : "14",
     "comment" : {
       "en" : "A relation between a complex system and subcomponents"
     },
     "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://models.bim4ren.eu/sot#uses",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "uses",
+      "en" : "uses"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "range" : "9",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "22"
   }, {
-    "range" : "13",
-    "domain" : "5",
+    "range" : "9",
+    "domain" : "23",
     "attributes" : [ "anonymous", "object" ],
-    "id" : "23"
+    "id" : "24"
   }, {
-    "range" : "13",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://models.bim4ren.eu/sot#connectedWith",
+    "baseIri" : "https://models.bim4ren.eu/sot",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "connectedWith",
+      "undefined" : "connected with"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
     "id" : "25"
   }, {
-    "range" : "6",
-    "domain" : "21",
+    "range" : "1",
+    "domain" : "8",
     "attributes" : [ "anonymous", "object" ],
     "id" : "26"
   }, {
-    "range" : "13",
-    "domain" : "6",
+    "range" : "1",
+    "domain" : "9",
     "attributes" : [ "anonymous", "object" ],
     "id" : "27"
   }, {
-    "range" : "13",
-    "domain" : "3",
+    "range" : "1",
+    "domain" : "5",
     "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   } ]

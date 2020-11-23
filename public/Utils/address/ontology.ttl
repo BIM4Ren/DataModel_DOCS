@@ -12,56 +12,56 @@
 #    Object Properties
 #################################################################
 
-###  http://www.bim4ren.eu/address#address
-<http://www.bim4ren.eu/address#address> rdf:type owl:ObjectProperty ;
-                                        rdfs:range <http://www.bim4ren.eu/address#Address> .
+###  https://models.bim4ren.eu/address#address
+<https://models.bim4ren.eu/address#address> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <https://models.bim4ren.eu/address#Address> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.bim4ren.eu/address#city
-<http://www.bim4ren.eu/address#city> rdf:type owl:DatatypeProperty .
+###  https://models.bim4ren.eu/address#city
+<https://models.bim4ren.eu/address#city> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.bim4ren.eu/address#streetName
-<http://www.bim4ren.eu/address#streetName> rdf:type owl:DatatypeProperty .
+###  https://models.bim4ren.eu/address#streetName
+<https://models.bim4ren.eu/address#streetName> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.bim4ren.eu/address#streetNumber
-<http://www.bim4ren.eu/address#streetNumber> rdf:type owl:DatatypeProperty .
+###  https://models.bim4ren.eu/address#streetNumber
+<https://models.bim4ren.eu/address#streetNumber> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.bim4ren.eu/address#zipCode
-<http://www.bim4ren.eu/address#zipCode> rdf:type owl:DatatypeProperty .
+###  https://models.bim4ren.eu/address#zipCode
+<https://models.bim4ren.eu/address#zipCode> rdf:type owl:DatatypeProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.bim4ren.eu/address#Address
-<http://www.bim4ren.eu/address#Address> rdf:type owl:Class ;
-                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                          owl:onProperty <http://www.bim4ren.eu/address#streetNumber> ;
-                                                          owl:someValuesFrom xsd:string
-                                                        ] ,
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty <http://www.bim4ren.eu/address#city> ;
-                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                          owl:onDataRange xsd:string
-                                                        ] ,
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty <http://www.bim4ren.eu/address#streetName> ;
-                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                          owl:onDataRange xsd:string
-                                                        ] ,
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty <http://www.bim4ren.eu/address#zipCode> ;
-                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                          owl:onDataRange xsd:string
-                                                        ] .
+###  https://models.bim4ren.eu/address#Address
+<https://models.bim4ren.eu/address#Address> rdf:type owl:Class ;
+                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <https://models.bim4ren.eu/address#streetNumber> ;
+                                                              owl:someValuesFrom xsd:string
+                                                            ] ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <https://models.bim4ren.eu/address#city> ;
+                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                              owl:onDataRange xsd:string
+                                                            ] ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <https://models.bim4ren.eu/address#streetName> ;
+                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                              owl:onDataRange xsd:string
+                                                            ] ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <https://models.bim4ren.eu/address#zipCode> ;
+                                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                              owl:onDataRange xsd:string
+                                                            ] .
 
 
 ###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

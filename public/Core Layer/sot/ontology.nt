@@ -1,9 +1,9 @@
-<http://www.bim4ren.eu/sot#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.bim4ren.eu/sot#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/sot/0.1> .
-<http://www.bim4ren.eu/sot#> <http://purl.org/dc/terms/contributor> "Nathalie Charbel" .
-<http://www.bim4ren.eu/sot#> <http://purl.org/dc/terms/contributor> "Pierre Bourreau" .
-<http://www.bim4ren.eu/sot#> <http://purl.org/dc/terms/description> "The systems ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to describe systems installed in a building and the relation between those. Such systems can be thermal, digital, water circulation..."@en .
-<http://www.bim4ren.eu/sot#> <http://purl.org/dc/terms/title> "The BIM4Ren systems topology ontology"@en .
+<https://models.bim4ren.eu/sot#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/sot#> <http://www.w3.org/2002/07/owl#versionIRI> <https://models.bim4ren.eu/sot/0.1> .
+<https://models.bim4ren.eu/sot#> <http://purl.org/dc/terms/contributor> "Nathalie Charbel" .
+<https://models.bim4ren.eu/sot#> <http://purl.org/dc/terms/contributor> "Pierre Bourreau" .
+<https://models.bim4ren.eu/sot#> <http://purl.org/dc/terms/description> "The systems ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to describe systems installed in a building and the relation between those. Such systems can be thermal, digital, water circulation..."@en .
+<https://models.bim4ren.eu/sot#> <http://purl.org/dc/terms/title> "The BIM4Ren systems topology ontology"@en .
 # 
 # 
 # #################################################################
@@ -31,43 +31,43 @@
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/sot#connectedWith
-<http://www.bim4ren.eu/sot#connectedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/sot#connectedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#connectedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#connectedWith> <http://www.w3.org/2000/01/rdf-schema#label> "connected with" .
+# https://models.bim4ren.eu/sot#connectedWith
+<https://models.bim4ren.eu/sot#connectedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/sot#connectedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#connectedWith> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#connectedWith> <http://www.w3.org/2000/01/rdf-schema#label> "connected with" .
 # 
-# http://www.bim4ren.eu/sot#hasElements
-<http://www.bim4ren.eu/sot#hasElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-<http://www.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#hasElements> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid2 .
+# https://models.bim4ren.eu/sot#hasElements
+<https://models.bim4ren.eu/sot#hasElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#hasElements> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/sot#hasElements> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/sot#hasElements> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/sot#connectedWith> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/sot#connectedWith> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a complex system and subcomponents"@en .
-<http://www.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#label> "has elements"@en .
+<https://models.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a complex system and subcomponents"@en .
+<https://models.bim4ren.eu/sot#hasElements> <http://www.w3.org/2000/01/rdf-schema#label> "has elements"@en .
 # 
-# http://www.bim4ren.eu/sot#performs
-<http://www.bim4ren.eu/sot#performs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/sot#performs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/sot#System> .
-<http://www.bim4ren.eu/sot#performs> <http://www.w3.org/2000/01/rdf-schema#range> _:genid3 .
+# https://models.bim4ren.eu/sot#performs
+<https://models.bim4ren.eu/sot#performs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/sot#performs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/sot#System> .
+<https://models.bim4ren.eu/sot#performs> <http://www.w3.org/2000/01/rdf-schema#range> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/sot#performs> .
-_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#performs> <http://www.w3.org/2000/01/rdf-schema#label> "performs"@en .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/sot#performs> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#performs> <http://www.w3.org/2000/01/rdf-schema#label> "performs"@en .
 # 
-# http://www.bim4ren.eu/sot#uses
-<http://www.bim4ren.eu/sot#uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/sot#uses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.bim4ren.eu/sot#System> .
-<http://www.bim4ren.eu/sot#uses> <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 .
+# https://models.bim4ren.eu/sot#uses
+<https://models.bim4ren.eu/sot#uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/sot#uses> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/sot#System> .
+<https://models.bim4ren.eu/sot#uses> <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.bim4ren.eu/sot#uses> .
-_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/sot#Medium> .
-<http://www.bim4ren.eu/sot#uses> <http://www.w3.org/2000/01/rdf-schema#label> "uses"@en .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://models.bim4ren.eu/sot#uses> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://models.bim4ren.eu/sot#Medium> .
+<https://models.bim4ren.eu/sot#uses> <http://www.w3.org/2000/01/rdf-schema#label> "uses"@en .
 # 
 # 
 # 
@@ -78,53 +78,53 @@ _:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/s
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/sot#ControlElement
-<http://www.bim4ren.eu/sot#ControlElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#ControlElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#ControlElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A control element is used to control a network. Some examples are valves, actuators..."@en .
+# https://models.bim4ren.eu/sot#ControlElement
+<https://models.bim4ren.eu/sot#ControlElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#ControlElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#ControlElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A control element is used to control a network. Some examples are valves, actuators..."@en .
 # 
-# http://www.bim4ren.eu/sot#EmissionElement
-<http://www.bim4ren.eu/sot#EmissionElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#EmissionElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/sot#TerminalElement> .
+# https://models.bim4ren.eu/sot#EmissionElement
+<https://models.bim4ren.eu/sot#EmissionElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#EmissionElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/sot#TerminalElement> .
 # 
-# http://www.bim4ren.eu/sot#Function
-<http://www.bim4ren.eu/sot#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://models.bim4ren.eu/sot#Function
+<https://models.bim4ren.eu/sot#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.bim4ren.eu/sot#Medium
-<http://www.bim4ren.eu/sot#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "For a given system, the medium associated is the physical component on which it acts. In particular HVAC systems act on air, water... or other mediums. The medium is to be related to the Function associated to a system."@en .
+# https://models.bim4ren.eu/sot#Medium
+<https://models.bim4ren.eu/sot#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "For a given system, the medium associated is the physical component on which it acts. In particular HVAC systems act on air, water... or other mediums. The medium is to be related to the Function associated to a system."@en .
 # 
-# http://www.bim4ren.eu/sot#ProductionElement
-<http://www.bim4ren.eu/sot#ProductionElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#ProductionElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/sot#TerminalElement> .
+# https://models.bim4ren.eu/sot#ProductionElement
+<https://models.bim4ren.eu/sot#ProductionElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#ProductionElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/sot#TerminalElement> .
 # 
-# http://www.bim4ren.eu/sot#StorageElement
-<http://www.bim4ren.eu/sot#StorageElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#StorageElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#StorageElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A storage element's role is to accumulate quantities of a specific medium. Examples are water tanks, electrical batteries..."@en .
+# https://models.bim4ren.eu/sot#StorageElement
+<https://models.bim4ren.eu/sot#StorageElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#StorageElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#StorageElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A storage element's role is to accumulate quantities of a specific medium. Examples are water tanks, electrical batteries..."@en .
 # 
-# http://www.bim4ren.eu/sot#System
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#comment> "An HVAC system. May describe a system for heating, cooling and ventilating a building, (partially, or fully), or a se of buildings.\nIt is made of a) terminal elements that can either produce and emit the property associated (heat, cold, air), b) transport elements that allow the flow, c) and management elements that control the flow."@en .
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema"@es .
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema"@it .
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "System"@en .
-<http://www.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "Système"@fr .
+# https://models.bim4ren.eu/sot#System
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/2002/07/owl#disjointWith> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#comment> "An HVAC system. May describe a system for heating, cooling and ventilating a building, (partially, or fully), or a se of buildings.\nIt is made of a) terminal elements that can either produce and emit the property associated (heat, cold, air), b) transport elements that allow the flow, c) and management elements that control the flow."@en .
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema"@es .
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema"@it .
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "System"@en .
+<https://models.bim4ren.eu/sot#System> <http://www.w3.org/2000/01/rdf-schema#label> "Système"@fr .
 # 
-# http://www.bim4ren.eu/sot#SystemComponent
-<http://www.bim4ren.eu/sot#SystemComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#SystemComponent> <http://www.w3.org/2000/01/rdf-schema#label> "System Element"@en .
+# https://models.bim4ren.eu/sot#SystemComponent
+<https://models.bim4ren.eu/sot#SystemComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#SystemComponent> <http://www.w3.org/2000/01/rdf-schema#label> "System Element"@en .
 # 
-# http://www.bim4ren.eu/sot#TerminalElement
-<http://www.bim4ren.eu/sot#TerminalElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#TerminalElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#TerminalElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminal element's role is to either deliver or consume some material: for instance, a solar panel is an electricy producer, while a lamp is an electricty consumer."@en .
+# https://models.bim4ren.eu/sot#TerminalElement
+<https://models.bim4ren.eu/sot#TerminalElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#TerminalElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#TerminalElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminal element's role is to either deliver or consume some material: for instance, a solar panel is an electricy producer, while a lamp is an electricty consumer."@en .
 # 
-# http://www.bim4ren.eu/sot#TransportElement
-<http://www.bim4ren.eu/sot#TransportElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/sot#TransportElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bim4ren.eu/sot#SystemComponent> .
-<http://www.bim4ren.eu/sot#TransportElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A transport element's role is to dispatch some matter from one point to another. Examples are ducts, electric cables..."@en .
+# https://models.bim4ren.eu/sot#TransportElement
+<https://models.bim4ren.eu/sot#TransportElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/sot#TransportElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/sot#SystemComponent> .
+<https://models.bim4ren.eu/sot#TransportElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A transport element's role is to dispatch some matter from one point to another. Examples are ducts, electric cables..."@en .
 # 
 # 
 # 
@@ -135,64 +135,64 @@ _:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/s
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/sot#air
-<http://www.bim4ren.eu/sot#air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Medium> .
+# https://models.bim4ren.eu/sot#air
+<https://models.bim4ren.eu/sot#air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#air> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Medium> .
 # 
-# http://www.bim4ren.eu/sot#cool
-<http://www.bim4ren.eu/sot#cool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#cool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#cool> <http://www.w3.org/2000/01/rdf-schema#comment> "Climatisation"@fr .
-<http://www.bim4ren.eu/sot#cool> <http://www.w3.org/2000/01/rdf-schema#label> "Climatisation"@fr .
+# https://models.bim4ren.eu/sot#cool
+<https://models.bim4ren.eu/sot#cool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#cool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#cool> <http://www.w3.org/2000/01/rdf-schema#comment> "Climatisation"@fr .
+<https://models.bim4ren.eu/sot#cool> <http://www.w3.org/2000/01/rdf-schema#label> "Climatisation"@fr .
 # 
-# http://www.bim4ren.eu/sot#deliverDrinkableWater
-<http://www.bim4ren.eu/sot#deliverDrinkableWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#deliverDrinkableWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#deliverDrinkableWater> <http://www.w3.org/2000/01/rdf-schema#label> "Eau potable"@fr .
+# https://models.bim4ren.eu/sot#deliverDrinkableWater
+<https://models.bim4ren.eu/sot#deliverDrinkableWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#deliverDrinkableWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#deliverDrinkableWater> <http://www.w3.org/2000/01/rdf-schema#label> "Eau potable"@fr .
 # 
-# http://www.bim4ren.eu/sot#deliverElectricity
-<http://www.bim4ren.eu/sot#deliverElectricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#deliverElectricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#deliverElectricity> <http://www.w3.org/2000/01/rdf-schema#label> "Réseau électrique"@fr .
+# https://models.bim4ren.eu/sot#deliverElectricity
+<https://models.bim4ren.eu/sot#deliverElectricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#deliverElectricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#deliverElectricity> <http://www.w3.org/2000/01/rdf-schema#label> "Réseau électrique"@fr .
 # 
-# http://www.bim4ren.eu/sot#electricity
-<http://www.bim4ren.eu/sot#electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Medium> .
-<http://www.bim4ren.eu/sot#electricity> <http://www.w3.org/2000/01/rdf-schema#label> "Electricité"@fr .
+# https://models.bim4ren.eu/sot#electricity
+<https://models.bim4ren.eu/sot#electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Medium> .
+<https://models.bim4ren.eu/sot#electricity> <http://www.w3.org/2000/01/rdf-schema#label> "Electricité"@fr .
 # 
-# http://www.bim4ren.eu/sot#gas
-<http://www.bim4ren.eu/sot#gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Medium> .
-<http://www.bim4ren.eu/sot#gas> <http://www.w3.org/2000/01/rdf-schema#label> "Gaz"@fr .
+# https://models.bim4ren.eu/sot#gas
+<https://models.bim4ren.eu/sot#gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Medium> .
+<https://models.bim4ren.eu/sot#gas> <http://www.w3.org/2000/01/rdf-schema#label> "Gaz"@fr .
 # 
-# http://www.bim4ren.eu/sot#heat
-<http://www.bim4ren.eu/sot#heat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#heat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#heat> <http://www.w3.org/2000/01/rdf-schema#label> "Chauffage"@fr .
+# https://models.bim4ren.eu/sot#heat
+<https://models.bim4ren.eu/sot#heat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#heat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#heat> <http://www.w3.org/2000/01/rdf-schema#label> "Chauffage"@fr .
 # 
-# http://www.bim4ren.eu/sot#heatWater
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "ACS"@es .
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "Agua caliente sanitaria"@es .
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "ECS"@fr .
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "Eau chaude"@fr .
-<http://www.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "Eau chaude sanitaire"@fr .
+# https://models.bim4ren.eu/sot#heatWater
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "ACS"@es .
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "Agua caliente sanitaria"@es .
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "ECS"@fr .
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "Eau chaude"@fr .
+<https://models.bim4ren.eu/sot#heatWater> <http://www.w3.org/2000/01/rdf-schema#label> "Eau chaude sanitaire"@fr .
 # 
-# http://www.bim4ren.eu/sot#solarRadiance
-<http://www.bim4ren.eu/sot#solarRadiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#solarRadiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Medium> .
-<http://www.bim4ren.eu/sot#solarRadiance> <http://www.w3.org/2000/01/rdf-schema#label> "Raditation solaire"@fr .
+# https://models.bim4ren.eu/sot#solarRadiance
+<https://models.bim4ren.eu/sot#solarRadiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#solarRadiance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Medium> .
+<https://models.bim4ren.eu/sot#solarRadiance> <http://www.w3.org/2000/01/rdf-schema#label> "Raditation solaire"@fr .
 # 
-# http://www.bim4ren.eu/sot#ventilate
-<http://www.bim4ren.eu/sot#ventilate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#ventilate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Function> .
-<http://www.bim4ren.eu/sot#ventilate> <http://www.w3.org/2000/01/rdf-schema#label> "Ventilation"@fr .
+# https://models.bim4ren.eu/sot#ventilate
+<https://models.bim4ren.eu/sot#ventilate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#ventilate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Function> .
+<https://models.bim4ren.eu/sot#ventilate> <http://www.w3.org/2000/01/rdf-schema#label> "Ventilation"@fr .
 # 
-# http://www.bim4ren.eu/sot#water
-<http://www.bim4ren.eu/sot#water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bim4ren.eu/sot#water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bim4ren.eu/sot#Medium> .
-<http://www.bim4ren.eu/sot#water> <http://www.w3.org/2000/01/rdf-schema#label> "Eau"@fr .
+# https://models.bim4ren.eu/sot#water
+<https://models.bim4ren.eu/sot#water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/sot#water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://models.bim4ren.eu/sot#Medium> .
+<https://models.bim4ren.eu/sot#water> <http://www.w3.org/2000/01/rdf-schema#label> "Eau"@fr .
 # 
 # 
 # 
@@ -206,16 +206,16 @@ _:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.bim4ren.eu/s
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid5 <http://www.w3.org/2002/07/owl#members> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/sot#ControlElement> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/sot#ControlElement> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/sot#StorageElement> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/sot#StorageElement> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/sot#TerminalElement> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/sot#TerminalElement> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.bim4ren.eu/sot#TransportElement> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://models.bim4ren.eu/sot#TransportElement> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -2,8 +2,8 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "it", "fr", "es" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.w3.org/2000/01/rdf-schema", "http://www.bim4ren.eu/domain/luminosity", "https://w3id.org/def/basicsemantics-owl" ],
-    "iri" : "http://www.bim4ren.eu/domain/luminosity"
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://models.bim4ren.eu/domain/luminosity", "https://w3id.org/def/basicsemantics-owl", "https://models.bim4ren.eu/property" ],
+    "iri" : "https://models.bim4ren.eu/domain/luminosity"
   },
   "namespace" : [ ],
   "class" : [ {
@@ -13,22 +13,19 @@
     "id" : "4",
     "type" : "owl:Thing"
   }, {
-    "id" : "2",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "3",
+    "id" : "2",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/domain/luminosity#OpaqueElement",
-    "baseIri" : "http://www.bim4ren.eu/domain/luminosity",
+    "iri" : "https://models.bim4ren.eu/domain/luminosity#TransparentElement",
+    "baseIri" : "https://models.bim4ren.eu/domain/luminosity",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "OpaqueElement",
-      "en" : "opaque element",
-      "it" : "elemento opaco",
-      "fr" : "élément opaque",
-      "es" : "elemento opaco"
+      "IRI-based" : "TransparentElement",
+      "fr" : "element transparent"
     },
     "id" : "0"
   }, {
@@ -39,14 +36,17 @@
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/luminosity#TransparentElement",
-    "baseIri" : "http://www.bim4ren.eu/domain/luminosity",
+    "iri" : "https://models.bim4ren.eu/domain/luminosity#OpaqueElement",
+    "baseIri" : "https://models.bim4ren.eu/domain/luminosity",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "TransparentElement",
-      "fr" : "element transparent"
+      "IRI-based" : "OpaqueElement",
+      "en" : "opaque element",
+      "it" : "elemento opaco",
+      "fr" : "élément opaque",
+      "es" : "elemento opaco"
     },
-    "id" : "2"
+    "id" : "7"
   }, {
     "iri" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
     "baseIri" : "https://w3id.org/def/basicsemantics-owl",
@@ -55,7 +55,7 @@
       "IRI-based" : "QuantityValue"
     },
     "attributes" : [ "external" ],
-    "id" : "3"
+    "id" : "2"
   } ],
   "property" : [ {
     "id" : "1",
@@ -64,69 +64,22 @@
     "id" : "5",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "7",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "10",
+    "id" : "8",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "11",
+    "id" : "9",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "6",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/domain/luminosity#skyAngle",
-    "baseIri" : "http://www.bim4ren.eu/domain/luminosity",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "skyAngle"
-    },
-    "domain" : "2",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "1"
-  }, {
-    "iri" : "http://www.bim4ren.eu/property#angle",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "angle"
-    },
-    "domain" : "4",
-    "subproperty" : [ "6" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "5"
-  }, {
-    "iri" : "http://www.bim4ren.eu/property#ratio",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "ratio"
-    },
-    "domain" : "4",
-    "subproperty" : [ "8", "9" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "7"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/luminosity#reflection",
-    "baseIri" : "http://www.bim4ren.eu/domain/luminosity",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "reflection",
-      "en" : "reflection",
-      "it" : "riflessione",
-      "fr" : "réflexion",
-      "es" : "reflexión"
-    },
-    "superproperty" : [ "7" ],
-    "domain" : "0",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "10"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/luminosity#transmittance",
-    "baseIri" : "http://www.bim4ren.eu/domain/luminosity",
-    "range" : "3",
+    "iri" : "https://models.bim4ren.eu/domain/luminosity#transmittance",
+    "baseIri" : "https://models.bim4ren.eu/domain/luminosity",
+    "range" : "2",
     "label" : {
       "IRI-based" : "transmittance",
       "en" : "transmittance",
@@ -134,21 +87,68 @@
       "fr" : "TL",
       "es" : "transmittancia"
     },
-    "superproperty" : [ "7" ],
-    "domain" : "2",
+    "superproperty" : [ "3" ],
+    "domain" : "0",
     "attributes" : [ "object", "someValues" ],
-    "id" : "11"
+    "id" : "1"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle",
-    "baseIri" : "http://www.bim4ren.eu/domain/luminosity",
+    "iri" : "https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle",
+    "baseIri" : "https://models.bim4ren.eu/domain/luminosity",
     "range" : "4",
     "label" : {
       "IRI-based" : "visibleSkyAngle",
       "fr" : "angle de ciel visible"
     },
-    "superproperty" : [ "5" ],
+    "superproperty" : [ "6" ],
     "domain" : "4",
     "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/luminosity#reflection",
+    "baseIri" : "https://models.bim4ren.eu/domain/luminosity",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "reflection",
+      "en" : "reflection",
+      "it" : "riflessione",
+      "fr" : "réflexion",
+      "es" : "reflexión"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "7",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/luminosity#skyAngle",
+    "baseIri" : "https://models.bim4ren.eu/domain/luminosity",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "skyAngle"
+    },
+    "domain" : "0",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://models.bim4ren.eu/property#angle",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "angle"
+    },
+    "domain" : "4",
+    "subproperty" : [ "5" ],
+    "attributes" : [ "object", "external" ],
     "id" : "6"
+  }, {
+    "iri" : "https://models.bim4ren.eu/property#ratio",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "ratio"
+    },
+    "domain" : "4",
+    "subproperty" : [ "10", "11" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "3"
   } ]
 }

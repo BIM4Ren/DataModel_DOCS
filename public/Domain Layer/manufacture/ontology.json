@@ -2,7 +2,7 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/domain/Manufacture#code"
+    "@id" : "https://models.bim4ren.eu/domain/Manufacture#code"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -11,7 +11,7 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/domain/Manufacture#name"
+    "@id" : "https://models.bim4ren.eu/domain/Manufacture#name"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -24,16 +24,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://bim4ren.eu/domain/Manufacture#Brand"
+    "@id" : "https://models.bim4ren.eu/domain/Manufacture#Brand"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/domain/Manufacture#manufacturer"
+    "@id" : "https://models.bim4ren.eu/domain/Manufacture#manufacturer"
   } ]
 }, {
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/domain/Manufacture#code"
+    "@id" : "https://models.bim4ren.eu/domain/Manufacture#code"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -42,13 +42,13 @@
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/domain/Manufacture#dataSheet"
+    "@id" : "https://models.bim4ren.eu/domain/Manufacture#dataSheet"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/Manufacture#Brand",
+  "@id" : "https://models.bim4ren.eu/domain/Manufacture#Brand",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -60,7 +60,7 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/Manufacture#Product",
+  "@id" : "https://models.bim4ren.eu/domain/Manufacture#Product",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -74,18 +74,18 @@
     "@id" : "_:genid5"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/Manufacture#code",
+  "@id" : "https://models.bim4ren.eu/domain/Manufacture#code",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/Manufacture#dataSheet",
+  "@id" : "https://models.bim4ren.eu/domain/Manufacture#dataSheet",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/Manufacture#manufacturer",
+  "@id" : "https://models.bim4ren.eu/domain/Manufacture#manufacturer",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/Manufacture#name",
+  "@id" : "https://models.bim4ren.eu/domain/Manufacture#name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://bim4ren.eu/domain/manufacture#",
+  "@id" : "https://models.bim4ren.eu/domain/manufacture#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 } ]

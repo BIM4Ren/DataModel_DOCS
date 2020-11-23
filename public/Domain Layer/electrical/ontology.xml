@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.bim4ren.eu/domain/electrical#"
-     xml:base="http://www.bim4ren.eu/domain/electrical"
+<rdf:RDF xmlns="https://models.bim4ren.eu/domain/electrical#"
+     xml:base="https://models.bim4ren.eu/domain/electrical"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,9 +8,9 @@
      xmlns:core="http://www.w3.org/2004/02/skos/core/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:basicsemantics-owl="https://w3id.org/def/basicsemantics-owl#">
-    <owl:Ontology rdf:about="http://www.bim4ren.eu/domain/electrical#">
-        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/domain/electrical/0.1"/>
-        <owl:imports rdf:resource="http://www.bim4ren.eu/property#"/>
+    <owl:Ontology rdf:about="https://models.bim4ren.eu/domain/electrical#">
+        <owl:versionIRI rdf:resource="https://models.bim4ren.eu/domain/electrical/0.1"/>
+        <owl:imports rdf:resource="https://models.bim4ren.eu/property#"/>
     </owl:Ontology>
     
 
@@ -53,20 +53,20 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#electricalEfficiency -->
+    <!-- https://models.bim4ren.eu/domain/electrical#electricalEfficiency -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#electricalEfficiency">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#ratio"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#electricalEfficiency">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#ratio"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#electricitySubscription -->
+    <!-- https://models.bim4ren.eu/domain/electrical#electricitySubscription -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#electricitySubscription">
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/domain/electrical#ElectricityTariff"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#electricitySubscription">
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/domain/electrical#ElectricityTariff"/>
         <rdfs:label xml:lang="it">abbonamento elettrico</rdfs:label>
         <rdfs:label xml:lang="fr">abonnement electricité</rdfs:label>
         <rdfs:label xml:lang="en">electricity subscription</rdfs:label>
@@ -75,10 +75,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#meterPower -->
+    <!-- https://models.bim4ren.eu/domain/electrical#meterPower -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#meterPower">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#meterPower">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="es">poder de suscripción</rdfs:label>
         <rdfs:label xml:lang="it">potere di abbonamento</rdfs:label>
@@ -89,10 +89,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#offPeakHours -->
+    <!-- https://models.bim4ren.eu/domain/electrical#offPeakHours -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#offPeakHours">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#offPeakHours">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="fr">heures creuses</rdfs:label>
         <rdfs:label xml:lang="es">horas de poca actividad</rdfs:label>
@@ -102,10 +102,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#peakHours -->
+    <!-- https://models.bim4ren.eu/domain/electrical#peakHours -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#peakHours">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#peakHours">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="fr">heures pleines</rdfs:label>
         <rdfs:label xml:lang="es">horas pico</rdfs:label>
@@ -115,42 +115,42 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#powerIn -->
+    <!-- https://models.bim4ren.eu/domain/electrical#powerIn -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#powerIn">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#power"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#powerIn">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#power"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2fnj60qSGHuO00025QrE$V"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3uTse0qSeHuO00025QrE$V"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#powerOut -->
+    <!-- https://models.bim4ren.eu/domain/electrical#powerOut -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#powerOut">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#power"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#powerOut">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#power"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#solarConversionFactor -->
+    <!-- https://models.bim4ren.eu/domain/electrical#solarConversionFactor -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#solarConversionFactor">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#ratio"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#solarConversionFactor">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#ratio"/>
         <rdfs:label xml:lang="en">conversion factor</rdfs:label>
         <rdfs:label xml:lang="fr">facteur de conversion solaire</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#subscriptionPrice -->
+    <!-- https://models.bim4ren.eu/domain/electrical#subscriptionPrice -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#subscriptionPrice">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#kWhprice"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#subscriptionPrice">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#kWhprice"/>
         <rdfs:label xml:lang="it">abbonamento prezzo</rdfs:label>
         <rdfs:label xml:lang="fr">prix del&apos;abonnement</rdfs:label>
         <rdfs:label xml:lang="en">subscription price</rdfs:label>
@@ -159,11 +159,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#subscriptionType -->
+    <!-- https://models.bim4ren.eu/domain/electrical#subscriptionType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#subscriptionType">
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/domain/electrical#SubscriptionType"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#subscriptionType">
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/domain/electrical#SubscriptionType"/>
         <rdfs:label xml:lang="en">electricity subscription</rdfs:label>
         <rdfs:label xml:lang="es">tipo de suscripción</rdfs:label>
         <rdfs:label xml:lang="it">tipo di abbonamento</rdfs:label>
@@ -172,10 +172,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#weekEndHours -->
+    <!-- https://models.bim4ren.eu/domain/electrical#weekEndHours -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#weekEndHours">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#weekEndHours">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="fr">heures week-end</rdfs:label>
         <rdfs:label xml:lang="es">horas de fin de semana</rdfs:label>
@@ -185,10 +185,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#weekdaysHours -->
+    <!-- https://models.bim4ren.eu/domain/electrical#weekdaysHours -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/electrical#weekdaysHours">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/electrical#weekdaysHours">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="fr">heures semaine</rdfs:label>
         <rdfs:label xml:lang="es">horas entre semana</rdfs:label>
@@ -198,11 +198,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/property#kWhprice -->
+    <!-- https://models.bim4ren.eu/property#kWhprice -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#kWhprice">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#price"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/property#kWhprice">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#price"/>
         <rdfs:label xml:lang="it">kWh prezzo</rdfs:label>
         <rdfs:label xml:lang="en">kWh price</rdfs:label>
         <rdfs:label xml:lang="es">kwh precio</rdfs:label>
@@ -211,24 +211,24 @@
     
 
 
-    <!-- http://www.bim4ren.eu/property#power -->
+    <!-- https://models.bim4ren.eu/property#power -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#power"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/property#power"/>
     
 
 
-    <!-- http://www.bim4ren.eu/property#price -->
+    <!-- https://models.bim4ren.eu/property#price -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#price"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/property#price"/>
     
 
 
-    <!-- http://www.bim4ren.eu/property#ratio -->
+    <!-- https://models.bim4ren.eu/property#ratio -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#ratio"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/property#ratio"/>
     
 
 
@@ -244,25 +244,25 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#ElectricalConsumer -->
+    <!-- https://models.bim4ren.eu/domain/electrical#ElectricalConsumer -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#ElectricalConsumer">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#ElectricalConsumer">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/electrical#electricalEfficiency"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/electrical#electricalEfficiency"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/electrical#powerIn"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/electrical#powerIn"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/electrical#powerOut"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/electrical#powerOut"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -270,19 +270,19 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#ElectricalProducer -->
+    <!-- https://models.bim4ren.eu/domain/electrical#ElectricalProducer -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#ElectricalProducer">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#ElectricalProducer">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/electrical#electricalEfficiency"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/electrical#electricalEfficiency"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/electrical#powerOut"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/electrical#powerOut"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -290,10 +290,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#ElectricityTariff -->
+    <!-- https://models.bim4ren.eu/domain/electrical#ElectricityTariff -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#ElectricityTariff">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#ElectricityTariff">
         <rdfs:label xml:lang="en">Electricity tariff</rdfs:label>
         <rdfs:label xml:lang="fr">Tarif d&apos;électricité</rdfs:label>
         <rdfs:label xml:lang="es">Tarifa de electricidad</rdfs:label>
@@ -302,11 +302,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#FixedTariff -->
+    <!-- https://models.bim4ren.eu/domain/electrical#FixedTariff -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#FixedTariff">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/electrical#ElectricityTariff"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#FixedTariff">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/domain/electrical#ElectricityTariff"/>
         <rdfs:label xml:lang="en">Fixed electricity tariff</rdfs:label>
         <rdfs:label xml:lang="fr">Tarif d&apos;électricité fixe</rdfs:label>
         <rdfs:label xml:lang="es">Tarifa fija de electricidad</rdfs:label>
@@ -315,11 +315,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff -->
+    <!-- https://models.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/electrical#VariableTariff"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#PeakOffPeakHoursTariff">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/domain/electrical#VariableTariff"/>
         <rdfs:label xml:lang="en">Peak - off-peak hours tariff</rdfs:label>
         <rdfs:label xml:lang="fr">Tarif heures pleines - heures creuses</rdfs:label>
         <rdfs:label xml:lang="es">Tarifa de horas pico - no pico</rdfs:label>
@@ -328,25 +328,25 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#SubscriptionType -->
+    <!-- https://models.bim4ren.eu/domain/electrical#SubscriptionType -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#SubscriptionType"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#SubscriptionType"/>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#SubscruptionType -->
+    <!-- https://models.bim4ren.eu/domain/electrical#SubscruptionType -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#SubscruptionType"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#SubscruptionType"/>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#VariableTariff -->
+    <!-- https://models.bim4ren.eu/domain/electrical#VariableTariff -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#VariableTariff">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/electrical#ElectricityTariff"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#VariableTariff">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/domain/electrical#ElectricityTariff"/>
         <rdfs:label xml:lang="fr">Tarif d&apos;électricité variable</rdfs:label>
         <rdfs:label xml:lang="es">Tarifa variable de electricidad</rdfs:label>
         <rdfs:label xml:lang="it">Tariffa elettrica variabile</rdfs:label>
@@ -355,11 +355,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff -->
+    <!-- https://models.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/electrical#VariableTariff"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/electrical#WeekEndWeekDaysTariff">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/domain/electrical#VariableTariff"/>
         <rdfs:label xml:lang="fr">Tarif week-end - semaine</rdfs:label>
         <rdfs:label xml:lang="es">Tarifa de fin de semana - días laborables</rdfs:label>
         <rdfs:label xml:lang="it">Tariffa weekend - giorni feriali</rdfs:label>
@@ -368,15 +368,15 @@
     
 
 
-    <!-- http://www.bim4ren.eu/property#SubscriptionType -->
+    <!-- https://models.bim4ren.eu/property#SubscriptionType -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/property#SubscriptionType">
+    <owl:Class rdf:about="https://models.bim4ren.eu/property#SubscriptionType">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/domain/electrical#ANNUAL"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/domain/electrical#MONTHLY"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/domain/electrical#ANNUAL"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/domain/electrical#MONTHLY"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -407,10 +407,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#ANNUAL -->
+    <!-- https://models.bim4ren.eu/domain/electrical#ANNUAL -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/domain/electrical#ANNUAL">
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/domain/electrical#ANNUAL">
         <rdfs:label xml:lang="en">Annual</rdfs:label>
         <rdfs:label xml:lang="es">Annuale</rdfs:label>
         <rdfs:label xml:lang="it">Annuale</rdfs:label>
@@ -419,10 +419,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/electrical#MONTHLY -->
+    <!-- https://models.bim4ren.eu/domain/electrical#MONTHLY -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/domain/electrical#MONTHLY">
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/domain/electrical#MONTHLY">
         <rdfs:label xml:lang="it">Mensile</rdfs:label>
         <rdfs:label xml:lang="es">Mensual</rdfs:label>
         <rdfs:label xml:lang="fr">Mensuel</rdfs:label>

@@ -2,16 +2,16 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#generate"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#generate"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#Noise"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#Noise"
   } ]
 }, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#absorptionCoefficient"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -20,16 +20,16 @@
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#causedby"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#causedby"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#Equipment"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#Equipment"
   } ]
 }, {
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#duration"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#duration"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -38,7 +38,7 @@
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#frequency"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#frequency"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -47,7 +47,7 @@
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#intensity"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#intensity"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -56,22 +56,25 @@
   "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#associatedNoise"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#associatedNoise"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#Noise"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#Noise"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#",
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic/0.1"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#AcousticBridge",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#AcousticBridge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#AcousticGenerator",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#AcousticGenerator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -90,7 +93,7 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#AcousticInsulator",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#AcousticInsulator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -118,7 +121,7 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#AerialNoise",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#AerialNoise",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -148,13 +151,13 @@
     "@value" : "Rw"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#Noise"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#Noise"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#Equipment",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#Equipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#EquipmentBased",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#EquipmentBased",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -167,12 +170,12 @@
     "@value" : "ruido de equipamientos"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#Noise"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#Noise"
   }, {
     "@id" : "_:genid3"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#Impact",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#Impact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -196,10 +199,10 @@
     "@value" : "Lw"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#Noise"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#Noise"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#Noise",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#Noise",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -237,17 +240,14 @@
     "@id" : "_:genid6"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#VibratingElement",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#VibratingElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid7"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#absorptionCoefficient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.bim4ren.eu/domain/acoustic#associatedFrequency" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#frequency"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
     "@value" : "absorptivité acoustique"
@@ -265,15 +265,18 @@
     "@value" : "coeficiente de absorción acústico"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#AcousticInsulator"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#AcousticInsulator"
   }, {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#ratio"
+    "@id" : "https://models.bim4ren.eu/property#ratio"
+  } ],
+  "https://models.bim4ren.eu/domain/acoustic#associatedFrequency" : [ {
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#frequency"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -292,19 +295,19 @@
     "@id" : "http://qudt.org/vocab/quantitykind/SignalStrength"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#associatedFrequency",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#associatedFrequency",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#associatedNoise",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#associatedNoise",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#causedBy",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#causedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#causedby",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#causedby",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#duration",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#duration",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -326,7 +329,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Time"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#frequency",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#frequency",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -342,10 +345,10 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Frequency"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#generate",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#generate",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#description" : [ {
     "@language" : "en",
@@ -355,10 +358,10 @@
     "@value" : "Ln"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency"
+    "@id" : "https://models.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/domain/acoustic#intensity",
+  "@id" : "https://models.bim4ren.eu/domain/acoustic#intensity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -380,11 +383,8 @@
     "@id" : "http://qudt.org/vocab/quantitykind/SignalStrength"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#ratio",
+  "@id" : "https://models.bim4ren.eu/property#ratio",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]

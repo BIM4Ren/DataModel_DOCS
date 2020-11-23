@@ -2,135 +2,79 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "it", "fr", "es", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.w3.org/2000/01/rdf-schema", "http://www.bim4ren.eu/domain/acoustic", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/def/basicsemantics-owl" ],
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#"
+    "baseIris" : [ "https://models.bim4ren.eu/domain/acoustic", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/def/basicsemantics-owl", "https://models.bim4ren.eu/property" ],
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#"
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "10",
-    "type" : "owl:Class"
-  }, {
-    "id" : "8",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "1",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "17",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "11",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "13",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
     "type" : "owl:Class"
   }, {
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
+    "id" : "7",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#AcousticGenerator",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#VibratingElement",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "AcousticGenerator",
-      "en" : "sound generator",
-      "fr" : "générateur sonore",
-      "es" : "generador fónico"
+      "IRI-based" : "VibratingElement"
     },
-    "id" : "10"
+    "id" : "0"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#Noise",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Noise",
-      "en" : "sound",
-      "it" : "rumore",
-      "fr" : "son",
-      "es" : "sonido"
-    },
-    "subClasses" : [ "15", "16", "5" ],
-    "id" : "8"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "1",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "17",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "instances" : 0,
-    "union" : [ "18", "9" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "2"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#AcousticBridge",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "AcousticBridge"
-    },
-    "id" : "24"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#AcousticInsulator",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#AcousticInsulator",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
     "instances" : 0,
     "label" : {
       "IRI-based" : "AcousticInsulator",
-      "en" : "sound absorber",
+      "en" : "sound insulation",
       "fr" : "isolant accoustique",
       "es" : "aislante acústico"
     },
-    "id" : "18"
+    "id" : "1"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#Equipment",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "11",
     "label" : {
-      "IRI-based" : "Equipment"
-    },
-    "id" : "6"
+      "undefined" : "Thing"
+    }
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#EquipmentBased",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "EquipmentBased",
-      "en" : "equipment-based noise",
-      "fr" : "bruits d'équipements",
-      "es" : "ruido de equipamientos"
-    },
-    "id" : "5",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#Impact",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#Impact",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Impact",
@@ -140,30 +84,86 @@
       "es" : "impacto",
       "undefined" : "Lw"
     },
-    "id" : "15",
-    "superClasses" : [ "8" ]
+    "id" : "12",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#VibratingElement",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "13",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "7" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#Equipment",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "VibratingElement"
+      "IRI-based" : "Equipment"
     },
-    "id" : "14"
+    "id" : "4"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#AerialNoise",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#AerialNoise",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
     "instances" : 0,
     "label" : {
       "IRI-based" : "AerialNoise",
       "en" : "environmental noise",
       "it" : "inquinamento acustico",
-      "fr" : "bruits aériens",
-      "es" : "contaminación acústica ambiental",
+      "fr" : "pollution sonore",
+      "es" : "contaminación sónica ambiental",
       "undefined" : "Rw"
     },
-    "id" : "16",
-    "superClasses" : [ "8" ]
+    "id" : "23",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#Noise",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Noise",
+      "en" : "sound",
+      "it" : "rumore",
+      "fr" : "son",
+      "es" : "ruido"
+    },
+    "subClasses" : [ "23", "3", "12" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#AcousticGenerator",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcousticGenerator",
+      "en" : "sound generator",
+      "fr" : "générateur sonore",
+      "es" : "generador fónico"
+    },
+    "id" : "17"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#EquipmentBased",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EquipmentBased",
+      "en" : "equipment-based noise",
+      "fr" : "bruits d'équipements",
+      "es" : "ruido de equipamientos"
+    },
+    "id" : "3",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#AcousticBridge",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcousticBridge"
+    },
+    "id" : "26"
   }, {
     "iri" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
     "baseIri" : "https://w3id.org/def/basicsemantics-owl",
@@ -172,49 +172,46 @@
       "IRI-based" : "QuantityValue"
     },
     "attributes" : [ "external" ],
-    "id" : "9"
+    "id" : "7"
   } ],
   "property" : [ {
-    "id" : "0",
+    "id" : "2",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "5",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "8",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "9",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "10",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "14",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "4",
+    "id" : "16",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "7",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "11",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "12",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "13",
-    "type" : "owl:someValuesFrom"
+    "id" : "18",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "19",
-    "type" : "owl:objectProperty"
+    "type" : "owl:someValuesFrom"
   }, {
-    "id" : "3",
+    "id" : "21",
     "type" : "owl:objectProperty"
   }, {
     "id" : "20",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "22",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "23",
-    "type" : "owl:someValuesFrom"
+    "id" : "24",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "25",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "21",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "26",
     "type" : "owl:objectProperty"
   }, {
     "id" : "27",
@@ -226,66 +223,26 @@
     "id" : "29",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "30",
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "2",
-    "annotations" : {
-      "associatedFrequency" : [ {
-        "identifier" : "associatedFrequency",
-        "language" : "undefined",
-        "value" : "http://www.bim4ren.eu/domain/acoustic#frequency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "absorptionCoefficient",
-      "en" : "acoustic absorption coefficient",
-      "it" : "coefficiente di assorbimento fónico",
-      "fr" : "absorptivité acoustique",
-      "es" : "coeficiente de absorción acústico"
-    },
-    "superproperty" : [ "3" ],
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "0"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#causedby",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "6",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#causedby",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "4",
     "label" : {
       "IRI-based" : "causedby"
     },
-    "domain" : "5",
+    "domain" : "3",
     "attributes" : [ "someValues", "object" ],
-    "id" : "4"
+    "id" : "2"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#intensity",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
-    "annotations" : {
-      "quantityKind" : [ {
-        "identifier" : "quantityKind",
-        "language" : "undefined",
-        "value" : "http://qudt.org/vocab/quantitykind/SignalStrength",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "intensity",
-      "en" : "acoustic intensity",
-      "fr" : "intensité sonore"
-    },
-    "domain" : "8",
-    "attributes" : [ "someValues", "object" ],
-    "id" : "7"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#frequency",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#frequency",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
     "annotations" : {
       "quantityKind" : [ {
         "identifier" : "quantityKind",
@@ -299,13 +256,13 @@
       "en" : "frequency",
       "fr" : "fréquence"
     },
-    "domain" : "8",
+    "domain" : "6",
     "attributes" : [ "someValues", "object" ],
-    "id" : "11"
+    "id" : "5"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#duration",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#duration",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
     "annotations" : {
       "quantityKind" : [ {
         "identifier" : "quantityKind",
@@ -321,86 +278,88 @@
       "fr" : "durée",
       "es" : "duración"
     },
-    "domain" : "8",
+    "domain" : "6",
     "attributes" : [ "someValues", "object" ],
-    "id" : "12"
+    "id" : "8"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#associatedNoise",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "8",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#intensity",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/SignalStrength",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "intensity",
+      "en" : "acoustic intensity",
+      "fr" : "intensité acoustique"
+    },
+    "domain" : "6",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#associatedNoise",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "6",
     "label" : {
       "IRI-based" : "associatedNoise"
     },
-    "domain" : "14",
+    "domain" : "0",
     "attributes" : [ "someValues", "object" ],
-    "id" : "13"
+    "id" : "10"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#duration",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#causedBy",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "causedBy"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#generate",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "generate"
+    },
+    "domain" : "17",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#intensity",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
     "annotations" : {
       "quantityKind" : [ {
         "identifier" : "quantityKind",
         "language" : "undefined",
-        "value" : "http://qudt.org/vocab/quantitykind/Time",
+        "value" : "http://qudt.org/vocab/quantitykind/SignalStrength",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "duration",
-      "en" : "duration",
-      "it" : "durata",
-      "fr" : "durée",
-      "es" : "duración"
+      "IRI-based" : "intensity",
+      "en" : "acoustic intensity",
+      "fr" : "intensité acoustique"
     },
-    "domain" : "1",
+    "domain" : "11",
     "attributes" : [ "object" ],
-    "id" : "19"
+    "id" : "18"
   }, {
-    "iri" : "http://www.bim4ren.eu/property#ratio",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "17",
-    "label" : {
-      "IRI-based" : "ratio"
-    },
-    "domain" : "17",
-    "subproperty" : [ "0" ],
-    "attributes" : [ "external", "object" ],
-    "id" : "3"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "17",
-    "description" : {
-      "en" : "The difference in dB with or without acoustic insulation on the material"
-    },
-    "label" : {
-      "IRI-based" : "insulationEfficinecyToImpact",
-      "undefined" : "Ln"
-    },
-    "superproperty" : [ "21" ],
-    "domain" : "17",
-    "attributes" : [ "object" ],
-    "id" : "20"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#generate",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "generate"
-    },
-    "domain" : "10",
-    "attributes" : [ "someValues", "object" ],
-    "id" : "22"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#absorptionCoefficient",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#absorptionCoefficient",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
     "annotations" : {
       "associatedFrequency" : [ {
         "identifier" : "associatedFrequency",
         "language" : "undefined",
-        "value" : "http://www.bim4ren.eu/domain/acoustic#frequency",
+        "value" : "https://models.bim4ren.eu/domain/acoustic#frequency",
         "type" : "iri"
       } ]
     },
@@ -411,24 +370,115 @@
       "fr" : "absorptivité acoustique",
       "es" : "coeficiente de absorción acústico"
     },
-    "superproperty" : [ "3" ],
-    "domain" : "18",
+    "superproperty" : [ "20" ],
+    "domain" : "1",
     "attributes" : [ "someValues", "object" ],
-    "id" : "23"
+    "id" : "19"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#causedBy",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "17",
-    "label" : {
-      "IRI-based" : "causedBy"
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#insulationEfficinecyToImpact",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "13",
+    "description" : {
+      "en" : "The difference in dB with or without acoustic insulation on the material"
     },
-    "domain" : "17",
+    "label" : {
+      "IRI-based" : "insulationEfficinecyToImpact",
+      "undefined" : "Ln"
+    },
+    "superproperty" : [ "22" ],
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://models.bim4ren.eu/property#ratio",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "ratio"
+    },
+    "domain" : "13",
+    "subproperty" : [ "24" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#absorptionCoefficient",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "15",
+    "annotations" : {
+      "associatedFrequency" : [ {
+        "identifier" : "associatedFrequency",
+        "language" : "undefined",
+        "value" : "https://models.bim4ren.eu/domain/acoustic#frequency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "absorptionCoefficient",
+      "en" : "acoustic absorption coefficient",
+      "it" : "coefficiente di assorbimento fónico",
+      "fr" : "absorptivité acoustique",
+      "es" : "coeficiente de absorción acústico"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#frequency",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/Frequency",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "frequency",
+      "en" : "frequency",
+      "fr" : "fréquence"
+    },
+    "domain" : "11",
     "attributes" : [ "object" ],
     "id" : "25"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#duration",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
+    "annotations" : {
+      "quantityKind" : [ {
+        "identifier" : "quantityKind",
+        "language" : "undefined",
+        "value" : "http://qudt.org/vocab/quantitykind/Time",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "duration",
+      "en" : "duration",
+      "it" : "durata",
+      "fr" : "durée",
+      "es" : "duración"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "range" : "6",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/acoustic#acousticInsulationEfficiency",
+    "baseIri" : "https://models.bim4ren.eu/domain/acoustic",
+    "range" : "7",
     "annotations" : {
       "quantityKind" : [ {
         "identifier" : "quantityKind",
@@ -442,63 +492,13 @@
       "en" : "acoustic insulation efficiency",
       "fr" : "efficacité d'isolation acoustique"
     },
-    "domain" : "1",
-    "subproperty" : [ "20" ],
+    "domain" : "11",
+    "subproperty" : [ "21" ],
     "attributes" : [ "object" ],
-    "id" : "21"
+    "id" : "22"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#intensity",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
-    "annotations" : {
-      "quantityKind" : [ {
-        "identifier" : "quantityKind",
-        "language" : "undefined",
-        "value" : "http://qudt.org/vocab/quantitykind/SignalStrength",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "intensity",
-      "en" : "acoustic intensity",
-      "fr" : "intensité sonore"
-    },
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "26"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/acoustic#frequency",
-    "baseIri" : "http://www.bim4ren.eu/domain/acoustic",
-    "range" : "9",
-    "annotations" : {
-      "quantityKind" : [ {
-        "identifier" : "quantityKind",
-        "language" : "undefined",
-        "value" : "http://qudt.org/vocab/quantitykind/Frequency",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "frequency",
-      "en" : "frequency",
-      "fr" : "fréquence"
-    },
-    "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "27"
-  }, {
-    "range" : "8",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "28"
-  }, {
-    "range" : "8",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "29"
-  }, {
-    "range" : "8",
-    "domain" : "16",
+    "range" : "6",
+    "domain" : "3",
     "attributes" : [ "object", "anonymous" ],
     "id" : "30"
   } ]

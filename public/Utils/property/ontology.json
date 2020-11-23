@@ -1,5 +1,5 @@
 [ {
-  "@id" : "http://www.bim4ren.eu/property#",
+  "@id" : "https://models.bim4ren.eu/property#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://qudt.org/vocab/quantitykind/"
@@ -7,10 +7,10 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/property/0.1"
+    "@id" : "https://models.bim4ren.eu/property/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#accuracy",
+  "@id" : "https://models.bim4ren.eu/property#accuracy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -29,7 +29,7 @@
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#angle",
+  "@id" : "https://models.bim4ren.eu/property#angle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -51,7 +51,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/PlaneAngle"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#area",
+  "@id" : "https://models.bim4ren.eu/property#area",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -73,7 +73,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Area"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#efficiency",
+  "@id" : "https://models.bim4ren.eu/property#efficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -95,7 +95,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Efficiency"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#flowRate",
+  "@id" : "https://models.bim4ren.eu/property#flowRate",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -126,7 +126,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/VolumeFlowRate"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#fromTime",
+  "@id" : "https://models.bim4ren.eu/property#fromTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -142,10 +142,10 @@
     "@value" : "temps début"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#time"
+    "@id" : "https://models.bim4ren.eu/property#time"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#height",
+  "@id" : "https://models.bim4ren.eu/property#height",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -167,7 +167,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Length"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#power",
+  "@id" : "https://models.bim4ren.eu/property#power",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -189,7 +189,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Power"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#pressure",
+  "@id" : "https://models.bim4ren.eu/property#pressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -211,7 +211,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Pressure"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#price",
+  "@id" : "https://models.bim4ren.eu/property#price",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -233,7 +233,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Currency"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#ratio",
+  "@id" : "https://models.bim4ren.eu/property#ratio",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -255,7 +255,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/DimensionlessRatio"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#speed",
+  "@id" : "https://models.bim4ren.eu/property#speed",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -277,7 +277,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Speed"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#temperature",
+  "@id" : "https://models.bim4ren.eu/property#temperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -299,7 +299,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Temperature"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#thickness",
+  "@id" : "https://models.bim4ren.eu/property#thickness",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -321,7 +321,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Length"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#time",
+  "@id" : "https://models.bim4ren.eu/property#time",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -343,7 +343,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Time"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#toTime",
+  "@id" : "https://models.bim4ren.eu/property#toTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -359,10 +359,10 @@
     "@value" : "to time"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.bim4ren.eu/property#time"
+    "@id" : "https://models.bim4ren.eu/property#time"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#volume",
+  "@id" : "https://models.bim4ren.eu/property#volume",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -384,7 +384,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/Volume"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/property#width",
+  "@id" : "https://models.bim4ren.eu/property#width",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",

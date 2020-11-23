@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.bim4ren.eu/actors#"
-     xml:base="http://www.bim4ren.eu/actors"
+<rdf:RDF xmlns="https://models.bim4ren.eu/actors#"
+     xml:base="https://models.bim4ren.eu/actors"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.bim4ren.eu/actors">
-        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/actors/0.1"/>
+    <owl:Ontology rdf:about="https://models.bim4ren.eu/actors">
+        <owl:versionIRI rdf:resource="https://models.bim4ren.eu/actors/0.1"/>
     </owl:Ontology>
     
 
@@ -24,12 +24,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#ageCategory -->
+    <!-- https://models.bim4ren.eu/actors#ageCategory -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#ageCategory">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/actors#Actor"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#ageCategory">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/actors#Actor"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
         <rdfs:comment xml:lang="fr">Relation describing the link between an actor and the corresponding age category</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relation décrivant le lien entre un acteur et la catégorie d&apos;âge correspondante</rdfs:comment>
         <rdfs:label xml:lang="en">age category</rdfs:label>
@@ -38,12 +38,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#associatedActor -->
+    <!-- https://models.bim4ren.eu/actors#associatedActor -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#associatedActor">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#associatedActor">
         <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#Actor"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#Actor"/>
         <rdfs:comment xml:lang="en">Relation describing the link between a zone and the associated actor, which could be the occupant or any actor having a specific role associated to the zone</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relation décrivant le lien entre une zone et un acteur associé, qui peut être l&apos;occupant ou tout acteur ayant un rôle spécifique associé à cette zone</rdfs:comment>
         <rdfs:label xml:lang="fr">acteur associé</rdfs:label>
@@ -52,10 +52,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#associatedZone -->
+    <!-- https://models.bim4ren.eu/actors#associatedZone -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#associatedZone">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#associatedZone">
         <rdfs:range rdf:resource="https://w3id.org/bot#Zone"/>
         <rdfs:comment xml:lang="fr">Relation pouvant décrire le lien entre un occupant et une zone associée à travers le profile d&apos;occupation ou tout simplement le lien entre un acteur en général et une zone pour laquelle il a un role spécifique</rdfs:comment>
         <rdfs:comment xml:lang="en">Relation that can describe the link between an occupant and an associated zone through the occupation profile or simply the link between an actor in general and a zone for which he has a specific role</rdfs:comment>
@@ -65,12 +65,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#hasEnergyPolicy -->
+    <!-- https://models.bim4ren.eu/actors#hasEnergyPolicy -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#hasEnergyPolicy">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/actors#Occupant"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#EnergyPolicy"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#hasEnergyPolicy">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/actors#Occupant"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#EnergyPolicy"/>
         <rdfs:comment xml:lang="en">Property linking an occupant to the energy policy that he adopts</rdfs:comment>
         <rdfs:comment xml:lang="fr">Propriété liant un occupant à la politique d&apos;énergie qu&apos;il adopte</rdfs:comment>
         <rdfs:label xml:lang="en">energy policy</rdfs:label>
@@ -81,12 +81,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#occupancyProfile -->
+    <!-- https://models.bim4ren.eu/actors#occupancyProfile -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#occupancyProfile">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/actors#Occupant"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#OccupancyProfile"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#occupancyProfile">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/actors#Occupant"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#OccupancyProfile"/>
         <rdfs:comment xml:lang="en">Relation describing the link between an occupant and its occupancy profile associated to a particular zone</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relation décrivant le lien entre un occupant et son profile d&apos;occupation associé à une zone particulière</rdfs:comment>
         <rdfs:label xml:lang="fr">occupancy profile</rdfs:label>
@@ -95,12 +95,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#occupancyTime -->
+    <!-- https://models.bim4ren.eu/actors#occupancyTime -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#occupancyTime">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/actors#OccupancyProfile"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#OccupancyTimeRange"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#occupancyTime">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/actors#OccupancyProfile"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#OccupancyTimeRange"/>
         <rdfs:comment xml:lang="en">Relation describing the link between an occupancy profile (associated to an occupant and a given zone) and the corresponding occupancy time range</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relation décrivant le lien entre un profile d&apos;occupation (associé à un occupant et une zone donnée) et l&apos;intervalle d&apos;occupation correspondant</rdfs:comment>
         <rdfs:label xml:lang="fr">occupancy time</rdfs:label>
@@ -109,12 +109,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#workSituation -->
+    <!-- https://models.bim4ren.eu/actors#workSituation -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#workSituation">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/actors#Occupant"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#WorkSituation"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#workSituation">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/actors#Occupant"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#WorkSituation"/>
         <rdfs:comment xml:lang="en">Relation describing the link between an occupant and its work situation</rdfs:comment>
         <rdfs:comment xml:lang="fr">Relation décrivant le lien entre un occupant et la situation de travail correspondate</rdfs:comment>
         <rdfs:label xml:lang="fr">situation de travail</rdfs:label>
@@ -123,12 +123,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#workType -->
+    <!-- https://models.bim4ren.eu/actors#workType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/actors#workType">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/actors#WorkSituation"/>
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/actors#WorkType"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/actors#workType">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/actors#WorkSituation"/>
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/actors#WorkType"/>
         <rdfs:comment xml:lang="en">Relation describing the link between a work situation associated to an occupant and the corresponding work type</rdfs:comment>
         <rdfs:comment xml:lang="en">Relation décrivant le lien entre la situation de travail associée à un occupant et le type de ce travail</rdfs:comment>
         <rdfs:label xml:lang="fr">type de travail</rdfs:label>
@@ -149,10 +149,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#fromDateTime -->
+    <!-- https://models.bim4ren.eu/actors#fromDateTime -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.bim4ren.eu/actors#fromDateTime">
+    <owl:DatatypeProperty rdf:about="https://models.bim4ren.eu/actors#fromDateTime">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">Property describing the start date and time related to an occupancy profile</rdfs:comment>
         <rdfs:comment xml:lang="fr">Propriété décrivant la date et l&apos;heure de début liées à un profil d&apos;occupation</rdfs:comment>
@@ -162,10 +162,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#income -->
+    <!-- https://models.bim4ren.eu/actors#income -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.bim4ren.eu/actors#income">
+    <owl:DatatypeProperty rdf:about="https://models.bim4ren.eu/actors#income">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment xml:lang="en">Property describing the gross annual salary of an occupant</rdfs:comment>
         <rdfs:comment xml:lang="fr">Propriété décrivant le salaire annuel brut d&apos;un occupant</rdfs:comment>
@@ -175,10 +175,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#toDateTime -->
+    <!-- https://models.bim4ren.eu/actors#toDateTime -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.bim4ren.eu/actors#toDateTime">
+    <owl:DatatypeProperty rdf:about="https://models.bim4ren.eu/actors#toDateTime">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">Property describing the end date and time related to an occupancy profile</rdfs:comment>
         <rdfs:comment xml:lang="fr">Propriété décrivant la date et l&apos;heure de fin liées à un profil d&apos;occupation</rdfs:comment>
@@ -200,15 +200,15 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#Actor -->
+    <!-- https://models.bim4ren.eu/actors#Actor -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#Actor">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#Actor">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#ageCategory"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#ageCategory"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+                <owl:onClass rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A building actor, which comes down to a building manager, a building owner or an occupant</rdfs:comment>
@@ -220,10 +220,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#AgeCategory -->
+    <!-- https://models.bim4ren.eu/actors#AgeCategory -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#AgeCategory">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#AgeCategory">
         <rdfs:comment xml:lang="fr">Correspond à une classification selon les tranches d&apos;ages de personnes</rdfs:comment>
         <rdfs:comment xml:lang="en">Corresponds to a classification according to people age groups</rdfs:comment>
         <rdfs:label xml:lang="en">Age category</rdfs:label>
@@ -232,13 +232,13 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#BuildingManager -->
+    <!-- https://models.bim4ren.eu/actors#BuildingManager -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#BuildingManager">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/actors#Actor"/>
-        <owl:disjointWith rdf:resource="http://www.bim4ren.eu/actors#BuildingOwner"/>
-        <owl:disjointWith rdf:resource="http://www.bim4ren.eu/actors#Occupant"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#BuildingManager">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/actors#Actor"/>
+        <owl:disjointWith rdf:resource="https://models.bim4ren.eu/actors#BuildingOwner"/>
+        <owl:disjointWith rdf:resource="https://models.bim4ren.eu/actors#Occupant"/>
         <rdfs:comment xml:lang="en">Person or entity chosen by the building owner for the operational management of the work</rdfs:comment>
         <rdfs:comment xml:lang="fr">Personne physique ou morale choisie par le maître d&apos;ouvrage pour la conduite opérationnelle des travaux</rdfs:comment>
         <rdfs:label xml:lang="en">Building manager</rdfs:label>
@@ -247,11 +247,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#BuildingOwner -->
+    <!-- https://models.bim4ren.eu/actors#BuildingOwner -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#BuildingOwner">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/actors#Actor"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#BuildingOwner">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/actors#Actor"/>
         <rdfs:comment xml:lang="en">Person or entity for whom the project is carried out</rdfs:comment>
         <rdfs:comment xml:lang="fr">Personne physique ou morale pour laquelle le projet est réalisé</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="fr">http://bsdd.buildingsmart.org/#concept/details/1B9uxpQzj5KBf25MREZyEH</rdfs:isDefinedBy>
@@ -261,16 +261,16 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#EnergyPolicy -->
+    <!-- https://models.bim4ren.eu/actors#EnergyPolicy -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#EnergyPolicy">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#EnergyPolicy">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/actors#COMFORT"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/actors#ECO"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/actors#ECO_PLUS"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/actors#COMFORT"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/actors#ECO"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/actors#ECO_PLUS"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -284,19 +284,19 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#OccupancyProfile -->
+    <!-- https://models.bim4ren.eu/actors#OccupancyProfile -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#OccupancyProfile">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#OccupancyProfile">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#occupancyTime"/>
-                <owl:allValuesFrom rdf:resource="http://www.bim4ren.eu/actors#OccupancyTimeRange"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#occupancyTime"/>
+                <owl:allValuesFrom rdf:resource="https://models.bim4ren.eu/actors#OccupancyTimeRange"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#associatedZone"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#associatedZone"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="https://w3id.org/bot#Zone"/>
             </owl:Restriction>
@@ -309,19 +309,19 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#OccupancyTimeRange -->
+    <!-- https://models.bim4ren.eu/actors#OccupancyTimeRange -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#OccupancyTimeRange">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#OccupancyTimeRange">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#fromDateTime"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#fromDateTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#toDateTime"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#toDateTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -333,21 +333,21 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#Occupant -->
+    <!-- https://models.bim4ren.eu/actors#Occupant -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#Occupant">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/actors#Actor"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#Occupant">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/actors#Actor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#occupancyProfile"/>
-                <owl:allValuesFrom rdf:resource="http://www.bim4ren.eu/actors#OccupancyProfile"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#occupancyProfile"/>
+                <owl:allValuesFrom rdf:resource="https://models.bim4ren.eu/actors#OccupancyProfile"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#workSituation"/>
-                <owl:allValuesFrom rdf:resource="http://www.bim4ren.eu/actors#WorkSituation"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#workSituation"/>
+                <owl:allValuesFrom rdf:resource="https://models.bim4ren.eu/actors#WorkSituation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A type of actor that defines the form of occupancy of a property</rdfs:comment>
@@ -359,19 +359,19 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#WorkSituation -->
+    <!-- https://models.bim4ren.eu/actors#WorkSituation -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#WorkSituation">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#WorkSituation">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#workType"/>
-                <owl:allValuesFrom rdf:resource="http://www.bim4ren.eu/actors#WorkType"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#workType"/>
+                <owl:allValuesFrom rdf:resource="https://models.bim4ren.eu/actors#WorkType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/actors#income"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/actors#income"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -383,16 +383,16 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#WorkType -->
+    <!-- https://models.bim4ren.eu/actors#WorkType -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/actors#WorkType">
+    <owl:Class rdf:about="https://models.bim4ren.eu/actors#WorkType">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/actors#EMPLOYED"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/actors#SELF_EMPLOYED"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/actors#UNEMPLOYED"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/actors#EMPLOYED"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/actors#SELF_EMPLOYED"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/actors#UNEMPLOYED"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -423,11 +423,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#ADULT -->
+    <!-- https://models.bim4ren.eu/actors#ADULT -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#ADULT">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#ADULT">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
         <rdfs:comment xml:lang="en">An adult is a person aged between 18 and 64 inclusive</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un adulte est une personne âgée antre 18 et 64 ans inclus</rdfs:comment>
         <rdfs:label xml:lang="en">Adult</rdfs:label>
@@ -436,11 +436,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#BABY -->
+    <!-- https://models.bim4ren.eu/actors#BABY -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#BABY">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#BABY">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
         <rdfs:comment xml:lang="en">A baby is a person who is less than a year old</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un bébé est une personne qui a moins d&apos;un an</rdfs:comment>
         <rdfs:label xml:lang="en">Baby</rdfs:label>
@@ -449,11 +449,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#CHILD -->
+    <!-- https://models.bim4ren.eu/actors#CHILD -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#CHILD">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#CHILD">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
         <rdfs:comment xml:lang="en">A child is a person aged between 1 year and 11 years inclusive</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un enfant est une personne âgée entre 1 an et 11 ans inclus</rdfs:comment>
         <rdfs:label xml:lang="en">Child</rdfs:label>
@@ -462,11 +462,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#COMFORT -->
+    <!-- https://models.bim4ren.eu/actors#COMFORT -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#COMFORT">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#EnergyPolicy"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#COMFORT">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#EnergyPolicy"/>
         <rdfs:comment xml:lang="en">An occupant who is not eco friendly</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un occupant qui n&apos;est pas éco-responsable</rdfs:comment>
         <rdfs:label xml:lang="en">Comfort</rdfs:label>
@@ -477,11 +477,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#ECO -->
+    <!-- https://models.bim4ren.eu/actors#ECO -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#ECO">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#EnergyPolicy"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#ECO">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#EnergyPolicy"/>
         <rdfs:comment xml:lang="en">An occupant who is eco friendly</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un occupant éco-responsable</rdfs:comment>
         <rdfs:label xml:lang="en">Eco friendly</rdfs:label>
@@ -492,11 +492,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#ECO_PLUS -->
+    <!-- https://models.bim4ren.eu/actors#ECO_PLUS -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#ECO_PLUS">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#EnergyPolicy"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#ECO_PLUS">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#EnergyPolicy"/>
         <rdfs:comment xml:lang="en">An occupant who is eco friendly++</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un occupant éco-responsable++</rdfs:comment>
         <rdfs:label xml:lang="en">Eco friendly++</rdfs:label>
@@ -507,11 +507,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#ELDERLY -->
+    <!-- https://models.bim4ren.eu/actors#ELDERLY -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#ELDERLY">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#ELDERLY">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
         <rdfs:comment xml:lang="en">An elderly is a person aged 65 and over</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un personne âgée est une personne qui a 65 ans et plus</rdfs:comment>
         <rdfs:label xml:lang="en">Elderly</rdfs:label>
@@ -520,11 +520,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#EMPLOYED -->
+    <!-- https://models.bim4ren.eu/actors#EMPLOYED -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#EMPLOYED">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#WorkType"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#EMPLOYED">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#WorkType"/>
         <rdfs:comment xml:lang="en">An occupant having a paid job</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un occupant ayant un emploi rémunéré</rdfs:comment>
         <rdfs:label xml:lang="en">Employed</rdfs:label>
@@ -533,11 +533,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#SELF_EMPLOYED -->
+    <!-- https://models.bim4ren.eu/actors#SELF_EMPLOYED -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#SELF_EMPLOYED">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#WorkType"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#SELF_EMPLOYED">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#WorkType"/>
         <rdfs:comment xml:lang="en">An occupant who is working for oneself as a freelance or who is the owner of a business</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un occupant qui travaille pour soi-même en tant que freelance ou qui est le propriétaire d&apos;une entreprise</rdfs:comment>
         <rdfs:label xml:lang="en">Self employed</rdfs:label>
@@ -546,11 +546,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#TEENAGER -->
+    <!-- https://models.bim4ren.eu/actors#TEENAGER -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#TEENAGER">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#AgeCategory"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#TEENAGER">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#AgeCategory"/>
         <rdfs:comment xml:lang="en">A teenager is a person aged between 12 and 17 years inclusive</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un adolescent est une personne âgée entre 12 et 17 ans inclus</rdfs:comment>
         <rdfs:label xml:lang="fr">Adolescent</rdfs:label>
@@ -559,11 +559,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/actors#UNEMPLOYED -->
+    <!-- https://models.bim4ren.eu/actors#UNEMPLOYED -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/actors#UNEMPLOYED">
-        <rdf:type rdf:resource="http://www.bim4ren.eu/actors#WorkType"/>
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/actors#UNEMPLOYED">
+        <rdf:type rdf:resource="https://models.bim4ren.eu/actors#WorkType"/>
         <rdfs:comment xml:lang="en">An occupant without a paid job</rdfs:comment>
         <rdfs:comment xml:lang="fr">Un occupant sans emploi</rdfs:comment>
         <rdfs:label xml:lang="en">Unemployed</rdfs:label>

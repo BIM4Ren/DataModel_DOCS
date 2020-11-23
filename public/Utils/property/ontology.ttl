@@ -1,15 +1,15 @@
-@prefix : <http://www.bim4ren.eu/property#> .
+@prefix : <https://models.bim4ren.eu/property#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.bim4ren.eu/property#> .
+@base <https://models.bim4ren.eu/property#> .
 
-<http://www.bim4ren.eu/property#> rdf:type owl:Ontology ;
-                                   owl:versionIRI <http://www.bim4ren.eu/property/0.1> ;
-                                   owl:imports <http://qudt.org/vocab/quantitykind/> ,
-                                               <https://w3id.org/def/basicsemantics-owl> .
+<https://models.bim4ren.eu/property#> rdf:type owl:Ontology ;
+                                       owl:versionIRI <https://models.bim4ren.eu/property/0.1> ;
+                                       owl:imports <http://qudt.org/vocab/quantitykind/> ,
+                                                   <https://w3id.org/def/basicsemantics-owl> .
 
 #################################################################
 #    Annotation properties
@@ -23,7 +23,7 @@
 #    Object Properties
 #################################################################
 
-###  http://www.bim4ren.eu/property#accuracy
+###  https://models.bim4ren.eu/property#accuracy
 :accuracy rdf:type owl:ObjectProperty ;
           rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
           rdfs:label "accuracy"@en ,
@@ -32,7 +32,7 @@
                      "précision"@fr .
 
 
-###  http://www.bim4ren.eu/property#angle
+###  https://models.bim4ren.eu/property#angle
 :angle rdf:type owl:ObjectProperty ;
        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
        rdfs:label "angle"@en ,
@@ -42,7 +42,7 @@
        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/PlaneAngle> .
 
 
-###  http://www.bim4ren.eu/property#area
+###  https://models.bim4ren.eu/property#area
 :area rdf:type owl:ObjectProperty ;
       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
       rdfs:label "area"@en ,
@@ -52,7 +52,7 @@
       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Area> .
 
 
-###  http://www.bim4ren.eu/property#efficiency
+###  https://models.bim4ren.eu/property#efficiency
 :efficiency rdf:type owl:ObjectProperty ;
             rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
             rdfs:label "efficiency"@en ,
@@ -62,7 +62,7 @@
             <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Efficiency> .
 
 
-###  http://www.bim4ren.eu/property#flowRate
+###  https://models.bim4ren.eu/property#flowRate
 :flowRate rdf:type owl:ObjectProperty ;
           rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
           rdfs:label "caudal volumétrico"@es ,
@@ -75,7 +75,7 @@
           <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/VolumeFlowRate> .
 
 
-###  http://www.bim4ren.eu/property#fromTime
+###  https://models.bim4ren.eu/property#fromTime
 :fromTime rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf :time ;
           rdfs:label "from time"@en ,
@@ -84,7 +84,7 @@
                      "temps début"@fr .
 
 
-###  http://www.bim4ren.eu/property#height
+###  https://models.bim4ren.eu/property#height
 :height rdf:type owl:ObjectProperty ;
         rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
         rdfs:label "altezza"@it ,
@@ -94,7 +94,7 @@
         <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 
 
-###  http://www.bim4ren.eu/property#power
+###  https://models.bim4ren.eu/property#power
 :power rdf:type owl:ObjectProperty ;
        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
        rdfs:label "potencia"@es ,
@@ -104,7 +104,7 @@
        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Power> .
 
 
-###  http://www.bim4ren.eu/property#pressure
+###  https://models.bim4ren.eu/property#pressure
 :pressure rdf:type owl:ObjectProperty ;
           rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
           rdfs:label "presión"@es ,
@@ -114,7 +114,7 @@
           <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Pressure> .
 
 
-###  http://www.bim4ren.eu/property#price
+###  https://models.bim4ren.eu/property#price
 :price rdf:type owl:ObjectProperty ;
        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
        rdfs:label "precio"@es ,
@@ -124,7 +124,7 @@
        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Currency> .
 
 
-###  http://www.bim4ren.eu/property#ratio
+###  https://models.bim4ren.eu/property#ratio
 :ratio rdf:type owl:ObjectProperty ;
        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
        rdfs:label "proporción"@es ,
@@ -134,7 +134,7 @@
        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/DimensionlessRatio> .
 
 
-###  http://www.bim4ren.eu/property#speed
+###  https://models.bim4ren.eu/property#speed
 :speed rdf:type owl:ObjectProperty ;
        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
        rdfs:label "speed"@en ,
@@ -144,7 +144,7 @@
        <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Speed> .
 
 
-###  http://www.bim4ren.eu/property#temperature
+###  https://models.bim4ren.eu/property#temperature
 :temperature rdf:type owl:ObjectProperty ;
              rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
              rdfs:label "temperatura"@es ,
@@ -154,7 +154,7 @@
              <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Temperature> .
 
 
-###  http://www.bim4ren.eu/property#thickness
+###  https://models.bim4ren.eu/property#thickness
 :thickness rdf:type owl:ObjectProperty ;
            rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
            rdfs:label "espesor"@es ,
@@ -164,7 +164,7 @@
            <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 
 
-###  http://www.bim4ren.eu/property#time
+###  https://models.bim4ren.eu/property#time
 :time rdf:type owl:ObjectProperty ;
       rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
       rdfs:label "tempo"@it ,
@@ -174,7 +174,7 @@
       <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Time> .
 
 
-###  http://www.bim4ren.eu/property#toTime
+###  https://models.bim4ren.eu/property#toTime
 :toTime rdf:type owl:ObjectProperty ;
         rdfs:subPropertyOf :time ;
         rdfs:label "hora de finalización"@es ,
@@ -183,7 +183,7 @@
                    "to time"@en .
 
 
-###  http://www.bim4ren.eu/property#volume
+###  https://models.bim4ren.eu/property#volume
 :volume rdf:type owl:ObjectProperty ;
         rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
         rdfs:label "volume"@en ,
@@ -193,7 +193,7 @@
         <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Volume> .
 
 
-###  http://www.bim4ren.eu/property#width
+###  https://models.bim4ren.eu/property#width
 :width rdf:type owl:ObjectProperty ;
        rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
        rdfs:label "anchura"@es ,

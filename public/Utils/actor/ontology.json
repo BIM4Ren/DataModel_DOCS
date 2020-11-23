@@ -6,37 +6,37 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#AgeCategory"
+    "@id" : "https://models.bim4ren.eu/actors#AgeCategory"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#ageCategory"
+    "@id" : "https://models.bim4ren.eu/actors#ageCategory"
   } ]
 }, {
   "@id" : "_:genid10",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile"
+    "@id" : "https://models.bim4ren.eu/actors#OccupancyProfile"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#occupancyProfile"
+    "@id" : "https://models.bim4ren.eu/actors#occupancyProfile"
   } ]
 }, {
   "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#WorkSituation"
+    "@id" : "https://models.bim4ren.eu/actors#WorkSituation"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#workSituation"
+    "@id" : "https://models.bim4ren.eu/actors#workSituation"
   } ]
 }, {
   "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#WorkType"
+    "@id" : "https://models.bim4ren.eu/actors#WorkType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#workType"
+    "@id" : "https://models.bim4ren.eu/actors#workType"
   } ]
 }, {
   "@id" : "_:genid13",
@@ -45,18 +45,18 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#income"
+    "@id" : "https://models.bim4ren.eu/actors#income"
   } ]
 }, {
   "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.bim4ren.eu/actors#EMPLOYED"
+      "@id" : "https://models.bim4ren.eu/actors#EMPLOYED"
     }, {
-      "@id" : "http://www.bim4ren.eu/actors#SELF_EMPLOYED"
+      "@id" : "https://models.bim4ren.eu/actors#SELF_EMPLOYED"
     }, {
-      "@id" : "http://www.bim4ren.eu/actors#UNEMPLOYED"
+      "@id" : "https://models.bim4ren.eu/actors#UNEMPLOYED"
     } ]
   } ]
 }, {
@@ -64,21 +64,21 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.bim4ren.eu/actors#COMFORT"
+      "@id" : "https://models.bim4ren.eu/actors#COMFORT"
     }, {
-      "@id" : "http://www.bim4ren.eu/actors#ECO"
+      "@id" : "https://models.bim4ren.eu/actors#ECO"
     }, {
-      "@id" : "http://www.bim4ren.eu/actors#ECO_PLUS"
+      "@id" : "https://models.bim4ren.eu/actors#ECO_PLUS"
     } ]
   } ]
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#OccupancyTimeRange"
+    "@id" : "https://models.bim4ren.eu/actors#OccupancyTimeRange"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#occupancyTime"
+    "@id" : "https://models.bim4ren.eu/actors#occupancyTime"
   } ]
 }, {
   "@id" : "_:genid7",
@@ -91,7 +91,7 @@
     "@id" : "https://w3id.org/bot#Zone"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#associatedZone"
+    "@id" : "https://models.bim4ren.eu/actors#associatedZone"
   } ]
 }, {
   "@id" : "_:genid8",
@@ -100,7 +100,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#fromDateTime"
+    "@id" : "https://models.bim4ren.eu/actors#fromDateTime"
   } ]
 }, {
   "@id" : "_:genid9",
@@ -109,17 +109,17 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#toDateTime"
+    "@id" : "https://models.bim4ren.eu/actors#toDateTime"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors",
+  "@id" : "https://models.bim4ren.eu/actors",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/actors/0.1"
+    "@id" : "https://models.bim4ren.eu/actors/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#ADULT",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "@id" : "https://models.bim4ren.eu/actors#ADULT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#AgeCategory" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An adult is a person aged between 18 and 64 inclusive"
@@ -135,7 +135,7 @@
     "@value" : "Adulte"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#Actor",
+  "@id" : "https://models.bim4ren.eu/actors#Actor",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -159,7 +159,7 @@
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#AgeCategory",
+  "@id" : "https://models.bim4ren.eu/actors#AgeCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -176,8 +176,8 @@
     "@value" : "Catégorie d'âge"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#BABY",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "@id" : "https://models.bim4ren.eu/actors#BABY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#AgeCategory" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A baby is a person who is less than a year old"
@@ -193,7 +193,7 @@
     "@value" : "Bébé"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#BuildingManager",
+  "@id" : "https://models.bim4ren.eu/actors#BuildingManager",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -210,15 +210,15 @@
     "@value" : "Maître d'oeuvre"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Actor"
+    "@id" : "https://models.bim4ren.eu/actors#Actor"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#BuildingOwner"
+    "@id" : "https://models.bim4ren.eu/actors#BuildingOwner"
   }, {
-    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+    "@id" : "https://models.bim4ren.eu/actors#Occupant"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#BuildingOwner",
+  "@id" : "https://models.bim4ren.eu/actors#BuildingOwner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -239,11 +239,11 @@
     "@value" : "Maître d'ouvrage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Actor"
+    "@id" : "https://models.bim4ren.eu/actors#Actor"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#CHILD",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "@id" : "https://models.bim4ren.eu/actors#CHILD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#AgeCategory" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A child is a person aged between 1 year and 11 years inclusive"
@@ -259,8 +259,8 @@
     "@value" : "Enfant"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#COMFORT",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#EnergyPolicy" ],
+  "@id" : "https://models.bim4ren.eu/actors#COMFORT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#EnergyPolicy" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An occupant who is not eco friendly"
@@ -282,8 +282,8 @@
     "@value" : "Confort"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#ECO",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#EnergyPolicy" ],
+  "@id" : "https://models.bim4ren.eu/actors#ECO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#EnergyPolicy" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An occupant who is eco friendly"
@@ -305,8 +305,8 @@
     "@value" : "Ecológico"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#ECO_PLUS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#EnergyPolicy" ],
+  "@id" : "https://models.bim4ren.eu/actors#ECO_PLUS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#EnergyPolicy" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An occupant who is eco friendly++"
@@ -328,8 +328,8 @@
     "@value" : "Ecológico++"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#ELDERLY",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "@id" : "https://models.bim4ren.eu/actors#ELDERLY",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#AgeCategory" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An elderly is a person aged 65 and over"
@@ -345,8 +345,8 @@
     "@value" : "Personne âgée"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#EMPLOYED",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#WorkType" ],
+  "@id" : "https://models.bim4ren.eu/actors#EMPLOYED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#WorkType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An occupant having a paid job"
@@ -362,7 +362,7 @@
     "@value" : "Employé"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#EnergyPolicy",
+  "@id" : "https://models.bim4ren.eu/actors#EnergyPolicy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -388,7 +388,7 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile",
+  "@id" : "https://models.bim4ren.eu/actors#OccupancyProfile",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -410,7 +410,7 @@
     "@id" : "_:genid7"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#OccupancyTimeRange",
+  "@id" : "https://models.bim4ren.eu/actors#OccupancyTimeRange",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -432,7 +432,7 @@
     "@id" : "_:genid9"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#Occupant",
+  "@id" : "https://models.bim4ren.eu/actors#Occupant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -453,15 +453,15 @@
     "@value" : "Occupant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Actor"
+    "@id" : "https://models.bim4ren.eu/actors#Actor"
   }, {
     "@id" : "_:genid10"
   }, {
     "@id" : "_:genid11"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#SELF_EMPLOYED",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#WorkType" ],
+  "@id" : "https://models.bim4ren.eu/actors#SELF_EMPLOYED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#WorkType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An occupant who is working for oneself as a freelance or who is the owner of a business"
@@ -477,8 +477,8 @@
     "@value" : "Travailleur indépendant"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#TEENAGER",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#AgeCategory" ],
+  "@id" : "https://models.bim4ren.eu/actors#TEENAGER",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#AgeCategory" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A teenager is a person aged between 12 and 17 years inclusive"
@@ -494,8 +494,8 @@
     "@value" : "Teenager"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#UNEMPLOYED",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bim4ren.eu/actors#WorkType" ],
+  "@id" : "https://models.bim4ren.eu/actors#UNEMPLOYED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/actors#WorkType" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An occupant without a paid job"
@@ -511,7 +511,7 @@
     "@value" : "sans emploi"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#WorkSituation",
+  "@id" : "https://models.bim4ren.eu/actors#WorkSituation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -533,7 +533,7 @@
     "@id" : "_:genid13"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#WorkType",
+  "@id" : "https://models.bim4ren.eu/actors#WorkType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -553,7 +553,7 @@
     "@id" : "_:genid14"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#ageCategory",
+  "@id" : "https://models.bim4ren.eu/actors#ageCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -563,7 +563,7 @@
     "@value" : "Relation décrivant le lien entre un acteur et la catégorie d'âge correspondante"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Actor"
+    "@id" : "https://models.bim4ren.eu/actors#Actor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -573,10 +573,10 @@
     "@value" : "catégorie d'âge"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#AgeCategory"
+    "@id" : "https://models.bim4ren.eu/actors#AgeCategory"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#associatedActor",
+  "@id" : "https://models.bim4ren.eu/actors#associatedActor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -596,10 +596,10 @@
     "@value" : "associated actor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Actor"
+    "@id" : "https://models.bim4ren.eu/actors#Actor"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#associatedZone",
+  "@id" : "https://models.bim4ren.eu/actors#associatedZone",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -619,7 +619,7 @@
     "@id" : "https://w3id.org/bot#Zone"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#fromDateTime",
+  "@id" : "https://models.bim4ren.eu/actors#fromDateTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -639,7 +639,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#hasEnergyPolicy",
+  "@id" : "https://models.bim4ren.eu/actors#hasEnergyPolicy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -649,7 +649,7 @@
     "@value" : "Propriété liant un occupant à la politique d'énergie qu'il adopte"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+    "@id" : "https://models.bim4ren.eu/actors#Occupant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -665,10 +665,10 @@
     "@value" : "política energética"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#EnergyPolicy"
+    "@id" : "https://models.bim4ren.eu/actors#EnergyPolicy"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#income",
+  "@id" : "https://models.bim4ren.eu/actors#income",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -688,7 +688,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#occupancyProfile",
+  "@id" : "https://models.bim4ren.eu/actors#occupancyProfile",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -698,7 +698,7 @@
     "@value" : "Relation décrivant le lien entre un occupant et son profile d'occupation associé à une zone particulière"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+    "@id" : "https://models.bim4ren.eu/actors#Occupant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -708,10 +708,10 @@
     "@value" : "profile d'occupation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile"
+    "@id" : "https://models.bim4ren.eu/actors#OccupancyProfile"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#occupancyTime",
+  "@id" : "https://models.bim4ren.eu/actors#occupancyTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -721,7 +721,7 @@
     "@value" : "Relation décrivant le lien entre un profile d'occupation (associé à un occupant et une zone donnée) et l'intervalle d'occupation correspondant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#OccupancyProfile"
+    "@id" : "https://models.bim4ren.eu/actors#OccupancyProfile"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -731,10 +731,10 @@
     "@value" : "temps d'occupation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#OccupancyTimeRange"
+    "@id" : "https://models.bim4ren.eu/actors#OccupancyTimeRange"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#toDateTime",
+  "@id" : "https://models.bim4ren.eu/actors#toDateTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -754,7 +754,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#workSituation",
+  "@id" : "https://models.bim4ren.eu/actors#workSituation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -764,7 +764,7 @@
     "@value" : "Relation décrivant le lien entre un occupant et la situation de travail correspondate"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#Occupant"
+    "@id" : "https://models.bim4ren.eu/actors#Occupant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -774,10 +774,10 @@
     "@value" : "work situation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#WorkSituation"
+    "@id" : "https://models.bim4ren.eu/actors#WorkSituation"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/actors#workType",
+  "@id" : "https://models.bim4ren.eu/actors#workType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -787,7 +787,7 @@
     "@value" : "Relation décrivant le lien entre la situation de travail associée à un occupant et le type de ce travail"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#WorkSituation"
+    "@id" : "https://models.bim4ren.eu/actors#WorkSituation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -797,7 +797,7 @@
     "@value" : "work type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/actors#WorkType"
+    "@id" : "https://models.bim4ren.eu/actors#WorkType"
   } ]
 }, {
   "@id" : "https://w3id.org/bot#Zone",

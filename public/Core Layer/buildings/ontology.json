@@ -9,7 +9,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#constructionYear"
+    "@id" : "https://models.bim4ren.eu/buildings#constructionYear"
   } ]
 }, {
   "@id" : "_:genid2",
@@ -36,7 +36,16 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#",
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/buildings#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Nathalie Charbel"
@@ -52,21 +61,21 @@
     "@value" : "The BIM4Ren buildings ontology"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.bim4ren.eu/property#"
+    "@id" : "https://models.bim4ren.eu/property#"
   }, {
     "@id" : "https://w3id.org/bot"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings/0.1"
+    "@id" : "https://models.bim4ren.eu/buildings/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Allotment",
+  "@id" : "https://models.bim4ren.eu/buildings#Allotment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#SingleFamilyHousing"
+    "@id" : "https://models.bim4ren.eu/buildings#SingleFamilyHousing"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Appartment",
+  "@id" : "https://models.bim4ren.eu/buildings#Appartment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -76,7 +85,7 @@
     "@value" : "Appartment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#VolumetricZone"
+    "@id" : "https://models.bim4ren.eu/buildings#VolumetricZone"
   }, {
     "@id" : "https://w3id.org/bot#Zone"
   } ],
@@ -90,7 +99,7 @@
     "@id" : "https://w3id.org/bot#Storey"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Attic",
+  "@id" : "https://models.bim4ren.eu/buildings#Attic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -103,7 +112,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Bathroom",
+  "@id" : "https://models.bim4ren.eu/buildings#Bathroom",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -118,13 +127,13 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Cellar",
+  "@id" : "https://models.bim4ren.eu/buildings#Cellar",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#CirculationSpace",
+  "@id" : "https://models.bim4ren.eu/buildings#CirculationSpace",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -137,7 +146,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Condominum",
+  "@id" : "https://models.bim4ren.eu/buildings#Condominum",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -148,16 +157,16 @@
     "@value" : "Condominum"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#MultiDwellingHousing"
+    "@id" : "https://models.bim4ren.eu/buildings#MultiDwellingHousing"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#DetachedHouse",
+  "@id" : "https://models.bim4ren.eu/buildings#DetachedHouse",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#SingleFamilyHousing"
+    "@id" : "https://models.bim4ren.eu/buildings#SingleFamilyHousing"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#DiningRoom",
+  "@id" : "https://models.bim4ren.eu/buildings#DiningRoom",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -170,7 +179,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Dormitory",
+  "@id" : "https://models.bim4ren.eu/buildings#Dormitory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -187,10 +196,10 @@
     "@value" : "Dortoir"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#Residential"
+    "@id" : "https://models.bim4ren.eu/buildings#Residential"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Enveloppe",
+  "@id" : "https://models.bim4ren.eu/buildings#Enveloppe",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -206,7 +215,7 @@
     "@value" : "Involucro edilizio"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Garage",
+  "@id" : "https://models.bim4ren.eu/buildings#Garage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -219,7 +228,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding",
+  "@id" : "https://models.bim4ren.eu/buildings#GovernmentSubsidizedBuilding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -233,10 +242,10 @@
     "@value" : "Government Subsidized Building"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#MultiDwellingHousing"
+    "@id" : "https://models.bim4ren.eu/buildings#MultiDwellingHousing"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Kitchen",
+  "@id" : "https://models.bim4ren.eu/buildings#Kitchen",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -251,7 +260,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#LivingRoom",
+  "@id" : "https://models.bim4ren.eu/buildings#LivingRoom",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -264,7 +273,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#MultiDwellingHousing",
+  "@id" : "https://models.bim4ren.eu/buildings#MultiDwellingHousing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -279,10 +288,10 @@
     "@value" : "Multi-Dwelling Housing"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#Residential"
+    "@id" : "https://models.bim4ren.eu/buildings#Residential"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Residential",
+  "@id" : "https://models.bim4ren.eu/buildings#Residential",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -304,7 +313,7 @@
     "@id" : "https://w3id.org/bot#Building"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#SeniorHousing",
+  "@id" : "https://models.bim4ren.eu/buildings#SeniorHousing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -314,10 +323,10 @@
     "@value" : "'Senior Housing' in Omniclass 11 (2013 02 26)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#Residential"
+    "@id" : "https://models.bim4ren.eu/buildings#Residential"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#SingleFamilyHousing",
+  "@id" : "https://models.bim4ren.eu/buildings#SingleFamilyHousing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -329,10 +338,10 @@
     "@value" : "'Single Family Residence' in Omniclass 11 (2013 02 26)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#Residential"
+    "@id" : "https://models.bim4ren.eu/buildings#Residential"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#SleepingRoom",
+  "@id" : "https://models.bim4ren.eu/buildings#SleepingRoom",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -345,17 +354,17 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#SocialHousingBuilding",
+  "@id" : "https://models.bim4ren.eu/buildings#SocialHousingBuilding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
     "@value" : "'LIHTC Tax Credit Housing' in Omniclass 11 (2013 02 26)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#MultiDwellingHousing"
+    "@id" : "https://models.bim4ren.eu/buildings#MultiDwellingHousing"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#SpecialCareBuilding",
+  "@id" : "https://models.bim4ren.eu/buildings#SpecialCareBuilding",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -367,16 +376,16 @@
     "@value" : "'Special Care Residence' in Omniclass 11 (2013 02 26)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#Residential"
+    "@id" : "https://models.bim4ren.eu/buildings#Residential"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Terraced",
+  "@id" : "https://models.bim4ren.eu/buildings#Terraced",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#SingleFamilyHousing"
+    "@id" : "https://models.bim4ren.eu/buildings#SingleFamilyHousing"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#Toilets",
+  "@id" : "https://models.bim4ren.eu/buildings#Toilets",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -391,13 +400,13 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#VolumetricZone",
+  "@id" : "https://models.bim4ren.eu/buildings#VolumetricZone",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/bot#Zone"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#constructionYear",
+  "@id" : "https://models.bim4ren.eu/buildings#constructionYear",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/bot#Building"
@@ -406,38 +415,29 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/buildings#isMadeOf",
+  "@id" : "https://models.bim4ren.eu/buildings#isMadeOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#Enveloppe"
+    "@id" : "https://models.bim4ren.eu/buildings#Enveloppe"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/bot#Element"
   } ]
 }, {
-  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
-  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
-}, {
-  "@id" : "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.w3.org/2002/07/owl#qualifiedCardinality",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "https://w3id.org/bot#Building",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#VolumetricZone"
+    "@id" : "https://models.bim4ren.eu/buildings#VolumetricZone"
   }, {
     "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "https://w3id.org/bot#Space",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#VolumetricZone"
+    "@id" : "https://models.bim4ren.eu/buildings#VolumetricZone"
   } ]
 }, {
   "@id" : "https://w3id.org/bot#Storey",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/buildings#VolumetricZone"
+    "@id" : "https://models.bim4ren.eu/buildings#VolumetricZone"
   } ]
 } ]

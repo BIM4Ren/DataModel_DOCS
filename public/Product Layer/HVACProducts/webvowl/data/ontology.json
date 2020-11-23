@@ -183,7 +183,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "VaccumCollector",
-      "en" : "Vacuum collector",
+      "en" : "Evacuated tube collector",
       "fr" : "Capteur à tube sous vide"
     },
     "id" : "30",

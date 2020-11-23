@@ -1,5 +1,5 @@
-<http://bim4ren.eu/buildingelements#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://bim4ren.eu/buildingelements#> <http://www.w3.org/2002/07/owl#imports> <https://buildingsmart.org/ifc4-voc/buildingelement> .
+<https://models.bim4ren.eu/buildingelements#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/buildingelements#> <http://www.w3.org/2002/07/owl#imports> <https://buildingsmart.org/ifc4-voc/buildingelement> .
 # 
 # 
 # #################################################################
@@ -9,9 +9,9 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/buildingelements#hasGlazing
-<http://bim4ren.eu/buildingelements#hasGlazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/buildingelements#hasGlazing> <http://www.w3.org/2000/01/rdf-schema#range> <http://bim4ren.eu/buildingelements#Glazing> .
+# https://models.bim4ren.eu/buildingelements#hasGlazing
+<https://models.bim4ren.eu/buildingelements#hasGlazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/buildingelements#hasGlazing> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/buildingelements#Glazing> .
 # 
 # 
 # 
@@ -22,157 +22,157 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/buildingelements#Abestos
-<http://bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Mineralwool> .
-<http://bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/2000/01/rdf-schema#label> "Amiante"@fr .
-<http://bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/2000/01/rdf-schema#label> "Asbestos"@en .
-# 
-# http://bim4ren.eu/buildingelements#Cellulose
-<http://bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulose"@en .
-<http://bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulose"@fr .
-# 
-# http://bim4ren.eu/buildingelements#Cork
-<http://bim4ren.eu/buildingelements#Cork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Cork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#Cork> <http://www.w3.org/2000/01/rdf-schema#label> "Cork"@en .
-<http://bim4ren.eu/buildingelements#Cork> <http://www.w3.org/2000/01/rdf-schema#label> "Liège"@fr .
-# 
-# http://bim4ren.eu/buildingelements#Cotton
-<http://bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/2000/01/rdf-schema#label> "Cotton"@en .
-<http://bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/2000/01/rdf-schema#label> "Cotton"@fr .
-# 
-# http://bim4ren.eu/buildingelements#ExpandedClay
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Mineralwool> .
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Argile Expansée"@fr .
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Exclay"@en .
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Expanded clay"@en .
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "LECA"@en .
-<http://bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Latérite"@fr .
-# 
-# http://bim4ren.eu/buildingelements#FlaxWool
-<http://bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/2000/01/rdf-schema#label> "Flax wool"@en .
-<http://bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de lin"@fr .
-# 
-# http://bim4ren.eu/buildingelements#GlassWool
-<http://bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Mineralwool> .
-<http://bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/2000/01/rdf-schema#label> "Glass wool"@en .
-<http://bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de verre"@fr .
-# 
-# http://bim4ren.eu/buildingelements#Glazing
-<http://bim4ren.eu/buildingelements#Glazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://bim4ren.eu/buildingelements#HempWool
-<http://bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/2000/01/rdf-schema#label> "Hemp wool"@en .
-<http://bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de chanvre"@fr .
-# 
-# http://bim4ren.eu/buildingelements#Laine
-<http://bim4ren.eu/buildingelements#Laine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Laine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#Laine> <http://www.w3.org/2000/01/rdf-schema#label> "Laine"@fr .
-<http://bim4ren.eu/buildingelements#Laine> <http://www.w3.org/2000/01/rdf-schema#label> "Wool"@en .
-# 
-# http://bim4ren.eu/buildingelements#Material
-<http://bim4ren.eu/buildingelements#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://bim4ren.eu/buildingelements#Mineralwool
-<http://bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Material> .
-<http://bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> .
-<https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#comment> "Mineral wool based insulation material"@en .
-<http://bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine Minérale"@fr .
-<http://bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#label> "Mineral Wool"@en .
-# 
-# http://bim4ren.eu/buildingelements#NaturalFiber
-<http://bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Material> .
-<http://bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> .
-<http://bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#label> "Fibre Naturelle"@fr .
-<http://bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#label> "Natural Fiber"@en .
-# 
-# http://bim4ren.eu/buildingelements#Perlite
-<http://bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Mineralwool> .
-<http://bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Perlite"@en .
-<http://bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Perlite"@fr .
-<http://bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Sable silicieux"@fr .
-<http://bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Silice"@fr .
-# 
-# http://bim4ren.eu/buildingelements#Polyester
-<http://bim4ren.eu/buildingelements#Polyester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Polyester> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Synthetic> .
-# 
-# http://bim4ren.eu/buildingelements#Polyisocyanurate
-<http://bim4ren.eu/buildingelements#Polyisocyanurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Polyisocyanurate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Synthetic> .
-# 
-# http://bim4ren.eu/buildingelements#Polystirene
-<http://bim4ren.eu/buildingelements#Polystirene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Polystirene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Synthetic> .
-# 
-# http://bim4ren.eu/buildingelements#PolyvinylChloride
-<http://bim4ren.eu/buildingelements#PolyvinylChloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#PolyvinylChloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Synthetic> .
-# 
-# http://bim4ren.eu/buildingelements#PressedWood
-<http://bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/2000/01/rdf-schema#label> "Bois aggloméré"@fr .
-<http://bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/2000/01/rdf-schema#label> "Pressed wood"@en .
-# 
-# http://bim4ren.eu/buildingelements#RockWool
-<http://bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Mineralwool> .
-<http://bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de roche"@fr .
-<http://bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/2000/01/rdf-schema#label> "Rock wool"@en .
-# 
-# http://bim4ren.eu/buildingelements#Solomite
-<http://bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Paille"@fr .
-<http://bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Solomite"@en .
-<http://bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Solomite"@fr .
-<http://bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Straw"@en .
-# 
-# http://bim4ren.eu/buildingelements#Straw
-<http://bim4ren.eu/buildingelements#Straw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Straw> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#Straw> <http://www.w3.org/2000/01/rdf-schema#label> "Paille"@fr .
-<http://bim4ren.eu/buildingelements#Straw> <http://www.w3.org/2000/01/rdf-schema#label> "Straw"@en .
-# 
-# http://bim4ren.eu/buildingelements#Synthetic
-<http://bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Material> .
-<http://bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> .
-<http://bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetic"@en .
-<http://bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Synthétique"@fr .
-# 
-# http://bim4ren.eu/buildingelements#UrealFormaldehyde
-<http://bim4ren.eu/buildingelements#UrealFormaldehyde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#UrealFormaldehyde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Synthetic> .
-# 
-# http://bim4ren.eu/buildingelements#Vermiculite
-<http://bim4ren.eu/buildingelements#Vermiculite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#Vermiculite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#Mineralwool> .
-# 
-# http://bim4ren.eu/buildingelements#WoodWool
-<http://bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/buildingelements#NaturalFiber> .
-<http://bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de bois"@fr .
-<http://bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/2000/01/rdf-schema#label> "Wood wool"@en .
-# 
 # https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION
+<https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://models.bim4ren.eu/buildingelements#Abestos
+<https://models.bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Mineralwool> .
+<https://models.bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/2000/01/rdf-schema#label> "Amiante"@fr .
+<https://models.bim4ren.eu/buildingelements#Abestos> <http://www.w3.org/2000/01/rdf-schema#label> "Asbestos"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#Cellulose
+<https://models.bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulose"@en .
+<https://models.bim4ren.eu/buildingelements#Cellulose> <http://www.w3.org/2000/01/rdf-schema#label> "Cellulose"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#Cork
+<https://models.bim4ren.eu/buildingelements#Cork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Cork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#Cork> <http://www.w3.org/2000/01/rdf-schema#label> "Cork"@en .
+<https://models.bim4ren.eu/buildingelements#Cork> <http://www.w3.org/2000/01/rdf-schema#label> "Liège"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#Cotton
+<https://models.bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/2000/01/rdf-schema#label> "Cotton"@en .
+<https://models.bim4ren.eu/buildingelements#Cotton> <http://www.w3.org/2000/01/rdf-schema#label> "Cotton"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#ExpandedClay
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Mineralwool> .
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Argile Expansée"@fr .
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Exclay"@en .
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Expanded clay"@en .
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "LECA"@en .
+<https://models.bim4ren.eu/buildingelements#ExpandedClay> <http://www.w3.org/2000/01/rdf-schema#label> "Latérite"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#FlaxWool
+<https://models.bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/2000/01/rdf-schema#label> "Flax wool"@en .
+<https://models.bim4ren.eu/buildingelements#FlaxWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de lin"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#GlassWool
+<https://models.bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Mineralwool> .
+<https://models.bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/2000/01/rdf-schema#label> "Glass wool"@en .
+<https://models.bim4ren.eu/buildingelements#GlassWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de verre"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#Glazing
+<https://models.bim4ren.eu/buildingelements#Glazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://models.bim4ren.eu/buildingelements#HempWool
+<https://models.bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/2000/01/rdf-schema#label> "Hemp wool"@en .
+<https://models.bim4ren.eu/buildingelements#HempWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de chanvre"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#Laine
+<https://models.bim4ren.eu/buildingelements#Laine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Laine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#Laine> <http://www.w3.org/2000/01/rdf-schema#label> "Laine"@fr .
+<https://models.bim4ren.eu/buildingelements#Laine> <http://www.w3.org/2000/01/rdf-schema#label> "Wool"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#Material
+<https://models.bim4ren.eu/buildingelements#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://models.bim4ren.eu/buildingelements#Mineralwool
+<https://models.bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> .
+<https://models.bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Material> .
+<https://models.bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#comment> "Mineral wool based insulation material"@en .
+<https://models.bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine Minérale"@fr .
+<https://models.bim4ren.eu/buildingelements#Mineralwool> <http://www.w3.org/2000/01/rdf-schema#label> "Mineral Wool"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#NaturalFiber
+<https://models.bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> .
+<https://models.bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Material> .
+<https://models.bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#label> "Fibre Naturelle"@fr .
+<https://models.bim4ren.eu/buildingelements#NaturalFiber> <http://www.w3.org/2000/01/rdf-schema#label> "Natural Fiber"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#Perlite
+<https://models.bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Mineralwool> .
+<https://models.bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Perlite"@en .
+<https://models.bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Perlite"@fr .
+<https://models.bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Sable silicieux"@fr .
+<https://models.bim4ren.eu/buildingelements#Perlite> <http://www.w3.org/2000/01/rdf-schema#label> "Silice"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#Polyester
+<https://models.bim4ren.eu/buildingelements#Polyester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Polyester> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Synthetic> .
+# 
+# https://models.bim4ren.eu/buildingelements#Polyisocyanurate
+<https://models.bim4ren.eu/buildingelements#Polyisocyanurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Polyisocyanurate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Synthetic> .
+# 
+# https://models.bim4ren.eu/buildingelements#Polystirene
+<https://models.bim4ren.eu/buildingelements#Polystirene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Polystirene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Synthetic> .
+# 
+# https://models.bim4ren.eu/buildingelements#PolyvinylChloride
+<https://models.bim4ren.eu/buildingelements#PolyvinylChloride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#PolyvinylChloride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Synthetic> .
+# 
+# https://models.bim4ren.eu/buildingelements#PressedWood
+<https://models.bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/2000/01/rdf-schema#label> "Bois aggloméré"@fr .
+<https://models.bim4ren.eu/buildingelements#PressedWood> <http://www.w3.org/2000/01/rdf-schema#label> "Pressed wood"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#RockWool
+<https://models.bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Mineralwool> .
+<https://models.bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de roche"@fr .
+<https://models.bim4ren.eu/buildingelements#RockWool> <http://www.w3.org/2000/01/rdf-schema#label> "Rock wool"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#Solomite
+<https://models.bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Paille"@fr .
+<https://models.bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Solomite"@en .
+<https://models.bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Solomite"@fr .
+<https://models.bim4ren.eu/buildingelements#Solomite> <http://www.w3.org/2000/01/rdf-schema#label> "Straw"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#Straw
+<https://models.bim4ren.eu/buildingelements#Straw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Straw> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#Straw> <http://www.w3.org/2000/01/rdf-schema#label> "Paille"@fr .
+<https://models.bim4ren.eu/buildingelements#Straw> <http://www.w3.org/2000/01/rdf-schema#label> "Straw"@en .
+# 
+# https://models.bim4ren.eu/buildingelements#Synthetic
+<https://models.bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://buildingsmart.org/ifc4-voc/buildingelement#BuildingElementPart-INSULATION> .
+<https://models.bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Material> .
+<https://models.bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Synthetic"@en .
+<https://models.bim4ren.eu/buildingelements#Synthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Synthétique"@fr .
+# 
+# https://models.bim4ren.eu/buildingelements#UrealFormaldehyde
+<https://models.bim4ren.eu/buildingelements#UrealFormaldehyde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#UrealFormaldehyde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Synthetic> .
+# 
+# https://models.bim4ren.eu/buildingelements#Vermiculite
+<https://models.bim4ren.eu/buildingelements#Vermiculite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#Vermiculite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#Mineralwool> .
+# 
+# https://models.bim4ren.eu/buildingelements#WoodWool
+<https://models.bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/buildingelements#NaturalFiber> .
+<https://models.bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/2000/01/rdf-schema#label> "Laine de bois"@fr .
+<https://models.bim4ren.eu/buildingelements#WoodWool> <http://www.w3.org/2000/01/rdf-schema#label> "Wood wool"@en .
 # 
 # 
 # 
@@ -183,20 +183,20 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/buildingelements#doubleGlazing
-<http://bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "doble acristalamiento"@es .
-<http://bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "doble cristal"@es .
-<http://bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "doppi vetri"@it .
-<http://bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "double glazing"@en .
-<http://bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "double vitrage"@fr .
+# https://models.bim4ren.eu/buildingelements#doubleGlazing
+<https://models.bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "doble acristalamiento"@es .
+<https://models.bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "doble cristal"@es .
+<https://models.bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "doppi vetri"@it .
+<https://models.bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "double glazing"@en .
+<https://models.bim4ren.eu/buildingelements#doubleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "double vitrage"@fr .
 # 
-# http://bim4ren.eu/buildingelements#simpleGlazing
-<http://bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "simple glazing"@en .
-<http://bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "simple vidrio"@es .
-<http://bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "simple vitrage"@fr .
-<http://bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "vetro simplice"@it .
-<http://bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "vetro singolo"@it .
+# https://models.bim4ren.eu/buildingelements#simpleGlazing
+<https://models.bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://models.bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "simple glazing"@en .
+<https://models.bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "simple vidrio"@es .
+<https://models.bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "simple vitrage"@fr .
+<https://models.bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "vetro simplice"@it .
+<https://models.bim4ren.eu/buildingelements#simpleGlazing> <http://www.w3.org/2000/01/rdf-schema#label> "vetro singolo"@it .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

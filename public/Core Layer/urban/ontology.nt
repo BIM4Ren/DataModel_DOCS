@@ -1,6 +1,6 @@
-<http://bim4ren.eu/urban> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://bim4ren.eu/urban> <http://www.w3.org/2002/07/owl#imports> <http://www.bim4ren.eu/property#> .
-<http://bim4ren.eu/urban> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/def/basicsemantics-owl> .
+<https://models.bim4ren.eu/urban> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/urban> <http://www.w3.org/2002/07/owl#imports> <https://models.bim4ren.eu/property#> .
+<https://models.bim4ren.eu/urban> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/def/basicsemantics-owl> .
 # 
 # 
 # #################################################################
@@ -22,51 +22,51 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/urban#altitude
-<http://bim4ren.eu/urban#altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#altitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://bim4ren.eu/urban#Positioning> .
-<http://bim4ren.eu/urban#altitude> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude "@en .
-<http://bim4ren.eu/urban#altitude> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+# https://models.bim4ren.eu/property#angle
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://bim4ren.eu/urban#greenZoneRatio
-<http://bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "part de végétalisation"@fr .
-<http://bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "part of vegetalisation"@en .
+# https://models.bim4ren.eu/property#ratio
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://bim4ren.eu/urban#hasPosition
-<http://bim4ren.eu/urban#hasPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#hasPosition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://bim4ren.eu/urban#Object> .
-<http://bim4ren.eu/urban#hasPosition> <http://www.w3.org/2000/01/rdf-schema#range> <http://bim4ren.eu/urban#Positioning> .
+# https://models.bim4ren.eu/urban#altitude
+<https://models.bim4ren.eu/urban#altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#altitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/urban#Positioning> .
+<https://models.bim4ren.eu/urban#altitude> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude "@en .
+<https://models.bim4ren.eu/urban#altitude> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 # 
-# http://bim4ren.eu/urban#hasVerticalProjection
-<http://bim4ren.eu/urban#hasVerticalProjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#hasVerticalProjection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://bim4ren.eu/urban#Object> .
-<http://bim4ren.eu/urban#hasVerticalProjection> <http://www.w3.org/2000/01/rdf-schema#range> <http://bim4ren.eu/urban#VerticalProjection> .
+# https://models.bim4ren.eu/urban#greenZoneRatio
+<https://models.bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#ratio> .
+<https://models.bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "part de végétalisation"@fr .
+<https://models.bim4ren.eu/urban#greenZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "part of vegetalisation"@en .
 # 
-# http://bim4ren.eu/urban#latitude
-<http://bim4ren.eu/urban#latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#latitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#angle> .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://bim4ren.eu/urban#Positioning> .
-<http://bim4ren.eu/urban#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude "@en .
+# https://models.bim4ren.eu/urban#hasPosition
+<https://models.bim4ren.eu/urban#hasPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#hasPosition> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/urban#Object> .
+<https://models.bim4ren.eu/urban#hasPosition> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/urban#Positioning> .
 # 
-# http://bim4ren.eu/urban#longitude
-<http://bim4ren.eu/urban#longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#longitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#angle> .
-<http://bim4ren.eu/urban#longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://bim4ren.eu/urban#Positioning> .
-<http://bim4ren.eu/urban#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude "@en .
+# https://models.bim4ren.eu/urban#hasVerticalProjection
+<https://models.bim4ren.eu/urban#hasVerticalProjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#hasVerticalProjection> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/urban#Object> .
+<https://models.bim4ren.eu/urban#hasVerticalProjection> <http://www.w3.org/2000/01/rdf-schema#range> <https://models.bim4ren.eu/urban#VerticalProjection> .
 # 
-# http://bim4ren.eu/urban#urbanZoneRatio
-<http://bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#ratio> .
-<http://bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "part de végétalisation"@fr .
-<http://bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "urban density"@en .
+# https://models.bim4ren.eu/urban#latitude
+<https://models.bim4ren.eu/urban#latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#latitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#angle> .
+<https://models.bim4ren.eu/urban#latitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/urban#Positioning> .
+<https://models.bim4ren.eu/urban#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude "@en .
 # 
-# http://www.bim4ren.eu/property#angle
+# https://models.bim4ren.eu/urban#longitude
+<https://models.bim4ren.eu/urban#longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#longitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#angle> .
+<https://models.bim4ren.eu/urban#longitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://models.bim4ren.eu/urban#Positioning> .
+<https://models.bim4ren.eu/urban#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude "@en .
 # 
-# http://www.bim4ren.eu/property#ratio
+# https://models.bim4ren.eu/urban#urbanZoneRatio
+<https://models.bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#ratio> .
+<https://models.bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "part de végétalisation"@fr .
+<https://models.bim4ren.eu/urban#urbanZoneRatio> <http://www.w3.org/2000/01/rdf-schema#label> "urban density"@en .
 # 
 # 
 # 
@@ -77,177 +77,177 @@
 # #################################################################
 # 
 # 
-# http://bim4ren.eu/urban#Agriculture
-<http://bim4ren.eu/urban#Agriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Agriculture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#GreenZone> .
+# https://models.bim4ren.eu/urban#Agriculture
+<https://models.bim4ren.eu/urban#Agriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Agriculture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#GreenZone> .
 # 
-# http://bim4ren.eu/urban#Airport
-<http://bim4ren.eu/urban#Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Airport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#CirculationZone> .
+# https://models.bim4ren.eu/urban#Airport
+<https://models.bim4ren.eu/urban#Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Airport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#CirculationZone> .
 # 
-# http://bim4ren.eu/urban#BlockOfBuilding
-<http://bim4ren.eu/urban#BlockOfBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#BlockOfBuilding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#BuiltArea> .
+# https://models.bim4ren.eu/urban#BlockOfBuilding
+<https://models.bim4ren.eu/urban#BlockOfBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#BlockOfBuilding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#BuiltArea> .
 # 
-# http://bim4ren.eu/urban#Building
-<http://bim4ren.eu/urban#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Object> .
-<http://bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Building"@en .
-<http://bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Bâtiment"@fr .
-<http://bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Edificio"@es .
+# https://models.bim4ren.eu/urban#Building
+<https://models.bim4ren.eu/urban#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Object> .
+<https://models.bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Building"@en .
+<https://models.bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Bâtiment"@fr .
+<https://models.bim4ren.eu/urban#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Edificio"@es .
 # 
-# http://bim4ren.eu/urban#BuiltArea
-<http://bim4ren.eu/urban#BuiltArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#BuiltArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Zone> .
-<http://bim4ren.eu/urban#BuiltArea> <http://www.w3.org/2000/01/rdf-schema#label> "Zone construite"@fr .
+# https://models.bim4ren.eu/urban#BuiltArea
+<https://models.bim4ren.eu/urban#BuiltArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#BuiltArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Zone> .
+<https://models.bim4ren.eu/urban#BuiltArea> <http://www.w3.org/2000/01/rdf-schema#label> "Zone construite"@fr .
 # 
-# http://bim4ren.eu/urban#CirculationZone
-<http://bim4ren.eu/urban#CirculationZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#CirculationZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Zone> .
-<http://bim4ren.eu/urban#CirculationZone> <http://www.w3.org/2000/01/rdf-schema#label> "Aménagement routier"@fr .
+# https://models.bim4ren.eu/urban#CirculationZone
+<https://models.bim4ren.eu/urban#CirculationZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#CirculationZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Zone> .
+<https://models.bim4ren.eu/urban#CirculationZone> <http://www.w3.org/2000/01/rdf-schema#label> "Aménagement routier"@fr .
 # 
-# http://bim4ren.eu/urban#CommunicationNetwork
-<http://bim4ren.eu/urban#CommunicationNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#CommunicationNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#FlowInfrastructure> .
+# https://models.bim4ren.eu/urban#CommunicationNetwork
+<https://models.bim4ren.eu/urban#CommunicationNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#CommunicationNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#FlowInfrastructure> .
 # 
-# http://bim4ren.eu/urban#Cone
-<http://bim4ren.eu/urban#Cone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Cone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Shape> .
+# https://models.bim4ren.eu/urban#Cone
+<https://models.bim4ren.eu/urban#Cone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Cone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Shape> .
 # 
-# http://bim4ren.eu/urban#Cuboid
-<http://bim4ren.eu/urban#Cuboid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Cuboid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Shape> .
+# https://models.bim4ren.eu/urban#Cuboid
+<https://models.bim4ren.eu/urban#Cuboid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Cuboid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Shape> .
 # 
-# http://bim4ren.eu/urban#CyclingRoad
-<http://bim4ren.eu/urban#CyclingRoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#CyclingRoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#CirculationZone> .
+# https://models.bim4ren.eu/urban#CyclingRoad
+<https://models.bim4ren.eu/urban#CyclingRoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#CyclingRoad> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#CirculationZone> .
 # 
-# http://bim4ren.eu/urban#Cylinder
-<http://bim4ren.eu/urban#Cylinder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Cylinder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Shape> .
+# https://models.bim4ren.eu/urban#Cylinder
+<https://models.bim4ren.eu/urban#Cylinder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Cylinder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Shape> .
 # 
-# http://bim4ren.eu/urban#ElectrictyNetwork
-<http://bim4ren.eu/urban#ElectrictyNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#ElectrictyNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#FlowInfrastructure> .
+# https://models.bim4ren.eu/urban#ElectrictyNetwork
+<https://models.bim4ren.eu/urban#ElectrictyNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#ElectrictyNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#FlowInfrastructure> .
 # 
-# http://bim4ren.eu/urban#FlowInfrastructure
-<http://bim4ren.eu/urban#FlowInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#FlowInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Object> .
-<http://bim4ren.eu/urban#FlowInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "Réseau"@fr .
+# https://models.bim4ren.eu/urban#FlowInfrastructure
+<https://models.bim4ren.eu/urban#FlowInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#FlowInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Object> .
+<https://models.bim4ren.eu/urban#FlowInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "Réseau"@fr .
 # 
-# http://bim4ren.eu/urban#Forest
-<http://bim4ren.eu/urban#Forest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Forest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#GreenZone> .
+# https://models.bim4ren.eu/urban#Forest
+<https://models.bim4ren.eu/urban#Forest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Forest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#GreenZone> .
 # 
-# http://bim4ren.eu/urban#GazNetwork
-<http://bim4ren.eu/urban#GazNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#GazNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#FlowInfrastructure> .
+# https://models.bim4ren.eu/urban#GazNetwork
+<https://models.bim4ren.eu/urban#GazNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#GazNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#FlowInfrastructure> .
 # 
-# http://bim4ren.eu/urban#GreenZone
-<http://bim4ren.eu/urban#GreenZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#GreenZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Zone> .
+# https://models.bim4ren.eu/urban#GreenZone
+<https://models.bim4ren.eu/urban#GreenZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#GreenZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Zone> .
 # 
-# http://bim4ren.eu/urban#HeatNetwork
-<http://bim4ren.eu/urban#HeatNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#HeatNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#FlowInfrastructure> .
+# https://models.bim4ren.eu/urban#HeatNetwork
+<https://models.bim4ren.eu/urban#HeatNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#HeatNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#FlowInfrastructure> .
 # 
-# http://bim4ren.eu/urban#Lake
-<http://bim4ren.eu/urban#Lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#WaterBody> .
+# https://models.bim4ren.eu/urban#Lake
+<https://models.bim4ren.eu/urban#Lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#WaterBody> .
 # 
-# http://bim4ren.eu/urban#Object
-<http://bim4ren.eu/urban#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://bim4ren.eu/urban#Object> <http://www.w3.org/2000/01/rdf-schema#comment> "An object of importance in the urban environment, regarding the thermal reonvation of a specific buildings."@en .
+# https://models.bim4ren.eu/urban#Object
+<https://models.bim4ren.eu/urban#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/urban#Object> <http://www.w3.org/2000/01/rdf-schema#comment> "An object of importance in the urban environment, regarding the thermal reonvation of a specific buildings."@en .
 # 
-# http://bim4ren.eu/urban#Park
-<http://bim4ren.eu/urban#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#GreenZone> .
+# https://models.bim4ren.eu/urban#Park
+<https://models.bim4ren.eu/urban#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#GreenZone> .
 # 
-# http://bim4ren.eu/urban#Parking
-<http://bim4ren.eu/urban#Parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Parking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#BuiltArea> .
+# https://models.bim4ren.eu/urban#Parking
+<https://models.bim4ren.eu/urban#Parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Parking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#BuiltArea> .
 # 
-# http://bim4ren.eu/urban#ParkingPlace
-<http://bim4ren.eu/urban#ParkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#ParkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Object> .
+# https://models.bim4ren.eu/urban#ParkingPlace
+<https://models.bim4ren.eu/urban#ParkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#ParkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Object> .
 # 
-# http://bim4ren.eu/urban#PeatonalStreet
-<http://bim4ren.eu/urban#PeatonalStreet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#PeatonalStreet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#CirculationZone> .
+# https://models.bim4ren.eu/urban#PeatonalStreet
+<https://models.bim4ren.eu/urban#PeatonalStreet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#PeatonalStreet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#CirculationZone> .
 # 
-# http://bim4ren.eu/urban#Positioning
-<http://bim4ren.eu/urban#Positioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Positioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://bim4ren.eu/urban#Positioning> <http://www.w3.org/2000/01/rdf-schema#label> "Positioning "@en .
+# https://models.bim4ren.eu/urban#Positioning
+<https://models.bim4ren.eu/urban#Positioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Positioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/urban#Positioning> <http://www.w3.org/2000/01/rdf-schema#label> "Positioning "@en .
 # 
-# http://bim4ren.eu/urban#PrivateParkingPlace
-<http://bim4ren.eu/urban#PrivateParkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#PrivateParkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#ParkingPlace> .
+# https://models.bim4ren.eu/urban#PrivateParkingPlace
+<https://models.bim4ren.eu/urban#PrivateParkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#PrivateParkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#ParkingPlace> .
 # 
-# http://bim4ren.eu/urban#PublicParkingPlace
-<http://bim4ren.eu/urban#PublicParkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#PublicParkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#ParkingPlace> .
+# https://models.bim4ren.eu/urban#PublicParkingPlace
+<https://models.bim4ren.eu/urban#PublicParkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#PublicParkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#ParkingPlace> .
 # 
-# http://bim4ren.eu/urban#Pyramid
-<http://bim4ren.eu/urban#Pyramid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Pyramid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Shape> .
+# https://models.bim4ren.eu/urban#Pyramid
+<https://models.bim4ren.eu/urban#Pyramid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Pyramid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Shape> .
 # 
-# http://bim4ren.eu/urban#Railway
-<http://bim4ren.eu/urban#Railway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Railway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#CirculationZone> .
+# https://models.bim4ren.eu/urban#Railway
+<https://models.bim4ren.eu/urban#Railway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Railway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#CirculationZone> .
 # 
-# http://bim4ren.eu/urban#River
-<http://bim4ren.eu/urban#River> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#River> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#WaterBody> .
+# https://models.bim4ren.eu/urban#River
+<https://models.bim4ren.eu/urban#River> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#River> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#WaterBody> .
 # 
-# http://bim4ren.eu/urban#Road
-<http://bim4ren.eu/urban#Road> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Road> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#CirculationZone> .
+# https://models.bim4ren.eu/urban#Road
+<https://models.bim4ren.eu/urban#Road> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Road> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#CirculationZone> .
 # 
-# http://bim4ren.eu/urban#Sea
-<http://bim4ren.eu/urban#Sea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Sea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#WaterBody> .
+# https://models.bim4ren.eu/urban#Sea
+<https://models.bim4ren.eu/urban#Sea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Sea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#WaterBody> .
 # 
-# http://bim4ren.eu/urban#Shade
-<http://bim4ren.eu/urban#Shade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Shade> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Object> .
+# https://models.bim4ren.eu/urban#Shade
+<https://models.bim4ren.eu/urban#Shade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Shade> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Object> .
 # 
-# http://bim4ren.eu/urban#Shape
-<http://bim4ren.eu/urban#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#comment> "A predefined 3D shape that can be associated to an urban object. All the predefined shapes are basic vomumetric objects."@en .
-<http://bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Forma"@es .
-<http://bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Forme"@fr .
-<http://bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Shape"@en .
+# https://models.bim4ren.eu/urban#Shape
+<https://models.bim4ren.eu/urban#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#comment> "A predefined 3D shape that can be associated to an urban object. All the predefined shapes are basic vomumetric objects."@en .
+<https://models.bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Forma"@es .
+<https://models.bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Forme"@fr .
+<https://models.bim4ren.eu/urban#Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Shape"@en .
 # 
-# http://bim4ren.eu/urban#Sphere
-<http://bim4ren.eu/urban#Sphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Sphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Shape> .
+# https://models.bim4ren.eu/urban#Sphere
+<https://models.bim4ren.eu/urban#Sphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Sphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Shape> .
 # 
-# http://bim4ren.eu/urban#Tree
-<http://bim4ren.eu/urban#Tree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Tree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Object> .
+# https://models.bim4ren.eu/urban#Tree
+<https://models.bim4ren.eu/urban#Tree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Tree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Object> .
 # 
-# http://bim4ren.eu/urban#VerticalProjection
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "proiezione verticale"@it .
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "projection verticale"@fr .
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "proyección vertical"@es .
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "vertical projection"@en .
-<http://bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "vue du ciel"@fr .
+# https://models.bim4ren.eu/urban#VerticalProjection
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "proiezione verticale"@it .
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "projection verticale"@fr .
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "proyección vertical"@es .
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "vertical projection"@en .
+<https://models.bim4ren.eu/urban#VerticalProjection> <http://www.w3.org/2000/01/rdf-schema#label> "vue du ciel"@fr .
 # 
-# http://bim4ren.eu/urban#WaterBody
-<http://bim4ren.eu/urban#WaterBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#WaterBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#Zone> .
+# https://models.bim4ren.eu/urban#WaterBody
+<https://models.bim4ren.eu/urban#WaterBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#WaterBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#Zone> .
 # 
-# http://bim4ren.eu/urban#WaterNetwork
-<http://bim4ren.eu/urban#WaterNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#WaterNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bim4ren.eu/urban#FlowInfrastructure> .
+# https://models.bim4ren.eu/urban#WaterNetwork
+<https://models.bim4ren.eu/urban#WaterNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#WaterNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://models.bim4ren.eu/urban#FlowInfrastructure> .
 # 
-# http://bim4ren.eu/urban#Zone
-<http://bim4ren.eu/urban#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://bim4ren.eu/urban#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# https://models.bim4ren.eu/urban#Zone
+<https://models.bim4ren.eu/urban#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://models.bim4ren.eu/urban#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

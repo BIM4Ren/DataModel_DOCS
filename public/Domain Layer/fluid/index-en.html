@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://www.bim4ren.eu/domain/fluid#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.bim4ren.eu/domain/fluid#","name":"http://www.bim4ren.eu/domain/fluid#", "headline":"Document describing the ontology http://www.bim4ren.eu/domain/fluid#", "datePublished":"Fri Nov 13 18:54:35 CET 2020"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://models.bim4ren.eu/domain/fluid#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://models.bim4ren.eu/domain/fluid#","name":"https://models.bim4ren.eu/domain/fluid#", "headline":"Document describing the ontology https://models.bim4ren.eu/domain/fluid#", "datePublished":"Mon Nov 23 13:09:54 CET 2020"}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -58,11 +58,11 @@ $(function(){
 
 <dl>
 <dt>This version:</dt>
-<dd><a href="http://www.bim4ren.eu/domain/fluid/0.1">http://www.bim4ren.eu/domain/fluid/0.1</a></dd>
+<dd><a href="https://models.bim4ren.eu/domain/fluid/0.1">https://models.bim4ren.eu/domain/fluid/0.1</a></dd>
 <dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
 <!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
-<dd> Retrieved from: http://www.bim4ren.eu/domain/fluid/0.1</dd>
+<dd> Retrieved from: https://models.bim4ren.eu/domain/fluid/0.1</dd>
 </dl>
 
 <a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
@@ -86,16 +86,16 @@ This is a place holder text for the introduction. The introduction should briefl
 <table>
 <caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
 <tbody>
-<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://www.bim4ren.eu/domain/fluid#&gt;</td></tr>
+<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;https://models.bim4ren.eu/domain/fluid#&gt;</td></tr>
 <tr><td><b>core</b></td><td>&lt;http://www.w3.org/2004/02/skos/core&gt;</td></tr>
 <tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
 <tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
-<tr><td><b>property</b></td><td>&lt;http://www.bim4ren.eu/property&gt;</td></tr>
+<tr><td><b>property</b></td><td>&lt;https://models.bim4ren.eu/property&gt;</td></tr>
 <tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
 <tr><td><b>ifdconcept</b></td><td>&lt;http://bsdd.buildingsmart.org/api/4.0/IfdConcept&gt;</td></tr>
-<tr><td><b>fluid</b></td><td>&lt;http://www.bim4ren.eu/domain/fluid&gt;</td></tr>
+<tr><td><b>fluid</b></td><td>&lt;https://models.bim4ren.eu/domain/fluid&gt;</td></tr>
 <tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
-<tr><td><b>default namespace</b></td><td>&lt;http://www.bim4ren.eu/domain/fluid&gt;</td></tr>
+<tr><td><b>default namespace</b></td><td>&lt;https://models.bim4ren.eu/domain/fluid&gt;</td></tr>
 </tbody>
 </table>
 </div>
@@ -110,52 +110,59 @@ This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
 <ul class="hlist">
    <li>
-      <a href="#FluidStorage" title="http://www.bim4ren.eu/domain/fluid#FluidStorage">Elément de stockage de fluide</a>
+      <a href="#FluidStorage"
+         title="https://models.bim4ren.eu/domain/fluid#FluidStorage">Elément de stockage de fluide</a>
    </li>
    <li>
       <a href="#FluidTransferElement"
-         title="http://www.bim4ren.eu/domain/fluid#FluidTransferElement">Elément de transfert de fluide</a>
+         title="https://models.bim4ren.eu/domain/fluid#FluidTransferElement">Elément de transfert de fluide</a>
    </li>
    <li>
-      <a href="#FluidSegment" title="http://www.bim4ren.eu/domain/fluid#FluidSegment">Segment de transfert de fluide</a>
+      <a href="#FluidSegment"
+         title="https://models.bim4ren.eu/domain/fluid#FluidSegment">Segment de transfert de fluide</a>
    </li>
    <li>
-      <a href="#FluidTerminal" title="http://www.bim4ren.eu/domain/fluid#FluidTerminal">Terminal de fluide</a>
+      <a href="#FluidTerminal"
+         title="https://models.bim4ren.eu/domain/fluid#FluidTerminal">Terminal de fluide</a>
    </li>
 </ul><h4>Object Properties</h4><ul class="hlist">
    <li>
-      <a href="#capacity" title="http://www.bim4ren.eu/domain/fluid#capacity">capacity</a>
+      <a href="#capacity" title="https://models.bim4ren.eu/domain/fluid#capacity">capacity</a>
    </li>
    <li>
       <a href="#exhaustAirFlowRate"
-         title="http://www.bim4ren.eu/domain/fluid#exhaustAirFlowRate">exhaust air flow rate</a>
+         title="https://models.bim4ren.eu/domain/fluid#exhaustAirFlowRate">exhaust air flow rate</a>
    </li>
    <li>
-      <a href="#HMTnoFlow" title="http://www.bim4ren.eu/domain/fluid#HMTnoFlow">
+      <a href="#HMTnoFlow" title="https://models.bim4ren.eu/domain/fluid#HMTnoFlow">
          <span>h m tno flow</span>
       </a>
    </li>
    <li>
-      <a href="#HMTnominalFlow" title="http://www.bim4ren.eu/domain/fluid#HMTnominalFlow">
+      <a href="#HMTnominalFlow"
+         title="https://models.bim4ren.eu/domain/fluid#HMTnominalFlow">
          <span>h m tnominal flow</span>
       </a>
    </li>
    <li>
-      <a href="#maxPressure" title="http://www.bim4ren.eu/domain/fluid#maxPressure">maximal pressure</a>
+      <a href="#maxPressure"
+         title="https://models.bim4ren.eu/domain/fluid#maxPressure">maximal pressure</a>
    </li>
    <li>
-      <a href="#minPressure" title="http://www.bim4ren.eu/domain/fluid#minPressure">minimal pressure</a>
+      <a href="#minPressure"
+         title="https://models.bim4ren.eu/domain/fluid#minPressure">minimal pressure</a>
    </li>
    <li>
       <a href="#nominalFlowRate"
-         title="http://www.bim4ren.eu/domain/fluid#nominalFlowRate">nominal flow rate</a>
+         title="https://models.bim4ren.eu/domain/fluid#nominalFlowRate">nominal flow rate</a>
    </li>
    <li>
-      <a href="#pressureDrop" title="http://www.bim4ren.eu/domain/fluid#pressureDrop">pressure drop</a>
+      <a href="#pressureDrop"
+         title="https://models.bim4ren.eu/domain/fluid#pressureDrop">pressure drop</a>
    </li>
    <li>
       <a href="#totalDynamicHead"
-         title="http://www.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
+         title="https://models.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
    </li>
 </ul><h4>Annotation Properties</h4><ul class="hlist">
    <li>
@@ -182,17 +189,20 @@ This section provides details for each class and property defined by [Ontology N
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
-         <a href="#FluidStorage" title="http://www.bim4ren.eu/domain/fluid#FluidStorage">Elément de stockage de fluide</a>
+         <a href="#FluidStorage"
+            title="https://models.bim4ren.eu/domain/fluid#FluidStorage">Elément de stockage de fluide</a>
       </li>
       <li>
          <a href="#FluidTransferElement"
-            title="http://www.bim4ren.eu/domain/fluid#FluidTransferElement">Elément de transfert de fluide</a>
+            title="https://models.bim4ren.eu/domain/fluid#FluidTransferElement">Elément de transfert de fluide</a>
       </li>
       <li>
-         <a href="#FluidSegment" title="http://www.bim4ren.eu/domain/fluid#FluidSegment">Segment de transfert de fluide</a>
+         <a href="#FluidSegment"
+            title="https://models.bim4ren.eu/domain/fluid#FluidSegment">Segment de transfert de fluide</a>
       </li>
       <li>
-         <a href="#FluidTerminal" title="http://www.bim4ren.eu/domain/fluid#FluidTerminal">Terminal de fluide</a>
+         <a href="#FluidTerminal"
+            title="https://models.bim4ren.eu/domain/fluid#FluidTerminal">Terminal de fluide</a>
       </li>
    </ul>
    <div class="entity" id="FluidStorage">
@@ -201,7 +211,7 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#FluidStorage</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#FluidStorage</p>
    </div>
    <div class="entity" id="FluidTransferElement">
       <h3>Elément de transfert de fluide<sup class="type-c" title="class">c</sup>
@@ -209,7 +219,7 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#FluidTransferElement</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#FluidTransferElement</p>
       <div class="comment">
          <span class="markdown">An element that is used to transfer a fluid fro one point to another through a mechanical action. Typically, this includes pumps or circulators.</span>
       </div>
@@ -224,7 +234,7 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#FluidSegment</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#FluidSegment</p>
    </div>
    <div class="entity" id="FluidTerminal">
       <h3>Terminal de fluide<sup class="type-c" title="class">c</sup>
@@ -232,7 +242,7 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#FluidTerminal</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#FluidTerminal</p>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd/>
@@ -242,38 +252,42 @@ This section provides details for each class and property defined by [Ontology N
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#capacity" title="http://www.bim4ren.eu/domain/fluid#capacity">capacity</a>
+         <a href="#capacity" title="https://models.bim4ren.eu/domain/fluid#capacity">capacity</a>
       </li>
       <li>
          <a href="#exhaustAirFlowRate"
-            title="http://www.bim4ren.eu/domain/fluid#exhaustAirFlowRate">exhaust air flow rate</a>
+            title="https://models.bim4ren.eu/domain/fluid#exhaustAirFlowRate">exhaust air flow rate</a>
       </li>
       <li>
-         <a href="#HMTnoFlow" title="http://www.bim4ren.eu/domain/fluid#HMTnoFlow">
+         <a href="#HMTnoFlow" title="https://models.bim4ren.eu/domain/fluid#HMTnoFlow">
             <span>h m tno flow</span>
          </a>
       </li>
       <li>
-         <a href="#HMTnominalFlow" title="http://www.bim4ren.eu/domain/fluid#HMTnominalFlow">
+         <a href="#HMTnominalFlow"
+            title="https://models.bim4ren.eu/domain/fluid#HMTnominalFlow">
             <span>h m tnominal flow</span>
          </a>
       </li>
       <li>
-         <a href="#maxPressure" title="http://www.bim4ren.eu/domain/fluid#maxPressure">maximal pressure</a>
+         <a href="#maxPressure"
+            title="https://models.bim4ren.eu/domain/fluid#maxPressure">maximal pressure</a>
       </li>
       <li>
-         <a href="#minPressure" title="http://www.bim4ren.eu/domain/fluid#minPressure">minimal pressure</a>
+         <a href="#minPressure"
+            title="https://models.bim4ren.eu/domain/fluid#minPressure">minimal pressure</a>
       </li>
       <li>
          <a href="#nominalFlowRate"
-            title="http://www.bim4ren.eu/domain/fluid#nominalFlowRate">nominal flow rate</a>
+            title="https://models.bim4ren.eu/domain/fluid#nominalFlowRate">nominal flow rate</a>
       </li>
       <li>
-         <a href="#pressureDrop" title="http://www.bim4ren.eu/domain/fluid#pressureDrop">pressure drop</a>
+         <a href="#pressureDrop"
+            title="https://models.bim4ren.eu/domain/fluid#pressureDrop">pressure drop</a>
       </li>
       <li>
          <a href="#totalDynamicHead"
-            title="http://www.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
+            title="https://models.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
       </li>
    </ul>
    <div class="entity" id="capacity">
@@ -282,14 +296,14 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#capacity</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#capacity</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/property#volume"
+               <a href="https://models.bim4ren.eu/property#volume"
                   target="_blank"
-                  title="http://www.bim4ren.eu/property#volume">volume</a>
+                  title="https://models.bim4ren.eu/property#volume">volume</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -301,14 +315,14 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#exhaustAirFlowRate</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#exhaustAirFlowRate</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/property#flowRate"
+               <a href="https://models.bim4ren.eu/property#flowRate"
                   target="_blank"
-                  title="http://www.bim4ren.eu/property#flowRate">flow rate</a>
+                  title="https://models.bim4ren.eu/property#flowRate">flow rate</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -320,13 +334,13 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#HMTnoFlow</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#HMTnoFlow</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
                <a href="#totalDynamicHead"
-                  title="http://www.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
+                  title="https://models.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -338,13 +352,13 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#HMTnominalFlow</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#HMTnominalFlow</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
                <a href="#totalDynamicHead"
-                  title="http://www.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
+                  title="https://models.bim4ren.eu/domain/fluid#totalDynamicHead">TDH</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -356,14 +370,14 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#maxPressure</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#maxPressure</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/property#pressure"
+               <a href="https://models.bim4ren.eu/property#pressure"
                   target="_blank"
-                  title="http://www.bim4ren.eu/property#pressure">pressure</a>
+                  title="https://models.bim4ren.eu/property#pressure">pressure</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -375,14 +389,14 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#minPressure</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#minPressure</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/domain/fluid#pressure"
+               <a href="https://models.bim4ren.eu/domain/fluid#pressure"
                   target="_blank"
-                  title="http://www.bim4ren.eu/domain/fluid#pressure">pressure</a>
+                  title="https://models.bim4ren.eu/domain/fluid#pressure">pressure</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -394,14 +408,14 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#nominalFlowRate</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#nominalFlowRate</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/property#flowRate"
+               <a href="https://models.bim4ren.eu/property#flowRate"
                   target="_blank"
-                  title="http://www.bim4ren.eu/property#flowRate">flow rate</a>
+                  title="https://models.bim4ren.eu/property#flowRate">flow rate</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -413,14 +427,14 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#pressureDrop</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#pressureDrop</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/property#pressure"
+               <a href="https://models.bim4ren.eu/property#pressure"
                   target="_blank"
-                  title="http://www.bim4ren.eu/property#pressure">pressure</a>
+                  title="https://models.bim4ren.eu/property#pressure">pressure</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -432,20 +446,21 @@ This section provides details for each class and property defined by [Ontology N
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.bim4ren.eu/domain/fluid#totalDynamicHead</p>
+         <strong>IRI:</strong> https://models.bim4ren.eu/domain/fluid#totalDynamicHead</p>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.bim4ren.eu/property#height"
+               <a href="https://models.bim4ren.eu/property#height"
                   target="_blank"
-                  title="http://www.bim4ren.eu/property#height">height</a>
+                  title="https://models.bim4ren.eu/property#height">height</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has sub-properties</dt>
             <dd>
-               <a href="#HMTnoFlow" title="http://www.bim4ren.eu/domain/fluid#HMTnoFlow">h m tno flow</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#HMTnominalFlow" title="http://www.bim4ren.eu/domain/fluid#HMTnominalFlow">h m tnominal flow</a>
+               <a href="#HMTnoFlow" title="https://models.bim4ren.eu/domain/fluid#HMTnoFlow">h m tno flow</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#HMTnominalFlow"
+                  title="https://models.bim4ren.eu/domain/fluid#HMTnominalFlow">h m tnominal flow</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>

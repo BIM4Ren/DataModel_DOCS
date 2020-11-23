@@ -1,21 +1,21 @@
-@prefix : <https://bim4ren.eu/alignment/sot-IFC#> .
+@prefix : <https://models.bim4ren.eu/alignment/sot-IFC#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://bim4ren.eu/alignment/sot-IFC> .
+@base <https://models.bim4ren.eu/alignment/sot-IFC> .
 
-<https://bim4ren.eu/alignment/sot-IFC> rdf:type owl:Ontology ;
-                                        owl:versionIRI <https://bim4ren.eu/alignment/sot-IFC/0.1> ;
-                                        owl:imports <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL> ,
-                                                    <http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL> ,
-                                                    <http://www.bim4ren.eu/sot#> ,
-                                                    <https://w3id.org/bot> ;
-                                        <http://purl.org/dc/terms/creator> "Pierre Bourreau" ;
-                                        <http://purl.org/dc/terms/description> "This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies."@en ;
-                                        <http://purl.org/dc/terms/title> "SOT to ifcOwl alignment."@en ;
-                                        owl:versionInfo "v0.1" .
+<https://models.bim4ren.eu/alignment/sot-IFC> rdf:type owl:Ontology ;
+                                               owl:versionIRI <https://models.bim4ren.eu/alignment/sot-IFC/0.1> ;
+                                               owl:imports <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL> ,
+                                                           <http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL> ,
+                                                           <https://models.bim4ren.eu/sot#> ,
+                                                           <https://w3id.org/bot> ;
+                                               <http://purl.org/dc/terms/creator> "Pierre Bourreau" ;
+                                               <http://purl.org/dc/terms/description> "This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies."@en ;
+                                               <http://purl.org/dc/terms/title> "SOT to ifcOwl alignment."@en ;
+                                               owl:versionInfo "v0.1" .
 
 #################################################################
 #    Annotation properties
@@ -55,54 +55,54 @@
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionElement
 <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionElement> rdf:type owl:Class ;
-                                                                                   rdfs:subClassOf <http://www.bim4ren.eu/sot#SystemComponent> .
+                                                                                   rdfs:subClassOf <https://models.bim4ren.eu/sot#SystemComponent> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionPort
 <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionPort> rdf:type owl:Class ;
-                                                                                rdfs:subClassOf <http://www.bim4ren.eu/sot#TransportElement> .
+                                                                                rdfs:subClassOf <https://models.bim4ren.eu/sot#TransportElement> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionSystem
 <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionSystem> rdf:type owl:Class ;
-                                                                                  rdfs:subClassOf <http://www.bim4ren.eu/sot#System> .
+                                                                                  rdfs:subClassOf <https://models.bim4ren.eu/sot#System> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcFlowTerminal
 <http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcFlowTerminal> rdf:type owl:Class ;
-                                                                            rdfs:subClassOf <http://www.bim4ren.eu/sot#TerminalElement> .
+                                                                            rdfs:subClassOf <https://models.bim4ren.eu/sot#TerminalElement> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement
-<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement> rdfs:subClassOf <http://www.bim4ren.eu/sot#SystemComponent> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement> rdfs:subClassOf <https://models.bim4ren.eu/sot#SystemComponent> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort
-<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort> rdfs:subClassOf <http://www.bim4ren.eu/sot#TransportElement> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort> rdfs:subClassOf <https://models.bim4ren.eu/sot#TransportElement> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem
-<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem> rdfs:subClassOf <http://www.bim4ren.eu/sot#System> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem> rdfs:subClassOf <https://models.bim4ren.eu/sot#System> .
 
 
 ###  http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal
-<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal> rdfs:subClassOf <http://www.bim4ren.eu/sot#TerminalElement> .
+<http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal> rdfs:subClassOf <https://models.bim4ren.eu/sot#TerminalElement> .
 
 
-###  http://www.bim4ren.eu/sot#System
-<http://www.bim4ren.eu/sot#System> rdf:type owl:Class .
+###  https://models.bim4ren.eu/sot#System
+<https://models.bim4ren.eu/sot#System> rdf:type owl:Class .
 
 
-###  http://www.bim4ren.eu/sot#SystemComponent
-<http://www.bim4ren.eu/sot#SystemComponent> rdf:type owl:Class .
+###  https://models.bim4ren.eu/sot#SystemComponent
+<https://models.bim4ren.eu/sot#SystemComponent> rdf:type owl:Class .
 
 
-###  http://www.bim4ren.eu/sot#TerminalElement
-<http://www.bim4ren.eu/sot#TerminalElement> rdf:type owl:Class .
+###  https://models.bim4ren.eu/sot#TerminalElement
+<https://models.bim4ren.eu/sot#TerminalElement> rdf:type owl:Class .
 
 
-###  http://www.bim4ren.eu/sot#TransportElement
-<http://www.bim4ren.eu/sot#TransportElement> rdf:type owl:Class .
+###  https://models.bim4ren.eu/sot#TransportElement
+<https://models.bim4ren.eu/sot#TransportElement> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

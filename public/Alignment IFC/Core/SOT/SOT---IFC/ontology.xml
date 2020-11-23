@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://bim4ren.eu/alignment/sot-IFC#"
-     xml:base="https://bim4ren.eu/alignment/sot-IFC"
+<rdf:RDF xmlns="https://models.bim4ren.eu/alignment/sot-IFC#"
+     xml:base="https://models.bim4ren.eu/alignment/sot-IFC"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:ns1="http://creativecommons.org/ns#"
@@ -13,11 +13,11 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
-    <owl:Ontology rdf:about="https://bim4ren.eu/alignment/sot-IFC">
-        <owl:versionIRI rdf:resource="https://bim4ren.eu/alignment/sot-IFC/0.1"/>
+    <owl:Ontology rdf:about="https://models.bim4ren.eu/alignment/sot-IFC">
+        <owl:versionIRI rdf:resource="https://models.bim4ren.eu/alignment/sot-IFC/0.1"/>
         <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL"/>
         <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL"/>
-        <owl:imports rdf:resource="http://www.bim4ren.eu/sot#"/>
+        <owl:imports rdf:resource="https://models.bim4ren.eu/sot#"/>
         <owl:imports rdf:resource="https://w3id.org/bot"/>
         <terms:creator>Pierre Bourreau</terms:creator>
         <terms:description xml:lang="en">This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies.</terms:description>
@@ -104,7 +104,7 @@
 
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionElement">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#SystemComponent"/>
     </owl:Class>
     
 
@@ -113,7 +113,7 @@
 
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionPort">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TransportElement"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#TransportElement"/>
     </owl:Class>
     
 
@@ -122,7 +122,7 @@
 
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionSystem">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#System"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#System"/>
     </owl:Class>
     
 
@@ -131,7 +131,7 @@
 
 
     <owl:Class rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcFlowTerminal">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TerminalElement"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#TerminalElement"/>
     </owl:Class>
     
 
@@ -140,7 +140,7 @@
 
 
     <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#SystemComponent"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#SystemComponent"/>
     </rdf:Description>
     
 
@@ -149,7 +149,7 @@
 
 
     <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TransportElement"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#TransportElement"/>
     </rdf:Description>
     
 
@@ -158,7 +158,7 @@
 
 
     <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#System"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#System"/>
     </rdf:Description>
     
 
@@ -167,36 +167,36 @@
 
 
     <rdf:Description rdf:about="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/sot#TerminalElement"/>
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/sot#TerminalElement"/>
     </rdf:Description>
     
 
 
-    <!-- http://www.bim4ren.eu/sot#System -->
+    <!-- https://models.bim4ren.eu/sot#System -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/sot#System"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/sot#System"/>
     
 
 
-    <!-- http://www.bim4ren.eu/sot#SystemComponent -->
+    <!-- https://models.bim4ren.eu/sot#SystemComponent -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/sot#SystemComponent"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/sot#SystemComponent"/>
     
 
 
-    <!-- http://www.bim4ren.eu/sot#TerminalElement -->
+    <!-- https://models.bim4ren.eu/sot#TerminalElement -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/sot#TerminalElement"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/sot#TerminalElement"/>
     
 
 
-    <!-- http://www.bim4ren.eu/sot#TransportElement -->
+    <!-- https://models.bim4ren.eu/sot#TransportElement -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/sot#TransportElement"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/sot#TransportElement"/>
 </rdf:RDF>
 
 

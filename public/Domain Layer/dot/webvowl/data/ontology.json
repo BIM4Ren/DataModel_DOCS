@@ -700,12 +700,7 @@
       "domainIncludes" : [ {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://wisib.de/ontologie/brot#BridgeElement",
-        "type" : "iri"
-      }, {
-        "identifier" : "domainIncludes",
-        "language" : "undefined",
-        "value" : "https://wisib.de/ontologie/brot#BridgeSpatialZone",
+        "value" : "https://w3id.org/bot#Element",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
@@ -715,7 +710,12 @@
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Element",
+        "value" : "https://wisib.de/ontologie/brot#BridgeSpatialZone",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://wisib.de/ontologie/brot#BridgeElement",
         "type" : "iri"
       } ]
     },
@@ -759,7 +759,7 @@
   }, {
     "range" : "9",
     "domain" : "16",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
     "iri" : "https://w3id.org/dot#hasCausation",
@@ -788,12 +788,12 @@
   }, {
     "range" : "9",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
     "range" : "24",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "22"
   }, {
     "iri" : "https://w3id.org/dot#groupsDamageElement",
@@ -867,12 +867,12 @@
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Element",
+        "value" : "https://w3id.org/dot#Damage",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/dot#Damage",
+        "value" : "https://w3id.org/bot#Element",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
@@ -944,7 +944,7 @@
   }, {
     "range" : "0",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "33"
   }, {
     "iri" : "https://w3id.org/dot#hasDamageElement",
@@ -974,7 +974,7 @@
   }, {
     "range" : "0",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "35"
   }, {
     "iri" : "https://w3id.org/dot#aggregatesDamagePattern",
@@ -1003,12 +1003,12 @@
   }, {
     "range" : "0",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "37"
   }, {
     "range" : "0",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "38"
   }, {
     "iri" : "http://purl.org/dc/terms/description",
@@ -1018,17 +1018,17 @@
       "IRI-based" : "description"
     },
     "domain" : "17",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "40"
   }, {
     "range" : "0",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "41"
   }, {
     "range" : "0",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "iri" : "https://w3id.org/dot#coveredInDocumentation",
@@ -1049,7 +1049,12 @@
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://wisib.de/ontologie/brot#BridgeSpatialZone",
+        "value" : "https://wisib.de/ontologie/brot#BridgeElement",
+        "type" : "iri"
+      }, {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Element",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
@@ -1059,12 +1064,7 @@
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://wisib.de/ontologie/brot#BridgeElement",
-        "type" : "iri"
-      }, {
-        "identifier" : "domainIncludes",
-        "language" : "undefined",
-        "value" : "https://w3id.org/bot#Element",
+        "value" : "https://wisib.de/ontologie/brot#BridgeSpatialZone",
         "type" : "iri"
       } ]
     },
@@ -1081,19 +1081,19 @@
     "attributes" : [ "object" ],
     "id" : "44"
   }, {
-    "range" : "2",
+    "range" : "26",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
     "range" : "26",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
     "range" : "5",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "48"
   }, {
     "iri" : "https://w3id.org/dot#descriptionContent",
@@ -1122,12 +1122,12 @@
   }, {
     "range" : "6",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
-    "range" : "26",
+    "range" : "2",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "53"
   }, {
     "iri" : "https://w3id.org/dot#hasDamageArea",

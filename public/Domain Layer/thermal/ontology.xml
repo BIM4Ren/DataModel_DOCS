@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.bim4ren.eu/domain/thermal#"
-     xml:base="http://www.bim4ren.eu/domain/thermal"
+<rdf:RDF xmlns="https://models.bim4ren.eu/domain/thermal#"
+     xml:base="https://models.bim4ren.eu/domain/thermal"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,9 +8,9 @@
      xmlns:core="http://www.w3.org/2004/02/skos/core/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:basicsemantics-owl="https://w3id.org/def/basicsemantics-owl#">
-    <owl:Ontology rdf:about="http://www.bim4ren.eu/domain/thermal#">
-        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/domain/thermal/0.1"/>
-        <owl:imports rdf:resource="http://www.bim4ren.eu/property#"/>
+    <owl:Ontology rdf:about="https://models.bim4ren.eu/domain/thermal#">
+        <owl:versionIRI rdf:resource="https://models.bim4ren.eu/domain/thermal/0.1"/>
+        <owl:imports rdf:resource="https://models.bim4ren.eu/property#"/>
     </owl:Ontology>
     
 
@@ -53,10 +53,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#airTightness -->
+    <!-- https://models.bim4ren.eu/domain/thermal#airTightness -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#airTightness">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#airTightness">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="en">air tighthness</rdfs:label>
         <rdfs:label xml:lang="it">ermeticità all&apos;aria</rdfs:label>
@@ -67,11 +67,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance -->
+    <!-- https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#coefficientOfPerformance">
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/thermal#HeatProducer"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#coefficientOfPerformance">
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/domain/thermal#HeatProducer"/>
         <rdfs:comment xml:lang="en">The coefficient of performance or COP (sometimes CP or CoP) of a heat pump, refrigerator or air conditioning system is a ratio of useful heating or cooling provided to work required.</rdfs:comment>
         <rdfs:label xml:lang="fr">coefficient de performance</rdfs:label>
         <rdfs:label xml:lang="en">coefficient of performance</rdfs:label>
@@ -84,22 +84,22 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#condensingTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#condensingTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#condensingTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#condensingTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1ko9m0qSmHuO00025QrE$V"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#dischargeTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#dischargeTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#dischargeTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#dischargeTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <rdfs:comment>The temperature of the output medium in a thermal loop.</rdfs:comment>
         <rdfs:label xml:lang="en">discharge temperature</rdfs:label>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/22j_rwRL92uutC7n_opQsz"/>
@@ -107,11 +107,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#efficiencyType -->
+    <!-- https://models.bim4ren.eu/domain/thermal#efficiencyType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#efficiencyType">
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/domain/thermal#EfficiencyType"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#efficiencyType">
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/domain/thermal#EfficiencyType"/>
         <rdfs:label xml:lang="en">efficiency type</rdfs:label>
         <rdfs:label xml:lang="es">tipo de rendimiento</rdfs:label>
         <rdfs:label xml:lang="it">tipo di rendimento</rdfs:label>
@@ -120,32 +120,32 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#evaporatingTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#evaporatingTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#evaporatingTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#evaporatingTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3Rvom0qU8HuO00025QrE$V"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#exhaustTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#exhaustTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#exhaustTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#exhaustTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <rdfs:comment>The temperature rejected by a thermal producer.</rdfs:comment>
         <rdfs:label xml:lang="en">exhaust temperature</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient -->
+    <!-- https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficient">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficient">
         <rdfs:comment xml:lang="en">This factor describes thermal losses. The higher this value, the more losses the system has.</rdfs:comment>
         <rdfs:label xml:lang="fr">facteur de transmission de chaleur</rdfs:label>
         <rdfs:label xml:lang="en">heat transmission factor</rdfs:label>
@@ -155,10 +155,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#heatTransmissionCoefficientPerTemperature">
         <rdfs:comment xml:lang="en">Coefficient for the calculation of the coefficient of heat transmission dependent on temperature. The higher this value, the greater is the curvature of the curve.</rdfs:comment>
         <rdfs:label xml:lang="fr">coefficient de calcul de coefficient de transmission thermique selon la température.</rdfs:label>
         <rdfs:label xml:lang="en">coefficient for the calculation of the coefficient of heat transmission dependent on temperature</rdfs:label>
@@ -168,11 +168,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#infraredTransmittance -->
+    <!-- https://models.bim4ren.eu/domain/thermal#infraredTransmittance -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#infraredTransmittance">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/thermal#transmittance"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#infraredTransmittance">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/domain/thermal#transmittance"/>
         <rdfs:label xml:lang="en">infrared transmittance</rdfs:label>
         <rdfs:label xml:lang="es">transmitancia infrarroja</rdfs:label>
         <rdfs:label xml:lang="fr">transmittance infrarouge</rdfs:label>
@@ -181,10 +181,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#load -->
+    <!-- https://models.bim4ren.eu/domain/thermal#load -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#load">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#load">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="es">carga</rdfs:label>
         <rdfs:label xml:lang="it">carico</rdfs:label>
@@ -195,11 +195,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#maxTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#maxTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#maxTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/thermal#setPoint"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#maxTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/domain/thermal#setPoint"/>
         <rdfs:label xml:lang="en">maximal temperature</rdfs:label>
         <rdfs:label xml:lang="it">temperatura massima</rdfs:label>
         <rdfs:label xml:lang="es">temperatura máxima</rdfs:label>
@@ -208,11 +208,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#minTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#minTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#minTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/thermal#setPoint"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#minTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/domain/thermal#setPoint"/>
         <rdfs:label xml:lang="en">minimal temperature</rdfs:label>
         <rdfs:label xml:lang="it">temperatura minima</rdfs:label>
         <rdfs:label xml:lang="es">temperatura mínima</rdfs:label>
@@ -221,11 +221,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#nominalPower -->
+    <!-- https://models.bim4ren.eu/domain/thermal#nominalPower -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#nominalPower">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#power"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#nominalPower">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#power"/>
         <rdfs:label xml:lang="en">nominal power</rdfs:label>
         <rdfs:label xml:lang="fr">puissance nominale</rdfs:label>
         <rdfs:label xml:lang="fr">puissance utile</rdfs:label>
@@ -233,12 +233,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#returnTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#returnTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#returnTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#returnTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <rdfs:comment>The temperature of the input medium in a thermal loop</rdfs:comment>
         <rdfs:label xml:lang="en">return temperature</rdfs:label>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1PxGW0qSuHuO00025QrE$V"/>
@@ -248,11 +248,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#setPoint -->
+    <!-- https://models.bim4ren.eu/domain/thermal#setPoint -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#setPoint">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#setPoint">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
         <rdfs:label xml:lang="fr">consigne</rdfs:label>
         <rdfs:label xml:lang="fr">régulation</rdfs:label>
         <rdfs:label xml:lang="en">setpoint</rdfs:label>
@@ -260,11 +260,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#stagnationTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#stagnationTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#stagnationTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#stagnationTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
         <rdfs:comment xml:lang="en">The temperature at a stagnation point in a fluid flow. At a stagnation point the speed of the fluid is zero and all of the kinetic energy has been converted to internal energy and is added to the local static enthalpy. In both compressible and incompressible fluid flow, the stagnation temperature is equal to the total temperature at all points on the streamline leading to the stagnation point. The stagnation temperature is the maximum temperature that the collector’s absorber can reach at an ambient temperature of 30°C and an irradiation of 1000 W/m2. Stagnation temperature is also a measure of thermal losses of the collector and therefore describes the efficiency of the collector at higher temperatures.</rdfs:comment>
         <rdfs:label xml:lang="en">stagnation temperature</rdfs:label>
         <rdfs:label xml:lang="es">temperature de estancamiento</rdfs:label>
@@ -274,12 +274,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#supplyTemperature -->
+    <!-- https://models.bim4ren.eu/domain/thermal#supplyTemperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#supplyTemperature">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#supplyTemperature">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/03n9Y0qRyHuO00025QrE$V"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0osme0qRyHuO00025QrE$V"/>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0sRf40qRyHuO00025QrE$V"/>
@@ -290,12 +290,12 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#temperatureSpread -->
+    <!-- https://models.bim4ren.eu/domain/thermal#temperatureSpread -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#temperatureSpread">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/property#temperature"/>
-        <rdfs:domain rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#temperatureSpread">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/property#temperature"/>
+        <rdfs:domain rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <rdfs:comment>the difference between the ambient temperature and the desire room temperature. The range of temperature a heat pump needs to provide</rdfs:comment>
         <rdfs:label xml:lang="en">temperature spread</rdfs:label>
         <core:narrowMatch rdf:resource="http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1w6yU0qSmHuO00025QrE$V"/>
@@ -304,10 +304,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#thermalEfficiency -->
+    <!-- https://models.bim4ren.eu/domain/thermal#thermalEfficiency -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#thermalEfficiency">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#thermalEfficiency">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="fr">rendement</rdfs:label>
         <rdfs:label xml:lang="it">rendimento</rdfs:label>
@@ -321,10 +321,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#thermalMass -->
+    <!-- https://models.bim4ren.eu/domain/thermal#thermalMass -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#thermalMass">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#thermalMass">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="es">masa térmica</rdfs:label>
         <rdfs:label xml:lang="it">massa termica</rdfs:label>
@@ -334,10 +334,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#thermalResistance -->
+    <!-- https://models.bim4ren.eu/domain/thermal#thermalResistance -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#thermalResistance">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#thermalResistance">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="es">resistencia termica</rdfs:label>
         <rdfs:label xml:lang="it">resistenza termica</rdfs:label>
@@ -349,10 +349,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#thermalTransmittance -->
+    <!-- https://models.bim4ren.eu/domain/thermal#thermalTransmittance -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#thermalTransmittance">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#thermalTransmittance">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="fr">coefficient de transfert thermique</rdfs:label>
         <rdfs:label xml:lang="en">coefficient of heat transfer</rdfs:label>
@@ -366,10 +366,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#transmittance -->
+    <!-- https://models.bim4ren.eu/domain/thermal#transmittance -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#transmittance">
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#transmittance">
         <rdfs:range rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
         <rdfs:label xml:lang="es">transmitancia</rdfs:label>
         <rdfs:label xml:lang="en">transmittance</rdfs:label>
@@ -381,11 +381,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#visibleTransmittance -->
+    <!-- https://models.bim4ren.eu/domain/thermal#visibleTransmittance -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/domain/thermal#visibleTransmittance">
-        <rdfs:subPropertyOf rdf:resource="http://www.bim4ren.eu/domain/thermal#transmittance"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/domain/thermal#visibleTransmittance">
+        <rdfs:subPropertyOf rdf:resource="https://models.bim4ren.eu/domain/thermal#transmittance"/>
         <rdfs:label xml:lang="es">transmitancia visible</rdfs:label>
         <rdfs:label xml:lang="fr">transmittance visible</rdfs:label>
         <rdfs:label xml:lang="it">trasmittanza visibile</rdfs:label>
@@ -394,17 +394,17 @@
     
 
 
-    <!-- http://www.bim4ren.eu/property#power -->
+    <!-- https://models.bim4ren.eu/property#power -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#power"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/property#power"/>
     
 
 
-    <!-- http://www.bim4ren.eu/property#temperature -->
+    <!-- https://models.bim4ren.eu/property#temperature -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.bim4ren.eu/property#temperature"/>
+    <owl:ObjectProperty rdf:about="https://models.bim4ren.eu/property#temperature"/>
     
 
 
@@ -420,11 +420,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#CoolProducer -->
+    <!-- https://models.bim4ren.eu/domain/thermal#CoolProducer -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#CoolProducer">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#CoolProducer">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <rdfs:comment xml:lang="en">A cool producer asset.</rdfs:comment>
         <rdfs:label xml:lang="en">Cool producer</rdfs:label>
         <rdfs:label xml:lang="fr">Producteur de froid</rdfs:label>
@@ -432,16 +432,16 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#EfficiencyType -->
+    <!-- https://models.bim4ren.eu/domain/thermal#EfficiencyType -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#EfficiencyType">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#EfficiencyType">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/domain/thermal#CERTIFIED"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/domain/thermal#DECLARED"/>
-                    <rdf:Description rdf:about="http://www.bim4ren.eu/domain/thermal#MEASURED"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/domain/thermal#CERTIFIED"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/domain/thermal#DECLARED"/>
+                    <rdf:Description rdf:about="https://models.bim4ren.eu/domain/thermal#MEASURED"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -453,11 +453,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#HeatProducer -->
+    <!-- https://models.bim4ren.eu/domain/thermal#HeatProducer -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#HeatProducer">
-        <rdfs:subClassOf rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#HeatProducer">
+        <rdfs:subClassOf rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
         <rdfs:comment xml:lang="en">A heat producer asset.</rdfs:comment>
         <rdfs:label xml:lang="en">Heat producer</rdfs:label>
         <rdfs:label xml:lang="fr">Producteur de chaleur</rdfs:label>
@@ -465,50 +465,50 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#HeatStorage -->
+    <!-- https://models.bim4ren.eu/domain/thermal#HeatStorage -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#HeatStorage"/>
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#HeatStorage"/>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#HeatTransferElement -->
+    <!-- https://models.bim4ren.eu/domain/thermal#HeatTransferElement -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#HeatTransferElement">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#HeatTransferElement">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#infraredTransmittance"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#infraredTransmittance"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#airTightness"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#airTightness"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#thermalMass"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#thermalMass"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#thermalResistance"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#thermalResistance"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#thermalTransmittance"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#thermalTransmittance"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#visibleTransmittance"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#visibleTransmittance"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -519,60 +519,60 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#Producer -->
+    <!-- https://models.bim4ren.eu/domain/thermal#Producer -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#Producer">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#Producer">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#thermalEfficiency"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#thermalEfficiency"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#maxTemperature"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#maxTemperature"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+                <owl:onClass rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#minTemperature"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#minTemperature"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+                <owl:onClass rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#nominalPower"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#nominalPower"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.bim4ren.eu/domain/thermal#Producer"/>
+                <owl:onClass rdf:resource="https://models.bim4ren.eu/domain/thermal#Producer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement -->
+    <!-- https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement -->
 
 
-    <owl:Class rdf:about="http://www.bim4ren.eu/domain/thermal#ThermoRegulatedElement">
+    <owl:Class rdf:about="https://models.bim4ren.eu/domain/thermal#ThermoRegulatedElement">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#maxTemperature"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#maxTemperature"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#minTemperature"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#minTemperature"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.bim4ren.eu/domain/thermal#setPoint"/>
+                <owl:onProperty rdf:resource="https://models.bim4ren.eu/domain/thermal#setPoint"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/basicsemantics-owl#QuantityValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -601,10 +601,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#CERTIFIED -->
+    <!-- https://models.bim4ren.eu/domain/thermal#CERTIFIED -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/domain/thermal#CERTIFIED">
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/domain/thermal#CERTIFIED">
         <rdfs:label xml:lang="fr">Agréé</rdfs:label>
         <rdfs:label xml:lang="es">Certificado</rdfs:label>
         <rdfs:label xml:lang="it">Certificato</rdfs:label>
@@ -613,10 +613,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#DECLARED -->
+    <!-- https://models.bim4ren.eu/domain/thermal#DECLARED -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/domain/thermal#DECLARED">
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/domain/thermal#DECLARED">
         <rdfs:label xml:lang="en">Certified</rdfs:label>
         <rdfs:label xml:lang="es">Declarado</rdfs:label>
         <rdfs:label xml:lang="it">Dichiarato</rdfs:label>
@@ -625,10 +625,10 @@
     
 
 
-    <!-- http://www.bim4ren.eu/domain/thermal#MEASURED -->
+    <!-- https://models.bim4ren.eu/domain/thermal#MEASURED -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bim4ren.eu/domain/thermal#MEASURED">
+    <owl:NamedIndividual rdf:about="https://models.bim4ren.eu/domain/thermal#MEASURED">
         <rdfs:label xml:lang="en">Measured</rdfs:label>
         <rdfs:label xml:lang="es">Medido</rdfs:label>
         <rdfs:label xml:lang="fr">Mesuré</rdfs:label>

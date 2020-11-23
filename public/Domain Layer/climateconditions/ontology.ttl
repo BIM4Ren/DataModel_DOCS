@@ -1,14 +1,14 @@
-@prefix : <http://www.bim4ren.eu/domain/climateconditions#> .
+@prefix : <https://models.bim4ren.eu/domain/climateconditions#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.bim4ren.eu/domain/climateconditions> .
+@base <https://models.bim4ren.eu/domain/climateconditions> .
 
-<http://www.bim4ren.eu/domain/climateconditions> rdf:type owl:Ontology ;
-                                                  owl:versionIRI <http://www.bim4ren.eu/domain/climateconditions/0.1> ;
-                                                  owl:imports <http://www.bim4ren.eu/property#> .
+<https://models.bim4ren.eu/domain/climateconditions> rdf:type owl:Ontology ;
+                                                      owl:versionIRI <http://models.bim4ren.eu/domain/climateconditions/0.1> ;
+                                                      owl:imports <https://models.bim4ren.eu/property#> .
 
 #################################################################
 #    Annotation properties
@@ -22,7 +22,7 @@
 #    Object Properties
 #################################################################
 
-###  http://www.bim4ren.eu/domain/climateconditions#atmosphericPressure
+###  https://models.bim4ren.eu/domain/climateconditions#atmosphericPressure
 :atmosphericPressure rdf:type owl:ObjectProperty ;
                      rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
                      rdfs:label "atmospheric pressure"@en ,
@@ -33,9 +33,9 @@
                      <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/AtmosphericPressure> .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#dewPointTemperature
+###  https://models.bim4ren.eu/domain/climateconditions#dewPointTemperature
 :dewPointTemperature rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf <http://www.bim4ren.eu/property#temperature> ;
+                     rdfs:subPropertyOf <https://models.bim4ren.eu/property#temperature> ;
                      rdfs:label "dew point temperature"@en ,
                                 "temperatura de derretimiento"@es ,
                                 "temperatura del punto di rugiada"@it ,
@@ -43,7 +43,7 @@
                                 "Tdew" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance
+###  https://models.bim4ren.eu/domain/climateconditions#diffuseHorizontalSolarIrradiance
 :diffuseHorizontalSolarIrradiance rdf:type owl:ObjectProperty ;
                                   rdfs:subPropertyOf :irradiance ;
                                   rdfs:label "diffuse horizontal solar irradiance"@en ,
@@ -54,7 +54,7 @@
                                              "FDIFH" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance
+###  https://models.bim4ren.eu/domain/climateconditions#directNormalSolarIrradiance
 :directNormalSolarIrradiance rdf:type owl:ObjectProperty ;
                              rdfs:subPropertyOf :irradiance ;
                              rdfs:label "direct normal solar irradiance"@en ,
@@ -64,9 +64,9 @@
                                         "FDIRN" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#dryAirTemperature
+###  https://models.bim4ren.eu/domain/climateconditions#dryAirTemperature
 :dryAirTemperature rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf <http://www.bim4ren.eu/property#temperature> ;
+                   rdfs:subPropertyOf <https://models.bim4ren.eu/property#temperature> ;
                    rdfs:label "dry air temperature"@en ,
                               "temperatura del aire seco"@es ,
                               "temperatura dell'aria secca"@it ,
@@ -75,7 +75,7 @@
                               "dry" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#irradiance
+###  https://models.bim4ren.eu/domain/climateconditions#irradiance
 :irradiance rdf:type owl:ObjectProperty ;
             rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
             rdfs:label "irradiance"@en ,
@@ -86,7 +86,7 @@
             <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Irradiance> .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#latitude
+###  https://models.bim4ren.eu/domain/climateconditions#latitude
 :latitude rdf:type owl:ObjectProperty ;
           rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
           rdfs:label "latitud"@es ,
@@ -96,7 +96,7 @@
                      "Lat" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#longitude
+###  https://models.bim4ren.eu/domain/climateconditions#longitude
 :longitude rdf:type owl:ObjectProperty ;
            rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
            rdfs:label "longitud"@es ,
@@ -106,7 +106,7 @@
                       "Lon" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#relativeHumidity
+###  https://models.bim4ren.eu/domain/climateconditions#relativeHumidity
 :relativeHumidity rdf:type owl:ObjectProperty ;
                   rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
                   rdfs:label "humedad relativa"@es ,
@@ -117,9 +117,9 @@
                   <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/RelativeHumidity> .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#skyTemperature
+###  https://models.bim4ren.eu/domain/climateconditions#skyTemperature
 :skyTemperature rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf <http://www.bim4ren.eu/property#temperature> ;
+                rdfs:subPropertyOf <https://models.bim4ren.eu/property#temperature> ;
                 rdfs:label "sky temperature"@en ,
                            "temperatura del cielo"@es ,
                            "temperatura del cielo"@it ,
@@ -127,7 +127,7 @@
                            "Tsky" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#windDirection
+###  https://models.bim4ren.eu/domain/climateconditions#windDirection
 :windDirection rdf:type owl:ObjectProperty ;
                rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
                rdfs:label "dirección del viento"@es ,
@@ -137,9 +137,9 @@
                           "WindDir" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#windSpeed
+###  https://models.bim4ren.eu/domain/climateconditions#windSpeed
 :windSpeed rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf <http://www.bim4ren.eu/property#speed> ;
+           rdfs:subPropertyOf <https://models.bim4ren.eu/property#speed> ;
            rdfs:label "velocidad del viento"@es ,
                       "velocità del vento"@it ,
                       "vitesse du vent"@fr ,
@@ -147,57 +147,57 @@
                       "WindSpeed" .
 
 
-###  http://www.bim4ren.eu/property#speed
-<http://www.bim4ren.eu/property#speed> rdf:type owl:ObjectProperty .
+###  https://models.bim4ren.eu/property#speed
+<https://models.bim4ren.eu/property#speed> rdf:type owl:ObjectProperty .
 
 
-###  http://www.bim4ren.eu/property#temperature
-<http://www.bim4ren.eu/property#temperature> rdf:type owl:ObjectProperty .
+###  https://models.bim4ren.eu/property#temperature
+<https://models.bim4ren.eu/property#temperature> rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.bim4ren.eu/domain/climateconditions#Climate
+###  https://models.bim4ren.eu/domain/climateconditions#Climate
 :Climate rdf:type owl:Class ;
          rdfs:label "Clima"@es ,
                     "Climat"@fr ,
                     "Climate"@en .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Continental
+###  https://models.bim4ren.eu/domain/climateconditions#Continental
 :Continental rdf:type owl:Class ;
              rdfs:subClassOf :Climate ;
              rdfs:label "D" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Dry
+###  https://models.bim4ren.eu/domain/climateconditions#Dry
 :Dry rdf:type owl:Class ;
      rdfs:subClassOf :Climate ;
      rdfs:label "B" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Polar
+###  https://models.bim4ren.eu/domain/climateconditions#Polar
 :Polar rdf:type owl:Class ;
        rdfs:subClassOf :Climate ;
        rdfs:label "E" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Temperate
+###  https://models.bim4ren.eu/domain/climateconditions#Temperate
 :Temperate rdf:type owl:Class ;
            rdfs:subClassOf :Climate ;
            rdfs:label "C" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Tropical
+###  https://models.bim4ren.eu/domain/climateconditions#Tropical
 :Tropical rdf:type owl:Class ;
           rdfs:subClassOf :Climate ;
           rdfs:comment "Mean temperature each month is superior to 18°C. No winter. Heavy yearly rains" ;
           rdfs:label "A" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#TropicalSavanna
+###  https://models.bim4ren.eu/domain/climateconditions#TropicalSavanna
 :TropicalSavanna rdf:type owl:Class ;
                  rdfs:subClassOf :Tropical .
 
@@ -210,181 +210,181 @@
 #    Individuals
 #################################################################
 
-###  http://www.bim4ren.eu/domain/climateconditions#ClodSemiArid
+###  https://models.bim4ren.eu/domain/climateconditions#ClodSemiArid
 :ClodSemiArid rdf:type owl:NamedIndividual ,
                        :Dry ;
               rdfs:label "BSk" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#ColdDesert
+###  https://models.bim4ren.eu/domain/climateconditions#ColdDesert
 :ColdDesert rdf:type owl:NamedIndividual ,
                      :Dry ;
             rdfs:label "BWk" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland
+###  https://models.bim4ren.eu/domain/climateconditions#ColdSubtropicalHighland
 :ColdSubtropicalHighland rdf:type owl:NamedIndividual ,
                                   :Temperate ;
                          rdfs:label "Cwc" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean
+###  https://models.bim4ren.eu/domain/climateconditions#ColdSummerMediterranean
 :ColdSummerMediterranean rdf:type owl:NamedIndividual ,
                                   :Temperate ;
                          rdfs:label "Csc" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#HotDesert
+###  https://models.bim4ren.eu/domain/climateconditions#HotDesert
 :HotDesert rdf:type owl:NamedIndividual ,
                     :Dry ;
            rdfs:label "BWh" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#HotSemiArid
+###  https://models.bim4ren.eu/domain/climateconditions#HotSemiArid
 :HotSemiArid rdf:type owl:NamedIndividual ,
                       :Dry ;
              rdfs:label "BSh" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental
+###  https://models.bim4ren.eu/domain/climateconditions#HotSummerHumidContinental
 :HotSummerHumidContinental rdf:type owl:NamedIndividual ,
                                     :Continental ;
                            rdfs:label "Dfa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#HotSummerMediterranean
+###  https://models.bim4ren.eu/domain/climateconditions#HotSummerMediterranean
 :HotSummerMediterranean rdf:type owl:NamedIndividual ,
                                  :Temperate ;
                         rdfs:label "Csa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#HumidSubtropical
+###  https://models.bim4ren.eu/domain/climateconditions#HumidSubtropical
 :HumidSubtropical rdf:type owl:NamedIndividual ,
                            :Temperate ;
                   rdfs:label "Cfa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#IceCapClimate
+###  https://models.bim4ren.eu/domain/climateconditions#IceCapClimate
 :IceCapClimate rdf:type owl:NamedIndividual ,
                         :Polar ;
                rdfs:label "EF" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic
+###  https://models.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedExtremelyColdSubarctic
 :MediterraneanInfluencedExtremelyColdSubarctic rdf:type owl:NamedIndividual ,
                                                         :Continental ;
                                                rdfs:label "Dsc" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid
+###  https://models.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedHotSummerHumid
 :MediterraneanInfluencedHotSummerHumid rdf:type owl:NamedIndividual ,
                                                 :Continental ;
                                        rdfs:label "Dsa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic
+###  https://models.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedSubarctic
 :MediterraneanInfluencedSubarctic rdf:type owl:NamedIndividual ,
                                            :Continental ;
                                   rdfs:label "Dsb" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental
+###  https://models.bim4ren.eu/domain/climateconditions#MediterraneanInfluencedWarmSummerHumidContinental
 :MediterraneanInfluencedWarmSummerHumidContinental rdf:type owl:NamedIndividual ,
                                                             :Continental ;
                                                    rdfs:label "Dsa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic
+###  https://models.bim4ren.eu/domain/climateconditions#MonsoonInfluencedExtremelyColdSubarctic
 :MonsoonInfluencedExtremelyColdSubarctic rdf:type owl:NamedIndividual ,
                                                   :Continental ;
                                          rdfs:label "Dwd" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid
+###  https://models.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHotSummerHumid
 :MonsoonInfluencedHotSummerHumid rdf:type owl:NamedIndividual ,
                                           :Continental ;
                                  rdfs:label "Dwa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical
+###  https://models.bim4ren.eu/domain/climateconditions#MonsoonInfluencedHumidSubtropical
 :MonsoonInfluencedHumidSubtropical rdf:type owl:NamedIndividual ,
                                             :Temperate ;
                                    rdfs:label "Cwa" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic
+###  https://models.bim4ren.eu/domain/climateconditions#MonsoonInfluencedSubarctic
 :MonsoonInfluencedSubarctic rdf:type owl:NamedIndividual ,
                                      :Continental ;
                             rdfs:label "Dwc" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid
+###  https://models.bim4ren.eu/domain/climateconditions#MonsoonInfluencedWarmSummerHumid
 :MonsoonInfluencedWarmSummerHumid rdf:type owl:NamedIndividual ,
                                            :Continental ;
                                   rdfs:label "Dwb" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Subartic
+###  https://models.bim4ren.eu/domain/climateconditions#Subartic
 :Subartic rdf:type owl:NamedIndividual ,
                    :Continental ;
           rdfs:label "Dfc" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#SubpolearOceanic
+###  https://models.bim4ren.eu/domain/climateconditions#SubpolearOceanic
 :SubpolearOceanic rdf:type owl:NamedIndividual ,
                            :Temperate ;
                   rdfs:label "Cfc" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#SubtropicalHighland
+###  https://models.bim4ren.eu/domain/climateconditions#SubtropicalHighland
 :SubtropicalHighland rdf:type owl:NamedIndividual ,
                               :Temperate ;
                      rdfs:label "Cwb" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#TemperateOceanic
+###  https://models.bim4ren.eu/domain/climateconditions#TemperateOceanic
 :TemperateOceanic rdf:type owl:NamedIndividual ,
                            :Temperate ;
                   rdfs:label "Cfb" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#TropicalMonsoon
+###  https://models.bim4ren.eu/domain/climateconditions#TropicalMonsoon
 :TropicalMonsoon rdf:type owl:NamedIndividual ,
                           :Tropical ;
                  rdfs:label "Am" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#TropicalRainForest
+###  https://models.bim4ren.eu/domain/climateconditions#TropicalRainForest
 :TropicalRainForest rdf:type owl:NamedIndividual ,
                              :Tropical ;
                     rdfs:label "Af" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer
+###  https://models.bim4ren.eu/domain/climateconditions#TropicalSavannaDrySummer
 :TropicalSavannaDrySummer rdf:type owl:NamedIndividual ,
                                    :TropicalSavanna ;
                           rdfs:label "As" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter
+###  https://models.bim4ren.eu/domain/climateconditions#TropicalSavannaDryWinter
 :TropicalSavannaDryWinter rdf:type owl:NamedIndividual ,
                                    :TropicalSavanna ;
                           rdfs:label "Aw" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#Tundra
+###  https://models.bim4ren.eu/domain/climateconditions#Tundra
 :Tundra rdf:type owl:NamedIndividual ,
                  :Polar ;
         rdfs:label "ET" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental
+###  https://models.bim4ren.eu/domain/climateconditions#WarmSummerHumidContinental
 :WarmSummerHumidContinental rdf:type owl:NamedIndividual ,
                                      :Continental ;
                             rdfs:label "Dfb" .
 
 
-###  http://www.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean
+###  https://models.bim4ren.eu/domain/climateconditions#WarmSummerMediterranean
 :WarmSummerMediterranean rdf:type owl:NamedIndividual ,
                                   :Temperate ;
                          rdfs:label "Csb" .

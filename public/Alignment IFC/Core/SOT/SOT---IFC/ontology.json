@@ -23,60 +23,48 @@
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#SystemComponent"
+    "@id" : "https://models.bim4ren.eu/sot#SystemComponent"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionPort",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#TransportElement"
+    "@id" : "https://models.bim4ren.eu/sot#TransportElement"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcDistributionSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#System"
+    "@id" : "https://models.bim4ren.eu/sot#System"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#IfcFlowTerminal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#TerminalElement"
+    "@id" : "https://models.bim4ren.eu/sot#TerminalElement"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionElement",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#SystemComponent"
+    "@id" : "https://models.bim4ren.eu/sot#SystemComponent"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionPort",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#TransportElement"
+    "@id" : "https://models.bim4ren.eu/sot#TransportElement"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcDistributionSystem",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#System"
+    "@id" : "https://models.bim4ren.eu/sot#System"
   } ]
 }, {
   "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL#IfcFlowTerminal",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/sot#TerminalElement"
+    "@id" : "https://models.bim4ren.eu/sot#TerminalElement"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/sot#System",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.bim4ren.eu/sot#SystemComponent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.bim4ren.eu/sot#TerminalElement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.bim4ren.eu/sot#TransportElement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "https://bim4ren.eu/alignment/sot-IFC",
+  "@id" : "https://models.bim4ren.eu/alignment/sot-IFC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Pierre Bourreau"
@@ -94,14 +82,26 @@
   }, {
     "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL"
   }, {
-    "@id" : "http://www.bim4ren.eu/sot#"
+    "@id" : "https://models.bim4ren.eu/sot#"
   }, {
     "@id" : "https://w3id.org/bot"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://bim4ren.eu/alignment/sot-IFC/0.1"
+    "@id" : "https://models.bim4ren.eu/alignment/sot-IFC/0.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "v0.1"
   } ]
+}, {
+  "@id" : "https://models.bim4ren.eu/sot#System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/sot#SystemComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/sot#TerminalElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/sot#TransportElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]

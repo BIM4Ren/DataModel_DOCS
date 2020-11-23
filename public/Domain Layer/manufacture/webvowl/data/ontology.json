@@ -2,12 +2,12 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en" ],
-    "baseIris" : [ "http://bim4ren.eu/domain/Manufacture", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
-    "iri" : "http://bim4ren.eu/domain/manufacture#"
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://models.bim4ren.eu/domain/Manufacture", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://models.bim4ren.eu/domain/manufacture#"
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "2",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "4",
@@ -22,15 +22,15 @@
     "id" : "9",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "1",
+    "id" : "2",
     "type" : "owl:Thing"
   }, {
     "id" : "11",
     "type" : "rdfs:Datatype"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#Brand",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#Brand",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Brand"
@@ -39,7 +39,7 @@
       "en" : "Information on the manufacturer."
     },
     "attributes" : [ "external" ],
-    "id" : "2"
+    "id" : "0"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -48,8 +48,8 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#Product",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#Product",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Product"
@@ -76,7 +76,7 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "1",
+    "id" : "2",
     "label" : {
       "undefined" : "Thing"
     }
@@ -89,7 +89,7 @@
     }
   } ],
   "property" : [ {
-    "id" : "0",
+    "id" : "1",
     "type" : "owl:objectProperty"
   }, {
     "id" : "3",
@@ -105,54 +105,54 @@
     "type" : "owl:someValuesFrom"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#manufacturer",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#manufacturer",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
+    "range" : "2",
     "label" : {
       "IRI-based" : "manufacturer"
     },
-    "domain" : "1",
+    "domain" : "2",
     "attributes" : [ "external", "object" ],
-    "id" : "0"
+    "id" : "1"
   }, {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#code",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#name",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
     "range" : "4",
     "label" : {
-      "IRI-based" : "code"
+      "IRI-based" : "name"
     },
-    "domain" : "2",
-    "attributes" : [ "external", "datatype", "someValues" ],
+    "domain" : "0",
+    "attributes" : [ "external", "someValues", "datatype" ],
     "id" : "3"
   }, {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#code",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#code",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
     "range" : "7",
     "label" : {
       "IRI-based" : "code"
     },
     "domain" : "6",
-    "attributes" : [ "external", "datatype", "someValues" ],
+    "attributes" : [ "external", "someValues", "datatype" ],
     "id" : "5"
   }, {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#dataSheet",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#dataSheet",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
     "range" : "9",
     "label" : {
       "IRI-based" : "dataSheet"
     },
     "domain" : "6",
-    "attributes" : [ "external", "datatype", "someValues" ],
+    "attributes" : [ "external", "someValues", "datatype" ],
     "id" : "8"
   }, {
-    "iri" : "http://bim4ren.eu/domain/Manufacture#name",
-    "baseIri" : "http://bim4ren.eu/domain/Manufacture",
+    "iri" : "https://models.bim4ren.eu/domain/Manufacture#code",
+    "baseIri" : "https://models.bim4ren.eu/domain/Manufacture",
     "range" : "11",
     "label" : {
-      "IRI-based" : "name"
+      "IRI-based" : "code"
     },
-    "domain" : "2",
-    "attributes" : [ "external", "datatype", "someValues" ],
+    "domain" : "0",
+    "attributes" : [ "external", "someValues", "datatype" ],
     "id" : "10"
   } ]
 }

@@ -1,12 +1,12 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "de", "fi", "sv", "pt", "en", "it", "fr", "zh-cn", "es", "undefined", "cs", "sk", "fa", "da", "ca", "nl", "tr" ],
-    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "http://www.w3.org/2000/01/rdf-schema", "https://schema.org", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2006/vcard/ns", "http://www.bim4ren.eu/buildings" ],
+    "languages" : [ "de", "fi", "sv", "pt", "en", "it", "fr", "zh-cn", "es", "undefined", "cs", "sk", "fa", "da", "nl", "ca", "tr" ],
+    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "https://models.bim4ren.eu/buildings", "http://www.w3.org/2000/01/rdf-schema", "https://schema.org", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2006/vcard/ns" ],
     "title" : {
       "en" : "The BIM4Ren buildings ontology"
     },
-    "iri" : "http://www.bim4ren.eu/buildings#",
+    "iri" : "https://models.bim4ren.eu/buildings#",
     "description" : {
       "en" : "The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage."
     },
@@ -32,118 +32,109 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "10",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "41",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "38",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "49",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "50",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "51",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "34",
-    "type" : "owl:Class"
-  }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "42",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "70",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "48",
-    "type" : "owl:Class"
-  }, {
-    "id" : "82",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "74",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
     "id" : "36",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "65",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "96",
+    "id" : "42",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "33",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "19",
+    "id" : "50",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
     "type" : "owl:Class"
   }, {
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "66",
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
     "type" : "owl:Class"
   }, {
     "id" : "8",
@@ -151,29 +142,41 @@
   }, {
     "id" : "4",
     "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/buildings#Dormitory",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#Kitchen",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3LQ_u01P4HtG0000PR1IRl",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2SKd6KOMSHuO00025QrE$V",
         "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Omniclass 13-65 23 00",
+        "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "Dormitory",
-      "en" : "Dormitory",
-      "fr" : "Dortoir"
+      "IRI-based" : "Kitchen"
     },
     "comment" : {
-      "en" : "A single facility containing multiple sleeping quarters and typically shared eating and lavatory facilities typically for students."
+      "en" : "A room or part of a room used for cooking and food preparation."
     },
-    "id" : "10",
-    "superClasses" : [ "11" ]
+    "id" : "13",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/bot#Site",
     "baseIri" : "https://w3id.org/bot",
@@ -195,8 +198,8 @@
     "label" : {
       "de" : "Grundstück",
       "IRI-based" : "Site",
-      "fi" : "Tontti",
       "sv" : "Plats",
+      "fi" : "Tontti",
       "pt" : "Sítio",
       "en" : "Site",
       "it" : "Sito",
@@ -207,14 +210,14 @@
       "sk" : "Stavenisko, stavebný pozemok, stavebná plocha, zastavaná plocha.",
       "fa" : "سایت",
       "da" : "Grund",
-      "tr" : "Arsa",
       "ca" : "Lloc",
+      "tr" : "Arsa",
       "nl" : "Terrein"
     },
     "comment" : {
       "de" : "Ein Teil der realen oder virtuellen Welt die beide Teil dieser Welt sind und eine räumliche Ausdehnung hat. Es besteht die Absicht, dass es Gebäude enthält, oder es enthält ein oder mehr Gebäude.",
-      "sv" : "En del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner. Den är avsedd att innehålla, eller innehåller, en eller flera byggnader.",
       "fi" : "Fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet. Sen on tarkoitus sisältää tai se sisältää yhden tai useamman rakennuksen.",
+      "sv" : "En del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner. Den är avsedd att innehålla, eller innehåller, en eller flera byggnader.",
       "pt" : "Uma parte do mundo físico ou do mundo virtual que está inerentemente localizada neste mundo e que tem uma extensão espacial tridimensional. Contém ou destina-se a conter um ou mais edifícios.",
       "en" : "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. It is intended to contain or contains one or more buildings.",
       "it" : "Una parte del mondo fisico o virtuale che si trova intrinsecamente in questo mondo e ha una estensione spaziale tridimensionale. Un sito contiene o è destinato a contenere uno o più edifici.",
@@ -225,31 +228,22 @@
       "sk" : "Stavenisko ako časť fyzického, alebo virtuálneho sveta, ktoré sú neodmysliteľne umiestnené ako vo fyzickom svete tak majúc 3D virtuálny priestorový rozsah. Zámerom staveniska je obsahovať aspoň jednu stavbu, napríklad budovu, či stavebnú konštrukciu.",
       "fa" : "بخشی از دنیای فیزیکی، و یا مجازی که اساساً در دنیا وجود دارد و دارای حدود مکانی سه بعدی است. یک عنصر سایت در برگیرنده‌ی یک یا چند ساختمان است.\n\n",
       "da" : "En del af den fysiske verden eller en virtuel verden, der i sagens natur både er lokaliseret i denne verden og har en 3D rumlig afgrænsning. En byggegrund er beregnet til at indeholde, eller indeholder én eller flere bygninger.",
-      "ca" : "Una part del món físic o un món virtual que es troba inherentment ubicada en aquest món i que té una extensió espacial en 3D. Està destinada a contenir un contingut o més edificis.",
       "tr" : "Bir veya daha fazla bina içeren alan.",
-      "nl" : "Een deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft. Het is bedoeld om één of meerdere gebouwen te bevatten of bevat al één of meerdere gebouwen."
+      "nl" : "Een deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft. Het is bedoeld om één of meerdere gebouwen te bevatten of bevat al één of meerdere gebouwen.",
+      "ca" : "Una part del món físic o un món virtual que es troba inherentment ubicada en aquest món i que té una extensió espacial en 3D. Està destinada a contenir un contingut o més edificis."
     },
     "attributes" : [ "external" ],
-    "id" : "29",
+    "id" : "27",
     "superClasses" : [ "4" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Cellar",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#Cellar",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Cellar"
     },
-    "id" : "32",
+    "id" : "36",
     "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Allotment",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Allotment"
-    },
-    "id" : "35",
-    "superClasses" : [ "36" ]
   }, {
     "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
     "baseIri" : "http://www.w3.org/2006/vcard/ns",
@@ -301,14 +295,14 @@
       "iri" : "http://maxime-lefrancois.info/me#",
       "baseIri" : "http://maxime-lefrancois.info/me",
       "annotations" : {
-        "fn" : [ {
-          "identifier" : "fn",
+        "name" : [ {
+          "identifier" : "name",
           "language" : "undefined",
           "value" : "Maxime Lefrançois",
           "type" : "label"
         } ],
-        "name" : [ {
-          "identifier" : "name",
+        "fn" : [ {
+          "identifier" : "fn",
           "language" : "undefined",
           "value" : "Maxime Lefrançois",
           "type" : "label"
@@ -337,7 +331,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "41"
+    "id" : "37"
   }, {
     "iri" : "https://w3id.org/bot#Space",
     "baseIri" : "https://w3id.org/bot",
@@ -371,15 +365,15 @@
       "sk" : "Priestor",
       "fa" : "فضا",
       "da" : "Rum",
-      "tr" : "Oda",
+      "ca" : "Espai",
       "nl" : "Ruimte",
-      "ca" : "Espai"
+      "tr" : "Oda"
     },
-    "subClasses" : [ "17", "24", "22", "15", "13", "1", "42", "43", "44", "32" ],
+    "subClasses" : [ "15", "22", "20", "13", "11", "1", "36", "38", "39", "40" ],
     "comment" : {
       "de" : "Ein Teil der realen oder virtuellen Welt, dessen räumliche Ausdehnung tatsächlich oder virtuell begrenzt ist. In der Zone in der es enthalten ist stellt es bestimmte Funktionen bereit.",
-      "fi" : "Osa fyysisestä -tai virtuaalista maailmasta, jonka 3D-tila on rajattu oikeasti tai teoreettisesti ja tarjoaa tiettyjä toimintoja vyöhykkeellä, johon se sisältyy.",
       "sv" : "En del av den fysiska världen eller en virtuell värld vars spatiala utsträckning i tre dimensioner är faktiskt eller teoretiskt begränsad, och som tillhandahåller vissa funktioner för zonen den är inrymd i.",
+      "fi" : "Osa fyysisestä -tai virtuaalista maailmasta, jonka 3D-tila on rajattu oikeasti tai teoreettisesti ja tarjoaa tiettyjä toimintoja vyöhykkeellä, johon se sisältyy.",
       "pt" : "Uma parte do mundo físico ou de um mundo virtual cuja extensão espacial 3D esteja delimitada de forma efectiva ou teórica, que fornece certas funções dentro da zona em que está contido.",
       "en" : "A part of the physical world or a virtual world whose 3D spatial extent is bounded actually or theoretically, and provides for certain functions within the zone it is contained in.",
       "it" : "Una parte del mondo fisico o virtuale il cui spazio 3D è delimitato effettivamente o virtualmente, e fornisce determinate funzioni all'interno della zona in cui è contenuta.",
@@ -390,45 +384,67 @@
       "sk" : "Ohraničený troj-rozmerný rozsah definovaný fyzicky nebo pojmovo [ISO 12006-2 (DIS 2013), 3.4.3]",
       "fa" : "بخشی از دنیای فیزیکی، و یا مجازی که وسعت مکانی سه بعدی آن از نظر حقیقی و یا تئوری محدود است، و عملکردهای مشخصی را در منطقه‌ای که در آن قرار گرفته ارائه می دهد.\n",
       "da" : "En del af den fysiske verden eller en virtuel verden, hvis 3D-rumlige omfang er afgrænset faktisk eller teoretisk, og giver bestemte funktioner inden for den zone, den er indeholdt i.",
+      "tr" : "Fiziksel dünyanın veya sanal dünyanın, 3D mekansal kapsamı gerçekte veya teorik olarak tanımlanmış olan ve içinde bulunduğu bölgede belirli fonksiyonları yerine getiren bir kısmıdır.",
       "ca" : "Una part de el món físic o d'un món virtual l'extensió espacial tridimensional està limitada física o teòricament, i proveeix certes funcions dins de la zona on està continguda.",
-      "nl" : "Een deel van de fysieke wereld of een virtuele wereld waarvan de driedimensionale omvang feitelijk of virtueel begrensd is, en dat bepaalde activiteiten faciliteert in de zone die de ruimte bevat.",
-      "tr" : "Fiziksel dünyanın veya sanal dünyanın, 3D mekansal kapsamı gerçekte veya teorik olarak tanımlanmış olan ve içinde bulunduğu bölgede belirli fonksiyonları yerine getiren bir kısmıdır."
+      "nl" : "Een deel van de fysieke wereld of een virtuele wereld waarvan de driedimensionale omvang feitelijk of virtueel begrensd is, en dat bepaalde activiteiten faciliteert in de zone die de ruimte bevat."
     },
     "attributes" : [ "external" ],
     "id" : "2",
-    "superClasses" : [ "26", "4" ]
+    "superClasses" : [ "24", "4" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "46",
+    "id" : "42",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "38",
+    "id" : "33",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "49",
+    "id" : "45",
     "label" : {
       "IRI-based" : "gYear"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "50",
+    "id" : "46",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Dormitory",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3LQ_u01P4HtG0000PR1IRl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dormitory",
+      "en" : "Dormitory",
+      "fr" : "Dortoir"
+    },
+    "comment" : {
+      "en" : "A single facility containing multiple sleeping quarters and typically shared eating and lavatory facilities typically for students."
+    },
+    "id" : "48",
+    "superClasses" : [ "49" ]
+  }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "51",
+    "id" : "50",
     "label" : {
       "undefined" : "Thing"
     }
@@ -445,189 +461,65 @@
       "labels" : { }
     } ],
     "attributes" : [ "external" ],
-    "id" : "53"
+    "id" : "52"
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#Allotment",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Allotment"
+    },
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Terraced",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Terraced"
+    },
+    "id" : "57",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Garage",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "'Government Subsiduzed Building' in Omniclass 11 (2013 02 26)",
+        "value" : "Omniclass 13-21 13 00",
         "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "GovernmentSubsidizedBuilding",
-      "en" : "Government Subsidized Building"
+      "IRI-based" : "Garage"
     },
     "comment" : {
-      "en" : "A dwelling (or dwellings) that has a lowered cost of ownership due to government funding and support."
+      "en" : "Totally or partially enclosed space that is normally used to circulate and station vehicles."
     },
-    "id" : "34",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Toilets",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2EdEmAOMSHuO00025QrE$V",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-65 13 13",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Toilets"
-    },
-    "comment" : {
-      "en" : "A space containing a toilet or similar fixture that disposes of human waste by using water to flush it through a drainpipe to another location."
-    },
-    "id" : "13",
+    "id" : "38",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#SocialHousingBuilding",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "en",
-        "value" : "'LIHTC Tax Credit Housing' in Omniclass 11 (2013 02 26)",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SocialHousingBuilding"
-    },
-    "id" : "31",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Bathroom",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#SeniorHousing",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/#concept/details/2GPg_0OMSHuO00025QrE$V",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-65 13 15",
+        "value" : "'Senior Housing' in Omniclass 11 (2013 02 26)",
         "type" : "label"
       } ]
     },
     "label" : {
-      "IRI-based" : "Bathroom"
+      "IRI-based" : "SeniorHousing"
     },
     "comment" : {
-      "en" : "Space for washing one's body or part of it."
+      "en" : "Dwellings and commercial facilities designed and/or retrofitted for occupancy by Seniors."
     },
-    "id" : "17",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Residential",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "'Housing Facility' in Omniclass 11 (2013 02 26)",
-        "type" : "label"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2aYxa01P4HtG0000PR1IRl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Residential",
-      "en" : "Residential Building",
-      "fr" : "Bâtiment résidentiel"
-    },
-    "subClasses" : [ "65", "66", "36", "20", "10" ],
-    "comment" : {
-      "en" : "Facilities used for long-term inhabitation and dwelling by humans."
-    },
-    "id" : "11",
-    "superClasses" : [ "48" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#DiningRoom",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-57 13 15 11",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "DiningRoom"
-    },
-    "comment" : {
-      "en" : "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."
-    },
-    "id" : "42",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#DetachedHouse",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DetachedHouse"
-    },
-    "id" : "69",
-    "superClasses" : [ "36" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Enveloppe",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Enveloppe",
-      "en" : "Enveloppe",
-      "it" : "Involucro edilizio",
-      "fr" : "Enveloppe",
-      "es" : "Envolvente de edificación"
-    },
-    "id" : "70"
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Kitchen",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2SKd6KOMSHuO00025QrE$V",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-65 23 00",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Kitchen"
-    },
-    "comment" : {
-      "en" : "A room or part of a room used for cooking and food preparation."
-    },
-    "id" : "22",
-    "superClasses" : [ "2" ]
+    "id" : "71",
+    "superClasses" : [ "49" ]
   }, {
     "iri" : "https://w3id.org/bot#Building",
     "baseIri" : "https://w3id.org/bot",
@@ -649,8 +541,8 @@
     "label" : {
       "de" : "Gebäude",
       "IRI-based" : "Building",
-      "sv" : "Byggnad",
       "fi" : "Rakennus",
+      "sv" : "Byggnad",
       "pt" : "Edifício",
       "en" : "Building",
       "it" : "Edificio",
@@ -661,11 +553,11 @@
       "sk" : "Budova",
       "fa" : "ساختمان",
       "da" : "Bygning",
+      "tr" : "Bina",
       "ca" : "Edifici",
-      "nl" : "Gebouw",
-      "tr" : "Bina"
+      "nl" : "Gebouw"
     },
-    "subClasses" : [ "11" ],
+    "subClasses" : [ "49" ],
     "comment" : {
       "de" : "Eine eigenständige Einheit der bebauten Umgebung mit einer charakteristischen räumlichen Struktur. Es besteht die Absicht das es eine Funktion oder Nutzung erlaubt [ISO 12006-2:2013]. Ein bot:Building ist Teil der realen und virtuellen Welt und hat eine räumliche Ausdehnung. Es ist enthalten in einem Grundstück und kann ein oder mehrere Stockwerke enthalten, die vertical miteinander verbunden sind.",
       "fi" : "Rakennetun ympäristön itsenäinen osa, jolla on ominainen avaruudellinen rakenne, ja joka on tarkoitettu palvelemaan ainakin yhtä funktiota tai käyttäjäaktiviteettia [ISO 12006-2:2013]. bot:Building on fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet, sijaitsee tontilla, ja se voi sisältää yhden tai useamman kerroksen jotka ovat pystysuunnassa yhteydessä.",
@@ -680,13 +572,33 @@
       "sk" : "Nezávislá jednotka v (stavebnom) prostredí či verejnom priestore, s charakteristickou priestorovou štruktúrou a formou, ktorá má slúžiť aspoň pre jednu činnosť alebo funkciu uživateľa [ISO 12006-2:2013]. Bot:Building je súčasťou fyzického alebo virtuálneho sveta, ktorý je neodmyslitelnľ umiestnľný ako vo fyzickom svete, tak má 3D virtuálny priestorový rozsah, je umiestnený na stavenisku (\"Site\") a môže obsahovať jedno alebo viac podlaží, ktoré sú vertikálne prepojené. ",
       "fa" : "یک واحد مستقل با ساختار مکانی مشخص از محیط ساخت وساز، که برای ارایه‌ی حداقل یک عملکرد یا فعالیت کاربری در نظرگرفته شده است [ISO 12006-2:2013]. یک bot:Building یک بخش از دنیای فیزیکی یا یک دنیای مجازی است که اساسا در این دنیا قرار دارد و دارای حدود مکانی سه بعدی است، دریک سایت ساختمان قرار گرفته ، و میتواند دربرگیرنده‌ی یک یا چند طبقه باشد که به صورت عمودی به هم متصل شده اند.",
       "da" : "En uafhængig enhed i det bebyggede miljø med en karakteristisk rumlig struktur, beregnet til at betjene mindst en funktion eller brugeraktivitet [ISO 12006-2: 2013]. En bot:Building er en del af den fysiske verden eller en virtuel verden, der i sagens natur både er lokaliseret i denne verden og har en 3D rumlig afgrænsning, er indeholdt på et byggefelt og kan indeholde en eller flere etager, der er lodret forbundet.",
-      "ca" : "Unitat independent de l’entorn construït amb una estructura espacial característica, destinada a servir almenys una funció o activitat de l’usuari [ISO 12006-2: 2013]. Un bot:Building és tant una part del món físic o virtual que es troba inherentment situat en aquest món i que té una extensió espacial 3D, es troba en un emplaçament d’edificació, i pot contenir un o més pisos connectats verticalment.",
       "tr" : "Bir yapılı ortamına sahip, ve karakteri mekansal olan ve en az bir funksiyona veya kullanıcı etkinligini desteleyen bir bağımsız parcadir. ",
+      "ca" : "Unitat independent de l’entorn construït amb una estructura espacial característica, destinada a servir almenys una funció o activitat de l’usuari [ISO 12006-2: 2013]. Un bot:Building és tant una part del món físic o virtual que es troba inherentment situat en aquest món i que té una extensió espacial 3D, es troba en un emplaçament d’edificació, i pot contenir un o més pisos connectats verticalment.",
       "nl" : "Een onafhankelijke entiteit met een ruimtelijke structuur die onderdeel is van de gebouwde omgeving, en bedoeld is om minimaal één functie of gebruikersactiviteit te bedienen [ISO 12006-2:2013]. Een bot:Building is deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft, is deel van een gebouwsite, en kan één of meerder verdiepingen bevatten die verticaal verbonden zijn."
     },
     "attributes" : [ "external" ],
-    "id" : "48",
-    "superClasses" : [ "26", "4" ]
+    "id" : "26",
+    "superClasses" : [ "24", "4" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Attic",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Omniclass 13-23 23 27",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Attic"
+    },
+    "comment" : {
+      "en" : "The space between the ceiling beams of the top story and the roof rafters."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/bot#Interface",
     "baseIri" : "https://w3id.org/bot",
@@ -708,8 +620,8 @@
     "label" : {
       "de" : "Schnittstelle",
       "IRI-based" : "Interface",
-      "sv" : "Gränssnitt",
       "fi" : "Rajapinta",
+      "sv" : "Gränssnitt",
       "pt" : "Interface",
       "en" : "Interface",
       "it" : "Interfaccia",
@@ -720,9 +632,9 @@
       "sk" : "Rozhranie\n",
       "fa" : "رابط",
       "da" : "Grænseflade",
-      "nl" : "Interface",
       "tr" : "Arayüzey",
-      "ca" : "Interfície"
+      "ca" : "Interfície",
+      "nl" : "Interface"
     },
     "comment" : {
       "de" : "Ein allgemeines Konzept um eine qualifizierte Beziehung zwischen einem oder mehreren Dingen auf der Welt auszudrücken. Hierbei ist wenigstens eines der Dinge ein Bauteil oder eine Zone eines Gebäudes. Beispiele: - Qualifizierung des Wärmeübergangs durch ein oder mehrere Bauteile. Dies umfasst eindimensionale Wärmeübertragung (Fläche) durch ein Bauteil von einer Zone zur nächsten; zweidimensionaler Wärmeübergang (Linie) von einer Zone zur nächsten an der Kontaktstelle, an der sich diese treffen oder dreidimensional (Punkt) von einer zone zur nächsten an der drei Bauteile sich treffen  (typischerweise ist dies der Fall, wenn zwei Wände und die Decke sich treffen); - Verbindung eines elektrischen Geräts mit dem elektrischen Versorgungssystem eines Gebäudes; - Eine Tür zwischen zwei Räumen.",
@@ -739,106 +651,14 @@
       "fa" : "یک مفهوم کلی از شرایط رابطه بین دو یا چند چیزدر دنیا، در حالی که حداقل یکی از آنها المان یا منطقه است. مثال:\n- شرایط انتقال گرما بین یک منطقه و منطقه دیگر از طریق یک یا چند المان ساختمان. این میتواند شامل انتقال/اتلاف گرمای یک بعدی (سطحی) از یک منطقه به منطقه‌ی دیگر از طریق یک المان ساختمان؛ یا، انتقال/اتلاف گرمای دو بعدی (خطی) از یک منطقه به منطقه‌ی دیگر از طریق اتصال بین دو المان ساختمان؛ و یا، انتقال/اتلاف گرمای سه بعدی (نقطه‌ای) از یک منطقه به منطقه‌ی دیگر از طریق برقراری اتصال بین سه المان ساختمان (معمولا دو دیوار و یک دال) باشد.\n- ارتباط یک دستگاه الکتریکی با یک سیستم الکتریکی ساختمان.\n- یک در بین یک اتاق و اتاق دیگر.\n",
       "da" : "Et generisk koncept til at kvalificere forholdet mellem to eller flere ting i verden, hvoraf mindst den ene er en bygningsdel eller -zone. Eksempler:\n    - Kvalificering af varmeoverførsel mellem zoner gennem en eller flere bygningsdele. Dette inkluderer endimensionelle (flade) varmetab fra en zone til en anden gennem en enkelt bygningsdel, todimensionelle (linie) tab fra en zone til en anden gennem den samling, hvor de to elementer mødes, eller tredimensionelle (punkt) tab fra en zone til en anden gennem samlingen, hvor tre elementer (typisk to vægge og et dæk) mødes.\n    - Forbindelsen mellem et elektrisk device og det elektriske system i en bygning.\n    - En dør mellem et rum og et andet.",
       "ca" : "Concepte genèric per qualificar la relació de dues o més coses del món, on almenys una d'elles és un element o zona constructiva. \nExemples:\n- Qualificació de la transmissió de calor entre zones a través d’un o més elements d’edificació. Això inclou pèrdues de calor (superficials) unidimensionals d'una zona a una altra mitjançant un element de construcció, una pèrdua bidireccional (en línia) d'una zona a una altra mitjançant la connexió en què es troben els dos elements, o una pèrdua tridimensional (en un punt) d’una zona a una altra mitjançant la connexió on es reuneixen tres elements (normalment dues parets i una llosa).\n- Connexió d’un dispositiu elèctric al sistema elèctric d’un edifici.\n- Una porta entre una habitació i una altra.",
-      "tr" : "Arayüz, iki bina parçası, iki bölge veya bir bina parçası ile bir bölgenin buluştuğu alandır. İkisi arasındaki bağlantıyı nitelendirmek için kullanılabilir. Bir kullanım durumu, bir bölge ve birkaç bölgeyi kapsayan bir duvar arasındaki ısı transfer alanının niteliği olabilir.",
-      "nl" : "Een generiek concept om een kwalificeerbare relatie te creëren tussen twee of meer dingen uit de wereld, waarbij er minstens één een gebouwelement of zone is. Voorbeelden:\n     - kwalificeren van de warmte transmissie tussen gebouw zones doorheen één of meerdere gebouwelementen. Dit omvat ééndimensionele (oppervlakte) warmteverliezen van één zone naar een andere zone doorheen een gebouwelement, tweedimensionele (lijn) verliezen van één zone naar een andere zone doorheen de connectie tussen twee gebouwelementen of driedimensionele (punt) verliezen van één zone naar een andere zone doorheen de connectie tussen drie gebouwelementen (typisch twee muren en een vloer- of dakplaat).\n     - Connectie tussen een elektrisch toestel en het elektrisch systeem van een gebouw.\n     - Een deur tussen twee ruimtes"
+      "nl" : "Een generiek concept om een kwalificeerbare relatie te creëren tussen twee of meer dingen uit de wereld, waarbij er minstens één een gebouwelement of zone is. Voorbeelden:\n     - kwalificeren van de warmte transmissie tussen gebouw zones doorheen één of meerdere gebouwelementen. Dit omvat ééndimensionele (oppervlakte) warmteverliezen van één zone naar een andere zone doorheen een gebouwelement, tweedimensionele (lijn) verliezen van één zone naar een andere zone doorheen de connectie tussen twee gebouwelementen of driedimensionele (punt) verliezen van één zone naar een andere zone doorheen de connectie tussen drie gebouwelementen (typisch twee muren en een vloer- of dakplaat).\n     - Connectie tussen een elektrisch toestel en het elektrisch systeem van een gebouw.\n     - Een deur tussen twee ruimtes",
+      "tr" : "Arayüz, iki bina parçası, iki bölge veya bir bina parçası ile bir bölgenin buluştuğu alandır. İkisi arasındaki bağlantıyı nitelendirmek için kullanılabilir. Bir kullanım durumu, bir bölge ve birkaç bölgeyi kapsayan bir duvar arasındaki ısı transfer alanının niteliği olabilir."
     },
     "attributes" : [ "external" ],
     "id" : "82"
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#LivingRoom",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-57 13 15 11",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "LivingRoom"
-    },
-    "comment" : {
-      "en" : "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."
-    },
-    "id" : "1",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Appartment",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Appartment",
-      "en" : "Appartment",
-      "fr" : "Appartement"
-    },
-    "id" : "28",
-    "superClasses" : [ "26", "4" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Garage",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-21 13 00",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Garage"
-    },
-    "comment" : {
-      "en" : "Totally or partially enclosed space that is normally used to circulate and station vehicles."
-    },
-    "id" : "24",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#VolumetricZone",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "VolumetricZone"
-    },
-    "subClasses" : [ "2", "48", "28", "5" ],
-    "id" : "26",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Terraced",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Terraced"
-    },
-    "id" : "74",
-    "superClasses" : [ "36" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#MultiDwellingHousing",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "en",
-        "value" : "'Multiple Family Residences' in Omniclass 11 (2013 02 26)",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "MultiDwellingHousing",
-      "en" : "Multi-Dwelling Housing"
-    },
-    "subClasses" : [ "34", "31", "19" ],
-    "comment" : {
-      "en" : "Multiple dwellings contained in a single structure."
-    },
-    "id" : "20",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#SleepingRoom",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#SleepingRoom",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -854,8 +674,18 @@
     "comment" : {
       "en" : "A private room where people sleep for the night."
     },
-    "id" : "44",
+    "id" : "40",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#VolumetricZone",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VolumetricZone"
+    },
+    "subClasses" : [ "2", "44", "26", "5" ],
+    "id" : "24",
+    "superClasses" : [ "4" ]
   }, {
     "iri" : "https://w3id.org/bot#Storey",
     "baseIri" : "https://w3id.org/bot",
@@ -877,8 +707,8 @@
     "label" : {
       "de" : "Geschoss (Architektur)",
       "IRI-based" : "Storey",
-      "fi" : "Kerros",
       "sv" : "Våning",
+      "fi" : "Kerros",
       "pt" : "Piso",
       "en" : "Storey",
       "it" : "Piano di edificio",
@@ -890,13 +720,13 @@
       "fa" : "طبقه",
       "da" : "Etage",
       "ca" : "Pis",
-      "tr" : "Kat",
-      "nl" : "Verdieping"
+      "nl" : "Verdieping",
+      "tr" : "Kat"
     },
     "comment" : {
       "de" : "Ein Teil der realen oder virtuellen Welt die beide Teil dieser Welt sind und eine räumliche Ausdehnung hat. Ein bot:Storey ist in einem oder mehreren Gebäuden enthalten und es besteht die Absicht oder es ist der Fall, dass es ein oder mehrere Räume enthält, die horizontal miteinander verbunden sind. Geschosse eines Gebäudes sind vertikal miteinander verbunden, durch zum Beispiel Aufzüge oder Treppen. Ein bot:Storey umfassst zonen die über und unter der Erdoberfläche liegen. Zum Beispiel hat ein Gebäude mit 21 Geschossen über der Erde, ein Erdgeschoss und 3 Kellerstockwerken insgesamt 25 Instanzen von bot:Storey.",
-      "sv" : "En del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner. En bot:Storey är inrymd i en eller flera byggnader, och är menad att innehålla ett eller flera utrymmen som är förbundna horisontellt. Sådana våningar i en byggnad är förbundna med hjälp av lodrätta förbindelser såsom hissar och trappor. Bot:Storey kan användas för att beskriva såväl våningar över som under mark; till exempel så har en byggnad med 21 våningar över marken, en entrénvåning, och tre källarvåningar totalt 25 bot:Storey-instanser.",
       "fi" : "Fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet. bot:Storey sisältyy yhteen tai useampaan rakennukseen, ja sen tarkoitus on sisältää yksi tai useampi tila jotka ovat vaakasuunnassa yhteydessä. Rakennuksen kerrokset ovat yhteydessä toisiinsa pystysuuntaisilla yhteyksillä, kuten hisseillä ja rappusilla. bot:Storey kattaa vyöhykkeet sekä maan alla että päällä. Esimerkiksi rakennus, jossa on pohjakerros, 21 kerrosta sen yläpuolella, ja 3 kerrosta kellaria, on yhtäläinen seuraavan lauseen kanssa: rakennuksella on 25 bot:Storey instanssia.",
+      "sv" : "En del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner. En bot:Storey är inrymd i en eller flera byggnader, och är menad att innehålla ett eller flera utrymmen som är förbundna horisontellt. Sådana våningar i en byggnad är förbundna med hjälp av lodrätta förbindelser såsom hissar och trappor. Bot:Storey kan användas för att beskriva såväl våningar över som under mark; till exempel så har en byggnad med 21 våningar över marken, en entrénvåning, och tre källarvåningar totalt 25 bot:Storey-instanser.",
       "pt" : "Uma parte do mundo físico ou do mundo virtual que está inerentemente localizada neste mundo e que tem uma extensão espacial tridimensional. \nUm bot:Storey está contido num ou mais edifícios e está destinado a conter um ou mais espaços que estejam conectados horizontalmente. Os pisos de um edifício estão ligados através de ligações verticais tais como escadas e elevadores.\nUm bot:Storey abrange tanto as zonas acima como abaixo do solo; por exemplo, um edifício com 21 andares acima do solo, um piso térreo e três caves pode ser descrito como: um edifício que possui 25 instâncias de bot:Storey.",
       "en" : "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. A bot:Storey is contained in one or more buildings, and is intended to contain one or more spaces that are horizontally connected. Storeys of a building are connected by means of vertical connections such as elevators and stairs. A bot:Storey encompasses both zones above and below ground, for example, a building with 21 floors above ground, one ground floor and 3 basements is equal to the sentence: A building has 25 instances of bot:Storey.",
       "it" : "Una parte del mondo fisico o virtuale che si trova intrinsecamente in questo mondo e ha una estensione spaziale tridimensionale. Un bot:Storey è contenuto in uno o più edifici ed è destinato a contenere uno o più spazi che sono connessi orizzontalmente. I piani di un edificio sono connessi attraverso connessioni verticali come ascensori e scale. Un bot:Storey comprende zone che si trovano sia sopra che sotto il livello del suolo; per esempio, un edificio con un piano terra, ulteriori 21 piani di altezza e 3 piani interrati corrisponde a un edificio con 25 istanze di bot:Storey.",
@@ -907,42 +737,114 @@
       "sk" : "Časť fyzického alebo virtuálneho sveta, ktorá je neodmyslitelne umiestnená ako vo fyzickom svete, tak má 3D virtuálny priestorový rozsah. Bot:Storey je obsiahnutý v jednej alebo viacero budovách a má obsahovať jeden alebo viacero priestorov, ktoré sú spojené horizontálne. Podlažia budovy sú spojené zvislými spojmi, ako je napríklad výťahová šachta, alebo schodisko. Bot:Storey zahŕňa ako zóny nad, tak pod úrovňou terénu, napríklad, prehlásenie: budova s 21 nadzemnými podlažiami, prízemím a 3 podzemnými podlažiami má rovnaký význam ako prehlásenie: budova má 25 inštancií bot:Storey.",
       "fa" : "بخشی از دنیای فیزیکی، و یا مجازی که اساساً هم در دنیا وجود دارد و دارای حدود مکانی سه بعدی میباشند. یک bot:Storey در یک یا چند ساختمان قرار میگیرد، و دربرگیرنده‌ی یک یا چند فضا است که به صورت افقی به هم متصل شده اند.\nطبقه های یک ساختمان از طریق اتصالات عمودی مانند آسانسور و پله به هم متصل میشوند. یک bot:Storey  هر دو منطقه بالا و زیر زمین را پوشش می‎دهد، برای مثال، یک ساختمان با 21 طبقه بالای زمین، یک طبقه همکف و3 طبفه یک ساختمان با 25 عنصر  bot:Storey  است.\n",
       "da" : "En del af den fysiske verden eller en virtuel verden, der i sagens natur både er lokaliseret i denne verden og har en 3D rumlig afgrænsning. En bot:Storey er indeholdt i en eller flere bygninger og er beregnet til at indeholde et eller flere rum, der er horisontalt forbundet. Etager i en bygning er forbundet ved hjælp af lodrette forbindelser såsom elevatorer og trapper. En bot:Storey omfatter både zoner over og under jorden, for eksempel en bygning med 21 etager over jorden, en stueetage og 3 kældre er lig med sætningen: En bygning har 25 tilfælde af bot:Storey.",
-      "tr" : "Bir binanın katı",
       "nl" : "Een deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft. Een bot:Storey is deel van één of meerdere gebouwen, en is bedoeld om één of meerdere ruimtes te bevatten die horizontaal geconnecteerd zijn. De verdiepingen van een gebouw zijn verbonden door middel van verticale connecties zoals liften en trappen. Een bot:Storey omvat zowel zones boven als onder de grond, bijvoorbeeld een gebouw met 21 verdiepingen boven de grond, één gelijkvloers en 3 kelderverdiepingen is evenwaardig aan de zin: Een gebouw heeft 25 instanties van bot:Storey.",
-      "ca" : "Una part del món físic o virtual que està inherentment ubicat en aquest món i que té una extensió espacial en 3D. Un bot:Storey està contingut en un o més edificis, i està destinat a contenir un o més espais que estan connectats horitzontalment. Les plantes d'un edifici estan connectades per mitjà de connexions verticals com ascensors i escales. Un bot:Storey abasta les dues zones sobre i sota de terra, per exemple, un edifici amb 21 pisos sobre terra, una planta baixa i 3 soterranis hauria de contenir 25 instàncies de bot:Storey."
+      "ca" : "Una part del món físic o virtual que està inherentment ubicat en aquest món i que té una extensió espacial en 3D. Un bot:Storey està contingut en un o més edificis, i està destinat a contenir un o més espais que estan connectats horitzontalment. Les plantes d'un edifici estan connectades per mitjà de connexions verticals com ascensors i escales. Un bot:Storey abasta les dues zones sobre i sota de terra, per exemple, un edifici amb 21 pisos sobre terra, una planta baixa i 3 soterranis hauria de contenir 25 instàncies de bot:Storey.",
+      "tr" : "Bir binanın katı"
     },
     "attributes" : [ "external" ],
     "id" : "5",
-    "superClasses" : [ "26", "4" ]
+    "superClasses" : [ "24", "4" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#SingleFamilyHousing",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#LivingRoom",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "'Single Family Residence' in Omniclass 11 (2013 02 26)",
+        "value" : "Omniclass 13-57 13 15 11",
         "type" : "label"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2dXgc01P4HtG0000PR1IRl",
-        "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "SingleFamilyHousing"
+      "IRI-based" : "LivingRoom"
     },
-    "subClasses" : [ "35", "74", "69" ],
     "comment" : {
-      "en" : "A dwelling unit for a service member or for an authorized government civilian and his/her authorized dependents when accompanied by those dependents."
+      "en" : "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."
     },
-    "id" : "36",
-    "superClasses" : [ "11" ]
+    "id" : "22",
+    "superClasses" : [ "2" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#CirculationSpace",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#GovernmentSubsidizedBuilding",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "'Government Subsiduzed Building' in Omniclass 11 (2013 02 26)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GovernmentSubsidizedBuilding",
+      "en" : "Government Subsidized Building"
+    },
+    "comment" : {
+      "en" : "A dwelling (or dwellings) that has a lowered cost of ownership due to government funding and support."
+    },
+    "id" : "29",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#MultiDwellingHousing",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "'Multiple Family Residences' in Omniclass 11 (2013 02 26)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MultiDwellingHousing",
+      "en" : "Multi-Dwelling Housing"
+    },
+    "subClasses" : [ "31", "29", "17" ],
+    "comment" : {
+      "en" : "Multiple dwellings contained in a single structure."
+    },
+    "id" : "18",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Condominum",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Part of 'Duplex' in Omniclass 11 (2013 02 26)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Condominum",
+      "en" : "Condominum"
+    },
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#SocialHousingBuilding",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "'LIHTC Tax Credit Housing' in Omniclass 11 (2013 02 26)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SocialHousingBuilding"
+    },
+    "id" : "31",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#CirculationSpace",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
@@ -958,23 +860,74 @@
     "comment" : {
       "en" : "Spaces for circulation that provide or control access to and between other spaces within the facility, entry, and egress."
     },
-    "id" : "43",
+    "id" : "15",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#SpecialCareBuilding",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#SingleFamilyHousing",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UzLO01P4HtG0000PR1IRl",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2dXgc01P4HtG0000PR1IRl",
         "type" : "iri"
       }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
+        "value" : "'Single Family Residence' in Omniclass 11 (2013 02 26)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SingleFamilyHousing"
+    },
+    "subClasses" : [ "55", "57", "77" ],
+    "comment" : {
+      "en" : "A dwelling unit for a service member or for an authorized government civilian and his/her authorized dependents when accompanied by those dependents."
+    },
+    "id" : "56",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Toilets",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Omniclass 13-65 13 13",
+        "type" : "label"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2EdEmAOMSHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Toilets"
+    },
+    "comment" : {
+      "en" : "A space containing a toilet or similar fixture that disposes of human waste by using water to flush it through a drainpipe to another location."
+    },
+    "id" : "11",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#SpecialCareBuilding",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
         "value" : "'Special Care Residence' in Omniclass 11 (2013 02 26)",
         "type" : "label"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3UzLO01P4HtG0000PR1IRl",
+        "type" : "iri"
       } ]
     },
     "label" : {
@@ -983,8 +936,36 @@
     "comment" : {
       "en" : "A dwelling containing multiple sleeping quarters with shared eating, living and lavatory facilities in addition to offering additional care and medical/health assistance from trained staff."
     },
-    "id" : "65",
-    "superClasses" : [ "11" ]
+    "id" : "64",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Residential",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/2aYxa01P4HtG0000PR1IRl",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "'Housing Facility' in Omniclass 11 (2013 02 26)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Residential",
+      "en" : "Residential Building",
+      "fr" : "Bâtiment résidentiel"
+    },
+    "subClasses" : [ "71", "56", "48", "18", "64" ],
+    "comment" : {
+      "en" : "Facilities used for long-term inhabitation and dwelling by humans."
+    },
+    "id" : "49",
+    "superClasses" : [ "26" ]
   }, {
     "iri" : "https://schema.org/Person",
     "baseIri" : "https://schema.org",
@@ -1036,14 +1017,14 @@
       "iri" : "http://maxime-lefrancois.info/me#",
       "baseIri" : "http://maxime-lefrancois.info/me",
       "annotations" : {
-        "fn" : [ {
-          "identifier" : "fn",
+        "name" : [ {
+          "identifier" : "name",
           "language" : "undefined",
           "value" : "Maxime Lefrançois",
           "type" : "label"
         } ],
-        "name" : [ {
-          "identifier" : "name",
+        "fn" : [ {
+          "identifier" : "fn",
           "language" : "undefined",
           "value" : "Maxime Lefrançois",
           "type" : "label"
@@ -1074,63 +1055,28 @@
     "attributes" : [ "external" ],
     "id" : "96"
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Condominum",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#Appartment",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "en",
-        "value" : "Part of 'Duplex' in Omniclass 11 (2013 02 26)",
-        "type" : "label"
-      } ]
-    },
     "label" : {
-      "IRI-based" : "Condominum",
-      "en" : "Condominum"
+      "IRI-based" : "Appartment",
+      "en" : "Appartment",
+      "fr" : "Appartement"
     },
-    "id" : "19",
-    "superClasses" : [ "20" ]
+    "id" : "44",
+    "superClasses" : [ "4", "24" ]
   }, {
-    "iri" : "http://www.bim4ren.eu/buildings#Attic",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
+    "iri" : "https://models.bim4ren.eu/buildings#Enveloppe",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
     "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "Omniclass 13-23 23 27",
-        "type" : "label"
-      } ]
-    },
     "label" : {
-      "IRI-based" : "Attic"
+      "IRI-based" : "Enveloppe",
+      "en" : "Enveloppe",
+      "it" : "Involucro edilizio",
+      "fr" : "Enveloppe",
+      "es" : "Envolvente de edificación"
     },
-    "comment" : {
-      "en" : "The space between the ceiling beams of the top story and the roof rafters."
-    },
-    "id" : "15",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#SeniorHousing",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "'Senior Housing' in Omniclass 11 (2013 02 26)",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SeniorHousing"
-    },
-    "comment" : {
-      "en" : "Dwellings and commercial facilities designed and/or retrofitted for occupancy by Seniors."
-    },
-    "id" : "66",
-    "superClasses" : [ "11" ]
+    "id" : "85"
   }, {
     "iri" : "https://w3id.org/bot#Element",
     "baseIri" : "https://w3id.org/bot",
@@ -1152,8 +1098,8 @@
     "label" : {
       "de" : "Bauteil (Bauwesen)",
       "IRI-based" : "Element",
-      "fi" : "Elementti",
       "sv" : "Byggdel",
+      "fi" : "Elementti",
       "pt" : "Elemento arquitectónico",
       "en" : "Building element",
       "it" : "Elemento di costruzione",
@@ -1221,15 +1167,15 @@
       "sk" : "Zóna",
       "fa" : "منطقه",
       "da" : "Zone",
-      "ca" : "Zona",
       "nl" : "Zone",
-      "tr" : "Bölge"
+      "tr" : "Bölge",
+      "ca" : "Zona"
     },
-    "subClasses" : [ "2", "26", "48", "28", "5", "29" ],
+    "subClasses" : [ "2", "44", "26", "24", "5", "27" ],
     "comment" : {
       "de" : "Ein Teil der realen oder virtuellen Welt die beide Teil dieser Welt sind und eine räumliche Ausdehnung hat; Unterklassen von bot:Zone sind bot:Site, bot:Building, bot:Storey oder bot:Space. Eine Instanz von bot:Zone kann andere Instanzen von bot:Zone enthalten. So ist es möglich Instanzen von bot:Zone zu gruppieren, oder zu unterteilen. Eine Instanz einer bot:Zone kann an eine andere Instanz von bot:Zone angrenzen. Es bestehen drei Möglichkeiten Instanzen von bot:Zone und bot:Element in Beziehung zu setzen. Entweder ein Element ist in einer Zone enthalten (bot:containsElement), es grenzt an eine andere Zone an (bot:adjacentElement) oder es schneidet eine Zone (bot:intersectingElement).",
-      "fi" : "Fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet; bot:Zone:n alaluokkia ovat: bot:Site, bot:Building, bot:Storey ja bot:Space. bot:Zone-luokan instanssi voi sisältää muita bot:Zone-instansseja, mikä mahdollistaa vyöhykkeiden ryhmittelyn ja jaon osiin. bot:Zone voi olla muiden bot:Zone-instanssien vieressä tai leikata niitä. Lopuksi, bot:Zone voi instantioida kolmea relaatiota bot:Element:iin, jotka joko sisältyvät siihen (bot:containsElement), ovat sen veiressä (bot:adjacentElement) tai leikkaavat sitä (bot:intersectingElement).",
       "sv" : "En del av den fysiska världen eller en virtuell värld som har en spatial utsträckning i tre dimensioner. Underklasser av bot:Zone inkluderar bot:Site, Bot:Building, bot:Storey, och bot:Space. En instans av bot:Zone kan innehålla andra bot:Zone-instanser, vilket gör det möjligt att gruppera eller dela upp zoner. En instans av bot:Zone kan kan ligga angränsande mot andra bot:Zone-instanser. Slutligen kan en instans av bot:Zone ha två relationer till instanser av bot:Element; den kan innehålla dem (bot:containsElement) eller ligga angränsande mot dem (bot:adjacentElement).\n\n\n\n",
+      "fi" : "Fyysisen tai virtuaalisen maailman osa, joka luonnostaan sekä sijaitsee tässä maailmassa että omaa kolmiulotteiset tilalliset ulottuvuudet; bot:Zone:n alaluokkia ovat: bot:Site, bot:Building, bot:Storey ja bot:Space. bot:Zone-luokan instanssi voi sisältää muita bot:Zone-instansseja, mikä mahdollistaa vyöhykkeiden ryhmittelyn ja jaon osiin. bot:Zone voi olla muiden bot:Zone-instanssien vieressä tai leikata niitä. Lopuksi, bot:Zone voi instantioida kolmea relaatiota bot:Element:iin, jotka joko sisältyvät siihen (bot:containsElement), ovat sen veiressä (bot:adjacentElement) tai leikkaavat sitä (bot:intersectingElement).",
       "pt" : "Uma parte do mundo físico ou de um mundo virtual que está inerentemente localizado neste mundo e que possui uma extensão espacial 3D. As Sub-classes de bot:Zone incluem bot:Site, bot:Building, bot:Storey ou bot:Space. Uma instância de bot:Zone pode conter outras instâncias de bot:Zone, tornando possível agrupar ou subdividir zonas. Uma instância de bot:Zone pode ser adjacente a ou intersectar outras instâncias de bot:Zone. Por fim, uma bot:Zone pode instanciar três relações com bot:Element, que ou estão contidas em (bot:containsElement), lhe são adjacentes (bot:adjacentElement) ou as intersecta (bot:intersectingElement).",
       "en" : "A part of the physical world or a virtual world that is inherently both located in this world and has a 3D spatial extent; Sub-classes of bot:Zone include bot:Site, bot:Building, bot:Storey, or bot:Space.  An instance of bot:Zone can contain other bot:Zone instances, making it possible to group or subdivide zones. An instance of bot:Zone can be adjacent to or intersecting other bot:Zone instances. Finally, a bot:Zone can instantiate three relations to bot:Element, which are either contained in (bot:containsElement), adjacent to it (bot:adjacentElement) or intersecting (bot:intersectingElement).",
       "it" : "Una parte del mondo fisico o virtuale che è intrinsecamente ubicato in questo mondo e che ha un'estensione spaziale tridimensionale; sottoclassi di bot:Zone includono bot:Site, bot:Building, bot:Storey, o bot:Space. Un'istanza di bot:Zone può contenere altre istanze di bot:Zone, rendendo possibile il raggruppamento o la suddivisione di zone. Un'istanza di bot:Zone può essere adiacente o intersecare altre istanze di bot:Zone. Infine, una bot:Zone può istanziare tre relazioni con bot:Element, il quale può essere contenuto (bot:containsElement), essere adiacente (bot:adjacentElement) o intersecare (bot:intersectingElement).",
@@ -1240,12 +1186,66 @@
       "sk" : "Časť fyzického alebo virtuálneho sveta, ktorý je dedične v tomto svete umiestnený a má charakter-rozmer priestoru, ktorý závisí na lokalizácii ako v tomto svete tak vo virtuálnomn svete. Podtriedy bot:Zone zahŕňajú bot:Site, bot:Building, bot:Storey, alebo bot:Space. Inštancia bot:Zone je schopná obsahovať iné bot:Zone inštancie, so schopnosťou zoskupovať alebo pod-rozdeľovať zóny. Inštancia bot:Zone môže byť dotýkajúca sa ďalšej bot:Zone inštancie. Finálne, bot:Zone môže definovať vzťahy k bot:Element, ktoré môžu byť typu zóna obsahuje prvok (bot:containsElement), alebo sa prvok môže zóny dotýkať (bot:adjacentElement).",
       "fa" : "بخشی از دنیای فیزیکی، و یا مجازی که اساساً در دنیا وجود دارد و دارای حدود مکانی سه بعدی است. زیرکلاس‌های bot:Zone عبارتند از bot:Site، bot:Building، bot:Storey، وbot:Space.\n یک عنصر bot:Zone میتواند دربرگیرنده‌ی عناصر دیگری از جنس bot:Zone  باشد و به این گونه امکان گروه بندی و جداسازی مناطق ختلف بوجود می‌آید. یک عنصر bot:Zone می‌تواند هم‌جوار عناصر دیگری از جنس bot:Zone باشد. در پایان، یک عنصر bot:Zone می‌تواند آغازگر دو نوع رابطه با عناصر bot:Element باشد که شامل دربرگیرندگی (bot:containsElement) وهم‌جواری  (bot:adjacentElement)  است.\n",
       "da" : "En del af den fysiske verden eller en virtuel verden, der i sagens natur både er lokaliseret i denne verden og har en 3D rumlig afgrænsning; Underklasser af bot:Zone inkluderer bot:Site, bot:Building, bot:Storey eller bot:Space. En forekomst af bot:Zone kan indeholde andre bot:Zone-forekomster, hvilket gør det muligt at gruppere eller opdele zoner. En forekomst af bot:Zone kan støde op til andre bot:Zone-forekomster. Endelig kan en bot:Zone-forekomst instantiere to forbindelser til bot:Element, der enten er indeholdt i (bot:containsElement) eller tilstødende dertil (bot:adjacentElement).",
-      "ca" : "Una part de el món físic o d'un món virtual que està inherentment ubicat en aquest món i que té una extensió espacial tridimensional; les subclasses de bot:Zone inclouen bot:Site, bot:Building, bot:Storey, o bot:Space. Una instància de bot:Zone pot contenir altres instàncies de bot:Zone, fent possible agrupar o subdividir zones. Una instància de bot:Zone pot ser adjacent a, o intersecar amb altres instàncies de bot:Zone. Finalment, un bot:Zone pot instanciar tres relacions amb bot:Element, que estan continguts en ella (bot:containsElement), són adjacents a ella (bot:adjacentElement), o amb els que interseca (bot:intersectingElement).",
       "nl" : "Een deel van de fysieke wereld of een virtuele wereld dat zowel gelokaliseerd kan worden in deze wereld als een ruimtelijke omvang heeft; subklasses van bot:Zone zijn bot:Site, bot:Building, bot:Storey of bot:Space. Een instantie van bot:Zone kan een ander bot:Zone instantie bevatten, wat gebruikt kan worden om zones te groeperen of op te delen. Een instantie van bot:Zone kan aangrenzend zijn aan of snijdend met een andere bot:Zone instantie. Ten slotte kan een bot:Zone instantie drie relaties hebben met een bot:Element instantie dat het ofwel bevat (bot:containsElement), waar het aangrenzend aan is (bot:adjacentElement) of waarmee het snijdt (bot:intersectingElement).",
+      "ca" : "Una part de el món físic o d'un món virtual que està inherentment ubicat en aquest món i que té una extensió espacial tridimensional; les subclasses de bot:Zone inclouen bot:Site, bot:Building, bot:Storey, o bot:Space. Una instància de bot:Zone pot contenir altres instàncies de bot:Zone, fent possible agrupar o subdividir zones. Una instància de bot:Zone pot ser adjacent a, o intersecar amb altres instàncies de bot:Zone. Finalment, un bot:Zone pot instanciar tres relacions amb bot:Element, que estan continguts en ella (bot:containsElement), són adjacents a ella (bot:adjacentElement), o amb els que interseca (bot:intersectingElement).",
       "tr" : "Fiziksel dünyanın veya sanal dünyanın, doğası gereği, hem bu dünyada bulunan ve hem de 3D bölgesel bir sınırlamaya sahip olan bir parça; Bot:Zone altsınıfları: bot:Site, bot:Building, bot:Storey yada bot:Space. Bir bot:Zone baska bot:Zone-olusumu icerebilir. Bir bot:Zone baska bot:Zone-olusumuyla bitisik olabilir. Son onlarak, bir bot:Zone, bir bot:Element ile iki baglantisi olabilir: ya içerir (bot: includeElement) veya bitisik olur (bot: adjacentElement)."
     },
     "attributes" : [ "external" ],
     "id" : "4"
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#Bathroom",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Omniclass 13-65 13 15",
+        "type" : "label"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/#concept/details/2GPg_0OMSHuO00025QrE$V",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bathroom"
+    },
+    "comment" : {
+      "en" : "Space for washing one's body or part of it."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#DiningRoom",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Omniclass 13-57 13 15 11",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DiningRoom"
+    },
+    "comment" : {
+      "en" : "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."
+    },
+    "id" : "39",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#DetachedHouse",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DetachedHouse"
+    },
+    "id" : "77",
+    "superClasses" : [ "56" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -1260,6 +1260,9 @@
     "id" : "9",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "12",
     "type" : "rdfs:SubClassOf"
   }, {
@@ -1269,7 +1272,7 @@
     "id" : "16",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "18",
+    "id" : "19",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "21",
@@ -1281,41 +1284,35 @@
     "id" : "25",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "27",
+    "id" : "28",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "30",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "33",
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "37",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "40",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "45",
+    "id" : "43",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "47",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "52",
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
     "type" : "owl:disjointWith"
   }, {
     "id" : "54",
     "type" : "owl:disjointWith"
-  }, {
-    "id" : "55",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "56",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "57",
-    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "58",
     "type" : "rdfs:SubClassOf"
@@ -1330,12 +1327,15 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "62",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "63",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "64",
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "67",
@@ -1344,7 +1344,10 @@
     "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "71",
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
     "type" : "owl:objectProperty"
   }, {
     "id" : "72",
@@ -1353,13 +1356,13 @@
     "id" : "73",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "75",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "76",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "77",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "78",
@@ -1375,16 +1378,13 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "83",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "84",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "85",
-    "type" : "owl:datatypeProperty"
-  }, {
     "id" : "86",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "87",
     "type" : "owl:objectProperty"
@@ -1428,10 +1428,10 @@
     "id" : "101",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "6",
+    "id" : "34",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "39",
+    "id" : "6",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -1466,8 +1466,8 @@
     "label" : {
       "de" : "hat Geschoss",
       "IRI-based" : "hasStorey",
-      "fi" : "omaa kerroksen",
       "sv" : "har våning",
+      "fi" : "omaa kerroksen",
       "pt" : "tem piso",
       "en" : "has storey",
       "it" : "ha piano",
@@ -1478,16 +1478,16 @@
       "sk" : "má podlažie",
       "fa" : "طبقه دارد",
       "da" : "har etage",
+      "nl" : "heeft verdieping",
       "tr" : "Katı var",
-      "ca" : "té pis",
-      "nl" : "heeft verdieping"
+      "ca" : "té pis"
     },
     "superproperty" : [ "6" ],
     "domain" : "4",
     "comment" : {
       "de" : "Beziehung zwischen Geschossen, die in einer Zone enthalten sind. Oft ist die rdfs:domain eine Instanz von bot:Building.",
-      "sv" : "Relation som uttrycker vilka våningar som finns i en Zon. Används typiskt med instanser av bot:Building.",
       "fi" : "Suhde vyöhykkeeseen kuuluviin kerroksiin. Tyypillinen lähtöjoukko on luokan bot:Building instanssit.",
+      "sv" : "Relation som uttrycker vilka våningar som finns i en Zon. Används typiskt med instanser av bot:Building.",
       "pt" : "Relação com os pisos contidos numa zona. Os domínios típicos de bot:hasStorey são instâncias de bot:Building.",
       "en" : "Relation to storeys contained in a zone. The typical domains of bot:hasStorey are instances of bot:Building.",
       "it" : "Relazione con i piani contenuti in una zona. Il tipico dominio di bot:hasStorey è bot:Building.",
@@ -1498,8 +1498,8 @@
       "sk" : "Vzťah zóny-podlažia a zóny, v ktorej sa nachádza. Typická doména bot:hasStorey sú inštancie bot:Building.",
       "fa" : "ارتباط با طبقه‌هایی که دربرگرفته شده‌اند. دامنه‌ی اصلی bot:hasStorey عنصرهایی از جنس bot:Building هستند.",
       "da" : "Relation til etager indeholdt i en zone. De typiske domæner for bot:hasStorey er forekomster af bot:Building.",
-      "tr" : "Bir bölgede bulunan katlarla ilişkisi. Bot:hasStorey için tipik etki alanları bot:Building örnekleridir.",
       "nl" : "Relatie tot de verdiepingen die zich in een zone bevinden. De typische domeinen van bot:hasStorey zijn instanties van bot:Building.",
+      "tr" : "Bir bölgede bulunan katlarla ilişkisi. Bot:hasStorey için tipik etki alanları bot:Building örnekleridir.",
       "ca" : "Relació amb els pisos continguts en una zona. Els dominis típics de bot: hasStorey son instàncies de bot:Building."
     },
     "attributes" : [ "external", "object" ],
@@ -1525,8 +1525,8 @@
     "label" : {
       "de" : "hat Unterbauteil",
       "IRI-based" : "hasSubElement",
-      "fi" : "omaa osaelementin",
       "sv" : "värd för sub element",
+      "fi" : "omaa osaelementin",
       "pt" : "tem sub elemento",
       "en" : "has sub-element",
       "it" : "ha sotto-elemento",
@@ -1537,9 +1537,9 @@
       "sk" : "má súčasť",
       "fa" : "زیرالمان دارد",
       "da" : "har underbygningsdel",
-      "nl" : "heeft subelement",
       "ca" : "té un subelement",
-      "tr" : "alt öğesi var"
+      "tr" : "alt öğesi var",
+      "nl" : "heeft subelement"
     },
     "domain" : "8",
     "comment" : {
@@ -1556,9 +1556,9 @@
       "sk" : "Vzťah medzi prvkom a) a ďalším prvkom b), ktorý je súčasťou prvku a)",
       "fa" : "ارتباط بین دو المان ساختمان؛ یا رابطه یک المان میزبان با المان دیگر (برای مثال یک پنجره میزبانی میشود توسط یک دیوار)؛ یا رابطه یک المان با زیرمجموعه‌ای از المانهای کوچکتر ساختمان (برای مثال یک فن به عنوان بخشی از واحد کنترل هوا).",
       "da" : "Relation mellem to bygningsdele, enten en bygningsdel, der er \"hostet\" af en anden (fx et vindue, der \"hostet\" af en væg) eller en underkomposition af en bygningsdel i mindre dele (fx en ventilator som en del af et ventilationsaggregat).",
-      "ca" : "Relació entre dos elements de construcció, ja sigui un element que allotja un altre (per exemple, una mur que conté una finestra) o una subcomposició d'un element de construcció en parts més petites (per exemple, una unitat de ventilació té una part que és un ventilador).",
       "tr" : "Bir a) bina parçası ve b) bina parçası arasındaki bağlantının a) tarafından barındırmasıdır. Örneğin: inst:wall bot:hasSubElement inst:window.",
-      "nl" : "Relatie tussen twee gebouwelementen, ofwel één element dat een andere element bevat (bv. een muur die een raam bevat) of een subcompositie van een gebouwelement in kleinere delen (bv. een luchtbehandelingskast die een ventilator bevat)."
+      "nl" : "Relatie tussen twee gebouwelementen, ofwel één element dat een andere element bevat (bv. een muur die een raam bevat) of een subcompositie van een gebouwelement in kleinere delen (bv. een luchtbehandelingskast die een ventilator bevat).",
+      "ca" : "Relació entre dos elements de construcció, ja sigui un element que allotja un altre (per exemple, una mur que conté una finestra) o una subcomposició d'un element de construcció en parts més petites (per exemple, una unitat de ventilació té una part que és un ventilador)."
     },
     "attributes" : [ "external", "object" ],
     "id" : "7"
@@ -1582,11 +1582,6 @@
       "rangeIncludes" : [ {
         "identifier" : "rangeIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Building",
-        "type" : "iri"
-      }, {
-        "identifier" : "rangeIncludes",
-        "language" : "undefined",
         "value" : "https://w3id.org/bot#Storey",
         "type" : "iri"
       }, {
@@ -1597,10 +1592,20 @@
       }, {
         "identifier" : "rangeIncludes",
         "language" : "undefined",
+        "value" : "https://w3id.org/bot#Building",
+        "type" : "iri"
+      }, {
+        "identifier" : "rangeIncludes",
+        "language" : "undefined",
         "value" : "https://w3id.org/bot#Site",
         "type" : "iri"
       } ],
       "domainIncludes" : [ {
+        "identifier" : "domainIncludes",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#Site",
+        "type" : "iri"
+      }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
         "value" : "https://w3id.org/bot#Building",
@@ -1609,11 +1614,6 @@
         "identifier" : "domainIncludes",
         "language" : "undefined",
         "value" : "https://w3id.org/bot#Space",
-        "type" : "iri"
-      }, {
-        "identifier" : "domainIncludes",
-        "language" : "undefined",
-        "value" : "https://w3id.org/bot#Site",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
@@ -1638,14 +1638,14 @@
       "fa" : "منطقه متلاقی",
       "da" : "skærer zone",
       "ca" : "interseca amb zona",
-      "nl" : "snijdt door zone",
-      "tr" : "Bölge ile temas"
+      "tr" : "Bölge ile temas",
+      "nl" : "snijdt door zone"
     },
     "domain" : "4",
     "comment" : {
       "de" : "Beziehung zwischen zwei Zonen, die sich schneiden. Zum Beispiel schneidet eine Treppe verschiedene Geschosse.",
-      "sv" : "Relationen mellan två zoner vars tredimensionella utsträckning korsar varandra. Till exempel, ett trapphus som skär igenom flera våningar.",
       "fi" : "Suhde kahden vyöhykkeen välillä, jotka leikkaavat toisiaan. Esimerkiksi rappuset leikkaavat useita kerroksia.",
+      "sv" : "Relationen mellan två zoner vars tredimensionella utsträckning korsar varandra. Till exempel, ett trapphus som skär igenom flera våningar.",
       "pt" : "Relação entre duas zonas cuja extensão tridimensional se intersecta. Por exemplo, uma caixa de escadas intersecta vários pisos.",
       "en" : "Relationship between two zones whose 3D extent intersect. For example, a stairwell intersects different storeys.",
       "it" : "Relazione tra due zone le cui estensioni 3D si intersecano. Per esempio, una tromba delle scale interseca vari piani.",
@@ -1656,12 +1656,17 @@
       "sk" : "Vzťach dvoch zón, ktoré sa pretínajú svojim priestorovým rozhraním. Príkladom môže byť eskalátor prestupujúci cez vac zón-podlaží.",
       "fa" : "رابطه بین دو منطقه که حدود سه بعدی آنها با هم تلاقی دارد. برای مثال، یک راه پله از منطقه های مختلف عبور می کند و با آنها تلاقی دارد.",
       "da" : "Forholdet mellem to zoner, hvis 3D-omfang skærer hinanden. For eksempel skærer et trappehus forskellige etager.",
+      "nl" : "Een relatie tussen twee zones waarvan de driedimensionale omvang doorsnijdend is. Bijvoorbeeld een traphal die verschillende verdiepingen doorsnijdt.",
       "tr" : "3D kapsamı kesişen iki bölge arasındaki ilişki. Örneğin, bir merdiven boşluğu farklı katlarla kesişir.",
-      "ca" : "Relació entre dues zones l'extensió fa que una interseccioni amb l'altra. Per exemple, una escala creua diferents pisos.",
-      "nl" : "Een relatie tussen twee zones waarvan de driedimensionale omvang doorsnijdend is. Bijvoorbeeld een traphal die verschillende verdiepingen doorsnijdt."
+      "ca" : "Relació entre dues zones l'extensió fa que una interseccioni amb l'altra. Per exemple, una escala creua diferents pisos."
     },
-    "attributes" : [ "external", "object", "symmetric" ],
+    "attributes" : [ "symmetric", "external", "object" ],
     "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
   }, {
     "range" : "2",
     "domain" : "13",
@@ -1673,49 +1678,44 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
-    "range" : "2",
+    "range" : "18",
     "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "16"
   }, {
-    "range" : "20",
-    "domain" : "19",
+    "range" : "2",
+    "domain" : "20",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "18"
+    "id" : "19"
   }, {
     "range" : "2",
     "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
-    "range" : "2",
-    "domain" : "24",
+    "range" : "24",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
-    "range" : "26",
-    "domain" : "5",
+    "range" : "24",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "25"
   }, {
-    "range" : "26",
-    "domain" : "28",
+    "range" : "18",
+    "domain" : "29",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "27"
+    "id" : "28"
   }, {
-    "range" : "20",
+    "range" : "18",
     "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "30"
   }, {
-    "range" : "20",
-    "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "33"
-  }, {
     "iri" : "https://w3id.org/bot#adjacentElement",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "38",
+    "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1745,16 +1745,16 @@
       "sk" : "priľahlý element-prvok",
       "fa" : "المان همجوار",
       "da" : "tilstødende element",
+      "tr" : "Bitisik eleman",
       "nl" : "aangrenzend element",
-      "ca" : "element adjacent",
-      "tr" : "Bitisik eleman"
+      "ca" : "element adjacent"
     },
-    "superproperty" : [ "39" ],
-    "domain" : "38",
+    "superproperty" : [ "34" ],
+    "domain" : "33",
     "comment" : {
       "de" : "Beziehung zwischen einer Zone und dessen angrenzenden Bauteilen. Die Bauteile begrenzen die Zone.",
-      "sv" : "Relation mellan en zon och dess angränsande byggdelar, som avgränsar det fysiska utrymmet.",
       "fi" : "Suhde vyöhykkeen ja sen viereisten, sitä rajaavien rakennuselementtien välillä.",
+      "sv" : "Relation mellan en zon och dess angränsande byggdelar, som avgränsar det fysiska utrymmet.",
       "pt" : "Relação entre uma zona e os elementos da construção que lhe são adjacentes, delimitando a zona.",
       "en" : "Relation between a zone and its adjacent building elements, bounding the zone.",
       "it" : "Relazione tra una zona e i suoi elementi di costruzione adiacenti che delimitano la zona stessa.",
@@ -1765,16 +1765,16 @@
       "sk" : "Vzťah medzi zónou a stavebnými prvkami obklopujúcimi túto zónu.",
       "fa" : "رابطه بین یک منطقه و المانهای ساختمانی همجوارش که حدود منطقه را مشخص می کنند. ",
       "da" : "Relation mellem en zone og dens tilstødende bygningsdele, som afgrænser det fysiske rum.",
-      "ca" : "Relació entre una zona i els seus elements arquitectònics adjacents, que limiten l'espai físic.",
       "nl" : "Relatie tussen een zone en zijn aangrenzende gebouwelementen. Het gebouwelement begrenst de zone.",
+      "ca" : "Relació entre una zona i els seus elements arquitectònics adjacents, que limiten l'espai físic.",
       "tr" : "Bir bölge ile bitişik bina parçaları arasındaki ilişki, fiziksel alanı sınırlar."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "37"
+    "id" : "32"
   }, {
     "iri" : "https://w3id.org/bot#has3DModel",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "38",
+    "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1791,20 +1791,20 @@
       "domainIncludes" : [ {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Element",
+        "value" : "https://w3id.org/bot#Zone",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Zone",
+        "value" : "https://w3id.org/bot#Element",
         "type" : "iri"
       } ]
     },
     "label" : {
       "de" : "hat 3D Modell",
       "IRI-based" : "has3DModel",
-      "sv" : "har 3D-modell",
       "fi" : "omaa 3D-mallin",
+      "sv" : "har 3D-modell",
       "pt" : "tem modelo 3D",
       "en" : "has 3D model",
       "it" : "ha modello 3D",
@@ -1815,15 +1815,15 @@
       "sk" : "má 3D model",
       "fa" : "مدل سه بعدی دارد",
       "da" : "har 3D-model",
-      "ca" : "té model 3D",
+      "tr" : "3D modeli var",
       "nl" : "heeft 3D model",
-      "tr" : "3D modeli var"
+      "ca" : "té model 3D"
     },
-    "domain" : "38",
+    "domain" : "33",
     "comment" : {
       "de" : "Verbindet eine Instanz von bot:Zone oder bot:Element zu einer IRI, die das zugehörige 3D Modell identifiziert. Das Modell kann in einem spezifischen RDF Vokabular kodiert sein. Andernfalls kann die IRI auch dereferenzierbar sein.",
-      "sv" : "Länkar en instans av bot:Zone eller bot:Element till en IRI som identifierar dennas 3D-modell. 3D-modellen kan beskrivas med något avsett RDF-vokabulär; alternativt så kan den peka ut mot en extern representation uttryckt i något existerande dataformat för 3D-modellering.",
       "fi" : "Liittää vyöhykkeen (bot:Zone) tai elementin (bot:Element) sen 3D-mallin yksilöivään IRI:in. Tämä 3D-malli voi olla kuvattu jollakin siihen tarkoitetulla RDF-sanastolla. 3D-mallin IRI voi myös osoittaa johonkin olemassa olevalla dataformaatilla kuvattuun 3D-malliin, joka on ladattavissa IRI:n kautta.",
+      "sv" : "Länkar en instans av bot:Zone eller bot:Element till en IRI som identifierar dennas 3D-modell. 3D-modellen kan beskrivas med något avsett RDF-vokabulär; alternativt så kan den peka ut mot en extern representation uttryckt i något existerande dataformat för 3D-modellering.",
       "pt" : "Relaciona qualquer bot:Zone ou bot:Element a um IRI que identifique o seu modelo 3D. Este modelo 3D pode ser descrito usando um vocabulário RDF dedicado. Caso contrário, o IRI do modelo 3D pode ser desreferenciável sendo possível receber, quando se pesquisa o IRI, uma representação do modelo 3D num qualquer formato de dados para modelos 3D.",
       "en" : "Links any bot:Zone or bot:Element to a IRI that identifies its 3D Model. This 3D Model can then be described using some dedicated RDF vocabulary. Else, the 3D Model IRI could be dereferenceable, and when looking up the IRI one could retrieve a representation of the 3D Model with some existing data format for 3D models.",
       "it" : "Collega una istanza di bot:Zone o bot:Element ad un IRI che identifica il suo modello 3D. Questo modello 3D può essere descritto usando dei vocabolari RDF dedicati. Altrimenti, lo IRI del modello 3D potrebbe essere dereferenziabile, permettendo tramite esso di raggiungere la rappresentazione del modello 3D codificata secondo un formato esistente per modelli 3D.",
@@ -1835,70 +1835,81 @@
       "fa" : "رابطه یک عنصر  bot:Zoneیا bot:Element با یک IRI که مدل سه بعدی خود را مشخص می کند. این مدل سه بعدی را می توان با برخی کلمات اختصاصی RDF توصیف کرد. به عبارت دیگر، نشانی مدل سه بعدی می تواند ارائه ای از مدل سه بعدی را با برخی از قالب های داده موجود برای مدل های سه بعدی بازیابی کند.",
       "da" : "Forbinder enhver instans af bot:Zone eller bot:Element med en IRI som identificerer dennes 3D-model. Denne 3D-model kan så beskrives ved brug af et dedikeret RDF-vokabular. Alternativt kan 3D-modellens IRI være dereferencerbar, sådan at der modtages en repræsentation af 3D-modellen i et eksisterende dataformat for 3D-modeller når IRIen slås op.",
       "nl" : "Verbindt gelijk welke bot:Zone of bot:Element instantie met een IRI die een 3D model identificeert. Dit 3D model kan beschreven worden d.m.v. een gespecialiseerde RDF vocabularium. Anderzijds kan de IRI, indien opgevraagd, ook doorverwijzen naar een 3D model in een bestaand data formaat.",
-      "ca" : "Vincula qualsevol bot:Zone o bot:Element a un IRI que identifica el seu model 3D. Aquest model 3D es pot descriure utilitzant un vocabulari RDF dedicat. En cas contrari, l'IRI de el model 3D podria ser desreferenciable, i al buscar la IRI es podria recuperar una representació de el model 3D amb algun format de dades existent pels models 3D.",
-      "tr" : "bot:Zone'nin herhangi bir örneğini bağlar ya da bot:Element'i kendi 3D-modelini tanimlayan bir IRI ile bağlar. Bu 3D-model daha sonra özel bir RDF kelime kullanimi ile tanimlanabilir. Bu 3D model daha sonra özel bir RDF kelime kullanımı ile tanımlanabilir. Aksi takdirde, IRI'nin kaydı silinebilir."
+      "tr" : "bot:Zone'nin herhangi bir örneğini bağlar ya da bot:Element'i kendi 3D-modelini tanimlayan bir IRI ile bağlar. Bu 3D-model daha sonra özel bir RDF kelime kullanimi ile tanimlanabilir. Bu 3D model daha sonra özel bir RDF kelime kullanımı ile tanımlanabilir. Aksi takdirde, IRI'nin kaydı silinebilir.",
+      "ca" : "Vincula qualsevol bot:Zone o bot:Element a un IRI que identifica el seu model 3D. Aquest model 3D es pot descriure utilitzant un vocabulari RDF dedicat. En cas contrari, l'IRI de el model 3D podria ser desreferenciable, i al buscar la IRI es podria recuperar una representació de el model 3D amb algun format de dades existent pels models 3D."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "40"
+    "id" : "35"
   }, {
-    "range" : "26",
+    "range" : "24",
     "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "45"
+    "id" : "41"
   }, {
-    "range" : "26",
-    "domain" : "48",
+    "range" : "24",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#constructionYear",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "constructionYear"
+    },
+    "maxCardinality" : "1",
+    "domain" : "26",
+    "attributes" : [ "datatype" ],
     "id" : "47"
   }, {
     "range" : "5",
-    "domain" : "29",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "52"
+    "id" : "51"
   }, {
     "range" : "5",
     "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "54"
+    "id" : "53"
   }, {
     "range" : "2",
-    "domain" : "29",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "55"
+    "id" : "54"
   }, {
     "range" : "4",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "56"
-  }, {
-    "range" : "4",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "57"
-  }, {
-    "range" : "4",
-    "domain" : "29",
+    "domain" : "24",
     "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
     "range" : "4",
-    "domain" : "5",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
-    "range" : "48",
-    "domain" : "11",
+    "range" : "4",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "11",
-    "domain" : "10",
+    "range" : "4",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
+    "range" : "26",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "49",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
     "iri" : "https://w3id.org/bot#hasZeroPoint",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "51",
+    "range" : "50",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -1922,8 +1933,8 @@
     "label" : {
       "de" : "hat Nullpunkt",
       "IRI-based" : "hasZeroPoint",
-      "fi" : "omaa nollapisteen",
       "sv" : "har origo",
+      "fi" : "omaa nollapisteen",
       "pt" : "tem ponto zero",
       "en" : "has zero point",
       "it" : "ha punto zero",
@@ -1938,11 +1949,11 @@
       "nl" : "heeft nulpunt",
       "ca" : "té un punt zero"
     },
-    "domain" : "29",
+    "domain" : "27",
     "comment" : {
       "de" : "Verbindet eine Instanz von bot:Site mit einer Instanz, die den Längen- und Breitengrad des Nullpunkts des Grundstücks definiert. Dies kann eine Instanz eines wgs84:Point sein. Die Definition von GIS und Geometrie ist nicht Bestandteil von BOT. Die Nutzung dieses Properties ist potenziell zweideutig und es besteht die Möglichkeit das es in Zukunft überarbeitet oder entfernt wird.",
-      "sv" : "Länkar en byggnadsplats (en instans av bot:Site) till en instans som uttrycker latitud och longitud för den berörda byggnadsplatsens origo. Detta kan exempelvis vara en instans av wgs84:Point. Definitioner för GIS och geometrier är utanför BOTs scope och användaren ansvarar själv för att välja en lämplig ontologi för detta syfte. Användningen av denna relation är potentiellt tvetydig och den kan komma att revideras eller tas bort i framtida versioner av ontologin.",
       "fi" : "Liittää bot:Site:n instanssiin, jolla merkitään rakennustyömaan nollakohdan leveys- ja pituuspiirit. Tämä voi olla esimerkki wgs84:Point-luokan instanssi. BOT ei kata GIS:ä tai geometriaa, joten käyttäjän tulee valita sopiva ontologia.Tämän propertyn käyttö on mahdollisesti moniselitteistä, ja se voidaan poistaa tai tarkistaa ontologian tulevissa versioissa.",
+      "sv" : "Länkar en byggnadsplats (en instans av bot:Site) till en instans som uttrycker latitud och longitud för den berörda byggnadsplatsens origo. Detta kan exempelvis vara en instans av wgs84:Point. Definitioner för GIS och geometrier är utanför BOTs scope och användaren ansvarar själv för att välja en lämplig ontologi för detta syfte. Användningen av denna relation är potentiellt tvetydig och den kan komma att revideras eller tas bort i framtida versioner av ontologin.",
       "pt" : "Relaciona um bot:Site com uma instância que codifica a latitude e longitude do ponto zero de um sítio de construção. Este poderá ser uma instância de um wgs84:Point. As definições de SIG e de geometria não estão no escopo de BOT, sendo necessário que o/a utilizador/a seleccione uma ontologia adequada para o efeito. A utilização desta propriedade é potencialmente ambígua, podendo esta ser removida ou revista em versões futuras desta ontologia.",
       "en" : "Links a bot:Site to an instance that encodes the latitude and longitude of the Zero Point of the building site. This could be an instance of a wgs84:Point. The definition of GIS and geometry is not within the scope of BOT and an appropriate ontology needs to be selected here by the user. The use of this property is potentially ambiguous and it might be removed or revised in future editions of the ontology.",
       "it" : "Collega un bot:Site ad un'istanza che codifica la latitudine e longitudine del punto zero di un sito. Questa può essere l'istanza di wgs84:Point. La definizioen di GIS e geometrie non rientra nell'ambito di BOT ed è pertanto necessario che l'utente selezioni una ontologia adeguata. L'uso di questa proprietà è potenzialmente ambiguo e potrebbe essere rimossa o revisionata in successive edizioni dell'ontologia.",
@@ -1954,35 +1965,35 @@
       "fa" : "رابطه یک عنصر bot:Site با عنصری که طول وعرض جغرافیایی نقطه صفر سایت ساختمان را مشخص می کند. این میتواند یک عنصراز wgs84:Point باشد. تعریف GIS و هندسه در دایره‌ وضایف آنتالوژی جاینگاری ساختمان (BOT) نیست و لازم است یک آنتالوژی مناسب توسط کاربر برای این موضوع انتخاب شود. استفاده از این ویژگی به طور بالقوه ای مبهم است و ممکن است در نسخه های بعدی این آنتالوژی حذف یا اصلاح شود.",
       "da" : "Forbinder et bot:Site med en forekomst, der beskriver en længde- og breddegrad for byggegrundens nulpunkt. Dette kunne være en forekomst af et wgs84:Point. Definitionen af GIS og geometri er ikke omfattet af BOT og en passende ontologi må her vælges af brugeren. Brugen af denne egenskab er potentielt tvetydig, og den kan fjernes eller revideres i fremtidige udgaver af ontologien.",
       "tr" : "bir bot:Site ile bir olusumla bağlantı kurar: Bina alanının sıfır noktasında enlem ve boylamını tanımlayan bir örnekle bağlar. Bu bir wgs84:Point örneği olabilir. GPS ve geometrinin tanımı BOT kapsamında değildir ve kullanıcı tarafından uygun bir ontoloji seçilmelidir. Bu özelliğin kullanımı potansiyel olarak belirsizdir ve gelecekteki ontolojinin sürümlerinde kaldırılabilir veya revize edilebilir.",
-      "ca" : "Vincula un bot:Site a una instància que codifica la latitud i longitud de el punt zero del lloc de l'edifici. Aquesta pot ser una instància d'un wgs84:Point. La definició de SIG i de la geometria no està dins de l'abast de la BOT, per tant, l'usuari haurà de seleccionar una ontologia apropiada. L'ús d'aquesta propietat és potencialment ambigua i podria ser eliminada o revisada en edicions futures de l'ontologia.",
-      "nl" : "Verbindt een bot:Zone instantie met een instantie die de lengtegraad en breedtegraad definieert van het nulpunt van een bot:Site instantie. Dit kan een instantie zijn van wgs84:Point. De definitie van GIS en geometrie valt niet in de scope van BOT en de gebruiker moet een gepaste ontology hiervoor selecteren. Het gebruik van deze eigenschap is potentieel ambigu en kan verwijderd of herzien worden in toekomstige versies van deze ontologie."
+      "nl" : "Verbindt een bot:Zone instantie met een instantie die de lengtegraad en breedtegraad definieert van het nulpunt van een bot:Site instantie. Dit kan een instantie zijn van wgs84:Point. De definitie van GIS en geometrie valt niet in de scope van BOT en de gebruiker moet een gepaste ontology hiervoor selecteren. Het gebruik van deze eigenschap is potentieel ambigu en kan verwijderd of herzien worden in toekomstige versies van deze ontologie.",
+      "ca" : "Vincula un bot:Site a una instància que codifica la latitud i longitud de el punt zero del lloc de l'edifici. Aquesta pot ser una instància d'un wgs84:Point. La definició de SIG i de la geometria no està dins de l'abast de la BOT, per tant, l'usuari haurà de seleccionar una ontologia apropiada. L'ús d'aquesta propietat és potencialment ambigua i podria ser eliminada o revisada en edicions futures de l'ontologia."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "62"
+    "id" : "65"
   }, {
     "range" : "4",
-    "domain" : "26",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "63"
+    "id" : "66"
   }, {
     "range" : "4",
     "domain" : "2",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
-  }, {
-    "range" : "11",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "67"
   }, {
-    "range" : "11",
-    "domain" : "36",
+    "range" : "49",
+    "domain" : "18",
     "attributes" : [ "object", "anonymous" ],
     "id" : "68"
   }, {
+    "range" : "49",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
     "iri" : "https://w3id.org/bot#hasBuilding",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "48",
+    "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2018,16 +2029,16 @@
       "sk" : "má budovu",
       "fa" : "ساختمان دارد",
       "da" : "har bygning",
-      "ca" : "té edifici",
       "nl" : "heeft gebouw",
+      "ca" : "té edifici",
       "tr" : "Binası var"
     },
     "superproperty" : [ "6" ],
     "domain" : "4",
     "comment" : {
       "de" : "Beziehung zwischen Gebäuden, die in einer Zone enthalten sind. Oft ist hier die rdfs:domain eine Instanz von bot:Site.",
-      "fi" : "Suhde vyöhykkeeseen kuuluviin rakennuksiin. Tyypillinen lähtöjoukko on luokan bot:Site instanssit.",
       "sv" : "Relation till byggnader som inryms i en zon. Typiska domäner för bot:hasBuilding är förekomster av bot:Site.",
+      "fi" : "Suhde vyöhykkeeseen kuuluviin rakennuksiin. Tyypillinen lähtöjoukko on luokan bot:Site instanssit.",
       "pt" : "Relação com edifícios contidos numa zona. Os domínios típicos de bot:hasBuilding são instâncias de bot:Site.",
       "en" : "Relation to buildings contained in a zone. The typical domains of bot:hasBuilding are instances of bot:Site.",
       "it" : "Relazione con gli edifici contenuti in una zona. Il tipico dominio di bot:hasBuilding è bot:Site.",
@@ -2038,68 +2049,57 @@
       "sk" : "Vzťah budovy a pozemku, na ktorom stojí. Typická doména bot:hasBuilding je inštanciou bot:Site. Tzn. stavenisko(stavebný pozemok) má budovu.",
       "fa" : "ارتباط  با ساختمانهابی که دربرگرفته شده‌اند. دامنه اصلی bot:hasBuilding عنصرهایی از جنس bot:Site هستند.",
       "da" : "Relation til bygninger indeholdt i en zone. De typiske domæner for bot:hasBuilding er forekomster af bot:Site.",
+      "tr" : "Bir bölgeye dahil binalara ile ilişkisi. Bot:hasBuilding için tipik etki alanları bot:Site örnekleridir.",
       "ca" : "Relació amb els edificis continguts en una zona. Els dominis típics de bot:hasBuilding són instàncies de bot:Site",
-      "nl" : "Relatie tot gebouwen die zich in een zone bevinden. De typische domeinen van bot:hasBuilding zijn instanties van bot:Site",
-      "tr" : "Bir bölgeye dahil binalara ile ilişkisi. Bot:hasBuilding için tipik etki alanları bot:Site örnekleridir."
+      "nl" : "Relatie tot gebouwen die zich in een zone bevinden. De typische domeinen van bot:hasBuilding zijn instanties van bot:Site"
     },
     "attributes" : [ "external", "object" ],
-    "id" : "71"
+    "id" : "70"
   }, {
-    "range" : "11",
-    "domain" : "66",
+    "range" : "49",
+    "domain" : "56",
     "attributes" : [ "object", "anonymous" ],
     "id" : "72"
   }, {
-    "range" : "36",
-    "domain" : "74",
+    "range" : "56",
+    "domain" : "57",
     "attributes" : [ "object", "anonymous" ],
     "id" : "73"
   }, {
-    "range" : "36",
-    "domain" : "35",
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "49",
+    "domain" : "71",
     "attributes" : [ "object", "anonymous" ],
     "id" : "75"
   }, {
-    "range" : "11",
-    "domain" : "65",
+    "range" : "56",
+    "domain" : "77",
     "attributes" : [ "object", "anonymous" ],
     "id" : "76"
   }, {
-    "range" : "36",
-    "domain" : "69",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "77"
-  }, {
     "range" : "2",
-    "domain" : "43",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "78"
   }, {
     "range" : "2",
-    "domain" : "42",
+    "domain" : "36",
     "attributes" : [ "object", "anonymous" ],
     "id" : "79"
   }, {
     "range" : "2",
-    "domain" : "32",
+    "domain" : "40",
     "attributes" : [ "object", "anonymous" ],
     "id" : "80"
   }, {
     "range" : "2",
-    "domain" : "44",
+    "domain" : "39",
     "attributes" : [ "object", "anonymous" ],
     "id" : "81"
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#constructionYear",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "range" : "49",
-    "label" : {
-      "IRI-based" : "constructionYear"
-    },
-    "maxCardinality" : "1",
-    "domain" : "48",
-    "attributes" : [ "datatype" ],
-    "id" : "83"
   }, {
     "iri" : "https://w3id.org/bot#hasSpace",
     "baseIri" : "https://w3id.org/bot",
@@ -2139,9 +2139,9 @@
       "sk" : "má priestor",
       "fa" : "فضا دارد",
       "da" : "har rum",
+      "ca" : "té espai",
       "nl" : "heeft ruimte",
-      "tr" : "Odası var",
-      "ca" : "té espai"
+      "tr" : "Odası var"
     },
     "superproperty" : [ "6" ],
     "domain" : "4",
@@ -2159,16 +2159,26 @@
       "sk" : "Vzťah priestorov nachádzajúcich sa v zóne a danej zóny. Typická doména bot:hasSpace sú inštancie bot:Storey a bot:Buuilding.",
       "fa" : "ارتباط با فضاهایی که دربرگرفته شده‌اند. دامنه‌ی اصلی  bot:hasSpace عنصرهایی از جنس bot:Building  وbot:Storey هستند.",
       "da" : "Relation til rum indeholdt i en zone. De typiske domæner for bot:hasSpace er forekomster af bot:Storey og bot:Building.",
-      "tr" : "Bir bölgede bulunan odalarla ilişkisi. Bot:hasSpace için tipik etki alanları bot:Building ve bot:Storey örnekleridir.",
       "ca" : "Relació a espais continguts en una zona. Els dominis típics de bot:hasSpace són instàncies de bot:Storey o bot:Building.",
-      "nl" : "Relatie tot ruimtes die zich in een zone bevinden. De typische domeinen van bot:hasSpace zijn instanties van bot:Storey of bot:Building."
+      "nl" : "Relatie tot ruimtes die zich in een zone bevinden. De typische domeinen van bot:hasSpace zijn instanties van bot:Storey of bot:Building.",
+      "tr" : "Bir bölgede bulunan odalarla ilişkisi. Bot:hasSpace için tipik etki alanları bot:Building ve bot:Storey örnekleridir."
     },
     "attributes" : [ "external", "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://models.bim4ren.eu/buildings#isMadeOf",
+    "baseIri" : "https://models.bim4ren.eu/buildings",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isMadeOf"
+    },
+    "domain" : "85",
+    "attributes" : [ "object" ],
     "id" : "84"
   }, {
     "iri" : "https://w3id.org/bot#hasSimple3DModel",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "50",
+    "range" : "46",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2185,20 +2195,20 @@
       "domainIncludes" : [ {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Element",
+        "value" : "https://w3id.org/bot#Zone",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Zone",
+        "value" : "https://w3id.org/bot#Element",
         "type" : "iri"
       } ]
     },
     "label" : {
       "de" : "hat einfaches 3D Modell",
       "IRI-based" : "hasSimple3DModel",
-      "fi" : "omaa yksinkertaisen 3D-mallin",
       "sv" : "har enkel 3D-modell",
+      "fi" : "omaa yksinkertaisen 3D-mallin",
       "pt" : "tem modelo 3D simples",
       "en" : "has simple 3D model",
       "it" : "ha modello 3D semplice",
@@ -2210,10 +2220,10 @@
       "fa" : "مدل سه بعدی ساده دارد",
       "da" : "har simpel 3D-model",
       "ca" : "té un model 3D senzill",
-      "tr" : "Basit bir 3D modeli var",
-      "nl" : "heeft eenvoudig 3D model"
+      "nl" : "heeft eenvoudig 3D model",
+      "tr" : "Basit bir 3D modeli var"
     },
-    "domain" : "38",
+    "domain" : "33",
     "comment" : {
       "de" : "Verbindet jede bot:Zone oder bot:Element zu einem 3D Model, dass als Literal codiert ist.",
       "fi" : "Liittää vyöhykkeen (bot:Zone) tai elementin (bot:Element) sen yksinkertaiseksi arvoksi enkoodattuun 3D-malliin.",
@@ -2233,11 +2243,11 @@
       "tr" : "bot:Zone'nin herhangi bir örneğini bağlar ya da bot:Element'i bir literal olarak tanimlanan 3D-model ile bağlar."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "85"
+    "id" : "86"
   }, {
     "iri" : "https://w3id.org/bot#containsElement",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "38",
+    "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2267,12 +2277,12 @@
       "sk" : "obsahuje element-prvok",
       "fa" : "المان دربرگیرنده",
       "da" : "indeholder bygningsdel",
-      "tr" : "Eleman icerir",
+      "nl" : "bevat element",
       "ca" : "conté un element",
-      "nl" : "bevat element"
+      "tr" : "Eleman icerir"
     },
-    "superproperty" : [ "39" ],
-    "domain" : "38",
+    "superproperty" : [ "34" ],
+    "domain" : "33",
     "comment" : {
       "de" : "Beziehung einer Zone zu einem Bauteil, dass es enthält.",
       "sv" : "Relation till en byggdel som inryms i en zon.",
@@ -2287,16 +2297,16 @@
       "sk" : "Vzťah k stavebnému prvku, obsiahnutom v zóne.",
       "fa" : "رابطه بین یک منطقه با المان ساختمانی که آنرا در بر گرفته است.",
       "da" : "Relation til en bygningsdel, som er indeholdt i en zone.",
-      "nl" : "Relatie tussen zone en een gebouwelement bevat in die zone.",
       "ca" : "Relació a un element arquitectònic contingut en una zona.",
+      "nl" : "Relatie tussen zone en een gebouwelement bevat in die zone.",
       "tr" : "Bir bölgede bulunan bir bina parçasıyla ilişki."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "86"
+    "id" : "87"
   }, {
     "iri" : "https://w3id.org/bot#interfaceOf",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "46",
+    "range" : "42",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2314,8 +2324,8 @@
     "label" : {
       "de" : "Schnittstelle von",
       "IRI-based" : "interfaceOf",
-      "sv" : "gränssnitt för",
       "fi" : "rajapintana",
+      "sv" : "gränssnitt för",
       "pt" : "interface de",
       "en" : "interface of",
       "it" : "interfaccia di",
@@ -2326,15 +2336,15 @@
       "sk" : "je rozhranie/rozhraním",
       "fa" : "رابط است",
       "da" : "grænseflade for",
-      "tr" : "Arayüzü",
+      "nl" : "interface van",
       "ca" : "interfície de",
-      "nl" : "interface van"
+      "tr" : "Arayüzü"
     },
     "domain" : "82",
     "comment" : {
       "de" : "Beziehung zwischen einer Schnittstelle und einem anderen Ding (Gebäude zone, Bauteil oder owl:Thing).",
-      "sv" : "Relation mellan ett gränssnitt och något angränsande (en zon, en byggdel, eller owl:Thing).",
       "fi" : "Suhde rajapinnan ja toisen asian välillä (rakennuksen vyöhyke, elementti, tai owl:Thing).",
+      "sv" : "Relation mellan ett gränssnitt och något angränsande (en zon, en byggdel, eller owl:Thing).",
       "pt" : "Relação entre um interface e outra coisa (zona do edifício, elemento ou owl:Thing)",
       "en" : "Relationship between an interface and another thing (building zone, element or owl:Thing)",
       "it" : "Relazione tra un'interfaccia e un'altra cosa (zona di edificio, elemento di costruzione o owl:Thing)",
@@ -2345,12 +2355,12 @@
       "sk" : "Vzťah medzi rozhraním a priľahlou zónou alebo prvkom.",
       "fa" : "رابطه بین یک رابط و یک عنصر دیگر (منطقه ساختمان، المان، و یا owl:Thing)",
       "da" : "Relation mellem en grænseflade og en anden ting (bygningszone, bygningsdel eller owl:Thing).",
-      "tr" : "Bir arabirim ile bitişik bir bölge veya bina parçası arasındaki ilişki.",
       "ca" : "Relació entre una interfície i una altra cosa (zona de construcció, element o owl:Thing)",
-      "nl" : "Relatie tussen een interface en een ander ding (gebouwzone, gebouwelement of owl:Thing)."
+      "nl" : "Relatie tussen een interface en een ander ding (gebouwzone, gebouwelement of owl:Thing).",
+      "tr" : "Bir arabirim ile bitişik bir bölge veya bina parçası arasındaki ilişki."
     },
     "attributes" : [ "external", "object" ],
-    "id" : "87"
+    "id" : "88"
   }, {
     "iri" : "https://w3id.org/bot#adjacentZone",
     "baseIri" : "https://w3id.org/bot",
@@ -2371,7 +2381,7 @@
       "rangeIncludes" : [ {
         "identifier" : "rangeIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Site",
+        "value" : "https://w3id.org/bot#Building",
         "type" : "iri"
       }, {
         "identifier" : "rangeIncludes",
@@ -2381,7 +2391,7 @@
       }, {
         "identifier" : "rangeIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Building",
+        "value" : "https://w3id.org/bot#Site",
         "type" : "iri"
       }, {
         "identifier" : "rangeIncludes",
@@ -2392,7 +2402,7 @@
       "domainIncludes" : [ {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Building",
+        "value" : "https://w3id.org/bot#Site",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
@@ -2402,12 +2412,12 @@
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Site",
+        "value" : "https://w3id.org/bot#Space",
         "type" : "iri"
       }, {
         "identifier" : "domainIncludes",
         "language" : "undefined",
-        "value" : "https://w3id.org/bot#Space",
+        "value" : "https://w3id.org/bot#Building",
         "type" : "iri"
       } ]
     },
@@ -2426,9 +2436,9 @@
       "sk" : "priľahlá zóna",
       "fa" : "منطقه همجوار",
       "da" : "tilstødende zone",
-      "nl" : "aangrenzende zone",
       "ca" : "zona adjacent",
-      "tr" : "Bitisik bölge"
+      "tr" : "Bitisik bölge",
+      "nl" : "aangrenzende zone"
     },
     "domain" : "4",
     "comment" : {
@@ -2445,45 +2455,35 @@
       "sk" : "Vzťah medzi dvomi zónami, ktoré sa dotýkajú, ale nepretínajú sa.",
       "fa" : "رابطه بین دو منطقه که یک رابط مشترک دارند، ولی منقطع نیستند.",
       "da" : "Relation mellem to zoner, der deler en fælles grænseflade.",
+      "tr" : "Ortak bir arayüzü paylaşan iki bölge arasındaki bağlantı.",
       "ca" : "Relació entre dues zones que comparteixen una interfície comuna, però que no interseccionen",
-      "nl" : "Relatie tussen twee zones die een interface delen, maar niet doorsnijdend zijn",
-      "tr" : "Ortak bir arayüzü paylaşan iki bölge arasındaki bağlantı."
+      "nl" : "Relatie tussen twee zones die een interface delen, maar niet doorsnijdend zijn"
     },
-    "attributes" : [ "external", "object", "symmetric" ],
-    "id" : "88"
-  }, {
-    "iri" : "http://www.bim4ren.eu/buildings#isMadeOf",
-    "baseIri" : "http://www.bim4ren.eu/buildings",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "isMadeOf"
-    },
-    "domain" : "70",
-    "attributes" : [ "object" ],
+    "attributes" : [ "symmetric", "external", "object" ],
     "id" : "89"
   }, {
-    "range" : "48",
-    "domain" : "28",
+    "range" : "27",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "90"
   }, {
-    "range" : "5",
-    "domain" : "28",
+    "range" : "26",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "91"
   }, {
-    "range" : "5",
-    "domain" : "48",
+    "range" : "2",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "92"
   }, {
-    "range" : "2",
-    "domain" : "48",
+    "range" : "27",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "93"
   }, {
-    "range" : "29",
-    "domain" : "48",
+    "range" : "5",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "94"
   }, {
@@ -2503,18 +2503,18 @@
     "id" : "98"
   }, {
     "range" : "2",
-    "domain" : "28",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "99"
   }, {
-    "range" : "29",
-    "domain" : "28",
+    "range" : "5",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "100"
   }, {
     "iri" : "https://w3id.org/bot#intersectingElement",
     "baseIri" : "https://w3id.org/bot",
-    "range" : "38",
+    "range" : "33",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2532,8 +2532,8 @@
     "label" : {
       "de" : "schneidendes Bauteil",
       "IRI-based" : "intersectingElement",
-      "sv" : "korsande byggdel",
       "fi" : "leikkaava elementti",
+      "sv" : "korsande byggdel",
       "pt" : "elemento intersectante",
       "en" : "intersecting element",
       "it" : "elemento intersecante",
@@ -2544,16 +2544,16 @@
       "sk" : "pretína element-prvok",
       "fa" : "المان متلاقی",
       "da" : "krydsende Bygningsdel",
-      "tr" : "Eleman ile temas",
       "nl" : "doorsnijdend element",
-      "ca" : "element d'intersecció"
+      "ca" : "element d'intersecció",
+      "tr" : "Eleman ile temas"
     },
-    "superproperty" : [ "39" ],
-    "domain" : "38",
+    "superproperty" : [ "34" ],
+    "domain" : "33",
     "comment" : {
       "de" : "Beziehung zwischen einer Zone und einem Bauteil, das die Zone schneidet.",
-      "fi" : "Suhde vyöhykkeen ja sitä leikkaavan rakennuselementin välillä.",
       "sv" : "Relationen mellan en zon och en byggdel som korsar zonen.",
+      "fi" : "Suhde vyöhykkeen ja sitä leikkaavan rakennuselementin välillä.",
       "pt" : "Relação entre uma Zona e um Elemento construtivo que a intersecta.",
       "en" : "Relation between a Zone and a building Element that intersects it.",
       "it" : "Relazione tra una zona e un elemento di costruzione che la interseca.",
@@ -2570,6 +2570,65 @@
     },
     "attributes" : [ "external", "object" ],
     "id" : "101"
+  }, {
+    "iri" : "https://w3id.org/bot#hasElement",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "8",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/bot#",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "hat Bauteil",
+      "IRI-based" : "hasElement",
+      "sv" : "värd för element",
+      "fi" : "omaa elementin",
+      "pt" : "tem elemento",
+      "en" : "has element",
+      "it" : "ha elemento",
+      "fr" : "a élément",
+      "zh-cn" : "含构件",
+      "es" : "alberga elemento",
+      "cs" : "má element",
+      "sk" : "má element",
+      "fa" : "المان دارد",
+      "da" : "har element",
+      "tr" : "Elemanı var",
+      "ca" : "té element",
+      "nl" : "heeft element"
+    },
+    "domain" : "4",
+    "subproperty" : [ "32", "101", "87" ],
+    "comment" : {
+      "de" : "Beziehung zwischen einer Zone und einem Bauteil, dass entweder in der Zone enthalten ist, angrenzend ist, oder sich mit ihr schneidet. Diese Beziehung sollte nicht explizit benutzt werden, sondern ergibt sich implizit aus den Unterbeziehungen. Es ermöglicht, zum Beispiel, dass mit einer Abfrage alle Türen eines Gebäudes, die sich mit einer Zone schneiden ermittelt werden können.",
+      "sv" : "Länkar en Zon till en Byggnadsdel som antingen inryms i eller ligger jämte zonen. Den här relationen är inte avseddd att uttryckas explicit, utan den kommer att härledas från under-relationer. Detta möjliggör till exempel att man kan fråga efter samtliga dörrar i en byggnad givet att de ligger i anslutning till utrymmen i byggnaden.",
+      "fi" : "Liittää vyöhykkeen (bot:Zone) elementtiin (bot:Element) joka on joko vyöhykkeen sisällä tai vierellä, tai leikkaa sen. Tätä suhdetta ei ole tarkoitus käyttää eksplisiittisesti, vaan se on pääteltävissä sen alaominaisuuksista. Mahdollistaa esimerkiksi kaikkien rakennuksen ovien hakemisen, kunhan ovet on merkitty rakennuksen tilojen viereisiksi elementeiksi (bot:adjacentElement).",
+      "pt" : "Relaciona uma zona com um elemento que está contido em, é adjacente ou intersecta a zona. Não se pretende que esta relação seja declarada explicitamente mas que seja inferida através das suas sub-propriedades. Esta propriedade permitirá, por exemplo, que se faça um query a todas as portas de um edifício que sejam adjacentes a espaços do edifício.",
+      "en" : "Links a Zone to an Element that is either contained in, adjacent to or intersecting with the Zone. The intended use of this relationship is not to be stated explicitly, but to be inferred from its sub-properties. It will, for example, allow one to query for all the doors of a building given that they have an adjacency to spaces of the building.",
+      "it" : "Collega una zona ad un elemento che è contenuto, adiacente o intersecante la zona stessa. Non si prevede l'uso esplicito di questa relazione che deve essere inferita dalle sue sotto-proprietà. Per esempio, permette di cercare tutte le porte di un edificio dato che sono adiacenti agli spazi di un edificio.",
+      "fr" : "Relie une zone à un élément qui est soit contenu dans la zone, adjacent à celle-ci, ou intersectant. L'utilisation prévue de cette relation ne doit pas être indiquée explicitement, mais doit être déduite de ses sous-propriétés. Elle permettra, par exemple, d'interroger toutes les portes d'un bâtiment si elles sont adjacentes à certains des espaces du bâtiment.",
+      "zh-cn" : "将区域链接到包含在区域中或附近的构件。 该关系的预期用途不是明确说明的，而是要从其子属性中推断出来。例如，如果构件与建筑物的空间相邻，可以借此查询建筑物的所有门。",
+      "es" : "Vincula una zona a un elemento que está contenido en, o es adyacente a, o interseca con la zona. El uso previsto de esta relación no es su definición explícita, sino inferirse de sus subpropiedades. Permitirá, por ejemplo, consultar todas las puertas de un edificio dado que tienen una adyacencia a los espacios del edificio.",
+      "cs" : "Napojuje zónu na stavební prvek, který se buďto nachází v dané zóně, nebo je na její rozhraní. Využitelnost tohoto vztahu není daná explicitně, ale je vyvozená z vlastností zúčastněných prvků. Například to umožní vyhledat všechny dveře, které se dotýkají konkrétních zón.",
+      "sk" : "Napojuje zónu na stavebný prvok, ktorý sa buď nachádza v danej zóne alebo je na jej rozhraní. Využitie tohto vzťahu nie je definované explicitne, ale je vyvodené z vlastností zúčastnených prvkov. Napríklad to umožní vyhľadať všetky dvere v budove, ktoré sa dotýkajú nejakých zón.",
+      "fa" : "رابطه یک منطقه با المانی که یا توسط منطقه در برگرفته شده و یا همجوار است. کاربرد این رابطه نه لزوماً به صورت مستقیم که بلکه برای نتیجه‌گیری حاصل از زیر-روابط ابراز شده است.این رابطه، به عنوان مثال، امکان استعلام (query) از همه درهای یک ساختمان که در مجاورت فضای خاصی هستند را فراهم می کند.",
+      "da" : "Forbinder en Zone til en bygningsdel der enten er indeholdt i eller tilstødende til zonen. Det er ikke hensigten at denne relation angives eksplicit, men at den udledes af dennes underegneskaber. Det vil for eksempel tillade en forespørgsel på alle døre i en bygning givet at disse er enten tilstødende eller indeholdt i rum i bygningen.",
+      "nl" : "Verbindt een bot:Zone instantie met een bot:Element instantie die er ofwel door bevat wordt, aangrenzend aan is of snijdend mee is. Het is aangeraden om deze relatie niet expliciet te maken, maar af te leiden uit het gebruik van zijn sub relaties. Deze relatie maakt het bijvoorbeeld mogelijk om alle deuren van een gebouw op te vragen als die aangrenzend gedefinieerd zijn aan de ruimtes van het gebouw.",
+      "ca" : "Vincula una zona a un element que està contingut en, o és adjacent a, o interseca amb la zona. L'ús previst d'aquesta relació no s'ha d'establir explícitament, sinó inferir-se de les seves subpropietats. Permetrà, per exemple, consultar totes les portes d'un edifici donat que tenen una adjacència als espais de l'edifici.",
+      "tr" : "Bir Bölgeyi, Bölgenin içinde veya yanında bulunan bir bina parçasına bağlar. Bu ilişkinin açık bir şekilde ifade edilmesi değil, alt özellikleri türetilmesi amaçlanmaktadır. Örneğin, bunların binadaki odalara bitişik ya da bitişik olduğu göz önüne alındığında, bir binadaki tüm kapılar için bir sorgu'ya izin verecektir."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "34"
   }, {
     "iri" : "https://w3id.org/bot#containsZone",
     "baseIri" : "https://w3id.org/bot",
@@ -2646,11 +2705,11 @@
       "fa" : "منطقه دربرگیرنده",
       "da" : "indeholder zone",
       "nl" : "bevat zone",
-      "tr" : "Bölge icerir",
-      "ca" : "conté zona"
+      "ca" : "conté zona",
+      "tr" : "Bölge icerir"
     },
     "domain" : "4",
-    "subproperty" : [ "84", "3", "71" ],
+    "subproperty" : [ "83", "3", "70" ],
     "comment" : {
       "de" : "Beziehung zwischen Zonen, wobei eine die andere enthält. Zum Beispiel kann eine Raumzone in einer Geschossszone enthalten sein, die wiederrum in einer Gebäudezone enthalten ist. bot:containsZone is eine transitive Beziehung, dass heisst zwischen der Raumzone im vorherigen Beispiel und der Gebäudezone besteht auch die Beziehung bot:containsZone.",
       "sv" : "Relation till delzoner i en huvudzon. En rumszon kan till exempel inrymmas i en våningszon som i sin tur inryms i en byggnadszon. bot:containsZone är en transitiv relation vilket i exemplet betyder att rumszonen också inryms i byggnadszonen.",
@@ -2665,70 +2724,11 @@
       "sk" : "Vzťah hlavnej zóny k pod-zónam. Priestorová zóna môže napríklad byť umiestnená v zóne podlažia, ktoré ako zóna môže byť ďalej umiestnené v zóne budovy. bot:containsZone je prenositeľná vlastnost, ktorá znamená, že pokiaľ väčšia zóna A je v zóne budova, aj menšie zóny, ktorú zóna A obsahuje, sú v budove.",
       "fa" : "رابطه با زیر منطقه های یک منطقه اصلی. به عنوان مثال یک منطقه فضایی می تواند در یک منطقه طبقه قرار گرفته باشد که آن به خودی خود در یک منطقه ساختمان قرار گرفته. رابطه‌ی  bot:containsZone یک رابطه‌ی انتقالی است. به این معنا که در مثال قبلی رابطه‌ی bot:containsZone بین بخش فضا و بخش ساختمان نیز برقرار میشود.",
       "da" : "Relation til underzoner i en større zone. En rum-zone kan for eksempel være indeholdt i en etage-zone som ydermere er indeholdt i en bygnings-zone. bot:containsZone er en transitiv egenskab, hvilket betyder at rum-zonen i det forrige eksempel også er indeholdt i bygnings-zonen.",
-      "ca" : "Relació entre subzones amb una zona principal. Per exemple, una zona espacial podria estar continguda en una zona de pis que a la vegada està continguda en una zona d'edifici. bot:containsZone és una propietat transitiva. Això implica que en l'exemple anterior es manté una relació entre la zona espacial i la zona de edifici a través de bot:containsZone.",
       "nl" : "Relatie tussen subzones van een hoofd zone. Een ruimtezone kan bijvoorbeeld worden bevat door een verdiepingszone, die wederom bevat wordt door een gebouwzone. bot:containsZone is een transitieve eigenschap, wat betekent dat in het vorige voorbeeld de ruimtezone ook bevat wordt door de gebouwzone.",
-      "tr" : "Daha büyük bir bölgedeki içerinde yeralan alt bölgelerin birbirleriyle bağlantısı. Örneğin, bir arsa bölgesi, bir bina bölgesini icerebilir ve bir bina bölgesi bir oda bölgesini icerebilir. bot:includeZone geçişli bir özelliktir, yani önceki örnekteki boşluk bölgesi de bina bölgesinde yer alır."
+      "tr" : "Daha büyük bir bölgedeki içerinde yeralan alt bölgelerin birbirleriyle bağlantısı. Örneğin, bir arsa bölgesi, bir bina bölgesini icerebilir ve bir bina bölgesi bir oda bölgesini icerebilir. bot:includeZone geçişli bir özelliktir, yani önceki örnekteki boşluk bölgesi de bina bölgesinde yer alır.",
+      "ca" : "Relació entre subzones amb una zona principal. Per exemple, una zona espacial podria estar continguda en una zona de pis que a la vegada està continguda en una zona d'edifici. bot:containsZone és una propietat transitiva. Això implica que en l'exemple anterior es manté una relació entre la zona espacial i la zona de edifici a través de bot:containsZone."
     },
-    "attributes" : [ "external", "object", "transitive" ],
+    "attributes" : [ "transitive", "external", "object" ],
     "id" : "6"
-  }, {
-    "iri" : "https://w3id.org/bot#hasElement",
-    "baseIri" : "https://w3id.org/bot",
-    "range" : "8",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/bot#",
-        "type" : "iri"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "stable",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "de" : "hat Bauteil",
-      "IRI-based" : "hasElement",
-      "fi" : "omaa elementin",
-      "sv" : "värd för element",
-      "pt" : "tem elemento",
-      "en" : "has element",
-      "it" : "ha elemento",
-      "fr" : "a élément",
-      "zh-cn" : "含构件",
-      "es" : "alberga elemento",
-      "cs" : "má element",
-      "sk" : "má element",
-      "fa" : "المان دارد",
-      "da" : "har element",
-      "ca" : "té element",
-      "tr" : "Elemanı var",
-      "nl" : "heeft element"
-    },
-    "domain" : "4",
-    "subproperty" : [ "37", "101", "86" ],
-    "comment" : {
-      "de" : "Beziehung zwischen einer Zone und einem Bauteil, dass entweder in der Zone enthalten ist, angrenzend ist, oder sich mit ihr schneidet. Diese Beziehung sollte nicht explizit benutzt werden, sondern ergibt sich implizit aus den Unterbeziehungen. Es ermöglicht, zum Beispiel, dass mit einer Abfrage alle Türen eines Gebäudes, die sich mit einer Zone schneiden ermittelt werden können.",
-      "fi" : "Liittää vyöhykkeen (bot:Zone) elementtiin (bot:Element) joka on joko vyöhykkeen sisällä tai vierellä, tai leikkaa sen. Tätä suhdetta ei ole tarkoitus käyttää eksplisiittisesti, vaan se on pääteltävissä sen alaominaisuuksista. Mahdollistaa esimerkiksi kaikkien rakennuksen ovien hakemisen, kunhan ovet on merkitty rakennuksen tilojen viereisiksi elementeiksi (bot:adjacentElement).",
-      "sv" : "Länkar en Zon till en Byggnadsdel som antingen inryms i eller ligger jämte zonen. Den här relationen är inte avseddd att uttryckas explicit, utan den kommer att härledas från under-relationer. Detta möjliggör till exempel att man kan fråga efter samtliga dörrar i en byggnad givet att de ligger i anslutning till utrymmen i byggnaden.",
-      "pt" : "Relaciona uma zona com um elemento que está contido em, é adjacente ou intersecta a zona. Não se pretende que esta relação seja declarada explicitamente mas que seja inferida através das suas sub-propriedades. Esta propriedade permitirá, por exemplo, que se faça um query a todas as portas de um edifício que sejam adjacentes a espaços do edifício.",
-      "en" : "Links a Zone to an Element that is either contained in, adjacent to or intersecting with the Zone. The intended use of this relationship is not to be stated explicitly, but to be inferred from its sub-properties. It will, for example, allow one to query for all the doors of a building given that they have an adjacency to spaces of the building.",
-      "it" : "Collega una zona ad un elemento che è contenuto, adiacente o intersecante la zona stessa. Non si prevede l'uso esplicito di questa relazione che deve essere inferita dalle sue sotto-proprietà. Per esempio, permette di cercare tutte le porte di un edificio dato che sono adiacenti agli spazi di un edificio.",
-      "fr" : "Relie une zone à un élément qui est soit contenu dans la zone, adjacent à celle-ci, ou intersectant. L'utilisation prévue de cette relation ne doit pas être indiquée explicitement, mais doit être déduite de ses sous-propriétés. Elle permettra, par exemple, d'interroger toutes les portes d'un bâtiment si elles sont adjacentes à certains des espaces du bâtiment.",
-      "zh-cn" : "将区域链接到包含在区域中或附近的构件。 该关系的预期用途不是明确说明的，而是要从其子属性中推断出来。例如，如果构件与建筑物的空间相邻，可以借此查询建筑物的所有门。",
-      "es" : "Vincula una zona a un elemento que está contenido en, o es adyacente a, o interseca con la zona. El uso previsto de esta relación no es su definición explícita, sino inferirse de sus subpropiedades. Permitirá, por ejemplo, consultar todas las puertas de un edificio dado que tienen una adyacencia a los espacios del edificio.",
-      "cs" : "Napojuje zónu na stavební prvek, který se buďto nachází v dané zóně, nebo je na její rozhraní. Využitelnost tohoto vztahu není daná explicitně, ale je vyvozená z vlastností zúčastněných prvků. Například to umožní vyhledat všechny dveře, které se dotýkají konkrétních zón.",
-      "sk" : "Napojuje zónu na stavebný prvok, ktorý sa buď nachádza v danej zóne alebo je na jej rozhraní. Využitie tohto vzťahu nie je definované explicitne, ale je vyvodené z vlastností zúčastnených prvkov. Napríklad to umožní vyhľadať všetky dvere v budove, ktoré sa dotýkajú nejakých zón.",
-      "fa" : "رابطه یک منطقه با المانی که یا توسط منطقه در برگرفته شده و یا همجوار است. کاربرد این رابطه نه لزوماً به صورت مستقیم که بلکه برای نتیجه‌گیری حاصل از زیر-روابط ابراز شده است.این رابطه، به عنوان مثال، امکان استعلام (query) از همه درهای یک ساختمان که در مجاورت فضای خاصی هستند را فراهم می کند.",
-      "da" : "Forbinder en Zone til en bygningsdel der enten er indeholdt i eller tilstødende til zonen. Det er ikke hensigten at denne relation angives eksplicit, men at den udledes af dennes underegneskaber. Det vil for eksempel tillade en forespørgsel på alle døre i en bygning givet at disse er enten tilstødende eller indeholdt i rum i bygningen.",
-      "nl" : "Verbindt een bot:Zone instantie met een bot:Element instantie die er ofwel door bevat wordt, aangrenzend aan is of snijdend mee is. Het is aangeraden om deze relatie niet expliciet te maken, maar af te leiden uit het gebruik van zijn sub relaties. Deze relatie maakt het bijvoorbeeld mogelijk om alle deuren van een gebouw op te vragen als die aangrenzend gedefinieerd zijn aan de ruimtes van het gebouw.",
-      "tr" : "Bir Bölgeyi, Bölgenin içinde veya yanında bulunan bir bina parçasına bağlar. Bu ilişkinin açık bir şekilde ifade edilmesi değil, alt özellikleri türetilmesi amaçlanmaktadır. Örneğin, bunların binadaki odalara bitişik ya da bitişik olduğu göz önüne alındığında, bir binadaki tüm kapılar için bir sorgu'ya izin verecektir.",
-      "ca" : "Vincula una zona a un element que està contingut en, o és adjacent a, o interseca amb la zona. L'ús previst d'aquesta relació no s'ha d'establir explícitament, sinó inferir-se de les seves subpropietats. Permetrà, per exemple, consultar totes les portes d'un edifici donat que tenen una adjacència als espais de l'edifici."
-    },
-    "attributes" : [ "external", "object" ],
-    "id" : "39"
   } ]
 }

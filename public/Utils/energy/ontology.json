@@ -2,34 +2,34 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#energyKind"
+    "@id" : "https://models.bim4ren.eu/property#fromTime"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+    "@id" : "https://models.bim4ren.eu/property#Time"
   } ]
 }, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/property#fromTime"
+    "@id" : "https://models.bim4ren.eu/property#toTime"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Time"
+    "@id" : "https://models.bim4ren.eu/property#Time"
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/property#toTime"
+    "@id" : "https://models.bim4ren.eu/utils/energy#energyKind"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/property#Time"
+    "@id" : "https://models.bim4ren.eu/utils/energy#EnergySource"
   } ]
 }, {
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#maxEnergyConsumption"
+    "@id" : "https://models.bim4ren.eu/utils/energy#maxEnergyConsumption"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -38,7 +38,7 @@
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#minEnergyConsumption"
+    "@id" : "https://models.bim4ren.eu/utils/energy#minEnergyConsumption"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue"
@@ -50,24 +50,51 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#associatedLocation"
+    "@id" : "https://models.bim4ren.eu/utils/energy#associatedLocation"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#",
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/CGS-Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/LatexString",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/property#Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/property#fromTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/property#toTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://models.bim4ren.eu/utils/energy#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://www.bim4ren.eu/property/0.1"
+    "@id" : "https://models.bim4ren.eu/property/0.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/utils/energy/0.1"
+    "@id" : "https://models.bim4ren.eu/utils/energy/0.1"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Butane",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#Gas" ],
+  "@id" : "https://models.bim4ren.eu/utils/energy#Butane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/utils/energy#Gas" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Butane"
@@ -82,11 +109,11 @@
     "@value" : "Butano"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Certification",
+  "@id" : "https://models.bim4ren.eu/utils/energy#Certification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Coal",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#EnergySource" ],
+  "@id" : "https://models.bim4ren.eu/utils/energy#Coal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/utils/energy#EnergySource" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
     "@value" : "Carbone"
@@ -101,7 +128,7 @@
     "@value" : "Coal"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Consumption",
+  "@id" : "https://models.bim4ren.eu/utils/energy#Consumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid1"
@@ -111,16 +138,16 @@
     "@id" : "_:genid3"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Electricity",
+  "@id" : "https://models.bim4ren.eu/utils/energy#Electricity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+    "@id" : "https://models.bim4ren.eu/utils/energy#EnergySource"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#EnergyPerformanceCertification",
+  "@id" : "https://models.bim4ren.eu/utils/energy#EnergyPerformanceCertification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#Certification"
+    "@id" : "https://models.bim4ren.eu/utils/energy#Certification"
   }, {
     "@id" : "_:genid4"
   }, {
@@ -129,11 +156,11 @@
     "@id" : "_:genid6"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#EnergySource",
+  "@id" : "https://models.bim4ren.eu/utils/energy#EnergySource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Fuel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#EnergySource" ],
+  "@id" : "https://models.bim4ren.eu/utils/energy#Fuel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/utils/energy#EnergySource" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
     "@value" : "Fioul"
@@ -145,8 +172,8 @@
     "@value" : "Fuel oil"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#GPL",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#Gas" ],
+  "@id" : "https://models.bim4ren.eu/utils/energy#GPL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/utils/energy#Gas" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "GPL"
@@ -173,7 +200,7 @@
     "@value" : "Liquified Petroleum Gas"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Gas",
+  "@id" : "https://models.bim4ren.eu/utils/energy#Gas",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -183,10 +210,10 @@
     "@value" : "Gaz"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+    "@id" : "https://models.bim4ren.eu/utils/energy#EnergySource"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR",
+  "@id" : "https://models.bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://qudt.org/schema/qudt/CGS-Unit", "http://qudt.org/schema/qudt/Unit" ],
   "http://purl.org/dc/terms/description" : [ {
     "@type" : "http://qudt.org/schema/qudt/LatexString",
@@ -206,8 +233,8 @@
     "@value" : "Kilowatthour per Square Meter per Year"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#NaturalGas",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#Gas" ],
+  "@id" : "https://models.bim4ren.eu/utils/energy#NaturalGas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/utils/energy#Gas" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
     "@value" : "Gaz naturel"
@@ -216,7 +243,7 @@
     "@value" : "Natural gas"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Solar",
+  "@id" : "https://models.bim4ren.eu/utils/energy#Solar",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -229,8 +256,8 @@
     "@value" : "Solar"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#Wood",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://bim4ren.eu/utils/energy#EnergySource" ],
+  "@id" : "https://models.bim4ren.eu/utils/energy#Wood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://models.bim4ren.eu/utils/energy#EnergySource" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
     "@value" : "Bois"
@@ -242,22 +269,22 @@
     "@value" : "Wood"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#associatedLocation",
+  "@id" : "https://models.bim4ren.eu/utils/energy#associatedLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#endDate",
+  "@id" : "https://models.bim4ren.eu/utils/energy#endDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#energyKind",
+  "@id" : "https://models.bim4ren.eu/utils/energy#energyKind",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#EnergySource"
+    "@id" : "https://models.bim4ren.eu/utils/energy#EnergySource"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#maxEnergyConsumption",
+  "@id" : "https://models.bim4ren.eu/utils/energy#maxEnergyConsumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -273,10 +300,10 @@
     "@value" : "maximal energy consumption"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#normalizedEnergyConsumption"
+    "@id" : "https://models.bim4ren.eu/utils/energy#normalizedEnergyConsumption"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#minEnergyConsumption",
+  "@id" : "https://models.bim4ren.eu/utils/energy#minEnergyConsumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -292,10 +319,10 @@
     "@value" : "minimal energy consumption"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://bim4ren.eu/utils/energy#normalizedEnergyConsumption"
+    "@id" : "https://models.bim4ren.eu/utils/energy#normalizedEnergyConsumption"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#normalizedEnergyConsumption",
+  "@id" : "https://models.bim4ren.eu/utils/energy#normalizedEnergyConsumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -317,7 +344,7 @@
     "@id" : "http://qudt.org/vocab/quantitykind/EnergyPerArea"
   } ]
 }, {
-  "@id" : "http://bim4ren.eu/utils/energy#startDate",
+  "@id" : "https://models.bim4ren.eu/utils/energy#startDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -325,33 +352,6 @@
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
-}, {
-  "@id" : "http://purl.org/dc/terms/description",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://qudt.org/schema/qudt/CGS-Unit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://qudt.org/schema/qudt/LatexString",
-  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
-}, {
-  "@id" : "http://qudt.org/schema/qudt/Unit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://qudt.org/schema/qudt/expression",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://www.bim4ren.eu/property#Time",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.bim4ren.eu/property#fromTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://www.bim4ren.eu/property#toTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://w3id.org/def/basicsemantics-owl#QuantityValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]

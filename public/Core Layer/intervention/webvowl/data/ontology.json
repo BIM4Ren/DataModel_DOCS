@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.bim4ren.eu/core/intervention" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://models.bim4ren.eu/core/intervention" ],
     "title" : {
       "en" : "The BIM4Ren intervention ontology"
     },
-    "iri" : "http://www.bim4ren.eu/core/intervention",
+    "iri" : "https://models.bim4ren.eu/core/intervention",
     "description" : {
       "en" : "The intervention ontology is part of the BIM4Ren project. It belongs to the core layer, and is used to model changes performed on the building and its different components during the building lifecycle. Through this ontology, a history of the evolution of the building can be modelled."
     },
@@ -32,83 +32,41 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "8",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "10",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/core/intervention#Repair",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
+    "iri" : "https://models.bim4ren.eu/core/intervention#Organization",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Repair"
+      "IRI-based" : "Organization"
     },
-    "comment" : {
-      "en" : "Maintenance of an already installed elements. Can include change of parameters for HVAC systems or change of part of the elements."
-    },
-    "id" : "8",
-    "superClasses" : [ "2" ]
+    "id" : "0"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "7",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "10",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#Event",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Event"
-    },
-    "subClasses" : [ "11", "12", "8" ],
-    "comment" : {
-      "en" : "An intervention event. It is characterized by the elements impacted by the intervention, the date of the intervention, and the person/organization who performed the intervention."
-    },
-    "id" : "2"
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#Installation",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Installation"
-    },
-    "comment" : {
-      "en" : "Installation of the product/element. Includes a change (for instance, replacement of all radiators), or the installation of a bran new system (for instance, external insulation)."
-    },
-    "id" : "11",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#Element",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
+    "iri" : "https://models.bim4ren.eu/core/intervention#Element",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Element"
@@ -118,8 +76,58 @@
     },
     "id" : "1"
   }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#Checking",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#Repair",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Repair"
+    },
+    "comment" : {
+      "en" : "Maintenance of an already installed elements. Can include change of parameters for HVAC systems or change of part of the elements."
+    },
+    "id" : "9",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#Installation",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Installation"
+    },
+    "comment" : {
+      "en" : "Installation of the product/element. Includes a change (for instance, replacement of all radiators), or the installation of a bran new system (for instance, external insulation)."
+    },
+    "id" : "11",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#Event",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "11", "13", "9" ],
+    "comment" : {
+      "en" : "An intervention event. It is characterized by the elements impacted by the intervention, the date of the intervention, and the person/organization who performed the intervention."
+    },
+    "id" : "3"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#Checking",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Checking"
@@ -127,158 +135,150 @@
     "comment" : {
       "en" : "A revision of some elements of the building. Some examples are: energy, accoustic audits, boiler manadatory check..."
     },
-    "id" : "12",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#Organization",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Organization"
-    },
-    "id" : "5"
+    "id" : "13",
+    "superClasses" : [ "3" ]
   } ],
   "property" : [ {
-    "id" : "0",
-    "type" : "owl:objectProperty"
+    "id" : "2",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "4",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "6",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "9",
+    "id" : "7",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "13",
-    "type" : "owl:someValuesFrom"
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "14",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "15",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "16",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "17",
+    "id" : "15",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "3",
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
     "type" : "owl:objectProperty"
   }, {
     "id" : "18",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "19",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "20",
+    "id" : "19",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/core/intervention#associatedEvents",
-    "inverse" : "3",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "2",
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#endDate",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "endDate"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#performedBy",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "performedBy"
+    },
+    "domain" : "3",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#startDate",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "startDate"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "7"
+  }, {
+    "range" : "3",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "3",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#performedOn",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "performedOn"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "range" : "3",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#associatedEvents",
+    "inverse" : "14",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "3",
     "label" : {
       "IRI-based" : "associatedEvents"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
-    "id" : "0"
-  }, {
-    "range" : "5",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "4"
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#endDate",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "7",
-    "label" : {
-      "IRI-based" : "endDate"
-    },
-    "domain" : "2",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "6"
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#startDate",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "10",
-    "label" : {
-      "IRI-based" : "startDate"
-    },
-    "domain" : "2",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "9"
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#performedBy",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "5",
-    "label" : {
-      "IRI-based" : "performedBy"
-    },
-    "domain" : "2",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "13"
-  }, {
-    "range" : "2",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "14"
-  }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#performedBy",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "5",
-    "label" : {
-      "IRI-based" : "performedBy"
-    },
-    "domain" : "2",
-    "attributes" : [ "object" ],
-    "id" : "15"
-  }, {
-    "range" : "2",
-    "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "16"
-  }, {
-    "range" : "2",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "17"
   }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#performedOn",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/core/intervention#performedBy",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "0",
     "label" : {
-      "IRI-based" : "performedOn"
+      "IRI-based" : "performedBy"
     },
-    "domain" : "2",
+    "domain" : "3",
     "attributes" : [ "object" ],
-    "id" : "3"
-  }, {
-    "range" : "5",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "iri" : "http://www.bim4ren.eu/core/intervention#performed",
-    "inverse" : "15",
-    "baseIri" : "http://www.bim4ren.eu/core/intervention",
-    "range" : "2",
+    "range" : "3",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://models.bim4ren.eu/core/intervention#performed",
+    "inverse" : "18",
+    "baseIri" : "https://models.bim4ren.eu/core/intervention",
+    "range" : "3",
     "label" : {
       "IRI-based" : "performed"
     },
-    "domain" : "5",
+    "domain" : "0",
     "attributes" : [ "object" ],
-    "id" : "19"
-  }, {
-    "range" : "2",
-    "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "20"
   } ]
 }

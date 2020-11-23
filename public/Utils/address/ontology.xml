@@ -22,11 +22,11 @@
     
 
 
-    <!-- http://www.bim4ren.eu/address#address -->
+    <!-- https://models.bim4ren.eu/address#address -->
 
 
-    <ObjectProperty rdf:about="http://www.bim4ren.eu/address#address">
-        <rdfs:range rdf:resource="http://www.bim4ren.eu/address#Address"/>
+    <ObjectProperty rdf:about="https://models.bim4ren.eu/address#address">
+        <rdfs:range rdf:resource="https://models.bim4ren.eu/address#Address"/>
     </ObjectProperty>
     
 
@@ -43,31 +43,31 @@
     
 
 
-    <!-- http://www.bim4ren.eu/address#city -->
+    <!-- https://models.bim4ren.eu/address#city -->
 
 
-    <DatatypeProperty rdf:about="http://www.bim4ren.eu/address#city"/>
+    <DatatypeProperty rdf:about="https://models.bim4ren.eu/address#city"/>
     
 
 
-    <!-- http://www.bim4ren.eu/address#streetName -->
+    <!-- https://models.bim4ren.eu/address#streetName -->
 
 
-    <DatatypeProperty rdf:about="http://www.bim4ren.eu/address#streetName"/>
+    <DatatypeProperty rdf:about="https://models.bim4ren.eu/address#streetName"/>
     
 
 
-    <!-- http://www.bim4ren.eu/address#streetNumber -->
+    <!-- https://models.bim4ren.eu/address#streetNumber -->
 
 
-    <DatatypeProperty rdf:about="http://www.bim4ren.eu/address#streetNumber"/>
+    <DatatypeProperty rdf:about="https://models.bim4ren.eu/address#streetNumber"/>
     
 
 
-    <!-- http://www.bim4ren.eu/address#zipCode -->
+    <!-- https://models.bim4ren.eu/address#zipCode -->
 
 
-    <DatatypeProperty rdf:about="http://www.bim4ren.eu/address#zipCode"/>
+    <DatatypeProperty rdf:about="https://models.bim4ren.eu/address#zipCode"/>
     
 
 
@@ -83,33 +83,33 @@
     
 
 
-    <!-- http://www.bim4ren.eu/address#Address -->
+    <!-- https://models.bim4ren.eu/address#Address -->
 
 
-    <Class rdf:about="http://www.bim4ren.eu/address#Address">
+    <Class rdf:about="https://models.bim4ren.eu/address#Address">
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://www.bim4ren.eu/address#streetNumber"/>
+                <onProperty rdf:resource="https://models.bim4ren.eu/address#streetNumber"/>
                 <someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://www.bim4ren.eu/address#city"/>
+                <onProperty rdf:resource="https://models.bim4ren.eu/address#city"/>
                 <qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</qualifiedCardinality>
                 <onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://www.bim4ren.eu/address#streetName"/>
+                <onProperty rdf:resource="https://models.bim4ren.eu/address#streetName"/>
                 <qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</qualifiedCardinality>
                 <onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://www.bim4ren.eu/address#zipCode"/>
+                <onProperty rdf:resource="https://models.bim4ren.eu/address#zipCode"/>
                 <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
                 <onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </Restriction>

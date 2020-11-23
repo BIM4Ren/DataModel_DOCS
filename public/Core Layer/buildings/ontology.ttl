@@ -1,19 +1,19 @@
-@prefix : <http://www.bim4ren.eu/buildings#> .
+@prefix : <https://models.bim4ren.eu/buildings#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.bim4ren.eu/buildings#> .
+@base <https://models.bim4ren.eu/buildings#> .
 
-<http://www.bim4ren.eu/buildings#> rdf:type owl:Ontology ;
-                                    owl:versionIRI <http://www.bim4ren.eu/buildings/0.1> ;
-                                    owl:imports <http://www.bim4ren.eu/property#> ,
-                                                <https://w3id.org/bot> ;
-                                    <http://purl.org/dc/terms/contributor> "Nathalie Charbel" ,
-                                                                           "Pierre Bourreau" ;
-                                    <http://purl.org/dc/terms/description> "The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage."@en ;
-                                    <http://purl.org/dc/terms/title> "The BIM4Ren buildings ontology"@en .
+<https://models.bim4ren.eu/buildings#> rdf:type owl:Ontology ;
+                                        owl:versionIRI <https://models.bim4ren.eu/buildings/0.1> ;
+                                        owl:imports <https://models.bim4ren.eu/property#> ,
+                                                    <https://w3id.org/bot> ;
+                                        <http://purl.org/dc/terms/contributor> "Nathalie Charbel" ,
+                                                                               "Pierre Bourreau" ;
+                                        <http://purl.org/dc/terms/description> "The buildings ontology is part of the BIM4Ren project. It belongs to the core layer, and is an extension of the BOT ontology (Building Ontology Topology). Additional concepts are the possibility to describe a building enveloppe, and to classify buildings and rooms according to their usage."@en ;
+                                        <http://purl.org/dc/terms/title> "The BIM4Ren buildings ontology"@en .
 
 #################################################################
 #    Annotation properties
@@ -39,7 +39,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://www.bim4ren.eu/buildings#isMadeOf
+###  https://models.bim4ren.eu/buildings#isMadeOf
 :isMadeOf rdf:type owl:ObjectProperty ;
           rdfs:domain :Enveloppe ;
           rdfs:range <https://w3id.org/bot#Element> .
@@ -49,7 +49,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 #    Data properties
 #################################################################
 
-###  http://www.bim4ren.eu/buildings#constructionYear
+###  https://models.bim4ren.eu/buildings#constructionYear
 :constructionYear rdf:type owl:DatatypeProperty ;
                   rdfs:domain <https://w3id.org/bot#Building> ;
                   rdfs:range xsd:gYear .
@@ -59,12 +59,12 @@ xsd:gYear rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
-###  http://www.bim4ren.eu/buildings#Allotment
+###  https://models.bim4ren.eu/buildings#Allotment
 :Allotment rdf:type owl:Class ;
            rdfs:subClassOf :SingleFamilyHousing .
 
 
-###  http://www.bim4ren.eu/buildings#Appartment
+###  https://models.bim4ren.eu/buildings#Appartment
 :Appartment rdf:type owl:Class ;
             rdfs:subClassOf :VolumetricZone ,
                             <https://w3id.org/bot#Zone> ;
@@ -76,14 +76,14 @@ xsd:gYear rdf:type rdfs:Datatype .
                        "Appartment"@en .
 
 
-###  http://www.bim4ren.eu/buildings#Attic
+###  https://models.bim4ren.eu/buildings#Attic
 :Attic rdf:type owl:Class ;
        rdfs:subClassOf <https://w3id.org/bot#Space> ;
        rdfs:comment "The space between the ceiling beams of the top story and the roof rafters."@en ;
        rdfs:isDefinedBy "Omniclass 13-23 23 27" .
 
 
-###  http://www.bim4ren.eu/buildings#Bathroom
+###  https://models.bim4ren.eu/buildings#Bathroom
 :Bathroom rdf:type owl:Class ;
           rdfs:subClassOf <https://w3id.org/bot#Space> ;
           rdfs:comment "Space for washing one's body or part of it."@en ;
@@ -91,38 +91,38 @@ xsd:gYear rdf:type rdfs:Datatype .
                            "Omniclass 13-65 13 15" .
 
 
-###  http://www.bim4ren.eu/buildings#Cellar
+###  https://models.bim4ren.eu/buildings#Cellar
 :Cellar rdf:type owl:Class ;
         rdfs:subClassOf <https://w3id.org/bot#Space> .
 
 
-###  http://www.bim4ren.eu/buildings#CirculationSpace
+###  https://models.bim4ren.eu/buildings#CirculationSpace
 :CirculationSpace rdf:type owl:Class ;
                   rdfs:subClassOf <https://w3id.org/bot#Space> ;
                   rdfs:comment "Spaces for circulation that provide or control access to and between other spaces within the facility, entry, and egress."@en ;
                   rdfs:isDefinedBy "Omniclass 13-25 00 00" .
 
 
-###  http://www.bim4ren.eu/buildings#Condominum
+###  https://models.bim4ren.eu/buildings#Condominum
 :Condominum rdf:type owl:Class ;
             rdfs:subClassOf :MultiDwellingHousing ;
             rdfs:isDefinedBy "Part of 'Duplex' in Omniclass 11 (2013 02 26)"@en ;
             rdfs:label "Condominum"@en .
 
 
-###  http://www.bim4ren.eu/buildings#DetachedHouse
+###  https://models.bim4ren.eu/buildings#DetachedHouse
 :DetachedHouse rdf:type owl:Class ;
                rdfs:subClassOf :SingleFamilyHousing .
 
 
-###  http://www.bim4ren.eu/buildings#DiningRoom
+###  https://models.bim4ren.eu/buildings#DiningRoom
 :DiningRoom rdf:type owl:Class ;
             rdfs:subClassOf <https://w3id.org/bot#Space> ;
             rdfs:comment "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."@en ;
             rdfs:isDefinedBy "Omniclass 13-57 13 15 11" .
 
 
-###  http://www.bim4ren.eu/buildings#Dormitory
+###  https://models.bim4ren.eu/buildings#Dormitory
 :Dormitory rdf:type owl:Class ;
            rdfs:subClassOf :Residential ;
            rdfs:comment "A single facility containing multiple sleeping quarters and typically shared eating and lavatory facilities typically for students."@en ;
@@ -131,7 +131,7 @@ xsd:gYear rdf:type rdfs:Datatype .
                       "Dortoir"@fr .
 
 
-###  http://www.bim4ren.eu/buildings#Enveloppe
+###  https://models.bim4ren.eu/buildings#Enveloppe
 :Enveloppe rdf:type owl:Class ;
            rdfs:label "Enveloppe"@en ,
                       "Enveloppe"@fr ,
@@ -139,14 +139,14 @@ xsd:gYear rdf:type rdfs:Datatype .
                       "Involucro edilizio"@it .
 
 
-###  http://www.bim4ren.eu/buildings#Garage
+###  https://models.bim4ren.eu/buildings#Garage
 :Garage rdf:type owl:Class ;
         rdfs:subClassOf <https://w3id.org/bot#Space> ;
         rdfs:comment "Totally or partially enclosed space that is normally used to circulate and station vehicles."@en ;
         rdfs:isDefinedBy "Omniclass 13-21 13 00" .
 
 
-###  http://www.bim4ren.eu/buildings#GovernmentSubsidizedBuilding
+###  https://models.bim4ren.eu/buildings#GovernmentSubsidizedBuilding
 :GovernmentSubsidizedBuilding rdf:type owl:Class ;
                               rdfs:subClassOf :MultiDwellingHousing ;
                               rdfs:comment "A dwelling (or dwellings) that has a lowered cost of ownership due to government funding and support."@en ;
@@ -154,7 +154,7 @@ xsd:gYear rdf:type rdfs:Datatype .
                               rdfs:label "Government Subsidized Building"@en .
 
 
-###  http://www.bim4ren.eu/buildings#Kitchen
+###  https://models.bim4ren.eu/buildings#Kitchen
 :Kitchen rdf:type owl:Class ;
          rdfs:subClassOf <https://w3id.org/bot#Space> ;
          rdfs:comment "A room or part of a room used for cooking and food preparation."@en ;
@@ -162,14 +162,14 @@ xsd:gYear rdf:type rdfs:Datatype .
                           "Omniclass 13-65 23 00" .
 
 
-###  http://www.bim4ren.eu/buildings#LivingRoom
+###  https://models.bim4ren.eu/buildings#LivingRoom
 :LivingRoom rdf:type owl:Class ;
             rdfs:subClassOf <https://w3id.org/bot#Space> ;
             rdfs:comment "A room in a home or hotel, or a private area in a restaurant away from the main public area, where meals are eaten."@en ;
             rdfs:isDefinedBy "Omniclass 13-57 13 15 11" .
 
 
-###  http://www.bim4ren.eu/buildings#MultiDwellingHousing
+###  https://models.bim4ren.eu/buildings#MultiDwellingHousing
 :MultiDwellingHousing rdf:type owl:Class ;
                       rdfs:subClassOf :Residential ;
                       rdfs:comment "Multiple dwellings contained in a single structure."@en ;
@@ -177,7 +177,7 @@ xsd:gYear rdf:type rdfs:Datatype .
                       rdfs:label "Multi-Dwelling Housing"@en .
 
 
-###  http://www.bim4ren.eu/buildings#Residential
+###  https://models.bim4ren.eu/buildings#Residential
 :Residential rdf:type owl:Class ;
              rdfs:subClassOf <https://w3id.org/bot#Building> ;
              rdfs:comment "Facilities used for long-term inhabitation and dwelling by humans."@en ;
@@ -187,14 +187,14 @@ xsd:gYear rdf:type rdfs:Datatype .
                         "Residential Building"@en .
 
 
-###  http://www.bim4ren.eu/buildings#SeniorHousing
+###  https://models.bim4ren.eu/buildings#SeniorHousing
 :SeniorHousing rdf:type owl:Class ;
                rdfs:subClassOf :Residential ;
                rdfs:comment "Dwellings and commercial facilities designed and/or retrofitted for occupancy by Seniors."@en ;
                rdfs:isDefinedBy "'Senior Housing' in Omniclass 11 (2013 02 26)" .
 
 
-###  http://www.bim4ren.eu/buildings#SingleFamilyHousing
+###  https://models.bim4ren.eu/buildings#SingleFamilyHousing
 :SingleFamilyHousing rdf:type owl:Class ;
                      rdfs:subClassOf :Residential ;
                      rdfs:comment "A dwelling unit for a service member or for an authorized government civilian and his/her authorized dependents when accompanied by those dependents."@en ;
@@ -202,20 +202,20 @@ xsd:gYear rdf:type rdfs:Datatype .
                                       "'Single Family Residence' in Omniclass 11 (2013 02 26)" .
 
 
-###  http://www.bim4ren.eu/buildings#SleepingRoom
+###  https://models.bim4ren.eu/buildings#SleepingRoom
 :SleepingRoom rdf:type owl:Class ;
               rdfs:subClassOf <https://w3id.org/bot#Space> ;
               rdfs:comment "A private room where people sleep for the night."@en ;
               rdfs:isDefinedBy "Omniclass 13-65 19 00" .
 
 
-###  http://www.bim4ren.eu/buildings#SocialHousingBuilding
+###  https://models.bim4ren.eu/buildings#SocialHousingBuilding
 :SocialHousingBuilding rdf:type owl:Class ;
                        rdfs:subClassOf :MultiDwellingHousing ;
                        rdfs:isDefinedBy "'LIHTC Tax Credit Housing' in Omniclass 11 (2013 02 26)"@en .
 
 
-###  http://www.bim4ren.eu/buildings#SpecialCareBuilding
+###  https://models.bim4ren.eu/buildings#SpecialCareBuilding
 :SpecialCareBuilding rdf:type owl:Class ;
                      rdfs:subClassOf :Residential ;
                      rdfs:comment "A dwelling containing multiple sleeping quarters with shared eating, living and lavatory facilities in addition to offering additional care and medical/health assistance from trained staff."@en ;
@@ -223,12 +223,12 @@ xsd:gYear rdf:type rdfs:Datatype .
                                       "'Special Care Residence' in Omniclass 11 (2013 02 26)" .
 
 
-###  http://www.bim4ren.eu/buildings#Terraced
+###  https://models.bim4ren.eu/buildings#Terraced
 :Terraced rdf:type owl:Class ;
           rdfs:subClassOf :SingleFamilyHousing .
 
 
-###  http://www.bim4ren.eu/buildings#Toilets
+###  https://models.bim4ren.eu/buildings#Toilets
 :Toilets rdf:type owl:Class ;
          rdfs:subClassOf <https://w3id.org/bot#Space> ;
          rdfs:comment "A space containing a toilet or similar fixture that disposes of human waste by using water to flush it through a drainpipe to another location."@en ;
@@ -236,7 +236,7 @@ xsd:gYear rdf:type rdfs:Datatype .
                           "Omniclass 13-65 13 13" .
 
 
-###  http://www.bim4ren.eu/buildings#VolumetricZone
+###  https://models.bim4ren.eu/buildings#VolumetricZone
 :VolumetricZone rdf:type owl:Class ;
                 rdfs:subClassOf <https://w3id.org/bot#Zone> .
 

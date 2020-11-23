@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.bim4ren.eu/alignment/buildings-IFC#"
-     xml:base="http://www.bim4ren.eu/alignment/buildings-IFC"
+<rdf:RDF xmlns="https://models.bim4ren.eu/alignment/buildings-IFC#"
+     xml:base="https://models.bim4ren.eu/alignment/buildings-IFC"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:ns1="http://creativecommons.org/ns#"
@@ -13,11 +13,11 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
-    <owl:Ontology rdf:about="http://www.bim4ren.eu/alignment/buildings-IFC">
-        <owl:versionIRI rdf:resource="http://www.bim4ren.eu/alignment/buildings-IFC/0.1"/>
+    <owl:Ontology rdf:about="https://models.bim4ren.eu/alignment/buildings-IFC">
+        <owl:versionIRI rdf:resource="https://models.bim4ren.eu/alignment/buildings-IFC/0.1"/>
         <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL"/>
         <owl:imports rdf:resource="http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL"/>
-        <owl:imports rdf:resource="http://www.bim4ren.eu/buildings"/>
+        <owl:imports rdf:resource="https://models.bim4ren.eu/buildings"/>
         <owl:imports rdf:resource="https://w3id.org/bot"/>
         <terms:creator>Pierre Bourreau</terms:creator>
         <terms:description xml:lang="en">This ontology defines proposed alignments with the ifcOWL4.1 and ifcOWL2x3 ontologies.</terms:description>

@@ -1,14 +1,14 @@
-@prefix : <http://bim4ren.eu/utils/energy#> .
+@prefix : <https://models.bim4ren.eu/utils/energy#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://bim4ren.eu/utils/energy#> .
+@base <https://models.bim4ren.eu/utils/energy#> .
 
-<http://bim4ren.eu/utils/energy#> rdf:type owl:Ontology ;
-                                   owl:versionIRI <http://www.bim4ren.eu/utils/energy/0.1> ;
-                                   owl:imports <http://www.bim4ren.eu/property/0.1> .
+<https://models.bim4ren.eu/utils/energy#> rdf:type owl:Ontology ;
+                                           owl:versionIRI <https://models.bim4ren.eu/utils/energy/0.1> ;
+                                           owl:imports <https://models.bim4ren.eu/property/0.1> .
 
 #################################################################
 #    Annotation properties
@@ -42,12 +42,20 @@
 #    Object Properties
 #################################################################
 
-###  http://bim4ren.eu/utils/energy#energyKind
+###  https://models.bim4ren.eu/property#fromTime
+<https://models.bim4ren.eu/property#fromTime> rdf:type owl:ObjectProperty .
+
+
+###  https://models.bim4ren.eu/property#toTime
+<https://models.bim4ren.eu/property#toTime> rdf:type owl:ObjectProperty .
+
+
+###  https://models.bim4ren.eu/utils/energy#energyKind
 :energyKind rdf:type owl:ObjectProperty ;
             rdfs:range :EnergySource .
 
 
-###  http://bim4ren.eu/utils/energy#maxEnergyConsumption
+###  https://models.bim4ren.eu/utils/energy#maxEnergyConsumption
 :maxEnergyConsumption rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf :normalizedEnergyConsumption ;
                       rdfs:label "consommation énergétique maximale"@fr ,
@@ -56,7 +64,7 @@
                                  "maximal energy consumption"@en .
 
 
-###  http://bim4ren.eu/utils/energy#minEnergyConsumption
+###  https://models.bim4ren.eu/utils/energy#minEnergyConsumption
 :minEnergyConsumption rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf :normalizedEnergyConsumption ;
                       rdfs:label "consommation énergétique minimale"@fr ,
@@ -65,7 +73,7 @@
                                  "minimal energy consumption"@en .
 
 
-###  http://bim4ren.eu/utils/energy#normalizedEnergyConsumption
+###  https://models.bim4ren.eu/utils/energy#normalizedEnergyConsumption
 :normalizedEnergyConsumption rdf:type owl:ObjectProperty ;
                              rdfs:range <https://w3id.org/def/basicsemantics-owl#QuantityValue> ;
                              rdfs:label "consommation énergétique primaire annuelle"@fr ,
@@ -75,28 +83,20 @@
                              <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/EnergyPerArea> .
 
 
-###  http://www.bim4ren.eu/property#fromTime
-<http://www.bim4ren.eu/property#fromTime> rdf:type owl:ObjectProperty .
-
-
-###  http://www.bim4ren.eu/property#toTime
-<http://www.bim4ren.eu/property#toTime> rdf:type owl:ObjectProperty .
-
-
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://bim4ren.eu/utils/energy#associatedLocation
+###  https://models.bim4ren.eu/utils/energy#associatedLocation
 :associatedLocation rdf:type owl:DatatypeProperty .
 
 
-###  http://bim4ren.eu/utils/energy#endDate
+###  https://models.bim4ren.eu/utils/energy#endDate
 :endDate rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:dateTime .
 
 
-###  http://bim4ren.eu/utils/energy#startDate
+###  https://models.bim4ren.eu/utils/energy#startDate
 :startDate rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:range xsd:dateTime .
@@ -106,32 +106,44 @@
 #    Classes
 #################################################################
 
-###  http://bim4ren.eu/utils/energy#Certification
+###  http://qudt.org/schema/qudt/CGS-Unit
+<http://qudt.org/schema/qudt/CGS-Unit> rdf:type owl:Class .
+
+
+###  http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
+
+
+###  https://models.bim4ren.eu/property#Time
+<https://models.bim4ren.eu/property#Time> rdf:type owl:Class .
+
+
+###  https://models.bim4ren.eu/utils/energy#Certification
 :Certification rdf:type owl:Class .
 
 
-###  http://bim4ren.eu/utils/energy#Consumption
+###  https://models.bim4ren.eu/utils/energy#Consumption
 :Consumption rdf:type owl:Class ;
              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty <https://models.bim4ren.eu/property#fromTime> ;
+                               owl:someValuesFrom <https://models.bim4ren.eu/property#Time>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <https://models.bim4ren.eu/property#toTime> ;
+                               owl:someValuesFrom <https://models.bim4ren.eu/property#Time>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
                                owl:onProperty :energyKind ;
                                owl:someValuesFrom :EnergySource
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty <http://www.bim4ren.eu/property#fromTime> ;
-                               owl:someValuesFrom <http://www.bim4ren.eu/property#Time>
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty <http://www.bim4ren.eu/property#toTime> ;
-                               owl:someValuesFrom <http://www.bim4ren.eu/property#Time>
                              ] .
 
 
-###  http://bim4ren.eu/utils/energy#Electricity
+###  https://models.bim4ren.eu/utils/energy#Electricity
 :Electricity rdf:type owl:Class ;
              rdfs:subClassOf :EnergySource .
 
 
-###  http://bim4ren.eu/utils/energy#EnergyPerformanceCertification
+###  https://models.bim4ren.eu/utils/energy#EnergyPerformanceCertification
 :EnergyPerformanceCertification rdf:type owl:Class ;
                                 rdfs:subClassOf :Certification ,
                                                 [ rdf:type owl:Restriction ;
@@ -149,27 +161,15 @@
                                                 ] .
 
 
-###  http://bim4ren.eu/utils/energy#EnergySource
+###  https://models.bim4ren.eu/utils/energy#EnergySource
 :EnergySource rdf:type owl:Class .
 
 
-###  http://bim4ren.eu/utils/energy#Gas
+###  https://models.bim4ren.eu/utils/energy#Gas
 :Gas rdf:type owl:Class ;
      rdfs:subClassOf :EnergySource ;
      rdfs:comment "Gas"@en ,
                   "Gaz"@fr .
-
-
-###  http://qudt.org/schema/qudt/CGS-Unit
-<http://qudt.org/schema/qudt/CGS-Unit> rdf:type owl:Class .
-
-
-###  http://qudt.org/schema/qudt/Unit
-<http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
-
-
-###  http://www.bim4ren.eu/property#Time
-<http://www.bim4ren.eu/property#Time> rdf:type owl:Class .
 
 
 ###  https://w3id.org/def/basicsemantics-owl#QuantityValue
@@ -180,7 +180,7 @@
 #    Individuals
 #################################################################
 
-###  http://bim4ren.eu/utils/energy#Butane
+###  https://models.bim4ren.eu/utils/energy#Butane
 :Butane rdf:type owl:NamedIndividual ,
                  :Gas ;
         rdfs:label "Butane"@en ,
@@ -189,7 +189,7 @@
                    "Butano"@it .
 
 
-###  http://bim4ren.eu/utils/energy#Coal
+###  https://models.bim4ren.eu/utils/energy#Coal
 :Coal rdf:type owl:NamedIndividual ,
                :EnergySource ;
       rdfs:label "Carbone"@it ,
@@ -198,7 +198,7 @@
                  "Coal"@en .
 
 
-###  http://bim4ren.eu/utils/energy#Fuel
+###  https://models.bim4ren.eu/utils/energy#Fuel
 :Fuel rdf:type owl:NamedIndividual ,
                :EnergySource ;
       rdfs:label "Fioul"@fr ,
@@ -206,7 +206,7 @@
                  "Fuel oil"@en .
 
 
-###  http://bim4ren.eu/utils/energy#GPL
+###  https://models.bim4ren.eu/utils/energy#GPL
 :GPL rdf:type owl:NamedIndividual ,
               :Gas ;
      rdfs:label "GPL"@es ,
@@ -219,7 +219,7 @@
                 "Liquified Petroleum Gas"@en .
 
 
-###  http://bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR
+###  https://models.bim4ren.eu/utils/energy#KiloW-HR-PER-M2-YEAR
 :KiloW-HR-PER-M2-YEAR rdf:type owl:NamedIndividual ,
                                <http://qudt.org/schema/qudt/CGS-Unit> ,
                                <http://qudt.org/schema/qudt/Unit> ;
@@ -230,21 +230,21 @@
                       rdfs:label "Kilowatthour per Square Meter per Year" .
 
 
-###  http://bim4ren.eu/utils/energy#NaturalGas
+###  https://models.bim4ren.eu/utils/energy#NaturalGas
 :NaturalGas rdf:type owl:NamedIndividual ,
                      :Gas ;
             rdfs:comment "Gaz naturel"@fr ,
                          "Natural gas"@en .
 
 
-###  http://bim4ren.eu/utils/energy#Solar
+###  https://models.bim4ren.eu/utils/energy#Solar
 :Solar rdf:type owl:NamedIndividual ;
        rdfs:label "Solaire"@fr ,
                   "Solar"@en ,
                   "Solar"@es .
 
 
-###  http://bim4ren.eu/utils/energy#Wood
+###  https://models.bim4ren.eu/utils/energy#Wood
 :Wood rdf:type owl:NamedIndividual ,
                :EnergySource ;
       rdfs:label "Bois"@fr ,

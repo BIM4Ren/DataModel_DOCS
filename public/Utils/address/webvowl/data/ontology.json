@@ -1,7 +1,7 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
-    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.bim4ren.eu/address" ],
+    "baseIris" : [ "https://models.bim4ren.eu/address", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "iri" : "No IRI set"
   },
   "namespace" : [ ],
@@ -9,19 +9,19 @@
     "id" : "1",
     "type" : "owl:Thing"
   }, {
-    "id" : "2",
-    "type" : "rdfs:Literal"
+    "id" : "4",
+    "type" : "owl:Thing"
   }, {
     "id" : "5",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "4",
+    "id" : "7",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "7",
-    "type" : "owl:Thing"
-  }, {
     "id" : "8",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "2",
     "type" : "owl:Class"
   }, {
     "id" : "10",
@@ -35,11 +35,11 @@
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "2",
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
     "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
+      "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -50,27 +50,27 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "4",
+    "id" : "7",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "7",
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "8",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.bim4ren.eu/address#Address",
-    "baseIri" : "http://www.bim4ren.eu/address",
+    "iri" : "https://models.bim4ren.eu/address#Address",
+    "baseIri" : "https://models.bim4ren.eu/address",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Address"
     },
     "attributes" : [ "external" ],
-    "id" : "8"
+    "id" : "2"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -81,13 +81,13 @@
   } ],
   "property" : [ {
     "id" : "0",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "3",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "6",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "9",
     "type" : "owl:someValuesFrom"
@@ -96,57 +96,57 @@
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/address#city",
-    "baseIri" : "http://www.bim4ren.eu/address",
+    "iri" : "https://models.bim4ren.eu/address#address",
+    "baseIri" : "https://models.bim4ren.eu/address",
     "range" : "2",
-    "label" : {
-      "IRI-based" : "city"
-    },
-    "cardinality" : "1",
-    "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "0"
-  }, {
-    "iri" : "http://www.bim4ren.eu/address#streetName",
-    "baseIri" : "http://www.bim4ren.eu/address",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "streetName"
-    },
-    "cardinality" : "1",
-    "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "3"
-  }, {
-    "iri" : "http://www.bim4ren.eu/address#address",
-    "baseIri" : "http://www.bim4ren.eu/address",
-    "range" : "8",
     "label" : {
       "IRI-based" : "address"
     },
-    "domain" : "7",
-    "attributes" : [ "object", "external" ],
-    "id" : "6"
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
   }, {
-    "iri" : "http://www.bim4ren.eu/address#streetNumber",
-    "baseIri" : "http://www.bim4ren.eu/address",
-    "range" : "10",
-    "label" : {
-      "IRI-based" : "streetNumber"
-    },
-    "domain" : "8",
-    "attributes" : [ "someValues", "external", "datatype" ],
-    "id" : "9"
-  }, {
-    "iri" : "http://www.bim4ren.eu/address#zipCode",
-    "baseIri" : "http://www.bim4ren.eu/address",
+    "iri" : "https://models.bim4ren.eu/address#zipCode",
+    "baseIri" : "https://models.bim4ren.eu/address",
     "range" : "5",
     "label" : {
       "IRI-based" : "zipCode"
     },
     "maxCardinality" : "1",
-    "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://models.bim4ren.eu/address#streetName",
+    "baseIri" : "https://models.bim4ren.eu/address",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "streetName"
+    },
+    "cardinality" : "1",
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://models.bim4ren.eu/address#streetNumber",
+    "baseIri" : "https://models.bim4ren.eu/address",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "streetNumber"
+    },
+    "domain" : "2",
+    "attributes" : [ "someValues", "datatype", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://models.bim4ren.eu/address#city",
+    "baseIri" : "https://models.bim4ren.eu/address",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "city"
+    },
+    "cardinality" : "1",
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
     "id" : "11"
   } ]
 }

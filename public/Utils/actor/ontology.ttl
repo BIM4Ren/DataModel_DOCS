@@ -1,19 +1,19 @@
-@prefix : <http://www.bim4ren.eu/actors#> .
+@prefix : <https://models.bim4ren.eu/actors#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.bim4ren.eu/actors> .
+@base <https://models.bim4ren.eu/actors> .
 
-<http://www.bim4ren.eu/actors> rdf:type owl:Ontology ;
-                                owl:versionIRI <http://www.bim4ren.eu/actors/0.1> .
+<https://models.bim4ren.eu/actors> rdf:type owl:Ontology ;
+                                    owl:versionIRI <https://models.bim4ren.eu/actors/0.1> .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.bim4ren.eu/actors#ageCategory
+###  https://models.bim4ren.eu/actors#ageCategory
 :ageCategory rdf:type owl:ObjectProperty ;
              rdfs:domain :Actor ;
              rdfs:range :AgeCategory ;
@@ -23,7 +23,7 @@
                         "catégorie d'âge"@fr .
 
 
-###  http://www.bim4ren.eu/actors#associatedActor
+###  https://models.bim4ren.eu/actors#associatedActor
 :associatedActor rdf:type owl:ObjectProperty ;
                  rdfs:domain <https://w3id.org/bot#Zone> ;
                  rdfs:range :Actor ;
@@ -33,7 +33,7 @@
                             "associated actor"@en .
 
 
-###  http://www.bim4ren.eu/actors#associatedZone
+###  https://models.bim4ren.eu/actors#associatedZone
 :associatedZone rdf:type owl:ObjectProperty ;
                 rdfs:range <https://w3id.org/bot#Zone> ;
                 rdfs:comment "Relation pouvant décrire le lien entre un occupant et une zone associée à travers le profile d'occupation ou tout simplement le lien entre un acteur en général et une zone pour laquelle il a un role spécifique"@fr ,
@@ -42,7 +42,7 @@
                            "zone associée"@fr .
 
 
-###  http://www.bim4ren.eu/actors#hasEnergyPolicy
+###  https://models.bim4ren.eu/actors#hasEnergyPolicy
 :hasEnergyPolicy rdf:type owl:ObjectProperty ;
                  rdfs:domain :Occupant ;
                  rdfs:range :EnergyPolicy ;
@@ -54,7 +54,7 @@
                             "política energética"@es .
 
 
-###  http://www.bim4ren.eu/actors#occupancyProfile
+###  https://models.bim4ren.eu/actors#occupancyProfile
 :occupancyProfile rdf:type owl:ObjectProperty ;
                   rdfs:domain :Occupant ;
                   rdfs:range :OccupancyProfile ;
@@ -64,7 +64,7 @@
                              "profile d'occupation"@fr .
 
 
-###  http://www.bim4ren.eu/actors#occupancyTime
+###  https://models.bim4ren.eu/actors#occupancyTime
 :occupancyTime rdf:type owl:ObjectProperty ;
                rdfs:domain :OccupancyProfile ;
                rdfs:range :OccupancyTimeRange ;
@@ -74,7 +74,7 @@
                           "temps d'occupation"@en .
 
 
-###  http://www.bim4ren.eu/actors#workSituation
+###  https://models.bim4ren.eu/actors#workSituation
 :workSituation rdf:type owl:ObjectProperty ;
                rdfs:domain :Occupant ;
                rdfs:range :WorkSituation ;
@@ -84,7 +84,7 @@
                           "work situation"@en .
 
 
-###  http://www.bim4ren.eu/actors#workType
+###  https://models.bim4ren.eu/actors#workType
 :workType rdf:type owl:ObjectProperty ;
           rdfs:domain :WorkSituation ;
           rdfs:range :WorkType ;
@@ -98,7 +98,7 @@
 #    Data properties
 #################################################################
 
-###  http://www.bim4ren.eu/actors#fromDateTime
+###  https://models.bim4ren.eu/actors#fromDateTime
 :fromDateTime rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:dateTime ;
               rdfs:comment "Property describing the start date and time related to an occupancy profile"@en ,
@@ -107,7 +107,7 @@
                          "from date time"@en .
 
 
-###  http://www.bim4ren.eu/actors#income
+###  https://models.bim4ren.eu/actors#income
 :income rdf:type owl:DatatypeProperty ;
         rdfs:range xsd:decimal ;
         rdfs:comment "Property describing the gross annual salary of an occupant"@en ,
@@ -116,7 +116,7 @@
         rdfs:label "income"@en .
 
 
-###  http://www.bim4ren.eu/actors#toDateTime
+###  https://models.bim4ren.eu/actors#toDateTime
 :toDateTime rdf:type owl:DatatypeProperty ;
             rdfs:range xsd:dateTime ;
             rdfs:comment "Property describing the end date and time related to an occupancy profile"@en ,
@@ -129,7 +129,7 @@
 #    Classes
 #################################################################
 
-###  http://www.bim4ren.eu/actors#Actor
+###  https://models.bim4ren.eu/actors#Actor
 :Actor rdf:type owl:Class ;
        rdfs:subClassOf [ rdf:type owl:Restriction ;
                          owl:onProperty :ageCategory ;
@@ -143,7 +143,7 @@
                   "Actor"@en .
 
 
-###  http://www.bim4ren.eu/actors#AgeCategory
+###  https://models.bim4ren.eu/actors#AgeCategory
 :AgeCategory rdf:type owl:Class ;
              rdfs:comment "Correspond à une classification selon les tranches d'ages de personnes"@fr ,
                           "Corresponds to a classification according to people age groups"@en ;
@@ -151,7 +151,7 @@
                         "Catégorie d'âge"@fr .
 
 
-###  http://www.bim4ren.eu/actors#BuildingManager
+###  https://models.bim4ren.eu/actors#BuildingManager
 :BuildingManager rdf:type owl:Class ;
                  rdfs:subClassOf :Actor ;
                  owl:disjointWith :BuildingOwner ,
@@ -162,7 +162,7 @@
                             "Maître d'oeuvre"@fr .
 
 
-###  http://www.bim4ren.eu/actors#BuildingOwner
+###  https://models.bim4ren.eu/actors#BuildingOwner
 :BuildingOwner rdf:type owl:Class ;
                rdfs:subClassOf :Actor ;
                rdfs:comment "Person or entity for whom the project is carried out"@en ,
@@ -172,7 +172,7 @@
                           "Maître d'ouvrage"@fr .
 
 
-###  http://www.bim4ren.eu/actors#EnergyPolicy
+###  https://models.bim4ren.eu/actors#EnergyPolicy
 :EnergyPolicy rdf:type owl:Class ;
               owl:equivalentClass [ rdf:type owl:Class ;
                                     owl:oneOf ( :COMFORT
@@ -188,7 +188,7 @@
                          "Política energética"@es .
 
 
-###  http://www.bim4ren.eu/actors#OccupancyProfile
+###  https://models.bim4ren.eu/actors#OccupancyProfile
 :OccupancyProfile rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :occupancyTime ;
@@ -205,7 +205,7 @@
                              "Profile d'occupation"@fr .
 
 
-###  http://www.bim4ren.eu/actors#OccupancyTimeRange
+###  https://models.bim4ren.eu/actors#OccupancyTimeRange
 :OccupancyTimeRange rdf:type owl:Class ;
                     rdfs:subClassOf [ rdf:type owl:Restriction ;
                                       owl:onProperty :fromDateTime ;
@@ -221,7 +221,7 @@
                                "Occupancy time range"@en .
 
 
-###  http://www.bim4ren.eu/actors#Occupant
+###  https://models.bim4ren.eu/actors#Occupant
 :Occupant rdf:type owl:Class ;
           rdfs:subClassOf :Actor ,
                           [ rdf:type owl:Restriction ;
@@ -239,7 +239,7 @@
                      "Occupant"@fr .
 
 
-###  http://www.bim4ren.eu/actors#WorkSituation
+###  https://models.bim4ren.eu/actors#WorkSituation
 :WorkSituation rdf:type owl:Class ;
                rdfs:subClassOf [ rdf:type owl:Restriction ;
                                  owl:onProperty :workType ;
@@ -255,7 +255,7 @@
                           "Work situation"@en .
 
 
-###  http://www.bim4ren.eu/actors#WorkType
+###  https://models.bim4ren.eu/actors#WorkType
 :WorkType rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Class ;
                                 owl:oneOf ( :EMPLOYED
@@ -277,7 +277,7 @@
 #    Individuals
 #################################################################
 
-###  http://www.bim4ren.eu/actors#ADULT
+###  https://models.bim4ren.eu/actors#ADULT
 :ADULT rdf:type owl:NamedIndividual ,
                 :AgeCategory ;
        rdfs:comment "An adult is a person aged between 18 and 64 inclusive"@en ,
@@ -286,7 +286,7 @@
                   "Adulte"@fr .
 
 
-###  http://www.bim4ren.eu/actors#BABY
+###  https://models.bim4ren.eu/actors#BABY
 :BABY rdf:type owl:NamedIndividual ,
                :AgeCategory ;
       rdfs:comment "A baby is a person who is less than a year old"@en ,
@@ -295,7 +295,7 @@
                  "Bébé"@fr .
 
 
-###  http://www.bim4ren.eu/actors#CHILD
+###  https://models.bim4ren.eu/actors#CHILD
 :CHILD rdf:type owl:NamedIndividual ,
                 :AgeCategory ;
        rdfs:comment "A child is a person aged between 1 year and 11 years inclusive"@en ,
@@ -304,7 +304,7 @@
                   "Enfant"@fr .
 
 
-###  http://www.bim4ren.eu/actors#COMFORT
+###  https://models.bim4ren.eu/actors#COMFORT
 :COMFORT rdf:type owl:NamedIndividual ,
                   :EnergyPolicy ;
          rdfs:comment "An occupant who is not eco friendly"@en ,
@@ -315,7 +315,7 @@
                     "Confort"@fr .
 
 
-###  http://www.bim4ren.eu/actors#ECO
+###  https://models.bim4ren.eu/actors#ECO
 :ECO rdf:type owl:NamedIndividual ,
               :EnergyPolicy ;
      rdfs:comment "An occupant who is eco friendly"@en ,
@@ -326,7 +326,7 @@
                 "Ecológico"@it .
 
 
-###  http://www.bim4ren.eu/actors#ECO_PLUS
+###  https://models.bim4ren.eu/actors#ECO_PLUS
 :ECO_PLUS rdf:type owl:NamedIndividual ,
                    :EnergyPolicy ;
           rdfs:comment "An occupant who is eco friendly++"@en ,
@@ -337,7 +337,7 @@
                      "Ecológico++"@it .
 
 
-###  http://www.bim4ren.eu/actors#ELDERLY
+###  https://models.bim4ren.eu/actors#ELDERLY
 :ELDERLY rdf:type owl:NamedIndividual ,
                   :AgeCategory ;
          rdfs:comment "An elderly is a person aged 65 and over"@en ,
@@ -346,7 +346,7 @@
                     "Personne âgée"@fr .
 
 
-###  http://www.bim4ren.eu/actors#EMPLOYED
+###  https://models.bim4ren.eu/actors#EMPLOYED
 :EMPLOYED rdf:type owl:NamedIndividual ,
                    :WorkType ;
           rdfs:comment "An occupant having a paid job"@en ,
@@ -355,7 +355,7 @@
                      "Employé"@fr .
 
 
-###  http://www.bim4ren.eu/actors#SELF_EMPLOYED
+###  https://models.bim4ren.eu/actors#SELF_EMPLOYED
 :SELF_EMPLOYED rdf:type owl:NamedIndividual ,
                         :WorkType ;
                rdfs:comment "An occupant who is working for oneself as a freelance or who is the owner of a business"@en ,
@@ -364,7 +364,7 @@
                           "Travailleur indépendant"@fr .
 
 
-###  http://www.bim4ren.eu/actors#TEENAGER
+###  https://models.bim4ren.eu/actors#TEENAGER
 :TEENAGER rdf:type owl:NamedIndividual ,
                    :AgeCategory ;
           rdfs:comment "A teenager is a person aged between 12 and 17 years inclusive"@en ,
@@ -373,7 +373,7 @@
                      "Teenager"@en .
 
 
-###  http://www.bim4ren.eu/actors#UNEMPLOYED
+###  https://models.bim4ren.eu/actors#UNEMPLOYED
 :UNEMPLOYED rdf:type owl:NamedIndividual ,
                      :WorkType ;
             rdfs:comment "An occupant without a paid job"@en ,

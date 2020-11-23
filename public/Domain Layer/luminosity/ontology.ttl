@@ -1,21 +1,21 @@
-@prefix : <http://www.bim4ren.eu/domain/luminosity#> .
+@prefix : <https://models.bim4ren.eu/domain/luminosity#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.bim4ren.eu/domain/luminosity> .
+@base <https://models.bim4ren.eu/domain/luminosity> .
 
-<http://www.bim4ren.eu/domain/luminosity> rdf:type owl:Ontology ;
-                                           owl:imports <http://www.bim4ren.eu/property#> .
+<https://models.bim4ren.eu/domain/luminosity> rdf:type owl:Ontology ;
+                                               owl:imports <https://models.bim4ren.eu/property#> .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.bim4ren.eu/domain/luminosity#reflection
+###  https://models.bim4ren.eu/domain/luminosity#reflection
 :reflection rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf <http://www.bim4ren.eu/property#ratio> ;
+            rdfs:subPropertyOf <https://models.bim4ren.eu/property#ratio> ;
             rdfs:label "R"@fr ,
                        "facteur de réflexion moyen"@fr ,
                        "reflection"@en ,
@@ -24,13 +24,13 @@
                        "réflexion"@fr .
 
 
-###  http://www.bim4ren.eu/domain/luminosity#skyAngle
+###  https://models.bim4ren.eu/domain/luminosity#skyAngle
 :skyAngle rdf:type owl:ObjectProperty .
 
 
-###  http://www.bim4ren.eu/domain/luminosity#transmittance
+###  https://models.bim4ren.eu/domain/luminosity#transmittance
 :transmittance rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf <http://www.bim4ren.eu/property#ratio> ;
+               rdfs:subPropertyOf <https://models.bim4ren.eu/property#ratio> ;
                rdfs:label "TL"@fr ,
                           "coefficient de transmission lumineuse"@fr ,
                           "transmittance"@en ,
@@ -39,25 +39,25 @@
                           "transmittanza"@it .
 
 
-###  http://www.bim4ren.eu/domain/luminosity#visibleSkyAngle
+###  https://models.bim4ren.eu/domain/luminosity#visibleSkyAngle
 :visibleSkyAngle rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf <http://www.bim4ren.eu/property#angle> ;
+                 rdfs:subPropertyOf <https://models.bim4ren.eu/property#angle> ;
                  rdfs:label "angle de ciel visible"@fr .
 
 
-###  http://www.bim4ren.eu/property#angle
-<http://www.bim4ren.eu/property#angle> rdf:type owl:ObjectProperty .
+###  https://models.bim4ren.eu/property#angle
+<https://models.bim4ren.eu/property#angle> rdf:type owl:ObjectProperty .
 
 
-###  http://www.bim4ren.eu/property#ratio
-<http://www.bim4ren.eu/property#ratio> rdf:type owl:ObjectProperty .
+###  https://models.bim4ren.eu/property#ratio
+<https://models.bim4ren.eu/property#ratio> rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.bim4ren.eu/domain/luminosity#OpaqueElement
+###  https://models.bim4ren.eu/domain/luminosity#OpaqueElement
 :OpaqueElement rdf:type owl:Class ;
                rdfs:subClassOf owl:Thing ,
                                [ rdf:type owl:Restriction ;
@@ -70,7 +70,7 @@
                           "élément opaque"@fr .
 
 
-###  http://www.bim4ren.eu/domain/luminosity#TransparentElement
+###  https://models.bim4ren.eu/domain/luminosity#TransparentElement
 :TransparentElement rdf:type owl:Class ;
                     rdfs:subClassOf owl:Thing ,
                                     [ rdf:type owl:Restriction ;

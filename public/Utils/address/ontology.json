@@ -5,7 +5,7 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/address#streetNumber"
+    "@id" : "https://models.bim4ren.eu/address#streetNumber"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -17,7 +17,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/address#city"
+    "@id" : "https://models.bim4ren.eu/address#city"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -30,7 +30,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/address#streetName"
+    "@id" : "https://models.bim4ren.eu/address#streetName"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -47,10 +47,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/address#zipCode"
+    "@id" : "https://models.bim4ren.eu/address#zipCode"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/address#Address",
+  "@id" : "https://models.bim4ren.eu/address#Address",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid2"
@@ -62,21 +62,21 @@
     "@id" : "_:genid5"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/address#address",
+  "@id" : "https://models.bim4ren.eu/address#address",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/address#Address"
+    "@id" : "https://models.bim4ren.eu/address#Address"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/address#city",
+  "@id" : "https://models.bim4ren.eu/address#city",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/address#streetName",
+  "@id" : "https://models.bim4ren.eu/address#streetName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/address#streetNumber",
+  "@id" : "https://models.bim4ren.eu/address#streetNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/address#zipCode",
+  "@id" : "https://models.bim4ren.eu/address#zipCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 } ]

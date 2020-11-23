@@ -2,57 +2,39 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "it", "fr", "es" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.bim4ren.eu/property", "http://www.w3.org/2000/01/rdf-schema", "http://www.bim4ren.eu/domain/fluid" ],
-    "iri" : "http://www.bim4ren.eu/domain/fluid#"
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://models.bim4ren.eu/domain/fluid", "http://www.w3.org/2000/01/rdf-schema", "https://models.bim4ren.eu/property" ],
+    "iri" : "https://models.bim4ren.eu/domain/fluid#"
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
+    "id" : "12",
     "type" : "owl:Thing"
   }, {
-    "id" : "13",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
     "id" : "25",
     "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#FluidSegment",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "FluidSegment",
-      "fr" : "Segment de transfert de fluide"
-    },
-    "id" : "7"
-  }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "1",
+    "id" : "12",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#FluidTerminal",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "FluidTerminal",
-      "fr" : "Terminal de fluide"
-    },
-    "id" : "13"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#FluidTransferElement",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#FluidTransferElement",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
     "instances" : 0,
     "label" : {
       "IRI-based" : "FluidTransferElement",
@@ -61,84 +43,91 @@
     "comment" : {
       "en" : "An element that is used to transfer a fluid fro one point to another through a mechanical action. Typically, this includes pumps or circulators."
     },
-    "id" : "4"
+    "id" : "1"
   }, {
-    "iri" : "http://www.bim4ren.eu/property#Property",
-    "baseIri" : "http://www.bim4ren.eu/property",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#FluidTerminal",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Property"
+      "IRI-based" : "FluidTerminal",
+      "fr" : "Terminal de fluide"
     },
-    "attributes" : [ "external" ],
-    "id" : "5"
+    "id" : "18"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#FluidStorage",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#FluidStorage",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
     "instances" : 0,
     "label" : {
       "IRI-based" : "FluidStorage",
       "fr" : "Elément de stockage de fluide"
     },
+    "id" : "24"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/fluid#FluidSegment",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FluidSegment",
+      "fr" : "Segment de transfert de fluide"
+    },
     "id" : "25"
+  }, {
+    "iri" : "https://models.bim4ren.eu/property#Property",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
   } ],
   "property" : [ {
     "id" : "0",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "3",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "8",
+    "id" : "4",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "6",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "10",
     "type" : "owl:someValuesFrom"
   }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "11",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "14",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "16",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "2",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "15",
-    "type" : "owl:objectProperty"
+    "id" : "17",
+    "type" : "owl:someValuesFrom"
   }, {
-    "id" : "21",
+    "id" : "20",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "19",
     "type" : "owl:objectProperty"
   }, {
     "id" : "22",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "6",
+    "id" : "15",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "12",
+    "id" : "3",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "17",
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#pressure",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "pressure"
-    },
-    "domain" : "1",
-    "subproperty" : [ "2" ],
-    "attributes" : [ "object" ],
-    "id" : "0"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#nominalFlowRate",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "5",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#nominalFlowRate",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "2",
     "annotations" : {
       "narrowMatch" : [ {
         "identifier" : "narrowMatch",
@@ -159,36 +148,39 @@
       "fr" : "débit nominal",
       "es" : "caudal nominal"
     },
-    "superproperty" : [ "6" ],
-    "domain" : "4",
+    "superproperty" : [ "3" ],
+    "domain" : "1",
     "attributes" : [ "object", "someValues" ],
-    "id" : "3"
+    "id" : "0"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#HMTnoFlow",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "5",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#HMTnoFlow",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "2",
     "label" : {
       "IRI-based" : "HMTnoFlow"
     },
-    "superproperty" : [ "9" ],
-    "domain" : "4",
+    "superproperty" : [ "5" ],
+    "domain" : "1",
     "attributes" : [ "object", "someValues" ],
-    "id" : "8"
+    "id" : "4"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#HMTnominalFlow",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "5",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#totalDynamicHead",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "2",
     "label" : {
-      "IRI-based" : "HMTnominalFlow"
+      "IRI-based" : "totalDynamicHead",
+      "en" : "Total dynamic head",
+      "fr" : "Hauteur manométrique totale"
     },
-    "superproperty" : [ "9" ],
-    "domain" : "4",
+    "superproperty" : [ "7" ],
+    "domain" : "1",
+    "subproperty" : [ "8", "9" ],
     "attributes" : [ "object", "someValues" ],
-    "id" : "10"
+    "id" : "6"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#maxPressure",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "5",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#maxPressure",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "2",
     "label" : {
       "IRI-based" : "maxPressure",
       "en" : "maximal pressure",
@@ -196,19 +188,50 @@
       "fr" : "pression maximale",
       "es" : "presión máxima"
     },
-    "superproperty" : [ "12" ],
-    "domain" : "4",
+    "superproperty" : [ "11" ],
+    "domain" : "1",
     "attributes" : [ "object", "someValues" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://models.bim4ren.eu/domain/fluid#minPressure",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "minPressure",
+      "en" : "minimal pressure",
+      "it" : "minima pressione",
+      "fr" : "pression minimale",
+      "es" : "presión minima"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://models.bim4ren.eu/property#pressure",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "pressure"
+    },
+    "domain" : "12",
+    "subproperty" : [ "15", "16" ],
+    "attributes" : [ "object", "external" ],
     "id" : "11"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#capacity",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "5",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#capacity",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "2",
     "annotations" : {
       "narrowMatch" : [ {
         "identifier" : "narrowMatch",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3_R4k0qSWHuO00025QrE$V",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/06cwc0qX0HuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1Tori0qSiHuO00025QrE$V",
         "type" : "iri"
       }, {
         "identifier" : "narrowMatch",
@@ -218,12 +241,7 @@
       }, {
         "identifier" : "narrowMatch",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/06cwc0qX0HuO00025QrE$V",
-        "type" : "iri"
-      }, {
-        "identifier" : "narrowMatch",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1Tori0qSiHuO00025QrE$V",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3_R4k0qSWHuO00025QrE$V",
         "type" : "iri"
       }, {
         "identifier" : "narrowMatch",
@@ -238,54 +256,36 @@
       "fr" : "capacité",
       "es" : "capacidad"
     },
-    "superproperty" : [ "15" ],
-    "domain" : "13",
+    "superproperty" : [ "19" ],
+    "domain" : "18",
     "attributes" : [ "object", "someValues" ],
-    "id" : "14"
+    "id" : "17"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#totalDynamicHead",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "5",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#HMTnominalFlow",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "2",
     "label" : {
-      "IRI-based" : "totalDynamicHead",
-      "en" : "Total dynamic head",
-      "fr" : "Hauteur manométrique totale"
+      "IRI-based" : "HMTnominalFlow"
     },
-    "superproperty" : [ "17" ],
-    "domain" : "4",
-    "subproperty" : [ "18", "19" ],
-    "attributes" : [ "object", "someValues" ],
-    "id" : "16"
-  }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#minPressure",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "1",
-    "label" : {
-      "IRI-based" : "minPressure",
-      "en" : "minimal pressure",
-      "it" : "minima pressione",
-      "fr" : "pression minimale",
-      "es" : "presión minima"
-    },
-    "superproperty" : [ "0" ],
+    "superproperty" : [ "5" ],
     "domain" : "1",
-    "attributes" : [ "object" ],
-    "id" : "2"
+    "attributes" : [ "object", "someValues" ],
+    "id" : "20"
   }, {
-    "iri" : "http://www.bim4ren.eu/property#volume",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/property#volume",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "12",
     "label" : {
       "IRI-based" : "volume"
     },
-    "domain" : "1",
-    "subproperty" : [ "20" ],
+    "domain" : "12",
+    "subproperty" : [ "21" ],
     "attributes" : [ "object", "external" ],
-    "id" : "15"
+    "id" : "19"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#exhaustAirFlowRate",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#exhaustAirFlowRate",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "12",
     "annotations" : {
       "narrowMatch" : [ {
         "identifier" : "narrowMatch",
@@ -304,34 +304,19 @@
       "en" : "exhaust air flow rate",
       "fr" : "débit d'air rejeté"
     },
-    "superproperty" : [ "6" ],
-    "domain" : "1",
+    "superproperty" : [ "3" ],
+    "domain" : "12",
     "attributes" : [ "object" ],
-    "id" : "21"
+    "id" : "22"
   }, {
-    "iri" : "http://www.bim4ren.eu/domain/fluid#pressureDrop",
-    "baseIri" : "http://www.bim4ren.eu/domain/fluid",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#pressureDrop",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "12",
     "annotations" : {
       "narrowMatch" : [ {
         "identifier" : "narrowMatch",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1zhqw0qSmHuO00025QrE$V",
-        "type" : "iri"
-      }, {
-        "identifier" : "narrowMatch",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0e3BGOgiD4xP50b$9C2nmB",
-        "type" : "iri"
-      }, {
-        "identifier" : "narrowMatch",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3plh00qU8HuO00025QrE$V",
-        "type" : "iri"
-      }, {
-        "identifier" : "narrowMatch",
-        "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/39$8s0qT0HuO00025QrE$V",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3iNp8gWkT9lgs6vawZQK$0",
         "type" : "iri"
       }, {
         "identifier" : "narrowMatch",
@@ -341,7 +326,22 @@
       }, {
         "identifier" : "narrowMatch",
         "language" : "undefined",
-        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3iNp8gWkT9lgs6vawZQK$0",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/0e3BGOgiD4xP50b$9C2nmB",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/1zhqw0qSmHuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/39$8s0qT0HuO00025QrE$V",
+        "type" : "iri"
+      }, {
+        "identifier" : "narrowMatch",
+        "language" : "undefined",
+        "value" : "http://bsdd.buildingsmart.org/api/4.0/IfdConcept/3plh00qU8HuO00025QrE$V",
         "type" : "iri"
       } ]
     },
@@ -352,42 +352,42 @@
       "fr" : "perte de charge",
       "es" : "pérdida de carga"
     },
-    "superproperty" : [ "12" ],
-    "domain" : "1",
+    "superproperty" : [ "11" ],
+    "domain" : "12",
     "attributes" : [ "object" ],
-    "id" : "22"
+    "id" : "15"
   }, {
-    "iri" : "http://www.bim4ren.eu/property#flowRate",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/property#flowRate",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "12",
     "label" : {
       "IRI-based" : "flowRate"
     },
-    "domain" : "1",
-    "subproperty" : [ "23", "21" ],
+    "domain" : "12",
+    "subproperty" : [ "23", "22" ],
     "attributes" : [ "object", "external" ],
-    "id" : "6"
+    "id" : "3"
   }, {
-    "iri" : "http://www.bim4ren.eu/property#pressure",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/domain/fluid#pressure",
+    "baseIri" : "https://models.bim4ren.eu/domain/fluid",
+    "range" : "12",
     "label" : {
       "IRI-based" : "pressure"
     },
-    "domain" : "1",
-    "subproperty" : [ "24", "22" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "12"
+    "domain" : "12",
+    "subproperty" : [ "13" ],
+    "attributes" : [ "object" ],
+    "id" : "14"
   }, {
-    "iri" : "http://www.bim4ren.eu/property#height",
-    "baseIri" : "http://www.bim4ren.eu/property",
-    "range" : "1",
+    "iri" : "https://models.bim4ren.eu/property#height",
+    "baseIri" : "https://models.bim4ren.eu/property",
+    "range" : "12",
     "label" : {
       "IRI-based" : "height"
     },
-    "domain" : "1",
-    "subproperty" : [ "9" ],
+    "domain" : "12",
+    "subproperty" : [ "5" ],
     "attributes" : [ "object", "external" ],
-    "id" : "17"
+    "id" : "7"
   } ]
 }

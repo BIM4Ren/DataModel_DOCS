@@ -1,7 +1,7 @@
-<http://www.bim4ren.eu/property#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.bim4ren.eu/property#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.bim4ren.eu/property/0.1> .
-<http://www.bim4ren.eu/property#> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/vocab/quantitykind/> .
-<http://www.bim4ren.eu/property#> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/def/basicsemantics-owl> .
+<https://models.bim4ren.eu/property#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://models.bim4ren.eu/property#> <http://www.w3.org/2002/07/owl#versionIRI> <https://models.bim4ren.eu/property/0.1> .
+<https://models.bim4ren.eu/property#> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/vocab/quantitykind/> .
+<https://models.bim4ren.eu/property#> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/def/basicsemantics-owl> .
 # 
 # 
 # #################################################################
@@ -23,168 +23,168 @@
 # #################################################################
 # 
 # 
-# http://www.bim4ren.eu/property#accuracy
-<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+# https://models.bim4ren.eu/property#accuracy
+<https://models.bim4ren.eu/property#accuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
 <https://w3id.org/def/basicsemantics-owl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "accuracy"@en .
-<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "accuratezza"@it .
-<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "precisión"@es .
-<http://www.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "précision"@fr .
+<https://models.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "accuracy"@en .
+<https://models.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "accuratezza"@it .
+<https://models.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "precisión"@es .
+<https://models.bim4ren.eu/property#accuracy> <http://www.w3.org/2000/01/rdf-schema#label> "précision"@fr .
 # 
-# http://www.bim4ren.eu/property#angle
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angle"@en .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angle"@fr .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angolo"@it .
-<http://www.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angulo"@es .
-<http://www.bim4ren.eu/property#angle> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/PlaneAngle> .
+# https://models.bim4ren.eu/property#angle
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angle"@en .
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angle"@fr .
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angolo"@it .
+<https://models.bim4ren.eu/property#angle> <http://www.w3.org/2000/01/rdf-schema#label> "angulo"@es .
+<https://models.bim4ren.eu/property#angle> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/PlaneAngle> .
 # 
-# http://www.bim4ren.eu/property#area
-<http://www.bim4ren.eu/property#area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "area"@en .
-<http://www.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "area"@it .
-<http://www.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "surface"@fr .
-<http://www.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "área"@es .
-<http://www.bim4ren.eu/property#area> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Area> .
+# https://models.bim4ren.eu/property#area
+<https://models.bim4ren.eu/property#area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "area"@en .
+<https://models.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "area"@it .
+<https://models.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "surface"@fr .
+<https://models.bim4ren.eu/property#area> <http://www.w3.org/2000/01/rdf-schema#label> "área"@es .
+<https://models.bim4ren.eu/property#area> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Area> .
 # 
-# http://www.bim4ren.eu/property#efficiency
-<http://www.bim4ren.eu/property#efficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "efficiency"@en .
-<http://www.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendement"@fr .
-<http://www.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimento"@it .
-<http://www.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimiento"@es .
-<http://www.bim4ren.eu/property#efficiency> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Efficiency> .
+# https://models.bim4ren.eu/property#efficiency
+<https://models.bim4ren.eu/property#efficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "efficiency"@en .
+<https://models.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendement"@fr .
+<https://models.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimento"@it .
+<https://models.bim4ren.eu/property#efficiency> <http://www.w3.org/2000/01/rdf-schema#label> "rendimiento"@es .
+<https://models.bim4ren.eu/property#efficiency> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Efficiency> .
 # 
-# http://www.bim4ren.eu/property#flowRate
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "caudal volumétrico"@es .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "débit"@fr .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "flow rate"@en .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "flujo volumétrico"@es .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "flusso"@it .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "portata"@it .
-<http://www.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@it .
-<http://www.bim4ren.eu/property#flowRate> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/VolumeFlowRate> .
+# https://models.bim4ren.eu/property#flowRate
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "caudal volumétrico"@es .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "débit"@fr .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "flow rate"@en .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "flujo volumétrico"@es .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "flusso"@it .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "portata"@it .
+<https://models.bim4ren.eu/property#flowRate> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@it .
+<https://models.bim4ren.eu/property#flowRate> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/VolumeFlowRate> .
 # 
-# http://www.bim4ren.eu/property#fromTime
-<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#time> .
-<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "from time"@en .
-<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "hora de inicio"@es .
-<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "ora di inizio"@it .
-<http://www.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "temps début"@fr .
+# https://models.bim4ren.eu/property#fromTime
+<https://models.bim4ren.eu/property#fromTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#time> .
+<https://models.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "from time"@en .
+<https://models.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "hora de inicio"@es .
+<https://models.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "ora di inizio"@it .
+<https://models.bim4ren.eu/property#fromTime> <http://www.w3.org/2000/01/rdf-schema#label> "temps début"@fr .
 # 
-# http://www.bim4ren.eu/property#height
-<http://www.bim4ren.eu/property#height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "altezza"@it .
-<http://www.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "altura"@es .
-<http://www.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "hauteur"@fr .
-<http://www.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "height"@en .
-<http://www.bim4ren.eu/property#height> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+# https://models.bim4ren.eu/property#height
+<https://models.bim4ren.eu/property#height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "altezza"@it .
+<https://models.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "altura"@es .
+<https://models.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "hauteur"@fr .
+<https://models.bim4ren.eu/property#height> <http://www.w3.org/2000/01/rdf-schema#label> "height"@en .
+<https://models.bim4ren.eu/property#height> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 # 
-# http://www.bim4ren.eu/property#power
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "potencia"@es .
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "potere"@it .
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "power"@en .
-<http://www.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "puissance"@fr .
-<http://www.bim4ren.eu/property#power> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Power> .
+# https://models.bim4ren.eu/property#power
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "potencia"@es .
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "potere"@it .
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "power"@en .
+<https://models.bim4ren.eu/property#power> <http://www.w3.org/2000/01/rdf-schema#label> "puissance"@fr .
+<https://models.bim4ren.eu/property#power> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Power> .
 # 
-# http://www.bim4ren.eu/property#pressure
-<http://www.bim4ren.eu/property#pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "presión"@es .
-<http://www.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pression"@fr .
-<http://www.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressione"@it .
-<http://www.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressure"@en .
-<http://www.bim4ren.eu/property#pressure> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Pressure> .
+# https://models.bim4ren.eu/property#pressure
+<https://models.bim4ren.eu/property#pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "presión"@es .
+<https://models.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pression"@fr .
+<https://models.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressione"@it .
+<https://models.bim4ren.eu/property#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressure"@en .
+<https://models.bim4ren.eu/property#pressure> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Pressure> .
 # 
-# http://www.bim4ren.eu/property#price
-<http://www.bim4ren.eu/property#price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "precio"@es .
-<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "prezzo"@it .
-<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "price"@en .
-<http://www.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "prix"@fr .
-<http://www.bim4ren.eu/property#price> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Currency> .
+# https://models.bim4ren.eu/property#price
+<https://models.bim4ren.eu/property#price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "precio"@es .
+<https://models.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "prezzo"@it .
+<https://models.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "price"@en .
+<https://models.bim4ren.eu/property#price> <http://www.w3.org/2000/01/rdf-schema#label> "prix"@fr .
+<https://models.bim4ren.eu/property#price> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Currency> .
 # 
-# http://www.bim4ren.eu/property#ratio
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "proporción"@es .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "rapport"@fr .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "rapporto"@it .
-<http://www.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "ratio"@en .
-<http://www.bim4ren.eu/property#ratio> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/DimensionlessRatio> .
+# https://models.bim4ren.eu/property#ratio
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "proporción"@es .
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "rapport"@fr .
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "rapporto"@it .
+<https://models.bim4ren.eu/property#ratio> <http://www.w3.org/2000/01/rdf-schema#label> "ratio"@en .
+<https://models.bim4ren.eu/property#ratio> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/DimensionlessRatio> .
 # 
-# http://www.bim4ren.eu/property#speed
-<http://www.bim4ren.eu/property#speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "speed"@en .
-<http://www.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "velocidad"@es .
-<http://www.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "velocità"@it .
-<http://www.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "vitesse"@fr .
-<http://www.bim4ren.eu/property#speed> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Speed> .
+# https://models.bim4ren.eu/property#speed
+<https://models.bim4ren.eu/property#speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "speed"@en .
+<https://models.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "velocidad"@es .
+<https://models.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "velocità"@it .
+<https://models.bim4ren.eu/property#speed> <http://www.w3.org/2000/01/rdf-schema#label> "vitesse"@fr .
+<https://models.bim4ren.eu/property#speed> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Speed> .
 # 
-# http://www.bim4ren.eu/property#temperature
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@es .
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@it .
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature"@en .
-<http://www.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "température"@fr .
-<http://www.bim4ren.eu/property#temperature> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Temperature> .
+# https://models.bim4ren.eu/property#temperature
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@es .
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@it .
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature"@en .
+<https://models.bim4ren.eu/property#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "température"@fr .
+<https://models.bim4ren.eu/property#temperature> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Temperature> .
 # 
-# http://www.bim4ren.eu/property#thickness
-<http://www.bim4ren.eu/property#thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "espesor"@es .
-<http://www.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "spessore"@it .
-<http://www.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "thickness"@en .
-<http://www.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "épaisseur"@fr .
-<http://www.bim4ren.eu/property#thickness> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+# https://models.bim4ren.eu/property#thickness
+<https://models.bim4ren.eu/property#thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "espesor"@es .
+<https://models.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "spessore"@it .
+<https://models.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "thickness"@en .
+<https://models.bim4ren.eu/property#thickness> <http://www.w3.org/2000/01/rdf-schema#label> "épaisseur"@fr .
+<https://models.bim4ren.eu/property#thickness> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 # 
-# http://www.bim4ren.eu/property#time
-<http://www.bim4ren.eu/property#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "tempo"@it .
-<http://www.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "temps"@fr .
-<http://www.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "tiempo"@es .
-<http://www.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "time"@en .
-<http://www.bim4ren.eu/property#time> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Time> .
+# https://models.bim4ren.eu/property#time
+<https://models.bim4ren.eu/property#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "tempo"@it .
+<https://models.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "temps"@fr .
+<https://models.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "tiempo"@es .
+<https://models.bim4ren.eu/property#time> <http://www.w3.org/2000/01/rdf-schema#label> "time"@en .
+<https://models.bim4ren.eu/property#time> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Time> .
 # 
-# http://www.bim4ren.eu/property#toTime
-<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.bim4ren.eu/property#time> .
-<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "hora de finalización"@es .
-<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "ora di fine"@it .
-<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "temps fin"@fr .
-<http://www.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "to time"@en .
+# https://models.bim4ren.eu/property#toTime
+<https://models.bim4ren.eu/property#toTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://models.bim4ren.eu/property#time> .
+<https://models.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "hora de finalización"@es .
+<https://models.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "ora di fine"@it .
+<https://models.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "temps fin"@fr .
+<https://models.bim4ren.eu/property#toTime> <http://www.w3.org/2000/01/rdf-schema#label> "to time"@en .
 # 
-# http://www.bim4ren.eu/property#volume
-<http://www.bim4ren.eu/property#volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@en .
-<http://www.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@fr .
-<http://www.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@it .
-<http://www.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volumen"@es .
-<http://www.bim4ren.eu/property#volume> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Volume> .
+# https://models.bim4ren.eu/property#volume
+<https://models.bim4ren.eu/property#volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@en .
+<https://models.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@fr .
+<https://models.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@it .
+<https://models.bim4ren.eu/property#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volumen"@es .
+<https://models.bim4ren.eu/property#volume> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Volume> .
 # 
-# http://www.bim4ren.eu/property#width
-<http://www.bim4ren.eu/property#width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
-<http://www.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "anchura"@es .
-<http://www.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "largeur"@fr .
-<http://www.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "larhezza"@it .
-<http://www.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "width"@en .
-<http://www.bim4ren.eu/property#width> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
+# https://models.bim4ren.eu/property#width
+<https://models.bim4ren.eu/property#width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://models.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/basicsemantics-owl#QuantityValue> .
+<https://models.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "anchura"@es .
+<https://models.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "largeur"@fr .
+<https://models.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "larhezza"@it .
+<https://models.bim4ren.eu/property#width> <http://www.w3.org/2000/01/rdf-schema#label> "width"@en .
+<https://models.bim4ren.eu/property#width> <https://w3id.org/def/basicsemantics-owl#quantityKind> <http://qudt.org/vocab/quantitykind/Length> .
 # 
 # 
 # 

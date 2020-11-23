@@ -75,7 +75,7 @@
     "@id" : "https://w3id.org/bot#Space"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/alignment/buildings-IFC",
+  "@id" : "https://models.bim4ren.eu/alignment/buildings-IFC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Pierre Bourreau"
@@ -93,12 +93,12 @@
   }, {
     "@id" : "http://standards.buildingsmart.org/IFC/DEV/IFC4_1/OWL"
   }, {
-    "@id" : "http://www.bim4ren.eu/buildings"
+    "@id" : "https://models.bim4ren.eu/buildings"
   }, {
     "@id" : "https://w3id.org/bot"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/alignment/buildings-IFC/0.1"
+    "@id" : "https://models.bim4ren.eu/alignment/buildings-IFC/0.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "v0.1"

@@ -2,10 +2,10 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#performedBy"
+    "@id" : "https://models.bim4ren.eu/core/intervention#performedBy"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Organization"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Organization"
   } ]
 }, {
   "@id" : "_:genid2",
@@ -15,16 +15,16 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Element"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Element"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#performedOn"
+    "@id" : "https://models.bim4ren.eu/core/intervention#performedOn"
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#endDate"
+    "@id" : "https://models.bim4ren.eu/core/intervention#endDate"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -33,7 +33,7 @@
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#startDate"
+    "@id" : "https://models.bim4ren.eu/core/intervention#startDate"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -43,11 +43,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.bim4ren.eu/core/intervention#Element"
+      "@id" : "https://models.bim4ren.eu/core/intervention#Element"
     }, {
-      "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+      "@id" : "https://models.bim4ren.eu/core/intervention#Event"
     }, {
-      "@id" : "http://www.bim4ren.eu/core/intervention#Organization"
+      "@id" : "https://models.bim4ren.eu/core/intervention#Organization"
     } ]
   } ]
 }, {
@@ -60,7 +60,7 @@
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention",
+  "@id" : "https://models.bim4ren.eu/core/intervention",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Nathalie Charbel"
@@ -76,27 +76,27 @@
     "@value" : "The BIM4Ren intervention ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention/0.1"
+    "@id" : "https://models.bim4ren.eu/core/intervention/0.1"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#Checking",
+  "@id" : "https://models.bim4ren.eu/core/intervention#Checking",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A revision of some elements of the building. Some examples are: energy, accoustic audits, boiler manadatory check..."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#Element",
+  "@id" : "https://models.bim4ren.eu/core/intervention#Element",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The element concerned by the intervention."
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#Event",
+  "@id" : "https://models.bim4ren.eu/core/intervention#Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -112,74 +112,74 @@
     "@id" : "_:genid4"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#Installation",
+  "@id" : "https://models.bim4ren.eu/core/intervention#Installation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Installation of the product/element. Includes a change (for instance, replacement of all radiators), or the installation of a bran new system (for instance, external insulation)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#Organization",
+  "@id" : "https://models.bim4ren.eu/core/intervention#Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#Repair",
+  "@id" : "https://models.bim4ren.eu/core/intervention#Repair",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Maintenance of an already installed elements. Can include change of parameters for HVAC systems or change of part of the elements."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#associatedEvents",
+  "@id" : "https://models.bim4ren.eu/core/intervention#associatedEvents",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Element"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#performedOn"
+    "@id" : "https://models.bim4ren.eu/core/intervention#performedOn"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#endDate",
+  "@id" : "https://models.bim4ren.eu/core/intervention#endDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#performed",
+  "@id" : "https://models.bim4ren.eu/core/intervention#performed",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Organization"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#performedBy"
+    "@id" : "https://models.bim4ren.eu/core/intervention#performedBy"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#performedBy",
+  "@id" : "https://models.bim4ren.eu/core/intervention#performedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Organization"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Organization"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#performedOn",
+  "@id" : "https://models.bim4ren.eu/core/intervention#performedOn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Event"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.bim4ren.eu/core/intervention#Element"
+    "@id" : "https://models.bim4ren.eu/core/intervention#Element"
   } ]
 }, {
-  "@id" : "http://www.bim4ren.eu/core/intervention#startDate",
+  "@id" : "https://models.bim4ren.eu/core/intervention#startDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 } ]

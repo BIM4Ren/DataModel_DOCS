@@ -109,10 +109,10 @@
     "id" : "102",
     "type" : "owl:Class"
   }, {
-    "id" : "111",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "111",
     "type" : "owl:Class"
   }, {
     "id" : "125",
@@ -184,13 +184,13 @@
     "id" : "279",
     "type" : "owl:Class"
   }, {
-    "id" : "323",
-    "type" : "owl:Class"
-  }, {
     "id" : "324",
     "type" : "owl:Class"
   }, {
     "id" : "325",
+    "type" : "owl:Class"
+  }, {
+    "id" : "326",
     "type" : "owl:Class"
   }, {
     "id" : "54",
@@ -199,16 +199,16 @@
     "id" : "288",
     "type" : "owl:Class"
   }, {
-    "id" : "327",
+    "id" : "328",
     "type" : "owl:Class"
   }, {
     "id" : "107",
     "type" : "owl:Class"
   }, {
-    "id" : "351",
+    "id" : "353",
     "type" : "owl:Class"
   }, {
-    "id" : "360",
+    "id" : "361",
     "type" : "owl:Class"
   }, {
     "id" : "372",
@@ -220,7 +220,7 @@
     "id" : "258",
     "type" : "owl:Class"
   }, {
-    "id" : "329",
+    "id" : "313",
     "type" : "owl:Class"
   }, {
     "id" : "203",
@@ -250,13 +250,13 @@
     "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
     "id" : "90",
     "type" : "owl:Class"
   }, {
-    "id" : "156",
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
     "type" : "owl:Class"
   }, {
     "id" : "401",
@@ -271,7 +271,7 @@
     "id" : "52",
     "type" : "owl:Class"
   }, {
-    "id" : "310",
+    "id" : "311",
     "type" : "owl:Class"
   }, {
     "id" : "420",
@@ -280,13 +280,13 @@
     "id" : "421",
     "type" : "owl:Class"
   }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
     "id" : "179",
     "type" : "owl:Class"
   }, {
     "id" : "428",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
     "type" : "owl:Class"
   }, {
     "id" : "430",
@@ -307,10 +307,10 @@
     "id" : "82",
     "type" : "owl:Class"
   }, {
-    "id" : "345",
+    "id" : "346",
     "type" : "owl:Class"
   }, {
-    "id" : "336",
+    "id" : "352",
     "type" : "owl:Class"
   }, {
     "id" : "27",
@@ -352,7 +352,7 @@
     "id" : "202",
     "type" : "owl:Class"
   }, {
-    "id" : "348",
+    "id" : "350",
     "type" : "owl:Class"
   }, {
     "id" : "145",
@@ -394,10 +394,10 @@
     "id" : "371",
     "type" : "owl:Class"
   }, {
-    "id" : "124",
+    "id" : "535",
     "type" : "owl:Class"
   }, {
-    "id" : "535",
+    "id" : "124",
     "type" : "owl:Class"
   }, {
     "id" : "536",
@@ -433,7 +433,7 @@
     "id" : "160",
     "type" : "owl:Class"
   }, {
-    "id" : "359",
+    "id" : "344",
     "type" : "owl:Class"
   }, {
     "id" : "334",
@@ -445,10 +445,10 @@
     "id" : "602",
     "type" : "owl:Class"
   }, {
-    "id" : "610",
+    "id" : "184",
     "type" : "owl:Class"
   }, {
-    "id" : "184",
+    "id" : "610",
     "type" : "owl:Class"
   }, {
     "id" : "56",
@@ -475,10 +475,10 @@
     "id" : "617",
     "type" : "owl:Class"
   }, {
-    "id" : "418",
+    "id" : "254",
     "type" : "owl:Class"
   }, {
-    "id" : "254",
+    "id" : "418",
     "type" : "owl:Class"
   }, {
     "id" : "619",
@@ -490,7 +490,7 @@
     "id" : "633",
     "type" : "owl:Class"
   }, {
-    "id" : "628",
+    "id" : "629",
     "type" : "owl:Class"
   }, {
     "id" : "233",
@@ -514,10 +514,10 @@
     "id" : "424",
     "type" : "owl:Class"
   }, {
-    "id" : "84",
+    "id" : "105",
     "type" : "owl:Class"
   }, {
-    "id" : "105",
+    "id" : "84",
     "type" : "owl:Class"
   }, {
     "id" : "256",
@@ -541,16 +541,16 @@
     "id" : "649",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
     "id" : "216",
     "type" : "owl:Class"
   }, {
-    "id" : "196",
+    "id" : "650",
     "type" : "owl:Class"
   }, {
-    "id" : "650",
+    "id" : "196",
     "type" : "owl:Class"
   }, {
     "id" : "651",
@@ -571,13 +571,13 @@
     "id" : "655",
     "type" : "owl:Class"
   }, {
-    "id" : "314",
+    "id" : "315",
     "type" : "owl:Class"
   }, {
-    "id" : "355",
+    "id" : "340",
     "type" : "owl:Class"
   }, {
-    "id" : "312",
+    "id" : "330",
     "type" : "owl:Class"
   }, {
     "id" : "62",
@@ -628,7 +628,7 @@
     "id" : "414",
     "type" : "owl:Class"
   }, {
-    "id" : "343",
+    "id" : "360",
     "type" : "owl:Class"
   }, {
     "id" : "389",
@@ -640,16 +640,16 @@
     "id" : "491",
     "type" : "owl:Class"
   }, {
-    "id" : "330",
+    "id" : "662",
     "type" : "owl:Class"
   }, {
-    "id" : "662",
+    "id" : "309",
     "type" : "owl:Class"
   }, {
     "id" : "663",
     "type" : "owl:Class"
   }, {
-    "id" : "368",
+    "id" : "308",
     "type" : "owl:Class"
   }, {
     "id" : "395",
@@ -658,13 +658,13 @@
     "id" : "489",
     "type" : "owl:Class"
   }, {
-    "id" : "362",
-    "type" : "owl:Class"
-  }, {
-    "id" : "148",
+    "id" : "363",
     "type" : "owl:Class"
   }, {
     "id" : "268",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
     "type" : "owl:Class"
   }, {
     "id" : "465",
@@ -691,7 +691,7 @@
     "id" : "667",
     "type" : "owl:Class"
   }, {
-    "id" : "341",
+    "id" : "342",
     "type" : "owl:Class"
   }, {
     "id" : "143",
@@ -703,10 +703,10 @@
     "id" : "298",
     "type" : "owl:Class"
   }, {
-    "id" : "669",
+    "id" : "402",
     "type" : "owl:Class"
   }, {
-    "id" : "402",
+    "id" : "672",
     "type" : "owl:Class"
   }, {
     "id" : "187",
@@ -751,19 +751,19 @@
     "id" : "706",
     "type" : "owl:Class"
   }, {
-    "id" : "629",
+    "id" : "630",
     "type" : "owl:Class"
   }, {
-    "id" : "631",
+    "id" : "628",
     "type" : "owl:Class"
   }, {
     "id" : "188",
     "type" : "owl:Class"
   }, {
-    "id" : "712",
+    "id" : "306",
     "type" : "owl:Class"
   }, {
-    "id" : "306",
+    "id" : "712",
     "type" : "owl:Class"
   }, {
     "id" : "459",
@@ -775,13 +775,10 @@
     "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "467",
-    "type" : "owl:Class"
-  }, {
     "id" : "122",
     "type" : "owl:Class"
   }, {
-    "id" : "585",
+    "id" : "467",
     "type" : "owl:Class"
   }, {
     "id" : "463",
@@ -791,6 +788,9 @@
     "type" : "owl:Class"
   }, {
     "id" : "517",
+    "type" : "owl:Class"
+  }, {
+    "id" : "585",
     "type" : "owl:Class"
   }, {
     "id" : "714",
@@ -913,7 +913,7 @@
     "id" : "366",
     "type" : "owl:Class"
   }, {
-    "id" : "322",
+    "id" : "323",
     "type" : "owl:Class"
   }, {
     "id" : "388",
@@ -961,13 +961,13 @@
     "id" : "525",
     "type" : "owl:Class"
   }, {
-    "id" : "55",
-    "type" : "owl:Class"
-  }, {
     "id" : "195",
     "type" : "owl:Class"
   }, {
     "id" : "790",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
     "type" : "owl:Class"
   }, {
     "id" : "676",
@@ -1006,10 +1006,10 @@
     "id" : "74",
     "type" : "owl:Class"
   }, {
-    "id" : "444",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "444",
     "type" : "owl:Class"
   }, {
     "id" : "169",
@@ -1033,7 +1033,7 @@
     "id" : "80",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "673",
@@ -1048,7 +1048,7 @@
     "id" : "76",
     "type" : "owl:Class"
   }, {
-    "id" : "350",
+    "id" : "336",
     "type" : "owl:Class"
   }, {
     "id" : "186",
@@ -1063,10 +1063,10 @@
     "id" : "152",
     "type" : "owl:Class"
   }, {
-    "id" : "756",
+    "id" : "594",
     "type" : "owl:Class"
   }, {
-    "id" : "594",
+    "id" : "756",
     "type" : "owl:Class"
   }, {
     "id" : "717",
@@ -1081,10 +1081,10 @@
     "id" : "713",
     "type" : "owl:Class"
   }, {
-    "id" : "834",
+    "id" : "554",
     "type" : "owl:Class"
   }, {
-    "id" : "554",
+    "id" : "834",
     "type" : "owl:Class"
   }, {
     "id" : "873",
@@ -1096,7 +1096,7 @@
     "id" : "679",
     "type" : "owl:Class"
   }, {
-    "id" : "630",
+    "id" : "631",
     "type" : "owl:Class"
   }, {
     "id" : "224",
@@ -1123,16 +1123,16 @@
     "id" : "809",
     "type" : "owl:Class"
   }, {
-    "id" : "316",
+    "id" : "332",
     "type" : "owl:Class"
   }, {
-    "id" : "364",
+    "id" : "348",
     "type" : "owl:Class"
   }, {
     "id" : "242",
     "type" : "owl:Class"
   }, {
-    "id" : "672",
+    "id" : "671",
     "type" : "owl:Class"
   }, {
     "id" : "423",
@@ -1180,10 +1180,10 @@
     "id" : "158",
     "type" : "owl:Class"
   }, {
-    "id" : "357",
+    "id" : "355",
     "type" : "owl:Class"
   }, {
-    "id" : "353",
+    "id" : "358",
     "type" : "owl:Class"
   }, {
     "id" : "78",
@@ -1237,10 +1237,10 @@
     "id" : "193",
     "type" : "owl:Class"
   }, {
-    "id" : "294",
+    "id" : "494",
     "type" : "owl:Class"
   }, {
-    "id" : "494",
+    "id" : "294",
     "type" : "owl:Class"
   }, {
     "id" : "480",
@@ -1285,7 +1285,7 @@
     "id" : "710",
     "type" : "owl:Class"
   }, {
-    "id" : "319",
+    "id" : "320",
     "type" : "owl:Class"
   }, {
     "id" : "131",
@@ -1348,10 +1348,10 @@
     "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "670",
+    "id" : "669",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "857",
@@ -1360,10 +1360,10 @@
     "id" : "871",
     "type" : "owl:Class"
   }, {
-    "id" : "559",
+    "id" : "263",
     "type" : "owl:Class"
   }, {
-    "id" : "263",
+    "id" : "559",
     "type" : "owl:Class"
   }, {
     "id" : "589",
@@ -1372,10 +1372,10 @@
     "id" : "862",
     "type" : "owl:Class"
   }, {
-    "id" : "302",
+    "id" : "252",
     "type" : "owl:Class"
   }, {
-    "id" : "252",
+    "id" : "302",
     "type" : "owl:Class"
   }, {
     "id" : "292",
@@ -1387,10 +1387,10 @@
     "id" : "591",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "240",
     "type" : "owl:Class"
   }, {
-    "id" : "240",
+    "id" : "50",
     "type" : "owl:Class"
   }, {
     "id" : "113",
@@ -1426,7 +1426,7 @@
     "id" : "120",
     "type" : "owl:Class"
   }, {
-    "id" : "154",
+    "id" : "156",
     "type" : "owl:Class"
   }, {
     "id" : "945",
@@ -1471,10 +1471,10 @@
     "id" : "189",
     "type" : "owl:Class"
   }, {
-    "id" : "644",
+    "id" : "519",
     "type" : "owl:Class"
   }, {
-    "id" : "519",
+    "id" : "644",
     "type" : "owl:Class"
   }, {
     "id" : "564",
@@ -1492,13 +1492,13 @@
     "id" : "827",
     "type" : "owl:Class"
   }, {
-    "id" : "208",
-    "type" : "owl:Class"
-  }, {
     "id" : "925",
     "type" : "owl:Class"
   }, {
-    "id" : "326",
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "327",
     "type" : "owl:Class"
   }, {
     "id" : "622",
@@ -1510,13 +1510,13 @@
     "id" : "609",
     "type" : "owl:Class"
   }, {
-    "id" : "521",
-    "type" : "owl:Class"
-  }, {
     "id" : "761",
     "type" : "owl:Class"
   }, {
-    "id" : "332",
+    "id" : "521",
+    "type" : "owl:Class"
+  }, {
+    "id" : "317",
     "type" : "owl:Class"
   }, {
     "id" : "101",
@@ -1528,16 +1528,16 @@
     "id" : "785",
     "type" : "owl:Class"
   }, {
-    "id" : "308",
+    "id" : "368",
     "type" : "owl:Class"
   }, {
     "id" : "400",
     "type" : "owl:Class"
   }, {
-    "id" : "671",
+    "id" : "177",
     "type" : "owl:Class"
   }, {
-    "id" : "177",
+    "id" : "670",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -1603,8 +1603,8 @@
       "en" : "Entry"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3iMmwy9iv0SBFB7w4cNsVs",
-      "en-gb" : "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., an outside air duct system intake opening)"
+      "en" : "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., an outside air duct system intake opening)",
+      "en-gb" : "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., a breeching inlet)"
     },
     "id" : "37",
     "superClasses" : [ "2" ]
@@ -1631,7 +1631,7 @@
     "subClasses" : [ "53", "54", "55", "56", "57" ],
     "comment" : {
       "ifc-2x4" : "An engine that is a machine for converting electrical energy into mechanical energy.",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3_kLW3eI10Xem4Z9zSCTzp"
+      "en" : "An engine that is a machine for converting electrical energy into mechanical energy."
     },
     "id" : "51",
     "superClasses" : [ "52" ]
@@ -1650,7 +1650,7 @@
     "label" : {
       "nb-no" : "UPS",
       "IRI-based" : "ElectricFlowStorageDevice-UPS",
-      "en" : "UPS"
+      "en" : "uninterruptible power system"
     },
     "comment" : {
       "en" : "a device that provides a time limited alternative source of power supply in the event of failure of the main supply",
@@ -1696,7 +1696,7 @@
     "label" : {
       "nb-no" : "ventilasjonstopp",
       "IRI-based" : "StackTerminal-COWL",
-      "en" : "vent cap"
+      "en" : "cowl"
     },
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3XIKqh6OnDLvtnQcrmQvo4"
@@ -1721,7 +1721,7 @@
       "en" : "Air Cooled"
     },
     "comment" : {
-      "en" : "a condenser in which heat is transferred to an air-stream",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3I1OxJC71BJOJi3xkrXKKM",
       "en-gb" : "a condenser in which heat is transferred to an air-stream"
     },
     "id" : "98",
@@ -1749,6 +1749,29 @@
     "id" : "102",
     "superClasses" : [ "103" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Pump-ENDSUCTION",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcPumpEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "aksialt innløp",
+      "IRI-based" : "Pump-ENDSUCTION",
+      "en" : "End Suction Pump"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/10iAdjK6fEqxsxJnj_WSZS",
+      "en-gb" : "an end suction pump, when mounted horizontally, has a single horizontal inlet on the impeller suction side and a vertical discharge. it may have a direct or close-coupled motor"
+    },
+    "id" : "71",
+    "superClasses" : [ "40" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#StackTerminal-RAINWATERHOPPER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -1769,29 +1792,6 @@
     },
     "id" : "111",
     "superClasses" : [ "97" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Pump-ENDSUCTION",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcPumpEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "aksialt innløp",
-      "IRI-based" : "Pump-ENDSUCTION",
-      "en" : "End Suction Pump"
-    },
-    "comment" : {
-      "en" : "an end suction pump, when mounted horizontally, has a single horizontal inlet on the impeller suction side and a vertical discharge. it may have a direct or close-coupled motor",
-      "en-gb" : "an end suction pump, when mounted horizontally, has a single horizontal inlet on the impeller suction side and a vertical discharge. it may have a direct or close-coupled motor"
-    },
-    "id" : "71",
-    "superClasses" : [ "40" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-ROTARY",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -1879,6 +1879,27 @@
     "id" : "144",
     "superClasses" : [ "145" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper-GRAVITYDAMPER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDamperEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Damper-GRAVITYDAMPER",
+      "en" : "Gravity Damper"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1A$dgK16XE_x2gK7uacSn3"
+    },
+    "id" : "153",
+    "superClasses" : [ "154" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryEquipment-AIRHANDLER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -1897,27 +1918,6 @@
     },
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1VnQL7ieb089ehb7syCaMo"
-    },
-    "id" : "153",
-    "superClasses" : [ "154" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper-GRAVITYDAMPER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDamperEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Damper-GRAVITYDAMPER",
-      "en" : "Gravity Damper"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1A$dgK16XE_x2gK7uacSn3"
     },
     "id" : "155",
     "superClasses" : [ "156" ]
@@ -1939,7 +1939,7 @@
       "en" : "OLED"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2ga1cHzm5D$fItBN2Tozo9",
+      "en" : "a solid state lamp that uses light-emitting diodes as the source of light whose emissive electroluminescent layer is composed of a film of organic compounds",
       "en-gb" : "a solid state lamp that uses light-emitting diodes as the source of light whose emissive electroluminescent layer is composed of a film of organic compounds"
     },
     "id" : "159",
@@ -2031,7 +2031,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0g_pG9hAD1XgJ8pML2mm5H"
     },
     "id" : "165",
-    "superClasses" : [ "156" ]
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CommunicationsAppliance-PRINTER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -2122,7 +2122,7 @@
     },
     "subClasses" : [ "183", "184", "185", "186", "187", "182", "188", "189", "190", "94", "191", "192", "193" ],
     "comment" : {
-      "en" : "A device that adds moisture into the air."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1FcXNG5qj2GQITbOwXrOIF"
     },
     "id" : "95",
     "superClasses" : [ "52" ]
@@ -2191,7 +2191,7 @@
       "en" : "Camera"
     },
     "comment" : {
-      "en" : "a device that records images, either as a still photograph or as moving images known as videos or movies. Note that a camera may operate with light from the visible spectrum or from other parts of the electromagnetic spectrum such as infrared or ultraviolet.",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0Iits$HO92OhljjIcBPane",
       "en-gb" : "a device that records images, either as a still photograph or as moving images known as videos or movies. Note that a camera may operate with light from the visible spectrum or from other parts of the electromagnetic spectrum such as infrared or ultraviolet."
     },
     "id" : "215",
@@ -2214,7 +2214,7 @@
       "en" : "Oil Interceptor"
     },
     "comment" : {
-      "en" : "one or more chambers arranged to prevent the ingress of oil to a drain or sewer that retains the oil for later removal",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0efFn8L559X8O9PLL0mkNu",
       "en-gb" : "one or more chambers arranged to prevent the ingress of oil to a drain or sewer that retains the oil for later removal"
     },
     "id" : "59",
@@ -2256,8 +2256,8 @@
     "label" : {
       "nb-no" : "sensor",
       "IRI-based" : "Sensor",
-      "nl-nl" : "sensor",
       "de-de" : "Sensor",
+      "nl-nl" : "sensor",
       "en" : "Sensor",
       "fr-fr" : "Capteur"
     },
@@ -2285,7 +2285,7 @@
       "en" : "Display"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3zbk7NQJzCte2YLviWyYiT"
+      "en" : "an electronic device that represents information in visual form such as a flat-panel display or television."
     },
     "id" : "278",
     "superClasses" : [ "216" ]
@@ -2331,7 +2331,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1JPv81z_531vDlQ02VFI9a"
     },
-    "id" : "323",
+    "id" : "324",
     "superClasses" : [ "252" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Valve-PRESSURERELIEF",
@@ -2352,7 +2352,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0Si_BQgDr7f8BoS$bMsnAA"
     },
-    "id" : "324",
+    "id" : "325",
     "superClasses" : [ "145" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Actuator-THERMOSTATICACTUATOR",
@@ -2373,8 +2373,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3dkx9QS9HB_emzU3ErhfqY"
     },
-    "id" : "325",
-    "superClasses" : [ "326" ]
+    "id" : "326",
+    "superClasses" : [ "327" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricMotor-DC",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -2393,7 +2393,7 @@
       "en" : "DC-motor"
     },
     "comment" : {
-      "en" : "a motor using either generated or rectified Direct Current (DC) power",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3FK3hjao1DDw14M1qybLxa",
       "en-gb" : "a motor using either generated or rectified Direct Current (DC) power"
     },
     "id" : "54",
@@ -2438,9 +2438,9 @@
       "en" : "Tee"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2qYrhIwZ1BQgGx_wwRrFAA"
+      "en" : "a fitting at which a branch is taken from the main route of the cable carrier."
     },
-    "id" : "327",
+    "id" : "328",
     "superClasses" : [ "30" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Interceptor-CYCLONIC",
@@ -2484,7 +2484,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/30V2jCzRrB$APJOlZf7jhx"
     },
-    "id" : "351",
+    "id" : "353",
     "superClasses" : [ "179" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Valve-DIVERTING",
@@ -2505,7 +2505,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0OsZoKWAP7BBEErvuwAY_x"
     },
-    "id" : "360",
+    "id" : "361",
     "superClasses" : [ "145" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctSilencer-ROUND",
@@ -2551,7 +2551,7 @@
     },
     "subClasses" : [ "373", "374", "375", "376", "98", "377", "378" ],
     "comment" : {
-      "en" : "heat exchanger that condenses refrigerant vapour by rejecting heat"
+      "en" : "A device that is used to dissipate heat, typically by condensing a substance such as a refrigerant from its gaseous to its liquid state."
     },
     "id" : "99",
     "superClasses" : [ "52" ]
@@ -2595,8 +2595,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3ZTCLrBaz0NwkdZhJ1jzAB"
     },
-    "id" : "329",
-    "superClasses" : [ "330" ]
+    "id" : "313",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DistributionChamberElement-VALVECHAMBER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -2636,7 +2636,7 @@
       "en" : "Projector"
     },
     "comment" : {
-      "en" : "a device that is used to project rays of light, especially an apparatus with a system of lenses for projecting slides or film on to a screen",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3PFxyF66H6Awpa8qVklE0D",
       "en-gb" : "a device that is used to project rays of light, especially an apparatus with a system of lenses for projecting slides or film on to a screen"
     },
     "id" : "379",
@@ -2659,7 +2659,7 @@
       "en" : "Adiabatic Atomizing"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1K4HZEHEv1wQ19Vzk48Sgn",
+      "en" : "water vapor is added into the airstream through adiabatic evaporation using an atomizing element",
       "en-gb" : "water vapor is added into the airstream through adiabatic evaporation using an atomizing element"
     },
     "id" : "191",
@@ -2754,7 +2754,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1vKdAZIn1BaBKbLSz3Ygwn"
     },
     "id" : "290",
-    "superClasses" : [ "156" ]
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#EvaporativeCooler-INDIRECTEVAPORATIVEPACKAGEAIRCOOLER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -2799,6 +2799,32 @@
     "id" : "65",
     "superClasses" : [ "60" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#PipeFitting-BEND",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcPipeFittingEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "brannslokkingbend for tåke",
+      "IRI-based" : "PipeFitting-BEND",
+      "de-de" : "Krümmer",
+      "en" : "bend pipeline sanitation",
+      "fr-fr" : "coude"
+    },
+    "comment" : {
+      "nb-no" : "En innretning for å skjøte nedløpsrøret i ulike vinkler forbi hindringer",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/11IUzA0c9C9gGPcD6wjcm8",
+      "en-gb" : "a fitting with typically two ports used to change the direction of flow between connected elements"
+    },
+    "id" : "90",
+    "superClasses" : [ "2" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -2816,38 +2842,12 @@
       "en" : "Compressor",
       "fr-fr" : "Compresseur"
     },
-    "subClasses" : [ "27", "32", "34", "386", "391", "395", "348", "353", "357", "362", "366", "125", "371", "334", "338" ],
+    "subClasses" : [ "27", "32", "34", "386", "391", "395", "350", "355", "358", "363", "366", "125", "371", "334", "338" ],
     "comment" : {
-      "en" : "A device that compresses a fluid typically used in a refrigeration circuit."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1Qp4AN19X6Huz0qWsWQk2Q"
     },
     "id" : "28",
     "superClasses" : [ "400" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#PipeFitting-BEND",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcPipeFittingEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "bend brannslukking vann",
-      "IRI-based" : "PipeFitting-BEND",
-      "de-de" : "Krümmer",
-      "en" : "Bend",
-      "fr-fr" : "coude"
-    },
-    "comment" : {
-      "nb-no" : "Bend, albue",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2VSwjMBw1DguPAi2T4j5Vo",
-      "en-gb" : "a fitting with typically two ports used to change the direction of flow between connected elements"
-    },
-    "id" : "90",
-    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -2869,12 +2869,12 @@
       "fr-fr" : "Détecteur d'incendie",
       "da" : "Spjæld"
     },
-    "subClasses" : [ "341", "345", "306", "310", "314", "155", "165", "322", "286", "290", "294" ],
+    "subClasses" : [ "342", "346", "306", "311", "315", "153", "165", "323", "286", "290", "294" ],
     "comment" : {
       "nb-no" : "innretning som brukes til å redusere støt eller vibrasjoner med energiabsorberende metoder",
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2lAXa0qT0HuO00025QrE$V"
     },
-    "id" : "156",
+    "id" : "154",
     "superClasses" : [ "384" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ProtectiveDevice-EARTHLEAKAGECIRCUITBREAKER",
@@ -2894,7 +2894,7 @@
       "en" : "Earth Leakage Circuit Breaker"
     },
     "comment" : {
-      "en" : "a device that opens, closes, or isolates a circuit and has short circuit protection but no overload protection. it attempts to break the circuit when there is a leakage of current from phase to earth, by measuring voltage on the earth conductor",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2h1MphDsfAOOGX2jycslmC",
       "en-gb" : "a device that opens, closes, or isolates a circuit and has short circuit protection but no overload protection. it attempts to break the circuit when there is a leakage of current from phase to earth, by measuring voltage on the earth conductor"
     },
     "id" : "401",
@@ -2920,7 +2920,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0CQxb8jqP12etStsVhj0a2"
     },
     "id" : "286",
-    "superClasses" : [ "156" ]
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#PipeFitting-TRANSITION",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -2959,12 +2959,12 @@
       "nb-no" : "aggregat kjøl virksomhet",
       "IRI-based" : "EnergyConversionDevice",
       "de-de" : "Energiewandler",
-      "en" : "aggregate refrigirator industry",
+      "en" : "aggregate freezer",
       "fr-fr" : "dispositif de conversion d'énergie"
     },
-    "subClasses" : [ "51", "212", "218", "222", "226", "99", "233", "171", "95", "179", "181", "389", "210", "5", "139", "417", "418", "74", "154", "419" ],
+    "subClasses" : [ "51", "212", "218", "222", "226", "99", "233", "171", "95", "179", "181", "389", "210", "12", "139", "417", "418", "74", "156", "419" ],
     "comment" : {
-      "en" : "the distribution flow element ifcenergyconversiondevice defines the occurrence of a device used to perform energy conversion or heat transfer and typically participates in a flow distribution system. its type is defined by ifcenergyconversiondevicetype or its subtypes."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1VQ1GZZDD2pvhjZ8ZKtCoL"
     },
     "id" : "52",
     "superClasses" : [ "195" ]
@@ -2987,8 +2987,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3mqiUJIz57JBFFnuqvB3qT"
     },
-    "id" : "310",
-    "superClasses" : [ "156" ]
+    "id" : "311",
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Valve-MIXING",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3029,10 +3029,59 @@
       "en" : "Light"
     },
     "comment" : {
-      "en" : "a visual alarm"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3S8_P1o2L01Ozx8doI6nGk"
     },
     "id" : "421",
     "superClasses" : [ "422" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Evaporator",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcEvaporator",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "kjøleelement",
+      "IRI-based" : "Evaporator",
+      "nl-nl" : "verdamper",
+      "de-de" : "verdampfer",
+      "en" : "Evaporator",
+      "fr-fr" : "évaporateur"
+    },
+    "subClasses" : [ "353", "423", "424", "425", "426", "427" ],
+    "comment" : {
+      "en" : "In heat transfer systems, a evaporator is a device used to turn a liquid into its gaseous form"
+    },
+    "id" : "179",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#MedicalDevice-VACUUMSTATION",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcMedicalDeviceEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "vakuumstasjon",
+      "IRI-based" : "MedicalDevice-VACUUMSTATION",
+      "en" : "Vacuum Station"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2qtw8iOMD6aQlRYJeE54Oe",
+      "en-gb" : "device that provides suction, composed of a vacuum pump and bacterial filtration line"
+    },
+    "id" : "428",
+    "superClasses" : [ "429" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#JunctionBox-POWER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3055,55 +3104,6 @@
     },
     "id" : "47",
     "superClasses" : [ "43" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Evaporator",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcEvaporator",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "luftfukter",
-      "IRI-based" : "Evaporator",
-      "nl-nl" : "verdamper",
-      "de-de" : "verdampfer",
-      "en" : "Evaporator",
-      "fr-fr" : "Evaporateur"
-    },
-    "subClasses" : [ "351", "423", "424", "425", "426", "427" ],
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1b85u16kXAuQVMX36yZmUh"
-    },
-    "id" : "179",
-    "superClasses" : [ "52" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#MedicalDevice-VACUUMSTATION",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcMedicalDeviceEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "vakuumstasjon",
-      "IRI-based" : "MedicalDevice-VACUUMSTATION",
-      "en" : "Vacuum Station"
-    },
-    "comment" : {
-      "en" : "device that provides suction, composed of a vacuum pump and bacterial filtration line",
-      "en-gb" : "device that provides suction, composed of a vacuum pump and bacterial filtration line"
-    },
-    "id" : "428",
-    "superClasses" : [ "429" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Lamp-METALHALIDE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3166,7 +3166,7 @@
       "en" : "Router"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3iPUFOOkn9CR_oYn1_vIJe",
+      "en" : "A router is a networking device whose software and hardware are usually tailored to the tasks of routing and forwarding information. For example, on the Internet, information is directed to various paths by routers.",
       "en-gb" : "A router is a networking device whose software and hardware are usually tailored to the tasks of routing and forwarding information. For example, on the Internet, information is directed to various paths by routers."
     },
     "id" : "432",
@@ -3255,8 +3255,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1U6ESQrqDFCPr0rdPKWCka"
     },
-    "id" : "345",
-    "superClasses" : [ "156" ]
+    "id" : "346",
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#WasteTerminal-GULLYSUMP",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3276,7 +3276,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0ZMLzB3o99aurJi3RGmMhG"
     },
-    "id" : "336",
+    "id" : "352",
     "superClasses" : [ "252" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-RECIPROCATING",
@@ -3341,7 +3341,7 @@
       "en" : "Louvre"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0cCEo7qnfDSgG93nJsd3eQ"
+      "en" : "a rectilinear louvre."
     },
     "id" : "454",
     "superClasses" : [ "455" ]
@@ -3360,7 +3360,7 @@
     "label" : {
       "nb-no" : "takrenne",
       "IRI-based" : "PipeSegment-GUTTER",
-      "en" : "eaves gutter"
+      "en" : "Gutter"
     },
     "comment" : {
       "nb-no" : "En renne som støttes av rennekroker og som er plassert på utsiden av bygningen for å lede bort regnvann.",
@@ -3494,30 +3494,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1An85fZE5EZuDCIYomL2WH"
     },
     "id" : "477",
-    "superClasses" : [ "326" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#MedicalDevice-OXYGENGENERATOR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcMedicalDeviceEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "oksygengenerator",
-      "IRI-based" : "MedicalDevice-OXYGENGENERATOR",
-      "en" : "Oxygen Generator"
-    },
-    "comment" : {
-      "en" : "device that generates oxygen from air",
-      "en-gb" : "device that generates oxygen from air"
-    },
-    "id" : "478",
-    "superClasses" : [ "429" ]
+    "superClasses" : [ "327" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirToAirHeatRecovery-FIXEDPLATEPARALLELFLOWEXCHANGER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3537,8 +3514,31 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2miQYyrOfDkQ3LRDmm98s2"
     },
-    "id" : "479",
+    "id" : "478",
     "superClasses" : [ "181" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#MedicalDevice-OXYGENGENERATOR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcMedicalDeviceEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "oksygengenerator",
+      "IRI-based" : "MedicalDevice-OXYGENGENERATOR",
+      "en" : "Oxygen Generator"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2beptDYcnFLwdWqGq$GWRC",
+      "en-gb" : "device that generates oxygen from air"
+    },
+    "id" : "479",
+    "superClasses" : [ "429" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DistributionChamberElement-MANHOLE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3581,7 +3581,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0bjNJRb7f3bOrNnlEVDx$V"
     },
-    "id" : "348",
+    "id" : "350",
     "superClasses" : [ "28" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Valve",
@@ -3598,16 +3598,16 @@
     "label" : {
       "nb-no" : "ventil",
       "IRI-based" : "Valve",
-      "de-de" : "Absperrarmatur; Ventil",
+      "de-de" : "Ventil",
       "nl-nl" : "Afsluiter",
       "en" : "Valve",
       "fr-fr" : "appareil de robinetterie",
       "da" : "Ventil"
     },
-    "subClasses" : [ "480", "481", "360", "482", "144", "483", "484", "485", "486", "487", "420", "488", "489", "490", "491", "324", "492", "164", "439", "493", "494" ],
+    "subClasses" : [ "480", "481", "361", "482", "144", "483", "484", "485", "486", "487", "420", "488", "489", "490", "491", "325", "492", "164", "439", "493", "494" ],
     "comment" : {
       "nb-no" : "komponent som isolerer eller kontrollerer vannføring og trykk, f.eks. stengeventil, kontrollventil, trykkreduksjonsventil, lufteventil, tilbakeslagsventil, brannventil/hydrant",
-      "en" : "A flow control device used in a building services piping distribution system to control or modulate the flow of the fluid."
+      "en" : "component isolating or controlling flow and pressure, e.g. isolating valve, control valve, pressure reducing valve, air valve, non-return valve, hydrant"
     },
     "id" : "145",
     "superClasses" : [ "384" ]
@@ -3652,7 +3652,7 @@
       "en" : "Power Outlet"
     },
     "comment" : {
-      "en" : "an outlet used for connecting electrical devices requiring power",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1VO3tI1Bn2AO1KWd3ZVGi6",
       "en-gb" : "an outlet used for connecting electrical devices requiring power"
     },
     "id" : "496",
@@ -3675,7 +3675,7 @@
       "en" : "Active"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/366WDqf6H92RxKizKbtgeZ",
+      "en" : "an active or ventilated cooled beam provides cooling (and heating) but can also function as an air terminal in a ventilation system",
       "en-gb" : "an active or ventilated cooled beam provides cooling (and heating) but can also function as an air terminal in a ventilation system"
     },
     "id" : "498",
@@ -3698,7 +3698,7 @@
       "en" : "Grease Interceptor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3LXDZRMqX6hBYYip97WFpr",
+      "en" : "chamber, on the line of a drain or discharge pipe, that prevents grease passing into a drainage system",
       "en-gb" : "chamber, on the line of a drain or discharge pipe, that prevents grease passing into a drainage system"
     },
     "id" : "69",
@@ -3746,7 +3746,7 @@
       "fr-fr" : "Brûleur"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3eaWqihr5FfBQB2Eu0SSfd"
+      "en" : "A device that converts fuel into heat through combustion."
     },
     "id" : "218",
     "superClasses" : [ "52" ]
@@ -3765,14 +3765,14 @@
     "label" : {
       "nb-no" : "rørbunt",
       "IRI-based" : "TubeBundle",
-      "de-de" : "Rohrbündel",
       "nl-nl" : "Buizenregister",
+      "de-de" : "Rohrbündel",
       "en" : "Tube Bundle",
       "fr-fr" : "Faisceau tubulaire"
     },
     "subClasses" : [ "525" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2KKY0IUEj0J9jguEJqOHcm"
+      "en" : "A device consisting of tubes and bundles of tubes used for heat transfer and contained typically within other energy conversion devices, such as a chiller or coil."
     },
     "id" : "226",
     "superClasses" : [ "52" ]
@@ -3794,7 +3794,7 @@
       "en" : "Battery"
     },
     "comment" : {
-      "en" : "a device for storing energy in chemical form so that it can be released as electrical energy",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2SgW4DbB93yuwE75nOI9iX",
       "en-gb" : "a device for storing energy in chemical form so that it can be released as electrical energy"
     },
     "id" : "110",
@@ -3861,7 +3861,7 @@
       "en" : "Mechanical Forced Draft"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3dU1hLD$n4bwQx_$PVTTC6"
+      "en" : "air flow is produced by a mechanical device, typically one or more fans, located on the inlet air side of the cooling tower."
     },
     "id" : "73",
     "superClasses" : [ "74" ]
@@ -3883,10 +3883,33 @@
       "en" : "Twin Screw Compressor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3hihvfHSj9h8cGQM0xtKAu"
+      "en" : "positive-displacement rotary compressor using two mating helically grooved rotors, male (lobes) and female (flutes) in a stationary housing with inlet and outlet gas ports."
     },
     "id" : "371",
     "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Outlet-COMMUNICATIONSOUTLET",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcOutletEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "kommunikasjonuttak",
+      "IRI-based" : "Outlet-COMMUNICATIONSOUTLET",
+      "en" : "Communications Outlet"
+    },
+    "comment" : {
+      "en" : "an outlet used for connecting communications equipment",
+      "en-gb" : "an outlet used for connecting communications equipment"
+    },
+    "id" : "535",
+    "superClasses" : [ "162" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctFitting-TRANSITION",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3927,34 +3950,11 @@
       "en" : "Heat Pipe"
     },
     "comment" : {
-      "en" : "a passive energy recovery device with a heat pipe divided into evaporator and condenser sections",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3g4XqNsbDCXxINl9l4yi1C",
       "en-gb" : "a passive energy recovery device with a heat pipe divided into evaporator and condenser sections"
     },
-    "id" : "535",
-    "superClasses" : [ "181" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Outlet-COMMUNICATIONSOUTLET",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcOutletEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "kommunikasjonuttak",
-      "IRI-based" : "Outlet-COMMUNICATIONSOUTLET",
-      "en" : "Communications Outlet"
-    },
-    "comment" : {
-      "en" : "an outlet used for connecting communications equipment",
-      "en-gb" : "an outlet used for connecting communications equipment"
-    },
     "id" : "536",
-    "superClasses" : [ "162" ]
+    "superClasses" : [ "181" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Coil-GASHEATINGCOIL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -3973,7 +3973,7 @@
       "en" : "Gas Heating Coil"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2Y2dXDycvEJe30WIRF8tsM"
+      "en" : "heating coil using gas as a heating source."
     },
     "id" : "141",
     "superClasses" : [ "139" ]
@@ -4017,9 +4017,9 @@
       "en" : "Flow Terminal",
       "fr-fr" : "elément terminal d'installation fluides"
     },
-    "subClasses" : [ "216", "474", "240", "429", "162", "160", "97", "12", "167", "455", "556", "252", "557" ],
+    "subClasses" : [ "216", "474", "240", "429", "162", "160", "97", "5", "167", "455", "556", "252", "557" ],
     "comment" : {
-      "en" : "the distribution flow element ifcflowterminal defines the occurrence of a permanently attached element that acts as a terminus or beginning of a distribution system (such as an air outlet, drain, water closet or sink). a terminal is typically a point at which a system interfaces with an external environment. its type is defined by ifcflowterminaltype or its subtypes."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2zsZIJsQfBq98RWGNFmix9"
     },
     "id" : "555",
     "superClasses" : [ "195" ]
@@ -4042,7 +4042,7 @@
       "en" : "Contactor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3rxqi3mzn8ovp5j4$AtKpj"
+      "en" : "mechanical switching device having only one position of rest, operated otherwise than by hand, capable of making, carrying and breaking currents under normal circuit conditions including operating overload conditions"
     },
     "id" : "214",
     "superClasses" : [ "206" ]
@@ -4065,9 +4065,9 @@
       "en" : "Outlet",
       "fr-fr" : "prise"
     },
-    "subClasses" : [ "161", "559", "496", "536", "560" ],
+    "subClasses" : [ "161", "559", "496", "535", "560" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/28QPmBjcbAuOHAWzJovXA6"
+      "en" : "A device installed at a point to receive one or more inserted plugs for electrical power or communications.\n"
     },
     "id" : "162",
     "superClasses" : [ "555" ]
@@ -4177,7 +4177,7 @@
     },
     "label" : {
       "IRI-based" : "Lamp",
-      "de-de" : "Lampe",
+      "de-de" : "Leuchtmittel",
       "en" : "Lamp",
       "fr-fr" : "lampe"
     },
@@ -4206,8 +4206,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2b2DdpoeD2DebGtqb8$WWB"
     },
-    "id" : "359",
-    "superClasses" : [ "330" ]
+    "id" : "344",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-SINGLESCREW",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -4226,7 +4226,7 @@
       "en" : "Single Screw Compressor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2U43NgKlnBqPnnBLsl6wU4"
+      "en" : "positive-displacement rotary compressor using a single cylindrical main rotor that works with a pair of gate rotors."
     },
     "id" : "334",
     "superClasses" : [ "28" ]
@@ -4279,30 +4279,6 @@
     "id" : "602",
     "superClasses" : [ "254" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricAppliance-FREEZER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcElectricApplianceEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "fryser",
-      "IRI-based" : "ElectricAppliance-FREEZER",
-      "nl-nl" : "Vrieskast",
-      "en" : "Freezer"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2lufsAWJmHu000025QrE$V",
-      "en-gb" : "an electrical appliance that has the primary function of storing food at temperatures below the freezing point of water"
-    },
-    "id" : "610",
-    "superClasses" : [ "474" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Humidifier-ASSISTEDELECTRIC",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -4325,6 +4301,30 @@
     },
     "id" : "184",
     "superClasses" : [ "95" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricAppliance-FREEZER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcElectricApplianceEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "fryser",
+      "IRI-based" : "ElectricAppliance-FREEZER",
+      "nl-nl" : "Vrieskast",
+      "en" : "Freezer"
+    },
+    "comment" : {
+      "en" : "an electrical appliance that has the primary function of storing food at temperatures below the freezing point of water",
+      "en-gb" : "an electrical appliance that has the primary function of storing food at temperatures below the freezing point of water"
+    },
+    "id" : "610",
+    "superClasses" : [ "474" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricMotor-RELUCTANCESYNCHRONOUS",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -4387,7 +4387,7 @@
     },
     "subClasses" : [ "615", "616", "617", "618", "421", "619" ],
     "comment" : {
-      "en" : "device, which may be connected into a transmission path of a fire detection and fire alarm system, to limit the consequences of low parallel resistance faults between the lines of this transmission path"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1lb9XO$N58HxZ1Bunuwfkb"
     },
     "id" : "422",
     "superClasses" : [ "254" ]
@@ -4446,7 +4446,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "forbindelsesledd",
+      "nb-no" : "forbindelse",
       "IRI-based" : "PipeFitting-CONNECTOR",
       "de-de" : "Dübel",
       "en" : "Connector",
@@ -4454,7 +4454,7 @@
     },
     "comment" : {
       "nb-no" : "innretning som vanligvis består av en plate, en fortannet plate eller en ring, og som, når den er delvis trengt inn i alle eller i en av kontaktflatene på to komponenter og holdt sammen med en bolt, er i stand til å overføre en last fra en komponent til e",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3tvMvSswv0Dw7HoTwOQYKj"
+      "en" : "device generally consisting of a plate, toothed-plate or ring which, when partly embedded in each or in one of the contact faces of two members and held together by a connecting bolt, is capable of transmitting a load from one member to another"
     },
     "id" : "9",
     "superClasses" : [ "2" ]
@@ -4497,11 +4497,36 @@
       "en" : "Break Glass Button"
     },
     "comment" : {
-      "en" : "an alarm activation mechanism in which a protective glass has to be broken to enable a button to be pressed",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1PccK35QXEef9_Kn79zIxl",
       "en-gb" : "an alarm activation mechanism in which a protective glass has to be broken to enable a button to be pressed"
     },
     "id" : "617",
     "superClasses" : [ "422" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DistributionControlElement",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDistributionControlElement",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "distribusjon manøvreringsorgan",
+      "IRI-based" : "DistributionControlElement",
+      "de-de" : "Komponente der Gebäudeautomation (allgemein)",
+      "en" : "Distribution Control Element",
+      "fr-fr" : "Élément de circuit de distribution"
+    },
+    "subClasses" : [ "103", "602", "422", "134", "628", "327", "253" ],
+    "comment" : {
+      "en" : "the distribution element ifcdistributioncontrolelement defines occurrence elements of a building automation control system that are used to impart control over elements of a distribution system. ifcdistributioncontrolelement defines elements of a building automation control system. these are typically used to control distribution system elements to maintain variables such as temperature, humidity, pressure, flow, power or lighting levels, through the modulation, staging or sequencing of mechanical or electrical devices. the three general functional categories of control elements are as follows: impart control over flow control elements (ifcflowcontroller) in a distribution system such as dampers, valves or relays, typically through the use of actuation (ifcactuator)., sensing elements (ifcsensor) that measure changes in the controlled variable such as temperature, humidity, pressure or flow., controllers (ifccontroller) typically classified according to the control action they seek to perform and generally responsible for making decisions about the elements under control.. since ifcdistributioncontrolelement and its subtypes typically relate to many different distribution flow elements (ifcdistributionflowelement), the objectified relationship ifcrelflowcontrolelements has been provided to relate control and flow elements as required. the key distinction between ifcdistributionflowelement and ifcdistributioncontrolelement is whether it is internal or external to the flow system, respectively. for example, the distinction between ifcflowmeter (subtype of ifcdistributionflowelement measuring a flow quantity) and ifcflowinstrument (subtype of ifcdistributioncontrolelement measuring a flow quality), is based on this principal. a physical device that connects within the flow system in which it measures (having inlet/outlet pipes for the measured substance) follows the ifcdistributionflowelement hierarchy (and therefore ifcflowmeter which measures the flow internally). otherwise, if it monitors/controls but does not connect inline within the flow system (it is external or is a component of another device), then it follows the ifcdistributioncontrolelement hierarchy (and therefore ifcflowinstrument which may display various attributes through connected sensors)."
+    },
+    "id" : "254",
+    "superClasses" : [ "136" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#MotorConnection",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -4522,37 +4547,12 @@
       "en" : "Motor Connection",
       "fr-fr" : "Connection du moteur"
     },
-    "subClasses" : [ "628", "629", "630" ],
+    "subClasses" : [ "629", "630", "631" ],
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1uD4xpI6rB28wdUvR8Y86u"
     },
     "id" : "418",
     "superClasses" : [ "52" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DistributionControlElement",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDistributionControlElement",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "distribusjon manøvreringsorgan",
-      "IRI-based" : "DistributionControlElement",
-      "de-de" : "Komponente der Gebäudeautomation (allgemein)",
-      "en" : "Distribution Control Element",
-      "fr-fr" : "Élément de circuit de distribution"
-    },
-    "subClasses" : [ "103", "602", "422", "134", "631", "326", "253" ],
-    "comment" : {
-      "en" : "the distribution element ifcdistributioncontrolelement defines occurrence elements of a building automation control system that are used to impart control over elements of a distribution system. ifcdistributioncontrolelement defines elements of a building automation control system. these are typically used to control distribution system elements to maintain variables such as temperature, humidity, pressure, flow, power or lighting levels, through the modulation, staging or sequencing of mechanical or electrical devices. the three general functional categories of control elements are as follows: impart control over flow control elements (ifcflowcontroller) in a distribution system such as dampers, valves or relays, typically through the use of actuation (ifcactuator)., sensing elements (ifcsensor) that measure changes in the controlled variable such as temperature, humidity, pressure or flow., controllers (ifccontroller) typically classified according to the control action they seek to perform and generally responsible for making decisions about the elements under control.. since ifcdistributioncontrolelement and its subtypes typically relate to many different distribution flow elements (ifcdistributionflowelement), the objectified relationship ifcrelflowcontrolelements has been provided to relate control and flow elements as required. the key distinction between ifcdistributionflowelement and ifcdistributioncontrolelement is whether it is internal or external to the flow system, respectively. for example, the distinction between ifcflowmeter (subtype of ifcdistributionflowelement measuring a flow quantity) and ifcflowinstrument (subtype of ifcdistributioncontrolelement measuring a flow quality), is based on this principal. a physical device that connects within the flow system in which it measures (having inlet/outlet pipes for the measured substance) follows the ifcdistributionflowelement hierarchy (and therefore ifcflowmeter which measures the flow internally). otherwise, if it monitors/controls but does not connect inline within the flow system (it is external or is a component of another device), then it follows the ifcdistributioncontrolelement hierarchy (and therefore ifcflowinstrument which may display various attributes through connected sensors)."
-    },
-    "id" : "254",
-    "superClasses" : [ "136" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Alarm-SIREN",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -4593,7 +4593,7 @@
       "en" : "Photocopier"
     },
     "comment" : {
-      "en" : "a machine that has the primary function of reproduction of printed matter",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3f7QlBmRH8ixz3XB$p1vFX",
       "en-gb" : "a machine that has the primary function of reproduction of printed matter"
     },
     "id" : "632",
@@ -4640,7 +4640,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/26AgedTrrEsuQRrx2V_DY3",
       "en-gb" : "a direct, physical connection made between the motor and the driven device"
     },
-    "id" : "628",
+    "id" : "629",
     "superClasses" : [ "418" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CooledBeam",
@@ -4663,7 +4663,7 @@
     },
     "subClasses" : [ "498", "634" ],
     "comment" : {
-      "en" : "A device typically used to cool air by circulating a fluid such as chilled water through exposed finned tubes above a space. Typically mounted overhead near or within a ceiling."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1R134kf$f3g9C$U9ACWL3s"
     },
     "id" : "233",
     "superClasses" : [ "52" ]
@@ -4687,7 +4687,7 @@
     },
     "subClasses" : [ "111", "96", "635" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0lNPT0EPbBWeJB7HGeHjgH"
+      "en" : "A terminal placed at the top of a ventilating stack (such as to prevent ingress by birds or rainwater) or rainwater pipe (to act as a collector or hopper for discharge from guttering)."
     },
     "id" : "97",
     "superClasses" : [ "555" ]
@@ -4777,10 +4777,10 @@
       "en" : "Rooftop Unit"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0yMK$zpZz2Ahk9sfb3u4e7"
+      "en" : "unitary systems manufactured in various configurations providing single or multi-zone heating, cooling, and ventilation."
     },
     "id" : "637",
-    "superClasses" : [ "154" ]
+    "superClasses" : [ "156" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Evaporator-DIRECTEXPANSIONBRAZEDPLATE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -4804,6 +4804,28 @@
     "id" : "424",
     "superClasses" : [ "179" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctFitting-OBSTRUCTION",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDuctFittingEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "hindring",
+      "IRI-based" : "DuctFitting-OBSTRUCTION",
+      "en" : "Obstruction"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0_eTgdHQn7MwoGtRPOoi4r"
+    },
+    "id" : "105",
+    "superClasses" : [ "25" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Pump-SPLITCASE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -4826,28 +4848,6 @@
     },
     "id" : "84",
     "superClasses" : [ "40" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctFitting-OBSTRUCTION",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDuctFittingEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "hindring",
-      "IRI-based" : "DuctFitting-OBSTRUCTION",
-      "en" : "Obstruction"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0_eTgdHQn7MwoGtRPOoi4r"
-    },
-    "id" : "105",
-    "superClasses" : [ "25" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Sensor-FLOWSENSOR",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -4889,7 +4889,7 @@
     },
     "subClasses" : [ "644", "645", "646", "102", "647" ],
     "comment" : {
-      "en" : "A device that monitors inputs and controls outputs within a building automation system."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1yoko0qSqHuO00025QrE$V"
     },
     "id" : "103",
     "superClasses" : [ "254" ]
@@ -4906,12 +4906,12 @@
       } ]
     },
     "label" : {
-      "nb-no" : "datamaskin",
+      "nb-no" : "datagolv",
       "IRI-based" : "CommunicationsAppliance-COMPUTER",
       "en" : "Computer"
     },
     "comment" : {
-      "en" : "an electronic device which is capable of receiving information (data) in a particular form and of performing a sequence of operations in accordance with a predetermined but variable set of procedural instructions (program) to produce a result in the form of information or signals",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3YJ0SHSxL2Se6$_7rNWY_P",
       "en-gb" : "an electronic device which is capable of receiving information (data) in a particular form and of performing a sequence of operations in accordance with a predetermined but variable set of procedural instructions (program) to produce a result in the form of information or signals"
     },
     "id" : "648",
@@ -4958,7 +4958,7 @@
     },
     "subClasses" : [ "544", "548", "551" ],
     "comment" : {
-      "en" : "A terminal box in an HVAC duct distribution system and is used to control or modulate the amount of air delivered to its downstream ductwork. Often referred to as an 'air flow regulator'."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0zPqWPJST5LRtUuSJBlWpM"
     },
     "id" : "545",
     "superClasses" : [ "384" ]
@@ -5026,8 +5026,8 @@
     "comment" : {
       "en" : "a heating appliance which emits heat almost entirely by convection. a convector comprises at least a heat emitter and a casing which provides an unheated convective chimney of defined height."
     },
-    "id" : "17",
-    "superClasses" : [ "12" ]
+    "id" : "4",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AudioVisualAppliance",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5049,10 +5049,32 @@
     },
     "subClasses" : [ "379", "554", "511", "562", "564", "566", "568", "215", "278", "514", "517" ],
     "comment" : {
-      "en" : "A device that displays, captures, transmits, or receives audio or video.\nAudio-visual appliances may be fixed in place or may be able to be moved from one space to another. They may require an electrical supply that may be supplied either by an electrical circuit or provided from a local battery source. Audio-visual appliances may be connected to data circuits including specialist circuits for audio visual purposes only."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2ZaJrCZM56p8CnFEqtkRj5"
     },
     "id" : "216",
     "superClasses" : [ "555" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CableCarrierFitting-CROSS",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcCableCarrierFittingEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "kryss",
+      "IRI-based" : "CableCarrierFitting-CROSS",
+      "en" : "Cross"
+    },
+    "comment" : {
+      "en" : "a fitting at which two branches are taken from the main route of the cable carrier simultaneously."
+    },
+    "id" : "650",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DistributionChamberElement-INSPECTIONPIT",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5077,28 +5099,6 @@
     "id" : "196",
     "superClasses" : [ "194" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CableCarrierFitting-CROSS",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcCableCarrierFittingEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "kryss",
-      "IRI-based" : "CableCarrierFitting-CROSS",
-      "en" : "Cross"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0Nz$21cnn4VwLtD25_Kdcr"
-    },
-    "id" : "650",
-    "superClasses" : [ "30" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#FlowInstrument-THERMOMETER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -5120,11 +5120,11 @@
     },
     "comment" : {
       "nb-no" : "Måler og viser temperatur analogt",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3vHXe6oT0Hsm00051Mm008",
+      "en" : "a device that reads and displays a temperature value at a point",
       "en-gb" : "a device that reads and displays a temperature value at a point"
     },
     "id" : "651",
-    "superClasses" : [ "631" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#FlowInstrument-PRESSUREGAUGE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5145,28 +5145,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0OE6$aHKjCBBgczwu$WIy0"
     },
     "id" : "652",
-    "superClasses" : [ "631" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirToAirHeatRecovery-FIXEDPLATECROSSFLOWEXCHANGER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcAirToAirHeatRecoveryEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "AirToAirHeatRecovery-FIXEDPLATECROSSFLOWEXCHANGER",
-      "en" : "Fixed-Plate Cross-Flow Exchanger"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2LTpG80kz5Oh41Z0r9nlld"
-    },
-    "id" : "653",
-    "superClasses" : [ "181" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#EvaporativeCooler-INDIRECTDIRECTCOMBINATION",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5187,8 +5166,29 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0m3PNQ2HLCZxrflh7tIhW4"
     },
-    "id" : "654",
+    "id" : "653",
     "superClasses" : [ "210" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirToAirHeatRecovery-FIXEDPLATECROSSFLOWEXCHANGER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcAirToAirHeatRecoveryEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AirToAirHeatRecovery-FIXEDPLATECROSSFLOWEXCHANGER",
+      "en" : "Fixed-Plate Cross-Flow Exchanger"
+    },
+    "comment" : {
+      "en" : "not available"
+    },
+    "id" : "654",
+    "superClasses" : [ "181" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Coil",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5211,7 +5211,7 @@
     },
     "subClasses" : [ "141", "143", "138", "148", "150", "152", "158" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1reT_0qSaHuO00025QrE$V"
+      "en" : "A device used to provide heat transfer between non-mixing media."
     },
     "id" : "139",
     "superClasses" : [ "52" ]
@@ -5233,11 +5233,11 @@
       "en" : "Dehumidifier"
     },
     "comment" : {
-      "en" : "a unitary packaged dehumidification unit. Note: units supporting multiple modes (dehumidification, cooling, and/or heating) should use AIRCONDITIONINGUNIT",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1fDG4loZb609HKaHBIkk_l",
       "en-gb" : "a unitary packaged dehumidification unit. Note: units supporting multiple modes (dehumidification, cooling, and/or heating) should use AIRCONDITIONINGUNIT"
     },
     "id" : "655",
-    "superClasses" : [ "154" ]
+    "superClasses" : [ "156" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper-FIRESMOKEDAMPER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5257,8 +5257,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/3fTPn78FL2kPB6iokOAbpY"
     },
-    "id" : "314",
-    "superClasses" : [ "156" ]
+    "id" : "315",
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Fan-CENTRIFUGALBACKWARDINCLINEDCURVED",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5278,8 +5278,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2947TJClP4iRuoq1E3mkRW"
     },
-    "id" : "355",
-    "superClasses" : [ "330" ]
+    "id" : "340",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#WasteTerminal-FLOORWASTE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5299,7 +5299,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0Gg1lQtOn0jv4GqORpX2Y8"
     },
-    "id" : "312",
+    "id" : "330",
     "superClasses" : [ "252" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricFlowStorageDevice",
@@ -5434,15 +5434,15 @@
     "label" : {
       "nb-no" : "pumpe",
       "IRI-based" : "Pump",
-      "nl-nl" : "pomp",
       "de-de" : "Pumpe",
+      "nl-nl" : "pomp",
       "en" : "Pump",
       "fr-fr" : "pompe",
       "da" : "Pumpe"
     },
     "subClasses" : [ "67", "71", "76", "80", "84", "88", "39" ],
     "comment" : {
-      "en" : "A device which imparts mechanical work on fluids to move them through a channel or pipe. "
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1xPUW0qVuHuO00025QrE$V"
     },
     "id" : "40",
     "superClasses" : [ "400" ]
@@ -5552,7 +5552,7 @@
       "en" : "Fuse Disconnector"
     },
     "comment" : {
-      "en" : "a device that will electrically open the circuit after a period of prolonged, abnormal current flow"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2TfJqRtl5EbAjQ1_2wg3W9"
     },
     "id" : "659",
     "superClasses" : [ "402" ]
@@ -5616,10 +5616,10 @@
       "nb-no" : "sprinkler",
       "IRI-based" : "FireSuppressionTerminal-SPRINKLER",
       "nl-nl" : "Sprinkler",
-      "en" : "fire sprinkler"
+      "en" : "Sprinkler"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/09wWrp7P91aASjo0_dry01"
+      "en" : "nozzle with a thermally sensitive sealing device which opens to discharge water for fire fighting"
     },
     "id" : "661",
     "superClasses" : [ "556" ]
@@ -5663,7 +5663,7 @@
       "en" : "Water-Cooled Chiller"
     },
     "comment" : {
-      "en" : "water cooled chiller",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1$b15itWrEVeOmpk8LNP3I",
       "en-gb" : "water cooled chiller"
     },
     "id" : "414",
@@ -5688,7 +5688,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0Xkj0nlvX689aFUVxq3IMM"
     },
-    "id" : "343",
+    "id" : "360",
     "superClasses" : [ "252" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator",
@@ -5759,6 +5759,27 @@
     "id" : "491",
     "superClasses" : [ "145" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricAppliance-HANDDRYER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcElectricApplianceEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ElectricAppliance-HANDDRYER",
+      "en" : "Hand Dryer"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0MdGYaJi90Ugvs9F4IBH45"
+    },
+    "id" : "662",
+    "superClasses" : [ "474" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Fan",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -5777,12 +5798,12 @@
       "en" : "Fan",
       "fr-fr" : "ventilateur"
     },
-    "subClasses" : [ "350", "355", "359", "364", "368", "329", "332" ],
+    "subClasses" : [ "336", "340", "344", "348", "308", "313", "317" ],
     "comment" : {
       "nb-no" : "funksjonsdel for bevegelse av luft med roterende element, ofte brukt til kjøling.",
-      "en" : "A machine for the movement of air that has a rotating impeller, often for cooling."
+      "en" : "An artefact which delivers or exhausts volumes of air or gas at low differential pressure.       "
     },
-    "id" : "330",
+    "id" : "309",
     "superClasses" : [ "400" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ProtectiveDevice-RESIDUALCURRENTSWITCH",
@@ -5802,32 +5823,11 @@
       "en" : "Residual Current Switch"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1P$J7BP319XvA_F1$sO9sN",
+      "en" : "a device that opens, closes or isolates a circuit and has no short circuit or overload protection. May also be identified as a 'ground fault switch'",
       "en-gb" : "a device that opens, closes or isolates a circuit and has no short circuit or overload protection. May also be identified as a 'ground fault switch'"
     },
-    "id" : "662",
-    "superClasses" : [ "402" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricAppliance-HANDDRYER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcElectricApplianceEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ElectricAppliance-HANDDRYER",
-      "en" : "Hand Dryer"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0MdGYaJi90Ugvs9F4IBH45"
-    },
     "id" : "663",
-    "superClasses" : [ "474" ]
+    "superClasses" : [ "402" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Fan-PROPELLORAXIAL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5847,8 +5847,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0B7IEewCf7DPbZs58QORZ_"
     },
-    "id" : "368",
-    "superClasses" : [ "330" ]
+    "id" : "308",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-TROCHOIDAL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5867,7 +5867,7 @@
       "en" : "Trochoidal Compressor"
     },
     "comment" : {
-      "en" : "positive-displacement compressor using a rolling motion of one circle outside or inside the circumference of a basic circle and produce either epitrochoids or hypotrochoids."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1L2jXYOSr0k980kt8JnyQv"
     },
     "id" : "395",
     "superClasses" : [ "28" ]
@@ -5912,8 +5912,29 @@
     "comment" : {
       "en" : "positive-displacement reciprocating compressor where pressure is increased by a booster."
     },
-    "id" : "362",
+    "id" : "363",
     "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Sensor-LEVELSENSOR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcSensorEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sensor-LEVELSENSOR",
+      "en" : "Level Sensor"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2zHVmDmGT6zBRJIAqmQdkK"
+    },
+    "id" : "268",
+    "superClasses" : [ "253" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Coil-ELECTRICHEATINGCOIL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -5937,27 +5958,6 @@
     "id" : "148",
     "superClasses" : [ "139" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Sensor-LEVELSENSOR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcSensorEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Sensor-LEVELSENSOR",
-      "en" : "Level Sensor"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2zHVmDmGT6zBRJIAqmQdkK"
-    },
-    "id" : "268",
-    "superClasses" : [ "253" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Transformer-FREQUENCY",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -5975,7 +5975,7 @@
       "en" : "Frequency Transformer"
     },
     "comment" : {
-      "en" : "a transformer that changes the frequency between circuits",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1UAFNuQt5E0xPmuu4GQLrJ",
       "en-gb" : "a transformer that changes the frequency between circuits"
     },
     "id" : "465",
@@ -6001,7 +6001,7 @@
     },
     "subClasses" : [ "247", "205", "208", "214", "220", "224", "228", "231", "235" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0JjKezzH55POBG1espn8W$"
+      "en" : "A switch used in a cable distribution system (electrical circuit) to control or modulate the flow of electricity. Include those used for electrical power, communications, audio-visual, or other distribution system types as determined by the available ports."
     },
     "id" : "206",
     "superClasses" : [ "384" ]
@@ -6092,7 +6092,7 @@
       "en" : "Kitchen Machine"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3jScF9EaLB6wWXD1wgq6DV",
+      "en" : "a specialized appliance used in commercial kitchens such as a mixer",
       "en-gb" : "a specialized appliance used in commercial kitchens such as a mixer"
     },
     "id" : "665",
@@ -6159,8 +6159,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2p0wEtbSj4gxlyI6mhADq2"
     },
-    "id" : "341",
-    "superClasses" : [ "156" ]
+    "id" : "342",
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Coil-DXCOOLINGCOIL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -6179,7 +6179,7 @@
       "en" : "DXCoolingCoil"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1exlqEQr96eATeS6qcQeE3"
+      "en" : "cooling coil using a refrigerant to cool the air stream directly."
     },
     "id" : "143",
     "superClasses" : [ "139" ]
@@ -6201,7 +6201,7 @@
       "en" : "Meter Chamber"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2t4ttlLaz5zerB1pgSekJt",
+      "en" : "chamber that houses a meter(s)",
       "en-gb" : "chamber that houses a meter(s)"
     },
     "id" : "197",
@@ -6228,6 +6228,31 @@
     "id" : "298",
     "superClasses" : [ "127" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ProtectiveDevice",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcProtectiveDevice",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "beskyttende enhet",
+      "IRI-based" : "ProtectiveDevice",
+      "de-de" : "Sicherung",
+      "en" : "Protective Device",
+      "fr-fr" : "équipement de protection"
+    },
+    "subClasses" : [ "663", "669", "401", "532", "670", "671", "659" ],
+    "comment" : {
+      "en" : "A device breaks an electrical circuit when a stated electric current that passes through it is exceeded.\nProvides protection against electrical current only (not as a general protective device)."
+    },
+    "id" : "402",
+    "superClasses" : [ "384" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#FlowInstrument-VOLTMETER_RMS",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -6248,33 +6273,8 @@
       "en" : "a device that reads and displays the RMS (mean) voltage in an electrical circuit",
       "en-gb" : "a device that reads and displays the RMS (mean) voltage in an electrical circuit"
     },
-    "id" : "669",
-    "superClasses" : [ "631" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ProtectiveDevice",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcProtectiveDevice",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "beskyttende enhet",
-      "IRI-based" : "ProtectiveDevice",
-      "de-de" : "Sicherung",
-      "en" : "Protective Device",
-      "fr-fr" : "équipement de protection"
-    },
-    "subClasses" : [ "662", "670", "401", "532", "671", "672", "659" ],
-    "comment" : {
-      "en" : "A device breaks an electrical circuit when a stated electric current that passes through it is exceeded.\nProvides protection against electrical current only (not as a general protective device)."
-    },
-    "id" : "402",
-    "superClasses" : [ "384" ]
+    "id" : "672",
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Humidifier-ADIABATICAIRWASHER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -6316,7 +6316,7 @@
       "en" : "Air-to-Air Heat Recovery",
       "fr-fr" : "Echangeur air-air"
     },
-    "subClasses" : [ "653", "660", "673", "479", "535", "674", "382", "675", "676" ],
+    "subClasses" : [ "654", "660", "673", "478", "536", "674", "382", "675", "676" ],
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2NT_DsArH7_Q5msK_YfU$N"
     },
@@ -6358,7 +6358,7 @@
     },
     "label" : {
       "IRI-based" : "CableFitting",
-      "de-de" : "Kabelverbinder - Typ",
+      "de-de" : "Kabelverbinder",
       "en" : "Cable Fitting"
     },
     "subClasses" : [ "431", "6", "678", "679", "656" ],
@@ -6385,7 +6385,7 @@
       "en" : "Bend"
     },
     "comment" : {
-      "en" : "a fitting with typically two ports used to change the direction of flow between connected elements",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0TRO3rI8H6H9tkJsr0U5Zs",
       "en-gb" : "a fitting with typically two ports used to change the direction of flow between connected elements"
     },
     "id" : "118",
@@ -6408,7 +6408,7 @@
       "en" : "Residual Current"
     },
     "comment" : {
-      "en" : "a tripping unit activated by residual current detection."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/09h4iCV3XArhCUFOXrUJzB"
     },
     "id" : "605",
     "superClasses" : [ "602" ]
@@ -6451,7 +6451,7 @@
       "en" : "Energy Meter"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0dqsT4P2DFmvAItnTOiex9",
+      "en" : "device that measures, indicates and sometimes records, the energy usage in a system",
       "en-gb" : "device that measures, indicates and sometimes records, the energy usage in a system"
     },
     "id" : "688",
@@ -6477,7 +6477,7 @@
     },
     "subClasses" : [ "692", "693", "441", "694" ],
     "comment" : {
-      "en" : "A flow segment that is specifically used to carry and support cabling."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0wEcZCe1zEsO4LVirAd0ZF"
     },
     "id" : "442",
     "superClasses" : [ "609" ]
@@ -6501,7 +6501,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0FuSpPYcbBcAKNNq77IEUN"
     },
     "id" : "695",
-    "superClasses" : [ "326" ]
+    "superClasses" : [ "327" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Controller-FLOATING",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -6520,7 +6520,7 @@
       "en" : "Floating"
     },
     "comment" : {
-      "en" : "output increases or decreases at a constant or accelerating rate."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3v66KyDUH03vDK75zE5Ddn"
     },
     "id" : "645",
     "superClasses" : [ "103" ]
@@ -6539,8 +6539,8 @@
     "label" : {
       "nb-no" : "varmeveksler",
       "IRI-based" : "HeatExchanger",
-      "de-de" : "Wärmetauscher",
       "nl-nl" : "Warmtewisselaar",
+      "de-de" : "Wärmetauscher",
       "en" : "Heat Exchanger",
       "fr-fr" : "Echangeur de chaleur",
       "da" : "Varmeveksler",
@@ -6548,7 +6548,7 @@
     },
     "subClasses" : [ "698", "699" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3WpPiXIp5Bf89w8w0QL9_r"
+      "en" : "A device used to provide heat transfer between non-mixing media such as plate and shell and tube heat exchangers. Commonly used on water-side distribution systems to recover energy from a liquid to another liquid (typically water-based)."
     },
     "id" : "417",
     "superClasses" : [ "52" ]
@@ -6591,7 +6591,7 @@
       "nb-no" : "tørketrommel",
       "IRI-based" : "ElectricAppliance-TUMBLEDRYER",
       "de-de" : "Wäschetrockner",
-      "en" : "Tumble Dryer",
+      "en" : "Dryer",
       "fr-fr" : "machine séchante"
     },
     "comment" : {
@@ -6619,7 +6619,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2ztf_P39HBTfamG9J37o0l"
     },
-    "id" : "629",
+    "id" : "630",
     "superClasses" : [ "418" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#FlowInstrument",
@@ -6640,11 +6640,11 @@
       "en" : "Flow Instrument",
       "fr-fr" : "Instrument d'installation fluides"
     },
-    "subClasses" : [ "707", "669", "708", "709", "651", "652", "710", "711" ],
+    "subClasses" : [ "707", "672", "708", "709", "651", "652", "710", "711" ],
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/11jUOktIH3ZBjsCen5K$76"
     },
-    "id" : "631",
+    "id" : "628",
     "superClasses" : [ "254" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Humidifier-ASSISTEDSTEAM",
@@ -6670,27 +6670,6 @@
     "id" : "188",
     "superClasses" : [ "95" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Actuator-HYDRAULICACTUATOR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcActuatorEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Actuator-HYDRAULICACTUATOR",
-      "en" : "Hydraulic Actuator"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/23inrfSJTEjPmdb42m6RPS"
-    },
-    "id" : "712",
-    "superClasses" : [ "326" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper-BLASTDAMPER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -6711,7 +6690,28 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/369EqwVYL9pfnNqcXnoDHU"
     },
     "id" : "306",
-    "superClasses" : [ "156" ]
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Actuator-HYDRAULICACTUATOR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcActuatorEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Actuator-HYDRAULICACTUATOR",
+      "en" : "Hydraulic Actuator"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/23inrfSJTEjPmdb42m6RPS"
+    },
+    "id" : "712",
+    "superClasses" : [ "327" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Transformer-VOLTAGE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -6780,6 +6780,29 @@
     "id" : "42",
     "superClasses" : [ "43" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctFitting-ENTRY",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDuctFittingEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "inngang",
+      "IRI-based" : "DuctFitting-ENTRY",
+      "en" : "Entry"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/05vd0J9Jv4yf_lzDUNR9nD",
+      "en-gb" : "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., an outside air duct system intake opening)"
+    },
+    "id" : "122",
+    "superClasses" : [ "25" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Transformer-CURRENT",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -6803,52 +6826,6 @@
     "id" : "467",
     "superClasses" : [ "222" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctFitting-ENTRY",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDuctFittingEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "inngang",
-      "IRI-based" : "DuctFitting-ENTRY",
-      "en" : "Entry"
-    },
-    "comment" : {
-      "en" : "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., an outside air duct system intake opening)",
-      "en-gb" : "entry fitting, typically unconnected at one port and connected to a flow distribution system at the other (e.g., an outside air duct system intake opening)"
-    },
-    "id" : "122",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#LightFixture-SECURITYLIGHTING",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcLightFixtureEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "sikkerhetsbelysning",
-      "IRI-based" : "LightFixture-SECURITYLIGHTING",
-      "en" : "Security Lighting"
-    },
-    "comment" : {
-      "en" : "a light fixture having specific purpose of directing occupants in an emergency, such as an illuminated exit sign or emergency flood light",
-      "en-gb" : "a light fixture having specific purpose of directing occupants in an emergency, such as an illuminated exit sign or emergency flood light"
-    },
-    "id" : "585",
-    "superClasses" : [ "557" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CableSegment",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -6868,7 +6845,7 @@
     },
     "subClasses" : [ "462", "713", "576" ],
     "comment" : {
-      "en" : "A flow segment used to carry electrical power, data, or telecommunications signals."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/26thIKCK1FhfE8oeEPRbVn"
     },
     "id" : "463",
     "superClasses" : [ "609" ]
@@ -6917,6 +6894,29 @@
     "id" : "517",
     "superClasses" : [ "216" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#LightFixture-SECURITYLIGHTING",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcLightFixtureEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "sikkerhetsbelysning",
+      "IRI-based" : "LightFixture-SECURITYLIGHTING",
+      "en" : "Security Lighting"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3r7SZninH9Uh6FH$yz54Pl",
+      "en-gb" : "a light fixture having specific purpose of directing occupants in an emergency, such as an illuminated exit sign or emergency flood light"
+    },
+    "id" : "585",
+    "superClasses" : [ "557" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricAppliance-FREESTANDINGWATERCOOLER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -6950,7 +6950,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "vannmengdemåler",
+      "nb-no" : "flytmåler",
       "IRI-based" : "FlowMeter",
       "de-de" : "Zähler (allgemein)",
       "en" : "Flow Meter",
@@ -6958,7 +6958,7 @@
     },
     "subClasses" : [ "716", "717", "718", "688" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3lICO0qUSHuO00025QrE$V"
+      "en" : "A device that is used to measure the flow rate in a system."
     },
     "id" : "624",
     "superClasses" : [ "384" ]
@@ -7054,7 +7054,7 @@
       "en" : "Heat Recovery Chiller"
     },
     "comment" : {
-      "en" : "heat recovery chiller."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/30ALQiOHn5LetyiGCdujt6"
     },
     "id" : "416",
     "superClasses" : [ "212" ]
@@ -7084,9 +7084,9 @@
       "en" : "Medical Device",
       "fr-fr" : "Equipement médical"
     },
-    "subClasses" : [ "727", "728", "478", "428", "729" ],
+    "subClasses" : [ "727", "728", "479", "428", "729" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1AkDu7dZb8l8V$ZCIldlOl"
+      "en" : "A device is attached to a medical piping system and operates upon medical gases to perform a specific function. Medical gases include medical air, medical vacuum, oxygen, carbon dioxide, nitrogen, and nitrous oxide."
     },
     "id" : "429",
     "superClasses" : [ "555" ]
@@ -7140,7 +7140,7 @@
       "en" : "Scroll Compressor"
     },
     "comment" : {
-      "en" : "positive-displacement compressor using two inter-fitting, spiral-shaped scroll members."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1e5CFyUGv9suZ9ky8c_4Ir"
     },
     "id" : "338",
     "superClasses" : [ "28" ]
@@ -7162,7 +7162,7 @@
       "en" : "Control Panel"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0szSYD3cD3$ucQuwpURDzs",
+      "en" : "a control element at which devices that control or monitor the operation of a site, building or part of a building are located",
       "en-gb" : "a control element at which devices that control or monitor the operation of a site, building or part of a building are located"
     },
     "id" : "133",
@@ -7206,7 +7206,7 @@
       "en" : "Birdcage"
     },
     "comment" : {
-      "en" : "guard cage, typically wire mesh, at the top of the stack preventing access by birds",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2yx3o8h5157elNsihhcZZx",
       "en-gb" : "guard cage, typically wire mesh, at the top of the stack preventing access by birds"
     },
     "id" : "635",
@@ -7229,7 +7229,7 @@
       "en" : "Vertical Turbine"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3Ld4kSekL8MOEqs2litt5v",
+      "en" : "a vertical turbine pump has a motor mounted vertically on the pump casing for either wet-pit sump mounting or dry-well mounting",
       "en-gb" : "a vertical turbine pump has a motor mounted vertically on the pump casing for either wet-pit sump mounting or dry-well mounting"
     },
     "id" : "39",
@@ -7297,7 +7297,7 @@
       "en" : "Inverter Transformer"
     },
     "comment" : {
-      "en" : "device for the conversion of direct current (DC) to alternating current (AC)"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1JVDHhnQb3Hv0o3sTOfXt3"
     },
     "id" : "471",
     "superClasses" : [ "222" ]
@@ -7410,7 +7410,7 @@
       "en-gb" : "a device that reads and displays the current flow in a circuit"
     },
     "id" : "709",
-    "superClasses" : [ "631" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CableCarrierFitting",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -7430,9 +7430,9 @@
       "en" : "Cable Carrier Fitting",
       "fr-fr" : "Raccord de chemin de cable"
     },
-    "subClasses" : [ "724", "650", "649", "327" ],
+    "subClasses" : [ "724", "650", "649", "328" ],
     "comment" : {
-      "en" : "A fitting that is placed at junction or transition in a cable carrier system."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1UxFU0Z7L3wgssm2xurkpg"
     },
     "id" : "30",
     "superClasses" : [ "21" ]
@@ -7541,7 +7541,7 @@
       "en" : "Single Stage Compressor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1sA1FIWkz8SRjvM$gcNai0"
+      "en" : "positive-displacement reciprocating compressor where vapor is compressed in a single stage."
     },
     "id" : "391",
     "superClasses" : [ "28" ]
@@ -7589,7 +7589,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2iiBgNKl10ifd$UgILMf64"
     },
     "id" : "797",
-    "superClasses" : [ "154" ]
+    "superClasses" : [ "156" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SwitchingDevice-EMERGENCYSTOP",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -7633,7 +7633,7 @@
       "en-gb" : "a device that reads and displays the peak voltage in an electrical circuit"
     },
     "id" : "708",
-    "superClasses" : [ "631" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctSilencer",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -7648,14 +7648,14 @@
     },
     "label" : {
       "IRI-based" : "DuctSilencer",
-      "de-de" : "Kanalschalldämpfer",
       "nl-nl" : "Kanaalgeluiddemper",
+      "de-de" : "Kanalschalldämpfer",
       "en" : "Duct Silencer",
       "fr-fr" : "Silencieux circulaire"
     },
     "subClasses" : [ "279", "372", "412" ],
     "comment" : {
-      "en" : "A device that is typically installed inside a duct distribution system for the purpose of reducing the noise levels from air movement, fan noise, etc. in the adjacent space or downstream of the duct silencer device."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2htluultzBmQOOYxoTJ2k5"
     },
     "id" : "280",
     "superClasses" : [ "601" ]
@@ -7704,7 +7704,7 @@
     },
     "subClasses" : [ "410", "416", "414" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1Zpzuw4lf8p9CkbZR8gJou"
+      "en" : "A device used to remove heat from a liquid via a vapor-compression or absorption refrigeration cycle to cool a fluid, typically water or a mixture of water and glycol."
     },
     "id" : "212",
     "superClasses" : [ "52" ]
@@ -7794,8 +7794,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/26urqKngv5ve948m7Tso_5"
     },
-    "id" : "322",
-    "superClasses" : [ "156" ]
+    "id" : "323",
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricGenerator-ENGINEGENERATOR",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -7861,7 +7861,7 @@
     },
     "comment" : {
       "nb-no" : "En innretning som hindrer løv og annet nedfall i å komme inn i nedløpsrøret",
-      "en" : "A fitting for preventing that leaves enters the down-pipe"
+      "en" : "device that prevents solid matter from entering a pipe, pump, valve or meter"
     },
     "id" : "249",
     "superClasses" : [ "127" ]
@@ -7974,8 +7974,8 @@
     },
     "subClasses" : [ "471", "461", "459", "467", "465" ],
     "comment" : {
-      "nl-nl" : "Elektrisch apparaat waarmee spanning en stroom kunnen worden omgezet van hoge naar lage waarden. In de elektrotechniek een omzetter die elektrische wisselstroomenergie van een bepaald spanningsniveau en aantal fasen omzet in energie van een ander spanningsniveau, maar met dezelfde frequentie.",
-      "en" : "A artefact that transfers electric energy without change of frequency                "
+      "nl-nl" : "Elektrisch apparaat die elektrische wisselstroomenergie van een bepaald spanningsniveau en aantal fasen via magnetisch gekoppelde spoelen omzet in energie van een ander spanningsniveau, maar met dezelfde frequentie.",
+      "en" : "An inductive stationary device that transfers electrical energy from one circuit to another."
     },
     "id" : "222",
     "superClasses" : [ "52" ]
@@ -7998,7 +7998,7 @@
     },
     "comment" : {
       "nb-no" : "Temperaturstyrt bryter",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3MCWw0I6yHuO00025QrE$V"
+      "en" : "Is the component of a control system which regulates the temperature of a system so that the system's temperature is maintained near a desired set point temperature"
     },
     "id" : "527",
     "superClasses" : [ "134" ]
@@ -8021,9 +8021,9 @@
       "en" : "Flow Controller",
       "fr-fr" : "contrôleur de débit"
     },
-    "subClasses" : [ "156", "402", "624", "622", "545", "15", "206", "145" ],
+    "subClasses" : [ "154", "402", "624", "622", "545", "15", "206", "145" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1iDky6Xqz0NhbMNjWBjWCy"
+      "en" : "the distribution flow element ifcflowcontroller defines the occurrence of elements of a distribution system that are used to regulate flow through a distribution system. examples include dampers, valves, switches, and relays. its type is defined by ifcflowcontrollertype or subtypes."
     },
     "id" : "384",
     "superClasses" : [ "195" ]
@@ -8137,29 +8137,6 @@
     "id" : "525",
     "superClasses" : [ "226" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricMotor-POLYPHASE",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcElectricMotorEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "flerfasmotor",
-      "IRI-based" : "ElectricMotor-POLYPHASE",
-      "en" : "Polyphase Motor"
-    },
-    "comment" : {
-      "en" : "a two or three-phase induction motor in which the windings, one for each phase, are evenly divided by the same number of electrical degrees",
-      "en-gb" : "a two or three-phase induction motor in which the windings, one for each phase, are evenly divided by the same number of electrical degrees"
-    },
-    "id" : "55",
-    "superClasses" : [ "51" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DistributionFlowElement",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -8180,7 +8157,7 @@
     },
     "subClasses" : [ "52", "21", "601", "194", "609", "555", "63", "400", "384" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2Ci$80qWWHuO00025QrE$V"
+      "en" : "A distribution element defined by occurrence elements of a distribution system that facilitate the distribution of energy or matter, such as air, water or power.\nExamples are ducts, pipes, wires, fittings, and equipment."
     },
     "id" : "195",
     "superClasses" : [ "136" ]
@@ -8202,11 +8179,34 @@
       "en" : "Free Standing Water Heater"
     },
     "comment" : {
-      "en" : "a small, local electrical appliance for heating water. a freestanding water heater is a 'plugged' appliance whose load may be removed from an electric circuit",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0hmcm_zGD2HuO7SHEfEIAX",
       "en-gb" : "a small, local electrical appliance for heating water. a freestanding water heater is a 'plugged' appliance whose load may be removed from an electric circuit"
     },
     "id" : "790",
     "superClasses" : [ "474" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricMotor-POLYPHASE",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcElectricMotorEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "flerfasmotor",
+      "IRI-based" : "ElectricMotor-POLYPHASE",
+      "en" : "Polyphase Motor"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1US3A1hwXBIA9FaVqUl3HY",
+      "en-gb" : "a two or three-phase induction motor in which the windings, one for each phase, are evenly divided by the same number of electrical degrees"
+    },
+    "id" : "55",
+    "superClasses" : [ "51" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirToAirHeatRecovery-TWINTOWERENTHALPYRECOVERYLOOPS",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -8269,7 +8269,7 @@
       "en" : "Momentary Switch"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1GXuot6Zv41wgJSbaoN8g7",
+      "en" : "а momentary switch has no position, and may trigger some action to occur",
       "en-gb" : "а momentary switch has no position, and may trigger some action to occur"
     },
     "id" : "205",
@@ -8310,7 +8310,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "bidè",
+      "nb-no" : "bidé",
       "IRI-based" : "SanitaryTerminal-BIDET",
       "en" : "Bidet"
     },
@@ -8342,7 +8342,7 @@
       "en-gb" : "a device that reads and displays the phase angle of a phase in a polyphase electrical circuit"
     },
     "id" : "711",
-    "superClasses" : [ "631" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#LightFixture",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -8429,7 +8429,7 @@
       "en" : "Standalone Generator"
     },
     "comment" : {
-      "en" : "electrical generator which does not include its source of kinetic energy, that is, a motor, engine, or turbine are all modeled separately",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/385E6cNGD9CAcjlAWZNrUW",
       "en-gb" : "electrical generator which does not include its source of kinetic energy, that is, a motor, engine, or turbine are all modeled separately"
     },
     "id" : "397",
@@ -8453,7 +8453,7 @@
     },
     "subClasses" : [ "107", "59", "65", "69" ],
     "comment" : {
-      "en" : "A device designed and installed in order to separate and retain deleterious, hazardous or undesirable matter while permitting normal sewage or liquids to discharge into a collection system by gravity."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/11vN9pRrz0KQUNzVQ5_2RM"
     },
     "id" : "60",
     "superClasses" : [ "601" ]
@@ -8483,29 +8483,6 @@
     "id" : "74",
     "superClasses" : [ "52" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Tank-VESSEL",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcTankEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "beholder",
-      "IRI-based" : "Tank-VESSEL",
-      "en" : "Vessel"
-    },
-    "comment" : {
-      "en" : "an arbitrary closed tank type",
-      "en-gb" : "an arbitrary closed tank type"
-    },
-    "id" : "444",
-    "superClasses" : [ "36" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#PipeFitting",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -8530,6 +8507,29 @@
     },
     "id" : "2",
     "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Tank-VESSEL",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcTankEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "beholder",
+      "IRI-based" : "Tank-VESSEL",
+      "en" : "Vessel"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2rdBMMRl56p9qdnIOKnbwO",
+      "en-gb" : "an arbitrary closed tank type"
+    },
+    "id" : "444",
+    "superClasses" : [ "36" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryControlElement-WEATHERSTATION",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -8593,7 +8593,7 @@
     },
     "subClasses" : [ "298", "302", "237", "242", "126", "249" ],
     "comment" : {
-      "en" : "An apparatus used to remove particulate or gaseous matter from fluids and gases"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/07moCBVkH3OhoQDperZAGA"
     },
     "id" : "127",
     "superClasses" : [ "601" ]
@@ -8615,7 +8615,7 @@
       "en" : "Bell"
     },
     "comment" : {
-      "en" : "an audible alarm"
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2iAce1_ub4pRT_gbGydGqi"
     },
     "id" : "616",
     "superClasses" : [ "422" ]
@@ -8680,7 +8680,7 @@
       "en" : "Sump Pump"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2WUDpiKfDE5u4DZMLBdExr",
+      "en" : "a pump designed to sit above a collection tank with a suction inlet extending into the tank",
       "en-gb" : "a pump designed to sit above a collection tank with a suction inlet extending into the tank"
     },
     "id" : "80",
@@ -8704,8 +8704,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0fo0nZHmT5twFp0u9haG2I"
     },
-    "id" : "4",
-    "superClasses" : [ "5" ]
+    "id" : "17",
+    "superClasses" : [ "12" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirToAirHeatRecovery-THERMOSIPHONSEALEDTUBEHEATEXCHANGERS",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -8812,8 +8812,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0uYC2U15n0ggOtHNsP3kmN"
     },
-    "id" : "350",
-    "superClasses" : [ "330" ]
+    "id" : "336",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Humidifier-ASSISTEDBUTANE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -8854,7 +8854,7 @@
       "en" : "Water Cooled"
     },
     "comment" : {
-      "en" : "water-cooled condenser with unspecified operation",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1$_Cv8DcnEIhdevMYpgzOs",
       "en-gb" : "water-cooled condenser with unspecified operation"
     },
     "id" : "377",
@@ -8902,10 +8902,33 @@
       "en" : "Hydronic Coil"
     },
     "comment" : {
-      "en" : "cooling or Heating coil that uses a hydronic fluid as a cooling or heating source."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0KqvZFKzH5SQiVr$vKoSfk"
     },
     "id" : "152",
     "superClasses" : [ "139" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Lamp-HIGHPRESSUREMERCURY",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcLampEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "høytrykk - bly lampe",
+      "IRI-based" : "Lamp-HIGHPRESSUREMERCURY",
+      "en" : "High Pressure Mercury"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2QODll5IXBLOrmpb298AP_",
+      "en-gb" : "a discharge lamp in which most of the light is emitted by exciting mercury at high pressure"
+    },
+    "id" : "594",
+    "superClasses" : [ "160" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Actuator-ELECTRICACTUATOR",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -8927,30 +8950,7 @@
       "en" : "a device that electrically actuates a control element"
     },
     "id" : "756",
-    "superClasses" : [ "326" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Lamp-HIGHPRESSUREMERCURY",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcLampEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "høytrykk - bly lampe",
-      "IRI-based" : "Lamp-HIGHPRESSUREMERCURY",
-      "en" : "High Pressure Mercury"
-    },
-    "comment" : {
-      "en" : "a discharge lamp in which most of the light is emitted by exciting mercury at high pressure",
-      "en-gb" : "a discharge lamp in which most of the light is emitted by exciting mercury at high pressure"
-    },
-    "id" : "594",
-    "superClasses" : [ "160" ]
+    "superClasses" : [ "327" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#FlowMeter-OILMETER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -9038,28 +9038,6 @@
     "id" : "713",
     "superClasses" : [ "463" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirTerminal-REGISTER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcAirTerminalEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "register",
-      "IRI-based" : "AirTerminal-REGISTER",
-      "en" : "Register"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3PWMnCjqP5peD0PtO2aiy5"
-    },
-    "id" : "834",
-    "superClasses" : [ "455" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AudioVisualAppliance-TUNER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -9082,6 +9060,28 @@
     },
     "id" : "554",
     "superClasses" : [ "216" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AirTerminal-REGISTER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcAirTerminalEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "register",
+      "IRI-based" : "AirTerminal-REGISTER",
+      "en" : "Register"
+    },
+    "comment" : {
+      "en" : "a grille typically equipped with a damper or control valve."
+    },
+    "id" : "834",
+    "superClasses" : [ "455" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#PipeSegment-FLEXIBLESEGMENT",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -9125,7 +9125,7 @@
     },
     "subClasses" : [ "844", "883", "804", "661", "809" ],
     "comment" : {
-      "en" : "A suppression terminal has the purpose of delivering a fluid (gas or liquid) that will suppress a fire.\nProvides for all forms of sprinkler, spreader and other form of terminal that is connected to a pipework system and intended to act in the role of suppressing a fire."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1P1aiBVvPDjPVBP4TWbJw6"
     },
     "id" : "556",
     "superClasses" : [ "555" ]
@@ -9148,7 +9148,7 @@
       "fr-fr" : "connecteur"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1xjOGZ4kX1g8pvaS5Bd5bG",
+      "en" : "a device for keeping two parts of an electric circuit in contact",
       "en-gb" : "a device for keeping two parts of an electric circuit in contact"
     },
     "id" : "679",
@@ -9166,7 +9166,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "drivbelte",
+      "nb-no" : "beltedrevet",
       "IRI-based" : "MotorConnection-BELTDRIVE",
       "en" : "Belt Drive Motor Connection"
     },
@@ -9174,7 +9174,7 @@
       "en" : "an indirect connection made through the medium of a shaped, flexible continuous loop",
       "en-gb" : "an indirect connection made through the medium of a shaped, flexible continuous loop"
     },
-    "id" : "630",
+    "id" : "631",
     "superClasses" : [ "418" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SwitchingDevice-STARTER",
@@ -9194,7 +9194,7 @@
       "en" : "Starter"
     },
     "comment" : {
-      "en" : "а starter is a switch which in the closed position controls the application of power to an electrical device",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2R7sKp3Zz8EvRVJenaoFA0",
       "en-gb" : "а starter is a switch which in the closed position controls the application of power to an electrical device"
     },
     "id" : "224",
@@ -9261,7 +9261,7 @@
       "en" : "Air-Cooled Chiller"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0Tmp5umYX80uDxxCJQrW$a",
+      "en" : "air cooled chiller",
       "en-gb" : "air cooled chiller"
     },
     "id" : "410",
@@ -9279,7 +9279,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "gren",
+      "nb-no" : "grenrør",
       "IRI-based" : "PipeFitting-JUNCTION",
       "en" : "Junction"
     },
@@ -9326,7 +9326,7 @@
       "en" : "Electric Appliance",
       "fr-fr" : "Appareil électrique"
     },
-    "subClasses" : [ "473", "714", "610", "706", "658", "665", "801", "770", "780", "569", "785", "663", "790", "793", "632", "596" ],
+    "subClasses" : [ "473", "714", "610", "706", "658", "665", "801", "770", "780", "569", "785", "662", "790", "793", "632", "596" ],
     "comment" : {
       "en" : "A device intended for consumer usage that is powered by electricity.\nMay be fixed in place or able to be moved from one space to another. Requires an electrical supply that may be supplied either by an electrical circuit or provided from a local battery source."
     },
@@ -9372,7 +9372,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/33CCzm2CLBDfHv1gHVU8MC"
     },
-    "id" : "316",
+    "id" : "332",
     "superClasses" : [ "252" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Fan-CENTRIFUGALFORWARDCURVED",
@@ -9393,8 +9393,8 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2BtF98qKP9pAJgsmJrKTcX"
     },
-    "id" : "364",
-    "superClasses" : [ "330" ]
+    "id" : "348",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Filter-OILFILTER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -9436,10 +9436,10 @@
       "en" : "Varistor"
     },
     "comment" : {
-      "en" : "a high voltage surge protection device",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3DtLJ1DjT4LOUFArBkjO_e",
       "en-gb" : "a high voltage surge protection device"
     },
-    "id" : "672",
+    "id" : "671",
     "superClasses" : [ "402" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Evaporator-FLOODEDSHELLANDTUBE",
@@ -9483,7 +9483,7 @@
     },
     "subClasses" : [ "871", "873", "677", "862", "456" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/27v4E0qV8HuO00025QrE$V"
+      "en" : "A segment is used to typically join two sections of a piping network."
     },
     "id" : "457",
     "superClasses" : [ "609" ]
@@ -9527,7 +9527,7 @@
       "en" : "Semi Hermetic Compressor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0rQK7zwf97_vwAvPlWuuME"
+      "en" : "positive-displacement reciprocating compressor where the hermetic compressors use bolted construction amenable to field repair."
     },
     "id" : "386",
     "superClasses" : [ "28" ]
@@ -9662,12 +9662,12 @@
       "IRI-based" : "Boiler",
       "nl-nl" : "Warmwatertoestel",
       "de-de" : "Heizkessel",
-      "en" : "Boiler",
+      "en" : "water boiler",
       "fr-fr" : "Chaudière"
     },
     "subClasses" : [ "827", "667" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2n42GxcQv3ZeE_LK7_FaP7"
+      "en" : "A closed, pressure-rated vessel in which water or other fluid is heated using an energy source such as natural gas, heating oil, or electricity. "
     },
     "id" : "419",
     "superClasses" : [ "52" ]
@@ -9689,7 +9689,7 @@
       "en" : "Fax"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0rZr4shW90zOb$tqxFAwq_",
+      "en" : "a machine for transmitting and receiving faxes",
       "en-gb" : "a machine for transmitting and receiving faxes"
     },
     "id" : "841",
@@ -9736,7 +9736,7 @@
       "en" : "Bend"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/02T1S3SGrDMBMfyCIF7X4E",
+      "en" : "a fitting that changes the route of the cable carrier.",
       "en-gb" : "a fitting that changes the route of the cable carrier."
     },
     "id" : "724",
@@ -9786,28 +9786,6 @@
     "id" : "158",
     "superClasses" : [ "139" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-ROTARYVANE",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcCompressorEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "kompressor - roterende vinge",
-      "IRI-based" : "Compressor-ROTARYVANE",
-      "en" : "Rotary Vane Compressor"
-    },
-    "comment" : {
-      "en" : "positive-displacement rotary compressor using a roller mounted on the eccentric of a shaft with multiple vanes in the nontotating cylindrical housing."
-    },
-    "id" : "357",
-    "superClasses" : [ "28" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-OPENTYPE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -9825,9 +9803,31 @@
       "en" : "Open Type Compressor"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/35$2VQ6Vf3yAbaBgoiZ_Qy"
+      "en" : "positive-displacement reciprocating compressor where the shaft extends through a seal in the crankcase for an external drive."
     },
-    "id" : "353",
+    "id" : "355",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Compressor-ROTARYVANE",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcCompressorEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "kompressor - roterende vinge",
+      "IRI-based" : "Compressor-ROTARYVANE",
+      "en" : "Rotary Vane Compressor"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3Fnn56$If0Ywd7AMXubW5r"
+    },
+    "id" : "358",
     "superClasses" : [ "28" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CoolingTower-NATURALDRAFT",
@@ -10140,7 +10140,7 @@
       "en" : "Gas Meter"
     },
     "comment" : {
-      "en" : "device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2d9Kt_TA9Dww_aaJ0$7nqk",
       "en-gb" : "device that measures, indicates and sometimes records, the volume of gas that passes through it without interrupting the flow"
     },
     "id" : "718",
@@ -10184,32 +10184,11 @@
       "en" : "Adiabatic Ultra Sonic"
     },
     "comment" : {
-      "en" : "water vapor is added into the airstream through adiabatic evaporation using an ultrasonic element",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0LHdcNpKzA9fe_4pzr59WD",
       "en-gb" : "water vapor is added into the airstream through adiabatic evaporation using an ultrasonic element"
     },
     "id" : "193",
     "superClasses" : [ "95" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper-CONTROLDAMPER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDamperEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Damper-CONTROLDAMPER",
-      "en" : "Control Damper"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2rVf7QFRTEWOLI2fZJuW7H"
-    },
-    "id" : "294",
-    "superClasses" : [ "156" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Valve-FLUSHING",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -10231,6 +10210,27 @@
     },
     "id" : "494",
     "superClasses" : [ "145" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Damper-CONTROLDAMPER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcDamperEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Damper-CONTROLDAMPER",
+      "en" : "Control Damper"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2rVf7QFRTEWOLI2fZJuW7H"
+    },
+    "id" : "294",
+    "superClasses" : [ "154" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Valve-GASCOCK",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -10270,7 +10270,7 @@
       "en" : "Hermetic Compressor"
     },
     "comment" : {
-      "en" : "positive-displacement reciprocating compressor where the motor and compressor are contained within the same housing, with the motor shaft integral with the compressor crankshaft and the motor in contact with refrigerant."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1QxsNyRLjDEfER9sd9a4nA"
     },
     "id" : "32",
     "superClasses" : [ "28" ]
@@ -10292,7 +10292,7 @@
       "en" : "Inspection Chamber"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0XN2ZdAhP8tPdjsk4V3170",
+      "en" : "chamber constructed on a drain, sewer or pipeline with a removable cover that permits visble inspection",
       "en-gb" : "chamber constructed on a drain, sewer or pipeline with a removable cover that permits visble inspection"
     },
     "id" : "200",
@@ -10354,13 +10354,13 @@
       } ]
     },
     "label" : {
-      "nb-no" : "dusjkabinett",
+      "nb-no" : "dusj",
       "IRI-based" : "SanitaryTerminal-SHOWER",
-      "en" : "shower cabinet"
+      "en" : "Shower"
     },
     "comment" : {
-      "nb-no" : "Dusjhjørne",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0epJRcLij1_O8OcMA6Y0WR"
+      "nb-no" : "Dusj beskyttet med kabinett",
+      "en" : "Shower installed in its own cabinet"
     },
     "id" : "296",
     "superClasses" : [ "240" ]
@@ -10406,7 +10406,7 @@
     },
     "subClasses" : [ "519", "521", "524", "527", "529", "531", "169", "133" ],
     "comment" : {
-      "en" : "A control element combines a number of control components into a single product, such as a thermostat or humidistat.\nProvides a housing for an aggregation of control or electrical distribution elements that, in combination, perform a singular (unitary) purpose. Each item in the aggregation may have its own geometric representation and location."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1K4LPg0kL5k8UuFp4BB3Q9"
     },
     "id" : "134",
     "superClasses" : [ "254" ]
@@ -10524,10 +10524,10 @@
       "en" : "Frequency Meter"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/01E8ZEHkn6nuRHiPM5blVG"
+      "en" : "a device that reads and displays the electrical frequency of an alternating current circuit."
     },
     "id" : "710",
-    "superClasses" : [ "631" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SanitaryTerminal-SINK",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -10541,15 +10541,15 @@
       } ]
     },
     "label" : {
-      "nb-no" : "utslagsvask",
+      "nb-no" : "servant",
       "IRI-based" : "SanitaryTerminal-SINK",
-      "en" : "wash basin"
+      "en" : "Sink"
     },
     "comment" : {
-      "nb-no" : "Vanlig stor",
-      "en" : "container for water located below water dispenser, used for washing hands and face"
+      "nb-no" : "beholder for vann under kran til vasking av hender og ansikt",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1SP1BV0Wj9lf1y$D1yvjLF"
     },
-    "id" : "319",
+    "id" : "320",
     "superClasses" : [ "240" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricFlowStorageDevice-INDUCTORBANK",
@@ -10632,7 +10632,7 @@
       "en" : "Antenna"
     },
     "comment" : {
-      "en" : "a transducer designed to transmit or receive electromagnetic waves."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0C2VVYeDP29xB3DZDSeUl0"
     },
     "id" : "852",
     "superClasses" : [ "167" ]
@@ -10654,7 +10654,7 @@
       "en" : "Vertical Inline"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0J3vLYrIDCfQEZZ8ZeRATw",
+      "en" : "a vertical Inline pump has the pump and motor close-coupled on the pump casing. the pump depends on the connected, horizontal piping for support, with the suction and discharge along the piping axis",
       "en-gb" : "a vertical Inline pump has the pump and motor close-coupled on the pump casing. the pump depends on the connected, horizontal piping for support, with the suction and discharge along the piping axis"
     },
     "id" : "88",
@@ -10672,7 +10672,7 @@
       } ]
     },
     "label" : {
-      "nb-no" : "relé",
+      "nb-no" : "relè",
       "IRI-based" : "ElectricTimeControl-RELAY",
       "en" : "Relay",
       "fr-fr" : "relais"
@@ -10703,7 +10703,7 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/1P$PbnF35AFwKgPqjZPzC0"
     },
     "id" : "707",
-    "superClasses" : [ "631" ]
+    "superClasses" : [ "628" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricAppliance-FREESTANDINGELECTRICHEATER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -10814,6 +10814,32 @@
     "id" : "531",
     "superClasses" : [ "134" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcSpaceHeater",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "varmeenhet",
+      "IRI-based" : "SpaceHeater",
+      "nl-nl" : "ruimteverwarmingstoestel",
+      "de-de" : "Heizkörper",
+      "en" : "Space Heater",
+      "fr-fr" : "radiateur"
+    },
+    "subClasses" : [ "50", "4" ],
+    "comment" : {
+      "en" : "Heaters utilize a combination of radiation and/or natural convection using a heating source such as electricity, steam or hot water to heat a limited space or area. Examples of space heaters include radiators, convectors, baseboard and finned-tube heaters."
+    },
+    "id" : "5",
+    "superClasses" : [ "555" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -10832,38 +10858,12 @@
       "en" : "Solar Device",
       "fr-fr" : "capteur solaire"
     },
-    "subClasses" : [ "50", "4" ],
+    "subClasses" : [ "11", "17" ],
     "comment" : {
       "en" : "A device converts solar radiation into other energy such as electric current or thermal energy."
     },
-    "id" : "5",
-    "superClasses" : [ "52" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcSpaceHeater",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "varmeenhet",
-      "IRI-based" : "SpaceHeater",
-      "nl-nl" : "lokaal verwarmingstoestel",
-      "de-de" : "Heizkörper",
-      "en" : "heater",
-      "fr-fr" : "radiateur"
-    },
-    "subClasses" : [ "11", "17" ],
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/39lbLJ2412vOKf6Cp8ojJd"
-    },
     "id" : "12",
-    "superClasses" : [ "555" ]
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Tank-STORAGE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -10903,7 +10903,7 @@
       "en" : "Water Cooled Shell Coil"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2y2FRrDI58wPQ$P0QmPB4S"
+      "en" : "water-cooled condenser with cooling water circulated through one or more continuous or assembled coils contained within the shell."
     },
     "id" : "375",
     "superClasses" : [ "99" ]
@@ -10951,7 +10951,7 @@
     "subClasses" : [ "7", "25", "30", "43", "2" ],
     "comment" : {
       "nb-no" : "Elkraftfordeling til driftstekniske installasjoner",
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/0QXNqIaY58ARlIeBKvxECI"
+      "en" : "the distribution flow element ifcflowfitting defines the occurrence of a junction or transition in a flow distribution system, such as an elbow or tee. its type is defined by ifcflowfittingtype or its subtypes."
     },
     "id" : "21",
     "superClasses" : [ "195" ]
@@ -10974,7 +10974,7 @@
       "fr-fr" : "grille"
     },
     "comment" : {
-      "en" : "a covering for any area through which air passes."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2hjaxvDcLE49ehxXYke964"
     },
     "id" : "838",
     "superClasses" : [ "455" ]
@@ -10996,7 +10996,7 @@
       "en" : "Rolling Piston Compressor"
     },
     "comment" : {
-      "en" : "positive-displacement rotary compressor using a roller mounted on the eccentric of a shaft with a single vane in the nonrotating cylindrical housing."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/25ip$MycH3CApiL8P1Zfua"
     },
     "id" : "34",
     "superClasses" : [ "28" ]
@@ -11019,7 +11019,7 @@
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2RbnT6FAn6fxAlZWiSgJ_I"
     },
-    "id" : "670",
+    "id" : "669",
     "superClasses" : [ "402" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SolarDevice-SOLARPANEL",
@@ -11042,8 +11042,8 @@
       "en" : "http://bsdd.buildingsmart.org/#concept/details/2S$Xvvjqn1GAvVFoENZhtk",
       "en-gb" : "a device that converts solar radiation into electric current"
     },
-    "id" : "50",
-    "superClasses" : [ "5" ]
+    "id" : "11",
+    "superClasses" : [ "12" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#CommunicationsAppliance-SCANNER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -11062,7 +11062,7 @@
       "en" : "Scanner"
     },
     "comment" : {
-      "en" : "a device that scans documents and converts them into digital data",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3Zb4cC11TBmAB3gBWRepr4",
       "en-gb" : "a device that scans documents and converts them into digital data"
     },
     "id" : "857",
@@ -11090,29 +11090,6 @@
     "id" : "871",
     "superClasses" : [ "457" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Outlet-TELEPHONEOUTLET",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcOutletEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "telekommunikasjonsuttak",
-      "IRI-based" : "Outlet-TELEPHONEOUTLET",
-      "en" : "Telephone Outlet"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3sQmISw8154AzAhVrfw8CI",
-      "en-gb" : "an outlet used for connecting telephone communications equipment"
-    },
-    "id" : "559",
-    "superClasses" : [ "162" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Sensor-IDENTIFIERSENSOR",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -11131,6 +11108,29 @@
     "id" : "263",
     "superClasses" : [ "253" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Outlet-TELEPHONEOUTLET",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcOutletEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "telekommunikasjonsuttak",
+      "IRI-based" : "Outlet-TELEPHONEOUTLET",
+      "en" : "Telephone Outlet"
+    },
+    "comment" : {
+      "en" : "an outlet used for connecting telephone communications equipment",
+      "en-gb" : "an outlet used for connecting telephone communications equipment"
+    },
+    "id" : "559",
+    "superClasses" : [ "162" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Lamp-HIGHPRESSURESODIUM",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -11148,7 +11148,7 @@
       "en" : "High Pressure Sodium"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1vX9Auimj7BfAyryFJkgkm",
+      "en" : "a discharge lamp in which most of the light is emitted by exciting sodium at high pressure",
       "en-gb" : "a discharge lamp in which most of the light is emitted by exciting sodium at high pressure"
     },
     "id" : "589",
@@ -11177,6 +11177,32 @@
     "id" : "862",
     "superClasses" : [ "457" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#WasteTerminal",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcWasteTerminal",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "avfallsterminal",
+      "IRI-based" : "WasteTerminal",
+      "de-de" : "Abscheider",
+      "nl-nl" : "Vuilwaterput",
+      "en" : "Waste Terminal",
+      "fr-fr" : "Stockage des déchets"
+    },
+    "subClasses" : [ "352", "324", "360", "251", "368", "330", "332" ],
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3IXcC8tvn4igBk64SckDjX"
+    },
+    "id" : "252",
+    "superClasses" : [ "555" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Filter-AIRPARTICLEFILTER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -11199,32 +11225,6 @@
     "id" : "302",
     "superClasses" : [ "127" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#WasteTerminal",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcWasteTerminal",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "avfallsterminal",
-      "IRI-based" : "WasteTerminal",
-      "de-de" : "Abscheider",
-      "nl-nl" : "Vuilwaterput",
-      "en" : "Waste Terminal",
-      "fr-fr" : "Stockage des déchets"
-    },
-    "subClasses" : [ "336", "323", "343", "251", "308", "312", "316" ],
-    "comment" : {
-      "en" : "A terminal for the purpose of collecting or intercepting waste from one or more sanitary terminals or other fluid waste generating equipment and discharging it into a single waste/drainage system.\nProvides for all forms of trap and waste point that collects discharge from a sanitary terminal and discharges it into a waste/drainage subsystem or that collects waste from several terminals and passes it into a single waste/drainage subsystem. Includes the P and S traps from soil sanitary terminals, sinks, and basins as well as floor wastes and gully traps that provide collection points."
-    },
-    "id" : "252",
-    "superClasses" : [ "555" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SanitaryTerminal-BATH",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -11241,10 +11241,10 @@
       "pl-pl" : "wanna",
       "nb-no" : "bad",
       "IRI-based" : "SanitaryTerminal-BATH",
-      "nl-nl" : "bad",
       "de-de" : "Badewanne",
+      "nl-nl" : "bad",
       "sv-se" : "bad",
-      "en" : "Bath",
+      "en" : "bathtub",
       "fr-fr" : "baignoire",
       "en-gb" : "bath",
       "dk-dk" : "bad"
@@ -11254,7 +11254,7 @@
       "nb-no" : "Badekar, generisk, modelleres av ARK i tidlig fase",
       "de-de" : "Sanitärobjekt, das der persönlichen Hygiene, vorzugsweise dem Baden und vollständigen Reinigen des menschlichen Körpers dient und mit das Wasser nach dem Gebrauch über ein Ablaufloch abgeleitet werden kann",
       "sv-se" : "badkar, allmänt, arkitektens modeller under utformningens första steg",
-      "en" : "sanitary appliance used for partial immersion and washing of the human body or parts of it, and for directing water to a waste outlet after use",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3obubztQ19OANL1cKUM33Z",
       "fr-fr" : "baignoire, générique, modeles par l'architecte dans les premières étapes de la conception",
       "en-gb" : "sanitary appliance used for partial immersion and washing of the human body or parts of it, and for directing water to a waste outlet after use",
       "dk-dk" : "badekar, generisk, arkitekttegnede modeller i tidlige designfaser"
@@ -11305,30 +11305,6 @@
     "id" : "591",
     "superClasses" : [ "160" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater-RADIATOR",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcSpaceHeaterEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "varmelegeme",
-      "IRI-based" : "SpaceHeater-RADIATOR",
-      "de-de" : "Radiator",
-      "en" : "Radiator",
-      "fr-fr" : "radiateur"
-    },
-    "comment" : {
-      "en" : "a heat appliance which emits heat by free convection and radiation"
-    },
-    "id" : "11",
-    "superClasses" : [ "12" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SanitaryTerminal",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -11348,12 +11324,36 @@
       "en" : "Sanitary Terminal",
       "fr-fr" : "Equipement sanitaire"
     },
-    "subClasses" : [ "319", "282", "284", "288", "292", "296", "300", "304", "239", "244" ],
+    "subClasses" : [ "320", "282", "284", "288", "292", "296", "300", "304", "239", "244" ],
     "comment" : {
-      "en" : "A fixed appliance or terminal usually supplied with water and used for drinking, cleaning or foul water disposal or that is an item of equipment directly used with such an appliance or terminal."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2JIcddz_X75xhHc1XUv7d2"
     },
     "id" : "240",
     "superClasses" : [ "555" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SpaceHeater-RADIATOR",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcSpaceHeaterEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "varmelegeme",
+      "IRI-based" : "SpaceHeater-RADIATOR",
+      "de-de" : "Radiator",
+      "en" : "Radiator",
+      "fr-fr" : "radiateur"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/38a4eei5j5vQs7YtSb7quf"
+    },
+    "id" : "50",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricFlowStorageDevice-CAPACITORBANK",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -11481,7 +11481,7 @@
       "en" : "Electronic"
     },
     "comment" : {
-      "en" : "a tripping unit activated by electronic action",
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3LipcBG$z8SuRRCttfOFHZ",
       "en-gb" : "a tripping unit activated by electronic action"
     },
     "id" : "604",
@@ -11501,14 +11501,14 @@
     "label" : {
       "nb-no" : "fordampningskjøler",
       "IRI-based" : "EvaporativeCooler",
-      "de-de" : "Verdunstungskühler",
       "nl-nl" : "verdampingskoeler",
+      "de-de" : "Verdunstungskühler",
       "en" : "Evaporative Cooler",
       "fr-fr" : "Refroidisseur évaporatif"
     },
-    "subClasses" : [ "398", "654", "917", "743", "380", "666", "209", "614", "627" ],
+    "subClasses" : [ "398", "653", "917", "743", "380", "666", "209", "614", "627" ],
     "comment" : {
-      "en" : "A device that cools air by saturating it with water vapor."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3q9N4QJHXEvB$P7TiIBB3x"
     },
     "id" : "210",
     "superClasses" : [ "52" ]
@@ -11574,7 +11574,7 @@
       "en" : "Entry"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/07gAPw_U1EguTzO5UilotA"
+      "en" : "a fitting that begins a cable segment at a non-electrical element such as a grounding clamp attached to a pipe"
     },
     "id" : "678",
     "superClasses" : [ "7" ]
@@ -11619,11 +11619,11 @@
       "en" : "Unitary Equipment",
       "fr-fr" : "Equipement unitaire"
     },
-    "subClasses" : [ "925", "655", "153", "797", "637" ],
+    "subClasses" : [ "925", "655", "155", "797", "637" ],
     "comment" : {
       "en" : "http://bsdd.buildingsmart.org/#concept/details/0mUhAIpDb3mfYfYDW63M7U"
     },
-    "id" : "154",
+    "id" : "156",
     "superClasses" : [ "52" ]
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Person",
@@ -11652,7 +11652,7 @@
       "en" : "Oxygen Plant"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2Z$pgegmf8Bv9ktRxYuUY7"
+      "en" : "device that combines a feed air unit, oxygen generator, and backup oxygen cylinders"
     },
     "id" : "727",
     "superClasses" : [ "429" ]
@@ -11871,7 +11871,7 @@
     },
     "subClasses" : [ "60", "127", "280" ],
     "comment" : {
-      "en" : "the distribution flow element ifcflowtreatmentdevice defines the occurrence of a device typically used to remove unwanted matter from a fluid, either liquid or gas, and typically participates in a flow distribution system. its type is defined by ifcflowtreatmentdevicetype or its subtypes."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/358GrBQjP36vPq9aYtgYQa"
     },
     "id" : "601",
     "superClasses" : [ "195" ]
@@ -11914,33 +11914,11 @@
       "en" : "Adiabatic Compressed Air Nozzle"
     },
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/2HCfOW4In2BREPSqe5Ms$p",
+      "en" : "water vapor is added into the airstream through adiabatic evaporation using a compressed air nozzle",
       "en-gb" : "water vapor is added into the airstream through adiabatic evaporation using a compressed air nozzle"
     },
     "id" : "189",
     "superClasses" : [ "95" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Controller-MULTIPOSITION",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcControllerEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "flerposisjonskontroller",
-      "IRI-based" : "Controller-MULTIPOSITION",
-      "en" : "Multi-Position"
-    },
-    "comment" : {
-      "en" : "output is discrete value, can be one of three or more values."
-    },
-    "id" : "644",
-    "superClasses" : [ "103" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryControlElement-MIMICPANEL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -11964,6 +11942,28 @@
     },
     "id" : "519",
     "superClasses" : [ "134" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Controller-MULTIPOSITION",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcControllerEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "flerposisjonskontroller",
+      "IRI-based" : "Controller-MULTIPOSITION",
+      "en" : "Multi-Position"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/2a0hNKxwTAH8HS3TExjKQd"
+    },
+    "id" : "644",
+    "superClasses" : [ "103" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#AudioVisualAppliance-AMPLIFIER",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -12079,6 +12079,27 @@
     "id" : "827",
     "superClasses" : [ "419" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryEquipment-AIRCONDITIONINGUNIT",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcUnitaryEquipmentEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "UnitaryEquipment-AIRCONDITIONINGUNIT",
+      "en" : "Air Conditioning Unit"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/1PIU70CHzCMAt_h32UKgoE"
+    },
+    "id" : "925",
+    "superClasses" : [ "156" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#SwitchingDevice-KEYPAD",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -12102,27 +12123,6 @@
     "id" : "208",
     "superClasses" : [ "206" ]
   }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryEquipment-AIRCONDITIONINGUNIT",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcUnitaryEquipmentEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "UnitaryEquipment-AIRCONDITIONINGUNIT",
-      "en" : "Air Conditioning Unit"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1PIU70CHzCMAt_h32UKgoE"
-    },
-    "id" : "925",
-    "superClasses" : [ "154" ]
-  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Actuator",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -12141,11 +12141,11 @@
       "en" : "Actuator",
       "fr-fr" : "actionneur"
     },
-    "subClasses" : [ "325", "712", "477", "695", "756" ],
+    "subClasses" : [ "326", "712", "477", "695", "756" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/14RHCzJ6j6MOcOYy1uRfnX"
+      "en" : "A mechanical device for moving or controlling a mechanism or system. An actuator takes energy, usually created by air, electricity, or liquid, and converts that into some kind of motion."
     },
-    "id" : "326",
+    "id" : "327",
     "superClasses" : [ "254" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricDistributionBoard",
@@ -12215,31 +12215,10 @@
     },
     "subClasses" : [ "457", "174", "442", "463" ],
     "comment" : {
-      "en" : "the distribution flow element ifcflowsegment defines the occurrence of a segment of a flow distribution system. the ifcflowsegment defines a particular occurrence of a segment inserted in the spatial context of a project. the parameters defining the type of the segment and/or its shape are defined by the ifcflowsegmenttype, which is related by the inverse relationship isdefinedby pointing to ifcreldefinesbytype."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3pgLxEkmTCmg6JWI8OZE4J"
     },
     "id" : "609",
     "superClasses" : [ "195" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryControlElement-GASDETECTIONPANEL",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcUnitaryControlElementEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "UnitaryControlElement-GASDETECTIONPANEL",
-      "en" : "Gas Detection Panel"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/26McOeRsjAPOMMV393Pkuv"
-    },
-    "id" : "521",
-    "superClasses" : [ "134" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ElectricDistributionBoard-MOTORCONTROLCENTRE",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -12262,6 +12241,27 @@
     "id" : "761",
     "superClasses" : [ "622" ]
   }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#UnitaryControlElement-GASDETECTIONPANEL",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcUnitaryControlElementEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "UnitaryControlElement-GASDETECTIONPANEL",
+      "en" : "Gas Detection Panel"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/26McOeRsjAPOMMV393Pkuv"
+    },
+    "id" : "521",
+    "superClasses" : [ "134" ]
+  }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#Fan-VANEAXIAL",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
     "instances" : 0,
@@ -12282,8 +12282,8 @@
       "en" : "air flows through the impeller axially with guide vanes and reduced running blade tip clearance",
       "en-gb" : "air flows through the impeller axially with guide vanes and reduced running blade tip clearance"
     },
-    "id" : "332",
-    "superClasses" : [ "330" ]
+    "id" : "317",
+    "superClasses" : [ "309" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctFitting-CONNECTOR",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -12369,9 +12369,9 @@
       "en" : "Waste Disposal Unit"
     },
     "comment" : {
-      "en" : "electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system."
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/0khvv6MsL5DxzEnCFiP5mr"
     },
-    "id" : "308",
+    "id" : "368",
     "superClasses" : [ "252" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#FlowMovingDevice",
@@ -12389,37 +12389,15 @@
       "nb-no" : "strømførende enhet",
       "IRI-based" : "FlowMovingDevice",
       "de-de" : "Strömungsmaschine (allgemein)",
-      "en" : "flow moving device type",
+      "en" : "Flow Moving Device",
       "fr-fr" : "dispositif de circulation de fluide"
     },
-    "subClasses" : [ "28", "330", "40" ],
+    "subClasses" : [ "28", "309", "40" ],
     "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/1z188Qjir3JArIaN1C$Jlp"
+      "en" : "the distribution flow element ifcflowmovingdevice defines the occurrence of an apparatus used to distribute, circulate or perform conveyance of fluids, including liquids and gases (such as a pump or fan), and typically participates in a flow distribution system. its type is defined by ifcflowmovingdevicetype or its subtypes."
     },
     "id" : "400",
     "superClasses" : [ "195" ]
-  }, {
-    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ProtectiveDevice-CIRCUITBREAKER",
-    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcProtectiveDeviceEnumType",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "nb-no" : "strømbryter",
-      "IRI-based" : "ProtectiveDevice-CIRCUITBREAKER",
-      "en" : "Circuit Breaker"
-    },
-    "comment" : {
-      "en" : "http://bsdd.buildingsmart.org/#concept/details/3EWAB3Ur5Cng3zn8b4wZEE"
-    },
-    "id" : "671",
-    "superClasses" : [ "402" ]
   }, {
     "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#DuctSegment-FLEXIBLESEGMENT",
     "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
@@ -12442,6 +12420,28 @@
     },
     "id" : "177",
     "superClasses" : [ "174" ]
+  }, {
+    "iri" : "https://buildingsmart.org/ifc4-voc/distributionelement#ProtectiveDevice-CIRCUITBREAKER",
+    "baseIri" : "https://buildingsmart.org/ifc4-voc/distributionelement",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#IfcProtectiveDeviceEnumType",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "nb-no" : "strømbryter",
+      "IRI-based" : "ProtectiveDevice-CIRCUITBREAKER",
+      "en" : "Circuit Breaker"
+    },
+    "comment" : {
+      "en" : "http://bsdd.buildingsmart.org/#concept/details/3EWAB3Ur5Cng3zn8b4wZEE"
+    },
+    "id" : "670",
+    "superClasses" : [ "402" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -12750,31 +12750,31 @@
     "id" : "307",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "309",
+    "id" : "310",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "311",
+    "id" : "312",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "313",
+    "id" : "314",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "315",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "317",
+    "id" : "316",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "318",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "320",
+    "id" : "319",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "321",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "328",
+    "id" : "322",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "329",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "331",
@@ -12792,16 +12792,13 @@
     "id" : "339",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "340",
+    "id" : "341",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "342",
+    "id" : "343",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "344",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "346",
+    "id" : "345",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "347",
@@ -12810,7 +12807,7 @@
     "id" : "349",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "352",
+    "id" : "351",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "354",
@@ -12819,13 +12816,16 @@
     "id" : "356",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "358",
+    "id" : "357",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "361",
+    "id" : "359",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "363",
+    "id" : "362",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "364",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "365",
@@ -14341,7 +14341,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "283"
   }, {
-    "range" : "156",
+    "range" : "154",
     "domain" : "286",
     "attributes" : [ "object", "anonymous" ],
     "id" : "285"
@@ -14351,7 +14351,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "287"
   }, {
-    "range" : "156",
+    "range" : "154",
     "domain" : "290",
     "attributes" : [ "object", "anonymous" ],
     "id" : "289"
@@ -14361,7 +14361,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "291"
   }, {
-    "range" : "156",
+    "range" : "154",
     "domain" : "294",
     "attributes" : [ "object", "anonymous" ],
     "id" : "293"
@@ -14391,62 +14391,62 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
-    "range" : "156",
+    "range" : "154",
     "domain" : "306",
     "attributes" : [ "object", "anonymous" ],
     "id" : "305"
   }, {
-    "range" : "252",
+    "range" : "309",
     "domain" : "308",
     "attributes" : [ "object", "anonymous" ],
     "id" : "307"
   }, {
-    "range" : "156",
-    "domain" : "310",
+    "range" : "154",
+    "domain" : "311",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "309"
+    "id" : "310"
   }, {
-    "range" : "252",
-    "domain" : "312",
+    "range" : "309",
+    "domain" : "313",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "311"
+    "id" : "312"
   }, {
-    "range" : "156",
-    "domain" : "314",
+    "range" : "154",
+    "domain" : "315",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "313"
+    "id" : "314"
   }, {
-    "range" : "252",
-    "domain" : "316",
+    "range" : "309",
+    "domain" : "317",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "315"
+    "id" : "316"
   }, {
-    "range" : "156",
-    "domain" : "155",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "317"
-  }, {
-    "range" : "240",
-    "domain" : "319",
+    "range" : "154",
+    "domain" : "153",
     "attributes" : [ "object", "anonymous" ],
     "id" : "318"
   }, {
-    "range" : "156",
-    "domain" : "165",
+    "range" : "240",
+    "domain" : "320",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "320"
+    "id" : "319"
   }, {
-    "range" : "156",
-    "domain" : "322",
+    "range" : "154",
+    "domain" : "165",
     "attributes" : [ "object", "anonymous" ],
     "id" : "321"
   }, {
-    "range" : "330",
-    "domain" : "329",
+    "range" : "154",
+    "domain" : "323",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "328"
+    "id" : "322"
   }, {
-    "range" : "330",
+    "range" : "252",
+    "domain" : "330",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "329"
+  }, {
+    "range" : "252",
     "domain" : "332",
     "attributes" : [ "object", "anonymous" ],
     "id" : "331"
@@ -14456,7 +14456,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "333"
   }, {
-    "range" : "252",
+    "range" : "309",
     "domain" : "336",
     "attributes" : [ "object", "anonymous" ],
     "id" : "335"
@@ -14466,77 +14466,77 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "337"
   }, {
-    "range" : "252",
-    "domain" : "323",
+    "range" : "309",
+    "domain" : "340",
     "attributes" : [ "object", "anonymous" ],
     "id" : "339"
   }, {
-    "range" : "156",
-    "domain" : "341",
+    "range" : "154",
+    "domain" : "342",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "340"
+    "id" : "341"
   }, {
-    "range" : "252",
-    "domain" : "343",
+    "range" : "309",
+    "domain" : "344",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "342"
+    "id" : "343"
   }, {
-    "range" : "156",
-    "domain" : "345",
+    "range" : "154",
+    "domain" : "346",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "344"
+    "id" : "345"
   }, {
-    "range" : "252",
-    "domain" : "251",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "346"
-  }, {
-    "range" : "28",
+    "range" : "309",
     "domain" : "348",
     "attributes" : [ "object", "anonymous" ],
     "id" : "347"
   }, {
-    "range" : "330",
+    "range" : "28",
     "domain" : "350",
     "attributes" : [ "object", "anonymous" ],
     "id" : "349"
   }, {
-    "range" : "28",
-    "domain" : "353",
+    "range" : "252",
+    "domain" : "352",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "352"
+    "id" : "351"
   }, {
-    "range" : "330",
+    "range" : "28",
     "domain" : "355",
     "attributes" : [ "object", "anonymous" ],
     "id" : "354"
   }, {
-    "range" : "28",
-    "domain" : "357",
+    "range" : "252",
+    "domain" : "324",
     "attributes" : [ "object", "anonymous" ],
     "id" : "356"
   }, {
-    "range" : "330",
-    "domain" : "359",
+    "range" : "28",
+    "domain" : "358",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "358"
+    "id" : "357"
+  }, {
+    "range" : "252",
+    "domain" : "360",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "359"
   }, {
     "range" : "28",
-    "domain" : "362",
+    "domain" : "363",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "361"
+    "id" : "362"
   }, {
-    "range" : "330",
-    "domain" : "364",
+    "range" : "252",
+    "domain" : "251",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "363"
+    "id" : "364"
   }, {
     "range" : "28",
     "domain" : "366",
     "attributes" : [ "object", "anonymous" ],
     "id" : "365"
   }, {
-    "range" : "330",
+    "range" : "252",
     "domain" : "368",
     "attributes" : [ "object", "anonymous" ],
     "id" : "367"
@@ -14682,7 +14682,7 @@
     "id" : "445"
   }, {
     "range" : "30",
-    "domain" : "327",
+    "domain" : "328",
     "attributes" : [ "object", "anonymous" ],
     "id" : "446"
   }, {
@@ -14837,7 +14837,7 @@
     "id" : "513"
   }, {
     "range" : "384",
-    "domain" : "156",
+    "domain" : "154",
     "attributes" : [ "object", "anonymous" ],
     "id" : "515"
   }, {
@@ -15201,53 +15201,53 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "689"
   }, {
-    "range" : "254",
-    "domain" : "326",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "690"
-  }, {
-    "range" : "254",
-    "domain" : "253",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "691"
-  }, {
-    "range" : "418",
-    "domain" : "628",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "696"
-  }, {
-    "range" : "418",
-    "domain" : "629",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "697"
-  }, {
     "range" : "418",
     "domain" : "630",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "700"
+    "id" : "690"
+  }, {
+    "range" : "418",
+    "domain" : "631",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "691"
   }, {
     "range" : "254",
     "domain" : "103",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "701"
+    "id" : "696"
   }, {
     "range" : "254",
     "domain" : "602",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "702"
+    "id" : "697"
   }, {
     "range" : "254",
     "domain" : "422",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "703"
+    "id" : "700"
   }, {
     "range" : "254",
     "domain" : "134",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "704"
+    "id" : "701"
   }, {
     "range" : "254",
-    "domain" : "631",
+    "domain" : "628",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "702"
+  }, {
+    "range" : "254",
+    "domain" : "327",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "703"
+  }, {
+    "range" : "254",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "704"
+  }, {
+    "range" : "418",
+    "domain" : "629",
     "attributes" : [ "object", "anonymous" ],
     "id" : "705"
   }, {
@@ -15307,7 +15307,7 @@
     "id" : "733"
   }, {
     "range" : "429",
-    "domain" : "478",
+    "domain" : "479",
     "attributes" : [ "object", "anonymous" ],
     "id" : "734"
   }, {
@@ -15322,7 +15322,7 @@
     "id" : "736"
   }, {
     "range" : "162",
-    "domain" : "536",
+    "domain" : "535",
     "attributes" : [ "object", "anonymous" ],
     "id" : "737"
   }, {
@@ -15396,7 +15396,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "752"
   }, {
-    "range" : "326",
+    "range" : "327",
     "domain" : "695",
     "attributes" : [ "object", "anonymous" ],
     "id" : "753"
@@ -15406,7 +15406,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "754"
   }, {
-    "range" : "326",
+    "range" : "327",
     "domain" : "756",
     "attributes" : [ "object", "anonymous" ],
     "id" : "755"
@@ -15442,7 +15442,7 @@
     "id" : "763"
   }, {
     "range" : "555",
-    "domain" : "12",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "765"
   }, {
@@ -15466,8 +15466,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "771"
   }, {
-    "range" : "326",
-    "domain" : "325",
+    "range" : "327",
+    "domain" : "326",
     "attributes" : [ "object", "anonymous" ],
     "id" : "772"
   }, {
@@ -15476,7 +15476,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "773"
   }, {
-    "range" : "326",
+    "range" : "327",
     "domain" : "712",
     "attributes" : [ "object", "anonymous" ],
     "id" : "774"
@@ -15486,7 +15486,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "775"
   }, {
-    "range" : "326",
+    "range" : "327",
     "domain" : "477",
     "attributes" : [ "object", "anonymous" ],
     "id" : "776"
@@ -15496,7 +15496,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "777"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "711",
     "attributes" : [ "object", "anonymous" ],
     "id" : "778"
@@ -15532,7 +15532,7 @@
     "id" : "786"
   }, {
     "range" : "474",
-    "domain" : "663",
+    "domain" : "662",
     "attributes" : [ "object", "anonymous" ],
     "id" : "787"
   }, {
@@ -15571,12 +15571,12 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "796"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "651",
     "attributes" : [ "object", "anonymous" ],
     "id" : "798"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "652",
     "attributes" : [ "object", "anonymous" ],
     "id" : "799"
@@ -15586,7 +15586,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "800"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "710",
     "attributes" : [ "object", "anonymous" ],
     "id" : "802"
@@ -15636,7 +15636,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "813"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "707",
     "attributes" : [ "object", "anonymous" ],
     "id" : "814"
@@ -15646,8 +15646,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "815"
   }, {
-    "range" : "631",
-    "domain" : "669",
+    "range" : "628",
+    "domain" : "672",
     "attributes" : [ "object", "anonymous" ],
     "id" : "816"
   }, {
@@ -15656,7 +15656,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "817"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "708",
     "attributes" : [ "object", "anonymous" ],
     "id" : "818"
@@ -15666,7 +15666,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "819"
   }, {
-    "range" : "631",
+    "range" : "628",
     "domain" : "709",
     "attributes" : [ "object", "anonymous" ],
     "id" : "820"
@@ -15877,7 +15877,7 @@
     "id" : "875"
   }, {
     "range" : "400",
-    "domain" : "330",
+    "domain" : "309",
     "attributes" : [ "object", "anonymous" ],
     "id" : "876"
   }, {
@@ -15962,7 +15962,7 @@
     "id" : "894"
   }, {
     "range" : "181",
-    "domain" : "653",
+    "domain" : "654",
     "attributes" : [ "object", "anonymous" ],
     "id" : "895"
   }, {
@@ -15977,12 +15977,12 @@
     "id" : "897"
   }, {
     "range" : "181",
-    "domain" : "479",
+    "domain" : "478",
     "attributes" : [ "object", "anonymous" ],
     "id" : "898"
   }, {
     "range" : "181",
-    "domain" : "535",
+    "domain" : "536",
     "attributes" : [ "object", "anonymous" ],
     "id" : "899"
   }, {
@@ -16006,33 +16006,33 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "903"
   }, {
-    "range" : "154",
+    "range" : "156",
     "domain" : "655",
     "attributes" : [ "object", "anonymous" ],
     "id" : "904"
   }, {
-    "range" : "154",
-    "domain" : "153",
+    "range" : "156",
+    "domain" : "155",
     "attributes" : [ "object", "anonymous" ],
     "id" : "905"
   }, {
-    "range" : "154",
+    "range" : "156",
     "domain" : "797",
     "attributes" : [ "object", "anonymous" ],
     "id" : "906"
   }, {
-    "range" : "154",
+    "range" : "156",
     "domain" : "637",
     "attributes" : [ "object", "anonymous" ],
     "id" : "907"
   }, {
     "range" : "402",
-    "domain" : "662",
+    "domain" : "663",
     "attributes" : [ "object", "anonymous" ],
     "id" : "908"
   }, {
     "range" : "402",
-    "domain" : "670",
+    "domain" : "669",
     "attributes" : [ "object", "anonymous" ],
     "id" : "909"
   }, {
@@ -16047,12 +16047,12 @@
     "id" : "911"
   }, {
     "range" : "402",
-    "domain" : "671",
+    "domain" : "670",
     "attributes" : [ "object", "anonymous" ],
     "id" : "912"
   }, {
     "range" : "402",
-    "domain" : "672",
+    "domain" : "671",
     "attributes" : [ "object", "anonymous" ],
     "id" : "913"
   }, {
@@ -16062,7 +16062,7 @@
     "id" : "914"
   }, {
     "range" : "210",
-    "domain" : "654",
+    "domain" : "653",
     "attributes" : [ "object", "anonymous" ],
     "id" : "915"
   }, {
@@ -16101,7 +16101,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "923"
   }, {
-    "range" : "154",
+    "range" : "156",
     "domain" : "925",
     "attributes" : [ "object", "anonymous" ],
     "id" : "924"
@@ -16117,7 +16117,7 @@
     "id" : "928"
   }, {
     "range" : "145",
-    "domain" : "324",
+    "domain" : "325",
     "attributes" : [ "object", "anonymous" ],
     "id" : "929"
   }, {
@@ -16212,7 +16212,7 @@
     "id" : "948"
   }, {
     "range" : "145",
-    "domain" : "360",
+    "domain" : "361",
     "attributes" : [ "object", "anonymous" ],
     "id" : "949"
   }, {
@@ -16257,7 +16257,7 @@
     "id" : "957"
   }, {
     "range" : "52",
-    "domain" : "154",
+    "domain" : "156",
     "attributes" : [ "object", "anonymous" ],
     "id" : "958"
   }, {
@@ -16267,7 +16267,7 @@
     "id" : "959"
   }, {
     "range" : "179",
-    "domain" : "351",
+    "domain" : "353",
     "attributes" : [ "object", "anonymous" ],
     "id" : "960"
   }, {
@@ -16282,7 +16282,7 @@
     "id" : "962"
   }, {
     "range" : "52",
-    "domain" : "5",
+    "domain" : "12",
     "attributes" : [ "object", "anonymous" ],
     "id" : "963"
   }, {
